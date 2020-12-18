@@ -1,0 +1,77 @@
+a { 
+  color: #d83019;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #ffb01e;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 16px
+}
+
+strong {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+heading {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 550
+}
+
+papertitle {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700
+}
+
+@font-face {
+  font-family: 'Freight'; /*a name to be used later*/
+  src: url('data/Freight\ Text\ Book.otf'); /*URL to font*/
+}
+
+name {
+  font-family: 'Freight', Arial, Verdana, Helvetica, sans-serif;
+  font-size: 39px;
+  font-weight: 500
+}
+
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #f1f1f1;
+}
+
+body {background-color: #faf8f6;}
+
+.indent { text-indent: 20px; }
