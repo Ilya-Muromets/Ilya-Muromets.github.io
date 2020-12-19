@@ -74,7 +74,7 @@ body {background-color: #faf8f6;}
 
 /* phone */
 
-@media (max-device-width: 640px) { 
+@media (pointer:none), (pointer:coarse) {
   body,
 td,
 th,
