@@ -48,14 +48,10 @@ name {
 }
 
 .one {
-  width: 160px;
-  height: 160px;
   position: relative;
 }
 
 .two {
-  width: 160px;
-  height: 160px;
   position: absolute;
   transition: opacity .5s ease-in-out;
   -moz-transition: opacity .5s ease-in-out;
@@ -75,3 +71,45 @@ span.highlight {
 body {background-color: #faf8f6;}
 
 .indent { text-indent: 20px; }
+
+/* phone */
+
+@media handheld { 
+  body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px
+}
+
+strong {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+heading {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 550
+}
+
+papertitle {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700
+}
+
+@font-face {
+  font-family: 'Freight'; /*a name to be used later*/
+  src: url('data/Freight\ Text\ Book.otf'); /*URL to font*/
+}
+
+name {
+  font-family: 'Freight', Arial, Verdana, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 500
+}
+}
