@@ -74,7 +74,7 @@ body {background-color: #faf8f6;}
 
 /* phone */
 
-@media handheld { 
+@media (max-device-width: 640px) { 
   body,
 td,
 th,
@@ -112,4 +112,5 @@ name {
   font-size: 30px;
   font-weight: 500
 }
+
 }
