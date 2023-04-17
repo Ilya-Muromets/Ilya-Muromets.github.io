@@ -36,13 +36,8 @@ papertitle {
   font-weight: 700
 }
 
-@font-face {
-  font-family: 'Freight'; /*a name to be used later*/
-  src: url('data/Freight\ Text\ Book.otf'); /*URL to font*/
-}
-
 name {
-  font-family: 'Freight', Arial, Verdana, Helvetica, sans-serif;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 39px;
   font-weight: 500
 }
@@ -102,13 +97,8 @@ papertitle {
   font-weight: 700
 }
 
-@font-face {
-  font-family: 'Freight'; /*a name to be used later*/
-  src: url('data/Freight\ Text\ Book.otf'); /*URL to font*/
-}
-
 name {
-  font-family: 'Freight', Arial, Verdana, Helvetica, sans-serif;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 500
 }
