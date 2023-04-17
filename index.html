@@ -1,0 +1,521 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Ilya Chugunov</title>
+
+  <meta name="author" content="Ilya Chugunov">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+</head>
+
+<body>
+  <table
+    style="width:100%;max-width:1080px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:1.5%;width:68%;vertical-align:middle">
+                  <p style="text-align:left">
+                    <name>Ilya Chugunov</name>
+                  </p>
+                  
+                  <p> <b>About:</b> &nbsp I'm a PhD student in the <a href="https://light.princeton.edu/">Princeton Computational Imaging
+                      Lab</a>, advised by Professor <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>. I received my bachelor's in electrical engineering and computer science from <a
+                      href="https://eecs.berkeley.edu/" title="University of California, Broccoli">UC Berkeley</a>, and
+                    am an <a href="https://www.nsfgrfp.org/">NSF graduate research fellow</a>. </p>
+                  <!-- begone bot -->
+                  <p><b>Contact:</b> &nbsp <tt> <a href="segfault.html">cout</a> << "chugunov" << "@" << "princeton.edu" </tt></p>
+
+                  <p>
+                    <b>Professional Stuff:</b> &nbsp
+                    <a href="cv.html">CV</a> &nbsp/&nbsp
+                    <a href="https://scholar.google.com/citations?user=UYMug74AAAAJ">Google Scholar</a> &nbsp/&nbsp
+                    <a href="https://github.com/Ilya-Muromets/">Github</a> &nbsp/&nbsp
+                    <a href="https://www.linkedin.com/in/ilya-c/">LinkedIn</a> &nbsp/&nbsp
+                    <a href="https://twitter.com/_ilya_c/">Twitter</a>
+                  </p>
+                  <p>
+                    <b>Art Stuff:</b> &nbsp
+                    <a href="https://www.instagram.com/_ilya_c/">Instagram</a> &nbsp/&nbsp
+                    <a href="https://www.photography.ilyac.info/">Photography</a> &nbsp/&nbsp
+                    <a href="https://www.art.ilyac.info/">Coding Art</a>
+                  </p>
+                </td>
+
+                <!-- PROFILE -->
+                <td onmouseout="profile_stop()" onmouseover="profile_start()" style="padding:2.5%;width:25%;vertical-align:top">
+                  <div class="one">
+                  <div class="two" id='profile_one'>
+                    <img src='images/profile_after.png' width="100%">
+                  </div>
+                  <div class="two" id='profile_two'>
+                    <img src='images/profile_before.png' width="100%">
+                  </div>
+                </div>
+                  <script type="text/javascript">
+                    function profile_start() {
+                      document.getElementById('profile_two').style.opacity = "0";
+                    }
+
+                    function profile_stop() {
+                      document.getElementById('profile_two').style.opacity = "1";
+                    }
+                    profile_stop()
+                  </script>
+                </td>
+
+                
+                <!-- /PROFILE -->
+
+
+
+                <!-- <td style="padding:2.5%;width:25%;max-width:25%">
+                  <a href="images/profile.png"><img style="width:100%;max-width:100%" alt="profile photo"
+                      src="images/profile.png" class="hoverZoomLink"></a>
+                </td> -->
+
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:top">
+                  <heading>Research</heading>
+                  <p>
+                    I'm interested in computational photography and inverse problems that look at the whole imaging pipeline, from signal collection to scene reconstruction. MRIs, microscopes, or modulated light sources, I love working with real devices and weird data.
+                  </p>
+                  <hr>
+                  <p style="margin-top:0.5em;margin-bottom:0em;">
+                    <code style="font-size: 90%;">"If you try and take a cat apart to see how it works, the first thing you have on your hands is a non-working cat."
+                    <br> - Douglas Adams</code>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <!-- BEGIN PAPERS -->
+
+              <!-- PAPER -->
+              <tr onmouseout="soap_stop()" onmouseover="soap_start()">
+                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='soap'>
+                      <img src='images/soap_after.gif' width="100%">
+                    </div> <!-- CHANGE -->
+                    <img src='images/soap_before.png' width="100%"> <!-- CHANGE -->
+                  </div>
+                  <script type="text/javascript">
+                    function soap_start() {
+                      document.getElementById('soap').style.opacity = "1";
+                    }
+
+                    function soap_stop() {
+                      document.getElementById('soap').style.opacity = "0";
+                    }
+                    soap_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle;">
+                  <a href="https://light.princeton.edu/publication/soap/">
+                    <papertitle>Shakes on a Plane: Unsupervised Depth Estimation from Unstabilized Photography
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>Ilya Chugunov</strong>,
+                  <a href="https://www.alexyuxuanzhang.com/">Yuxuan Zhang</a>,
+                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                  <br>
+                  <em>CVPR</em>, 2023
+                  <br>
+                  <p>
+                    In a “long-burst”, forty-two 12-megapixel RAW frames captured in a two-second sequence, there is enough parallax information from natural hand tremor alone to recover high-quality scene depth. We fit a neural RGB-D model directly to this long-burst data to recover depth and camera motion with no LiDAR, no external pose estimates, and no disjoint preprocessing steps.
+                  </p>
+                </td>
+              </tr>
+              <!-- /PAPER -->
+
+              <!-- PAPER -->
+              <tr onmouseout="gensdf_stop()" onmouseover="gensdf_start()">
+                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='gensdf'>
+                      <img src='images/gensdf_after.gif' width="100%">
+                    </div> <!-- CHANGE -->
+                    <img src='images/gensdf_before.png' width="100%"> <!-- CHANGE -->
+                  </div>
+                  <script type="text/javascript">
+                    function gensdf_start() {
+                      document.getElementById('gensdf').style.opacity = "1";
+                    }
+
+                    function gensdf_stop() {
+                      document.getElementById('gensdf').style.opacity = "0";
+                    }
+                    gensdf_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle;">
+                  <a href="https://light.princeton.edu/publication/gensdf/">
+                    <papertitle>GenSDF: Two-Stage Learning of Generalizable Signed Distance Functions
+                    </papertitle>
+                  </a>
+                  <br>
+                  <a href="https://genechou.com/">Gene Chou</a>,
+                  <strong>Ilya Chugunov</strong>,
+                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                  <br>
+                  <em>NeurIPS</em>, 2022 (Featured)
+                  <br>
+                  <p></p>
+                  <p>
+                    Signed distance fields (SDFs) can be a compact and convenient way of representing 3D objects, but state-of-the-art learned methods for SDF estimation struggle to fit more than a few shapes at a time. This work presents a two stage semi-supervised meta-learning approach that learns generic shape priors to reconstruct over a hundred unseen object classes.
+                  </p>
+                </td>
+              </tr>
+              <!-- /PAPER -->
+
+              <!-- PAPER -->
+              <tr onmouseout="ghz_stop()" onmouseover="ghz_start()">
+                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='ghz'>
+                      <img src='images/ghz_tof_after.gif' width="100%">
+                    </div>
+                    <img src='images/ghz_tof_before.png' width="100%">
+                  </div>
+                  <script type="text/javascript">
+                    function ghz_start() {
+                      document.getElementById('ghz').style.opacity = "1";
+                    }
+
+                    function ghz_stop() {
+                      document.getElementById('ghz').style.opacity = "0";
+                    }
+                    ghz_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle;">
+                  <a href="https://light.princeton.edu/publication/ghztof/">
+                    <papertitle>Centimeter-Wave Free-Space Time-of-Flight Imaging
+                    </papertitle>
+                  </a>
+                  <br>
+                  <a href="https://sites.google.com/view/shbaek/about-my-career">Seung-Hwan Baek</a>,
+                  Noah Walsh,
+                  <strong>Ilya Chugunov</strong>,
+                  <a href="https://zheng-shi.github.io/">Zheng Shi</a>,
+                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                  <br>
+                  <em>SIGGRAPH</em>, 2022
+                  <br>
+                  <p></p>
+                  <p>
+                    Modern AMCW time-of-flight (ToF) cameras are limited to modulation frequencies of several hundred MHz by silicon absorption limits. In this work we leverage electro-optic modulators to build the first free-space GHz ToF imager. To solve high-frequency phase ambiguities we alongside introduce a segmentation-inspired neural phase unwrapping network.
+
+                  </p>
+                </td>
+              </tr>
+              <!-- /PAPER -->
+
+              <!-- PAPER -->
+              <tr onmouseout="hndr_stop()" onmouseover="hndr_start()">
+                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='hndr'>
+                      <img src='images/hndr_after.gif' width="100%">
+                    </div> <!-- CHANGE -->
+                    <img src='images/hndr_before.png' width="100%"> <!-- CHANGE -->
+                  </div>
+                  <script type="text/javascript">
+                    function hndr_start() {
+                      document.getElementById('hndr').style.opacity = "1";
+                    }
+
+                    function hndr_stop() {
+                      document.getElementById('hndr').style.opacity = "0";
+                    }
+                    hndr_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle;">
+                  <a href="https://light.princeton.edu/publication/hndr/">
+                    <papertitle>The Implicit Values of A Good Hand Shake: Handheld Multi-Frame Neural Depth Refinement
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>Ilya Chugunov</strong>,
+                  <a href="https://www.alexyuxuanzhang.com/">Yuxuan Zhang</a>,
+                  <a href="https://scholar.google.com/citations?user=Rc4ZMCEAAAAJ">Zhihao Xia</a>,
+                  <a href="https://ceciliavision.github.io/">Xuaner (Cecilia) Zhang</a>,
+                  <a href="https://people.csail.mit.edu/jiawen/">Jiawen Chen</a>,
+                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                  <br>
+                  <em>CVPR</em>, 2022 (Oral)
+                  <br>
+                  <p></p>
+                  <p>
+                    Modern smartphones can stream multi-megapixel RGB images, high-quality 3D pose information, and low-resolution depth estimates at 60Hz. In tandem, the natural shake of a phone photographer's hand provides us with dense micro-baseline parallax depth cues during viewfinding. This work explores how we can combine these data streams to get a high-fidelity depth map from a single snapshot.
+                  </p>
+                </td>
+              </tr>
+              <!-- /PAPER -->
+
+              <!-- PAPER -->
+              <tr onmouseout="masktof_stop()" onmouseover="masktof_start()">
+                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='masktof'>
+                      <img src='images/masktof_after.gif' width="100%">
+                    </div> <!-- CHANGE -->
+                    <img src='images/masktof_before.png' width="100%"> <!-- CHANGE -->
+                  </div>
+                  <script type="text/javascript">
+                    function masktof_start() {
+                      document.getElementById('masktof').style.opacity = "1";
+                    }
+
+                    function masktof_stop() {
+                      document.getElementById('masktof').style.opacity = "0";
+                    }
+                    masktof_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle;">
+                  <a href="https://light.princeton.edu/publication/mask-tof/">
+                    <papertitle>Mask-ToF: Learning Microlens Masks for Flying Pixel Correction in Time-of-Flight Imaging
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>Ilya Chugunov</strong>,
+                  <a href="https://sites.google.com/view/shbaek/about-my-career">Seung-Hwan Baek</a>,
+                  <a href="https://vccimaging.org/People/fuq/">Qiang Fu</a>,
+                  <a href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>,
+                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                  <br>
+                  <em>CVPR</em>, 2021
+                  <br>
+                  <p></p>
+                  <p>
+                    Flying pixels are pervasive depth artifacts in time-of-flight imaging, formed by light paths from
+                    both an object and its background connecting to the same sensor pixel. Mask-ToF jointly learns a
+                    microlens-level occlusion mask and refinement network to respectively encode and decode geometric
+                    information in device measurements, helping reduce these artifacts while remaining light efficient.
+                  </p>
+                </td>
+              </tr>
+              <!-- /PAPER -->
+
+              <!-- PAPER -->
+              <tr onmouseout="jupyter_stop()" onmouseover="jupyter_start()">
+                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='jupyter'>
+                      <img src='images/jupyter_after.png' width="100%">
+                    </div>
+                    <img src='images/jupyter_before.png' width="100%">
+                  </div>
+                  <script type="text/javascript">
+                    function jupyter_start() {
+                      document.getElementById('jupyter').style.opacity = "1";
+                    }
+
+                    function jupyter_stop() {
+                      document.getElementById('jupyter').style.opacity = "0";
+                    }
+                    jupyter_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle;">
+                  <a href="http://headconf.org/wp-content/uploads/pdfs/11308.pdf">
+                    <papertitle>Self-Contained Jupyter Notebook Labs Promote Scalable Signal Processing Education
+                    </papertitle>
+                  </a>
+                  <br>
+                  <a href="https://scholar.google.com/citations?user=8dcCuIoAAAAJ">Dominic Carrano</a>,
+                  <strong>Ilya Chugunov</strong>,
+                  Jonathan Lee,
+                  <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/ayazifar.html">Babak Ayazifar</a>,
+                  <br>
+                  <em>6th International Conference on Higher Education Advances (HEAd)</em>, 2020
+                  <br>
+                  <p></p>
+                  <p>
+                    Jupyter Notebook labs can offer a similar experience to in-person lab sections while being
+                    self-contained, with relevant resources embedded in their cells. They interactively demonstrate
+                    real-life applications of signal processing while reducing overhead for course staff.
+
+                  </p>
+                  <a href="https://github.com/dominiccarrano/ee-120-labs"> <strong> Link to Jupyter Notebook Exercises
+                    </strong> </a> <br>
+                </td>
+              </tr>
+              <!-- /PAPER -->
+
+              <!-- PAPER -->
+              <tr onmouseout="cest_stop()" onmouseover="cest_start()">
+                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='cest'>
+                      <img src='images/cest_after.png' width="100%">
+                    </div>
+                    <img src='images/cest_before.png' width="100%">
+                  </div>
+                  <script type="text/javascript">
+                    function cest_start() {
+                      document.getElementById('cest').style.opacity = "1";
+                    }
+
+                    function cest_stop() {
+                      document.getElementById('cest').style.opacity = "0";
+                    }
+                    cest_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="http://users.ece.utexas.edu/~jtamir/files/papers/3450.html">
+                    <papertitle> Multiscale Low-Rank Matrix Decomposition for Reconstruction of Accelerated Cardiac CEST
+                      MRI</papertitle>
+                  </a>
+                  <br>
+                  <strong>Ilya Chugunov</strong>,
+                  <a href="https://www.researchgate.net/profile/Wissam_Alghuraibawi">Wissam AlGhuraibawi</a>,
+                  <a href="https://www.researchgate.net/profile/Kevin_Godines">Kevin Godines</a>,
+                  Bonnie Lam,
+                  <a href="https://scholar.google.com/citations?user=zAM1TkoAAAAJ">Frank Ong</a>,
+                  <a href="http://users.ece.utexas.edu/~jtamir/">Jonathan Tamir</a>,
+                  <a href="https://bioeng.berkeley.edu/faculty/moriel-vandsburger">Moriel Vandsburger</a>,
+
+                  <br>
+                  <em>28th Annual Meeting of International Society for Magnetic Resonance in Medicine (ISMRM)</em>, 2020
+                  <br>
+                  <p></p>
+                  <p>
+                    Leveraging sparsity in the Z-spectrum domain, multi-scale low rank reconstruction of cardiac
+                    chemical exchange saturation transfer (CEST) MRI can allow for 4-fold acceleration of scans while
+                    providing accurate Lorentzian line-fit analysis.
+                  </p>
+                </td>
+              </tr>
+              <!-- /PAPER -->
+
+              <!-- PAPER -->
+              <tr onmouseout="duodepth_stop()" onmouseover="duodepth_start()">
+                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='duodepth'>
+                      <img src='images/duodepth_after.png' width="100%">
+                    </div>
+                    <img src='images/duodepth_before.png' width="100%">
+                  </div>
+                  <script type="text/javascript">
+                    function duodepth_start() {
+                      document.getElementById('duodepth').style.opacity = "1";
+                    }
+
+                    function duodepth_stop() {
+                      document.getElementById('duodepth').style.opacity = "0";
+                    }
+                    duodepth_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/pdf/2006.14691.pdf">
+                    <papertitle>Duodepth: Static Gesture Recognition Via Dual Depth Sensors</papertitle>
+                  </a>
+                  <br>
+
+                  <strong>Ilya Chugunov</strong>
+                  <a href="https://scholar.google.com/citations?user=NDHbbuAAAAAJ">Avideh Zakhor</a>,
+                  <br>
+                  <em>IEEE International Conference on Image Processing (ICIP)</em>, 2019
+                  <br>
+                  <p></p>
+                  <p>
+                    Point cloud data integrated from two structured light sensors for gesture recognition implicitly via
+                    a 3D spatial transform network can lead to improved results as compared to iterative closest point
+                    (ICP) registered point clouds.
+                  </p>
+                  <a href="https://github.com/Ilya-Muromets/DuoDepth"><strong> GitHub Link </strong></a>
+                </td>
+              </tr>
+              <!-- /PAPER -->
+
+              <!-- PAPER -->
+              <!-- <tr onmouseout="graph_stop()" onmouseover="graph_start()">
+                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='graph'>
+                      <img src='images/graph_after.png' width="100%">
+                    </div>
+                    <img src='images/graph_before.png' width="100%">
+                  </div>
+                  <script type="text/javascript">
+                    function graph_start() {
+                      document.getElementById('graph').style.opacity = "1";
+                    }
+
+                    function graph_stop() {
+                      document.getElementById('graph').style.opacity = "0";
+                    }
+                    graph_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="http://www.crm.math.ca/pub/Rapports/3300-3399/3369.pdf">
+                    <papertitle>Inspection Route Optimization</papertitle>
+                  </a>
+                  <br>
+                  <a href="https://scholar.google.fr/citations?user=GZ8UOVsAAAAJ">Bernard Gendron</a>,
+                  <a href="https://scholar.google.com/citations?user=qbO0xwUAAAAJ">Vidal Thibaut</a>,
+                  <strong>et al.</strong>
+                  <br>
+                  <em>Eighth Montréal Industrial Problem Solving Workshop</em>, 2017
+                  <br>
+                  <p></p>
+                  <p>
+                    Property inspection routes can be formulated into graph optimization problem, decomposed into
+                    weekly/yearly constraints for reduction to team orienteering problem (TOP).
+                  </p>
+                </td>
+              </tr> -->
+              <!-- /PAPER -->
+
+              <table
+                style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
+
+
+
+                  <tr>
+                    <td style="padding:0px">
+                      <br>
+                      <p style="text-align:right;font-size:8pt;color: gray;">
+                        Website template stolen from <a href="https://jonbarron.info/" , style="font-size: 8pt">Jon
+                          Barron</a>.
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </td>
+      </tr>
+  </table>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+a { 
+  color: #d83019;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #ffb01e;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 16px
+}
+
+strong {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+heading {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 550
+}
+
+papertitle {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700
+}
+
+@font-face {
+  font-family: 'Freight'; /*a name to be used later*/
+  src: url('data/Freight\ Text\ Book.otf'); /*URL to font*/
+}
+
+name {
+  font-family: 'Freight', Arial, Verdana, Helvetica, sans-serif;
+  font-size: 39px;
+  font-weight: 500
+}
+
+.one {
+  position: relative;
+}
+
+.two {
+  position: absolute;
+  transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffff;
+}
+
+body {background-color: #ffffff;}
+
+.indent { text-indent: 20px; }
+
+/* phone */
+
+@media (pointer:none), (pointer:coarse) {
+  body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px
+}
+
+strong {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+heading {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 550
+}
+
+papertitle {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700
+}
+
+@font-face {
+  font-family: 'Freight'; /*a name to be used later*/
+  src: url('data/Freight\ Text\ Book.otf'); /*URL to font*/
+}
+
+name {
+  font-family: 'Freight', Arial, Verdana, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 500
+}
+
+}
