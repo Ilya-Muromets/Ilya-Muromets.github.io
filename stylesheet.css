@@ -1,11 +1,10 @@
-a { 
-  color: #d83019;
+a, a:link, a:visited {
+  color: #ffb62f; /* Brighter color for links */
   text-decoration: none;
 }
 
-a:focus,
 a:hover {
-  color: #ffb01e;
+  color: #8c6826; /* Slightly darker color on hover for contrast */
   text-decoration: none;
 }
 
@@ -16,7 +15,8 @@ tr,
 p,
 a {
   font-family: Arial, Verdana, Helvetica, sans-serif;
-  font-size: 16px
+  font-size: 16px;
+  color: #f2f2f2; /* Light grey text for readability on dark backgrounds */
 }
 
 strong {
@@ -27,19 +27,19 @@ strong {
 heading {
   font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 21px;
-  font-weight: 550
+  font-weight: 550;
 }
 
 papertitle {
   font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 16px;
-  font-weight: 700
+  font-weight: 700;
 }
 
 name {
   font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 39px;
-  font-weight: 500
+  font-weight: 500;
 }
 
 .one {
@@ -60,47 +60,51 @@ name {
 }
 
 span.highlight {
-  background-color: #ffffff;
+  background-color: #424242;
 }
 
-body {background-color: #ffffff;}
+body {
+  background-color: #000000;
+}
 
-.indent { text-indent: 20px; }
+.indent {
+  text-indent: 20px;
+}
 
-/* phone */
-
+/* Adjustments for mobile devices */
 @media (pointer:none), (pointer:coarse) {
   body,
-td,
-th,
-tr,
-p,
-a {
-  font-family: Arial, Verdana, Helvetica, sans-serif;
-  font-size: 12px
-}
+  td,
+  th,
+  tr,
+  p,
+  a {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #e0e0e0; /* Ensuring text is light on dark backgrounds */
+  }
 
-strong {
-  font-family: Arial, Verdana, Helvetica, sans-serif;
-  font-size: 12px;
-}
+  strong {
+    color: #b21f1f;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+  }
 
-heading {
-  font-family: Arial, Verdana, Helvetica, sans-serif;
-  font-size: 17px;
-  font-weight: 550
-}
+  heading {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+  }
 
-papertitle {
-  font-family: Arial, Verdana, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: 700
-}
+  papertitle {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+  }
 
-name {
-  font-family: Arial, Verdana, Helvetica, sans-serif;
-  font-size: 30px;
-  font-weight: 500
-}
-
+  name {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+  }
 }
