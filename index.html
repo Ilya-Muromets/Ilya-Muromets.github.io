@@ -110,6 +110,49 @@
               <!-- BEGIN PAPERS -->
 
               <!-- PAPER -->
+              <tr onmouseout="nsf_stop()" onmouseover="nsf_start()">
+                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                  <a href="https://light.princeton.edu/publication/nsf/">
+                  <div class="one">
+                    <div class="two" id='nsf'>
+                      <img src='images/nsf_after.gif' width="100%">
+                    </div> <!-- CHANGE -->
+                    <img src='images/nsf_before.png' width="100%"> <!-- CHANGE -->
+                  </div>
+                  <script type="text/javascript">
+                    function nsf_start() {
+                      document.getElementById('nsf').style.opacity = "1";
+                    }
+
+                    function nsf_stop() {
+                      document.getElementById('nsf').style.opacity = "0";
+                    }
+                    nsf_stop()
+                  </script>
+                  </a>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle;">
+                  <a href="https://light.princeton.edu/publication/nsf/">
+                    <papertitle><z>Neural Spline Fields for Burst Image Fusion and Layer Separation
+                    </z><papertitle>
+                  </a>
+                  <br>
+                  <ilya>Ilya Chugunov</ilya>,
+                  <a href="https://www.linkedin.com/in/david-shustin/">David Shustin</a>,
+                  <a href="https://yanruyu126.github.io/">Ruyu Yan</a>,
+                  <a href="https://chenyanglei.github.io/">Chenyang Lei</a>,
+                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                  <br>
+                  <em>arXiv</em>, 2023
+                  <br>
+                  <p>
+                    We propose neural spline fields, coordinate networks trained to map input 2D points to vectors of spline control points, as a versatile representation of pixel motion during burst photography. This flow model can fuse images during test-time optimization using just photometric loss, without regularization. Layering these representations, we can separate effects such as occlusions, reflections, shadows and more.
+                  </p>
+                </td>
+              </tr>
+              <!-- /PAPER -->
+
+              <!-- PAPER -->
               <tr onmouseout="soap_stop()" onmouseover="soap_start()">
                 <td style="padding:2.5%;width:25%;vertical-align:middle">
                   <a href="https://light.princeton.edu/publication/soap/">
