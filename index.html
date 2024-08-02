@@ -45,7 +45,7 @@
                   </p>
                   <p>
                     <b>Unprofessional:</b> &nbsp
-                    <a href="https://www.instagram.com/_ilya_c/">Nature Photography</a>
+                    <a href="https://www.instagram.com/_ilya_c/">My Photography</a>
                   </p>
                 </td>
 
@@ -90,9 +90,18 @@
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:top">
-                  <heading>Research</heading>
+                  <heading><b>Research</b></heading>
                   <p>
-                    I'm interested in computational photography and inverse problems that look at the whole imaging pipeline, from signal collection to scene reconstruction. MRIs, microscopes, or modulated light sources, I love working with real devices and weird data.
+                    I'm interested in <x>computational photography</x> and <x>inverse problems</x> that look at the whole imaging pipeline, from signal collection to scene reconstruction. MRIs, modulated light sources, or mobile phones; I love working with real devices and real data.
+                  </p>
+                  <p>
+                    Over the course of my research I've written a number of <x>open-source data collection apps</x>: <br>
+                    <ul>
+                      <li><a href="https://github.com/Ilya-Muromets/Pani"> Pani (Android, camera2)</a> : An all-in-one camera app for continuous recording of Bayer RAWs, accelerometer values, gyroscope measurements, and a metric ton of device metadata from <x>multiple camera configurations</x> (main, ultrawide, telephoto). <i>I am actively using this app in my current work, and so plan to continue expanding its features over time.</i></li><br>
+                      <li><a href="https://github.com/princeton-computational-imaging/SoaP/tree/main/!App"> SoaP-App (iOS, AVFoundation)</a> : A "long-burst" capture app for recording up to 42 frame sequences of Bayer RAWs, <x>depth maps</x>, accelerometer values, gyroscope measurements, and metadata.</li><br>
+                      <li><a href="https://github.com/princeton-computational-imaging/HNDR/tree/main/!DepthBundleApp"> HNDR-App (iOS, ARKit)</a> : A "long-burst" capture app for recording up to 120 frame sequences of processed RGB images, depth maps, and <x>pose estimates</x> (from ARKit world tracking).</li>
+                    </ul>
+                    
                   </p>
                   <hr>
                   <p style="margin-top:0.5em;margin-bottom:0em;">
@@ -108,6 +117,53 @@
             <tbody>
 
               <!-- BEGIN PAPERS -->
+
+              <!-- PAPER -->
+              <tr onmouseout="splitaperture_stop()" onmouseover="splitaperture_start()">
+                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                  <a href="https://light.princeton.edu/publication/2in1-camera/">
+                  <div class="one">
+                    <div class="two" id='splitaperture'>
+                      <img src='images/splitaperture_after.png' width="100%">
+                    </div> <!-- CHANGE -->
+                    <img src='images/splitaperture_before.png' width="100%"> <!-- CHANGE -->
+                  </div>
+                  <script type="text/javascript">
+                    function splitaperture_start() {
+                      document.getElementById('splitaperture').style.opacity = "1";
+                    }
+
+                    function splitaperture_stop() {
+                      document.getElementById('splitaperture').style.opacity = "0";
+                    }
+                    splitaperture_stop()
+                  </script>
+                  </a>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle;">
+                  <a href="https://light.princeton.edu/publication/2in1-camera/">
+                    <papertitle><z>Split-Aperture 2-in-1 Computational Cameras
+                    </z><papertitle>
+                  </a>
+                  <br>
+                  <a href="https://zheng-shi.github.io/">Zheng Shi*</a>,
+                  <ilya>Ilya Chugunov*</ilya>,
+                  <a href="http://mariobijelic.de/wordpress/">Mario Bijelic</a>,
+                  <a href="https://scholar.google.ca/citations?user=7lWpsmYAAAAJ&hl=en">Geoffroi Côté</a>,
+                  <a href="https://jiwoonyeom.wordpress.com/">Jiwoon Yeom</a>,
+                  <a href="https://vccimaging.org/People/fuq/">Qiang Fu</a>,
+                  <a href="https://vccimaging.org/People/amatah/">Hadi Amata</a>,
+                  <a href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>,
+                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                  <br>
+                  <em>SIGGRAPH</em>, 2024
+                  <br>
+                  <p>
+                    Split-aperture 2-in-1 computational cameras encode half the aperture with a diffractive optical element to simultaneously capture optically coded and conventional images in a single device. Using a dual-pixel sensor, our camera separates the wavefronts, retaining high-frequency content and enabling single-shot high-dynamic-range, hyperspectral, and depth imaging.
+                  </p>
+                </td>
+              </tr>
+              <!-- /PAPER -->
 
               <!-- PAPER -->
               <tr onmouseout="nsf_stop()" onmouseover="nsf_start()">
