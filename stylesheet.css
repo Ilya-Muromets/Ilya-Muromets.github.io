@@ -54,12 +54,16 @@ heading {
   font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 21px;
   font-weight: 550;
+  
 }
 
 papertitle {
   font-family: Arial, Verdana, Helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ff7f50;
+  text-decoration: underline;
+  text-decoration-color: #ff7f50;
 }
 
 name {
@@ -97,6 +101,26 @@ body {
   text-indent: 20px;
 }
 
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: block;
+}
+
+.left-column {
+  padding: 2.5%;
+  width: 25%;
+  vertical-align: middle;
+}
+
+.right-column {
+  padding: 20px;
+  width: 75%;
+  vertical-align: middle;
+}
+
 /* Adjustments for mobile devices */
 @media (pointer:none), (pointer:coarse) {
   body,
@@ -125,7 +149,9 @@ body {
   papertitle {
     font-family: Arial, Verdana, Helvetica, sans-serif;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #ff7f50;
   }
 
   name {
@@ -138,5 +164,25 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
   }
+
+  .mobile-only {
+    display: table-row;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .left-column {
+    width: 40%;
+    vertical-align: middle;
+  }
   
+  .right-column {
+    padding-left: 2%;
+    width: 60%;
+    vertical-align: middle;
+  }
+
+
 }

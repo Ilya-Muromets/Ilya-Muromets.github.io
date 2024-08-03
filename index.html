@@ -25,15 +25,19 @@
               <tr style="padding:0px">
                 <td style="padding:1.5%;width:68%;vertical-align:middle">
                   <p style="text-align:left">
-                    <img src = "data/name.svg" alt="Ilya Chugunov"/>
+                    <img src="data/name.svg" alt="Ilya Chugunov" />
                   </p>
-                  
-                  <p> <b>About:</b> &nbsp I'm a PhD student in the <a href="https://light.princeton.edu/">Princeton Computational Imaging
-                      Lab</a>, advised by Professor <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>. I received my bachelor's in electrical engineering and computer science from <a
+
+                  <p> <b>About:</b> &nbsp I'm a PhD student in the <a href="https://light.princeton.edu/">Princeton
+                      Computational Imaging
+                      Lab</a>, advised by Professor <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>. I
+                    received my bachelor's in electrical engineering and computer science from <a
                       href="https://eecs.berkeley.edu/" title="University of California, Broccoli">UC Berkeley</a>, and
                     am an <a href="https://www.nsfgrfp.org/">NSF graduate research fellow</a>. </p>
                   <!-- begone bot -->
-                  <p><b>Contact:</b> &nbsp <tt> <a href="segfault.html">cout</a> << "chugunov" << "@" << "princeton.edu" </tt></p>
+                  <p><b>Contact:</b> &nbsp <tt> <a href="segfault.html">cout</a>
+                      << "chugunov" << "@" << "princeton.edu" </tt>
+                  </p>
 
                   <p>
                     <b>Professional:</b> &nbsp
@@ -50,15 +54,16 @@
                 </td>
 
                 <!-- PROFILE -->
-                <td onmouseout="profile_stop()" onmouseover="profile_start()" style="padding:2.5%;width:25%;vertical-align:top">
+                <td onmouseout="profile_stop()" onmouseover="profile_start()"
+                  style="padding:2.5%;width:25%;vertical-align:top">
                   <div class="one">
-                  <div class="two" id='profile_one'>
-                    <img src='images/profile_after.png' width="100%">
+                    <div class="two" id='profile_one'>
+                      <img src='images/profile_after.png' width="100%">
+                    </div>
+                    <div class="two" id='profile_two'>
+                      <img src='images/profile_before.png' width="100%">
+                    </div>
                   </div>
-                  <div class="two" id='profile_two'>
-                    <img src='images/profile_before.png' width="100%">
-                  </div>
-                </div>
                   <script type="text/javascript">
                     function profile_start() {
                       document.getElementById('profile_two').style.opacity = "0";
@@ -71,7 +76,7 @@
                   </script>
                 </td>
 
-                
+
                 <!-- /PROFILE -->
 
 
@@ -90,18 +95,29 @@
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:top">
-                  <heading><b>Research</b></heading>
+                  <heading><b>Research:</b></heading>
                   <p>
-                    I'm interested in <x>computational photography</x> and <x>inverse problems</x> that look at the whole imaging pipeline, from signal collection to scene reconstruction. MRIs, modulated light sources, or mobile phones; I love working with real devices and real data.
+                    I'm interested in <x>computational photography</x> and <x>inverse problems</x> that look at the
+                    whole imaging pipeline, from signal collection to scene reconstruction. MRIs, modulated light
+                    sources, or mobile phones; I love working with real devices and real data.
                   </p>
                   <p>
-                    Over the course of my research I've written a number of <x>open-source data collection apps</x>: <br>
-                    <ul>
-                      <li><a href="https://github.com/Ilya-Muromets/Pani"> Pani (Android, camera2)</a> : An all-in-one camera app for continuous recording of Bayer RAWs, accelerometer values, gyroscope measurements, and a metric ton of device metadata from <x>multiple camera configurations</x> (main, ultrawide, telephoto). <i>I am actively using this app in my current work, and so plan to continue expanding its features over time.</i></li><br>
-                      <li><a href="https://github.com/princeton-computational-imaging/SoaP/tree/main/!App"> SoaP-App (iOS, AVFoundation)</a> : A "long-burst" capture app for recording up to 42 frame sequences of Bayer RAWs, <x>depth maps</x>, accelerometer values, gyroscope measurements, and metadata.</li><br>
-                      <li><a href="https://github.com/princeton-computational-imaging/HNDR/tree/main/!DepthBundleApp"> HNDR-App (iOS, ARKit)</a> : A "long-burst" capture app for recording up to 120 frame sequences of processed RGB images, depth maps, and <x>pose estimates</x> (from ARKit world tracking).</li>
-                    </ul>
-                    
+                    Over the course of my research I've written a number of <x>open-source data collection apps</x>:
+                    <br>
+                  <ul>
+                    <li><a href="https://github.com/Ilya-Muromets/Pani"> Pani (Android, camera2)</a> : An all-in-one
+                      camera app for continuous recording of Bayer RAWs, accelerometer values, gyroscope measurements,
+                      and a metric ton of device metadata from <x>multiple camera configurations</x> (main, ultrawide,
+                      telephoto). <i>I am actively using this app in my current work, and so plan to continue expanding
+                        its features over time.</i></li><br>
+                    <li><a href="https://github.com/princeton-computational-imaging/SoaP/tree/main/!App"> SoaP-App (iOS,
+                        AVFoundation)</a> : A "long-burst" capture app for recording up to 42 frame sequences of Bayer
+                      RAWs, <x>depth maps</x>, accelerometer values, gyroscope measurements, and metadata.</li><br>
+                    <li><a href="https://github.com/princeton-computational-imaging/HNDR/tree/main/!DepthBundleApp">
+                        HNDR-App (iOS, ARKit)</a> : A "long-burst" capture app for recording up to 120 frame sequences
+                      of processed RGB images, depth maps, and <x>pose estimates</x> (from ARKit world tracking).</li>
+                  </ul>
+
                   </p>
                   <hr>
                   <p style="margin-top:0.5em;margin-bottom:0em;">
@@ -120,30 +136,31 @@
 
               <!-- PAPER -->
               <tr onmouseout="splitaperture_stop()" onmouseover="splitaperture_start()">
-                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                <td class="left-column">
                   <a href="https://light.princeton.edu/publication/2in1-camera/">
-                  <div class="one">
-                    <div class="two" id='splitaperture'>
-                      <img src='images/splitaperture_after.png' width="100%">
-                    </div> <!-- CHANGE -->
-                    <img src='images/splitaperture_before.png' width="100%"> <!-- CHANGE -->
-                  </div>
-                  <script type="text/javascript">
-                    function splitaperture_start() {
-                      document.getElementById('splitaperture').style.opacity = "1";
-                    }
+                    <div class="one">
+                      <div class="two" id='splitaperture'>
+                        <img src='images/splitaperture_after.png' class="responsive-image" width="100%">
+                      </div>
+                      <img src='images/splitaperture_before.png' class="responsive-image" width="100%">
+                    </div>
+                    <script type="text/javascript">
+                      function splitaperture_start() {
+                        document.getElementById('splitaperture').style.opacity = "1";
+                      }
 
-                    function splitaperture_stop() {
-                      document.getElementById('splitaperture').style.opacity = "0";
-                    }
-                    splitaperture_stop()
-                  </script>
+                      function splitaperture_stop() {
+                        document.getElementById('splitaperture').style.opacity = "0";
+                      }
+                      splitaperture_stop()
+                    </script>
                   </a>
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle;">
+                <td class="right-column">
                   <a href="https://light.princeton.edu/publication/2in1-camera/">
-                    <papertitle><z>Split-Aperture 2-in-1 Computational Cameras
-                    </z><papertitle>
+                    <papertitle>
+                      <z>Split-Aperture 2-in-1 Computational Cameras</z>
+                    </papertitle>
                   </a>
                   <br>
                   <a href="https://zheng-shi.github.io/">Zheng Shi*</a>,
@@ -157,40 +174,55 @@
                   <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
                   <br>
                   <em>SIGGRAPH</em>, 2024
-                  <br>
-                  <p>
-                    Split-aperture 2-in-1 computational cameras encode half the aperture with a diffractive optical element to simultaneously capture optically coded and conventional images in a single device. Using a dual-pixel sensor, our camera separates the wavefronts, retaining high-frequency content and enabling single-shot high-dynamic-range, hyperspectral, and depth imaging.
+                  <p class="desktop-only">
+                    Split-aperture 2-in-1 computational cameras encode half the aperture with a diffractive optical
+                    element to simultaneously capture optically coded and conventional images in a single device. Using
+                    a dual-pixel sensor, our camera separates the wavefronts, retaining high-frequency content and
+                    enabling single-shot high-dynamic-range, hyperspectral, and depth imaging.
+                  </p>
+                </td>
+              </tr>
+              <tr class="mobile-only">
+                <td colspan="2" style="padding:5px;">
+                  <p class="mobile-only">
+                    Split-aperture 2-in-1 computational cameras encode half the aperture with a diffractive optical
+                    element to simultaneously capture optically coded and conventional images in a single device. Using
+                    a dual-pixel sensor, our camera separates the wavefronts, retaining high-frequency content and
+                    enabling single-shot high-dynamic-range, hyperspectral, and depth imaging.
                   </p>
                 </td>
               </tr>
               <!-- /PAPER -->
 
+
+
               <!-- PAPER -->
               <tr onmouseout="nsf_stop()" onmouseover="nsf_start()">
-                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                <td class="left-column">
                   <a href="https://light.princeton.edu/publication/nsf/">
-                  <div class="one">
-                    <div class="two" id='nsf'>
-                      <img src='images/nsf_after.png' width="100%">
-                    </div> <!-- CHANGE -->
-                    <img src='images/nsf_before.png' width="100%"> <!-- CHANGE -->
-                  </div>
-                  <script type="text/javascript">
-                    function nsf_start() {
-                      document.getElementById('nsf').style.opacity = "1";
-                    }
+                    <div class="one">
+                      <div class="two" id='nsf'>
+                        <img src='images/nsf_after.png' class="responsive-image" width="100%">
+                      </div>
+                      <img src='images/nsf_before.png' class="responsive-image" width="100%">
+                    </div>
+                    <script type="text/javascript">
+                      function nsf_start() {
+                        document.getElementById('nsf').style.opacity = "1";
+                      }
 
-                    function nsf_stop() {
-                      document.getElementById('nsf').style.opacity = "0";
-                    }
-                    nsf_stop()
-                  </script>
+                      function nsf_stop() {
+                        document.getElementById('nsf').style.opacity = "0";
+                      }
+                      nsf_stop()
+                    </script>
                   </a>
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle;">
+                <td class="right-column">
                   <a href="https://light.princeton.edu/publication/nsf/">
-                    <papertitle><z>Neural Spline Fields for Burst Image Fusion and Layer Separation
-                    </z><papertitle>
+                    <papertitle>
+                      <z>Neural Spline Fields for Burst Image Fusion and Layer Separation</z>
+                    </papertitle>
                   </a>
                   <br>
                   <ilya>Ilya Chugunov</ilya>,
@@ -200,9 +232,23 @@
                   <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
                   <br>
                   <em>CVPR</em>, 2024
-                  <br>
-                  <p>
-                    We propose neural spline fields, coordinate networks trained to map input 2D points to vectors of spline control points, as a versatile representation of pixel motion during burst photography. This flow model can fuse images during test-time optimization using just photometric loss, without regularization. Layering these representations, we can separate effects such as occlusions, reflections, shadows and more.
+                  <p class="desktop-only">
+                    We propose neural spline fields, coordinate networks trained to map input 2D points to vectors of
+                    spline control points, as a versatile representation of pixel motion during burst photography. This
+                    flow model can fuse images during test-time optimization using just photometric loss, without
+                    regularization. Layering these representations, we can separate effects such as occlusions,
+                    reflections, shadows and more.
+                  </p>
+                </td>
+              </tr>
+              <tr class="mobile-only">
+                <td colspan="2" style="padding:5px;">
+                  <p class="mobile-only">
+                    We propose neural spline fields, coordinate networks trained to map input 2D points to vectors of
+                    spline control points, as a versatile representation of pixel motion during burst photography. This
+                    flow model can fuse images during test-time optimization using just photometric loss, without
+                    regularization. Layering these representations, we can separate effects such as occlusions,
+                    reflections, shadows and more.
                   </p>
                 </td>
               </tr>
@@ -210,30 +256,31 @@
 
               <!-- PAPER -->
               <tr onmouseout="soap_stop()" onmouseover="soap_start()">
-                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                <td class="left-column">
                   <a href="https://light.princeton.edu/publication/soap/">
-                  <div class="one">
-                    <div class="two" id='soap'>
-                      <img src='images/soap_after.gif' width="100%">
-                    </div> <!-- CHANGE -->
-                    <img src='images/soap_before.png' width="100%"> <!-- CHANGE -->
-                  </div>
-                  <script type="text/javascript">
-                    function soap_start() {
-                      document.getElementById('soap').style.opacity = "1";
-                    }
+                    <div class="one">
+                      <div class="two" id='soap'>
+                        <img src='images/soap_after.gif' class="responsive-image" width="100%">
+                      </div>
+                      <img src='images/soap_before.png' class="responsive-image" width="100%">
+                    </div>
+                    <script type="text/javascript">
+                      function soap_start() {
+                        document.getElementById('soap').style.opacity = "1";
+                      }
 
-                    function soap_stop() {
-                      document.getElementById('soap').style.opacity = "0";
-                    }
-                    soap_stop()
-                  </script>
+                      function soap_stop() {
+                        document.getElementById('soap').style.opacity = "0";
+                      }
+                      soap_stop()
+                    </script>
                   </a>
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle;">
+                <td class="right-column">
                   <a href="https://light.princeton.edu/publication/soap/">
-                    <papertitle><z>Shakes on a Plane: Unsupervised Depth Estimation from Unstabilized Photography
-                    </z><papertitle>
+                    <papertitle>
+                      <z>Shakes on a Plane: Unsupervised Depth Estimation from Unstabilized Photography</z>
+                    </papertitle>
                   </a>
                   <br>
                   <ilya>Ilya Chugunov</ilya>,
@@ -241,9 +288,21 @@
                   <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
                   <br>
                   <em>CVPR</em>, 2023
-                  <br>
-                  <p>
-                    In a “long-burst”, forty-two 12-megapixel RAW frames captured in a two-second sequence, there is enough parallax information from natural hand tremor alone to recover high-quality scene depth. We fit a neural RGB-D model directly to this long-burst data to recover depth and camera motion with no LiDAR, no external pose estimates, and no disjoint preprocessing steps.
+                  <p class="desktop-only">
+                    In a “long-burst”, forty-two 12-megapixel RAW frames captured in a two-second sequence, there is
+                    enough parallax information from natural hand tremor alone to recover high-quality scene depth. We
+                    fit a neural RGB-D model directly to this long-burst data to recover depth and camera motion with no
+                    LiDAR, no external pose estimates, and no disjoint preprocessing steps.
+                  </p>
+                </td>
+              </tr>
+              <tr class="mobile-only">
+                <td colspan="2" style="padding:5px;">
+                  <p class="mobile-only">
+                    In a “long-burst”, forty-two 12-megapixel RAW frames captured in a two-second sequence, there is
+                    enough parallax information from natural hand tremor alone to recover high-quality scene depth. We
+                    fit a neural RGB-D model directly to this long-burst data to recover depth and camera motion with no
+                    LiDAR, no external pose estimates, and no disjoint preprocessing steps.
                   </p>
                 </td>
               </tr>
@@ -251,31 +310,31 @@
 
               <!-- PAPER -->
               <tr onmouseout="gensdf_stop()" onmouseover="gensdf_start()">
-                
-                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                <td class="left-column">
                   <a href="https://light.princeton.edu/publication/gensdf/">
-                  <div class="one">
-                    <div class="two" id='gensdf'>
-                      <img src='images/gensdf_after.gif' width="100%">
-                    </div> <!-- CHANGE -->
-                    <img src='images/gensdf_before.png' width="100%"> <!-- CHANGE -->
-                  </div>
-                  <script type="text/javascript">
-                    function gensdf_start() {
-                      document.getElementById('gensdf').style.opacity = "1";
-                    }
+                    <div class="one">
+                      <div class="two" id='gensdf'>
+                        <img src='images/gensdf_after.gif' class="responsive-image" width="100%">
+                      </div>
+                      <img src='images/gensdf_before.png' class="responsive-image" width="100%">
+                    </div>
+                    <script type="text/javascript">
+                      function gensdf_start() {
+                        document.getElementById('gensdf').style.opacity = "1";
+                      }
 
-                    function gensdf_stop() {
-                      document.getElementById('gensdf').style.opacity = "0";
-                    }
-                    gensdf_stop()
-                  </script>
+                      function gensdf_stop() {
+                        document.getElementById('gensdf').style.opacity = "0";
+                      }
+                      gensdf_stop()
+                    </script>
                   </a>
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle;">
+                <td class="right-column">
                   <a href="https://light.princeton.edu/publication/gensdf/">
-                    <papertitle><z>GenSDF: Two-Stage Learning of Generalizable Signed Distance Functions
-                    </z><papertitle>
+                    <papertitle>
+                      <z>GenSDF: Two-Stage Learning of Generalizable Signed Distance Functions</z>
+                    </papertitle>
                   </a>
                   <br>
                   <a href="https://genechou.com/">Gene Chou</a>,
@@ -283,10 +342,21 @@
                   <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
                   <br>
                   <em>NeurIPS</em>, 2022 (Featured)
-                  <br>
-                  <p></p>
-                  <p>
-                    Signed distance fields (SDFs) can be a compact and convenient way of representing 3D objects, but state-of-the-art learned methods for SDF estimation struggle to fit more than a few shapes at a time. This work presents a two stage semi-supervised meta-learning approach that learns generic shape priors to reconstruct over a hundred unseen object classes.
+                  <p class="desktop-only">
+                    Signed distance fields (SDFs) can be a compact and convenient way of representing 3D objects, but
+                    state-of-the-art learned methods for SDF estimation struggle to fit more than a few shapes at a
+                    time. This work presents a two stage semi-supervised meta-learning approach that learns generic
+                    shape priors to reconstruct over a hundred unseen object classes.
+                  </p>
+                </td>
+              </tr>
+              <tr class="mobile-only">
+                <td colspan="2" style="padding:5px;">
+                  <p class="mobile-only">
+                    Signed distance fields (SDFs) can be a compact and convenient way of representing 3D objects, but
+                    state-of-the-art learned methods for SDF estimation struggle to fit more than a few shapes at a
+                    time. This work presents a two stage semi-supervised meta-learning approach that learns generic
+                    shape priors to reconstruct over a hundred unseen object classes.
                   </p>
                 </td>
               </tr>
@@ -294,30 +364,31 @@
 
               <!-- PAPER -->
               <tr onmouseout="ghz_stop()" onmouseover="ghz_start()">
-                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                <td class="left-column">
                   <a href="https://light.princeton.edu/publication/ghztof/">
-                  <div class="one">
-                    <div class="two" id='ghz'>
-                      <img src='images/ghz_tof_after.gif' width="100%">
+                    <div class="one">
+                      <div class="two" id='ghz'>
+                        <img src='images/ghz_tof_after.gif' class="responsive-image" width="100%">
+                      </div>
+                      <img src='images/ghz_tof_before.png' class="responsive-image" width="100%">
                     </div>
-                    <img src='images/ghz_tof_before.png' width="100%">
-                  </div>
-                  <script type="text/javascript">
-                    function ghz_start() {
-                      document.getElementById('ghz').style.opacity = "1";
-                    }
+                    <script type="text/javascript">
+                      function ghz_start() {
+                        document.getElementById('ghz').style.opacity = "1";
+                      }
 
-                    function ghz_stop() {
-                      document.getElementById('ghz').style.opacity = "0";
-                    }
-                    ghz_stop()
-                  </script>
+                      function ghz_stop() {
+                        document.getElementById('ghz').style.opacity = "0";
+                      }
+                      ghz_stop()
+                    </script>
                   </a>
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle;">
+                <td class="right-column">
                   <a href="https://light.princeton.edu/publication/ghztof/">
-                    <papertitle><z>Centimeter-Wave Free-Space Time-of-Flight Imaging
-                    </z><papertitle>
+                    <papertitle>
+                      <z>Centimeter-Wave Free-Space Time-of-Flight Imaging</z>
+                    </papertitle>
                   </a>
                   <br>
                   <a href="https://sites.google.com/view/shbaek/about-my-career">Seung-Hwan Baek</a>,
@@ -327,42 +398,52 @@
                   <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
                   <br>
                   <em>SIGGRAPH</em>, 2022
-                  <br>
-                  <p></p>
-                  <p>
-                    Modern AMCW time-of-flight (ToF) cameras are limited to modulation frequencies of several hundred MHz by silicon absorption limits. In this work we leverage electro-optic modulators to build the first free-space GHz ToF imager. To solve high-frequency phase ambiguities we alongside introduce a segmentation-inspired neural phase unwrapping network.
-
+                  <p class="desktop-only">
+                    Modern AMCW time-of-flight (ToF) cameras are limited to modulation frequencies of several hundred
+                    MHz by silicon absorption limits. In this work we leverage electro-optic modulators to build the
+                    first free-space GHz ToF imager. To solve high-frequency phase ambiguities we alongside introduce a
+                    segmentation-inspired neural phase unwrapping network.
+                  </p>
+                </td>
+              </tr>
+              <tr class="mobile-only">
+                <td colspan="2" style="padding:5px;">
+                  <p class="mobile-only">
+                    Modern AMCW time-of-flight (ToF) cameras are limited to modulation frequencies of several hundred
+                    MHz by silicon absorption limits. In this work we leverage electro-optic modulators to build the
+                    first free-space GHz ToF imager. To solve high-frequency phase ambiguities we alongside introduce a
+                    segmentation-inspired neural phase unwrapping network.
                   </p>
                 </td>
               </tr>
               <!-- /PAPER -->
-
               <!-- PAPER -->
               <tr onmouseout="hndr_stop()" onmouseover="hndr_start()">
-                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                <td class="left-column">
                   <a href="https://light.princeton.edu/publication/hndr/">
-                  <div class="one">
-                    <div class="two" id='hndr'>
-                      <img src='images/hndr_after.gif' width="100%">
-                    </div> <!-- CHANGE -->
-                    <img src='images/hndr_before.png' width="100%"> <!-- CHANGE -->
-                  </div>
-                  <script type="text/javascript">
-                    function hndr_start() {
-                      document.getElementById('hndr').style.opacity = "1";
-                    }
+                    <div class="one">
+                      <div class="two" id='hndr'>
+                        <img src='images/hndr_after.gif' class="responsive-image" width="100%">
+                      </div>
+                      <img src='images/hndr_before.png' class="responsive-image" width="100%">
+                    </div>
+                    <script type="text/javascript">
+                      function hndr_start() {
+                        document.getElementById('hndr').style.opacity = "1";
+                      }
 
-                    function hndr_stop() {
-                      document.getElementById('hndr').style.opacity = "0";
-                    }
-                    hndr_stop()
-                  </script>
+                      function hndr_stop() {
+                        document.getElementById('hndr').style.opacity = "0";
+                      }
+                      hndr_stop()
+                    </script>
                   </a>
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle;">
+                <td class="right-column">
                   <a href="https://light.princeton.edu/publication/hndr/">
-                    <papertitle><z>The Implicit Values of A Good Hand Shake: Handheld Multi-Frame Neural Depth Refinement
-                    </z><papertitle>
+                    <papertitle>
+                      <z>The Implicit Values of A Good Hand Shake: Handheld Multi-Frame Neural Depth Refinement</z>
+                    </papertitle>
                   </a>
                   <br>
                   <ilya>Ilya Chugunov</ilya>,
@@ -373,10 +454,21 @@
                   <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
                   <br>
                   <em>CVPR</em>, 2022 (Oral)
-                  <br>
-                  <p></p>
-                  <p>
-                    Modern smartphones can stream multi-megapixel RGB images, high-quality 3D pose information, and low-resolution depth estimates at 60Hz. In tandem, the natural shake of a phone photographer's hand provides us with dense micro-baseline parallax depth cues during viewfinding. This work explores how we can combine these data streams to get a high-fidelity depth map from a single snapshot.
+                  <p class="desktop-only">
+                    Modern smartphones can stream multi-megapixel RGB images, high-quality 3D pose information, and
+                    low-resolution depth estimates at 60Hz. In tandem, the natural shake of a phone photographer's hand
+                    provides us with dense micro-baseline parallax depth cues during viewfinding. This work explores how
+                    we can combine these data streams to get a high-fidelity depth map from a single snapshot.
+                  </p>
+                </td>
+              </tr>
+              <tr class="mobile-only">
+                <td colspan="2" style="padding:5px;">
+                  <p class="mobile-only">
+                    Modern smartphones can stream multi-megapixel RGB images, high-quality 3D pose information, and
+                    low-resolution depth estimates at 60Hz. In tandem, the natural shake of a phone photographer's hand
+                    provides us with dense micro-baseline parallax depth cues during viewfinding. This work explores how
+                    we can combine these data streams to get a high-fidelity depth map from a single snapshot.
                   </p>
                 </td>
               </tr>
@@ -384,30 +476,31 @@
 
               <!-- PAPER -->
               <tr onmouseout="masktof_stop()" onmouseover="masktof_start()">
-                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                <td class="left-column">
                   <a href="https://light.princeton.edu/publication/mask-tof/">
-                  <div class="one">
-                    <div class="two" id='masktof'>
-                      <img src='images/masktof_after.gif' width="100%">
-                    </div> <!-- CHANGE -->
-                    <img src='images/masktof_before.png' width="100%"> <!-- CHANGE -->
-                  </div>
-                  <script type="text/javascript">
-                    function masktof_start() {
-                      document.getElementById('masktof').style.opacity = "1";
-                    }
+                    <div class="one">
+                      <div class="two" id='masktof'>
+                        <img src='images/masktof_after.gif' class="responsive-image" width="100%">
+                      </div>
+                      <img src='images/masktof_before.png' class="responsive-image" width="100%">
+                    </div>
+                    <script type="text/javascript">
+                      function masktof_start() {
+                        document.getElementById('masktof').style.opacity = "1";
+                      }
 
-                    function masktof_stop() {
-                      document.getElementById('masktof').style.opacity = "0";
-                    }
-                    masktof_stop()
-                  </script>
+                      function masktof_stop() {
+                        document.getElementById('masktof').style.opacity = "0";
+                      }
+                      masktof_stop()
+                    </script>
                   </a>
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle;">
+                <td class="right-column">
                   <a href="https://light.princeton.edu/publication/mask-tof/">
-                    <papertitle><z>Mask-ToF: Learning Microlens Masks for Flying Pixel Correction in Time-of-Flight Imaging
-                    </z><papertitle>
+                    <papertitle>
+                      <z>Mask-ToF: Learning Microlens Masks for Flying Pixel Correction in Time-of-Flight Imaging</z>
+                    </papertitle>
                   </a>
                   <br>
                   <ilya>Ilya Chugunov</ilya>,
@@ -417,9 +510,17 @@
                   <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
                   <br>
                   <em>CVPR</em>, 2021
-                  <br>
-                  <p></p>
-                  <p>
+                  <p class="desktop-only">
+                    Flying pixels are pervasive depth artifacts in time-of-flight imaging, formed by light paths from
+                    both an object and its background connecting to the same sensor pixel. Mask-ToF jointly learns a
+                    microlens-level occlusion mask and refinement network to respectively encode and decode geometric
+                    information in device measurements, helping reduce these artifacts while remaining light efficient.
+                  </p>
+                </td>
+              </tr>
+              <tr class="mobile-only">
+                <td colspan="2" style="padding:5px;">
+                  <p class="mobile-only">
                     Flying pixels are pervasive depth artifacts in time-of-flight imaging, formed by light paths from
                     both an object and its background connecting to the same sensor pixel. Mask-ToF jointly learns a
                     microlens-level occlusion mask and refinement network to respectively encode and decode geometric
@@ -431,30 +532,31 @@
 
               <!-- PAPER -->
               <tr onmouseout="jupyter_stop()" onmouseover="jupyter_start()">
-                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                <td class="left-column">
                   <a href="https://github.com/dominiccarrano/ee-120-labs">
-                  <div class="one">
-                    <div class="two" id='jupyter'>
-                      <img src='images/jupyter_after.png' width="100%">
+                    <div class="one">
+                      <div class="two" id='jupyter'>
+                        <img src='images/jupyter_after.png' class="responsive-image" width="100%">
+                      </div>
+                      <img src='images/jupyter_before.png' class="responsive-image" width="100%">
                     </div>
-                    <img src='images/jupyter_before.png' width="100%">
-                  </div>
-                  <script type="text/javascript">
-                    function jupyter_start() {
-                      document.getElementById('jupyter').style.opacity = "1";
-                    }
+                    <script type="text/javascript">
+                      function jupyter_start() {
+                        document.getElementById('jupyter').style.opacity = "1";
+                      }
 
-                    function jupyter_stop() {
-                      document.getElementById('jupyter').style.opacity = "0";
-                    }
-                    jupyter_stop()
-                  </script>
+                      function jupyter_stop() {
+                        document.getElementById('jupyter').style.opacity = "0";
+                      }
+                      jupyter_stop()
+                    </script>
                   </a>
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle;">
+                <td class="right-column">
                   <a href="https://github.com/dominiccarrano/ee-120-labs">
-                    <papertitle><z>Self-Contained Jupyter Notebook Labs Promote Scalable Signal Processing Education
-                    </z><papertitle>
+                    <papertitle>
+                      <z>Self-Contained Jupyter Notebook Labs Promote Scalable Signal Processing Education</z>
+                    </papertitle>
                   </a>
                   <br>
                   <a href="https://scholar.google.com/citations?user=8dcCuIoAAAAJ">Dominic Carrano</a>,
@@ -463,9 +565,16 @@
                   <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/ayazifar.html">Babak Ayazifar</a>,
                   <br>
                   <em>6th International Conference on Higher Education Advances (HEAd)</em>, 2020
-                  <br>
-                  <p></p>
-                  <p>
+                  <p class="desktop-only">
+                    Jupyter Notebook labs can offer a similar experience to in-person lab sections while being
+                    self-contained, with relevant resources embedded in their cells. They interactively demonstrate
+                    real-life applications of signal processing while reducing overhead for course staff.
+                  </p>
+                </td>
+              </tr>
+              <tr class="mobile-only">
+                <td colspan="2" style="padding:5px;">
+                  <p class="mobile-only">
                     Jupyter Notebook labs can offer a similar experience to in-person lab sections while being
                     self-contained, with relevant resources embedded in their cells. They interactively demonstrate
                     real-life applications of signal processing while reducing overhead for course staff.
@@ -476,30 +585,31 @@
 
               <!-- PAPER -->
               <tr onmouseout="cest_stop()" onmouseover="cest_start()">
-                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                <td class="left-column">
                   <a href="http://users.ece.utexas.edu/~jtamir/files/papers/3450.html">
-                  <div class="one">
-                    <div class="two" id='cest'>
-                      <img src='images/cest_after.png' width="100%">
+                    <div class="one">
+                      <div class="two" id='cest'>
+                        <img src='images/cest_after.png' class="responsive-image" width="100%">
+                      </div>
+                      <img src='images/cest_before.png' class="responsive-image" width="100%">
                     </div>
-                    <img src='images/cest_before.png' width="100%">
-                  </div>
-                  <script type="text/javascript">
-                    function cest_start() {
-                      document.getElementById('cest').style.opacity = "1";
-                    }
+                    <script type="text/javascript">
+                      function cest_start() {
+                        document.getElementById('cest').style.opacity = "1";
+                      }
 
-                    function cest_stop() {
-                      document.getElementById('cest').style.opacity = "0";
-                    }
-                    cest_stop()
-                  </script>
+                      function cest_stop() {
+                        document.getElementById('cest').style.opacity = "0";
+                      }
+                      cest_stop()
+                    </script>
                   </a>
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
+                <td class="right-column">
                   <a href="http://users.ece.utexas.edu/~jtamir/files/papers/3450.html">
-                    <papertitle><z> Multiscale Low-Rank Matrix Decomposition for Reconstruction of Accelerated Cardiac CEST
-                      MRI </z></papertitle>
+                    <papertitle>
+                      <z>Multiscale Low-Rank Matrix Decomposition for Reconstruction of Accelerated Cardiac CEST MRI</z>
+                    </papertitle>
                   </a>
                   <br>
                   <ilya>Ilya Chugunov</ilya>,
@@ -509,12 +619,18 @@
                   <a href="https://scholar.google.com/citations?user=zAM1TkoAAAAJ">Frank Ong</a>,
                   <a href="http://users.ece.utexas.edu/~jtamir/">Jonathan Tamir</a>,
                   <a href="https://bioeng.berkeley.edu/faculty/moriel-vandsburger">Moriel Vandsburger</a>
-
                   <br>
                   <em>28th Annual Meeting of International Society for Magnetic Resonance in Medicine (ISMRM)</em>, 2020
-                  <br>
-                  <p></p>
-                  <p>
+                  <p class="desktop-only">
+                    Leveraging sparsity in the Z-spectrum domain, multi-scale low rank reconstruction of cardiac
+                    chemical exchange saturation transfer (CEST) MRI can allow for 4-fold acceleration of scans while
+                    providing accurate Lorentzian line-fit analysis.
+                  </p>
+                </td>
+              </tr>
+              <tr class="mobile-only">
+                <td colspan="2" style="padding:5px;">
+                  <p class="mobile-only">
                     Leveraging sparsity in the Z-spectrum domain, multi-scale low rank reconstruction of cardiac
                     chemical exchange saturation transfer (CEST) MRI can allow for 4-fold acceleration of scans while
                     providing accurate Lorentzian line-fit analysis.
@@ -525,38 +641,47 @@
 
               <!-- PAPER -->
               <tr onmouseout="duodepth_stop()" onmouseover="duodepth_start()">
-                <td style="padding:2.5%;width:25%;vertical-align:middle">
+                <td class="left-column">
                   <a href="https://github.com/Ilya-Muromets/DuoDepth" style="text-decoration:none;">
                     <div class="one">
                       <div class="two" id='duodepth'>
-                        <img src='images/duodepth_after.png' width="100%">
+                        <img src='images/duodepth_after.png' class="responsive-image" width="100%">
                       </div>
-                      <img src='images/duodepth_before.png' width="100%">
+                      <img src='images/duodepth_before.png' class="responsive-image" width="100%">
                     </div>
                   </a>
                   <script type="text/javascript">
                     function duodepth_start() {
                       document.getElementById('duodepth').style.opacity = "1";
                     }
-                
+
                     function duodepth_stop() {
                       document.getElementById('duodepth').style.opacity = "0";
                     }
                     duodepth_stop()
                   </script>
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
+                <td class="right-column">
                   <a href="https://github.com/Ilya-Muromets/DuoDepth">
-                    <papertitle><z>Duodepth: Static Gesture Recognition Via Dual Depth Sensors</papertitle>
+                    <papertitle>
+                      <z>Duodepth: Static Gesture Recognition Via Dual Depth Sensors</z>
+                    </papertitle>
                   </a>
                   <br>
                   <ilya>Ilya Chugunov</ilya>,
                   <a href="https://scholar.google.com/citations?user=NDHbbuAAAAAJ">Avideh Zakhor</a>
                   <br>
                   <em>IEEE International Conference on Image Processing (ICIP)</em>, 2019
-                  <br>
-                  <p></p>
-                  <p>
+                  <p class="desktop-only">
+                    Point cloud data integrated from two structured light sensors for gesture recognition implicitly via
+                    a 3D spatial transform network can lead to improved results as compared to iterative closest point
+                    (ICP) registered point clouds.
+                  </p>
+                </td>
+              </tr>
+              <tr class="mobile-only">
+                <td colspan="2" style="padding:5px;">
+                  <p class="mobile-only">
                     Point cloud data integrated from two structured light sensors for gesture recognition implicitly via
                     a 3D spatial transform network can lead to improved results as compared to iterative closest point
                     (ICP) registered point clouds.
@@ -564,6 +689,7 @@
                 </td>
               </tr>
               <!-- /PAPER -->
+
 
               <!-- PAPER -->
               <!-- <tr onmouseout="graph_stop()" onmouseover="graph_start()">
@@ -615,8 +741,10 @@
                     <td style="padding:0px">
                       <br>
                       <p style="text-align:right;font-size:7pt;color: gray;">
-                        Website template stolen from <a href="https://jonbarron.info/" , style="font-size: 7pt"><z>Bon
-                          Jarron</z></a>.
+                        Website template stolen from <a href="https://jonbarron.info/" , style="font-size: 7pt">
+                          <z>Bon
+                            Jarron</z>
+                        </a>.
                       </p>
                     </td>
                   </tr>
