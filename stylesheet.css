@@ -29,10 +29,22 @@ ilya {
 
 x {
   color: #ff7f50;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: #ff7f50;
+}
+
+x:hover {
+  color: #8c6826; /* Slightly darker color on hover for contrast */
+  text-decoration: none;
 }
 
 z {
   color: #ff7f50;
+}
+
+bb {
+  color: #ffcf8f;
 }
 
 z:hover {
