@@ -135,6 +135,58 @@
               <!-- BEGIN PAPERS -->
 
               <!-- PAPER -->
+              <tr onmouseout="neuls_stop()" onmouseover="neuls_start()">
+                <td class="left-column">
+                  <a href="https://light.princeton.edu/publication/neuls/">
+                    <div class="one">
+                      <div class="two" id='neuls'>
+                        <img src='images/neuls_after.gif' class="responsive-image" width="100%">
+                      </div>
+                      <img src='images/neuls_before.png' class="responsive-image" width="100%">
+                    </div>
+                    <script type="text/javascript">
+                      function neuls_start() {
+                        document.getElementById('neuls').style.opacity = "1";
+                      }
+
+                      function neuls_stop() {
+                        document.getElementById('neuls').style.opacity = "0";
+                      }
+                      neuls_stop()
+                    </script>
+                  </a>
+                </td>
+                <td class="right-column">
+                  <a href="https://light.princeton.edu/publication/neuls/">
+                    <papertitle>
+                      <z>Neural Light Spheres for Implicit Image Stitching and View Synthesis</z>
+                    </papertitle>
+                  </a>
+                  <br>
+                  <ilya>Ilya Chugunov</ilya>,
+                  <a href="https://amogh7joshi.github.io/">Amogh Joshi</a>,
+                  <a href="https://scholar.google.com/citations?user=6PhlPWMAAAAJ">Kiran Murthy</a>,
+                  <a href="https://scholar.google.com/citations?user=VKh7DykAAAAJ">Francois Bleibel</a>,
+                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                  <br>
+                  <em>SIGGRAPH Asia</em>, 2024
+                  <p class="desktop-only">
+                    We design a spherical neural light field model for implicit panoramic image stitching and re-rendering, capable of handling depth parallax, view-dependent lighting, and scene motion. Our compact model decomposes the scene into view-dependent ray offset and color components, and with no volume sampling achieves real-time 1080p rendering.
+                  </p>
+                </td>
+              </tr>
+              <tr class="mobile-only">
+                <td colspan="2" style="padding:5px;">
+                  <p class="mobile-only">
+                    We design a spherical neural light field model for implicit panoramic image stitching and re-rendering, capable of handling depth parallax, view-dependent lighting, and scene motion. Our compact model decomposes the scene into view-dependent ray offset and color components, and with no volume sampling achieves real-time 1080p rendering.
+                  </p>
+                </td>
+              </tr>
+              <!-- /PAPER -->
+
+
+
+              <!-- PAPER -->
               <tr onmouseout="splitaperture_stop()" onmouseover="splitaperture_start()">
                 <td class="left-column">
                   <a href="https://light.princeton.edu/publication/2in1-camera/">
