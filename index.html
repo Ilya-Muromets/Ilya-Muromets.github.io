@@ -106,8 +106,7 @@
                     <li><a href="https://github.com/Ilya-Muromets/Pani"> <x>Pani (Android, camera2)</x></a> : An all-in-one
                       camera app for continuous recording of Bayer RAWs, accelerometer values, gyroscope measurements,
                       and a metric ton of device metadata from <bb>multiple camera configurations</bb> (main, ultrawide,
-                      telephoto). <i>I am actively using this app in my current work, and so plan to continue expanding
-                        its features over time.</i></li><br>
+                      telephoto).</li><br>
                     <li><a href="https://github.com/princeton-computational-imaging/SoaP/tree/main/!App"> <x>SoaP-App (iOS,
                       AVFoundation)</x></a> : A "long-burst" capture app for recording up to 42 frame sequences of Bayer
                       RAWs, <bb>depth maps</bb>, accelerometer values, gyroscope measurements, and metadata.</li><br>
@@ -131,6 +130,50 @@
             <tbody>
 
               <!-- BEGIN PAPERS -->
+
+              <!-- PROJECT -->
+              <tr onmouseout="indigo_stop()" onmouseover="indigo_start()" style="background-color: rgba(179, 89, 56, 0.15); box-shadow: 0 0 0 100vw rgba(179, 89, 56, 0.15); clip-path: inset(0 -100vw);">
+                <td class="left-column">
+                  <a href="https://research.adobe.com/articles/indigo/indigo.html">
+                    <div class="one">
+                      <div class="two" id="indigo">
+                        <img src="images/indigo_after.jpg" class="responsive-image" width="100%" alt="Project Indigo reflection removal result">
+                      </div>
+                      <img src="images/indigo_before.jpg" class="responsive-image" width="100%" alt="Project Indigo original photograph">
+                    </div>
+                    <script type="text/javascript">
+                      function indigo_start() {
+                        document.getElementById('indigo').style.opacity = "1";
+                      }
+
+                      function indigo_stop() {
+                        document.getElementById('indigo').style.opacity = "0";
+                      }
+                      indigo_stop()
+                    </script>
+                  </a>
+                </td>
+                <td class="right-column">
+                  <a href="https://research.adobe.com/articles/indigo/indigo.html">
+                    <papertitle>
+                      <z>Project Indigo</z>
+                    </papertitle>
+                  </a>
+                  <br>
+                  <y>Adobe Nextcam</y>
+                  <p class="desktop-only">
+                    Experimental iOS computational photography app and research platform for ML-based multi-frame fusion, color correction, super-resolution, and related imaging applications, serving as a testbed for on-device model deployment.
+                  </p>
+                </td>
+              </tr>
+              <tr class="mobile-only" style="background-color: rgba(179, 89, 56, 0.15); box-shadow: 0 0 0 100vw rgba(179, 89, 56, 0.15); clip-path: inset(0 -100vw);">
+                <td colspan="2" style="padding:5px;">
+                  <p class="mobile-only">
+                    Experimental iOS computational photography app and research platform for ML-based multi-frame fusion, color correction, super-resolution, and related imaging applications, serving as a testbed for on-device model deployment.
+                  </p>
+                </td>
+              </tr>
+              <!-- /PROJECT -->
 
               <!-- PAPER -->
               <tr onmouseout="hist2style_stop()" onmouseover="hist2style_start()">
@@ -289,7 +332,7 @@
               <!-- /PAPER -->
 
               <!-- PAPER -->
-              <tr onmouseout="thesis_stop()" onmouseover="thesis_start()" style="background-color: rgba(255, 127, 80, 0.15); box-shadow: 0 0 0 100vw rgba(255, 127, 80, 0.15); clip-path: inset(0 -100vw);">
+              <tr onmouseout="thesis_stop()" onmouseover="thesis_start()" style="background-color: rgba(179, 89, 56, 0.15); box-shadow: 0 0 0 100vw rgba(179, 89, 56, 0.15); clip-path: inset(0 -100vw);">
                 <td class="left-column">
                   <a href="https://arxiv.org/pdf/2508.05907">
                     <div class="one">
@@ -326,7 +369,7 @@
                   </p>
                 </td>
               </tr>
-              <tr class="mobile-only" style="background-color: rgba(255, 127, 80, 0.1); box-shadow: 0 0 0 100vw rgba(255, 127, 80, 0.15); clip-path: inset(0 -100vw);">
+              <tr class="mobile-only" style="background-color: rgba(179, 89, 56, 0.15); box-shadow: 0 0 0 100vw rgba(179, 89, 56, 0.15); clip-path: inset(0 -100vw);">
                 <td colspan="2" style="padding:5px;">
                   <p class="mobile-only">
                   </p>
