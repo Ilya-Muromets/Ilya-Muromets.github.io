@@ -256,6 +256,7 @@ body {
       "name  photo"
       "text  text";
     column-gap: 16px;
+    row-gap: 14px;
     align-items: center;
     padding: 20px;
   }
