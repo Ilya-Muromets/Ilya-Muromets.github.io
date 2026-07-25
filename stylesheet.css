@@ -88,6 +88,48 @@ name {
   position: relative;
 }
 
+/* Header: name + profile photo + intro text */
+.intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 25%;
+  grid-template-areas:
+    "name  photo"
+    "text  photo";
+  column-gap: 3%;
+  align-items: start;
+  padding: 1.5%;
+}
+
+.intro-name {
+  grid-area: name;
+  margin: 0.4em 0 0.6em;
+}
+
+.intro-text {
+  grid-area: text;
+  min-width: 0;
+}
+
+.intro-text p:first-child {
+  margin-top: 0;
+}
+
+.intro-photo {
+  grid-area: photo;
+  padding-top: 1%;
+}
+
+.intro-photo img {
+  display: block;
+}
+
+.name-svg {
+  display: block;
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+}
+
 .left-column .one {
   background-color: #000000;
   border-radius: 40px;
@@ -205,6 +247,30 @@ body {
 
   .desktop-only {
     display: none;
+  }
+
+  /* Header stacks: name beside a small avatar, intro text full width below */
+  .intro {
+    grid-template-columns: minmax(0, 1fr) min(32%, 120px);
+    grid-template-areas:
+      "name  photo"
+      "text  text";
+    column-gap: 16px;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .intro-name {
+    margin: 0;
+  }
+
+  .intro-photo {
+    padding-top: 0;
+  }
+
+  .name-svg {
+    width: 100%;
+    max-width: 320px;
   }
 
   .left-column {
