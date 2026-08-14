@@ -1,0 +1,202 @@
+{
+  "id": "hsk1-everyday",
+  "title": "Everyday Basics",
+  "level": "HSK 1",
+  "description": "Very short first-person paragraphs: introductions, daily routine, ordering food.",
+  "passages": [
+    {
+      "id": "hsk1-intro",
+      "title": "自我介绍",
+      "title_en": "Introducing Myself",
+      "tags": ["greetings", "self"],
+      "sentences": [
+        {
+          "en": "Hello! My name is Martin.",
+          "tokens": [
+            { "hz": "你好", "py": "nǐ hǎo", "en": "hello" },
+            { "hz": "！" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "叫", "py": "jiào", "en": "to be called" },
+            { "hz": "马丁", "py": "mǎ dīng", "en": "Martin (name)" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "I am American.",
+          "tokens": [
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "是", "py": "shì", "en": "to be" },
+            { "hz": "美国", "py": "měi guó", "en": "America" },
+            { "hz": "人", "py": "rén", "en": "person" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "I am twenty-five years old this year.",
+          "tokens": [
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "今年", "py": "jīn nián", "en": "this year" },
+            { "hz": "二十五", "py": "èr shí wǔ", "en": "twenty-five" },
+            { "hz": "岁", "py": "suì", "en": "years of age" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "I work in Beijing.",
+          "tokens": [
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "在", "py": "zài", "en": "at; in" },
+            { "hz": "北京", "py": "běi jīng", "en": "Beijing" },
+            { "hz": "工作", "py": "gōng zuò", "en": "to work" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "I like Chinese food a lot.",
+          "tokens": [
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "很", "py": "hěn", "en": "very" },
+            { "hz": "喜欢", "py": "xǐ huan", "en": "to like" },
+            { "hz": "中国", "py": "zhōng guó", "en": "China" },
+            { "hz": "菜", "py": "cài", "en": "food; dish" },
+            { "hz": "。" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk1-my-day",
+      "title": "我的一天",
+      "title_en": "My Day",
+      "tags": ["routine", "time"],
+      "sentences": [
+        {
+          "en": "Every day I get up at seven in the morning.",
+          "tokens": [
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "每天", "py": "měi tiān", "en": "every day" },
+            { "hz": "早上", "py": "zǎo shang", "en": "morning" },
+            { "hz": "七", "py": "qī", "en": "seven" },
+            { "hz": "点", "py": "diǎn", "en": "o'clock" },
+            { "hz": "起床", "py": "qǐ chuáng", "en": "to get out of bed" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "First I drink a cup of coffee, then I go to the office.",
+          "tokens": [
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "先", "py": "xiān", "en": "first" },
+            { "hz": "喝", "py": "hē", "en": "to drink" },
+            { "hz": "一", "py": "yì", "en": "one" },
+            { "hz": "杯", "py": "bēi", "en": "cup (measure word)" },
+            { "hz": "咖啡", "py": "kā fēi", "en": "coffee" },
+            { "hz": "，" },
+            { "hz": "然后", "py": "rán hòu", "en": "afterwards; then" },
+            { "hz": "去", "py": "qù", "en": "to go to" },
+            { "hz": "公司", "py": "gōng sī", "en": "company; the office" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "At noon I eat together with my colleagues.",
+          "tokens": [
+            { "hz": "中午", "py": "zhōng wǔ", "en": "noon" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "和", "py": "hé", "en": "and; with" },
+            { "hz": "同事", "py": "tóng shì", "en": "colleague" },
+            { "hz": "一起", "py": "yì qǐ", "en": "together" },
+            { "hz": "吃饭", "py": "chī fàn", "en": "to eat a meal" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "In the evening I go home and read.",
+          "tokens": [
+            { "hz": "晚上", "py": "wǎn shang", "en": "evening" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "回家", "py": "huí jiā", "en": "to go home" },
+            { "hz": "看书", "py": "kàn shū", "en": "to read a book" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "I go to sleep at eleven.",
+          "tokens": [
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "十一", "py": "shí yī", "en": "eleven" },
+            { "hz": "点", "py": "diǎn", "en": "o'clock" },
+            { "hz": "睡觉", "py": "shuì jiào", "en": "to sleep" },
+            { "hz": "。" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk1-restaurant",
+      "title": "在饭馆",
+      "title_en": "At the Restaurant",
+      "tags": ["food", "asking"],
+      "sentences": [
+        {
+          "en": "Excuse me, waiter! Please give me a glass of water.",
+          "tokens": [
+            { "hz": "服务员", "py": "fú wù yuán", "en": "waiter; attendant" },
+            { "hz": "，" },
+            { "hz": "你好", "py": "nǐ hǎo", "en": "hello" },
+            { "hz": "！" },
+            { "hz": "请", "py": "qǐng", "en": "please" },
+            { "hz": "给", "py": "gěi", "en": "to give" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "一", "py": "yì", "en": "one" },
+            { "hz": "杯", "py": "bēi", "en": "cup; glass (measure word)" },
+            { "hz": "水", "py": "shuǐ", "en": "water" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "I'd like to eat beef noodles.",
+          "tokens": [
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "想", "py": "xiǎng", "en": "would like to" },
+            { "hz": "吃", "py": "chī", "en": "to eat" },
+            { "hz": "牛肉", "py": "niú ròu", "en": "beef" },
+            { "hz": "面", "py": "miàn", "en": "noodles" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "Is this dish spicy?",
+          "tokens": [
+            { "hz": "这个", "py": "zhè ge", "en": "this" },
+            { "hz": "菜", "py": "cài", "en": "dish" },
+            { "hz": "辣", "py": "là", "en": "spicy" },
+            { "hz": "不", "py": "bú", "en": "not" },
+            { "hz": "辣", "py": "là", "en": "spicy" },
+            { "hz": "？" }
+          ]
+        },
+        {
+          "en": "I can't eat spicy things.",
+          "tokens": [
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "不", "py": "bù", "en": "not" },
+            { "hz": "能", "py": "néng", "en": "can; to be able to" },
+            { "hz": "吃", "py": "chī", "en": "to eat" },
+            { "hz": "辣", "py": "là", "en": "spicy" },
+            { "hz": "的", "py": "de", "en": "(nominalizer) ~ones" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "Thank you!",
+          "tokens": [
+            { "hz": "谢谢", "py": "xiè xie", "en": "to thank" },
+            { "hz": "你", "py": "nǐ", "en": "you" },
+            { "hz": "！" }
+          ]
+        }
+      ]
+    }
+  ]
+}

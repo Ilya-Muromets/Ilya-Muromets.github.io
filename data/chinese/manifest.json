@@ -1,0 +1,104 @@
+{
+  "generated_by": "tools/chinese/build.py",
+  "decks": [
+    {
+      "id": "hsk1-everyday",
+      "file": "data/chinese/hsk1-everyday.json",
+      "title": "Everyday Basics",
+      "level": "HSK 1",
+      "description": "Very short first-person paragraphs: introductions, daily routine, ordering food.",
+      "passages": [
+        {
+          "id": "hsk1-intro",
+          "title": "自我介绍",
+          "title_en": "Introducing Myself",
+          "tags": [
+            "greetings",
+            "self"
+          ]
+        },
+        {
+          "id": "hsk1-my-day",
+          "title": "我的一天",
+          "title_en": "My Day",
+          "tags": [
+            "routine",
+            "time"
+          ]
+        },
+        {
+          "id": "hsk1-restaurant",
+          "title": "在饭馆",
+          "title_en": "At the Restaurant",
+          "tags": [
+            "food",
+            "asking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk2-city",
+      "file": "data/chinese/hsk2-city.json",
+      "title": "Around the City",
+      "level": "HSK 2",
+      "description": "Commuting, weather, and shopping — slightly longer sentences with common connectives.",
+      "passages": [
+        {
+          "id": "hsk2-subway",
+          "title": "坐地铁",
+          "title_en": "Taking the Subway",
+          "tags": [
+            "transport",
+            "daily life"
+          ]
+        },
+        {
+          "id": "hsk2-weather",
+          "title": "今天的天气",
+          "title_en": "Today's Weather",
+          "tags": [
+            "weather",
+            "seasons"
+          ]
+        },
+        {
+          "id": "hsk2-shopping",
+          "title": "买东西",
+          "title_en": "Buying Things",
+          "tags": [
+            "shopping",
+            "money"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk3-stories",
+      "file": "data/chinese/hsk3-stories.json",
+      "title": "Small Stories",
+      "level": "HSK 3",
+      "description": "Short narrative paragraphs with 把, 得 complements, and a little description.",
+      "passages": [
+        {
+          "id": "hsk3-neighbor-cat",
+          "title": "邻居的猫",
+          "title_en": "The Neighbor's Cat",
+          "tags": [
+            "story",
+            "animals"
+          ]
+        },
+        {
+          "id": "hsk3-hiking",
+          "title": "爬山",
+          "title_en": "Climbing the Mountain",
+          "tags": [
+            "story",
+            "outdoors"
+          ]
+        }
+      ]
+    }
+  ]
+}

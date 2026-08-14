@@ -1,0 +1,238 @@
+{
+  "id": "hsk2-city",
+  "title": "Around the City",
+  "level": "HSK 2",
+  "description": "Commuting, weather, and shopping — slightly longer sentences with common connectives.",
+  "passages": [
+    {
+      "id": "hsk2-subway",
+      "title": "坐地铁",
+      "title_en": "Taking the Subway",
+      "tags": ["transport", "daily life"],
+      "sentences": [
+        {
+          "en": "Beijing's subway is very convenient, and not too expensive either.",
+          "tokens": [
+            { "hz": "北京", "py": "běi jīng", "en": "Beijing" },
+            { "hz": "的", "py": "de", "en": "(possessive particle)" },
+            { "hz": "地铁", "py": "dì tiě", "en": "subway" },
+            { "hz": "很", "py": "hěn", "en": "very" },
+            { "hz": "方便", "py": "fāng biàn", "en": "convenient" },
+            { "hz": "，" },
+            { "hz": "也", "py": "yě", "en": "also" },
+            { "hz": "不", "py": "bú", "en": "not" },
+            { "hz": "太", "py": "tài", "en": "too; overly" },
+            { "hz": "贵", "py": "guì", "en": "expensive" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "At eight in the morning there are especially many people; everyone has to get to work.",
+          "tokens": [
+            { "hz": "早上", "py": "zǎo shang", "en": "morning" },
+            { "hz": "八", "py": "bā", "en": "eight" },
+            { "hz": "点", "py": "diǎn", "en": "o'clock" },
+            { "hz": "的时候", "py": "de shí hou", "en": "when; at the time of" },
+            { "hz": "人", "py": "rén", "en": "people" },
+            { "hz": "特别", "py": "tè bié", "en": "especially" },
+            { "hz": "多", "py": "duō", "en": "many" },
+            { "hz": "，" },
+            { "hz": "大家", "py": "dà jiā", "en": "everyone" },
+            { "hz": "都", "py": "dōu", "en": "all" },
+            { "hz": "要", "py": "yào", "en": "have to" },
+            { "hz": "去", "py": "qù", "en": "to go" },
+            { "hz": "上班", "py": "shàng bān", "en": "to go to work" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "I often stand and look at my phone.",
+          "tokens": [
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "常常", "py": "cháng cháng", "en": "often" },
+            { "hz": "站", "py": "zhàn", "en": "to stand" },
+            { "hz": "着", "py": "zhe", "en": "(ongoing action particle)" },
+            { "hz": "看", "py": "kàn", "en": "to look at" },
+            { "hz": "手机", "py": "shǒu jī", "en": "mobile phone" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "Sometimes I give up my seat for an elderly person.",
+          "tokens": [
+            { "hz": "有时候", "py": "yǒu shí hou", "en": "sometimes" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "会", "py": "huì", "en": "will; tend to" },
+            { "hz": "给", "py": "gěi", "en": "for; to" },
+            { "hz": "老人", "py": "lǎo rén", "en": "elderly person" },
+            { "hz": "让座", "py": "ràng zuò", "en": "to give up one's seat" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "From my home to the office takes a thirty minute ride.",
+          "tokens": [
+            { "hz": "从", "py": "cóng", "en": "from" },
+            { "hz": "我", "py": "wǒ", "en": "I; my" },
+            { "hz": "家", "py": "jiā", "en": "home" },
+            { "hz": "到", "py": "dào", "en": "to; until" },
+            { "hz": "公司", "py": "gōng sī", "en": "company; the office" },
+            { "hz": "要", "py": "yào", "en": "takes; requires" },
+            { "hz": "坐", "py": "zuò", "en": "to ride" },
+            { "hz": "三十", "py": "sān shí", "en": "thirty" },
+            { "hz": "分钟", "py": "fēn zhōng", "en": "minutes" },
+            { "hz": "。" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk2-weather",
+      "title": "今天的天气",
+      "title_en": "Today's Weather",
+      "tags": ["weather", "seasons"],
+      "sentences": [
+        {
+          "en": "It rained hard this morning and I forgot to bring an umbrella.",
+          "tokens": [
+            { "hz": "今天", "py": "jīn tiān", "en": "today" },
+            { "hz": "早上", "py": "zǎo shang", "en": "morning" },
+            { "hz": "下", "py": "xià", "en": "to fall (of rain)" },
+            { "hz": "大", "py": "dà", "en": "big; heavy" },
+            { "hz": "雨", "py": "yǔ", "en": "rain" },
+            { "hz": "，" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "忘", "py": "wàng", "en": "to forget" },
+            { "hz": "了", "py": "le", "en": "(completed action particle)" },
+            { "hz": "带", "py": "dài", "en": "to bring" },
+            { "hz": "伞", "py": "sǎn", "en": "umbrella" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "By noon the weather cleared up and the sun was lovely.",
+          "tokens": [
+            { "hz": "到", "py": "dào", "en": "by; until" },
+            { "hz": "了", "py": "le", "en": "(completed action particle)" },
+            { "hz": "中午", "py": "zhōng wǔ", "en": "noon" },
+            { "hz": "天气", "py": "tiān qì", "en": "weather" },
+            { "hz": "就", "py": "jiù", "en": "then; right away" },
+            { "hz": "晴", "py": "qíng", "en": "clear; sunny" },
+            { "hz": "了", "py": "le", "en": "(change of state particle)" },
+            { "hz": "，" },
+            { "hz": "太阳", "py": "tài yáng", "en": "the sun" },
+            { "hz": "很", "py": "hěn", "en": "very" },
+            { "hz": "好", "py": "hǎo", "en": "good; nice" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "Autumn in the north is a bit short; it will be cold again soon.",
+          "tokens": [
+            { "hz": "北方", "py": "běi fāng", "en": "the north" },
+            { "hz": "的", "py": "de", "en": "(possessive particle)" },
+            { "hz": "秋天", "py": "qiū tiān", "en": "autumn" },
+            { "hz": "有点", "py": "yǒu diǎn", "en": "a bit; somewhat" },
+            { "hz": "短", "py": "duǎn", "en": "short" },
+            { "hz": "，" },
+            { "hz": "很快", "py": "hěn kuài", "en": "soon; quickly" },
+            { "hz": "就要", "py": "jiù yào", "en": "about to" },
+            { "hz": "冷", "py": "lěng", "en": "cold" },
+            { "hz": "了", "py": "le", "en": "(change of state particle)" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "Autumn is my favorite, because it is neither cold nor hot.",
+          "tokens": [
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "最", "py": "zuì", "en": "most" },
+            { "hz": "喜欢", "py": "xǐ huan", "en": "to like" },
+            { "hz": "秋天", "py": "qiū tiān", "en": "autumn" },
+            { "hz": "，" },
+            { "hz": "因为", "py": "yīn wèi", "en": "because" },
+            { "hz": "不", "py": "bù", "en": "not" },
+            { "hz": "冷", "py": "lěng", "en": "cold" },
+            { "hz": "也", "py": "yě", "en": "also" },
+            { "hz": "不", "py": "bú", "en": "not" },
+            { "hz": "热", "py": "rè", "en": "hot" },
+            { "hz": "。" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk2-shopping",
+      "title": "买东西",
+      "title_en": "Buying Things",
+      "tags": ["shopping", "money"],
+      "sentences": [
+        {
+          "en": "On the weekend I go to the supermarket to buy things.",
+          "tokens": [
+            { "hz": "周末", "py": "zhōu mò", "en": "weekend" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "去", "py": "qù", "en": "to go to" },
+            { "hz": "超市", "py": "chāo shì", "en": "supermarket" },
+            { "hz": "买", "py": "mǎi", "en": "to buy" },
+            { "hz": "东西", "py": "dōng xi", "en": "things; stuff" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "I bought two jin of apples and some green vegetables.",
+          "tokens": [
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "买", "py": "mǎi", "en": "to buy" },
+            { "hz": "了", "py": "le", "en": "(completed action particle)" },
+            { "hz": "两", "py": "liǎng", "en": "two (with measure words)" },
+            { "hz": "斤", "py": "jīn", "en": "jin (500 grams)" },
+            { "hz": "苹果", "py": "píng guǒ", "en": "apple" },
+            { "hz": "和", "py": "hé", "en": "and" },
+            { "hz": "一些", "py": "yì xiē", "en": "some" },
+            { "hz": "青菜", "py": "qīng cài", "en": "green vegetables" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "The cashier asked whether I wanted a bag; I said no need, I brought my own.",
+          "tokens": [
+            { "hz": "收银员", "py": "shōu yín yuán", "en": "cashier" },
+            { "hz": "问", "py": "wèn", "en": "to ask" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "要", "py": "yào", "en": "to want" },
+            { "hz": "不", "py": "bú", "en": "not" },
+            { "hz": "要", "py": "yào", "en": "to want" },
+            { "hz": "袋子", "py": "dài zi", "en": "bag" },
+            { "hz": "，" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "说", "py": "shuō", "en": "to say" },
+            { "hz": "不用", "py": "bú yòng", "en": "no need" },
+            { "hz": "，" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "自己", "py": "zì jǐ", "en": "oneself" },
+            { "hz": "带", "py": "dài", "en": "to bring" },
+            { "hz": "了", "py": "le", "en": "(completed action particle)" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "On the way home I bought another cup of milk tea.",
+          "tokens": [
+            { "hz": "回家", "py": "huí jiā", "en": "to go home" },
+            { "hz": "的", "py": "de", "en": "(possessive particle)" },
+            { "hz": "路上", "py": "lù shang", "en": "on the way" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "又", "py": "yòu", "en": "again" },
+            { "hz": "买", "py": "mǎi", "en": "to buy" },
+            { "hz": "了", "py": "le", "en": "(completed action particle)" },
+            { "hz": "一", "py": "yì", "en": "one" },
+            { "hz": "杯", "py": "bēi", "en": "cup (measure word)" },
+            { "hz": "奶茶", "py": "nǎi chá", "en": "milk tea" },
+            { "hz": "。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

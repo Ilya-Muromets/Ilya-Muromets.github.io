@@ -1,0 +1,224 @@
+{
+  "id": "hsk3-stories",
+  "title": "Small Stories",
+  "level": "HSK 3",
+  "description": "Short narrative paragraphs with 把, 得 complements, and a little description.",
+  "passages": [
+    {
+      "id": "hsk3-neighbor-cat",
+      "title": "邻居的猫",
+      "title_en": "The Neighbor's Cat",
+      "tags": ["story", "animals"],
+      "sentences": [
+        {
+          "en": "An old lady lives downstairs from us, and she keeps a very fat orange cat.",
+          "tokens": [
+            { "hz": "我", "py": "wǒ", "en": "I; my" },
+            { "hz": "家", "py": "jiā", "en": "home" },
+            { "hz": "楼下", "py": "lóu xià", "en": "downstairs" },
+            { "hz": "住", "py": "zhù", "en": "to live; to reside" },
+            { "hz": "着", "py": "zhe", "en": "(ongoing state particle)" },
+            { "hz": "一", "py": "yí", "en": "one" },
+            { "hz": "位", "py": "wèi", "en": "(polite measure word for people)" },
+            { "hz": "老奶奶", "py": "lǎo nǎi nai", "en": "old lady; granny" },
+            { "hz": "，" },
+            { "hz": "她", "py": "tā", "en": "she; her" },
+            { "hz": "养", "py": "yǎng", "en": "to raise; to keep (a pet)" },
+            { "hz": "了", "py": "le", "en": "(completed action particle)" },
+            { "hz": "一", "py": "yì", "en": "one" },
+            { "hz": "只", "py": "zhī", "en": "(measure word for animals)" },
+            { "hz": "很", "py": "hěn", "en": "very" },
+            { "hz": "胖", "py": "pàng", "en": "fat" },
+            { "hz": "的", "py": "de", "en": "(modifier particle)" },
+            { "hz": "橘猫", "py": "jú māo", "en": "orange tabby cat" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "Every afternoon that cat sits in the doorway sunning itself, and it doesn't move no matter who walks past.",
+          "tokens": [
+            { "hz": "那", "py": "nà", "en": "that" },
+            { "hz": "只", "py": "zhī", "en": "(measure word for animals)" },
+            { "hz": "猫", "py": "māo", "en": "cat" },
+            { "hz": "每天", "py": "měi tiān", "en": "every day" },
+            { "hz": "下午", "py": "xià wǔ", "en": "afternoon" },
+            { "hz": "都", "py": "dōu", "en": "always; all" },
+            { "hz": "坐", "py": "zuò", "en": "to sit" },
+            { "hz": "在", "py": "zài", "en": "at; in" },
+            { "hz": "门口", "py": "mén kǒu", "en": "doorway" },
+            { "hz": "晒太阳", "py": "shài tài yáng", "en": "to sunbathe" },
+            { "hz": "，" },
+            { "hz": "谁", "py": "shéi", "en": "who; whoever" },
+            { "hz": "走过去", "py": "zǒu guò qù", "en": "to walk past" },
+            { "hz": "它", "py": "tā", "en": "it" },
+            { "hz": "都", "py": "dōu", "en": "still; in every case" },
+            { "hz": "不", "py": "bú", "en": "not" },
+            { "hz": "动", "py": "dòng", "en": "to move" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "One day it rained, and it hid under my bicycle, crying for a while.",
+          "tokens": [
+            { "hz": "有", "py": "yǒu", "en": "there is; to have" },
+            { "hz": "一", "py": "yì", "en": "one" },
+            { "hz": "天", "py": "tiān", "en": "day" },
+            { "hz": "下雨", "py": "xià yǔ", "en": "to rain" },
+            { "hz": "，" },
+            { "hz": "它", "py": "tā", "en": "it" },
+            { "hz": "躲", "py": "duǒ", "en": "to hide" },
+            { "hz": "在", "py": "zài", "en": "at; under" },
+            { "hz": "我", "py": "wǒ", "en": "I; my" },
+            { "hz": "的", "py": "de", "en": "(possessive particle)" },
+            { "hz": "自行车", "py": "zì xíng chē", "en": "bicycle" },
+            { "hz": "下面", "py": "xià mian", "en": "underneath" },
+            { "hz": "，" },
+            { "hz": "叫", "py": "jiào", "en": "to cry out; to meow" },
+            { "hz": "了", "py": "le", "en": "(completed action particle)" },
+            { "hz": "一会儿", "py": "yí huìr", "en": "a little while", "nosplit": true },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "I carried it back to the old lady's home, and smiling, she gave me an apple.",
+          "tokens": [
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "把", "py": "bǎ", "en": "(marks the object of an action)" },
+            { "hz": "它", "py": "tā", "en": "it" },
+            { "hz": "抱", "py": "bào", "en": "to hold in one's arms" },
+            { "hz": "回", "py": "huí", "en": "back" },
+            { "hz": "老奶奶", "py": "lǎo nǎi nai", "en": "old lady; granny" },
+            { "hz": "家", "py": "jiā", "en": "home" },
+            { "hz": "，" },
+            { "hz": "她", "py": "tā", "en": "she; her" },
+            { "hz": "笑", "py": "xiào", "en": "to smile" },
+            { "hz": "着", "py": "zhe", "en": "(ongoing action particle)" },
+            { "hz": "给", "py": "gěi", "en": "to give" },
+            { "hz": "了", "py": "le", "en": "(completed action particle)" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "一", "py": "yí", "en": "one" },
+            { "hz": "个", "py": "gè", "en": "(general measure word)" },
+            { "hz": "苹果", "py": "píng guǒ", "en": "apple" },
+            { "hz": "。" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk3-hiking",
+      "title": "爬山",
+      "title_en": "Climbing the Mountain",
+      "tags": ["story", "outdoors"],
+      "sentences": [
+        {
+          "en": "Last weekend I went hiking with a friend.",
+          "tokens": [
+            { "hz": "上", "py": "shàng", "en": "last; previous" },
+            { "hz": "个", "py": "gè", "en": "(general measure word)" },
+            { "hz": "周末", "py": "zhōu mò", "en": "weekend" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "和", "py": "hé", "en": "and; with" },
+            { "hz": "朋友", "py": "péng you", "en": "friend" },
+            { "hz": "一起", "py": "yì qǐ", "en": "together" },
+            { "hz": "去", "py": "qù", "en": "to go" },
+            { "hz": "爬山", "py": "pá shān", "en": "to climb a mountain; to hike" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "The mountain path was not long, but it was steep, and we climbed very slowly.",
+          "tokens": [
+            { "hz": "山路", "py": "shān lù", "en": "mountain path" },
+            { "hz": "不", "py": "bù", "en": "not" },
+            { "hz": "长", "py": "cháng", "en": "long" },
+            { "hz": "，" },
+            { "hz": "可是", "py": "kě shì", "en": "but" },
+            { "hz": "很", "py": "hěn", "en": "very" },
+            { "hz": "陡", "py": "dǒu", "en": "steep" },
+            { "hz": "，" },
+            { "hz": "我们", "py": "wǒ men", "en": "we; us" },
+            { "hz": "爬", "py": "pá", "en": "to climb" },
+            { "hz": "得", "py": "de", "en": "(links a verb to how it is done)" },
+            { "hz": "很", "py": "hěn", "en": "very" },
+            { "hz": "慢", "py": "màn", "en": "slow" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "Halfway up I was already too tired to speak.",
+          "tokens": [
+            { "hz": "爬", "py": "pá", "en": "to climb" },
+            { "hz": "到", "py": "dào", "en": "to reach" },
+            { "hz": "一半", "py": "yí bàn", "en": "half" },
+            { "hz": "的时候", "py": "de shí hou", "en": "when; at the time of" },
+            { "hz": "，" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "已经", "py": "yǐ jīng", "en": "already" },
+            { "hz": "累", "py": "lèi", "en": "tired" },
+            { "hz": "得", "py": "de", "en": "(links a state to its result)" },
+            { "hz": "说", "py": "shuō", "en": "to speak" },
+            { "hz": "不出", "py": "bù chū", "en": "unable to get out" },
+            { "hz": "话", "py": "huà", "en": "words; speech" },
+            { "hz": "来", "py": "lái", "en": "(directional complement)" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "My friend laughed at me and said: \"You should exercise more.\"",
+          "tokens": [
+            { "hz": "朋友", "py": "péng you", "en": "friend" },
+            { "hz": "笑", "py": "xiào", "en": "to laugh at" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "说", "py": "shuō", "en": "to say" },
+            { "hz": "：" },
+            { "hz": "“" },
+            { "hz": "你", "py": "nǐ", "en": "you" },
+            { "hz": "平时", "py": "píng shí", "en": "usually; ordinarily" },
+            { "hz": "应该", "py": "yīng gāi", "en": "should" },
+            { "hz": "多", "py": "duō", "en": "more" },
+            { "hz": "运动", "py": "yùn dòng", "en": "to exercise" },
+            { "hz": "。" },
+            { "hz": "”" }
+          ]
+        },
+        {
+          "en": "At the summit the wind was cool, and the city below had become very small.",
+          "tokens": [
+            { "hz": "到", "py": "dào", "en": "to reach" },
+            { "hz": "了", "py": "le", "en": "(completed action particle)" },
+            { "hz": "山顶", "py": "shān dǐng", "en": "mountaintop" },
+            { "hz": "，" },
+            { "hz": "风", "py": "fēng", "en": "wind" },
+            { "hz": "很", "py": "hěn", "en": "very" },
+            { "hz": "凉快", "py": "liáng kuai", "en": "pleasantly cool" },
+            { "hz": "，" },
+            { "hz": "城市", "py": "chéng shì", "en": "city" },
+            { "hz": "在", "py": "zài", "en": "at; located" },
+            { "hz": "下面", "py": "xià mian", "en": "below" },
+            { "hz": "变", "py": "biàn", "en": "to become" },
+            { "hz": "得", "py": "de", "en": "(links a verb to its result)" },
+            { "hz": "很", "py": "hěn", "en": "very" },
+            { "hz": "小", "py": "xiǎo", "en": "small" },
+            { "hz": "。" }
+          ]
+        },
+        {
+          "en": "In that moment I felt that being a little tired didn't matter at all.",
+          "tokens": [
+            { "hz": "那", "py": "nà", "en": "that" },
+            { "hz": "一", "py": "yí", "en": "one" },
+            { "hz": "刻", "py": "kè", "en": "moment" },
+            { "hz": "我", "py": "wǒ", "en": "I; me" },
+            { "hz": "觉得", "py": "jué de", "en": "to feel; to think" },
+            { "hz": "，" },
+            { "hz": "累", "py": "lèi", "en": "tired" },
+            { "hz": "一点", "py": "yì diǎn", "en": "a little" },
+            { "hz": "也", "py": "yě", "en": "also" },
+            { "hz": "没关系", "py": "méi guān xi", "en": "it doesn't matter" },
+            { "hz": "。" }
+          ]
+        }
+      ]
+    }
+  ]
+}

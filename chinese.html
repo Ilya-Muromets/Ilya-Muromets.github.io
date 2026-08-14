@@ -1,0 +1,911 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Mandarin Reader</title>
+  <meta name="author" content="Ilya Chugunov">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A guided Mandarin reader: simplified Chinese with toggleable pinyin and per-word glosses.">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+
+  <style>
+    :root {
+      --hz-size: 34px;
+      --accent: #ff7f50;
+      --dim: #9aa0a6;
+      --panel: #131313;
+      --edge: #2b2b2b;
+      /* Tone colors, tuned for a black background. */
+      --t1: #ff6b6b;
+      --t2: #ffb454;
+      --t3: #6fcf97;
+      --t4: #6aa9ff;
+      --t5: #9aa0a6;
+    }
+
+    .wrap {
+      width: 100%;
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 20px 20px 80px;
+      box-sizing: border-box;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+
+    .topbar h1 {
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--accent);
+      margin: 0;
+    }
+
+    .topbar h1 .zh {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      margin-right: 8px;
+    }
+
+    /* ---- toolbar ---- */
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px 18px;
+      padding: 12px 14px;
+      background: var(--panel);
+      border: 1px solid var(--edge);
+      border-radius: 12px;
+    }
+
+    .ctrl {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .ctrl > label {
+      font-size: 12px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--dim);
+    }
+
+    .seg {
+      display: inline-flex;
+      border: 1px solid var(--edge);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .seg button,
+    .btn {
+      font-family: inherit;
+      font-size: 14px;
+      color: #f2f2f2;
+      background: transparent;
+      border: 0;
+      padding: 6px 11px;
+      cursor: pointer;
+    }
+
+    .seg button + button {
+      border-left: 1px solid var(--edge);
+    }
+
+    .seg button[aria-pressed="true"] {
+      background: var(--accent);
+      color: #101010;
+      font-weight: 600;
+    }
+
+    .seg button:hover:not([aria-pressed="true"]),
+    .btn:hover {
+      background: #262626;
+    }
+
+    .btn {
+      border: 1px solid var(--edge);
+      border-radius: 8px;
+    }
+
+    select {
+      font-family: inherit;
+      font-size: 14px;
+      color: #f2f2f2;
+      background: #1c1c1c;
+      border: 1px solid var(--edge);
+      border-radius: 8px;
+      padding: 6px 8px;
+      max-width: 100%;
+    }
+
+    .grow {
+      flex: 1 1 240px;
+      min-width: 0;
+    }
+
+    .grow select {
+      width: 100%;
+    }
+
+    /* ---- passage ---- */
+    .passage-head {
+      margin: 26px 0 6px;
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .passage-head .title {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      font-size: 26px;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .passage-head .title-en,
+    .meta {
+      font-size: 14px;
+      color: var(--dim);
+    }
+
+    .reader {
+      margin-top: 18px;
+    }
+
+    .sentence {
+      margin: 0 0 10px;
+      padding: 8px 10px;
+      border-radius: 10px;
+      border-left: 2px solid transparent;
+    }
+
+    .sentence:hover {
+      border-left-color: #333;
+      background: rgba(255, 255, 255, .02);
+    }
+
+    .line {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      row-gap: 2px;
+    }
+
+    /* Each token stacks pinyin over hanzi, so they stay aligned. */
+    .tok {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2px 3px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color .12s ease;
+    }
+
+    .tok:hover,
+    .tok.active {
+      background: #2c2c2c;
+    }
+
+    .tok:focus-visible {
+      outline: 1px solid var(--accent);
+    }
+
+    .py {
+      font-family: Arial, Verdana, Helvetica, sans-serif;
+      font-size: calc(var(--hz-size) * 0.42);
+      line-height: 1.35;
+      color: var(--dim);
+      white-space: nowrap;
+    }
+
+    .hz {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      font-size: var(--hz-size);
+      line-height: 1.35;
+      white-space: nowrap;
+    }
+
+    .punct {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      font-size: var(--hz-size);
+      line-height: 1.35;
+      align-self: flex-end;
+      color: var(--dim);
+    }
+
+    /* Pinyin display modes, set on .reader */
+    .reader[data-pinyin="off"] .py {
+      display: none;
+    }
+
+    /* "hover" keeps the space reserved so nothing jumps when it appears */
+    .reader[data-pinyin="hover"] .py {
+      visibility: hidden;
+    }
+
+    .reader[data-pinyin="hover"] .tok:hover .py,
+    .reader[data-pinyin="hover"] .tok.active .py {
+      visibility: visible;
+    }
+
+    /* Tone colors */
+    .reader[data-tones="on"] .t1 { color: var(--t1); }
+    .reader[data-tones="on"] .t2 { color: var(--t2); }
+    .reader[data-tones="on"] .t3 { color: var(--t3); }
+    .reader[data-tones="on"] .t4 { color: var(--t4); }
+    .reader[data-tones="on"] .t5 { color: var(--t5); }
+
+    .en {
+      margin-top: 6px;
+      font-size: 15px;
+      color: #cfcfcf;
+      font-style: italic;
+    }
+
+    .reader[data-english="off"] .en {
+      display: none;
+    }
+
+    /* "tap" hides the translation behind a click on the sentence */
+    .reader[data-english="tap"] .en {
+      display: none;
+    }
+
+    .reader[data-english="tap"] .sentence.revealed .en {
+      display: block;
+    }
+
+    .reader[data-english="tap"] .sentence {
+      cursor: pointer;
+    }
+
+    /* ---- tooltip ---- */
+    #tip {
+      position: fixed;
+      z-index: 50;
+      max-width: min(320px, calc(100vw - 24px));
+      padding: 10px 13px;
+      background: #1c1c1c;
+      border: 1px solid #3a3a3a;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, .6);
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity .1s ease;
+    }
+
+    #tip.show {
+      opacity: 1;
+    }
+
+    #tip .tip-hz {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      font-size: 26px;
+      color: #f2f2f2;
+    }
+
+    #tip .tip-py {
+      font-size: 15px;
+      color: var(--accent);
+      margin-top: 2px;
+    }
+
+    #tip .tip-en {
+      font-size: 15px;
+      color: #e0e0e0;
+      margin-top: 6px;
+    }
+
+    /* ---- vocab ---- */
+    .vocab {
+      margin-top: 34px;
+      border-top: 1px solid var(--edge);
+      padding-top: 16px;
+    }
+
+    .vocab h2 {
+      font-size: 14px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--dim);
+      font-weight: 600;
+      margin: 0 0 12px;
+    }
+
+    .vocab-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+      gap: 8px 20px;
+    }
+
+    .vocab-row {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      padding: 3px 0;
+      border-bottom: 1px solid #1a1a1a;
+    }
+
+    .vocab-row .v-hz {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      font-size: 19px;
+      min-width: 3.2em;
+    }
+
+    .vocab-row .v-py {
+      font-size: 13px;
+      color: var(--accent);
+      min-width: 5em;
+    }
+
+    .vocab-row .v-en {
+      font-size: 13px;
+      color: var(--dim);
+    }
+
+    .hint {
+      margin-top: 26px;
+      font-size: 13px;
+      color: #6f6f6f;
+      line-height: 1.7;
+    }
+
+    kbd {
+      font-family: monospace;
+      font-size: 12px;
+      background: #1c1c1c;
+      border: 1px solid var(--edge);
+      border-radius: 4px;
+      padding: 1px 5px;
+    }
+
+    .error {
+      border: 1px solid #6b2b2b;
+      background: #1a0f0f;
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-top: 20px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    @media (pointer:none), (pointer:coarse) {
+      :root {
+        --hz-size: 28px;
+      }
+
+      .wrap {
+        padding: 14px 14px 90px;
+      }
+
+      .toolbar {
+        gap: 8px 12px;
+      }
+
+      /* Touch devices: hovering isn't a thing, so the tooltip is pinned by a tap. */
+      .sentence:hover {
+        border-left-color: transparent;
+        background: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <h1><span class="zh">中文</span>Reader</h1>
+      <div><a href="index.html">&larr; back home</a></div>
+    </div>
+
+    <div class="toolbar">
+      <div class="ctrl">
+        <label>Pinyin</label>
+        <div class="seg" id="seg-pinyin">
+          <button data-value="on">On</button>
+          <button data-value="hover">Hover</button>
+          <button data-value="off">Off</button>
+        </div>
+      </div>
+
+      <div class="ctrl">
+        <label>English</label>
+        <div class="seg" id="seg-english">
+          <button data-value="on">On</button>
+          <button data-value="tap">Tap</button>
+          <button data-value="off">Off</button>
+        </div>
+      </div>
+
+      <div class="ctrl">
+        <label>Tones</label>
+        <div class="seg" id="seg-tones">
+          <button data-value="on">Color</button>
+          <button data-value="off">Plain</button>
+        </div>
+      </div>
+
+      <div class="ctrl">
+        <label>Size</label>
+        <button class="btn" id="smaller" title="Smaller text">A&minus;</button>
+        <button class="btn" id="bigger" title="Larger text">A+</button>
+      </div>
+
+      <div class="ctrl grow">
+        <select id="picker" aria-label="Choose a passage"></select>
+      </div>
+
+      <div class="ctrl">
+        <button class="btn" id="prev" title="Previous passage">&larr;</button>
+        <button class="btn" id="random" title="Random passage">Random</button>
+        <button class="btn" id="next" title="Next passage">&rarr;</button>
+      </div>
+    </div>
+
+    <div id="status"></div>
+
+    <div class="passage-head" id="passage-head" hidden>
+      <span class="title" id="p-title"></span>
+      <span class="title-en" id="p-title-en"></span>
+      <span class="meta" id="p-meta"></span>
+    </div>
+
+    <div class="reader" id="reader" data-pinyin="on" data-english="tap" data-tones="on"></div>
+
+    <div class="vocab" id="vocab" hidden>
+      <h2>Words in this passage</h2>
+      <div class="vocab-grid" id="vocab-grid"></div>
+    </div>
+
+    <p class="hint">
+      Hover (or tap) any word for its meaning.
+      <kbd>&larr;</kbd> <kbd>&rarr;</kbd> passage &nbsp;·&nbsp;
+      <kbd>r</kbd> random &nbsp;·&nbsp;
+      <kbd>p</kbd> pinyin &nbsp;·&nbsp;
+      <kbd>e</kbd> english &nbsp;·&nbsp;
+      <kbd>t</kbd> tones
+    </p>
+  </div>
+
+  <div id="tip" role="tooltip" aria-hidden="true"></div>
+
+  <script>
+    (function () {
+      "use strict";
+
+      var MANIFEST_URL = "data/chinese/manifest.json";
+      var STORE_KEY = "zh-reader-v1";
+      var SIZE_MIN = 20, SIZE_MAX = 64;
+
+      var state = {
+        pinyin: "on",      // on | hover | off
+        english: "tap",    // on | tap | off
+        tones: "on",       // on | off
+        size: 34,          // hanzi font size in px
+        last: null         // "deckId/passageId"
+      };
+
+      var manifest = null;
+      var deckCache = {};   // deckId -> deck JSON
+      var flat = [];        // [{deckId, passageId, label}] in reading order
+      var current = null;   // {deck, passage, key}
+      var pinned = null;    // token element with a pinned tooltip
+
+      var reader = document.getElementById("reader");
+      var picker = document.getElementById("picker");
+      var statusEl = document.getElementById("status");
+      var tip = document.getElementById("tip");
+
+      /* ---------- persistence ---------- */
+
+      function loadState() {
+        try {
+          var saved = JSON.parse(localStorage.getItem(STORE_KEY) || "{}");
+          Object.keys(state).forEach(function (k) {
+            if (saved[k] !== undefined && saved[k] !== null) state[k] = saved[k];
+          });
+        } catch (e) { /* first visit, or storage disabled */ }
+      }
+
+      function saveState() {
+        try {
+          localStorage.setItem(STORE_KEY, JSON.stringify(state));
+        } catch (e) { /* private mode; settings just won't persist */ }
+      }
+
+      /* ---------- pinyin helpers ---------- */
+
+      var TONE_MARKS = { "̄": 1, "́": 2, "̌": 3, "̀": 4 };
+
+      // Tone number for one pinyin syllable; 5 = neutral.
+      function toneOf(syllable) {
+        var d = syllable.normalize("NFD");
+        for (var i = 0; i < d.length; i++) {
+          if (TONE_MARKS[d[i]]) return TONE_MARKS[d[i]];
+        }
+        return 5;
+      }
+
+      function syllables(py) {
+        return py.trim().split(/\s+/).filter(Boolean);
+      }
+
+      /* ---------- rendering ---------- */
+
+      function renderToken(token) {
+        // No pinyin means punctuation or spacing: rendered flat, not hoverable.
+        if (!token.py) {
+          var punct = document.createElement("span");
+          punct.className = "punct";
+          punct.textContent = token.hz;
+          return punct;
+        }
+
+        var syls = syllables(token.py);
+        var chars = Array.from(token.hz);
+        // Align pinyin syllable-to-character when the counts match; erhua and
+        // other merged readings set "nosplit" and are colored as a unit.
+        var aligned = !token.nosplit && syls.length === chars.length;
+
+        var el = document.createElement("span");
+        el.className = "tok";
+        el.tabIndex = 0;
+        el.dataset.hz = token.hz;
+        el.dataset.py = token.py;
+        el.dataset.en = token.en || "";
+
+        var py = document.createElement("span");
+        py.className = "py";
+        if (aligned) {
+          // Joined for display ("zhōngguó") but one span per syllable, so each
+          // syllable sits above its own character.
+          syls.forEach(function (s) {
+            var span = document.createElement("span");
+            span.className = "t" + toneOf(s);
+            span.textContent = s;
+            py.appendChild(span);
+          });
+        } else {
+          var whole = document.createElement("span");
+          whole.className = "t" + toneOf(syls[0]);
+          whole.textContent = syls.join(" ");
+          py.appendChild(whole);
+        }
+
+        var hz = document.createElement("span");
+        hz.className = "hz";
+        if (aligned) {
+          chars.forEach(function (c, i) {
+            var span = document.createElement("span");
+            span.className = "t" + toneOf(syls[i]);
+            span.textContent = c;
+            hz.appendChild(span);
+          });
+        } else {
+          var whz = document.createElement("span");
+          whz.className = "t" + toneOf(syls[0]);
+          whz.textContent = token.hz;
+          hz.appendChild(whz);
+        }
+
+        el.appendChild(py);
+        el.appendChild(hz);
+        return el;
+      }
+
+      function renderPassage(deck, passage) {
+        document.getElementById("passage-head").hidden = false;
+        document.getElementById("p-title").textContent = passage.title || "";
+        document.getElementById("p-title-en").textContent = passage.title_en || "";
+
+        var idx = flat.findIndex(function (f) { return f.passageId === passage.id; });
+        var meta = [deck.title, deck.level].filter(Boolean).join(" · ");
+        document.getElementById("p-meta").textContent =
+          meta + "  (" + (idx + 1) + "/" + flat.length + ")";
+
+        reader.innerHTML = "";
+        (passage.sentences || []).forEach(function (sentence) {
+          var block = document.createElement("div");
+          block.className = "sentence";
+
+          var line = document.createElement("div");
+          line.className = "line";
+          (sentence.tokens || []).forEach(function (token) {
+            line.appendChild(renderToken(token));
+          });
+          block.appendChild(line);
+
+          var en = document.createElement("div");
+          en.className = "en";
+          en.textContent = sentence.en || "";
+          block.appendChild(en);
+
+          // In "tap" mode a click anywhere on the sentence reveals its translation.
+          block.addEventListener("click", function (ev) {
+            if (reader.dataset.english !== "tap") return;
+            if (ev.target.closest(".tok")) return;   // word taps open the tooltip instead
+            block.classList.toggle("revealed");
+          });
+
+          reader.appendChild(block);
+        });
+
+        renderVocab(passage);
+        hideTip();
+      }
+
+      function renderVocab(passage) {
+        var seen = {};
+        var rows = [];
+        (passage.sentences || []).forEach(function (sentence) {
+          (sentence.tokens || []).forEach(function (token) {
+            if (!token.py) return;
+            var key = token.hz + "|" + token.py;
+            if (seen[key]) return;
+            seen[key] = true;
+            rows.push(token);
+          });
+        });
+
+        var grid = document.getElementById("vocab-grid");
+        grid.innerHTML = "";
+        rows.forEach(function (token) {
+          var row = document.createElement("div");
+          row.className = "vocab-row";
+          row.innerHTML =
+            '<span class="v-hz"></span><span class="v-py"></span><span class="v-en"></span>';
+          row.children[0].textContent = token.hz;
+          row.children[1].textContent = syllables(token.py).join(" ");
+          row.children[2].textContent = token.en || "";
+          grid.appendChild(row);
+        });
+        document.getElementById("vocab").hidden = rows.length === 0;
+      }
+
+      /* ---------- tooltip ---------- */
+
+      function showTip(el) {
+        tip.innerHTML = '<div class="tip-hz"></div><div class="tip-py"></div><div class="tip-en"></div>';
+        tip.children[0].textContent = el.dataset.hz;
+        tip.children[1].textContent = syllables(el.dataset.py).join(" ");
+        tip.children[2].textContent = el.dataset.en;
+        tip.classList.add("show");
+        tip.setAttribute("aria-hidden", "false");
+        el.classList.add("active");
+
+        var r = el.getBoundingClientRect();
+        var t = tip.getBoundingClientRect();
+        var pad = 8;
+        var left = r.left + r.width / 2 - t.width / 2;
+        left = Math.max(pad, Math.min(left, window.innerWidth - t.width - pad));
+        var top = r.top - t.height - pad;
+        if (top < pad) top = r.bottom + pad;   // flip below when there's no room above
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+      }
+
+      function hideTip() {
+        tip.classList.remove("show");
+        tip.setAttribute("aria-hidden", "true");
+        Array.prototype.forEach.call(
+          reader.querySelectorAll(".tok.active"),
+          function (el) { el.classList.remove("active"); }
+        );
+        pinned = null;
+      }
+
+      reader.addEventListener("pointerover", function (ev) {
+        if (ev.pointerType !== "mouse" || pinned) return;
+        var el = ev.target.closest(".tok");
+        if (el) showTip(el);
+      });
+
+      reader.addEventListener("pointerout", function (ev) {
+        if (ev.pointerType !== "mouse" || pinned) return;
+        var el = ev.target.closest(".tok");
+        if (el && !el.contains(ev.relatedTarget)) hideTip();
+      });
+
+      // Tap (or click) pins the tooltip so it survives on touch screens.
+      reader.addEventListener("click", function (ev) {
+        var el = ev.target.closest(".tok");
+        if (!el) return;
+        ev.stopPropagation();
+        if (pinned === el) { hideTip(); return; }
+        hideTip();
+        pinned = el;
+        showTip(el);
+      });
+
+      reader.addEventListener("focusin", function (ev) {
+        var el = ev.target.closest(".tok");
+        if (el) { hideTip(); showTip(el); }
+      });
+
+      document.addEventListener("click", function () { if (pinned) hideTip(); });
+      window.addEventListener("scroll", function () { if (pinned) hideTip(); }, { passive: true });
+      window.addEventListener("resize", hideTip);
+
+      /* ---------- settings UI ---------- */
+
+      function bindSegment(id, key, onChange) {
+        var group = document.getElementById(id);
+        group.addEventListener("click", function (ev) {
+          var btn = ev.target.closest("button");
+          if (!btn) return;
+          state[key] = btn.dataset.value;
+          saveState();
+          applySettings();
+          if (onChange) onChange();
+        });
+      }
+
+      function cycle(key, values) {
+        var i = values.indexOf(state[key]);
+        state[key] = values[(i + 1) % values.length];
+        saveState();
+        applySettings();
+      }
+
+      function applySettings() {
+        reader.dataset.pinyin = state.pinyin;
+        reader.dataset.english = state.english;
+        reader.dataset.tones = state.tones;
+        document.documentElement.style.setProperty("--hz-size", state.size + "px");
+
+        [["seg-pinyin", "pinyin"], ["seg-english", "english"], ["seg-tones", "tones"]]
+          .forEach(function (pair) {
+            var buttons = document.getElementById(pair[0]).querySelectorAll("button");
+            Array.prototype.forEach.call(buttons, function (b) {
+              b.setAttribute("aria-pressed", String(b.dataset.value === state[pair[1]]));
+            });
+          });
+      }
+
+      bindSegment("seg-pinyin", "pinyin");
+      bindSegment("seg-english", "english");
+      bindSegment("seg-tones", "tones");
+
+      document.getElementById("bigger").addEventListener("click", function () {
+        state.size = Math.min(SIZE_MAX, state.size + 3); saveState(); applySettings();
+      });
+      document.getElementById("smaller").addEventListener("click", function () {
+        state.size = Math.max(SIZE_MIN, state.size - 3); saveState(); applySettings();
+      });
+
+      /* ---------- navigation ---------- */
+
+      function keyOf(deckId, passageId) { return deckId + "/" + passageId; }
+
+      function go(key, push) {
+        var entry = flat.find(function (f) { return keyOf(f.deckId, f.passageId) === key; }) || flat[0];
+        if (!entry) return;
+        var k = keyOf(entry.deckId, entry.passageId);
+
+        loadDeck(entry.deckId).then(function (deck) {
+          var passage = deck.passages.find(function (p) { return p.id === entry.passageId; });
+          if (!passage) return;
+          current = { deck: deck, passage: passage, key: k };
+          state.last = k;
+          saveState();
+          picker.value = k;
+          if (push !== false && location.hash.slice(1) !== k) {
+            history.replaceState(null, "", "#" + k);
+          }
+          renderPassage(deck, passage);
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }).catch(showLoadError);
+      }
+
+      function step(delta) {
+        if (!current) return;
+        var i = flat.findIndex(function (f) { return keyOf(f.deckId, f.passageId) === current.key; });
+        var j = (i + delta + flat.length) % flat.length;
+        go(keyOf(flat[j].deckId, flat[j].passageId));
+      }
+
+      document.getElementById("prev").addEventListener("click", function () { step(-1); });
+      document.getElementById("next").addEventListener("click", function () { step(1); });
+      document.getElementById("random").addEventListener("click", function () {
+        if (flat.length < 2) return;
+        var i;
+        do {
+          i = Math.floor(Math.random() * flat.length);
+        } while (current && keyOf(flat[i].deckId, flat[i].passageId) === current.key);
+        go(keyOf(flat[i].deckId, flat[i].passageId));
+      });
+
+      picker.addEventListener("change", function () { go(picker.value); });
+
+      window.addEventListener("hashchange", function () {
+        var k = location.hash.slice(1);
+        if (k && (!current || k !== current.key)) go(k, false);
+      });
+
+      document.addEventListener("keydown", function (ev) {
+        if (ev.metaKey || ev.ctrlKey || ev.altKey) return;
+        if (/^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement.tagName)) return;
+        switch (ev.key) {
+          case "ArrowLeft": step(-1); break;
+          case "ArrowRight": step(1); break;
+          case "r": document.getElementById("random").click(); break;
+          case "p": cycle("pinyin", ["on", "hover", "off"]); break;
+          case "e": cycle("english", ["on", "tap", "off"]); break;
+          case "t": cycle("tones", ["on", "off"]); break;
+          case "Escape": hideTip(); break;
+          default: return;
+        }
+        ev.preventDefault();
+      });
+
+      /* ---------- data loading ---------- */
+
+      function loadDeck(deckId) {
+        if (deckCache[deckId]) return Promise.resolve(deckCache[deckId]);
+        var entry = manifest.decks.find(function (d) { return d.id === deckId; });
+        if (!entry) return Promise.reject(new Error("Unknown deck: " + deckId));
+        return fetch(entry.file).then(function (res) {
+          if (!res.ok) throw new Error("HTTP " + res.status + " for " + entry.file);
+          return res.json();
+        }).then(function (deck) {
+          deckCache[deckId] = deck;
+          return deck;
+        });
+      }
+
+      function buildPicker() {
+        picker.innerHTML = "";
+        manifest.decks.forEach(function (deck) {
+          var group = document.createElement("optgroup");
+          group.label = deck.title + (deck.level ? " — " + deck.level : "");
+          deck.passages.forEach(function (p) {
+            var opt = document.createElement("option");
+            opt.value = keyOf(deck.id, p.id);
+            opt.textContent = p.title + (p.title_en ? "  ·  " + p.title_en : "");
+            group.appendChild(opt);
+            flat.push({ deckId: deck.id, passageId: p.id });
+          });
+          picker.appendChild(group);
+        });
+      }
+
+      function showLoadError(err) {
+        statusEl.innerHTML =
+          '<div class="error"><b>Could not load the passages.</b><br>' +
+          '<span class="msg"></span><br><br>' +
+          'If you opened this file directly from disk, the browser blocks the JSON fetches. ' +
+          'Serve the folder instead: <kbd>python3 -m http.server</kbd>, then visit ' +
+          '<kbd>localhost:8000/chinese.html</kbd>.</div>';
+        statusEl.querySelector(".msg").textContent = String(err);
+      }
+
+      loadState();
+      applySettings();
+
+      fetch(MANIFEST_URL).then(function (res) {
+        if (!res.ok) throw new Error("HTTP " + res.status + " for " + MANIFEST_URL);
+        return res.json();
+      }).then(function (data) {
+        manifest = data;
+        buildPicker();
+        if (!flat.length) throw new Error("The manifest lists no passages.");
+        var wanted = location.hash.slice(1) || state.last;
+        go(wanted || keyOf(flat[0].deckId, flat[0].passageId));
+      }).catch(showLoadError);
+    })();
+  </script>
+</body>
+
+</html>
