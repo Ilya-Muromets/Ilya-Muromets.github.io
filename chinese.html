@@ -802,7 +802,9 @@
           saveState();
           picker.value = k;
           if (push !== false && location.hash.slice(1) !== k) {
-            history.replaceState(null, "", "#" + k);
+            // Sandboxed frames (and file://) can refuse history writes; the
+            // reader works fine without the deep link, so don't let it throw.
+            try { history.replaceState(null, "", "#" + k); } catch (e) { }
           }
           renderPassage(deck, passage);
           window.scrollTo({ top: 0, behavior: "smooth" });
