@@ -150,37 +150,41 @@
       flex: 1 1 20px;
     }
 
-    /* Mark-as-read control */
+    /* Mark-as-read toggle — the one control worth a big target, since it's
+       pressed at the end of every passage. */
     .done {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      padding: 5px 11px;
-      border: 1px solid var(--edge);
-      border-radius: 8px;
-      font-size: 14px;
+      padding: 8px 15px;
+      font-size: 15px;
       color: var(--dim);
-      cursor: pointer;
       white-space: nowrap;
-      align-self: center;
     }
 
-    .done:hover {
-      background: #1c1c1c;
+    .done .check {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 19px;
+      height: 19px;
+      border: 1px solid #4a4a4a;
+      border-radius: 5px;
+      font-size: 13px;
+      line-height: 1;
+      color: transparent;
     }
 
-    .done input {
-      width: 15px;
-      height: 15px;
-      margin: 0;
-      accent-color: var(--accent);
-      cursor: pointer;
-    }
-
-    .done.is-done {
+    .done[aria-pressed="true"] {
       color: var(--accent);
-      border-color: #4a3428;
-      background: rgba(255, 127, 80, .08);
+      border-color: #5c3b2b;
+      background: rgba(255, 127, 80, .1);
+    }
+
+    .done[aria-pressed="true"] .check {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #101010;
     }
 
     .read-count {
@@ -223,6 +227,12 @@
       flex-wrap: wrap;
       align-items: flex-end;
       row-gap: 2px;
+    }
+
+    /* A word plus its trailing punctuation — the unit that wraps. */
+    .group {
+      display: flex;
+      align-items: flex-end;
     }
 
     /* Each token stacks pinyin over hanzi, so they stay aligned. */
@@ -387,6 +397,34 @@
       color: var(--dim);
       font-weight: 600;
       margin: 0 0 12px;
+      display: inline;
+    }
+
+    /* The word list folds away — on a phone it's several screens of scrolling
+       between the passage and anything below it. */
+    .vocab summary {
+      cursor: pointer;
+      list-style: none;
+      padding-bottom: 12px;
+    }
+
+    .vocab summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .vocab summary::after {
+      content: "▸";
+      margin-left: 8px;
+      color: #5a5a5a;
+      font-size: 12px;
+    }
+
+    .vocab[open] summary::after {
+      content: "▾";
+    }
+
+    .vocab summary:hover h2 {
+      color: #c8c8c8;
     }
 
     .vocab-grid {
@@ -446,20 +484,97 @@
       line-height: 1.6;
     }
 
+    .touch-only {
+      display: none;
+    }
+
     @media (pointer:none), (pointer:coarse) {
       :root {
         --hz-size: 28px;
       }
 
       .wrap {
-        padding: 14px 14px 90px;
+        padding: 12px 14px 90px;
+      }
+
+      .touch-only {
+        display: inline;
+      }
+
+      .hover-only {
+        display: none;
+      }
+
+      /* Passage controls stay reachable from anywhere in a long passage —
+         otherwise "next" means scrolling back past the vocabulary list. */
+      #navbar {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        gap: 8px;
+        padding: 10px;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, .55);
+      }
+
+      .nav-actions {
+        flex: 1 1 100%;
+        gap: 8px;
+      }
+
+      /* Thumb-sized targets, with Read the widest since it ends every passage. */
+      .nav-actions .btn {
+        flex: 1 1 auto;
+        min-height: 44px;
+        justify-content: center;
+      }
+
+      .nav-actions .done {
+        flex: 2 1 auto;
+      }
+
+      .seg button,
+      .btn,
+      select {
+        font-size: 15px;
+        padding: 9px 13px;
       }
 
       .toolbar {
-        gap: 8px 12px;
+        gap: 10px 14px;
       }
 
-      /* Touch devices: hovering isn't a thing, so the tooltip is pinned by a tap. */
+      .passage-head {
+        margin-top: 18px;
+      }
+
+      /* Hovering isn't a thing here, so the bubble becomes a bottom sheet:
+         it lands in the same place every time and never covers the word
+         that was just tapped. */
+      #tip {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: auto !important;
+        max-width: none;
+        border-width: 1px 0 0;
+        border-radius: 14px 14px 0 0;
+        padding: 14px 18px calc(14px + env(safe-area-inset-bottom, 0px));
+        transform: translateY(10px);
+        transition: opacity .12s ease, transform .12s ease;
+      }
+
+      #tip.show {
+        transform: none;
+      }
+
+      #tip .tip-py {
+        font-size: 19px;
+      }
+
+      #tip .tip-en {
+        font-size: 16px;
+      }
+
       .sentence:hover {
         border-left-color: transparent;
         background: none;
@@ -475,15 +590,20 @@
       <div><a href="index.html">&larr; back home</a></div>
     </div>
 
-    <div class="toolbar">
+    <div class="toolbar" id="navbar">
       <div class="ctrl grow">
         <select id="picker" aria-label="Choose a passage"></select>
       </div>
 
-      <div class="ctrl">
+      <div class="ctrl nav-actions">
         <button class="btn" id="prev" title="Previous passage">&larr;</button>
         <button class="btn" id="random" title="Random passage">Random</button>
         <button class="btn" id="next" title="Next passage">&rarr;</button>
+        <button class="btn done" id="done" aria-pressed="false"
+          title="Mark this passage as read (d)">
+          <span class="check" aria-hidden="true">&#10003;</span>
+          <span>Read</span>
+        </button>
       </div>
     </div>
 
@@ -495,10 +615,6 @@
       <span class="meta" id="p-meta"></span>
       <span class="spacer"></span>
       <span class="read-count" id="read-count"></span>
-      <label class="done" id="done-label">
-        <input type="checkbox" id="done">
-        <span>Read</span>
-      </label>
     </div>
 
     <div class="reader" id="reader" data-pinyin="on" data-english="tap" data-tones="on"></div>
@@ -541,20 +657,26 @@
       </div>
     </div>
 
-    <div class="below vocab" id="vocab" hidden>
-      <h2>Words in this passage</h2>
+    <details class="below vocab" id="vocab" hidden>
+      <summary><h2 id="vocab-heading">Words in this passage</h2></summary>
       <div class="vocab-grid" id="vocab-grid"></div>
-    </div>
+    </details>
 
     <p class="hint">
-      Hover (or tap) any word for its meaning — the bubble shows whatever pinyin
-      and English are currently turned on.
-      <kbd>&larr;</kbd> <kbd>&rarr;</kbd> passage &nbsp;·&nbsp;
-      <kbd>r</kbd> random &nbsp;·&nbsp;
-      <kbd>d</kbd> mark read &nbsp;·&nbsp;
-      <kbd>p</kbd> pinyin &nbsp;·&nbsp;
-      <kbd>e</kbd> english &nbsp;·&nbsp;
-      <kbd>t</kbd> tones
+      <span class="hover-only">
+        Hover any word for its meaning — the bubble shows whatever pinyin and
+        English are currently turned on.
+        <kbd>&larr;</kbd> <kbd>&rarr;</kbd> passage &nbsp;·&nbsp;
+        <kbd>r</kbd> random &nbsp;·&nbsp;
+        <kbd>d</kbd> mark read &nbsp;·&nbsp;
+        <kbd>p</kbd> pinyin &nbsp;·&nbsp;
+        <kbd>e</kbd> english &nbsp;·&nbsp;
+        <kbd>t</kbd> tones
+      </span>
+      <span class="touch-only">
+        Tap any word for its meaning, tap <b>···</b> for a sentence translation,
+        and swipe left or right to change passage.
+      </span>
     </p>
   </div>
 
@@ -706,9 +828,27 @@
 
           var line = document.createElement("div");
           line.className = "line";
-          (sentence.tokens || []).forEach(function (token) {
-            line.appendChild(renderToken(token));
-          });
+          // Words carry their adjacent punctuation, so a comma or 。 can't wrap
+          // onto a line of its own — which happened constantly at phone widths.
+          var tokens = sentence.tokens || [];
+          var i = 0;
+          while (i < tokens.length) {
+            var group = document.createElement("span");
+            group.className = "group";
+            while (i < tokens.length && !tokens[i].py) {
+              group.appendChild(renderToken(tokens[i]));   // opening punctuation
+              i++;
+            }
+            if (i < tokens.length) {
+              group.appendChild(renderToken(tokens[i]));   // the word itself
+              i++;
+            }
+            while (i < tokens.length && !tokens[i].py) {
+              group.appendChild(renderToken(tokens[i]));   // closing punctuation
+              i++;
+            }
+            line.appendChild(group);
+          }
           block.appendChild(line);
 
           var en = document.createElement("div");
@@ -756,7 +896,12 @@
           row.children[2].textContent = token.en || "";
           grid.appendChild(row);
         });
-        document.getElementById("vocab").hidden = rows.length === 0;
+        var vocab = document.getElementById("vocab");
+        vocab.hidden = rows.length === 0;
+        document.getElementById("vocab-heading").textContent =
+          "Words in this passage (" + rows.length + ")";
+        // Open on a desktop, folded on a phone where it costs several screens.
+        vocab.open = canHover();
       }
 
       /* ---------- tooltip ---------- */
@@ -782,6 +927,14 @@
         tip.classList.add("show");
         tip.setAttribute("aria-hidden", "false");
         el.classList.add("active");
+
+        if (!canHover()) {
+          // Bottom sheet: the stylesheet owns its position, so drop any inline
+          // coordinates left over from a desktop-width layout.
+          tip.style.left = "";
+          tip.style.top = "";
+          return true;
+        }
 
         var r = el.getBoundingClientRect();
         var t = tip.getBoundingClientRect();
@@ -840,8 +993,7 @@
 
       /* ---------- read / not read ---------- */
 
-      var doneBox = document.getElementById("done");
-      var doneLabel = document.getElementById("done-label");
+      var doneBtn = document.getElementById("done");
 
       function isRead(key) {
         return !!state.read[key];
@@ -858,8 +1010,8 @@
       // with each finished passage's label.
       function updateReadUI() {
         var key = current && current.key;
-        doneBox.checked = key ? isRead(key) : false;
-        doneLabel.classList.toggle("is-done", doneBox.checked);
+        var done = key ? isRead(key) : false;
+        doneBtn.setAttribute("aria-pressed", String(done));
 
         var count = flat.filter(function (f) {
           return isRead(keyOf(f.deckId, f.passageId));
@@ -872,8 +1024,8 @@
         });
       }
 
-      doneBox.addEventListener("change", function () {
-        if (current) setRead(current.key, doneBox.checked);
+      doneBtn.addEventListener("click", function () {
+        if (current) setRead(current.key, !isRead(current.key));
       });
 
       /* ---------- settings UI ---------- */
@@ -974,6 +1126,30 @@
 
       picker.addEventListener("change", function () { go(picker.value); });
 
+      // Swipe across the text to change passage — the natural gesture when
+      // you're reading one-handed and the toolbar is a stretch away.
+      (function () {
+        var startX = 0, startY = 0, tracking = false;
+        reader.addEventListener("touchstart", function (ev) {
+          tracking = ev.touches.length === 1;
+          if (!tracking) return;
+          startX = ev.touches[0].clientX;
+          startY = ev.touches[0].clientY;
+        }, { passive: true });
+
+        reader.addEventListener("touchend", function (ev) {
+          if (!tracking) return;
+          tracking = false;
+          var touch = ev.changedTouches[0];
+          var dx = touch.clientX - startX;
+          var dy = touch.clientY - startY;
+          // Clearly horizontal, and long enough not to be a tap or a scroll.
+          if (Math.abs(dx) < 70 || Math.abs(dx) < Math.abs(dy) * 2) return;
+          hideTip();
+          step(dx < 0 ? 1 : -1);
+        }, { passive: true });
+      })();
+
       window.addEventListener("hashchange", function () {
         var k = location.hash.slice(1);
         if (k && (!current || k !== current.key)) go(k, false);
@@ -981,11 +1157,9 @@
 
       document.addEventListener("keydown", function (ev) {
         if (ev.metaKey || ev.ctrlKey || ev.altKey) return;
-        // Don't hijack keys aimed at a control the reader is focused on. The
-        // read checkbox is exempt: it's the one input where "d" should still work.
+        // Don't hijack keys aimed at a control the reader is focused on.
         var focused = document.activeElement || document.body;
-        if (focused.tagName === "SELECT" || focused.tagName === "TEXTAREA") return;
-        if (focused.tagName === "INPUT" && focused.type !== "checkbox") return;
+        if (/^(INPUT|SELECT|TEXTAREA)$/.test(focused.tagName)) return;
         switch (ev.key) {
           case "ArrowLeft": step(-1); break;
           case "ArrowRight": step(1); break;
