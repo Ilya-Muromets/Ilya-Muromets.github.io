@@ -142,8 +142,51 @@
       margin: 26px 0 6px;
       display: flex;
       align-items: baseline;
-      gap: 12px;
+      gap: 8px 12px;
       flex-wrap: wrap;
+    }
+
+    .passage-head .spacer {
+      flex: 1 1 20px;
+    }
+
+    /* Mark-as-read control */
+    .done {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 11px;
+      border: 1px solid var(--edge);
+      border-radius: 8px;
+      font-size: 14px;
+      color: var(--dim);
+      cursor: pointer;
+      white-space: nowrap;
+      align-self: center;
+    }
+
+    .done:hover {
+      background: #1c1c1c;
+    }
+
+    .done input {
+      width: 15px;
+      height: 15px;
+      margin: 0;
+      accent-color: var(--accent);
+      cursor: pointer;
+    }
+
+    .done.is-done {
+      color: var(--accent);
+      border-color: #4a3428;
+      background: rgba(255, 127, 80, .08);
+    }
+
+    .read-count {
+      font-size: 13px;
+      color: #6f6f6f;
+      align-self: center;
     }
 
     .passage-head .title {
@@ -258,16 +301,43 @@
       display: none;
     }
 
-    /* "tap" hides the translation behind a click on the sentence */
+    /* "tap" collapses the translation to a marker. Keeping the line in flow
+       (rather than display:none) leaves a full-width tap target — touch
+       adjustment otherwise snaps taps to the nearest word and the translation
+       becomes almost impossible to open on a phone. */
     .reader[data-english="tap"] .en {
-      display: none;
+      font-size: 0;
+    }
+
+    .reader[data-english="tap"] .en::before {
+      content: "···";
+      font-size: 15px;
+      font-style: normal;
+      letter-spacing: 3px;
+      color: #565656;
     }
 
     .reader[data-english="tap"] .sentence.revealed .en {
-      display: block;
+      font-size: 15px;
     }
 
-    .reader[data-english="tap"] .sentence {
+    .reader[data-english="tap"] .sentence.revealed .en::before {
+      content: none;
+    }
+
+    /* "hover" reserves the line so the text doesn't shift under the cursor.
+       A tap reveals it too, since touch screens have no hover. */
+    .reader[data-english="hover"] .en {
+      visibility: hidden;
+    }
+
+    .reader[data-english="hover"] .sentence:hover .en,
+    .reader[data-english="hover"] .sentence.revealed .en {
+      visibility: visible;
+    }
+
+    .reader[data-english="tap"] .sentence,
+    .reader[data-english="hover"] .sentence {
       cursor: pointer;
     }
 
@@ -275,8 +345,11 @@
     #tip {
       position: fixed;
       z-index: 50;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
       max-width: min(320px, calc(100vw - 24px));
-      padding: 10px 13px;
+      padding: 9px 13px;
       background: #1c1c1c;
       border: 1px solid #3a3a3a;
       border-radius: 10px;
@@ -290,32 +363,24 @@
       opacity: 1;
     }
 
-    #tip .tip-hz {
-      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
-      font-size: 26px;
-      color: #f2f2f2;
-    }
-
     #tip .tip-py {
-      font-size: 15px;
+      font-size: 16px;
       color: var(--accent);
-      margin-top: 2px;
     }
 
     #tip .tip-en {
       font-size: 15px;
       color: #e0e0e0;
-      margin-top: 6px;
     }
 
-    /* ---- vocab ---- */
-    .vocab {
+    /* ---- settings + vocab, below the passage ---- */
+    .below {
       margin-top: 34px;
       border-top: 1px solid var(--edge);
       padding-top: 16px;
     }
 
-    .vocab h2 {
+    .below h2 {
       font-size: 14px;
       letter-spacing: .08em;
       text-transform: uppercase;
@@ -411,38 +476,6 @@
     </div>
 
     <div class="toolbar">
-      <div class="ctrl">
-        <label>Pinyin</label>
-        <div class="seg" id="seg-pinyin">
-          <button data-value="on">On</button>
-          <button data-value="hover">Hover</button>
-          <button data-value="off">Off</button>
-        </div>
-      </div>
-
-      <div class="ctrl">
-        <label>English</label>
-        <div class="seg" id="seg-english">
-          <button data-value="on">On</button>
-          <button data-value="tap">Tap</button>
-          <button data-value="off">Off</button>
-        </div>
-      </div>
-
-      <div class="ctrl">
-        <label>Tones</label>
-        <div class="seg" id="seg-tones">
-          <button data-value="on">Color</button>
-          <button data-value="off">Plain</button>
-        </div>
-      </div>
-
-      <div class="ctrl">
-        <label>Size</label>
-        <button class="btn" id="smaller" title="Smaller text">A&minus;</button>
-        <button class="btn" id="bigger" title="Larger text">A+</button>
-      </div>
-
       <div class="ctrl grow">
         <select id="picker" aria-label="Choose a passage"></select>
       </div>
@@ -460,19 +493,65 @@
       <span class="title" id="p-title"></span>
       <span class="title-en" id="p-title-en"></span>
       <span class="meta" id="p-meta"></span>
+      <span class="spacer"></span>
+      <span class="read-count" id="read-count"></span>
+      <label class="done" id="done-label">
+        <input type="checkbox" id="done">
+        <span>Read</span>
+      </label>
     </div>
 
     <div class="reader" id="reader" data-pinyin="on" data-english="tap" data-tones="on"></div>
 
-    <div class="vocab" id="vocab" hidden>
+    <div class="below" id="settings">
+      <h2>Reading settings</h2>
+      <div class="toolbar">
+        <div class="ctrl">
+          <label>Pinyin</label>
+          <div class="seg" id="seg-pinyin">
+            <button data-value="on">On</button>
+            <button data-value="hover">Hover</button>
+            <button data-value="off">Off</button>
+          </div>
+        </div>
+
+        <div class="ctrl">
+          <label>English</label>
+          <div class="seg" id="seg-english">
+            <button data-value="on">On</button>
+            <button data-value="hover">Hover</button>
+            <button data-value="tap">Tap</button>
+            <button data-value="off">Off</button>
+          </div>
+        </div>
+
+        <div class="ctrl">
+          <label>Tones</label>
+          <div class="seg" id="seg-tones">
+            <button data-value="on">Color</button>
+            <button data-value="off">Plain</button>
+          </div>
+        </div>
+
+        <div class="ctrl">
+          <label>Size</label>
+          <button class="btn" id="smaller" title="Smaller text">A&minus;</button>
+          <button class="btn" id="bigger" title="Larger text">A+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="below vocab" id="vocab" hidden>
       <h2>Words in this passage</h2>
       <div class="vocab-grid" id="vocab-grid"></div>
     </div>
 
     <p class="hint">
-      Hover (or tap) any word for its meaning.
+      Hover (or tap) any word for its meaning — the bubble shows whatever pinyin
+      and English are currently turned on.
       <kbd>&larr;</kbd> <kbd>&rarr;</kbd> passage &nbsp;·&nbsp;
       <kbd>r</kbd> random &nbsp;·&nbsp;
+      <kbd>d</kbd> mark read &nbsp;·&nbsp;
       <kbd>p</kbd> pinyin &nbsp;·&nbsp;
       <kbd>e</kbd> english &nbsp;·&nbsp;
       <kbd>t</kbd> tones
@@ -491,10 +570,11 @@
 
       var state = {
         pinyin: "on",      // on | hover | off
-        english: "tap",    // on | tap | off
+        english: "tap",    // on | hover | tap | off
         tones: "on",       // on | off
         size: 34,          // hanzi font size in px
-        last: null         // "deckId/passageId"
+        last: null,        // "deckId/passageId"
+        read: {}           // "deckId/passageId" -> true, for passages marked read
       };
 
       var manifest = null;
@@ -542,6 +622,10 @@
         return py.trim().split(/\s+/).filter(Boolean);
       }
 
+      function canHover() {
+        return !window.matchMedia || window.matchMedia("(hover: hover)").matches;
+      }
+
       /* ---------- rendering ---------- */
 
       function renderToken(token) {
@@ -580,7 +664,7 @@
         } else {
           var whole = document.createElement("span");
           whole.className = "t" + toneOf(syls[0]);
-          whole.textContent = syls.join(" ");
+          whole.textContent = syls.join(" ");
           py.appendChild(whole);
         }
 
@@ -632,9 +716,10 @@
           en.textContent = sentence.en || "";
           block.appendChild(en);
 
-          // In "tap" mode a click anywhere on the sentence reveals its translation.
+          // In "tap" and "hover" modes a click anywhere on the sentence reveals
+          // its translation — the only way in on a touch screen.
           block.addEventListener("click", function (ev) {
-            if (reader.dataset.english !== "tap") return;
+            if (state.english !== "tap" && state.english !== "hover") return;
             if (ev.target.closest(".tok")) return;   // word taps open the tooltip instead
             block.classList.toggle("revealed");
           });
@@ -667,7 +752,7 @@
           row.innerHTML =
             '<span class="v-hz"></span><span class="v-py"></span><span class="v-en"></span>';
           row.children[0].textContent = token.hz;
-          row.children[1].textContent = syllables(token.py).join(" ");
+          row.children[1].textContent = syllables(token.py).join(" ");
           row.children[2].textContent = token.en || "";
           grid.appendChild(row);
         });
@@ -677,10 +762,23 @@
       /* ---------- tooltip ---------- */
 
       function showTip(el) {
-        tip.innerHTML = '<div class="tip-hz"></div><div class="tip-py"></div><div class="tip-en"></div>';
-        tip.children[0].textContent = el.dataset.hz;
-        tip.children[1].textContent = syllables(el.dataset.py).join(" ");
-        tip.children[2].textContent = el.dataset.en;
+        // The bubble mirrors the reading settings: whatever is turned off in the
+        // text stays hidden here too, so hovering can't spoil what you're testing.
+        tip.innerHTML = "";
+        if (state.pinyin !== "off") {
+          var pyLine = document.createElement("div");
+          pyLine.className = "tip-py";
+          pyLine.textContent = syllables(el.dataset.py).join(" ");
+          tip.appendChild(pyLine);
+        }
+        if (state.english !== "off" && el.dataset.en) {
+          var enLine = document.createElement("div");
+          enLine.className = "tip-en";
+          enLine.textContent = el.dataset.en;
+          tip.appendChild(enLine);
+        }
+        if (!tip.children.length) return false;   // nothing left to reveal — stay quiet
+
         tip.classList.add("show");
         tip.setAttribute("aria-hidden", "false");
         el.classList.add("active");
@@ -694,6 +792,7 @@
         if (top < pad) top = r.bottom + pad;   // flip below when there's no room above
         tip.style.left = left + "px";
         tip.style.top = top + "px";
+        return true;
       }
 
       function hideTip() {
@@ -725,8 +824,9 @@
         ev.stopPropagation();
         if (pinned === el) { hideTip(); return; }
         hideTip();
-        pinned = el;
-        showTip(el);
+        // Leave nothing pinned if the bubble had nothing to say, so the next
+        // hover isn't swallowed.
+        if (showTip(el)) pinned = el;
       });
 
       reader.addEventListener("focusin", function (ev) {
@@ -737,6 +837,44 @@
       document.addEventListener("click", function () { if (pinned) hideTip(); });
       window.addEventListener("scroll", function () { if (pinned) hideTip(); }, { passive: true });
       window.addEventListener("resize", hideTip);
+
+      /* ---------- read / not read ---------- */
+
+      var doneBox = document.getElementById("done");
+      var doneLabel = document.getElementById("done-label");
+
+      function isRead(key) {
+        return !!state.read[key];
+      }
+
+      function setRead(key, value) {
+        if (value) state.read[key] = true;
+        else delete state.read[key];
+        saveState();
+        updateReadUI();
+      }
+
+      // The picker doubles as the progress view, so a check mark rides along
+      // with each finished passage's label.
+      function updateReadUI() {
+        var key = current && current.key;
+        doneBox.checked = key ? isRead(key) : false;
+        doneLabel.classList.toggle("is-done", doneBox.checked);
+
+        var count = flat.filter(function (f) {
+          return isRead(keyOf(f.deckId, f.passageId));
+        }).length;
+        document.getElementById("read-count").textContent =
+          count ? count + " of " + flat.length + " read" : "";
+
+        Array.prototype.forEach.call(picker.options, function (opt) {
+          opt.textContent = (isRead(opt.value) ? "✓ " : "") + opt.dataset.label;
+        });
+      }
+
+      doneBox.addEventListener("change", function () {
+        if (current) setRead(current.key, doneBox.checked);
+      });
 
       /* ---------- settings UI ---------- */
 
@@ -760,8 +898,12 @@
       }
 
       function applySettings() {
+        hideTip();   // an open bubble would keep showing the old settings
         reader.dataset.pinyin = state.pinyin;
-        reader.dataset.english = state.english;
+        // Touch screens can't hover, so "hover" falls back to tap-to-reveal
+        // there. The button still shows the choice that was made.
+        reader.dataset.english =
+          (state.english === "hover" && !canHover()) ? "tap" : state.english;
         reader.dataset.tones = state.tones;
         document.documentElement.style.setProperty("--hz-size", state.size + "px");
 
@@ -807,6 +949,7 @@
             try { history.replaceState(null, "", "#" + k); } catch (e) { }
           }
           renderPassage(deck, passage);
+          updateReadUI();
           window.scrollTo({ top: 0, behavior: "smooth" });
         }).catch(showLoadError);
       }
@@ -838,13 +981,20 @@
 
       document.addEventListener("keydown", function (ev) {
         if (ev.metaKey || ev.ctrlKey || ev.altKey) return;
-        if (/^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement.tagName)) return;
+        // Don't hijack keys aimed at a control the reader is focused on. The
+        // read checkbox is exempt: it's the one input where "d" should still work.
+        var focused = document.activeElement || document.body;
+        if (focused.tagName === "SELECT" || focused.tagName === "TEXTAREA") return;
+        if (focused.tagName === "INPUT" && focused.type !== "checkbox") return;
         switch (ev.key) {
           case "ArrowLeft": step(-1); break;
           case "ArrowRight": step(1); break;
           case "r": document.getElementById("random").click(); break;
+          case "d":
+            if (current) setRead(current.key, !isRead(current.key));
+            break;
           case "p": cycle("pinyin", ["on", "hover", "off"]); break;
-          case "e": cycle("english", ["on", "tap", "off"]); break;
+          case "e": cycle("english", ["on", "hover", "tap", "off"]); break;
           case "t": cycle("tones", ["on", "off"]); break;
           case "Escape": hideTip(); break;
           default: return;
@@ -875,7 +1025,8 @@
           deck.passages.forEach(function (p) {
             var opt = document.createElement("option");
             opt.value = keyOf(deck.id, p.id);
-            opt.textContent = p.title + (p.title_en ? "  ·  " + p.title_en : "");
+            opt.dataset.label = p.title + (p.title_en ? "  ·  " + p.title_en : "");
+            opt.textContent = opt.dataset.label;
             group.appendChild(opt);
             flat.push({ deckId: deck.id, passageId: p.id });
           });
@@ -903,6 +1054,7 @@
         manifest = data;
         buildPicker();
         if (!flat.length) throw new Error("The manifest lists no passages.");
+        updateReadUI();
         var wanted = location.hash.slice(1) || state.last;
         go(wanted || keyOf(flat[0].deckId, flat[0].passageId));
       }).catch(showLoadError);
