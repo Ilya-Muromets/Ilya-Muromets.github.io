@@ -8,6 +8,23 @@
 
   <meta name="author" content="Ilya Chugunov">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Ilya Chugunov is a Research Scientist on the Adobe Nextcam team working on computational photography, mobile imaging, and inverse problems. Princeton Ph.D., Princeton Computational Imaging Lab.">
+
+  <link rel="canonical" href="https://ilyac.info/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ilyac.info/">
+  <meta property="og:title" content="Ilya Chugunov">
+  <meta property="og:description"
+    content="Research Scientist on the Adobe Nextcam team working on computational photography, mobile imaging, and inverse problems.">
+  <meta property="og:image" content="https://ilyac.info/images/profile_before.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ilya Chugunov">
+  <meta name="twitter:description"
+    content="Research Scientist on the Adobe Nextcam team working on computational photography, mobile imaging, and inverse problems.">
+  <meta name="twitter:image" content="https://ilyac.info/images/profile_before.png">
 
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" type="image/png" href="images/seal_icon.png">
@@ -20,50 +37,40 @@
       <tr style="padding:0px">
         <td style="padding:0px">
           <div class="intro">
-            <p class="intro-name">
-              <img class="name-svg" src="data/name.svg" alt="Ilya Chugunov" />
-            </p>
+            <h1 class="intro-name">
+              <img class="name-svg" src="data/name.svg" alt="Ilya Chugunov" width="480" height="100" fetchpriority="high" />
+            </h1>
 
             <!-- PROFILE -->
-            <div class="intro-photo" onmouseout="profile_stop()" onmouseover="profile_start()">
+            <div class="intro-photo">
               <div class="one">
                 <div class="two" id="profile_after">
-                  <img src="images/profile_after.png" width="100%" alt="">
+                  <img src="images/profile_after.png" width="100%" alt="" decoding="async">
                 </div>
-                <img src="images/profile_before.png" width="100%" alt="Ilya Chugunov">
+                <img src="images/profile_before.png" width="100%" alt="Ilya Chugunov" decoding="async">
               </div>
-              <script type="text/javascript">
-                function profile_start() {
-                  document.getElementById('profile_after').style.opacity = "1";
-                }
-
-                function profile_stop() {
-                  document.getElementById('profile_after').style.opacity = "0";
-                }
-                profile_stop()
-              </script>
             </div>
             <!-- /PROFILE -->
 
             <div class="intro-text">
-              <p> <b>About:</b> &nbsp I'm a Research Scientist based in Seattle, working with the Adobe Nextcam team on <a href="https://research.adobe.com/articles/indigo/indigo.html">computational photography</a>. I received my Ph.D. from Princeton University, where I was part of the <a href="https://light.princeton.edu/">Princeton Computational Imaging Lab</a> advised by Professor <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>, and was supported by the <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship</a>. I earned my bachelor's degree in electrical engineering and computer science from <a href="https://eecs.berkeley.edu/" title="University of California, Broccoli">UC Berkeley</a>. </p>
+              <p> <b>About:</b> &nbsp; I'm a Research Scientist based in Seattle, working with the Adobe Nextcam team on <a href="https://research.adobe.com/articles/indigo/indigo.html">computational photography</a>. I received my Ph.D. from Princeton University, where I was part of the <a href="https://light.princeton.edu/">Princeton Computational Imaging Lab</a> advised by Professor <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>, and was supported by the <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship</a>. I earned my bachelor's degree in electrical engineering and computer science from <a href="https://eecs.berkeley.edu/" title="University of California, Broccoli">UC Berkeley</a>. </p>
 
               <!-- begone bot -->
-              <p><b>Contact:</b> &nbsp <tt> <a href="segfault.html">cout</a>
-                  << "contact" << "@" << <span title="if you add 'quack quack' somewhere in your email it will garauntee that it's not accidentally sent to my spam">"ilyac.info"</span> </tt>
+              <p><b>Contact:</b> &nbsp; <code> <a href="segfault.html">cout</a>
+                  << "contact" << "@" << <span title="if you add 'quack quack' somewhere in your email it will garauntee that it's not accidentally sent to my spam">"ilyac.info"</span> </code>
               </p>
 
               <p>
-                <b>Professional:</b> &nbsp
-                <a href="cv.html">CV</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=UYMug74AAAAJ">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://github.com/Ilya-Muromets/">Github</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/ilya-c/">LinkedIn</a> &nbsp/&nbsp
+                <b>Professional:</b> &nbsp;
+                <a href="cv.html">CV</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=UYMug74AAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://github.com/Ilya-Muromets/">Github</a> &nbsp;/&nbsp;
+                <a href="https://www.linkedin.com/in/ilya-c/">LinkedIn</a> &nbsp;/&nbsp;
                 <a href="https://bsky.app/profile/ilyac.info/">bsky</a>
               </p>
               <p>
-                <b>Unprofessional:</b> &nbsp
-                <a href="https://www.instagram.com/_ilya_c/">My Photography</a> &nbsp/&nbsp
+                <b>Unprofessional:</b> &nbsp;
+                <a href="https://www.instagram.com/_ilya_c/">My Photography</a> &nbsp;/&nbsp;
                 <a href="notes.html"> Quotes </a>
               </p>
             </div>
@@ -113,25 +120,15 @@
               <!-- BEGIN PAPERS -->
 
               <!-- PROJECT -->
-              <tr onmouseout="indigo_stop()" onmouseover="indigo_start()" style="background-color: rgba(179, 89, 56, 0.15); box-shadow: 0 0 0 100vw rgba(179, 89, 56, 0.15); clip-path: inset(0 -100vw);">
+              <tr style="background-color: rgba(179, 89, 56, 0.15); box-shadow: 0 0 0 100vw rgba(179, 89, 56, 0.15); clip-path: inset(0 -100vw);" class="project-row">
                 <td class="left-column">
                   <a href="https://research.adobe.com/articles/indigo/indigo.html">
                     <div class="one">
                       <div class="two" id="indigo">
-                        <img src="images/indigo_after.jpg" class="responsive-image" width="100%" alt="Project Indigo reflection removal result">
+                        <img src="images/indigo_after.jpg" class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src="images/indigo_before.jpg" class="responsive-image" width="100%" alt="Project Indigo original photograph">
+                      <img src="images/indigo_before.jpg" class="responsive-image" width="100%" alt="Project Indigo" loading="lazy" decoding="async">
                     </div>
-                    <script type="text/javascript">
-                      function indigo_start() {
-                        document.getElementById('indigo').style.opacity = "1";
-                      }
-
-                      function indigo_stop() {
-                        document.getElementById('indigo').style.opacity = "0";
-                      }
-                      indigo_stop()
-                    </script>
                   </a>
                 </td>
                 <td class="right-column">
@@ -157,25 +154,15 @@
               <!-- /PROJECT -->
 
               <!-- PAPER -->
-              <tr onmouseout="hist2style_stop()" onmouseover="hist2style_start()">
+              <tr class="project-row">
                 <td class="left-column">
                   <a href="https://www.dekelgalor.com/hist2style">
                     <div class="one">
                       <div class="two" id='hist2style'>
-                        <img src='images/hist2style_after.png' class="responsive-image" width="100%">
+                        <img src='images/hist2style_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src='images/hist2style_before.png' class="responsive-image" width="100%">
+                      <img src='images/hist2style_before.png' class="responsive-image" width="100%" alt="Hist2Style: Histogram-Guided Stylization" loading="lazy" decoding="async">
                     </div>
-                    <script type="text/javascript">
-                      function hist2style_start() {
-                        document.getElementById('hist2style').style.opacity = "1";
-                      }
-
-                      function hist2style_stop() {
-                        document.getElementById('hist2style').style.opacity = "0";
-                      }
-                      hist2style_stop()
-                    </script>
                   </a>
                 </td>
                 <td class="right-column">
@@ -209,25 +196,15 @@
               <!-- /PAPER -->
 
               <!-- PAPER -->
-              <tr onmouseout="endoscope_stop()" onmouseover="endoscope_start()">
+              <tr class="project-row">
                 <td class="left-column">
                   <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-5-7429">
                     <div class="one">
                       <div class="two" id='endoscope'>
-                        <img src='images/endoscope_after.png' class="responsive-image" width="100%">
+                        <img src='images/endoscope_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src='images/endoscope_before.png' class="responsive-image" width="100%">
+                      <img src='images/endoscope_before.png' class="responsive-image" width="100%" alt="Seeing Through Fibers: Unsupervised Image Reconstruction in Fiber Bundle Imaging Systems" loading="lazy" decoding="async">
                     </div>
-                    <script type="text/javascript">
-                      function endoscope_start() {
-                        document.getElementById('endoscope').style.opacity = "1";
-                      }
-
-                      function endoscope_stop() {
-                        document.getElementById('endoscope').style.opacity = "0";
-                      }
-                      endoscope_stop()
-                    </script>
                   </a>
                 </td>
                 <td class="right-column">
@@ -263,25 +240,15 @@
               <!-- /PAPER -->
 
               <!-- PAPER -->
-              <tr onmouseout="nag_stop()" onmouseover="nag_start()">
+              <tr class="project-row">
                 <td class="left-column">
                   <a href="https://princeton-computational-imaging.github.io/nag/">
                     <div class="one">
                       <div class="two" id='nag'>
-                        <img src='images/nag_after.png' class="responsive-image" width="100%">
+                        <img src='images/nag_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src='images/nag_before.png' class="responsive-image" width="100%">
+                      <img src='images/nag_before.png' class="responsive-image" width="100%" alt="Neural Atlas Graphs for Dynamic Scene Decomposition and Editing" loading="lazy" decoding="async">
                     </div>
-                    <script type="text/javascript">
-                      function nag_start() {
-                        document.getElementById('nag').style.opacity = "1";
-                      }
-
-                      function nag_stop() {
-                        document.getElementById('nag').style.opacity = "0";
-                      }
-                      nag_stop()
-                    </script>
                   </a>
                 </td>
                 <td class="right-column">
@@ -313,25 +280,15 @@
               <!-- /PAPER -->
 
               <!-- PAPER -->
-              <tr onmouseout="thesis_stop()" onmouseover="thesis_start()" style="background-color: rgba(179, 89, 56, 0.15); box-shadow: 0 0 0 100vw rgba(179, 89, 56, 0.15); clip-path: inset(0 -100vw);">
+              <tr style="background-color: rgba(179, 89, 56, 0.15); box-shadow: 0 0 0 100vw rgba(179, 89, 56, 0.15); clip-path: inset(0 -100vw);" class="project-row">
                 <td class="left-column">
                   <a href="https://arxiv.org/pdf/2508.05907">
                     <div class="one">
                       <div class="two" id='thesis'>
-                        <img src='images/thesis_after.png' class="responsive-image" width="100%">
+                        <img src='images/thesis_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src='images/thesis_before.png' class="responsive-image" width="100%">
+                      <img src='images/thesis_before.png' class="responsive-image" width="100%" alt="Neural Field Representations of Mobile Computational Photography" loading="lazy" decoding="async">
                     </div>
-                    <script type="text/javascript">
-                      function thesis_start() {
-                        document.getElementById('thesis').style.opacity = "1";
-                      }
-
-                      function thesis_stop() {
-                        document.getElementById('thesis').style.opacity = "0";
-                      }
-                      thesis_stop()
-                    </script>
                   </a>
                 </td>
                 <td class="right-column">
@@ -359,25 +316,15 @@
               <!-- /PAPER -->
 
               <!-- PAPER -->
-              <tr onmouseout="neuls_stop()" onmouseover="neuls_start()">
+              <tr class="project-row">
                 <td class="left-column">
                   <a href="https://light.princeton.edu/publication/neuls/">
                     <div class="one">
                       <div class="two" id='neuls'>
-                        <img src='images/neuls_after.gif' class="responsive-image" width="100%">
+                        <img src='images/neuls_after.gif' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src='images/neuls_before.png' class="responsive-image" width="100%">
+                      <img src='images/neuls_before.png' class="responsive-image" width="100%" alt="Neural Light Spheres for Implicit Image Stitching and View Synthesis" loading="lazy" decoding="async">
                     </div>
-                    <script type="text/javascript">
-                      function neuls_start() {
-                        document.getElementById('neuls').style.opacity = "1";
-                      }
-
-                      function neuls_stop() {
-                        document.getElementById('neuls').style.opacity = "0";
-                      }
-                      neuls_stop()
-                    </script>
                   </a>
                 </td>
                 <td class="right-column">
@@ -411,25 +358,15 @@
 
 
               <!-- PAPER -->
-              <tr onmouseout="splitaperture_stop()" onmouseover="splitaperture_start()">
+              <tr class="project-row">
                 <td class="left-column">
                   <a href="https://light.princeton.edu/publication/2in1-camera/">
                     <div class="one">
                       <div class="two" id='splitaperture'>
-                        <img src='images/splitaperture_after.png' class="responsive-image" width="100%">
+                        <img src='images/splitaperture_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src='images/splitaperture_before.png' class="responsive-image" width="100%">
+                      <img src='images/splitaperture_before.png' class="responsive-image" width="100%" alt="Split-Aperture 2-in-1 Computational Cameras" loading="lazy" decoding="async">
                     </div>
-                    <script type="text/javascript">
-                      function splitaperture_start() {
-                        document.getElementById('splitaperture').style.opacity = "1";
-                      }
-
-                      function splitaperture_stop() {
-                        document.getElementById('splitaperture').style.opacity = "0";
-                      }
-                      splitaperture_stop()
-                    </script>
                   </a>
                 </td>
                 <td class="right-column">
@@ -473,25 +410,15 @@
 
 
               <!-- PAPER -->
-              <tr onmouseout="nsf_stop()" onmouseover="nsf_start()">
+              <tr class="project-row">
                 <td class="left-column">
                   <a href="https://light.princeton.edu/publication/nsf/">
                     <div class="one">
                       <div class="two" id='nsf'>
-                        <img src='images/nsf_after.png' class="responsive-image" width="100%">
+                        <img src='images/nsf_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src='images/nsf_before.png' class="responsive-image" width="100%">
+                      <img src='images/nsf_before.png' class="responsive-image" width="100%" alt="Neural Spline Fields for Burst Image Fusion and Layer Separation" loading="lazy" decoding="async">
                     </div>
-                    <script type="text/javascript">
-                      function nsf_start() {
-                        document.getElementById('nsf').style.opacity = "1";
-                      }
-
-                      function nsf_stop() {
-                        document.getElementById('nsf').style.opacity = "0";
-                      }
-                      nsf_stop()
-                    </script>
                   </a>
                 </td>
                 <td class="right-column">
@@ -531,25 +458,15 @@
               <!-- /PAPER -->
 
               <!-- PAPER -->
-              <tr onmouseout="soap_stop()" onmouseover="soap_start()">
+              <tr class="project-row">
                 <td class="left-column">
                   <a href="https://light.princeton.edu/publication/soap/">
                     <div class="one">
                       <div class="two" id='soap'>
-                        <img src='images/soap_after.gif' class="responsive-image" width="100%">
+                        <img src='images/soap_after.gif' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src='images/soap_before.png' class="responsive-image" width="100%">
+                      <img src='images/soap_before.png' class="responsive-image" width="100%" alt="Shakes on a Plane: Unsupervised Depth Estimation from Unstabilized Photography" loading="lazy" decoding="async">
                     </div>
-                    <script type="text/javascript">
-                      function soap_start() {
-                        document.getElementById('soap').style.opacity = "1";
-                      }
-
-                      function soap_stop() {
-                        document.getElementById('soap').style.opacity = "0";
-                      }
-                      soap_stop()
-                    </script>
                   </a>
                 </td>
                 <td class="right-column">
@@ -585,25 +502,15 @@
               <!-- /PAPER -->
 
               <!-- PAPER -->
-              <tr onmouseout="gensdf_stop()" onmouseover="gensdf_start()">
+              <tr class="project-row">
                 <td class="left-column">
                   <a href="https://light.princeton.edu/publication/gensdf/">
                     <div class="one">
                       <div class="two" id='gensdf'>
-                        <img src='images/gensdf_after.gif' class="responsive-image" width="100%">
+                        <img src='images/gensdf_after.gif' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src='images/gensdf_before.png' class="responsive-image" width="100%">
+                      <img src='images/gensdf_before.png' class="responsive-image" width="100%" alt="GenSDF: Two-Stage Learning of Generalizable Signed Distance Functions" loading="lazy" decoding="async">
                     </div>
-                    <script type="text/javascript">
-                      function gensdf_start() {
-                        document.getElementById('gensdf').style.opacity = "1";
-                      }
-
-                      function gensdf_stop() {
-                        document.getElementById('gensdf').style.opacity = "0";
-                      }
-                      gensdf_stop()
-                    </script>
                   </a>
                 </td>
                 <td class="right-column">
@@ -639,25 +546,15 @@
               <!-- /PAPER -->
 
               <!-- PAPER -->
-              <tr onmouseout="ghz_stop()" onmouseover="ghz_start()">
+              <tr class="project-row">
                 <td class="left-column">
                   <a href="https://light.princeton.edu/publication/ghztof/">
                     <div class="one">
                       <div class="two" id='ghz'>
-                        <img src='images/ghz_tof_after.gif' class="responsive-image" width="100%">
+                        <img src='images/ghz_tof_after.gif' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src='images/ghz_tof_before.png' class="responsive-image" width="100%">
+                      <img src='images/ghz_tof_before.png' class="responsive-image" width="100%" alt="Centimeter-Wave Free-Space Time-of-Flight Imaging" loading="lazy" decoding="async">
                     </div>
-                    <script type="text/javascript">
-                      function ghz_start() {
-                        document.getElementById('ghz').style.opacity = "1";
-                      }
-
-                      function ghz_stop() {
-                        document.getElementById('ghz').style.opacity = "0";
-                      }
-                      ghz_stop()
-                    </script>
                   </a>
                 </td>
                 <td class="right-column">
@@ -694,25 +591,15 @@
               </tr>
               <!-- /PAPER -->
               <!-- PAPER -->
-              <tr onmouseout="hndr_stop()" onmouseover="hndr_start()">
+              <tr class="project-row">
                 <td class="left-column">
                   <a href="https://light.princeton.edu/publication/hndr/">
                     <div class="one">
                       <div class="two" id='hndr'>
-                        <img src='images/hndr_after.gif' class="responsive-image" width="100%">
+                        <img src='images/hndr_after.gif' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src='images/hndr_before.png' class="responsive-image" width="100%">
+                      <img src='images/hndr_before.png' class="responsive-image" width="100%" alt="The Implicit Values of A Good Hand Shake: Handheld Multi-Frame Neural Depth Refinement" loading="lazy" decoding="async">
                     </div>
-                    <script type="text/javascript">
-                      function hndr_start() {
-                        document.getElementById('hndr').style.opacity = "1";
-                      }
-
-                      function hndr_stop() {
-                        document.getElementById('hndr').style.opacity = "0";
-                      }
-                      hndr_stop()
-                    </script>
                   </a>
                 </td>
                 <td class="right-column">
@@ -751,25 +638,15 @@
               <!-- /PAPER -->
 
               <!-- PAPER -->
-              <tr onmouseout="masktof_stop()" onmouseover="masktof_start()">
+              <tr class="project-row">
                 <td class="left-column">
                   <a href="https://light.princeton.edu/publication/mask-tof/">
                     <div class="one">
                       <div class="two" id='masktof'>
-                        <img src='images/masktof_after.gif' class="responsive-image" width="100%">
+                        <img src='images/masktof_after.gif' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src='images/masktof_before.png' class="responsive-image" width="100%">
+                      <img src='images/masktof_before.png' class="responsive-image" width="100%" alt="Mask-ToF: Learning Microlens Masks for Flying Pixel Correction in Time-of-Flight Imaging" loading="lazy" decoding="async">
                     </div>
-                    <script type="text/javascript">
-                      function masktof_start() {
-                        document.getElementById('masktof').style.opacity = "1";
-                      }
-
-                      function masktof_stop() {
-                        document.getElementById('masktof').style.opacity = "0";
-                      }
-                      masktof_stop()
-                    </script>
                   </a>
                 </td>
                 <td class="right-column">
@@ -807,25 +684,15 @@
               <!-- /PAPER -->
 
               <!-- PAPER -->
-              <tr onmouseout="jupyter_stop()" onmouseover="jupyter_start()">
+              <tr class="project-row">
                 <td class="left-column">
                   <a href="https://github.com/dominiccarrano/ee-120-labs">
                     <div class="one">
                       <div class="two" id='jupyter'>
-                        <img src='images/jupyter_after.png' class="responsive-image" width="100%">
+                        <img src='images/jupyter_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src='images/jupyter_before.png' class="responsive-image" width="100%">
+                      <img src='images/jupyter_before.png' class="responsive-image" width="100%" alt="Self-Contained Jupyter Notebook Labs Promote Scalable Signal Processing Education" loading="lazy" decoding="async">
                     </div>
-                    <script type="text/javascript">
-                      function jupyter_start() {
-                        document.getElementById('jupyter').style.opacity = "1";
-                      }
-
-                      function jupyter_stop() {
-                        document.getElementById('jupyter').style.opacity = "0";
-                      }
-                      jupyter_stop()
-                    </script>
                   </a>
                 </td>
                 <td class="right-column">
@@ -860,25 +727,15 @@
               <!-- /PAPER -->
 
               <!-- PAPER -->
-              <tr onmouseout="cest_stop()" onmouseover="cest_start()">
+              <tr class="project-row">
                 <td class="left-column">
                   <a href="http://users.ece.utexas.edu/~jtamir/files/papers/3450.html">
                     <div class="one">
                       <div class="two" id='cest'>
-                        <img src='images/cest_after.png' class="responsive-image" width="100%">
+                        <img src='images/cest_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src='images/cest_before.png' class="responsive-image" width="100%">
+                      <img src='images/cest_before.png' class="responsive-image" width="100%" alt="Multiscale Low-Rank Matrix Decomposition for Reconstruction of Accelerated Cardiac CEST MRI" loading="lazy" decoding="async">
                     </div>
-                    <script type="text/javascript">
-                      function cest_start() {
-                        document.getElementById('cest').style.opacity = "1";
-                      }
-
-                      function cest_stop() {
-                        document.getElementById('cest').style.opacity = "0";
-                      }
-                      cest_stop()
-                    </script>
                   </a>
                 </td>
                 <td class="right-column">
@@ -916,26 +773,16 @@
               <!-- /PAPER -->
 
               <!-- PAPER -->
-              <tr onmouseout="duodepth_stop()" onmouseover="duodepth_start()">
+              <tr class="project-row">
                 <td class="left-column">
                   <a href="https://github.com/Ilya-Muromets/DuoDepth" style="text-decoration:none;">
                     <div class="one">
                       <div class="two" id='duodepth'>
-                        <img src='images/duodepth_after.png' class="responsive-image" width="100%">
+                        <img src='images/duodepth_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
                       </div>
-                      <img src='images/duodepth_before.png' class="responsive-image" width="100%">
+                      <img src='images/duodepth_before.png' class="responsive-image" width="100%" alt="Duodepth: Static Gesture Recognition Via Dual Depth Sensors" loading="lazy" decoding="async">
                     </div>
                   </a>
-                  <script type="text/javascript">
-                    function duodepth_start() {
-                      document.getElementById('duodepth').style.opacity = "1";
-                    }
-
-                    function duodepth_stop() {
-                      document.getElementById('duodepth').style.opacity = "0";
-                    }
-                    duodepth_stop()
-                  </script>
                 </td>
                 <td class="right-column">
                   <a href="https://github.com/Ilya-Muromets/DuoDepth">
@@ -968,28 +815,18 @@
 
 
               <!-- PAPER -->
-              <!-- <tr onmouseout="graph_stop()" onmouseover="graph_start()">
+              <!-- <tr>
                 <td style="padding:2.5%;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='graph'>
-                      <img src='images/graph_after.png' width="100%">
+                      <img src='images/graph_after.png' width="100%" alt="" loading="lazy" decoding="async">
                     </div>
-                    <img src='images/graph_before.png' width="100%">
+                    <img src='images/graph_before.png' width="100%" alt="Inspection Route Optimization" loading="lazy" decoding="async">
                   </div>
-                  <script type="text/javascript">
-                    function graph_start() {
-                      document.getElementById('graph').style.opacity = "1";
-                    }
-
-                    function graph_stop() {
-                      document.getElementById('graph').style.opacity = "0";
-                    }
-                    graph_stop()
-                  </script>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="http://www.crm.math.ca/pub/Rapports/3300-3399/3369.pdf">
-                    <papertitle><z>Inspection Route Optimization</z><papertitle>
+                    <papertitle><z>Inspection Route Optimization</z></papertitle>
                   </a>
                   <br>
                   <a href="https://scholar.google.fr/citations?user=GZ8UOVsAAAAJ">Bernard Gendron</a>,
@@ -1017,7 +854,7 @@
                     <td style="padding:0px">
                       <br>
                       <p style="text-align:right;font-size:7pt;color: gray;">
-                        Website template stolen from <a href="https://jonbarron.info/" , style="font-size: 7pt">
+                        Website template stolen from <a href="https://jonbarron.info/" style="font-size: 7pt">
                           <z>Bon
                             Jarron</z>
                         </a>.

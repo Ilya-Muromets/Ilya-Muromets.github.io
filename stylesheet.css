@@ -4,8 +4,8 @@ a, a:link, a:visited {
 }
 
 a:hover {
-  color: #8c6826; /* Slightly darker color on hover for contrast */
-  text-decoration: none;
+  color: #ffe4b8; /* Brighter on hover: increases contrast rather than reducing it */
+  text-decoration: underline;
 }
 
 body,
@@ -16,6 +16,7 @@ p,
 a {
   font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 16px;
+  line-height: 1.6; /* Light-on-dark text needs extra leading to stay readable */
   color: #f2f2f2; /* Light grey text for readability on dark backgrounds */
 }
 
@@ -35,8 +36,9 @@ x {
 }
 
 x:hover {
-  color: #8c6826; /* Slightly darker color on hover for contrast */
-  text-decoration: none;
+  color: #ffe4b8;
+  text-decoration: underline;
+  text-decoration-color: #ffe4b8;
 }
 
 z {
@@ -48,8 +50,7 @@ bb {
 }
 
 z:hover {
-  color: #8c6826; /* Slightly darker color on hover for contrast */
-  text-decoration: none;
+  color: #ffe4b8;
 }
 
 b {
@@ -103,6 +104,8 @@ name {
 .intro-name {
   grid-area: name;
   margin: 0.4em 0 0.6em;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 .intro-text {
@@ -150,9 +153,17 @@ name {
 .two {
   position: absolute;
   z-index: 1;
+  opacity: 0; /* Revealed on hover via CSS; previously set by inline JS on load */
   transition: opacity .5s ease-in-out;
   -moz-transition: opacity .5s ease-in-out;
   -webkit-transition: opacity .5s ease-in-out;
+}
+
+/* Before/after reveal. Hovering anywhere in a project row swaps the thumbnail,
+   matching the old per-row onmouseover handlers. */
+.project-row:hover .two,
+.intro-photo:hover .two {
+  opacity: 1;
 }
 
 .left-column .responsive-image {
@@ -197,8 +208,10 @@ body {
   vertical-align: middle;
 }
 
-/* Adjustments for mobile devices */
-@media (pointer:none), (pointer:coarse) {
+/* Adjustments for narrow viewports (phones, small tablets, resized windows).
+   Previously keyed on (pointer:coarse), which mis-fired on touchscreen laptops
+   and never responded to window resizing on desktop. */
+@media (max-width: 768px) {
   body,
   td,
   th,
@@ -211,7 +224,7 @@ body {
   }
 
   strong {
-    color: #b21f1f;
+    color: #ff7f50; /* Was #b21f1f: too dark to read on a black background */
     font-family: Arial, Verdana, Helvetica, sans-serif;
     font-size: 16px;
   }
