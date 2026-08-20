@@ -31,841 +31,544 @@
 </head>
 
 <body>
-  <table
-    style="width:100%;max-width:1080px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <div class="intro">
-            <h1 class="intro-name">
-              <img class="name-svg" src="data/name.svg" alt="Ilya Chugunov" width="480" height="100" fetchpriority="high" />
-            </h1>
+  <div class="page">
 
-            <!-- PROFILE -->
-            <div class="intro-photo">
-              <div class="one">
-                <div class="two" id="profile_after">
-                  <img src="images/profile_after.png" width="100%" alt="" decoding="async">
-                </div>
-                <img src="images/profile_before.png" width="100%" alt="Ilya Chugunov" decoding="async">
-              </div>
-            </div>
-            <!-- /PROFILE -->
+    <header class="intro">
+      <h1 class="intro-name">
+        <img class="name-svg" src="data/name.svg" alt="Ilya Chugunov" width="480" height="100" fetchpriority="high" />
+      </h1>
 
-            <div class="intro-text">
-              <p> <b>About:</b> &nbsp; I'm a Research Scientist based in Seattle, working with the Adobe Nextcam team on <a href="https://research.adobe.com/articles/indigo/indigo.html">computational photography</a>. I received my Ph.D. from Princeton University, where I was part of the <a href="https://light.princeton.edu/">Princeton Computational Imaging Lab</a> advised by Professor <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>, and was supported by the <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship</a>. I earned my bachelor's degree in electrical engineering and computer science from <a href="https://eecs.berkeley.edu/" title="University of California, Broccoli">UC Berkeley</a>. </p>
-
-              <!-- begone bot -->
-              <p><b>Contact:</b> &nbsp; <code> <a href="segfault.html">cout</a>
-                  << "contact" << "@" << <span title="if you add 'quack quack' somewhere in your email it will garauntee that it's not accidentally sent to my spam">"ilyac.info"</span> </code>
-              </p>
-
-              <p>
-                <b>Professional:</b> &nbsp;
-                <a href="cv.html">CV</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=UYMug74AAAAJ">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://github.com/Ilya-Muromets/">Github</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/ilya-c/">LinkedIn</a> &nbsp;/&nbsp;
-                <a href="https://bsky.app/profile/ilyac.info/">bsky</a>
-              </p>
-              <p>
-                <b>Unprofessional:</b> &nbsp;
-                <a href="https://www.instagram.com/_ilya_c/">My Photography</a> &nbsp;/&nbsp;
-                <a href="notes.html"> Quotes </a>
-              </p>
-            </div>
+      <div class="intro-photo">
+        <div class="one">
+          <div class="two">
+            <picture>
+              <source srcset="images/profile_after.webp" type="image/webp">
+              <img src="images/profile_after.png" width="100%" alt="" decoding="async">
+            </picture>
           </div>
-          <br>
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:top">
-                  <heading><b>Research:</b></heading>
-                  <p>
-                    I'm interested in <bb>computational photography</bb> and <bb>inverse problems</bb> that look at the
-                    whole imaging pipeline, from signal collection to scene reconstruction. MRIs, modulated light
-                    sources, or mobile phones; I love working with real devices and real data.
-                  </p>
-                  <p>
-                    Over the course of my research I've written a number of <bb>open-source data collection apps</bb>:
-                    <br>
-                  <ul>
-                    <li><a href="https://github.com/Ilya-Muromets/Pani"> <x>Pani (Android, camera2)</x></a> : An all-in-one
-                      camera app for continuous recording of Bayer RAWs, accelerometer values, gyroscope measurements,
-                      and a metric ton of device metadata from <bb>multiple camera configurations</bb> (main, ultrawide,
-                      telephoto).</li><br>
-                    <li><a href="https://github.com/princeton-computational-imaging/SoaP/tree/main/!App"> <x>SoaP-App (iOS,
-                      AVFoundation)</x></a> : A "long-burst" capture app for recording up to 42 frame sequences of Bayer
-                      RAWs, <bb>depth maps</bb>, accelerometer values, gyroscope measurements, and metadata.</li><br>
-                    <li><a href="https://github.com/princeton-computational-imaging/HNDR/tree/main/!DepthBundleApp">
-                        <x>HNDR-App (iOS, ARKit)</x></a> : A "long-burst" capture app for recording up to 120 frame sequences
-                      of processed RGB images, depth maps, and <bb>pose estimates</bb> (from ARKit world tracking).</li>
-                  </ul>
+          <picture>
+            <source srcset="images/profile_before.webp" type="image/webp">
+            <img src="images/profile_before.png" class="responsive-image" width="100%" alt="Ilya Chugunov" decoding="async">
+          </picture>
+        </div>
+      </div>
 
-                  </p>
-                  <hr>
-                  <p style="margin-top:0.5em;margin-bottom:0em;">
-                    <code style="font-size: 90%;">"If you try and take a cat apart to see how it works, the first thing you have on your hands is a non-working cat."
-                    <br> - Douglas Adams</code>
-                  </p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
+      <div class="intro-text">
+        <p> <b>About:</b> &nbsp; I'm a Research Scientist based in Seattle, working with the Adobe Nextcam team on <a href="https://research.adobe.com/articles/indigo/indigo.html">computational photography</a>. I received my Ph.D. from Princeton University, where I was part of the <a href="https://light.princeton.edu/">Princeton Computational Imaging Lab</a> advised by Professor <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>, and was supported by the <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship</a>. I earned my bachelor's degree in electrical engineering and computer science from <a href="https://eecs.berkeley.edu/" title="University of California, Broccoli">UC Berkeley</a>. </p>
 
-              <!-- BEGIN PAPERS -->
+        <!-- begone bot -->
+        <p><b>Contact:</b> &nbsp; <code> <a href="segfault.html">cout</a>
+            << "contact" << "@" << <span title="if you add 'quack quack' somewhere in your email it will garauntee that it's not accidentally sent to my spam">"ilyac.info"</span> </code>
+        </p>
 
-              <!-- PROJECT -->
-              <tr style="background-color: rgba(179, 89, 56, 0.15); box-shadow: 0 0 0 100vw rgba(179, 89, 56, 0.15); clip-path: inset(0 -100vw);" class="project-row">
-                <td class="left-column">
-                  <a href="https://research.adobe.com/articles/indigo/indigo.html">
-                    <div class="one">
-                      <div class="two" id="indigo">
-                        <img src="images/indigo_after.jpg" class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src="images/indigo_before.jpg" class="responsive-image" width="100%" alt="Project Indigo" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="https://research.adobe.com/articles/indigo/indigo.html">
-                    <papertitle>
-                      <z>Project Indigo</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <y>Adobe Nextcam</y>
-                  <p class="desktop-only">
-                    Experimental iOS computational photography app and research platform for ML-based multi-frame fusion, color correction, super-resolution, and related imaging applications, serving as a testbed for on-device model deployment.
-                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only" style="background-color: rgba(179, 89, 56, 0.15); box-shadow: 0 0 0 100vw rgba(179, 89, 56, 0.15); clip-path: inset(0 -100vw);">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                    Experimental iOS computational photography app and research platform for ML-based multi-frame fusion, color correction, super-resolution, and related imaging applications, serving as a testbed for on-device model deployment.
-                  </p>
-                </td>
-              </tr>
-              <!-- /PROJECT -->
+        <p>
+          <b>Professional:</b> &nbsp;
+          <a href="cv.html">CV</a> &nbsp;/&nbsp;
+          <a href="https://scholar.google.com/citations?user=UYMug74AAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+          <a href="https://github.com/Ilya-Muromets/">Github</a> &nbsp;/&nbsp;
+          <a href="https://www.linkedin.com/in/ilya-c/">LinkedIn</a> &nbsp;/&nbsp;
+          <a href="https://bsky.app/profile/ilyac.info/">bsky</a>
+        </p>
+        <p>
+          <b>Unprofessional:</b> &nbsp;
+          <a href="https://www.instagram.com/_ilya_c/">My Photography</a> &nbsp;/&nbsp;
+          <a href="notes.html"> Quotes </a>
+        </p>
 
-              <!-- PAPER -->
-              <tr class="project-row">
-                <td class="left-column">
-                  <a href="https://www.dekelgalor.com/hist2style">
-                    <div class="one">
-                      <div class="two" id='hist2style'>
-                        <img src='images/hist2style_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src='images/hist2style_before.png' class="responsive-image" width="100%" alt="Hist2Style: Histogram-Guided Stylization" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="https://www.dekelgalor.com/hist2style">
-                    <papertitle>
-                      <z>Hist2Style: Histogram-Guided Stylization</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <y>Dekel Galor</y>,
-                  <y>Adam Pikielny</y>,
-                  <y>Zhoutong Zhang</y>,
-                  <y>Ke Wang</y>,
-                  <y>Laura Waller</y>,
-                  <y>Jiawen Chen</y>,
-                  <ilya>Ilya Chugunov</ilya>
-                  <br>
-                  <em>CVPR</em>, 2026
-                  <p class="desktop-only">
-                    Hist2Style is a lightweight bilateral-grid network that performs real-time, high-resolution photorealistic style transfer via locally affine color transforms conditioned on a histogram embedding of the style target, distilled from a large image editing model trained on a synthetically generated corpus of spatially varying color edits.
-                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                    Hist2Style is a lightweight bilateral-grid network that performs real-time, high-resolution photorealistic style transfer via locally affine color transforms conditioned on a histogram embedding of the style target, distilled from a large image editing model trained on a synthetically generated corpus of spatially varying color edits.
-                  </p>
-                </td>
-              </tr>
-              <!-- /PAPER -->
+      </div>
+    </header>
 
-              <!-- PAPER -->
-              <tr class="project-row">
-                <td class="left-column">
-                  <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-5-7429">
-                    <div class="one">
-                      <div class="two" id='endoscope'>
-                        <img src='images/endoscope_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src='images/endoscope_before.png' class="responsive-image" width="100%" alt="Seeing Through Fibers: Unsupervised Image Reconstruction in Fiber Bundle Imaging Systems" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-5-7429">
-                    <papertitle>
-                      <z>Seeing Through Fibers: Unsupervised Image Reconstruction in Fiber Bundle Imaging Systems</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <y>Amir Reza Vazifeh</y>,
-                  <y>Congli Wang</y>,
-                  <y>Amogh Joshi</y>,
-                  <ilya>Ilya Chugunov</ilya>,
-                  <y>Jipeng Sun</y>,
-                  <y>Jiwoon Yeom</y>,
-                  <y>Jason W. Fleischer</y>,
-                  <y>Jos&eacute; S. Pulido</y>,
-                  <y>Felix Heide</y>
-                  <br>
-                  <em>Optics Express</em>, 2026
-                  <p class="desktop-only">
-                    An unsupervised test-time training approach for fiber bundle image reconstruction that jointly estimates inter-frame motion and learns a super-resolved scene representation via two coordinate-based networks, requiring no fiber layout calibration, paired training data, or per-sample preparation.
-                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                    An unsupervised test-time training approach for fiber bundle image reconstruction that jointly estimates inter-frame motion and learns a super-resolved scene representation via two coordinate-based networks, requiring no fiber layout calibration, paired training data, or per-sample preparation.
-                  </p>
-                </td>
-              </tr>
-              <!-- /PAPER -->
+    <section class="research">
+      <h2 class="heading"><b>Research:</b></h2>
+      <p>
+        I'm interested in <span class="hl">computational photography</span> and <span class="hl">inverse problems</span> that look at the
+        whole imaging pipeline, from signal collection to scene reconstruction. MRIs, modulated light
+        sources, or mobile phones; I love working with real devices and real data.
+      </p>
+      <p>
+        Over the course of my research I've written a number of <span class="hl">open-source data collection apps</span>:
+        <br>
+      <ul>
+        <li><a href="https://github.com/Ilya-Muromets/Pani"> <span class="applink">Pani (Android, camera2)</span></a> : An all-in-one
+          camera app for continuous recording of Bayer RAWs, accelerometer values, gyroscope measurements,
+          and a metric ton of device metadata from <span class="hl">multiple camera configurations</span> (main, ultrawide,
+          telephoto).</li><br>
+        <li><a href="https://github.com/princeton-computational-imaging/SoaP/tree/main/!App"> <span class="applink">SoaP-App (iOS,
+          AVFoundation)</span></a> : A "long-burst" capture app for recording up to 42 frame sequences of Bayer
+          RAWs, <span class="hl">depth maps</span>, accelerometer values, gyroscope measurements, and metadata.</li><br>
+        <li><a href="https://github.com/princeton-computational-imaging/HNDR/tree/main/!DepthBundleApp">
+            <span class="applink">HNDR-App (iOS, ARKit)</span></a> : A "long-burst" capture app for recording up to 120 frame sequences
+          of processed RGB images, depth maps, and <span class="hl">pose estimates</span> (from ARKit world tracking).</li>
+      </ul>
 
-              <!-- PAPER -->
-              <tr class="project-row">
-                <td class="left-column">
-                  <a href="https://princeton-computational-imaging.github.io/nag/">
-                    <div class="one">
-                      <div class="two" id='nag'>
-                        <img src='images/nag_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src='images/nag_before.png' class="responsive-image" width="100%" alt="Neural Atlas Graphs for Dynamic Scene Decomposition and Editing" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="https://princeton-computational-imaging.github.io/nag/">
-                    <papertitle>
-                      <z>Neural Atlas Graphs for Dynamic Scene Decomposition and Editing</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <a href="https://janphilippschneider.com/">Jan Philipp Schneider</a>,
-                  <a href="https://pratiksinghbisht.github.io/">Pratik Singh Bisht</a>,
-                  <ilya>Ilya Chugunov</ilya>,
-                  <a href="https://www.uni-siegen.de/et/amt/kolb/">Andreas Kolb</a>,
-                  <a href="https://sites.google.com/view/michaelmoeller">Michael Moeller</a>,
-                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
-                  <br>
-                  <em>NeurIPS</em>, 2025 (Spotlight)
-                  <p class="desktop-only">
-                    Neural Atlas Graphs are a hybrid 2.5D representation for high-resolution, editable dynamic scenes. They model a scene as a graph of moving planes in 3D, each equipped with a view-dependent neural atlas. This structure supports both 2D appearance editing and 3D re-ordering of scene elements, enabling rendering counterfactual scenarios with new backgrounds and modified object appearance.                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                    Neural Atlas Graphs are a hybrid 2.5D representation for high-resolution, editable dynamic scenes. They model a scene as a graph of moving planes in 3D, each equipped with a view-dependent neural atlas. This structure supports both 2D appearance editing and 3D re-ordering of scene elements, enabling rendering counterfactual scenarios with new backgrounds and modified object appearance.
-                  </p>
-                </td>
-              </tr>
-              <!-- /PAPER -->
+      </p>
+      <hr>
+      <p style="margin-top:0.5em;margin-bottom:0em;">
+        <code style="font-size: 90%;">"If you try and take a cat apart to see how it works, the first thing you have on your hands is a non-working cat."
+        <br> - Douglas Adams</code>
+      </p>
 
-              <!-- PAPER -->
-              <tr style="background-color: rgba(179, 89, 56, 0.15); box-shadow: 0 0 0 100vw rgba(179, 89, 56, 0.15); clip-path: inset(0 -100vw);" class="project-row">
-                <td class="left-column">
-                  <a href="https://arxiv.org/pdf/2508.05907">
-                    <div class="one">
-                      <div class="two" id='thesis'>
-                        <img src='images/thesis_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src='images/thesis_before.png' class="responsive-image" width="100%" alt="Neural Field Representations of Mobile Computational Photography" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="https://arxiv.org/pdf/2508.05907">
-                    <papertitle>
-                      <z>Neural Field Representations of Mobile Computational Photography</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <ilya>Ilya Chugunov</ilya>
-                  <br>
-                  <br>
-                  My PhD Dissertation, <em>Princeton University</em>, 2025
-                  <br>
-                  <p class="desktop-only">
-                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only" style="background-color: rgba(179, 89, 56, 0.15); box-shadow: 0 0 0 100vw rgba(179, 89, 56, 0.15); clip-path: inset(0 -100vw);">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                  </p>
-                </td>
-              </tr>
-              <!-- /PAPER -->
+    </section>
 
-              <!-- PAPER -->
-              <tr class="project-row">
-                <td class="left-column">
-                  <a href="https://light.princeton.edu/publication/neuls/">
-                    <div class="one">
-                      <div class="two" id='neuls'>
-                        <img src='images/neuls_after.gif' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src='images/neuls_before.png' class="responsive-image" width="100%" alt="Neural Light Spheres for Implicit Image Stitching and View Synthesis" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="https://light.princeton.edu/publication/neuls/">
-                    <papertitle>
-                      <z>Neural Light Spheres for Implicit Image Stitching and View Synthesis</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <ilya>Ilya Chugunov</ilya>,
-                  <a href="https://amogh7joshi.github.io/">Amogh Joshi</a>,
-                  <a href="https://scholar.google.com/citations?user=6PhlPWMAAAAJ">Kiran Murthy</a>,
-                  <a href="https://scholar.google.com/citations?user=VKh7DykAAAAJ">Francois Bleibel</a>,
-                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
-                  <br>
-                  <em>SIGGRAPH Asia</em>, 2024
-                  <p class="desktop-only">
-                    We design a spherical neural light field model for implicit panoramic image stitching and re-rendering, capable of handling depth parallax, view-dependent lighting, and scene motion. Our compact model decomposes the scene into view-dependent ray offset and color components, and with no volume sampling achieves real-time 1080p rendering.
-                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                    We design a spherical neural light field model for implicit panoramic image stitching and re-rendering, capable of handling depth parallax, view-dependent lighting, and scene motion. Our compact model decomposes the scene into view-dependent ray offset and color components, and with no volume sampling achieves real-time 1080p rendering.
-                  </p>
-                </td>
-              </tr>
-              <!-- /PAPER -->
+    <section class="projects">
+      <article class="project featured">
+        <a class="project-media" href="https://research.adobe.com/articles/indigo/indigo.html" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <img src="images/indigo_after.jpg" class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
+            </div>
+            <img src="images/indigo_before.jpg" class="responsive-image" width="100%" alt="Project Indigo" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="https://research.adobe.com/articles/indigo/indigo.html">Project Indigo</a></h2>
+          <p class="project-meta">
+            <span class="author">Adobe Nextcam</span>
+          </p>
+        </div>
+        <p class="project-desc">
+          Experimental iOS computational photography app and research platform for ML-based multi-frame fusion, color
+          correction, super-resolution, and related imaging applications, serving as a testbed for on-device model
+          deployment.
+        </p>
+      </article>
 
+      <article class="project">
+        <a class="project-media" href="https://www.dekelgalor.com/hist2style" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <img src="images/hist2style_after.png" class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
+            </div>
+            <img src="images/hist2style_before.png" class="responsive-image" width="100%" alt="Hist2Style: Histogram-Guided Stylization" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="https://www.dekelgalor.com/hist2style">Hist2Style: Histogram-Guided Stylization</a></h2>
+          <p class="project-meta">
+            <span class="author">Dekel Galor</span>,
+                            <span class="author">Adam Pikielny</span>,
+                            <span class="author">Zhoutong Zhang</span>,
+                            <span class="author">Ke Wang</span>,
+                            <span class="author">Laura Waller</span>,
+                            <span class="author">Jiawen Chen</span>,
+                            <span class="author-me">Ilya Chugunov</span>
+                            <br>
+                            <em>CVPR</em>, 2026
+          </p>
+        </div>
+        <p class="project-desc">
+          Hist2Style is a lightweight bilateral-grid network that performs real-time, high-resolution photorealistic
+          style transfer via locally affine color transforms conditioned on a histogram embedding of the style target,
+          distilled from a large image editing model trained on a synthetically generated corpus of spatially varying
+          color edits.
+        </p>
+      </article>
 
+      <article class="project">
+        <a class="project-media" href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-5-7429" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <img src="images/endoscope_after.png" class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
+            </div>
+            <img src="images/endoscope_before.png" class="responsive-image" width="100%" alt="Seeing Through Fibers: Unsupervised Image Reconstruction in Fiber Bundle Imaging Systems" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-5-7429">Seeing Through Fibers: Unsupervised Image Reconstruction in Fiber Bundle Imaging Systems</a></h2>
+          <p class="project-meta">
+            <span class="author">Amir Reza Vazifeh</span>,
+                            <span class="author">Congli Wang</span>,
+                            <span class="author">Amogh Joshi</span>,
+                            <span class="author-me">Ilya Chugunov</span>,
+                            <span class="author">Jipeng Sun</span>,
+                            <span class="author">Jiwoon Yeom</span>,
+                            <span class="author">Jason W. Fleischer</span>,
+                            <span class="author">Jos&eacute; S. Pulido</span>,
+                            <span class="author">Felix Heide</span>
+                            <br>
+                            <em>Optics Express</em>, 2026
+          </p>
+        </div>
+        <p class="project-desc">
+          An unsupervised test-time training approach for fiber bundle image reconstruction that jointly estimates
+          inter-frame motion and learns a super-resolved scene representation via two coordinate-based networks,
+          requiring no fiber layout calibration, paired training data, or per-sample preparation.
+        </p>
+      </article>
 
-              <!-- PAPER -->
-              <tr class="project-row">
-                <td class="left-column">
-                  <a href="https://light.princeton.edu/publication/2in1-camera/">
-                    <div class="one">
-                      <div class="two" id='splitaperture'>
-                        <img src='images/splitaperture_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src='images/splitaperture_before.png' class="responsive-image" width="100%" alt="Split-Aperture 2-in-1 Computational Cameras" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="https://light.princeton.edu/publication/2in1-camera/">
-                    <papertitle>
-                      <z>Split-Aperture 2-in-1 Computational Cameras</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <a href="https://zheng-shi.github.io/">Zheng Shi*</a>,
-                  <ilya>Ilya Chugunov*</ilya>,
-                  <a href="http://mariobijelic.de/wordpress/">Mario Bijelic</a>,
-                  <a href="https://scholar.google.ca/citations?user=7lWpsmYAAAAJ&hl=en">Geoffroi Côté</a>,
-                  <a href="https://jiwoonyeom.wordpress.com/">Jiwoon Yeom</a>,
-                  <a href="https://vccimaging.org/People/fuq/">Qiang Fu</a>,
-                  <a href="https://vccimaging.org/People/amatah/">Hadi Amata</a>,
-                  <a href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>,
-                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
-                  <br>
-                  <em>SIGGRAPH</em>, 2024
-                  <p class="desktop-only">
-                    Split-aperture 2-in-1 computational cameras encode half the aperture with a diffractive optical
-                    element to simultaneously capture optically coded and conventional images in a single device. Using
-                    a dual-pixel sensor, our camera separates the wavefronts, retaining high-frequency content and
-                    enabling single-shot high-dynamic-range, hyperspectral, and depth imaging.
-                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                    Split-aperture 2-in-1 computational cameras encode half the aperture with a diffractive optical
-                    element to simultaneously capture optically coded and conventional images in a single device. Using
-                    a dual-pixel sensor, our camera separates the wavefronts, retaining high-frequency content and
-                    enabling single-shot high-dynamic-range, hyperspectral, and depth imaging.
-                  </p>
-                </td>
-              </tr>
-              <!-- /PAPER -->
+      <article class="project">
+        <a class="project-media" href="https://princeton-computational-imaging.github.io/nag/" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <img src="images/nag_after.png" class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
+            </div>
+            <img src="images/nag_before.png" class="responsive-image" width="100%" alt="Neural Atlas Graphs for Dynamic Scene Decomposition and Editing" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="https://princeton-computational-imaging.github.io/nag/">Neural Atlas Graphs for Dynamic Scene Decomposition and Editing</a></h2>
+          <p class="project-meta">
+            <a href="https://janphilippschneider.com/">Jan Philipp Schneider</a>,
+                            <a href="https://pratiksinghbisht.github.io/">Pratik Singh Bisht</a>,
+                            <span class="author-me">Ilya Chugunov</span>,
+                            <a href="https://www.uni-siegen.de/et/amt/kolb/">Andreas Kolb</a>,
+                            <a href="https://sites.google.com/view/michaelmoeller">Michael Moeller</a>,
+                            <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                            <br>
+                            <em>NeurIPS</em>, 2025 (Spotlight)
+          </p>
+        </div>
+        <p class="project-desc">
+          Neural Atlas Graphs are a hybrid 2.5D representation for high-resolution, editable dynamic scenes. They
+          model a scene as a graph of moving planes in 3D, each equipped with a view-dependent neural atlas. This
+          structure supports both 2D appearance editing and 3D re-ordering of scene elements, enabling rendering
+          counterfactual scenarios with new backgrounds and modified object appearance.
+        </p>
+      </article>
 
+      <article class="project featured">
+        <a class="project-media" href="https://arxiv.org/pdf/2508.05907" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <img src="images/thesis_after.png" class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
+            </div>
+            <img src="images/thesis_before.png" class="responsive-image" width="100%" alt="Neural Field Representations of Mobile Computational Photography" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="https://arxiv.org/pdf/2508.05907">Neural Field Representations of Mobile Computational Photography</a></h2>
+          <p class="project-meta">
+            <span class="author-me">Ilya Chugunov</span>
+                            <br>
+                            <br>
+                            My PhD Dissertation, <em>Princeton University</em>, 2025
+          </p>
+        </div>
+      </article>
 
+      <article class="project">
+        <a class="project-media" href="https://light.princeton.edu/publication/neuls/" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <video class="responsive-image" muted loop playsinline preload="none" poster="images/neuls_after_poster.jpg" width="100%" aria-hidden="true"><source src="images/neuls_after.mp4" type="video/mp4"></video>
+            </div>
+            <img src="images/neuls_before.png" class="responsive-image" width="100%" alt="Neural Light Spheres for Implicit Image Stitching and View Synthesis" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="https://light.princeton.edu/publication/neuls/">Neural Light Spheres for Implicit Image Stitching and View Synthesis</a></h2>
+          <p class="project-meta">
+            <span class="author-me">Ilya Chugunov</span>,
+                            <a href="https://amogh7joshi.github.io/">Amogh Joshi</a>,
+                            <a href="https://scholar.google.com/citations?user=6PhlPWMAAAAJ">Kiran Murthy</a>,
+                            <a href="https://scholar.google.com/citations?user=VKh7DykAAAAJ">Francois Bleibel</a>,
+                            <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                            <br>
+                            <em>SIGGRAPH Asia</em>, 2024
+          </p>
+        </div>
+        <p class="project-desc">
+          We design a spherical neural light field model for implicit panoramic image stitching and re-rendering,
+          capable of handling depth parallax, view-dependent lighting, and scene motion. Our compact model decomposes
+          the scene into view-dependent ray offset and color components, and with no volume sampling achieves real-
+          time 1080p rendering.
+        </p>
+      </article>
 
-              <!-- PAPER -->
-              <tr class="project-row">
-                <td class="left-column">
-                  <a href="https://light.princeton.edu/publication/nsf/">
-                    <div class="one">
-                      <div class="two" id='nsf'>
-                        <img src='images/nsf_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src='images/nsf_before.png' class="responsive-image" width="100%" alt="Neural Spline Fields for Burst Image Fusion and Layer Separation" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="https://light.princeton.edu/publication/nsf/">
-                    <papertitle>
-                      <z>Neural Spline Fields for Burst Image Fusion and Layer Separation</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <ilya>Ilya Chugunov</ilya>,
-                  <a href="https://www.linkedin.com/in/david-shustin/">David Shustin</a>,
-                  <a href="https://yanruyu126.github.io/">Ruyu Yan</a>,
-                  <a href="https://chenyanglei.github.io/">Chenyang Lei</a>,
-                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
-                  <br>
-                  <em>CVPR</em>, 2024
-                  <p class="desktop-only">
-                    We propose neural spline fields, coordinate networks trained to map input 2D points to vectors of
-                    spline control points, as a versatile representation of pixel motion during burst photography. This
-                    flow model can fuse images during test-time optimization using just photometric loss, without
-                    regularization. Layering these representations, we can separate effects such as occlusions,
-                    reflections, shadows and more.
-                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                    We propose neural spline fields, coordinate networks trained to map input 2D points to vectors of
-                    spline control points, as a versatile representation of pixel motion during burst photography. This
-                    flow model can fuse images during test-time optimization using just photometric loss, without
-                    regularization. Layering these representations, we can separate effects such as occlusions,
-                    reflections, shadows and more.
-                  </p>
-                </td>
-              </tr>
-              <!-- /PAPER -->
+      <article class="project">
+        <a class="project-media" href="https://light.princeton.edu/publication/2in1-camera/" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <img src="images/splitaperture_after.png" class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
+            </div>
+            <img src="images/splitaperture_before.png" class="responsive-image" width="100%" alt="Split-Aperture 2-in-1 Computational Cameras" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="https://light.princeton.edu/publication/2in1-camera/">Split-Aperture 2-in-1 Computational Cameras</a></h2>
+          <p class="project-meta">
+            <a href="https://zheng-shi.github.io/">Zheng Shi*</a>,
+                            <span class="author-me">Ilya Chugunov*</span>,
+                            <a href="http://mariobijelic.de/wordpress/">Mario Bijelic</a>,
+                            <a href="https://scholar.google.ca/citations?user=7lWpsmYAAAAJ&hl=en">Geoffroi Côté</a>,
+                            <a href="https://jiwoonyeom.wordpress.com/">Jiwoon Yeom</a>,
+                            <a href="https://vccimaging.org/People/fuq/">Qiang Fu</a>,
+                            <a href="https://vccimaging.org/People/amatah/">Hadi Amata</a>,
+                            <a href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>,
+                            <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                            <br>
+                            <em>SIGGRAPH</em>, 2024
+          </p>
+        </div>
+        <p class="project-desc">
+          Split-aperture 2-in-1 computational cameras encode half the aperture with a diffractive optical element to
+          simultaneously capture optically coded and conventional images in a single device. Using a dual-pixel
+          sensor, our camera separates the wavefronts, retaining high-frequency content and enabling single-shot high-
+          dynamic-range, hyperspectral, and depth imaging.
+        </p>
+      </article>
 
-              <!-- PAPER -->
-              <tr class="project-row">
-                <td class="left-column">
-                  <a href="https://light.princeton.edu/publication/soap/">
-                    <div class="one">
-                      <div class="two" id='soap'>
-                        <img src='images/soap_after.gif' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src='images/soap_before.png' class="responsive-image" width="100%" alt="Shakes on a Plane: Unsupervised Depth Estimation from Unstabilized Photography" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="https://light.princeton.edu/publication/soap/">
-                    <papertitle>
-                      <z>Shakes on a Plane: Unsupervised Depth Estimation from Unstabilized Photography</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <ilya>Ilya Chugunov</ilya>,
-                  <a href="https://www.alexyuxuanzhang.com/">Yuxuan Zhang</a>,
-                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
-                  <br>
-                  <em>CVPR</em>, 2023
-                  <p class="desktop-only">
-                    In a “long-burst”, forty-two 12-megapixel RAW frames captured in a two-second sequence, there is
-                    enough parallax information from natural hand tremor alone to recover high-quality scene depth. We
-                    fit a neural RGB-D model directly to this long-burst data to recover depth and camera motion with no
-                    LiDAR, no external pose estimates, and no disjoint preprocessing steps.
-                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                    In a “long-burst”, forty-two 12-megapixel RAW frames captured in a two-second sequence, there is
-                    enough parallax information from natural hand tremor alone to recover high-quality scene depth. We
-                    fit a neural RGB-D model directly to this long-burst data to recover depth and camera motion with no
-                    LiDAR, no external pose estimates, and no disjoint preprocessing steps.
-                  </p>
-                </td>
-              </tr>
-              <!-- /PAPER -->
+      <article class="project">
+        <a class="project-media" href="https://light.princeton.edu/publication/nsf/" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <video class="responsive-image" muted loop playsinline preload="none" poster="images/nsf_after_poster.jpg" width="100%" aria-hidden="true"><source src="images/nsf_after.mp4" type="video/mp4"></video>
+            </div>
+            <img src="images/nsf_before.png" class="responsive-image" width="100%" alt="Neural Spline Fields for Burst Image Fusion and Layer Separation" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="https://light.princeton.edu/publication/nsf/">Neural Spline Fields for Burst Image Fusion and Layer Separation</a></h2>
+          <p class="project-meta">
+            <span class="author-me">Ilya Chugunov</span>,
+                            <a href="https://www.linkedin.com/in/david-shustin/">David Shustin</a>,
+                            <a href="https://yanruyu126.github.io/">Ruyu Yan</a>,
+                            <a href="https://chenyanglei.github.io/">Chenyang Lei</a>,
+                            <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                            <br>
+                            <em>CVPR</em>, 2024
+          </p>
+        </div>
+        <p class="project-desc">
+          We propose neural spline fields, coordinate networks trained to map input 2D points to vectors of spline
+          control points, as a versatile representation of pixel motion during burst photography. This flow model can
+          fuse images during test-time optimization using just photometric loss, without regularization. Layering
+          these representations, we can separate effects such as occlusions, reflections, shadows and more.
+        </p>
+      </article>
 
-              <!-- PAPER -->
-              <tr class="project-row">
-                <td class="left-column">
-                  <a href="https://light.princeton.edu/publication/gensdf/">
-                    <div class="one">
-                      <div class="two" id='gensdf'>
-                        <img src='images/gensdf_after.gif' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src='images/gensdf_before.png' class="responsive-image" width="100%" alt="GenSDF: Two-Stage Learning of Generalizable Signed Distance Functions" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="https://light.princeton.edu/publication/gensdf/">
-                    <papertitle>
-                      <z>GenSDF: Two-Stage Learning of Generalizable Signed Distance Functions</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <a href="https://genechou.com/">Gene Chou</a>,
-                  <ilya>Ilya Chugunov</ilya>,
-                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
-                  <br>
-                  <em>NeurIPS</em>, 2022 (Featured)
-                  <p class="desktop-only">
-                    Signed distance fields (SDFs) can be a compact and convenient way of representing 3D objects, but
-                    state-of-the-art learned methods for SDF estimation struggle to fit more than a few shapes at a
-                    time. This work presents a two stage semi-supervised meta-learning approach that learns generic
-                    shape priors to reconstruct over a hundred unseen object classes.
-                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                    Signed distance fields (SDFs) can be a compact and convenient way of representing 3D objects, but
-                    state-of-the-art learned methods for SDF estimation struggle to fit more than a few shapes at a
-                    time. This work presents a two stage semi-supervised meta-learning approach that learns generic
-                    shape priors to reconstruct over a hundred unseen object classes.
-                  </p>
-                </td>
-              </tr>
-              <!-- /PAPER -->
+      <article class="project">
+        <a class="project-media" href="https://light.princeton.edu/publication/soap/" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <video class="responsive-image" muted loop playsinline preload="none" poster="images/soap_after_poster.jpg" width="100%" aria-hidden="true"><source src="images/soap_after.mp4" type="video/mp4"></video>
+            </div>
+            <img src="images/soap_before.png" class="responsive-image" width="100%" alt="Shakes on a Plane: Unsupervised Depth Estimation from Unstabilized Photography" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="https://light.princeton.edu/publication/soap/">Shakes on a Plane: Unsupervised Depth Estimation from Unstabilized Photography</a></h2>
+          <p class="project-meta">
+            <span class="author-me">Ilya Chugunov</span>,
+                            <a href="https://www.alexyuxuanzhang.com/">Yuxuan Zhang</a>,
+                            <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                            <br>
+                            <em>CVPR</em>, 2023
+          </p>
+        </div>
+        <p class="project-desc">
+          In a “long-burst”, forty-two 12-megapixel RAW frames captured in a two-second sequence, there is enough
+          parallax information from natural hand tremor alone to recover high-quality scene depth. We fit a neural
+          RGB-D model directly to this long-burst data to recover depth and camera motion with no LiDAR, no external
+          pose estimates, and no disjoint preprocessing steps.
+        </p>
+      </article>
 
-              <!-- PAPER -->
-              <tr class="project-row">
-                <td class="left-column">
-                  <a href="https://light.princeton.edu/publication/ghztof/">
-                    <div class="one">
-                      <div class="two" id='ghz'>
-                        <img src='images/ghz_tof_after.gif' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src='images/ghz_tof_before.png' class="responsive-image" width="100%" alt="Centimeter-Wave Free-Space Time-of-Flight Imaging" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="https://light.princeton.edu/publication/ghztof/">
-                    <papertitle>
-                      <z>Centimeter-Wave Free-Space Time-of-Flight Imaging</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <a href="https://sites.google.com/view/shbaek/about-my-career">Seung-Hwan Baek</a>,
-                  <y>Noah Walsh</y>,
-                  <ilya>Ilya Chugunov</ilya>,
-                  <a href="https://zheng-shi.github.io/">Zheng Shi</a>,
-                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
-                  <br>
-                  <em>SIGGRAPH</em>, 2022
-                  <p class="desktop-only">
-                    Modern AMCW time-of-flight (ToF) cameras are limited to modulation frequencies of several hundred
-                    MHz by silicon absorption limits. In this work we leverage electro-optic modulators to build the
-                    first free-space GHz ToF imager. To solve high-frequency phase ambiguities we alongside introduce a
-                    segmentation-inspired neural phase unwrapping network.
-                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                    Modern AMCW time-of-flight (ToF) cameras are limited to modulation frequencies of several hundred
-                    MHz by silicon absorption limits. In this work we leverage electro-optic modulators to build the
-                    first free-space GHz ToF imager. To solve high-frequency phase ambiguities we alongside introduce a
-                    segmentation-inspired neural phase unwrapping network.
-                  </p>
-                </td>
-              </tr>
-              <!-- /PAPER -->
-              <!-- PAPER -->
-              <tr class="project-row">
-                <td class="left-column">
-                  <a href="https://light.princeton.edu/publication/hndr/">
-                    <div class="one">
-                      <div class="two" id='hndr'>
-                        <img src='images/hndr_after.gif' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src='images/hndr_before.png' class="responsive-image" width="100%" alt="The Implicit Values of A Good Hand Shake: Handheld Multi-Frame Neural Depth Refinement" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="https://light.princeton.edu/publication/hndr/">
-                    <papertitle>
-                      <z>The Implicit Values of A Good Hand Shake: Handheld Multi-Frame Neural Depth Refinement</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <ilya>Ilya Chugunov</ilya>,
-                  <a href="https://www.alexyuxuanzhang.com/">Yuxuan Zhang</a>,
-                  <a href="https://scholar.google.com/citations?user=Rc4ZMCEAAAAJ">Zhihao Xia</a>,
-                  <a href="https://ceciliavision.github.io/">Xuaner (Cecilia) Zhang</a>,
-                  <a href="https://people.csail.mit.edu/jiawen/">Jiawen Chen</a>,
-                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
-                  <br>
-                  <em>CVPR</em>, 2022 (Oral)
-                  <p class="desktop-only">
-                    Modern smartphones can stream multi-megapixel RGB images, high-quality 3D pose information, and
-                    low-resolution depth estimates at 60Hz. In tandem, the natural shake of a phone photographer's hand
-                    provides us with dense micro-baseline parallax depth cues during viewfinding. This work explores how
-                    we can combine these data streams to get a high-fidelity depth map from a single snapshot.
-                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                    Modern smartphones can stream multi-megapixel RGB images, high-quality 3D pose information, and
-                    low-resolution depth estimates at 60Hz. In tandem, the natural shake of a phone photographer's hand
-                    provides us with dense micro-baseline parallax depth cues during viewfinding. This work explores how
-                    we can combine these data streams to get a high-fidelity depth map from a single snapshot.
-                  </p>
-                </td>
-              </tr>
-              <!-- /PAPER -->
+      <article class="project">
+        <a class="project-media" href="https://light.princeton.edu/publication/gensdf/" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <video class="responsive-image" muted loop playsinline preload="none" poster="images/gensdf_after_poster.jpg" width="100%" aria-hidden="true"><source src="images/gensdf_after.mp4" type="video/mp4"></video>
+            </div>
+            <img src="images/gensdf_before.png" class="responsive-image" width="100%" alt="GenSDF: Two-Stage Learning of Generalizable Signed Distance Functions" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="https://light.princeton.edu/publication/gensdf/">GenSDF: Two-Stage Learning of Generalizable Signed Distance Functions</a></h2>
+          <p class="project-meta">
+            <a href="https://genechou.com/">Gene Chou</a>,
+                            <span class="author-me">Ilya Chugunov</span>,
+                            <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                            <br>
+                            <em>NeurIPS</em>, 2022 (Featured)
+          </p>
+        </div>
+        <p class="project-desc">
+          Signed distance fields (SDFs) can be a compact and convenient way of representing 3D objects, but state-of-
+          the-art learned methods for SDF estimation struggle to fit more than a few shapes at a time. This work
+          presents a two stage semi-supervised meta-learning approach that learns generic shape priors to reconstruct
+          over a hundred unseen object classes.
+        </p>
+      </article>
 
-              <!-- PAPER -->
-              <tr class="project-row">
-                <td class="left-column">
-                  <a href="https://light.princeton.edu/publication/mask-tof/">
-                    <div class="one">
-                      <div class="two" id='masktof'>
-                        <img src='images/masktof_after.gif' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src='images/masktof_before.png' class="responsive-image" width="100%" alt="Mask-ToF: Learning Microlens Masks for Flying Pixel Correction in Time-of-Flight Imaging" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="https://light.princeton.edu/publication/mask-tof/">
-                    <papertitle>
-                      <z>Mask-ToF: Learning Microlens Masks for Flying Pixel Correction in Time-of-Flight Imaging</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <ilya>Ilya Chugunov</ilya>,
-                  <a href="https://sites.google.com/view/shbaek/about-my-career">Seung-Hwan Baek</a>,
-                  <a href="https://vccimaging.org/People/fuq/">Qiang Fu</a>,
-                  <a href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>,
-                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
-                  <br>
-                  <em>CVPR</em>, 2021
-                  <p class="desktop-only">
-                    Flying pixels are pervasive depth artifacts in time-of-flight imaging, formed by light paths from
-                    both an object and its background connecting to the same sensor pixel. Mask-ToF jointly learns a
-                    microlens-level occlusion mask and refinement network to respectively encode and decode geometric
-                    information in device measurements, helping reduce these artifacts while remaining light efficient.
-                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                    Flying pixels are pervasive depth artifacts in time-of-flight imaging, formed by light paths from
-                    both an object and its background connecting to the same sensor pixel. Mask-ToF jointly learns a
-                    microlens-level occlusion mask and refinement network to respectively encode and decode geometric
-                    information in device measurements, helping reduce these artifacts while remaining light efficient.
-                  </p>
-                </td>
-              </tr>
-              <!-- /PAPER -->
+      <article class="project">
+        <a class="project-media" href="https://light.princeton.edu/publication/ghztof/" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <video class="responsive-image" muted loop playsinline preload="none" poster="images/ghz_tof_after_poster.jpg" width="100%" aria-hidden="true"><source src="images/ghz_tof_after.mp4" type="video/mp4"></video>
+            </div>
+            <img src="images/ghz_tof_before.png" class="responsive-image" width="100%" alt="Centimeter-Wave Free-Space Time-of-Flight Imaging" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="https://light.princeton.edu/publication/ghztof/">Centimeter-Wave Free-Space Time-of-Flight Imaging</a></h2>
+          <p class="project-meta">
+            <a href="https://sites.google.com/view/shbaek/about-my-career">Seung-Hwan Baek</a>,
+                            <span class="author">Noah Walsh</span>,
+                            <span class="author-me">Ilya Chugunov</span>,
+                            <a href="https://zheng-shi.github.io/">Zheng Shi</a>,
+                            <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                            <br>
+                            <em>SIGGRAPH</em>, 2022
+          </p>
+        </div>
+        <p class="project-desc">
+          Modern AMCW time-of-flight (ToF) cameras are limited to modulation frequencies of several hundred MHz by
+          silicon absorption limits. In this work we leverage electro-optic modulators to build the first free-space
+          GHz ToF imager. To solve high-frequency phase ambiguities we alongside introduce a segmentation-inspired
+          neural phase unwrapping network.
+        </p>
+      </article>
 
-              <!-- PAPER -->
-              <tr class="project-row">
-                <td class="left-column">
-                  <a href="https://github.com/dominiccarrano/ee-120-labs">
-                    <div class="one">
-                      <div class="two" id='jupyter'>
-                        <img src='images/jupyter_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src='images/jupyter_before.png' class="responsive-image" width="100%" alt="Self-Contained Jupyter Notebook Labs Promote Scalable Signal Processing Education" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="https://github.com/dominiccarrano/ee-120-labs">
-                    <papertitle>
-                      <z>Self-Contained Jupyter Notebook Labs Promote Scalable Signal Processing Education</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <a href="https://scholar.google.com/citations?user=8dcCuIoAAAAJ">Dominic Carrano</a>,
-                  <ilya>Ilya Chugunov</ilya>,
-                  <y>Jonathan Lee</y>,
-                  <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/ayazifar.html">Babak Ayazifar</a>,
-                  <br>
-                  <em>6th International Conference on Higher Education Advances (HEAd)</em>, 2020
-                  <p class="desktop-only">
-                    Jupyter Notebook labs can offer a similar experience to in-person lab sections while being
-                    self-contained, with relevant resources embedded in their cells. They interactively demonstrate
-                    real-life applications of signal processing while reducing overhead for course staff.
-                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                    Jupyter Notebook labs can offer a similar experience to in-person lab sections while being
-                    self-contained, with relevant resources embedded in their cells. They interactively demonstrate
-                    real-life applications of signal processing while reducing overhead for course staff.
-                  </p>
-                </td>
-              </tr>
-              <!-- /PAPER -->
+      <article class="project">
+        <a class="project-media" href="https://light.princeton.edu/publication/hndr/" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <video class="responsive-image" muted loop playsinline preload="none" poster="images/hndr_after_poster.jpg" width="100%" aria-hidden="true"><source src="images/hndr_after.mp4" type="video/mp4"></video>
+            </div>
+            <img src="images/hndr_before.png" class="responsive-image" width="100%" alt="The Implicit Values of A Good Hand Shake: Handheld Multi-Frame Neural Depth Refinement" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="https://light.princeton.edu/publication/hndr/">The Implicit Values of A Good Hand Shake: Handheld Multi-Frame Neural Depth Refinement</a></h2>
+          <p class="project-meta">
+            <span class="author-me">Ilya Chugunov</span>,
+                            <a href="https://www.alexyuxuanzhang.com/">Yuxuan Zhang</a>,
+                            <a href="https://scholar.google.com/citations?user=Rc4ZMCEAAAAJ">Zhihao Xia</a>,
+                            <a href="https://ceciliavision.github.io/">Xuaner (Cecilia) Zhang</a>,
+                            <a href="https://people.csail.mit.edu/jiawen/">Jiawen Chen</a>,
+                            <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                            <br>
+                            <em>CVPR</em>, 2022 (Oral)
+          </p>
+        </div>
+        <p class="project-desc">
+          Modern smartphones can stream multi-megapixel RGB images, high-quality 3D pose information, and low-
+          resolution depth estimates at 60Hz. In tandem, the natural shake of a phone photographer's hand provides us
+          with dense micro-baseline parallax depth cues during viewfinding. This work explores how we can combine
+          these data streams to get a high-fidelity depth map from a single snapshot.
+        </p>
+      </article>
 
-              <!-- PAPER -->
-              <tr class="project-row">
-                <td class="left-column">
-                  <a href="http://users.ece.utexas.edu/~jtamir/files/papers/3450.html">
-                    <div class="one">
-                      <div class="two" id='cest'>
-                        <img src='images/cest_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src='images/cest_before.png' class="responsive-image" width="100%" alt="Multiscale Low-Rank Matrix Decomposition for Reconstruction of Accelerated Cardiac CEST MRI" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="http://users.ece.utexas.edu/~jtamir/files/papers/3450.html">
-                    <papertitle>
-                      <z>Multiscale Low-Rank Matrix Decomposition for Reconstruction of Accelerated Cardiac CEST MRI</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <ilya>Ilya Chugunov</ilya>,
-                  <a href="https://www.researchgate.net/profile/Wissam_Alghuraibawi">Wissam AlGhuraibawi</a>,
-                  <a href="https://www.researchgate.net/profile/Kevin_Godines">Kevin Godines</a>,
-                  <y>Bonnie Lam</y>,
-                  <a href="https://scholar.google.com/citations?user=zAM1TkoAAAAJ">Frank Ong</a>,
-                  <a href="http://users.ece.utexas.edu/~jtamir/">Jonathan Tamir</a>,
-                  <a href="https://bioeng.berkeley.edu/faculty/moriel-vandsburger">Moriel Vandsburger</a>
-                  <br>
-                  <em>28th Annual Meeting of International Society for Magnetic Resonance in Medicine (ISMRM)</em>, 2020
-                  <p class="desktop-only">
-                    Leveraging sparsity in the Z-spectrum domain, multi-scale low rank reconstruction of cardiac
-                    chemical exchange saturation transfer (CEST) MRI can allow for 4-fold acceleration of scans while
-                    providing accurate Lorentzian line-fit analysis.
-                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                    Leveraging sparsity in the Z-spectrum domain, multi-scale low rank reconstruction of cardiac
-                    chemical exchange saturation transfer (CEST) MRI can allow for 4-fold acceleration of scans while
-                    providing accurate Lorentzian line-fit analysis.
-                  </p>
-                </td>
-              </tr>
-              <!-- /PAPER -->
+      <article class="project">
+        <a class="project-media" href="https://light.princeton.edu/publication/mask-tof/" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <video class="responsive-image" muted loop playsinline preload="none" poster="images/masktof_after_poster.jpg" width="100%" aria-hidden="true"><source src="images/masktof_after.mp4" type="video/mp4"></video>
+            </div>
+            <img src="images/masktof_before.png" class="responsive-image" width="100%" alt="Mask-ToF: Learning Microlens Masks for Flying Pixel Correction in Time-of-Flight Imaging" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="https://light.princeton.edu/publication/mask-tof/">Mask-ToF: Learning Microlens Masks for Flying Pixel Correction in Time-of-Flight Imaging</a></h2>
+          <p class="project-meta">
+            <span class="author-me">Ilya Chugunov</span>,
+                            <a href="https://sites.google.com/view/shbaek/about-my-career">Seung-Hwan Baek</a>,
+                            <a href="https://vccimaging.org/People/fuq/">Qiang Fu</a>,
+                            <a href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>,
+                            <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                            <br>
+                            <em>CVPR</em>, 2021
+          </p>
+        </div>
+        <p class="project-desc">
+          Flying pixels are pervasive depth artifacts in time-of-flight imaging, formed by light paths from both an
+          object and its background connecting to the same sensor pixel. Mask-ToF jointly learns a microlens-level
+          occlusion mask and refinement network to respectively encode and decode geometric information in device
+          measurements, helping reduce these artifacts while remaining light efficient.
+        </p>
+      </article>
 
-              <!-- PAPER -->
-              <tr class="project-row">
-                <td class="left-column">
-                  <a href="https://github.com/Ilya-Muromets/DuoDepth" style="text-decoration:none;">
-                    <div class="one">
-                      <div class="two" id='duodepth'>
-                        <img src='images/duodepth_after.png' class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
-                      </div>
-                      <img src='images/duodepth_before.png' class="responsive-image" width="100%" alt="Duodepth: Static Gesture Recognition Via Dual Depth Sensors" loading="lazy" decoding="async">
-                    </div>
-                  </a>
-                </td>
-                <td class="right-column">
-                  <a href="https://github.com/Ilya-Muromets/DuoDepth">
-                    <papertitle>
-                      <z>Duodepth: Static Gesture Recognition Via Dual Depth Sensors</z>
-                    </papertitle>
-                  </a>
-                  <br>
-                  <ilya>Ilya Chugunov</ilya>,
-                  <a href="https://scholar.google.com/citations?user=NDHbbuAAAAAJ">Avideh Zakhor</a>
-                  <br>
-                  <em>IEEE International Conference on Image Processing (ICIP)</em>, 2019
-                  <p class="desktop-only">
-                    Point cloud data integrated from two structured light sensors for gesture recognition implicitly via
-                    a 3D spatial transform network can lead to improved results as compared to iterative closest point
-                    (ICP) registered point clouds.
-                  </p>
-                </td>
-              </tr>
-              <tr class="mobile-only">
-                <td colspan="2" style="padding:5px;">
-                  <p class="mobile-only">
-                    Point cloud data integrated from two structured light sensors for gesture recognition implicitly via
-                    a 3D spatial transform network can lead to improved results as compared to iterative closest point
-                    (ICP) registered point clouds.
-                  </p>
-                </td>
-              </tr>
-              <!-- /PAPER -->
+      <article class="project">
+        <a class="project-media" href="https://github.com/dominiccarrano/ee-120-labs" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <img src="images/jupyter_after.png" class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
+            </div>
+            <img src="images/jupyter_before.png" class="responsive-image" width="100%" alt="Self-Contained Jupyter Notebook Labs Promote Scalable Signal Processing Education" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="https://github.com/dominiccarrano/ee-120-labs">Self-Contained Jupyter Notebook Labs Promote Scalable Signal Processing Education</a></h2>
+          <p class="project-meta">
+            <a href="https://scholar.google.com/citations?user=8dcCuIoAAAAJ">Dominic Carrano</a>,
+                            <span class="author-me">Ilya Chugunov</span>,
+                            <span class="author">Jonathan Lee</span>,
+                            <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/ayazifar.html">Babak Ayazifar</a>,
+                            <br>
+                            <em>6th International Conference on Higher Education Advances (HEAd)</em>, 2020
+          </p>
+        </div>
+        <p class="project-desc">
+          Jupyter Notebook labs can offer a similar experience to in-person lab sections while being self-contained,
+          with relevant resources embedded in their cells. They interactively demonstrate real-life applications of
+          signal processing while reducing overhead for course staff.
+        </p>
+      </article>
 
+      <article class="project">
+        <a class="project-media" href="http://users.ece.utexas.edu/~jtamir/files/papers/3450.html" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <img src="images/cest_after.png" class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
+            </div>
+            <img src="images/cest_before.png" class="responsive-image" width="100%" alt="Multiscale Low-Rank Matrix Decomposition for Reconstruction of Accelerated Cardiac CEST MRI" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="http://users.ece.utexas.edu/~jtamir/files/papers/3450.html">Multiscale Low-Rank Matrix Decomposition for Reconstruction of Accelerated Cardiac CEST MRI</a></h2>
+          <p class="project-meta">
+            <span class="author-me">Ilya Chugunov</span>,
+                            <a href="https://www.researchgate.net/profile/Wissam_Alghuraibawi">Wissam AlGhuraibawi</a>,
+                            <a href="https://www.researchgate.net/profile/Kevin_Godines">Kevin Godines</a>,
+                            <span class="author">Bonnie Lam</span>,
+                            <a href="https://scholar.google.com/citations?user=zAM1TkoAAAAJ">Frank Ong</a>,
+                            <a href="http://users.ece.utexas.edu/~jtamir/">Jonathan Tamir</a>,
+                            <a href="https://bioeng.berkeley.edu/faculty/moriel-vandsburger">Moriel Vandsburger</a>
+                            <br>
+                            <em>28th Annual Meeting of International Society for Magnetic Resonance in Medicine (ISMRM)</em>, 2020
+          </p>
+        </div>
+        <p class="project-desc">
+          Leveraging sparsity in the Z-spectrum domain, multi-scale low rank reconstruction of cardiac chemical
+          exchange saturation transfer (CEST) MRI can allow for 4-fold acceleration of scans while providing accurate
+          Lorentzian line-fit analysis.
+        </p>
+      </article>
 
-              <!-- PAPER -->
-              <!-- <tr>
-                <td style="padding:2.5%;width:25%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='graph'>
-                      <img src='images/graph_after.png' width="100%" alt="" loading="lazy" decoding="async">
-                    </div>
-                    <img src='images/graph_before.png' width="100%" alt="Inspection Route Optimization" loading="lazy" decoding="async">
-                  </div>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="http://www.crm.math.ca/pub/Rapports/3300-3399/3369.pdf">
-                    <papertitle><z>Inspection Route Optimization</z></papertitle>
-                  </a>
-                  <br>
-                  <a href="https://scholar.google.fr/citations?user=GZ8UOVsAAAAJ">Bernard Gendron</a>,
-                  <a href="https://scholar.google.com/citations?user=qbO0xwUAAAAJ">Vidal Thibaut</a>,
-                  <strong>et al.</strong>
-                  <br>
-                  <em>Eighth Montréal Industrial Problem Solving Workshop</em>, 2017
-                  <br>
-                  <p></p>
-                  <p>
-                    Property inspection routes can be formulated into graph optimization problem, decomposed into
-                    weekly/yearly constraints for reduction to team orienteering problem (TOP).
-                  </p>
-                </td>
-              </tr> -->
-              <!-- /PAPER -->
+      <article class="project">
+        <a class="project-media" href="https://github.com/Ilya-Muromets/DuoDepth" tabindex="-1" aria-hidden="true">
+          <div class="one">
+            <div class="two">
+              <img src="images/duodepth_after.png" class="responsive-image" width="100%" alt="" loading="lazy" decoding="async">
+            </div>
+            <img src="images/duodepth_before.png" class="responsive-image" width="100%" alt="Duodepth: Static Gesture Recognition Via Dual Depth Sensors" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="project-head">
+          <h2 class="papertitle"><a href="https://github.com/Ilya-Muromets/DuoDepth">Duodepth: Static Gesture Recognition Via Dual Depth Sensors</a></h2>
+          <p class="project-meta">
+            <span class="author-me">Ilya Chugunov</span>,
+                            <a href="https://scholar.google.com/citations?user=NDHbbuAAAAAJ">Avideh Zakhor</a>
+                            <br>
+                            <em>IEEE International Conference on Image Processing (ICIP)</em>, 2019
+          </p>
+        </div>
+        <p class="project-desc">
+          Point cloud data integrated from two structured light sensors for gesture recognition implicitly via a 3D
+          spatial transform network can lead to improved results as compared to iterative closest point (ICP)
+          registered point clouds.
+        </p>
+      </article>
+    </section>
 
-              <table
-                style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                <tbody>
+    <footer class="colophon">
+      <p>Website template stolen from <a href="https://jonbarron.info/"><span class="accent">Bon Jarron</span></a>.</p>
+    </footer>
 
+  </div>
 
-
-                  <tr>
-                    <td style="padding:0px">
-                      <br>
-                      <p style="text-align:right;font-size:7pt;color: gray;">
-                        Website template stolen from <a href="https://jonbarron.info/" style="font-size: 7pt">
-                          <z>Bon
-                            Jarron</z>
-                        </a>.
-                      </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-        </td>
-      </tr>
-  </table>
+  <script src="site.js" defer></script>
 </body>
 
 </html>
