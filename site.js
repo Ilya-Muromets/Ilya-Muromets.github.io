@@ -31,9 +31,35 @@
 
   var canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
 
+  /* Videos ship as preload="none" so a page load costs zero video bytes, but
+   * that makes the first hover wait on a network fetch. Warm each clip up once
+   * it is near the viewport, so hovering starts it instantly. */
+  function warm(card) {
+    var v = card.querySelector('video');
+    if (!v || v.dataset.warmed) return;
+    v.dataset.warmed = '1';
+    v.preload = 'auto';
+    v.load();
+  }
+
+  if ('IntersectionObserver' in window) {
+    var warmer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        warm(entry.target);
+        warmer.unobserve(entry.target);
+      });
+    }, { rootMargin: '300px 0px' });
+    cards.forEach(function (card) {
+      if (card.querySelector('video')) warmer.observe(card);
+    });
+  } else {
+    cards.forEach(warm);
+  }
+
   if (canHover) {
     cards.forEach(function (card) {
-      card.addEventListener('mouseenter', function () { play(card); });
+      card.addEventListener('mouseenter', function () { warm(card); play(card); });
       card.addEventListener('mouseleave', function () { pause(card); });
     });
     return;
@@ -49,6 +75,7 @@
     entries.forEach(function (entry) {
       if (entry.isIntersecting) {
         entry.target.classList.add('is-revealed');
+        warm(entry.target);
         play(entry.target);
       } else {
         entry.target.classList.remove('is-revealed');
