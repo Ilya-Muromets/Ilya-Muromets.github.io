@@ -1,11 +1,8 @@
-a, a:link, a:visited {
-  color: #ffcf8f; /* Brighter color for links */
-  text-decoration: none;
-}
+/* ---------------------------------------------------------------- base ---- */
 
-a:hover {
-  color: #8c6826; /* Slightly darker color on hover for contrast */
-  text-decoration: none;
+body {
+  background-color: #000000;
+  margin: 0;
 }
 
 body,
@@ -13,82 +10,84 @@ td,
 th,
 tr,
 p,
-a {
+a,
+li {
   font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 16px;
-  color: #f2f2f2; /* Light grey text for readability on dark backgrounds */
+  line-height: 1.6; /* Light-on-dark text needs extra leading to stay readable */
+  color: #f2f2f2;
 }
 
-y {
+a,
+a:link,
+a:visited {
   color: #ffcf8f;
+  text-decoration: none;
 }
 
-ilya {
+a:hover {
+  color: #ffe4b8; /* Brightens on hover: increases contrast rather than reducing it */
+  text-decoration: underline;
+}
+
+b,
+strong {
   color: #ff7f50;
 }
 
-x {
+.page {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+/* Inline accents, formerly the invalid custom elements <y> <ilya> <z> <bb> <x>. */
+.author {
+  color: #ffcf8f;
+}
+
+.author-me {
+  color: #ff7f50;
+}
+
+.accent {
+  color: #ff7f50;
+}
+
+.hl {
+  color: #ffcf8f;
+}
+
+.applink {
   color: #ff7f50;
   font-weight: 700;
   text-decoration: underline;
-  text-decoration-color: #ff7f50;
 }
 
-x:hover {
-  color: #8c6826; /* Slightly darker color on hover for contrast */
-  text-decoration: none;
+a:hover .applink,
+a:hover .accent {
+  color: #ffe4b8;
 }
 
-z {
-  color: #ff7f50;
-}
-
-bb {
-  color: #ffcf8f;
-}
-
-z:hover {
-  color: #8c6826; /* Slightly darker color on hover for contrast */
-  text-decoration: none;
-}
-
-b {
-  color: #ff7f50;
-}
-
-strong {
-  color: #ff7f50;
-  font-family: Arial, Verdana, Helvetica, sans-serif;
-  font-size: 16px;
-}
-
-heading {
+.heading {
   font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 21px;
   font-weight: 550;
-  
+  margin: 0 0 0.4em;
 }
 
-papertitle {
-  font-family: Arial, Verdana, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  color: #ff7f50;
-  text-decoration: underline;
-  text-decoration-color: #ff7f50;
+span.highlight {
+  background-color: #424242;
 }
 
-name {
-  font-family: Arial, Verdana, Helvetica, sans-serif;
-  font-size: 39px;
-  font-weight: 500;
+.indent {
+  text-indent: 20px;
 }
 
-.one {
-  position: relative;
-}
+/* --------------------------------------------------------------- header ---- */
 
-/* Header: name + profile photo + intro text */
 .intro {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 25%;
@@ -103,6 +102,8 @@ name {
 .intro-name {
   grid-area: name;
   margin: 0.4em 0 0.6em;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 .intro-text {
@@ -119,10 +120,6 @@ name {
   padding-top: 1%;
 }
 
-.intro-photo img {
-  display: block;
-}
-
 .name-svg {
   display: block;
   width: 320px;
@@ -130,14 +127,92 @@ name {
   height: auto;
 }
 
-.left-column .one {
+/* ------------------------------------------------------------- projects ---- */
+
+.projects {
+  display: block;
+}
+
+/* Two columns on desktop: thumbnail on the left, title/authors and the
+   description stacked on the right. The description is a direct grid child so
+   that narrow viewports can drop it to its own full-width row without needing a
+   duplicate copy in the markup. */
+.project {
+  display: grid;
+  grid-template-columns: 25% minmax(0, 1fr);
+  grid-template-areas:
+    "media head"
+    "media desc";
+  column-gap: 24px;
+  align-content: start;
+  padding: 20px;
+}
+
+.project-media {
+  grid-area: media;
+  align-self: center;
+  display: block;
+}
+
+.project-head {
+  grid-area: head;
+  align-self: center;
+  min-width: 0;
+}
+
+.project-desc {
+  grid-area: desc;
+  align-self: start;
+  min-width: 0;
+  margin: 0.6em 0 0;
+}
+
+/* A project with no description centres its title block against the thumbnail. */
+.project:not(:has(.project-desc)) .project-head {
+  grid-row: 1 / -1;
+}
+
+.papertitle {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 0.15em;
+}
+
+.papertitle a {
+  color: #ff7f50;
+  text-decoration: underline;
+  text-decoration-color: #ff7f50;
+}
+
+.papertitle a:hover {
+  color: #ffe4b8;
+  text-decoration-color: #ffe4b8;
+}
+
+.project-meta {
+  margin: 0;
+}
+
+/* Full-bleed tint for highlighted entries. The box-shadow paints past the
+   container and the clip-path trims it back vertically. */
+.project.featured {
+  background-color: rgba(179, 89, 56, 0.15);
+  box-shadow: 0 0 0 100vw rgba(179, 89, 56, 0.15);
+  clip-path: inset(0 -100vw);
+}
+
+/* -------------------------------------------------- before/after reveal ---- */
+
+.one {
+  position: relative;
   background-color: #000000;
   border-radius: 40px;
   overflow: hidden;
   isolation: isolate;
 }
 
-.left-column .one::after {
+.one::after {
   content: "";
   position: absolute;
   inset: -2px;
@@ -149,107 +224,74 @@ name {
 
 .two {
   position: absolute;
+  inset: 0;
   z-index: 1;
+  opacity: 0;
   transition: opacity .5s ease-in-out;
-  -moz-transition: opacity .5s ease-in-out;
-  -webkit-transition: opacity .5s ease-in-out;
 }
 
-.left-column .responsive-image {
+.two > img,
+.two > video,
+.two > picture > img {
   display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-span.highlight {
-  background-color: #424242;
-}
-
-body {
-  background-color: #000000;
-}
-
-.indent {
-  text-indent: 20px;
-}
-
-.mobile-only {
-  display: none;
-}
-
-.desktop-only {
+.responsive-image {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
-.left-column {
-  padding: 2.5%;
-  width: 25%;
-  vertical-align: middle;
+/* Pointer devices reveal on hover. Touch devices get `.is-revealed` from
+   site.js when the card scrolls through the middle of the viewport, since
+   :hover is never satisfied there. */
+.project:hover .two,
+.project.is-revealed .two,
+.intro-photo:hover .two,
+.intro-photo.is-revealed .two {
+  opacity: 1;
 }
 
-.right-column {
-  padding: 20px;
-  width: 75%;
-  vertical-align: middle;
-}
-
-/* Adjustments for mobile devices */
-@media (pointer:none), (pointer:coarse) {
-  body,
-  td,
-  th,
-  tr,
-  p,
-  a {
-    font-family: Arial, Verdana, Helvetica, sans-serif;
-    font-size: 16px;
-    color: #e0e0e0; /* Ensuring text is light on dark backgrounds */
+@media (prefers-reduced-motion: reduce) {
+  .two {
+    transition: none;
   }
+}
 
-  strong {
-    color: #b21f1f;
-    font-family: Arial, Verdana, Helvetica, sans-serif;
-    font-size: 16px;
-  }
+/* --------------------------------------------------------------- footer ---- */
 
-  heading {
-    font-family: Arial, Verdana, Helvetica, sans-serif;
+.colophon p {
+  text-align: right;
+  font-size: 7pt;
+  color: gray;
+  margin: 2em 0 1em;
+}
+
+.colophon a {
+  font-size: 7pt;
+}
+
+/* ---------------------------------------------------------------- small ---- */
+
+/* Keyed on width, not (pointer:coarse): the old query gave touchscreen laptops
+   the phone layout and never responded to window resizing on desktop. */
+@media (max-width: 768px) {
+  .heading {
     font-size: 18px;
-    font-weight: 550;
   }
 
-  papertitle {
-    font-family: Arial, Verdana, Helvetica, sans-serif;
+  .papertitle {
     font-size: 16px;
-    font-weight: 600;
-    text-decoration: underline;
-    text-decoration-color: #ff7f50;
   }
 
-  name {
-    font-family: Arial, Verdana, Helvetica, sans-serif;
-    font-size: 30px;
-    font-weight: 500;
+  .page {
+    padding: 0 8px;
   }
 
-  .paper-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-  }
-
-  .mobile-only {
-    display: table-row;
-  }
-
-  .desktop-only {
-    display: none;
-  }
-
-  /* Header stacks: name beside a small avatar, intro text full width below */
+  /* Name beside a small avatar, intro text full width below. */
   .intro {
     grid-template-columns: minmax(0, 1fr) min(32%, 120px);
     grid-template-areas:
@@ -258,7 +300,7 @@ body {
     column-gap: 16px;
     row-gap: 14px;
     align-items: center;
-    padding: 20px;
+    padding: 20px 8px;
   }
 
   .intro-name {
@@ -274,16 +316,21 @@ body {
     max-width: 320px;
   }
 
-  .left-column {
-    width: 40%;
-    vertical-align: middle;
-  }
-  
-  .right-column {
-    padding-left: 2%;
-    width: 60%;
-    vertical-align: middle;
+  /* Description drops to its own full-width row under the thumbnail. */
+  .project {
+    grid-template-columns: 40% minmax(0, 1fr);
+    grid-template-areas:
+      "media head"
+      "desc  desc";
+    column-gap: 14px;
+    padding: 14px 8px;
   }
 
+  .project-desc {
+    margin-top: 0.8em;
+  }
 
+  .one {
+    border-radius: 24px;
+  }
 }
