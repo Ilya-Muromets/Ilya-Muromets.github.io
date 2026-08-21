@@ -432,6 +432,7 @@ hr {
 
 .one {
   position: relative;
+  aspect-ratio: 1;
   background-color: #000000;
   border: 2px solid #ff7f50;
   border-radius: 40px;
@@ -497,6 +498,7 @@ hr {
   :root {
     --section-gutter: 8px;
     --text-title: 19px;
+    --text-display: clamp(28px, 8.2vw, 32px);
   }
 
   .page {
@@ -505,11 +507,11 @@ hr {
 
   /* Name beside a small avatar, intro text full width below. */
   .intro {
-    grid-template-columns: minmax(0, 1fr) min(32%, 120px);
+    grid-template-columns: minmax(0, 1fr) min(28%, 104px);
     grid-template-areas:
       "name  photo"
       "text  text";
-    column-gap: 16px;
+    column-gap: 12px;
     row-gap: 14px;
     align-items: center;
     padding: 20px var(--section-gutter);
@@ -517,24 +519,64 @@ hr {
 
   .intro-name {
     margin: 0;
+    white-space: nowrap;
   }
 
   .intro-photo {
     padding-top: 0;
   }
 
-  /* Description drops to its own full-width row under the thumbnail. */
+  .link-group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  /* Keep the visual and bibliographic details paired, then give actions and the
+     abstract the full card width. This prevents action keys from wrapping in
+     the narrow title column. */
   .project {
-    grid-template-columns: 40% minmax(0, 1fr);
+    grid-template-columns: minmax(96px, 34%) minmax(0, 1fr);
     grid-template-areas:
-      "media head"
+      "media title"
+      "media meta"
+      "links links"
       "desc  desc";
-    column-gap: 14px;
+    column-gap: 12px;
     padding: 14px var(--section-gutter);
   }
 
+  .project-head {
+    display: contents;
+  }
+
+  .papertitle {
+    grid-area: title;
+    align-self: end;
+  }
+
+  .project-meta {
+    grid-area: meta;
+    align-self: start;
+  }
+
+  .project-links {
+    grid-area: links;
+    flex-wrap: nowrap;
+    gap: 3px;
+    min-width: 0;
+    margin-top: 0.7em;
+    font-size: 12px;
+  }
+
+  .project-links a.keycap-inline > span {
+    padding-right: 3px;
+    padding-left: 3px;
+    white-space: nowrap;
+  }
+
   .project-desc {
-    margin-top: 0.8em;
+    margin-top: 0.7em;
   }
 
   .one {
