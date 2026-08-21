@@ -6,7 +6,8 @@
   var input = document.querySelector('.terminal-input');
   if (!consoleForm || !history || !input) return;
 
-  var commands = ['cat', 'cd', 'clear', 'help', 'ls', 'pwd'];
+  var commands = ['?', 'cat', 'cd', 'clear', 'help', 'ls', 'pwd'];
+  var listedCommands = ['cat', 'cd', 'clear', 'ls', 'pwd'];
   var directories = {
     '/': ['void', 'tmp'],
     '/void': ['README.txt'],
@@ -21,6 +22,7 @@
     ]
   };
   var currentPath = '/void';
+  var emptyCatCount = 0;
 
   function focusInput() {
     input.focus({ preventScroll: true });
@@ -90,10 +92,12 @@
     var args = commandLine.trim().split(/\s+/);
     var command = args.shift();
     if (!command) return;
+    var isEmptyCat = command === 'cat' && !args.length;
+    if (!isEmptyCat) emptyCatCount = 0;
 
-    if (command === 'help') {
+    if (command === '?' || command === 'help') {
       appendLine('Available commands:');
-      commands.forEach(function (name) {
+      listedCommands.forEach(function (name) {
         appendLine('  ' + name);
       });
       return;
@@ -142,7 +146,13 @@
 
     if (command === 'cat') {
       if (!args.length) {
-        appendLine('cat: missing file operand');
+        emptyCatCount += 1;
+        if (emptyCatCount === 3) {
+          appendLine('meow meow meow meow meow meow meow meow meow meow meow');
+          emptyCatCount = 0;
+        } else {
+          appendLine('cat: missing file operand');
+        }
         return;
       }
 
@@ -157,13 +167,13 @@
           return;
         }
         files[resolved].forEach(function (line) {
-          appendLine(line);
+          appendLine(line, 'terminal-file-content');
         });
       });
       return;
     }
 
-    appendLine(command + ': command not found');
+    appendLine(command + ": command not found (type '?' or 'help' to list commands)");
   }
 
   function commonPrefix(values) {

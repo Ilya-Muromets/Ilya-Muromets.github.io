@@ -360,6 +360,10 @@ a.keycap-inline:active > span {
 }
 
 .terminal-file {
+  color: #ff7f50;
+}
+
+.terminal-file-content {
   color: #ffcf8f;
 }
 
