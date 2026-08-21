@@ -312,45 +312,76 @@ a.keycap-inline:active > span {
   margin: 0;
 }
 
+.segfault-body {
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+}
+
 .segfault-page {
   position: relative;
   display: flow-root;
-  min-height: 100vh;
-  min-height: 100dvh;
+  height: 100vh;
+  height: 100dvh;
 }
 
-.segfault-prompt {
+.segfault-console {
   position: absolute;
   top: 50%;
   left: 12px;
+  right: 12px;
   margin: 0;
   transform: translateY(-50%);
 }
 
-.terminal-cursor {
-  animation: terminal-cursor-blink 1s steps(1, end) infinite;
+.terminal-history {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 0.25em);
+  left: 0;
+  display: flex;
+  max-height: calc(50dvh - 120px);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-@keyframes terminal-cursor-blink {
-  0%,
-  45% {
-    opacity: 1;
-  }
+.terminal-entry,
+.terminal-prompt {
+  overflow: hidden;
+  color: #f2f2f2;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: var(--text-base);
+  font-weight: 400;
+  line-height: var(--leading-body);
+  letter-spacing: -0.025em;
+  white-space: pre;
+}
 
-  46%,
-  100% {
-    opacity: 0;
-  }
+.terminal-entry {
+  flex: 0 0 auto;
+  text-overflow: clip;
+}
+
+.terminal-prompt {
+  display: flex;
+  align-items: baseline;
+}
+
+.terminal-input {
+  min-width: 0;
+  flex: 1;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  caret-color: #f2f2f2;
+  color: inherit;
+  font: inherit;
 }
 
 .cv-title {
   margin: 24px 0 16px;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .terminal-cursor {
-    animation: none;
-  }
 }
 
 .app-list {
@@ -556,8 +587,9 @@ hr {
     padding: 0 8px;
   }
 
-  .segfault-prompt {
+  .segfault-console {
     left: 8px;
+    right: 8px;
   }
 
   /* Portrait and name share the first row; About and links use full-width rows. */
