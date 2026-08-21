@@ -97,10 +97,10 @@ span.highlight {
 
 .intro {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 30%;
+  grid-template-columns: 30% minmax(0, 1fr);
   grid-template-areas:
-    "name  photo"
-    "text  photo";
+    "photo name"
+    "photo text";
   column-gap: 3%;
   align-items: start;
   padding: 20px var(--section-gutter);
@@ -513,11 +513,11 @@ hr {
     padding: 0 8px;
   }
 
-  /* Name beside a small avatar, intro text full width below. */
+  /* Portrait and name share the first row; intro text uses the full width below. */
   .intro {
-    grid-template-columns: minmax(0, 1fr) min(34%, 125px);
+    grid-template-columns: min(34%, 125px) minmax(0, 1fr);
     grid-template-areas:
-      "name  photo"
+      "photo name"
       "text  text";
     column-gap: 8px;
     row-gap: 14px;
