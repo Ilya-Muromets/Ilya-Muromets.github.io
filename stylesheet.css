@@ -364,7 +364,13 @@ a.keycap-inline:active > span {
 }
 
 .terminal-file-content {
-  color: #ffcf8f;
+  --terminal-output-color: #ffcf8f;
+
+  color: var(--terminal-output-color);
+}
+
+.terminal-file-emphasis {
+  --terminal-output-color: #ff7f50;
 }
 
 .terminal-typed-character {
@@ -386,7 +392,7 @@ a.keycap-inline:active > span {
   }
 
   100% {
-    color: #ffcf8f;
+    color: var(--terminal-output-color);
     text-shadow: none;
     transform: none;
   }

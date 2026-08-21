@@ -52,6 +52,9 @@
     for (var lineIndex = 0; lineIndex < lines.length; lineIndex += 1) {
       var text = lines[lineIndex];
       var output = appendLine('', 'terminal-file-content');
+      if (text === 'temporary') {
+        output.classList.add('terminal-file-emphasis');
+      }
 
       if (reducedMotion) {
         output.textContent = text;
