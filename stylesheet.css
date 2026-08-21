@@ -97,11 +97,12 @@ span.highlight {
 
 .intro {
   display: grid;
-  grid-template-columns: 30% minmax(0, 1fr);
+  grid-template-columns: 25% minmax(0, 1fr);
   grid-template-areas:
     "photo name"
-    "photo text";
-  column-gap: 3%;
+    "photo about"
+    "links links";
+  column-gap: 24px;
   align-items: start;
   padding: 20px var(--section-gutter);
 }
@@ -118,13 +119,18 @@ span.highlight {
   letter-spacing: -0.03em;
 }
 
-.intro-text {
-  grid-area: text;
+.intro-about {
+  grid-area: about;
   min-width: 0;
 }
 
-.intro-text p:first-child {
+.intro-about p:first-child {
   margin-top: 0;
+}
+
+.intro-links {
+  grid-area: links;
+  min-width: 0;
 }
 
 .intro-photo {
@@ -513,12 +519,13 @@ hr {
     padding: 0 8px;
   }
 
-  /* Portrait and name share the first row; intro text uses the full width below. */
+  /* Portrait and name share the first row; About and links use full-width rows. */
   .intro {
     grid-template-columns: min(34%, 125px) minmax(0, 1fr);
     grid-template-areas:
       "photo name"
-      "text  text";
+      "about about"
+      "links links";
     column-gap: 8px;
     row-gap: 14px;
     align-items: center;
