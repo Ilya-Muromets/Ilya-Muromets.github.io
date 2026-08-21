@@ -538,6 +538,7 @@ hr {
 
   .intro-name {
     margin: 0;
+    line-height: var(--leading-tight);
     white-space: normal;
   }
 
