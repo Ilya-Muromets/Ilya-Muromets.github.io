@@ -308,10 +308,6 @@ a.keycap-inline:active > span {
   line-height: var(--leading-body);
 }
 
-.segfault-output {
-  margin: 0;
-}
-
 .segfault-body {
   height: 100vh;
   height: 100dvh;
@@ -349,7 +345,6 @@ a.keycap-inline:active > span {
 .terminal-entry,
 .terminal-prompt {
   overflow: hidden;
-  color: #f2f2f2;
   font-family: "IBM Plex Mono", monospace;
   font-size: var(--text-base);
   font-weight: 400;
@@ -359,6 +354,7 @@ a.keycap-inline:active > span {
 }
 
 .terminal-entry {
+  color: #a8a8a8;
   flex: 0 0 auto;
   text-overflow: clip;
 }
@@ -367,9 +363,14 @@ a.keycap-inline:active > span {
   color: #ffcf8f;
 }
 
+.terminal-directory {
+  color: #ff7f50;
+}
+
 .terminal-prompt {
   display: flex;
   align-items: baseline;
+  color: #f2f2f2;
 }
 
 .terminal-input {
