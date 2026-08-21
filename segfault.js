@@ -15,14 +15,18 @@
   };
   var files = {
     '/void/README.txt': [
-      'Welcome to ilyac.info.',
-      '',
-      'You found the tiny filesystem behind cout.',
-      'There is only this file. Please put it back when you are done.'
+      'welcome to the void',
+      '...',
+      'it\'s mostly empty',
+      ' ',
+      'at least the void is permanent',
+      'much better than being',
+      'temporary'
     ]
   };
   var currentPath = '/void';
   var emptyCatCount = 0;
+  var commandRunning = false;
 
   function focusInput() {
     input.focus({ preventScroll: true });
@@ -33,6 +37,37 @@
     line.className = 'terminal-entry' + (className ? ' ' + className : '');
     line.textContent = text;
     history.appendChild(line);
+    return line;
+  }
+
+  function wait(milliseconds) {
+    return new Promise(function (resolve) {
+      window.setTimeout(resolve, milliseconds);
+    });
+  }
+
+  async function typeFile(lines) {
+    var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    for (var lineIndex = 0; lineIndex < lines.length; lineIndex += 1) {
+      var text = lines[lineIndex];
+      var output = appendLine('', 'terminal-file-content');
+
+      if (reducedMotion) {
+        output.textContent = text;
+      } else {
+        for (var characterIndex = 0; characterIndex < text.length; characterIndex += 1) {
+          output.textContent = text.slice(0, characterIndex + 1);
+          trimHistory();
+          await wait(45);
+        }
+      }
+
+      trimHistory();
+      if (!reducedMotion && lineIndex < lines.length - 1) {
+        await wait(140);
+      }
+    }
   }
 
   function normalizePath(path) {
@@ -88,7 +123,7 @@
     });
   }
 
-  function runCommand(commandLine) {
+  async function runCommand(commandLine) {
     var args = commandLine.trim().split(/\s+/);
     var command = args.shift();
     if (!command) return;
@@ -156,20 +191,19 @@
         return;
       }
 
-      args.forEach(function (path) {
+      for (var pathIndex = 0; pathIndex < args.length; pathIndex += 1) {
+        var path = args[pathIndex];
         var resolved = normalizePath(path);
         if (isDirectory(resolved)) {
           appendLine('cat: ' + path + ': Is a directory');
-          return;
+          continue;
         }
         if (!isFile(resolved)) {
           appendLine('cat: ' + path + ': No such file or directory');
-          return;
+          continue;
         }
-        files[resolved].forEach(function (line) {
-          appendLine(line, 'terminal-file-content');
-        });
-      });
+        await typeFile(files[resolved]);
+      }
       return;
     }
 
@@ -252,13 +286,21 @@
     }
   }
 
-  consoleForm.addEventListener('submit', function (event) {
+  consoleForm.addEventListener('submit', async function (event) {
     event.preventDefault();
+    if (commandRunning) return;
+
     var commandLine = input.value;
     appendLine('~$ ' + commandLine);
     input.value = '';
-    runCommand(commandLine);
-    window.requestAnimationFrame(trimHistory);
+    commandRunning = true;
+
+    try {
+      await runCommand(commandLine);
+    } finally {
+      commandRunning = false;
+      window.requestAnimationFrame(trimHistory);
+    }
   });
 
   consoleForm.addEventListener('click', focusInput);
