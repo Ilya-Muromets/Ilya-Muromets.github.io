@@ -369,6 +369,10 @@ a.keycap-inline:active > span {
   color: var(--terminal-output-color);
 }
 
+.terminal-file-character {
+  color: var(--terminal-output-color);
+}
+
 .terminal-file-emphasis {
   --terminal-output-color: #ff7f50;
 }

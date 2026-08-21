@@ -46,24 +46,43 @@
     });
   }
 
+  function emphasizedCharacters(text) {
+    var emphasized = new Array(text.length).fill(false);
+    var matches = text.matchAll(/\b(?:void|temporary)\b/g);
+
+    for (var match of matches) {
+      for (var index = match.index; index < match.index + match[0].length; index += 1) {
+        emphasized[index] = true;
+      }
+    }
+
+    return emphasized;
+  }
+
+  function appendFileCharacter(output, character, emphasized, animated) {
+    var span = document.createElement('span');
+    span.className = 'terminal-file-character';
+    if (emphasized) span.classList.add('terminal-file-emphasis');
+    if (animated) span.classList.add('terminal-typed-character');
+    span.textContent = character;
+    output.appendChild(span);
+  }
+
   async function typeFile(lines) {
     var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     for (var lineIndex = 0; lineIndex < lines.length; lineIndex += 1) {
       var text = lines[lineIndex];
       var output = appendLine('', 'terminal-file-content');
-      if (text === 'temporary') {
-        output.classList.add('terminal-file-emphasis');
-      }
+      var emphasized = emphasizedCharacters(text);
 
       if (reducedMotion) {
-        output.textContent = text;
+        for (var reducedIndex = 0; reducedIndex < text.length; reducedIndex += 1) {
+          appendFileCharacter(output, text[reducedIndex], emphasized[reducedIndex], false);
+        }
       } else {
         for (var characterIndex = 0; characterIndex < text.length; characterIndex += 1) {
-          var character = document.createElement('span');
-          character.className = 'terminal-typed-character';
-          character.textContent = text[characterIndex];
-          output.appendChild(character);
+          appendFileCharacter(output, text[characterIndex], emphasized[characterIndex], true);
           trimHistory();
           await wait(45);
         }
