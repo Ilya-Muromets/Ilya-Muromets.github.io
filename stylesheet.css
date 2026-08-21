@@ -97,7 +97,7 @@ span.highlight {
 
 .intro {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 25%;
+  grid-template-columns: minmax(0, 1fr) 30%;
   grid-template-areas:
     "name  photo"
     "text  photo";
@@ -298,6 +298,14 @@ a.keycap-inline:active > span {
   line-height: var(--leading-body);
 }
 
+.segfault-output {
+  margin: 0;
+}
+
+.segfault-prompt {
+  margin-top: 16em;
+}
+
 .cv-title {
   margin: 24px 0 16px;
 }
@@ -417,7 +425,7 @@ hr {
 
 .project-links {
   margin-top: 0.55em;
-  font-size: var(--text-sm);
+  font-size: var(--text-base);
 }
 
 /* Full-bleed tint for highlighted entries. The box-shadow paints past the
@@ -498,7 +506,7 @@ hr {
   :root {
     --section-gutter: 8px;
     --text-title: 19px;
-    --text-display: clamp(28px, 8.2vw, 32px);
+    --text-display: clamp(26px, 8.2vw, 32px);
   }
 
   .page {
@@ -507,11 +515,11 @@ hr {
 
   /* Name beside a small avatar, intro text full width below. */
   .intro {
-    grid-template-columns: minmax(0, 1fr) min(28%, 104px);
+    grid-template-columns: minmax(0, 1fr) min(34%, 125px);
     grid-template-areas:
       "name  photo"
       "text  text";
-    column-gap: 12px;
+    column-gap: 8px;
     row-gap: 14px;
     align-items: center;
     padding: 20px var(--section-gutter);
@@ -563,15 +571,15 @@ hr {
   .project-links {
     grid-area: links;
     flex-wrap: nowrap;
-    gap: 3px;
+    gap: 2px;
     min-width: 0;
     margin-top: 0.7em;
-    font-size: 12px;
+    font-size: var(--text-base);
   }
 
   .project-links a.keycap-inline > span {
-    padding-right: 3px;
-    padding-left: 3px;
+    padding-right: 1px;
+    padding-left: 1px;
     white-space: nowrap;
   }
 
@@ -581,5 +589,17 @@ hr {
 
   .one {
     border-radius: 24px;
+  }
+}
+
+@media (max-width: 380px) {
+  .project-links {
+    font-size: var(--text-sm);
+  }
+}
+
+@media (max-width: 340px) {
+  .project-links {
+    font-size: 12px;
   }
 }
