@@ -367,6 +367,31 @@ a.keycap-inline:active > span {
   color: #ffcf8f;
 }
 
+.terminal-typed-character {
+  display: inline-block;
+  animation: terminal-type-strike 120ms steps(2, end);
+}
+
+@keyframes terminal-type-strike {
+  0% {
+    color: #fff8ec;
+    text-shadow: 0 0 5px rgb(255 207 143 / 75%);
+    transform: translateY(-1px) scaleY(1.08);
+  }
+
+  45% {
+    color: #ffe4b8;
+    text-shadow: 0 0 2px rgb(255 207 143 / 40%);
+    transform: translateY(1px) scaleY(0.96);
+  }
+
+  100% {
+    color: #ffcf8f;
+    text-shadow: none;
+    transform: none;
+  }
+}
+
 .terminal-directory {
   color: #ff7f50;
 }

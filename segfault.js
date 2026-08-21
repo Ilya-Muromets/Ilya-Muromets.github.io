@@ -57,15 +57,18 @@
         output.textContent = text;
       } else {
         for (var characterIndex = 0; characterIndex < text.length; characterIndex += 1) {
-          output.textContent = text.slice(0, characterIndex + 1);
+          var character = document.createElement('span');
+          character.className = 'terminal-typed-character';
+          character.textContent = text[characterIndex];
+          output.appendChild(character);
           trimHistory();
           await wait(45);
         }
       }
 
       trimHistory();
-      if (!reducedMotion && lineIndex < lines.length - 1) {
-        await wait(140);
+      if (!reducedMotion) {
+        await wait(300);
       }
     }
   }
