@@ -363,6 +363,10 @@ a.keycap-inline:active > span {
   text-overflow: clip;
 }
 
+.terminal-file {
+  color: #ffcf8f;
+}
+
 .terminal-prompt {
   display: flex;
   align-items: baseline;

@@ -6,8 +6,67 @@
   var input = document.querySelector('.terminal-input');
   if (!consoleForm || !history || !input) return;
 
+  var files = {
+    'README.txt': [
+      'Welcome to ilyac.info.',
+      '',
+      'You found the tiny filesystem behind cout.',
+      'There is only this file. Please put it back when you are done.'
+    ]
+  };
+
   function focusInput() {
     input.focus({ preventScroll: true });
+  }
+
+  function appendLine(text, className) {
+    var line = document.createElement('div');
+    line.className = 'terminal-entry' + (className ? ' ' + className : '');
+    line.textContent = text;
+    history.appendChild(line);
+  }
+
+  function runCommand(commandLine) {
+    var args = commandLine.trim().split(/\s+/);
+    var command = args.shift();
+    if (!command) return;
+
+    if (command === 'ls') {
+      if (!args.length) {
+        appendLine('README.txt', 'terminal-file');
+        return;
+      }
+
+      args.forEach(function (name) {
+        if (Object.prototype.hasOwnProperty.call(files, name)) {
+          appendLine(name, 'terminal-file');
+        } else {
+          appendLine("ls: cannot access '" + name + "': No such file or directory");
+        }
+      });
+      return;
+    }
+
+    if (command === 'cat') {
+      if (!args.length) {
+        appendLine('cat: missing file operand');
+        return;
+      }
+
+      args.forEach(function (name) {
+        if (!Object.prototype.hasOwnProperty.call(files, name)) {
+          appendLine('cat: ' + name + ': No such file or directory');
+          return;
+        }
+
+        files[name].forEach(function (line) {
+          appendLine(line);
+        });
+      });
+      return;
+    }
+
+    appendLine(command + ': command not found');
   }
 
   function trimHistory() {
@@ -25,11 +84,10 @@
   consoleForm.addEventListener('submit', function (event) {
     event.preventDefault();
 
-    var entry = document.createElement('div');
-    entry.className = 'terminal-entry';
-    entry.textContent = '~$ ' + input.value;
-    history.appendChild(entry);
+    var commandLine = input.value;
+    appendLine('~$ ' + commandLine);
     input.value = '';
+    runCommand(commandLine);
 
     window.requestAnimationFrame(trimHistory);
   });
