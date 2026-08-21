@@ -119,6 +119,10 @@ span.highlight {
   letter-spacing: -0.03em;
 }
 
+.mobile-name-break {
+  display: none;
+}
+
 .intro-about {
   grid-area: about;
   min-width: 0;
@@ -526,7 +530,7 @@ hr {
       "photo name"
       "about about"
       "links links";
-    column-gap: 8px;
+    column-gap: 16px;
     row-gap: 14px;
     align-items: center;
     padding: 20px var(--section-gutter);
@@ -534,7 +538,11 @@ hr {
 
   .intro-name {
     margin: 0;
-    white-space: nowrap;
+    white-space: normal;
+  }
+
+  .mobile-name-break {
+    display: inline;
   }
 
   .intro-photo {
