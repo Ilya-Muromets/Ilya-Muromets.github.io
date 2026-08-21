@@ -9,7 +9,7 @@
   var commands = ['?', 'cat', 'cd', 'clear', 'help', 'ls', 'pwd'];
   var listedCommands = ['cat', 'cd', 'clear', 'ls', 'pwd'];
   var directories = {
-    '/': ['void', 'tmp'],
+    '/': ['void'],
     '/void': ['README.txt'],
     '/tmp': []
   };
