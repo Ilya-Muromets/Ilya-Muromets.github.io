@@ -321,7 +321,6 @@
   }
 
   async function typeFile(lines, typingSpeed, voice, outputClassName, useEmphasis) {
-    var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     var speed = typingSpeed || 1;
     if (voice === 'temp' || voice === 'void') speed *= 0.8;
 
@@ -338,64 +337,51 @@
           ? new Array(text.length).fill(false)
           : emphasizedCharacters(text);
       typingLineSkipped = false;
-      typingLineActive = !reducedMotion;
+      typingLineActive = true;
 
-      if (reducedMotion) {
-        for (var reducedIndex = 0; reducedIndex < text.length; reducedIndex += 1) {
-          appendFileCharacter(
-            output,
-            text[reducedIndex],
-            emphasized[reducedIndex],
-            false,
-            voice,
-            reducedIndex
-          );
-        }
-      } else {
-        for (var characterIndex = 0; characterIndex < text.length; characterIndex += 1) {
-          if (typingLineSkipped) {
-            for (; characterIndex < text.length; characterIndex += 1) {
-              appendFileCharacter(
-                output,
-                text[characterIndex],
-                emphasized[characterIndex],
-                false,
-                voice,
-                characterIndex
-              );
-            }
-            break;
+      for (var characterIndex = 0; characterIndex < text.length; characterIndex += 1) {
+        if (typingLineSkipped) {
+          for (; characterIndex < text.length; characterIndex += 1) {
+            appendFileCharacter(
+              output,
+              text[characterIndex],
+              emphasized[characterIndex],
+              false,
+              voice,
+              characterIndex
+            );
           }
-          var inlinePauses = timedText.pauses[characterIndex] || [];
-          for (var pauseIndex = 0; pauseIndex < inlinePauses.length; pauseIndex += 1) {
-            await waitForTypingDelay(inlinePauses[pauseIndex]);
-            if (typingLineSkipped) break;
-          }
-          if (typingLineSkipped) {
-            characterIndex -= 1;
-            continue;
-          }
-          appendFileCharacter(
-            output,
-            text[characterIndex],
-            emphasized[characterIndex],
-            true,
-            voice,
-            characterIndex
-          );
-          trimHistory();
-          await waitForTypingDelay(45 / speed);
+          break;
         }
-        var endingPauses = timedText.pauses[text.length] || [];
-        for (var endingPauseIndex = 0;
-          endingPauseIndex < endingPauses.length && !typingLineSkipped;
-          endingPauseIndex += 1) {
-          await waitForTypingDelay(endingPauses[endingPauseIndex]);
+        var inlinePauses = timedText.pauses[characterIndex] || [];
+        for (var pauseIndex = 0; pauseIndex < inlinePauses.length; pauseIndex += 1) {
+          await waitForTypingDelay(inlinePauses[pauseIndex]);
+          if (typingLineSkipped) break;
         }
+        if (typingLineSkipped) {
+          characterIndex -= 1;
+          continue;
+        }
+        appendFileCharacter(
+          output,
+          text[characterIndex],
+          emphasized[characterIndex],
+          true,
+          voice,
+          characterIndex
+        );
+        trimHistory();
+        await waitForTypingDelay(45 / speed);
+      }
+      var endingPauses = timedText.pauses[text.length] || [];
+      for (var endingPauseIndex = 0;
+        endingPauseIndex < endingPauses.length && !typingLineSkipped;
+        endingPauseIndex += 1) {
+        await waitForTypingDelay(endingPauses[endingPauseIndex]);
       }
 
       trimHistory();
-      if (!reducedMotion && !typingLineSkipped) {
+      if (!typingLineSkipped) {
         await waitForTypingDelay(300 / speed);
       }
       typingLineActive = false;
