@@ -96,6 +96,9 @@
       sudoDeleteResponse: [
         'no no no stop stop no stop noooooo'
       ],
+      repeatedSudoDeleteResponse: [
+        'I’M ALREADY IN THE VOID, STOP PUTTING ME IN THE VOID'
+      ],
       afterSudoDelete: [
         'IT’S SO LOUD IN HERE',
         'WHY IS THE VOID LOUD',
@@ -195,6 +198,9 @@
   var typingLineActive = false;
   var typingLineSkipped = false;
   var finishTypingDelay = null;
+  var commandHistory = [];
+  var commandHistoryIndex = 0;
+  var commandHistoryDraft = '';
 
   function focusInput() {
     input.focus({ preventScroll: true });
@@ -872,8 +878,12 @@
       return typedDirectory + name + (isDirectory(childPath) ? '/' : '');
     });
 
-    if (command === 'cd' && '/tmp/'.indexOf(token) === 0 && candidates.indexOf('/tmp/') === -1) {
-      candidates.push('/tmp/');
+    if (command === 'cd') {
+      ['/tmp/', '/void/'].forEach(function (directory) {
+        if (directory.indexOf(token) === 0 && candidates.indexOf(directory) === -1) {
+          candidates.push(directory);
+        }
+      });
     }
 
     if (command === 'cd' || command === 'ls') {
@@ -913,6 +923,23 @@
     input.value = value.slice(0, tokenStart) + completion + suffix;
     var caret = tokenStart + completion.length;
     input.setSelectionRange(caret, caret);
+  }
+
+  function navigateCommandHistory(direction) {
+    if (!commandHistory.length || pendingSudoTarget !== null) return false;
+    if (commandHistoryIndex === commandHistory.length) {
+      commandHistoryDraft = input.value;
+    }
+
+    commandHistoryIndex = Math.max(
+      0,
+      Math.min(commandHistory.length, commandHistoryIndex + direction)
+    );
+    input.value = commandHistoryIndex === commandHistory.length
+      ? commandHistoryDraft
+      : commandHistory[commandHistoryIndex];
+    input.setSelectionRange(input.value.length, input.value.length);
+    return true;
   }
 
   function trimHistory() {
@@ -956,9 +983,13 @@
           files[voidFilePath] = storyContent.voidFile.afterSudoDelete.slice();
         } else if (isTempSudoTarget(sudoTarget)) {
           await wait(storyContent.actionResponseDelay);
-          await typeFile(storyContent.tempFile.sudoDeleteResponse, 1, 'temp');
-          if (isFile(tempFilePath)) moveFileToVoid(tempFilePath);
-          files[movedTempFilePath] = storyContent.tempFile.afterSudoDelete.slice();
+          if (isFile(movedTempFilePath) && !isFile(tempFilePath)) {
+            await typeFile(storyContent.tempFile.repeatedSudoDeleteResponse, 1, 'temp');
+          } else {
+            await typeFile(storyContent.tempFile.sudoDeleteResponse, 1, 'temp');
+            if (isFile(tempFilePath)) moveFileToVoid(tempFilePath);
+            files[movedTempFilePath] = storyContent.tempFile.afterSudoDelete.slice();
+          }
         } else if (storyContent.sudo.removalTargets.indexOf(sudoTarget) !== -1) {
           await showPeacefulEnding();
         } else if (!sudoTarget) {
@@ -977,6 +1008,11 @@
     var commandLine = input.value;
     appendLine('~$ ' + commandLine);
     input.value = '';
+    if (commandLine.trim()) {
+      commandHistory.push(commandLine);
+      commandHistoryIndex = commandHistory.length;
+      commandHistoryDraft = '';
+    }
     commandRunning = true;
 
     try {
@@ -992,6 +1028,12 @@
   input.addEventListener('keydown', function (event) {
     if (event.key === 'Enter' && fastForwardTypingLine()) {
       event.preventDefault();
+      return;
+    }
+    if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+      if (navigateCommandHistory(event.key === 'ArrowUp' ? -1 : 1)) {
+        event.preventDefault();
+      }
       return;
     }
     if (event.key !== 'Tab' || event.shiftKey) return;

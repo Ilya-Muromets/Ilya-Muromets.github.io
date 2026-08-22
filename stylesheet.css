@@ -526,10 +526,17 @@ a.keycap-inline:active > span {
   position: absolute;
   z-index: 1;
   inset: 0;
+  align-items: flex-start;
   justify-content: center;
-  padding: 24px;
+  padding: 24px 24px 24px clamp(48px, 34vw, 680px);
   max-height: none;
   overflow: hidden;
+}
+
+.terminal-peaceful .terminal-file-content {
+  position: relative;
+  z-index: 1;
+  width: max-content;
 }
 
 .terminal-peaceful {
