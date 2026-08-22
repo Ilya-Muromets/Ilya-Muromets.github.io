@@ -14,15 +14,26 @@
   <link rel="icon" type="image/png" href="images/seal_icon.png">
 </head>
 
-<body>
-  <div class="page">
+<body class="segfault-body">
+  <div class="page segfault-page">
     <p class="page-nav">
       <a class="keycap" href="index.html"><span>&larr; Back to home</span></a>
+      <a class="keycap" href="segfault.html"><span>Restart</span></a>
     </p>
 
-    <p class="segfault-output"><code>Segmentation fault (core dumped)</code></p>
-    <p class="segfault-prompt"><code>~$ |</code></p>
+    <form class="segfault-console" autocomplete="off">
+      <div class="terminal-history" aria-live="polite">
+        <!-- <div class="terminal-entry">Segmentation fault (core dumped)</div> -->
+      </div>
+      <label class="terminal-prompt">
+        <span class="terminal-prompt-prefix" aria-hidden="true">~$&nbsp;</span>
+        <input class="terminal-input" type="text" aria-label="Terminal input" autocapitalize="off"
+          autocomplete="off" autocorrect="off" spellcheck="false">
+      </label>
+    </form>
   </div>
+
+  <script src="segfault.js"></script>
 </body>
 
 </html>

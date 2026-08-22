@@ -308,12 +308,445 @@ a.keycap-inline:active > span {
   line-height: var(--leading-body);
 }
 
-.segfault-output {
-  margin: 0;
+.segfault-body {
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
 }
 
-.segfault-prompt {
-  margin-top: 16em;
+.segfault-page {
+  position: relative;
+  display: flow-root;
+  height: 100vh;
+  height: 100dvh;
+}
+
+.segfault-page > .page-nav {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  gap: 10px;
+}
+
+.segfault-console {
+  position: absolute;
+  top: 70%;
+  left: 12px;
+  right: 12px;
+  margin: 0;
+  transform: translateY(-50%);
+}
+
+.terminal-crashing {
+  animation: terminal-crash var(--terminal-crash-duration, 2600ms) steps(1, end);
+}
+
+.terminal-crashing .terminal-prompt {
+  opacity: 0;
+}
+
+.terminal-corruption-text {
+  color: #fff8ec;
+}
+
+.terminal-corruption-character {
+  position: relative;
+  display: inline-block;
+  min-width: 0.6em;
+  animation: terminal-character-drop 3300ms steps(3, end) forwards;
+  animation-delay: var(--corruption-delay);
+  text-align: center;
+}
+
+.terminal-corruption-character::before,
+.terminal-corruption-character::after {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  text-align: center;
+  animation-delay: var(--corruption-delay);
+  animation-fill-mode: forwards;
+  content: "";
+}
+
+.terminal-corruption-character::before {
+  color: #ffcf8f;
+  animation-name: terminal-character-scramble;
+  animation-duration: 3300ms;
+  animation-timing-function: steps(4, end);
+  content: attr(data-scramble);
+  text-shadow: var(--corruption-x) 0 #ff7f50;
+}
+
+.terminal-corruption-character::after {
+  color: var(--corruption-color);
+  animation-name: terminal-character-block;
+  animation-duration: 3300ms;
+  animation-timing-function: steps(3, end);
+  content: attr(data-block);
+  text-shadow: 0 0 5px currentColor;
+}
+
+@keyframes terminal-character-drop {
+  0%,
+  18% {
+    color: #fff8ec;
+    opacity: 1;
+    transform: none;
+  }
+
+  42% {
+    color: #ffcf8f;
+    opacity: 0.75;
+    transform: translateX(var(--corruption-x));
+  }
+
+  68% {
+    opacity: 0.15;
+    transform: translate(var(--corruption-x), 5px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(var(--corruption-x), 15px);
+  }
+}
+
+@keyframes terminal-character-scramble {
+  0%,
+  16% {
+    opacity: 0;
+  }
+
+  24%,
+  52% {
+    opacity: 1;
+    transform: translateX(var(--corruption-x));
+  }
+
+  62%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes terminal-character-block {
+  0%,
+  48% {
+    opacity: 0;
+    transform: translateY(0) scale(0.8);
+  }
+
+  58% {
+    opacity: 1;
+    transform: translateY(0) scale(1.12);
+  }
+
+  82% {
+    opacity: 0.9;
+    transform: translateY(7px) scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.75);
+  }
+}
+
+@keyframes terminal-crash {
+  0%,
+  72% {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+
+  79% {
+    opacity: 0.35;
+    transform: translateY(-50%);
+  }
+
+  85% {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+
+  92% {
+    opacity: 0.12;
+    transform: translateY(-50%);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+}
+
+.terminal-history {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 0.25em);
+  left: 0;
+  display: flex;
+  max-height: calc(70dvh - 120px);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.terminal-entry,
+.terminal-prompt {
+  overflow: hidden;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: var(--text-base);
+  font-weight: 400;
+  line-height: var(--leading-body);
+  letter-spacing: -0.025em;
+  white-space: pre;
+}
+
+.terminal-entry {
+  color: #a8a8a8;
+  flex: 0 0 auto;
+  text-overflow: clip;
+}
+
+.terminal-crashed .terminal-history {
+  position: static;
+  max-height: none;
+}
+
+.terminal-crashed .terminal-prompt,
+.terminal-peaceful .terminal-prompt {
+  display: none;
+}
+
+.terminal-peaceful .terminal-history {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  justify-content: center;
+  padding: 24px;
+  max-height: none;
+  overflow: hidden;
+}
+
+.terminal-peaceful {
+  position: fixed;
+  z-index: 10;
+  inset: 0;
+  background: #111;
+  transform: none;
+}
+
+.terminal-crash-message {
+  color: #ff7f50;
+  text-shadow: 0 0 8px rgb(255 127 80 / 55%);
+}
+
+.terminal-star-field {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.terminal-star-track {
+  animation: terminal-star-scroll 42s linear infinite;
+}
+
+.terminal-star-panel {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.terminal-star-line {
+  width: 100%;
+  color: #fff8ec;
+  opacity: 0.42;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: var(--text-base);
+  letter-spacing: clamp(2px, 0.8vw, 12px);
+  text-align: center;
+  text-shadow: 0 0 5px currentColor;
+  white-space: pre;
+  animation: terminal-star-wink 7.2s ease-in-out infinite;
+}
+
+.terminal-star-phase-2 {
+  color: #ffcf8f;
+  animation-delay: -1.2s;
+}
+
+.terminal-star-phase-3 {
+  color: #ff7f50;
+  animation-delay: -2.4s;
+}
+
+.terminal-star-phase-4 {
+  color: #ffe4b8;
+  animation-delay: -3.6s;
+}
+
+@keyframes terminal-star-wink {
+  0%,
+  100% {
+    opacity: 0.32;
+  }
+
+  50% {
+    opacity: 0.9;
+    text-shadow: 0 0 8px currentColor;
+  }
+}
+
+@keyframes terminal-star-scroll {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+.terminal-file {
+  color: #ff7f50;
+}
+
+.terminal-file-content {
+  --terminal-output-color: #ffcf8f;
+
+  color: var(--terminal-output-color);
+}
+
+.terminal-command-file,
+.terminal-command-directory {
+  --terminal-output-color: #ff7f50;
+}
+
+.terminal-command-error {
+  --terminal-output-color: #a8a8a8;
+}
+
+.terminal-voice-void {
+  font-style: italic;
+}
+
+.terminal-file-character {
+  color: var(--terminal-output-color);
+}
+
+.terminal-file-emphasis {
+  --terminal-output-color: #ff7f50;
+}
+
+.terminal-typed-character {
+  display: inline-block;
+  animation: terminal-type-strike 120ms steps(2, end);
+}
+
+.terminal-typed-temp {
+  animation: terminal-type-impact 280ms cubic-bezier(0.15, 0.9, 0.25, 1.35);
+}
+
+.terminal-typed-void {
+  animation: terminal-type-fade 700ms ease-out;
+}
+
+@keyframes terminal-type-impact {
+  0% {
+    color: #fff;
+    opacity: 0;
+    text-shadow: 0 0 8px rgb(255 127 80 / 90%);
+    transform:
+      translate(var(--terminal-impact-x), var(--terminal-impact-y))
+      rotate(var(--terminal-impact-rotate))
+      scale(1.65);
+  }
+
+  45% {
+    opacity: 1;
+    transform: translate(-1px, 1px) rotate(0deg) scale(0.82);
+  }
+
+  72% {
+    transform: translate(1px, -1px) scale(1.1);
+  }
+
+  100% {
+    color: var(--terminal-output-color);
+    opacity: 1;
+    text-shadow: none;
+    transform: none;
+  }
+}
+
+@keyframes terminal-type-fade {
+  0% {
+    opacity: 0;
+    filter: blur(1px);
+    transform: translateY(-7px);
+  }
+
+  100% {
+    opacity: 1;
+    filter: none;
+    transform: translateY(0);
+  }
+}
+
+@keyframes terminal-type-strike {
+  0% {
+    color: #fff8ec;
+    text-shadow: 0 0 5px rgb(255 207 143 / 75%);
+    transform: translateY(-1px) scaleY(1.08);
+  }
+
+  45% {
+    color: #ffe4b8;
+    text-shadow: 0 0 2px rgb(255 207 143 / 40%);
+    transform: translateY(1px) scaleY(0.96);
+  }
+
+  100% {
+    color: var(--terminal-output-color);
+    text-shadow: none;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .terminal-crashing,
+  .terminal-star-track,
+  .terminal-star-line,
+  .terminal-typed-character {
+    animation: none;
+  }
+}
+
+.terminal-directory {
+  color: #ff7f50;
+}
+
+.terminal-prompt {
+  display: flex;
+  align-items: baseline;
+  color: #f2f2f2;
+}
+
+.terminal-input {
+  min-width: 0;
+  flex: 1;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  caret-color: #f2f2f2;
+  color: inherit;
+  font: inherit;
 }
 
 .cv-title {
@@ -521,6 +954,11 @@ hr {
 
   .page {
     padding: 0 8px;
+  }
+
+  .segfault-console {
+    left: 8px;
+    right: 8px;
   }
 
   /* Portrait and name share the first row; About and links use full-width rows. */
