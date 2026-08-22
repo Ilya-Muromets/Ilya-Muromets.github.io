@@ -312,6 +312,7 @@ a.keycap-inline:active > span {
   height: 100vh;
   height: 100dvh;
   overflow: hidden;
+  color-scheme: dark;
 }
 
 .segfault-page {
@@ -330,7 +331,8 @@ a.keycap-inline:active > span {
 
 .segfault-console {
   position: absolute;
-  top: 70%;
+  top: 70vh;
+  top: 70dvh;
   left: 12px;
   right: 12px;
   margin: 0;
@@ -733,20 +735,38 @@ a.keycap-inline:active > span {
 
 .terminal-prompt {
   display: flex;
+  width: 100%;
   align-items: baseline;
   color: #f2f2f2;
 }
 
 .terminal-input {
+  width: 100%;
   min-width: 0;
   flex: 1;
   padding: 0;
   border: 0;
+  border-radius: 0;
   outline: 0;
+  appearance: none;
+  -webkit-appearance: none;
   background: transparent;
+  box-shadow: none;
   caret-color: #f2f2f2;
   color: inherit;
+  -webkit-text-fill-color: currentColor;
   font: inherit;
+}
+
+.terminal-input:-webkit-autofill,
+.terminal-input:-webkit-autofill:hover,
+.terminal-input:-webkit-autofill:focus,
+.terminal-input:autofill {
+  border: 0;
+  -webkit-box-shadow: 0 0 0 1000px #000 inset;
+  box-shadow: 0 0 0 1000px #000 inset;
+  caret-color: #f2f2f2;
+  -webkit-text-fill-color: #f2f2f2;
 }
 
 .cv-title {
