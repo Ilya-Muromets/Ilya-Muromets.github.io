@@ -38,6 +38,69 @@
       ]
     },
     {
+      "id": "hsk1-stories",
+      "file": "data/chinese/hsk1-stories.json",
+      "title": "First Stories",
+      "level": "HSK 1",
+      "description": "Six short first-reader stories built strictly from the 150-word HSK 1 vocabulary.",
+      "passages": [
+        {
+          "id": "hsk1s-family",
+          "title": "我的家",
+          "title_en": "My Family",
+          "tags": [
+            "family",
+            "introductions"
+          ]
+        },
+        {
+          "id": "hsk1s-sunday",
+          "title": "星期日",
+          "title_en": "Sunday",
+          "tags": [
+            "routine",
+            "weekend"
+          ]
+        },
+        {
+          "id": "hsk1s-shop",
+          "title": "在商店",
+          "title_en": "At the Shop",
+          "tags": [
+            "shopping",
+            "food"
+          ]
+        },
+        {
+          "id": "hsk1s-phone",
+          "title": "打电话",
+          "title_en": "A Phone Call",
+          "tags": [
+            "dialogue",
+            "plans"
+          ]
+        },
+        {
+          "id": "hsk1s-teacher",
+          "title": "我们的老师",
+          "title_en": "Our Teacher",
+          "tags": [
+            "school",
+            "study"
+          ]
+        },
+        {
+          "id": "hsk1s-cat",
+          "title": "我的猫",
+          "title_en": "My Cat",
+          "tags": [
+            "animals",
+            "home"
+          ]
+        }
+      ]
+    },
+    {
       "id": "hsk2-city",
       "file": "data/chinese/hsk2-city.json",
       "title": "Around the City",

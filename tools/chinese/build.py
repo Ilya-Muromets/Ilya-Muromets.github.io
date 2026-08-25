@@ -171,6 +171,58 @@ def check_deck(path, seen_passage_ids, problems):
     return deck
 
 
+def load_wordlist(name):
+    path = DATA / "wordlists" / (name + ".json")
+    if not path.exists():
+        return None
+    return set(json.loads(path.read_text(encoding="utf-8"))["words"])
+
+
+def segments_into(word, vocab):
+    """True if `word` can be split entirely into words from `vocab`.
+
+    Lets compounds built from in-level pieces pass — 星期日 from 星期 + 日,
+    一些 from 一 + 些 — without listing every combination.
+    """
+    n = len(word)
+    reachable = [False] * (n + 1)
+    reachable[0] = True
+    for end in range(1, n + 1):
+        for start in range(end):
+            if reachable[start] and word[start:end] in vocab:
+                reachable[end] = True
+                break
+    return reachable[n]
+
+
+def check_vocab(deck, path, problems):
+    """Warn about words outside the level a deck claims to sit in."""
+    name = deck.get("vocab")
+    if not name:
+        return
+    vocab = load_wordlist(name)
+    if vocab is None:
+        problems.append(Problem(path.name, f"unknown word list {name!r} in 'vocab'"))
+        return
+    allowed = vocab | set(deck.get("vocab_extra", []))
+
+    outside = {}
+    for passage in deck.get("passages", []):
+        for sentence in passage.get("sentences", []):
+            for token in sentence.get("tokens", []):
+                hz = token.get("hz", "")
+                if not token.get("py") or hz in allowed:
+                    continue
+                if segments_into(hz, allowed):
+                    continue
+                outside.setdefault(hz, passage.get("id", "?"))
+
+    for hz, pid in sorted(outside.items()):
+        problems.append(
+            Problem(f"{path.name} → {pid}", f"'{hz}' is outside {name}", fatal=False)
+        )
+
+
 def deck_stats(deck):
     chars = 0
     vocab = Counter()
@@ -205,6 +257,7 @@ def main():
         deck = check_deck(path, seen_passage_ids, problems)
         if deck is None:
             continue
+        check_vocab(deck, path, problems)
         chars, vocab = deck_stats(deck)
         total_chars += chars
         all_vocab.update(vocab)

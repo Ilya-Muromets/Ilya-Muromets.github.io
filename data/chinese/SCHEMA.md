@@ -96,6 +96,36 @@ Pinyin is written **as spoken**, since the point is reading aloud:
 - Third-tone pairs are left in their written form (`nǐ hǎo`, not `ní hǎo`) —
   that one is predictable enough that learners are better off seeing the base.
 
+## Staying inside a level
+
+A deck can declare the vocabulary level it claims to sit in:
+
+```json
+{
+  "id": "hsk1-stories",
+  "level": "HSK 1",
+  "vocab": "hsk1",
+  "vocab_extra": ["小美"],
+  "passages": [ ... ]
+}
+```
+
+`vocab` names a file in `wordlists/`. `build.py` then warns about every word
+that falls outside it — warnings, not errors, since a deliberate extra is a
+normal thing to want. `vocab_extra` silences the ones you've decided to keep
+(usually proper names).
+
+A word passes if it's in the list *or* if it splits cleanly into words that
+are: `星期日` from `星期` + `日`, `一些` from `一` + `些`, `家里` from `家` +
+`里`. That keeps ordinary compounds out of the warning list without having to
+enumerate them.
+
+`wordlists/hsk1.json` holds the official 150-word HSK 1 vocabulary. It is
+validation data only — the reader never fetches it, so it costs nothing at
+page load. To check against a level you don't have yet, drop a
+`wordlists/<name>.json` alongside it with the same shape:
+`{"id": ..., "title": ..., "words": ["爱", "八", ...]}`.
+
 ## Generating more passages
 
 The format is deliberately verbose so an LLM can fill it in directly. A prompt
@@ -117,6 +147,11 @@ that works:
 >
 > Topic: <ordering coffee / renting an apartment / a childhood memory>.
 > Level: <HSK 3>. 5 passages, 4–6 sentences each, vocabulary at or below that level.
+
+Write the passages rather than copying them out of a published graded reader —
+those are copyrighted. Constraining an original story to a level's word list
+gets you the same thing legitimately, and `vocab` checking (above) is what
+keeps it honest.
 
 Then drop the file in `data/chinese/`, run `python3 tools/chinese/build.py`, and
 fix whatever it complains about. Machine-generated glosses and segmentation are
