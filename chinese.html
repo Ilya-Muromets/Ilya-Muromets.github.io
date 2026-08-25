@@ -172,6 +172,37 @@
       white-space: nowrap;
     }
 
+    /* Active filter, shown outside the sheet so Random's scope is visible. */
+    .scope {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: inherit;
+      font-size: 13px;
+      color: var(--accent);
+      background: rgba(255, 127, 80, .1);
+      border: 1px solid #5c3b2b;
+      border-radius: 999px;
+      padding: 5px 12px;
+      cursor: pointer;
+      white-space: nowrap;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+    }
+
+    .scope[hidden] {
+      display: none;
+    }
+
+    .scope:hover {
+      background: rgba(255, 127, 80, .18);
+    }
+
+    .scope-x {
+      font-size: 11px;
+      color: var(--dim);
+    }
+
     .sheet {
       position: fixed;
       inset: 0;
@@ -818,6 +849,10 @@
         </button>
       </div>
 
+      <button class="scope" id="scope" hidden title="Clear filter">
+        <span></span><span class="scope-x" aria-hidden="true">&#10005;</span>
+      </button>
+
       <div class="ctrl nav-actions">
         <button class="btn" id="prev" title="Previous passage">&larr;</button>
         <button class="btn" id="random" title="Random passage">Random</button>
@@ -947,7 +982,8 @@
         tones: "on",       // on | off
         size: 34,          // hanzi font size in px
         last: null,        // "deckId/passageId"
-        read: {}           // "deckId/passageId" -> true, for passages marked read
+        read: {},          // "deckId/passageId" -> true, for passages marked read
+        filters: { level: "", kind: "", status: "" }   // scopes browsing and Random
       };
 
       var manifest = null;
@@ -962,7 +998,7 @@
       var browseSearch = document.getElementById("browse-search");
       var browseCount = document.getElementById("browse-count");
       var pickerLabel = document.getElementById("picker-label");
-      var filters = { level: "", kind: "", status: "" };
+      var scopePill = document.getElementById("scope");
       var visible = [];     // entries currently listed in the sheet
       var cursor = -1;      // keyboard-highlighted row
       var statusEl = document.getElementById("status");
@@ -1277,6 +1313,9 @@
         document.getElementById("read-count").textContent =
           count ? count + " of " + flat.length + " read" : "";
 
+        // Marking a passage read changes the unread pool, so the scope count
+        // (and the sheet, if it's open) has to follow.
+        if (flat.length) updateScope();
         if (!browse.hidden) renderBrowse();
       }
 
@@ -1373,17 +1412,25 @@
       document.getElementById("prev").addEventListener("click", function () { step(-1); });
       document.getElementById("next").addEventListener("click", function () { step(1); });
       document.getElementById("random").addEventListener("click", function () {
-        if (flat.length < 2) return;
-        var i;
-        do {
-          i = Math.floor(Math.random() * flat.length);
-        } while (current && keyOf(flat[i].deckId, flat[i].passageId) === current.key);
-        go(keyOf(flat[i].deckId, flat[i].passageId));
+        // Draw from the current filter, not the whole library — picking a
+        // category should mean something outside the browse sheet too.
+        var pool = scopedEntries();
+        if (!pool.length) return;
+        var here = current && current.key;
+        var choices = pool.filter(function (e) {
+          return keyOf(e.deckId, e.passageId) !== here;
+        });
+        // A filter narrowed to the passage you're already on: stay put rather
+        // than silently leaving the category.
+        if (!choices.length) return;
+        var pick = choices[Math.floor(Math.random() * choices.length)];
+        go(keyOf(pick.deckId, pick.passageId));
       });
 
       /* ---------- browse sheet ---------- */
 
       function entryMatches(entry, query) {
+        var filters = state.filters;
         if (filters.level && entry.level !== filters.level) return false;
         if (filters.kind && entry.kind !== filters.kind) return false;
         if (filters.status) {
@@ -1392,6 +1439,50 @@
           if (filters.status === "unread" && done) return false;
         }
         return !query || entry.haystack.indexOf(query) !== -1;
+      }
+
+      // The chip filters, without the search box — this is the pool Random
+      // draws from, and what the scope pill describes.
+      function scopedEntries() {
+        return flat.filter(function (e) { return entryMatches(e, ""); });
+      }
+
+      function scopeLabel() {
+        var f = state.filters;
+        var parts = [];
+        if (f.level) parts.push(f.level);
+        if (f.kind) parts.push(f.kind === "stories" ? "Stories" : "Everyday");
+        if (f.status) parts.push(f.status);
+        return parts.join(" · ");
+      }
+
+      function syncChips() {
+        Array.prototype.forEach.call(
+          document.querySelectorAll(".chip-row"),
+          function (row) {
+            var value = state.filters[row.dataset.facet] || "";
+            Array.prototype.forEach.call(row.children, function (chip) {
+              chip.setAttribute("aria-pressed", String(chip.dataset.value === value));
+            });
+          }
+        );
+      }
+
+      function updateScope() {
+        var label = scopeLabel();
+        scopePill.hidden = !label;
+        scopePill.firstChild.textContent = label;
+        var pool = label ? scopedEntries().length : flat.length;
+        document.getElementById("random").title =
+          label ? "Random passage in " + label + " (" + pool + ")" : "Random passage";
+      }
+
+      function setFilter(facet, value) {
+        state.filters[facet] = value;
+        saveState();
+        syncChips();
+        updateScope();
+        if (!browse.hidden) renderBrowse();
       }
 
       function renderBrowse() {
@@ -1476,13 +1567,15 @@
 
       document.getElementById("browse-filters").addEventListener("click", function (ev) {
         var chip = ev.target.closest(".chip");
-        if (!chip) return;
-        var facet = chip.parentNode.dataset.facet;
-        filters[facet] = chip.dataset.value;
-        Array.prototype.forEach.call(chip.parentNode.children, function (c) {
-          c.setAttribute("aria-pressed", String(c === chip));
-        });
-        renderBrowse();
+        if (chip) setFilter(chip.parentNode.dataset.facet, chip.dataset.value);
+      });
+
+      scopePill.addEventListener("click", function () {
+        state.filters = { level: "", kind: "", status: "" };
+        saveState();
+        syncChips();
+        updateScope();
+        if (!browse.hidden) renderBrowse();
       });
 
       browse.addEventListener("keydown", function (ev) {
@@ -1597,10 +1690,12 @@
           row.appendChild(chip);
         });
 
-        Array.prototype.forEach.call(
-          document.querySelectorAll('.chip[data-value=""]'),
-          function (chip) { chip.setAttribute("aria-pressed", "true"); }
-        );
+        // A level saved from a previous visit may no longer exist.
+        if (state.filters.level && levels.indexOf(state.filters.level) === -1) {
+          state.filters.level = "";
+        }
+        syncChips();
+        updateScope();
       }
 
       function showLoadError(err) {
