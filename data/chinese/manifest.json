@@ -1,0 +1,1700 @@
+{
+  "generated_by": "tools/chinese/build.py",
+  "decks": [
+    {
+      "id": "hsk1-everyday",
+      "file": "data/chinese/hsk1-everyday.json",
+      "title": "HSK 1 · Everyday",
+      "level": "HSK 1",
+      "kind": "everyday",
+      "description": "Fifty short practical exchanges — buying, asking, arranging — in HSK 1 vocabulary.",
+      "passages": [
+        {
+          "id": "hsk1e-01",
+          "title": "自我介绍",
+          "title_en": "Introducing Myself",
+          "tags": [
+            "introductions"
+          ]
+        },
+        {
+          "id": "hsk1e-02",
+          "title": "我的一天",
+          "title_en": "My Day",
+          "tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "hsk1e-03",
+          "title": "在饭馆",
+          "title_en": "At the Restaurant",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "hsk1e-04",
+          "title": "多少钱",
+          "title_en": "How Much Is It",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk1e-05",
+          "title": "火车站在哪",
+          "title_en": "Where Is the Station",
+          "tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "hsk1e-06",
+          "title": "坐出租车",
+          "title_en": "Taking a Taxi",
+          "tags": [
+            "transport"
+          ]
+        },
+        {
+          "id": "hsk1e-07",
+          "title": "看医生",
+          "title_en": "Seeing the Doctor",
+          "tags": [
+            "health"
+          ]
+        },
+        {
+          "id": "hsk1e-08",
+          "title": "现在几点",
+          "title_en": "What Time Is It",
+          "tags": [
+            "time"
+          ]
+        },
+        {
+          "id": "hsk1e-09",
+          "title": "买书",
+          "title_en": "Buying a Book",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk1e-10",
+          "title": "买衣服",
+          "title_en": "Buying Clothes",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk1e-11",
+          "title": "你叫什么名字",
+          "title_en": "What's Your Name",
+          "tags": [
+            "introductions"
+          ]
+        },
+        {
+          "id": "hsk1e-12",
+          "title": "你做什么工作",
+          "title_en": "What Do You Do",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "hsk1e-13",
+          "title": "请你吃饭",
+          "title_en": "Let Me Buy You Dinner",
+          "tags": [
+            "invitations"
+          ]
+        },
+        {
+          "id": "hsk1e-14",
+          "title": "对不起",
+          "title_en": "Sorry",
+          "tags": [
+            "manners"
+          ]
+        },
+        {
+          "id": "hsk1e-15",
+          "title": "今天天气怎么样",
+          "title_en": "How's the Weather",
+          "tags": [
+            "weather"
+          ]
+        },
+        {
+          "id": "hsk1e-16",
+          "title": "我要请假",
+          "title_en": "Calling In Sick",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "hsk1e-17",
+          "title": "在机场",
+          "title_en": "At the Airport",
+          "tags": [
+            "travel"
+          ]
+        },
+        {
+          "id": "hsk1e-18",
+          "title": "你会说汉语吗",
+          "title_en": "Do You Speak Chinese",
+          "tags": [
+            "language"
+          ]
+        },
+        {
+          "id": "hsk1e-19",
+          "title": "买水果",
+          "title_en": "Buying Fruit",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk1e-20",
+          "title": "今天星期几",
+          "title_en": "What Day Is It",
+          "tags": [
+            "time"
+          ]
+        },
+        {
+          "id": "hsk1e-21",
+          "title": "买电影票",
+          "title_en": "Buying Film Tickets",
+          "tags": [
+            "leisure"
+          ]
+        },
+        {
+          "id": "hsk1e-22",
+          "title": "你家有几个人",
+          "title_en": "How Many in Your Family",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk1e-23",
+          "title": "这个怎么说",
+          "title_en": "How Do You Say This",
+          "tags": [
+            "language"
+          ]
+        },
+        {
+          "id": "hsk1e-24",
+          "title": "在商店",
+          "title_en": "At the Shop",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk1e-25",
+          "title": "打电话",
+          "title_en": "A Phone Call",
+          "tags": [
+            "invitations"
+          ]
+        },
+        {
+          "id": "hsk1e-26",
+          "title": "请慢一点说",
+          "title_en": "Please Speak Slowly",
+          "tags": [
+            "language"
+          ]
+        },
+        {
+          "id": "hsk1e-27",
+          "title": "你要什么",
+          "title_en": "What Would You Like",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "hsk1e-28",
+          "title": "我的手机在哪",
+          "title_en": "Where's My Phone",
+          "tags": [
+            "problems"
+          ]
+        },
+        {
+          "id": "hsk1e-29",
+          "title": "这是我的朋友",
+          "title_en": "This Is My Friend",
+          "tags": [
+            "introductions"
+          ]
+        },
+        {
+          "id": "hsk1e-30",
+          "title": "医院在哪",
+          "title_en": "Where Is the Hospital",
+          "tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "hsk1e-31",
+          "title": "我要开始工作",
+          "title_en": "Starting a New Job",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "hsk1e-32",
+          "title": "请问怎么走",
+          "title_en": "How Do I Get There",
+          "tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "hsk1e-33",
+          "title": "你喜欢吃什么",
+          "title_en": "What Do You Like to Eat",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "hsk1e-34",
+          "title": "太贵了",
+          "title_en": "That's Too Expensive",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk1e-35",
+          "title": "我住在哪",
+          "title_en": "Where I Live",
+          "tags": [
+            "home"
+          ]
+        },
+        {
+          "id": "hsk1e-36",
+          "title": "几点开始",
+          "title_en": "What Time Does It Start",
+          "tags": [
+            "time"
+          ]
+        },
+        {
+          "id": "hsk1e-37",
+          "title": "我不要",
+          "title_en": "No Thank You",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk1e-38",
+          "title": "你有时间吗",
+          "title_en": "Are You Free",
+          "tags": [
+            "invitations"
+          ]
+        },
+        {
+          "id": "hsk1e-39",
+          "title": "找工作",
+          "title_en": "Looking for Work",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "hsk1e-40",
+          "title": "这个东西怎么用",
+          "title_en": "How Does This Work",
+          "tags": [
+            "problems"
+          ]
+        },
+        {
+          "id": "hsk1e-41",
+          "title": "我的房间太冷",
+          "title_en": "My Room Is Cold",
+          "tags": [
+            "problems"
+          ]
+        },
+        {
+          "id": "hsk1e-42",
+          "title": "你去过北京吗",
+          "title_en": "Have You Been to Beijing",
+          "tags": [
+            "travel"
+          ]
+        },
+        {
+          "id": "hsk1e-43",
+          "title": "买牛奶",
+          "title_en": "Buying Milk",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk1e-44",
+          "title": "我不能去",
+          "title_en": "I Can't Make It",
+          "tags": [
+            "invitations"
+          ]
+        },
+        {
+          "id": "hsk1e-45",
+          "title": "请给我看看",
+          "title_en": "Could I See That",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk1e-46",
+          "title": "你的生日是几月几号",
+          "title_en": "When Is Your Birthday",
+          "tags": [
+            "time"
+          ]
+        },
+        {
+          "id": "hsk1e-47",
+          "title": "在教室",
+          "title_en": "In the Classroom",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk1e-48",
+          "title": "我要水不要茶",
+          "title_en": "Water, Not Tea",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "hsk1e-49",
+          "title": "我们几点见",
+          "title_en": "What Time Shall We Meet",
+          "tags": [
+            "invitations"
+          ]
+        },
+        {
+          "id": "hsk1e-50",
+          "title": "谢谢你的帮助",
+          "title_en": "Thanks for Your Help",
+          "tags": [
+            "manners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk1-stories",
+      "file": "data/chinese/hsk1-stories.json",
+      "title": "HSK 1 · Stories",
+      "level": "HSK 1",
+      "kind": "stories",
+      "description": "Fifty short first-reader stories built around the HSK 1 vocabulary.",
+      "passages": [
+        {
+          "id": "hsk1s-01",
+          "title": "我是猫",
+          "title_en": "I Am a Cat",
+          "tags": [
+            "animals"
+          ]
+        },
+        {
+          "id": "hsk1s-02",
+          "title": "小狗",
+          "title_en": "The Little Dog",
+          "tags": [
+            "animals"
+          ]
+        },
+        {
+          "id": "hsk1s-03",
+          "title": "我的名字",
+          "title_en": "My Name",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk1s-04",
+          "title": "下雨天",
+          "title_en": "A Rainy Day",
+          "tags": [
+            "weather"
+          ]
+        },
+        {
+          "id": "hsk1s-05",
+          "title": "爸爸的车",
+          "title_en": "Dad's Car",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk1s-06",
+          "title": "妈妈的菜",
+          "title_en": "Mom's Cooking",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "hsk1s-07",
+          "title": "老师和学生",
+          "title_en": "The Teacher and the Student",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk1s-08",
+          "title": "一个苹果",
+          "title_en": "One Apple",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "hsk1s-09",
+          "title": "我的书",
+          "title_en": "My Book",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk1s-10",
+          "title": "猫在椅子上",
+          "title_en": "The Cat on the Chair",
+          "tags": [
+            "animals"
+          ]
+        },
+        {
+          "id": "hsk1s-11",
+          "title": "星期日的上午",
+          "title_en": "Sunday Morning",
+          "tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "hsk1s-12",
+          "title": "我不想学习",
+          "title_en": "I Don't Want to Study",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk1s-13",
+          "title": "新同学",
+          "title_en": "The New Classmate",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk1s-14",
+          "title": "电影",
+          "title_en": "The Film",
+          "tags": [
+            "leisure"
+          ]
+        },
+        {
+          "id": "hsk1s-15",
+          "title": "天气很热",
+          "title_en": "The Weather Is Hot",
+          "tags": [
+            "weather"
+          ]
+        },
+        {
+          "id": "hsk1s-16",
+          "title": "我的电脑",
+          "title_en": "My Computer",
+          "tags": [
+            "things"
+          ]
+        },
+        {
+          "id": "hsk1s-17",
+          "title": "猫和狗",
+          "title_en": "The Cat and the Dog",
+          "tags": [
+            "animals"
+          ]
+        },
+        {
+          "id": "hsk1s-18",
+          "title": "爸爸的工作",
+          "title_en": "Dad's Work",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk1s-19",
+          "title": "我的朋友",
+          "title_en": "My Friend",
+          "tags": [
+            "friends"
+          ]
+        },
+        {
+          "id": "hsk1s-20",
+          "title": "十块钱",
+          "title_en": "Ten Yuan",
+          "tags": [
+            "money"
+          ]
+        },
+        {
+          "id": "hsk1s-21",
+          "title": "我的椅子",
+          "title_en": "My Chair",
+          "tags": [
+            "things"
+          ]
+        },
+        {
+          "id": "hsk1s-22",
+          "title": "我爱北京",
+          "title_en": "I Love Beijing",
+          "tags": [
+            "travel"
+          ]
+        },
+        {
+          "id": "hsk1s-23",
+          "title": "请喝茶",
+          "title_en": "Please Have Some Tea",
+          "tags": [
+            "home"
+          ]
+        },
+        {
+          "id": "hsk1s-24",
+          "title": "我的女儿",
+          "title_en": "My Daughter",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk1s-25",
+          "title": "太多苹果",
+          "title_en": "Too Many Apples",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "hsk1s-26",
+          "title": "我的老师很漂亮",
+          "title_en": "Our Teacher Is Beautiful",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk1s-27",
+          "title": "飞机",
+          "title_en": "The Airplane",
+          "tags": [
+            "travel"
+          ]
+        },
+        {
+          "id": "hsk1s-28",
+          "title": "生日",
+          "title_en": "The Birthday",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk1s-29",
+          "title": "猫不见了",
+          "title_en": "The Cat Is Gone",
+          "tags": [
+            "animals"
+          ]
+        },
+        {
+          "id": "hsk1s-30",
+          "title": "我会做菜了",
+          "title_en": "I Can Cook Now",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "hsk1s-31",
+          "title": "十一点了",
+          "title_en": "It's Eleven O'clock",
+          "tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "hsk1s-32",
+          "title": "我的哥哥",
+          "title_en": "My Older Brother",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk1s-33",
+          "title": "学校的猫",
+          "title_en": "The School Cat",
+          "tags": [
+            "animals"
+          ]
+        },
+        {
+          "id": "hsk1s-34",
+          "title": "我的手机",
+          "title_en": "My Phone",
+          "tags": [
+            "things"
+          ]
+        },
+        {
+          "id": "hsk1s-35",
+          "title": "大雪",
+          "title_en": "Heavy Snow",
+          "tags": [
+            "weather"
+          ]
+        },
+        {
+          "id": "hsk1s-36",
+          "title": "我不认识那个人",
+          "title_en": "I Don't Know That Person",
+          "tags": [
+            "people"
+          ]
+        },
+        {
+          "id": "hsk1s-37",
+          "title": "妹妹的字",
+          "title_en": "My Little Sister's Characters",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk1s-38",
+          "title": "茶和水",
+          "title_en": "Tea and Water",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "hsk1s-39",
+          "title": "我的房间",
+          "title_en": "My Room",
+          "tags": [
+            "home"
+          ]
+        },
+        {
+          "id": "hsk1s-40",
+          "title": "我们去饭馆",
+          "title_en": "We Go to a Restaurant",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "hsk1s-41",
+          "title": "老人和狗",
+          "title_en": "The Old Man and the Dog",
+          "tags": [
+            "people"
+          ]
+        },
+        {
+          "id": "hsk1s-42",
+          "title": "我想有一个猫",
+          "title_en": "I Want a Cat",
+          "tags": [
+            "animals"
+          ]
+        },
+        {
+          "id": "hsk1s-43",
+          "title": "汉语很难",
+          "title_en": "Chinese Is Hard",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk1s-44",
+          "title": "我的同学生病了",
+          "title_en": "My Classmate Is Sick",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk1s-45",
+          "title": "大苹果小苹果",
+          "title_en": "Big Apple, Small Apple",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "hsk1s-46",
+          "title": "猫喜欢鱼",
+          "title_en": "The Cat Likes Fish",
+          "tags": [
+            "animals"
+          ]
+        },
+        {
+          "id": "hsk1s-47",
+          "title": "我的爸爸妈妈",
+          "title_en": "My Parents",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk1s-48",
+          "title": "现在几点",
+          "title_en": "What Time Is It",
+          "tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "hsk1s-49",
+          "title": "我的中国朋友",
+          "title_en": "My Chinese Friend",
+          "tags": [
+            "friends"
+          ]
+        },
+        {
+          "id": "hsk1s-50",
+          "title": "明天",
+          "title_en": "Tomorrow",
+          "tags": [
+            "routine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk2-everyday",
+      "file": "data/chinese/hsk2-everyday.json",
+      "title": "HSK 2 · Everyday",
+      "level": "HSK 2",
+      "kind": "everyday",
+      "description": "Fifty practical exchanges — renting, ordering, arranging, complaining, apologising.",
+      "passages": [
+        {
+          "id": "hsk2e-01",
+          "title": "问路要多长时间",
+          "title_en": "How Long Does It Take",
+          "tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "hsk2e-02",
+          "title": "买手机",
+          "title_en": "Buying a Phone",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk2e-03",
+          "title": "租房子",
+          "title_en": "Renting a Room",
+          "tags": [
+            "home"
+          ]
+        },
+        {
+          "id": "hsk2e-04",
+          "title": "在饭馆点菜",
+          "title_en": "Ordering at a Restaurant",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "hsk2e-05",
+          "title": "结账",
+          "title_en": "Paying the Bill",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "hsk2e-06",
+          "title": "买火车票",
+          "title_en": "Buying a Train Ticket",
+          "tags": [
+            "travel"
+          ]
+        },
+        {
+          "id": "hsk2e-07",
+          "title": "在机场",
+          "title_en": "At the Airport",
+          "tags": [
+            "travel"
+          ]
+        },
+        {
+          "id": "hsk2e-08",
+          "title": "换房间",
+          "title_en": "Changing Rooms",
+          "tags": [
+            "problems"
+          ]
+        },
+        {
+          "id": "hsk2e-09",
+          "title": "便宜一点",
+          "title_en": "A Little Cheaper",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk2e-10",
+          "title": "找工作",
+          "title_en": "A Job Interview",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "hsk2e-11",
+          "title": "问同事帮忙",
+          "title_en": "Asking a Colleague for Help",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "hsk2e-12",
+          "title": "请假",
+          "title_en": "Asking for Time Off",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "hsk2e-13",
+          "title": "看病",
+          "title_en": "Seeing a Doctor",
+          "tags": [
+            "health"
+          ]
+        },
+        {
+          "id": "hsk2e-14",
+          "title": "买药",
+          "title_en": "Buying Medicine",
+          "tags": [
+            "health"
+          ]
+        },
+        {
+          "id": "hsk2e-15",
+          "title": "介绍同事",
+          "title_en": "Introducing a Colleague",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "hsk2e-16",
+          "title": "约人打篮球",
+          "title_en": "Making Plans to Play",
+          "tags": [
+            "leisure"
+          ]
+        },
+        {
+          "id": "hsk2e-17",
+          "title": "问天气带不带伞",
+          "title_en": "Do I Need an Umbrella",
+          "tags": [
+            "weather"
+          ]
+        },
+        {
+          "id": "hsk2e-18",
+          "title": "问考试什么时候",
+          "title_en": "When Is the Exam",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk2e-19",
+          "title": "退东西",
+          "title_en": "Returning an Item",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk2e-20",
+          "title": "送生日礼物",
+          "title_en": "A Birthday Present",
+          "tags": [
+            "invitations"
+          ]
+        },
+        {
+          "id": "hsk2e-21",
+          "title": "问路坐几路车",
+          "title_en": "Which Bus",
+          "tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "hsk2e-22",
+          "title": "在公共汽车上",
+          "title_en": "On the Bus",
+          "tags": [
+            "transport"
+          ]
+        },
+        {
+          "id": "hsk2e-23",
+          "title": "找不到东西",
+          "title_en": "I Can't Find It",
+          "tags": [
+            "problems"
+          ]
+        },
+        {
+          "id": "hsk2e-24",
+          "title": "问有没有别的颜色",
+          "title_en": "Any Other Colors",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk2e-25",
+          "title": "问周末做什么",
+          "title_en": "Weekend Plans",
+          "tags": [
+            "leisure"
+          ]
+        },
+        {
+          "id": "hsk2e-26",
+          "title": "借东西",
+          "title_en": "Borrowing Something",
+          "tags": [
+            "friends"
+          ]
+        },
+        {
+          "id": "hsk2e-27",
+          "title": "问附近有什么",
+          "title_en": "What's Nearby",
+          "tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "hsk2e-28",
+          "title": "打电话找人",
+          "title_en": "Asking for Someone",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "hsk2e-29",
+          "title": "说我的爱好",
+          "title_en": "Talking About Hobbies",
+          "tags": [
+            "friends"
+          ]
+        },
+        {
+          "id": "hsk2e-30",
+          "title": "问家里人",
+          "title_en": "Asking About Family",
+          "tags": [
+            "friends"
+          ]
+        },
+        {
+          "id": "hsk2e-31",
+          "title": "问怎么去",
+          "title_en": "How Do I Get There",
+          "tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "hsk2e-32",
+          "title": "迟到了",
+          "title_en": "Running Late",
+          "tags": [
+            "manners"
+          ]
+        },
+        {
+          "id": "hsk2e-33",
+          "title": "点菜问辣不辣",
+          "title_en": "Is It Spicy",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "hsk2e-34",
+          "title": "问价钱和公斤",
+          "title_en": "Price by the Kilo",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk2e-35",
+          "title": "洗衣服",
+          "title_en": "Doing Laundry",
+          "tags": [
+            "home"
+          ]
+        },
+        {
+          "id": "hsk2e-36",
+          "title": "问身体好不好",
+          "title_en": "Asking How Someone Is",
+          "tags": [
+            "manners"
+          ]
+        },
+        {
+          "id": "hsk2e-37",
+          "title": "问什么时候完",
+          "title_en": "When Does It Finish",
+          "tags": [
+            "time"
+          ]
+        },
+        {
+          "id": "hsk2e-38",
+          "title": "问能不能用手机付钱",
+          "title_en": "Can I Pay by Phone",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk2e-39",
+          "title": "请人吃饭",
+          "title_en": "Inviting Someone to Dinner",
+          "tags": [
+            "invitations"
+          ]
+        },
+        {
+          "id": "hsk2e-40",
+          "title": "问路远不远",
+          "title_en": "Is It Far",
+          "tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "hsk2e-41",
+          "title": "问学校的事",
+          "title_en": "Asking About School",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk2e-42",
+          "title": "东西坏了",
+          "title_en": "It's Broken",
+          "tags": [
+            "problems"
+          ]
+        },
+        {
+          "id": "hsk2e-43",
+          "title": "问明天的计划",
+          "title_en": "Tomorrow's Plan",
+          "tags": [
+            "invitations"
+          ]
+        },
+        {
+          "id": "hsk2e-44",
+          "title": "问哪里买",
+          "title_en": "Where Can I Buy It",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "hsk2e-45",
+          "title": "在教室问问题",
+          "title_en": "Asking a Question in Class",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk2e-46",
+          "title": "说不好意思",
+          "title_en": "Making an Apology",
+          "tags": [
+            "manners"
+          ]
+        },
+        {
+          "id": "hsk2e-47",
+          "title": "问工作时间",
+          "title_en": "Asking About Hours",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "hsk2e-48",
+          "title": "说再见",
+          "title_en": "Saying Goodbye",
+          "tags": [
+            "manners"
+          ]
+        },
+        {
+          "id": "hsk2e-49",
+          "title": "问会不会做",
+          "title_en": "Can You Do It",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "hsk2e-50",
+          "title": "我要走了",
+          "title_en": "I'm Leaving",
+          "tags": [
+            "manners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk2-stories",
+      "file": "data/chinese/hsk2-stories.json",
+      "title": "HSK 2 · Stories",
+      "level": "HSK 2",
+      "kind": "stories",
+      "description": "Fifty short stories with a little more room — 得 complements, 因为/所以, past experience.",
+      "passages": [
+        {
+          "id": "hsk2s-01",
+          "title": "我的自行车",
+          "title_en": "My Bicycle",
+          "tags": [
+            "things"
+          ]
+        },
+        {
+          "id": "hsk2s-02",
+          "title": "我学会了游泳",
+          "title_en": "I Learned to Swim",
+          "tags": [
+            "learning"
+          ]
+        },
+        {
+          "id": "hsk2s-03",
+          "title": "找不到的狗",
+          "title_en": "The Dog That Couldn't Be Found",
+          "tags": [
+            "animals"
+          ]
+        },
+        {
+          "id": "hsk2s-04",
+          "title": "第一次考试",
+          "title_en": "The First Exam",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk2s-05",
+          "title": "下雪的早上",
+          "title_en": "A Snowy Morning",
+          "tags": [
+            "weather"
+          ]
+        },
+        {
+          "id": "hsk2s-06",
+          "title": "哥哥的手机",
+          "title_en": "My Brother's Phone",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk2s-07",
+          "title": "妹妹的生日",
+          "title_en": "My Sister's Birthday",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk2s-08",
+          "title": "我们去旅游",
+          "title_en": "We Went Travelling",
+          "tags": [
+            "travel"
+          ]
+        },
+        {
+          "id": "hsk2s-09",
+          "title": "红色的门",
+          "title_en": "The Red Door",
+          "tags": [
+            "neighbours"
+          ]
+        },
+        {
+          "id": "hsk2s-10",
+          "title": "我不喜欢跑步",
+          "title_en": "I Don't Like Running",
+          "tags": [
+            "health"
+          ]
+        },
+        {
+          "id": "hsk2s-11",
+          "title": "咖啡和我",
+          "title_en": "Coffee and Me",
+          "tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "hsk2s-12",
+          "title": "我的老房间",
+          "title_en": "My Old Room",
+          "tags": [
+            "home"
+          ]
+        },
+        {
+          "id": "hsk2s-13",
+          "title": "火车上的男人",
+          "title_en": "The Man on the Train",
+          "tags": [
+            "travel"
+          ]
+        },
+        {
+          "id": "hsk2s-14",
+          "title": "我最喜欢的颜色",
+          "title_en": "My Favorite Color",
+          "tags": [
+            "things"
+          ]
+        },
+        {
+          "id": "hsk2s-15",
+          "title": "会开门的猫",
+          "title_en": "The Cat Who Opens Doors",
+          "tags": [
+            "animals"
+          ]
+        },
+        {
+          "id": "hsk2s-16",
+          "title": "生病的时候",
+          "title_en": "When I Was Sick",
+          "tags": [
+            "health"
+          ]
+        },
+        {
+          "id": "hsk2s-17",
+          "title": "一个人的晚上",
+          "title_en": "An Evening Alone",
+          "tags": [
+            "home"
+          ]
+        },
+        {
+          "id": "hsk2s-18",
+          "title": "我的中文名字",
+          "title_en": "My Chinese Name",
+          "tags": [
+            "language"
+          ]
+        },
+        {
+          "id": "hsk2s-19",
+          "title": "学校旁边的小店",
+          "title_en": "The Little Shop by the School",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk2s-20",
+          "title": "我怕考试",
+          "title_en": "I'm Afraid of Tests",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk2s-21",
+          "title": "爸爸的手表",
+          "title_en": "Dad's Watch",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk2s-22",
+          "title": "我们的老师笑了",
+          "title_en": "Our Teacher Smiled",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk2s-23",
+          "title": "晚上的城市",
+          "title_en": "The City at Night",
+          "tags": [
+            "city"
+          ]
+        },
+        {
+          "id": "hsk2s-24",
+          "title": "我不会跳舞",
+          "title_en": "I Can't Dance",
+          "tags": [
+            "leisure"
+          ]
+        },
+        {
+          "id": "hsk2s-25",
+          "title": "我的第一个工作",
+          "title_en": "My First Job",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "hsk2s-26",
+          "title": "邻居的音乐",
+          "title_en": "The Neighbor's Music",
+          "tags": [
+            "neighbours"
+          ]
+        },
+        {
+          "id": "hsk2s-27",
+          "title": "我最忙的一天",
+          "title_en": "My Busiest Day",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "hsk2s-28",
+          "title": "我和我的旧衣服",
+          "title_en": "My Old Clothes",
+          "tags": [
+            "things"
+          ]
+        },
+        {
+          "id": "hsk2s-29",
+          "title": "春天来了",
+          "title_en": "Spring Has Come",
+          "tags": [
+            "weather"
+          ]
+        },
+        {
+          "id": "hsk2s-30",
+          "title": "我教妈妈用手机",
+          "title_en": "Teaching Mom Her Phone",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk2s-31",
+          "title": "一个下雨的下午",
+          "title_en": "A Rainy Afternoon",
+          "tags": [
+            "weather"
+          ]
+        },
+        {
+          "id": "hsk2s-32",
+          "title": "我的爷爷",
+          "title_en": "My Grandfather",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk2s-33",
+          "title": "我买了太多书",
+          "title_en": "I Bought Too Many Books",
+          "tags": [
+            "things"
+          ]
+        },
+        {
+          "id": "hsk2s-34",
+          "title": "我学做菜",
+          "title_en": "Learning to Cook",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "hsk2s-35",
+          "title": "那个跑步的女人",
+          "title_en": "The Woman Who Runs",
+          "tags": [
+            "neighbours"
+          ]
+        },
+        {
+          "id": "hsk2s-36",
+          "title": "我的第一个中国朋友",
+          "title_en": "My First Chinese Friend",
+          "tags": [
+            "friends"
+          ]
+        },
+        {
+          "id": "hsk2s-37",
+          "title": "忘了钱包",
+          "title_en": "Forgetting My Wallet",
+          "tags": [
+            "problems"
+          ]
+        },
+        {
+          "id": "hsk2s-38",
+          "title": "弟弟的问题",
+          "title_en": "My Little Brother's Questions",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk2s-39",
+          "title": "我们家的电视",
+          "title_en": "Our Television",
+          "tags": [
+            "home"
+          ]
+        },
+        {
+          "id": "hsk2s-40",
+          "title": "我第一次坐飞机",
+          "title_en": "My First Flight",
+          "tags": [
+            "travel"
+          ]
+        },
+        {
+          "id": "hsk2s-41",
+          "title": "一个安静的图书馆",
+          "title_en": "A Quiet Library",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk2s-42",
+          "title": "我的运动",
+          "title_en": "My Exercise",
+          "tags": [
+            "health"
+          ]
+        },
+        {
+          "id": "hsk2s-43",
+          "title": "妈妈的信",
+          "title_en": "Mom's Letter",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk2s-44",
+          "title": "我们班的新同学",
+          "title_en": "The New Student in Our Class",
+          "tags": [
+            "school"
+          ]
+        },
+        {
+          "id": "hsk2s-45",
+          "title": "雨里的猫",
+          "title_en": "The Cat in the Rain",
+          "tags": [
+            "animals"
+          ]
+        },
+        {
+          "id": "hsk2s-46",
+          "title": "我最喜欢的季节",
+          "title_en": "My Favorite Season",
+          "tags": [
+            "weather"
+          ]
+        },
+        {
+          "id": "hsk2s-47",
+          "title": "我的旧电脑",
+          "title_en": "My Old Computer",
+          "tags": [
+            "things"
+          ]
+        },
+        {
+          "id": "hsk2s-48",
+          "title": "送妹妹去学校",
+          "title_en": "Walking My Sister to School",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hsk2s-49",
+          "title": "我不想长大",
+          "title_en": "I Don't Want to Grow Up",
+          "tags": [
+            "reflection"
+          ]
+        },
+        {
+          "id": "hsk2s-50",
+          "title": "今天很好",
+          "title_en": "Today Was Good",
+          "tags": [
+            "reflection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk3-stories",
+      "file": "data/chinese/hsk3-stories.json",
+      "title": "HSK 3 · Small Stories",
+      "level": "HSK 3",
+      "kind": "stories",
+      "description": "A little above level: 把, 得 complements, and more description.",
+      "passages": [
+        {
+          "id": "hsk3-neighbor-cat",
+          "title": "邻居的猫",
+          "title_en": "The Neighbor's Cat",
+          "tags": [
+            "story",
+            "animals"
+          ]
+        },
+        {
+          "id": "hsk3-hiking",
+          "title": "爬山",
+          "title_en": "Climbing the Mountain",
+          "tags": [
+            "story",
+            "outdoors"
+          ]
+        },
+        {
+          "id": "hsk2-subway",
+          "title": "坐地铁",
+          "title_en": "Taking the Subway",
+          "tags": [
+            "transport",
+            "daily life"
+          ]
+        },
+        {
+          "id": "hsk2-weather",
+          "title": "今天的天气",
+          "title_en": "Today's Weather",
+          "tags": [
+            "weather",
+            "seasons"
+          ]
+        },
+        {
+          "id": "hsk2-shopping",
+          "title": "买东西",
+          "title_en": "Buying Things",
+          "tags": [
+            "shopping",
+            "money"
+          ]
+        }
+      ]
+    }
+  ]
+}

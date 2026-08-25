@@ -1,0 +1,59 @@
+# deck: id=hsk3-stories | title=HSK 3 · Small Stories | level=HSK 3 | kind=stories
+# desc: A little above level: 把, 得 complements, and more description.
+# extra: 说 天 们 他们 也 每
+
+@ hsk3-neighbor-cat | 邻居的猫 | The Neighbor's Cat | story, animals
+我 家 楼下 住 着 一 位 老奶奶， 她 养 了 一 只 很 胖 的 橘猫。
+An old lady lives downstairs from us, and she keeps a very fat orange cat.
+那 只 猫 每天 下午 都 坐 在 门口 晒太阳， 谁 走过去 它 都 不 动。
+Every afternoon that cat sits in the doorway sunning itself, and it doesn't move no matter who walks past.
+有 一 天 下雨， 它 躲 在 我 的 自行车 下面， 叫 了 一会儿。
+One day it rained, and it hid under my bicycle, crying for a while.
+我 把 它 抱 回 老奶奶 家， 她 笑 着 给 了 我 一 个 苹果。
+I carried it back to the old lady's home, and smiling, she gave me an apple.
+
+@ hsk3-hiking | 爬山 | Climbing the Mountain | story, outdoors
+上 个 周末 我 和 朋友 一起 去 爬山。
+Last weekend I went hiking with a friend.
+山路 不 长， 可是 很 陡， 我们 爬 得 很 慢。
+The mountain path was not long, but it was steep, and we climbed very slowly.
+爬 到 一半 的时候， 我 已经 累 得 说 不出 话 来。
+Halfway up I was already too tired to speak.
+朋友 笑 我 说：“ 你 平时 应该 多 运动。”
+My friend laughed at me and said: "You should exercise more."
+到 了 山顶， 风 很 凉快， 城市 在 下面 变 得 很 小。
+At the summit the wind was cool, and the city below had become very small.
+那 一 刻 我 觉得， 累 一点 也 没关系。
+In that moment I felt that being a little tired didn't matter at all.
+
+@ hsk2-subway | 坐地铁 | Taking the Subway | transport, daily life
+北京 的 地铁 很 方便， 也 不 太 贵。
+Beijing's subway is very convenient, and not too expensive either.
+早上 八 点 的时候 人 特别 多， 大家 都 要 去 上班。
+At eight in the morning there are especially many people; everyone has to get to work.
+我 常常 站 着 看 手机。
+I often stand and look at my phone.
+有时候 我 会 给 老人 让座。
+Sometimes I give up my seat for an elderly person.
+从 我 家 到 公司 要 坐 三十 分钟。
+From my home to the office takes a thirty minute ride.
+
+@ hsk2-weather | 今天的天气 | Today's Weather | weather, seasons
+今天 早上 下 大 雨， 我 忘 了 带 伞。
+It rained hard this morning and I forgot to bring an umbrella.
+到 了 中午 天气 就 晴 了， 太阳 很 好。
+By noon the weather cleared up and the sun was lovely.
+北方 的 秋天 有点 短， 很快 就要 冷 了。
+Autumn in the north is a bit short; it will be cold again soon.
+我 最 喜欢 秋天， 因为 不 冷 也 不 热。
+Autumn is my favorite, because it is neither cold nor hot.
+
+@ hsk2-shopping | 买东西 | Buying Things | shopping, money
+周末 我 去 超市 买 东西。
+On the weekend I go to the supermarket to buy things.
+我 买 了 两 斤 苹果 和 一些 青菜。
+I bought two jin of apples and some green vegetables.
+收银员 问 我 要 不 要 袋子， 我 说 不用， 我 自己 带 了。
+The cashier asked whether I wanted a bag; I said no need, I brought my own.
+回家 的 路上 我 又 买 了 一 杯 奶茶。
+On the way home I bought another cup of milk tea.

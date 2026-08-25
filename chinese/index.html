@@ -1,0 +1,1730 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Mandarin Reader</title>
+  <meta name="author" content="Ilya Chugunov">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A guided Mandarin reader: simplified Chinese with toggleable pinyin and per-word glosses.">
+  <link rel="stylesheet" type="text/css" href="/stylesheet.css">
+  <link rel="icon" type="image/png" href="/images/seal_icon.png">
+
+  <style>
+    :root {
+      --hz-size: 34px;
+      --accent: #ff7f50;
+      --dim: #9aa0a6;
+      --panel: #131313;
+      --edge: #2b2b2b;
+      /* Tone colors, tuned for a black background. */
+      --t1: #ff6b6b;
+      --t2: #ffb454;
+      --t3: #6fcf97;
+      --t4: #6aa9ff;
+      --t5: #9aa0a6;
+    }
+
+    .wrap {
+      width: 100%;
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 20px 20px 80px;
+      box-sizing: border-box;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+
+    .topbar h1 {
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--accent);
+      margin: 0;
+    }
+
+    .topbar h1 .zh {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      margin-right: 8px;
+    }
+
+    /* ---- toolbar ---- */
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px 18px;
+      padding: 12px 14px;
+      background: var(--panel);
+      border: 1px solid var(--edge);
+      border-radius: 12px;
+    }
+
+    .ctrl {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .ctrl > label {
+      font-size: 12px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--dim);
+    }
+
+    .seg {
+      display: inline-flex;
+      border: 1px solid var(--edge);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .seg button,
+    .btn,
+    .chip,
+    .sheet-row {
+      /* Repeated taps otherwise select the label text on a phone. */
+      -webkit-tap-highlight-color: transparent;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+
+    .seg button,
+    .btn {
+      font-family: inherit;
+      font-size: 14px;
+      color: #f2f2f2;
+      background: transparent;
+      border: 0;
+      padding: 6px 11px;
+      cursor: pointer;
+    }
+
+    .seg button + button {
+      border-left: 1px solid var(--edge);
+    }
+
+    .seg button[aria-pressed="true"] {
+      background: var(--accent);
+      color: #101010;
+      font-weight: 600;
+    }
+
+    .seg button:hover:not([aria-pressed="true"]),
+    .btn:hover {
+      background: #262626;
+    }
+
+    .btn {
+      border: 1px solid var(--edge);
+      border-radius: 8px;
+    }
+
+    select {
+      font-family: inherit;
+      font-size: 14px;
+      color: #f2f2f2;
+      background: #1c1c1c;
+      border: 1px solid var(--edge);
+      border-radius: 8px;
+      padding: 6px 8px;
+      max-width: 100%;
+    }
+
+    .grow {
+      flex: 1 1 240px;
+      min-width: 0;
+    }
+
+    .grow select {
+      width: 100%;
+    }
+
+    /* ---- browse sheet ---- */
+    .picker-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      width: 100%;
+      text-align: left;
+      padding: 8px 12px;
+      background: #1c1c1c;
+      font-size: 15px;
+    }
+
+    .picker-btn .caret {
+      color: var(--dim);
+      font-size: 11px;
+      flex: none;
+    }
+
+    #picker-label {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    /* Active filter, shown outside the sheet so Random's scope is visible. */
+    .scope {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: inherit;
+      font-size: 13px;
+      color: var(--accent);
+      background: rgba(255, 127, 80, .1);
+      border: 1px solid #5c3b2b;
+      border-radius: 999px;
+      padding: 5px 12px;
+      cursor: pointer;
+      white-space: nowrap;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+    }
+
+    .scope[hidden] {
+      display: none;
+    }
+
+    .scope:hover {
+      background: rgba(255, 127, 80, .18);
+    }
+
+    .scope-x {
+      font-size: 11px;
+      color: var(--dim);
+    }
+
+    .sheet {
+      position: fixed;
+      inset: 0;
+      z-index: 60;
+      background: rgba(0, 0, 0, .72);
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 40px 16px;
+    }
+
+    .sheet[hidden] {
+      display: none;
+    }
+
+    .sheet-panel {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 640px;
+      max-height: 100%;
+      background: #101010;
+      border: 1px solid #333;
+      border-radius: 14px;
+      overflow: hidden;
+    }
+
+    .sheet-head {
+      display: flex;
+      gap: 8px;
+      padding: 12px;
+      border-bottom: 1px solid var(--edge);
+    }
+
+    #browse-search {
+      flex: 1 1 auto;
+      min-width: 0;
+      font-family: inherit;
+      font-size: 16px;
+      color: #f2f2f2;
+      background: #1c1c1c;
+      border: 1px solid var(--edge);
+      border-radius: 8px;
+      padding: 9px 12px;
+    }
+
+    #browse-search:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .chips {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--edge);
+    }
+
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .chip {
+      font-family: inherit;
+      font-size: 13px;
+      color: var(--dim);
+      background: transparent;
+      border: 1px solid var(--edge);
+      border-radius: 999px;
+      padding: 5px 12px;
+      cursor: pointer;
+    }
+
+    .chip:hover {
+      background: #1e1e1e;
+    }
+
+    .chip[aria-pressed="true"] {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #101010;
+      font-weight: 600;
+    }
+
+    .sheet-count {
+      padding: 8px 14px 0;
+      font-size: 12px;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: #6f6f6f;
+    }
+
+    .sheet-list {
+      flex: 1 1 auto;
+      overflow-y: auto;
+      padding: 8px;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .sheet-group {
+      padding: 12px 8px 6px;
+      font-size: 12px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: #6f6f6f;
+    }
+
+    .sheet-row {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      width: 100%;
+      text-align: left;
+      font-family: inherit;
+      background: transparent;
+      border: 0;
+      border-radius: 8px;
+      padding: 10px 10px;
+      cursor: pointer;
+      color: #f2f2f2;
+    }
+
+    .sheet-row:hover,
+    .sheet-row.cursor {
+      background: #232323;
+    }
+
+    .sheet-row[aria-current="true"] .row-hz {
+      color: var(--accent);
+    }
+
+    .row-hz {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      font-size: 18px;
+      flex: none;
+    }
+
+    .row-en {
+      flex: 1 1 auto;
+      font-size: 14px;
+      color: var(--dim);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .row-done {
+      flex: none;
+      font-size: 13px;
+      color: var(--accent);
+      width: 1em;
+    }
+
+    .sheet-empty {
+      padding: 28px 12px;
+      text-align: center;
+      color: var(--dim);
+      font-size: 14px;
+    }
+
+    /* ---- passage ---- */
+    .passage-head {
+      margin: 26px 0 6px;
+      display: flex;
+      align-items: baseline;
+      gap: 8px 12px;
+      flex-wrap: wrap;
+    }
+
+    .passage-head .spacer {
+      flex: 1 1 20px;
+    }
+
+    /* Mark-as-read toggle — the one control worth a big target, since it's
+       pressed at the end of every passage. */
+    .done {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 15px;
+      font-size: 15px;
+      color: var(--dim);
+      white-space: nowrap;
+    }
+
+    .done .check {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 19px;
+      height: 19px;
+      border: 1px solid #4a4a4a;
+      border-radius: 5px;
+      font-size: 13px;
+      line-height: 1;
+      color: transparent;
+    }
+
+    .done[aria-pressed="true"] {
+      color: var(--accent);
+      border-color: #5c3b2b;
+      background: rgba(255, 127, 80, .1);
+    }
+
+    .done[aria-pressed="true"] .check {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #101010;
+    }
+
+    .read-count {
+      font-size: 13px;
+      color: #6f6f6f;
+      align-self: center;
+    }
+
+    .passage-head .title {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      font-size: 26px;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .passage-head .title-en,
+    .meta {
+      font-size: 14px;
+      color: var(--dim);
+    }
+
+    .reader {
+      margin-top: 18px;
+    }
+
+    .sentence {
+      margin: 0 0 10px;
+      padding: 8px 10px;
+      border-radius: 10px;
+      border-left: 2px solid transparent;
+    }
+
+    .sentence:hover {
+      border-left-color: #333;
+      background: rgba(255, 255, 255, .02);
+    }
+
+    .line {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      row-gap: 2px;
+    }
+
+    /* A word plus its trailing punctuation — the unit that wraps. */
+    .group {
+      display: flex;
+      align-items: flex-end;
+    }
+
+    /* Each token stacks pinyin over hanzi, so they stay aligned. */
+    .tok {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2px 3px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color .12s ease;
+    }
+
+    .tok:hover,
+    .tok.active {
+      background: #2c2c2c;
+    }
+
+    .tok:focus-visible {
+      outline: 1px solid var(--accent);
+    }
+
+    .py {
+      font-family: Arial, Verdana, Helvetica, sans-serif;
+      font-size: calc(var(--hz-size) * 0.42);
+      line-height: 1.35;
+      color: var(--dim);
+      white-space: nowrap;
+    }
+
+    .hz {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      font-size: var(--hz-size);
+      line-height: 1.35;
+      white-space: nowrap;
+    }
+
+    .punct {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      font-size: var(--hz-size);
+      line-height: 1.35;
+      align-self: flex-end;
+      color: var(--dim);
+    }
+
+    /* Pinyin display modes, set on .reader */
+    .reader[data-pinyin="off"] .py {
+      display: none;
+    }
+
+    /* "hover" keeps the space reserved so nothing jumps when it appears */
+    .reader[data-pinyin="hover"] .py {
+      visibility: hidden;
+    }
+
+    .reader[data-pinyin="hover"] .tok:hover .py,
+    .reader[data-pinyin="hover"] .tok.active .py {
+      visibility: visible;
+    }
+
+    /* Tone colors */
+    .reader[data-tones="on"] .t1 { color: var(--t1); }
+    .reader[data-tones="on"] .t2 { color: var(--t2); }
+    .reader[data-tones="on"] .t3 { color: var(--t3); }
+    .reader[data-tones="on"] .t4 { color: var(--t4); }
+    .reader[data-tones="on"] .t5 { color: var(--t5); }
+
+    .en {
+      margin-top: 6px;
+      font-size: 15px;
+      color: #cfcfcf;
+      font-style: italic;
+    }
+
+    .reader[data-english="off"] .en {
+      display: none;
+    }
+
+    /* "tap" collapses the translation to a marker. Keeping the line in flow
+       (rather than display:none) leaves a full-width tap target — touch
+       adjustment otherwise snaps taps to the nearest word and the translation
+       becomes almost impossible to open on a phone. */
+    .reader[data-english="tap"] .en {
+      font-size: 0;
+    }
+
+    .reader[data-english="tap"] .en::before {
+      content: "···";
+      font-size: 15px;
+      font-style: normal;
+      letter-spacing: 3px;
+      color: #565656;
+    }
+
+    .reader[data-english="tap"] .sentence.revealed .en {
+      font-size: 15px;
+    }
+
+    .reader[data-english="tap"] .sentence.revealed .en::before {
+      content: none;
+    }
+
+    /* "hover" reserves the line so the text doesn't shift under the cursor.
+       A tap reveals it too, since touch screens have no hover. */
+    .reader[data-english="hover"] .en {
+      visibility: hidden;
+    }
+
+    .reader[data-english="hover"] .sentence:hover .en,
+    .reader[data-english="hover"] .sentence.revealed .en {
+      visibility: visible;
+    }
+
+    .reader[data-english="tap"] .sentence,
+    .reader[data-english="hover"] .sentence {
+      cursor: pointer;
+    }
+
+    /* ---- tooltip ---- */
+    #tip {
+      position: fixed;
+      z-index: 50;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      max-width: min(320px, calc(100vw - 24px));
+      padding: 9px 13px;
+      background: #1c1c1c;
+      border: 1px solid #3a3a3a;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, .6);
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity .1s ease;
+    }
+
+    #tip.show {
+      opacity: 1;
+    }
+
+    #tip .tip-py {
+      font-size: 16px;
+      color: var(--accent);
+    }
+
+    #tip .tip-en {
+      font-size: 15px;
+      color: #e0e0e0;
+    }
+
+    /* ---- settings + vocab, below the passage ---- */
+    .below {
+      margin-top: 34px;
+      border-top: 1px solid var(--edge);
+      padding-top: 16px;
+    }
+
+    .below h2 {
+      font-size: 14px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--dim);
+      font-weight: 600;
+      margin: 0 0 12px;
+      display: inline;
+    }
+
+    /* The word list folds away — on a phone it's several screens of scrolling
+       between the passage and anything below it. */
+    .vocab summary {
+      cursor: pointer;
+      list-style: none;
+      padding-bottom: 12px;
+    }
+
+    .vocab summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .vocab summary::after {
+      content: "▸";
+      margin-left: 8px;
+      color: #5a5a5a;
+      font-size: 12px;
+    }
+
+    .vocab[open] summary::after {
+      content: "▾";
+    }
+
+    .vocab summary:hover h2 {
+      color: #c8c8c8;
+    }
+
+    .vocab-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+      gap: 8px 20px;
+    }
+
+    .vocab-row {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      padding: 3px 0;
+      border-bottom: 1px solid #1a1a1a;
+    }
+
+    .vocab-row .v-hz {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      font-size: 19px;
+      min-width: 3.2em;
+    }
+
+    .vocab-row .v-py {
+      font-size: 13px;
+      color: var(--accent);
+      min-width: 5em;
+    }
+
+    .vocab-row .v-en {
+      font-size: 13px;
+      color: var(--dim);
+    }
+
+    .hint {
+      margin-top: 26px;
+      font-size: 13px;
+      color: #6f6f6f;
+      line-height: 1.7;
+    }
+
+    kbd {
+      font-family: monospace;
+      font-size: 12px;
+      background: #1c1c1c;
+      border: 1px solid var(--edge);
+      border-radius: 4px;
+      padding: 1px 5px;
+    }
+
+    .error {
+      border: 1px solid #6b2b2b;
+      background: #1a0f0f;
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-top: 20px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .touch-only {
+      display: none;
+    }
+
+    @media (pointer:none), (pointer:coarse) {
+      :root {
+        --hz-size: 28px;
+      }
+
+      .wrap {
+        padding: 12px 14px 90px;
+      }
+
+      .touch-only {
+        display: inline;
+      }
+
+      .hover-only {
+        display: none;
+      }
+
+      /* Passage controls stay reachable from anywhere in a long passage —
+         otherwise "next" means scrolling back past the vocabulary list. */
+      #navbar {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        gap: 8px;
+        padding: 10px;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, .55);
+      }
+
+      .nav-actions {
+        flex: 1 1 100%;
+        gap: 8px;
+      }
+
+      /* Thumb-sized targets, with Read the widest since it ends every passage. */
+      .nav-actions .btn {
+        flex: 1 1 auto;
+        min-height: 44px;
+        justify-content: center;
+      }
+
+      .nav-actions .done {
+        flex: 2 1 auto;
+      }
+
+      .seg button,
+      .btn,
+      select {
+        font-size: 15px;
+        padding: 9px 13px;
+      }
+
+      .toolbar {
+        gap: 10px 14px;
+      }
+
+      .passage-head {
+        margin-top: 18px;
+      }
+
+      /* Hovering isn't a thing here, so the bubble becomes a bottom sheet:
+         it lands in the same place every time and never covers the word
+         that was just tapped. */
+      #tip {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: auto !important;
+        max-width: none;
+        border-width: 1px 0 0;
+        border-radius: 14px 14px 0 0;
+        padding: 14px 18px calc(14px + env(safe-area-inset-bottom, 0px));
+        transform: translateY(10px);
+        transition: opacity .12s ease, transform .12s ease;
+      }
+
+      #tip.show {
+        transform: none;
+      }
+
+      #tip .tip-py {
+        font-size: 19px;
+      }
+
+      #tip .tip-en {
+        font-size: 16px;
+      }
+
+      .sentence:hover {
+        border-left-color: transparent;
+        background: none;
+      }
+
+      /* The sheet takes the whole screen — a centered dialog wastes a phone. */
+      .sheet {
+        padding: 0;
+      }
+
+      .sheet-panel {
+        max-width: none;
+        height: 100%;
+        border: 0;
+        border-radius: 0;
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+      }
+
+      .sheet-row {
+        padding: 13px 10px;
+      }
+
+      .chip {
+        font-size: 14px;
+        padding: 7px 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <h1><span class="zh">中文</span>Reader</h1>
+      <div><a href="/">&larr; back home</a></div>
+    </div>
+
+    <div class="toolbar" id="navbar">
+      <div class="ctrl grow">
+        <button class="btn picker-btn" id="browse-open" aria-haspopup="dialog">
+          <span id="picker-label">Choose a passage</span>
+          <span class="caret" aria-hidden="true">▾</span>
+        </button>
+      </div>
+
+      <button class="scope" id="scope" hidden title="Clear filter">
+        <span></span><span class="scope-x" aria-hidden="true">&#10005;</span>
+      </button>
+
+      <div class="ctrl nav-actions">
+        <button class="btn" id="prev" title="Previous passage">&larr;</button>
+        <button class="btn" id="random" title="Random passage">Random</button>
+        <button class="btn" id="next" title="Next passage">&rarr;</button>
+        <button class="btn done" id="done" aria-pressed="false"
+          title="Mark this passage as read (d)">
+          <span class="check" aria-hidden="true">&#10003;</span>
+          <span>Read</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="status"></div>
+
+    <div class="sheet" id="browse" hidden>
+      <div class="sheet-panel" role="dialog" aria-modal="true" aria-label="Choose a passage">
+        <div class="sheet-head">
+          <input id="browse-search" type="search" autocomplete="off"
+            placeholder="Search titles and topics…" aria-label="Search passages">
+          <button class="btn" id="browse-close" aria-label="Close">&#10005;</button>
+        </div>
+        <div class="chips" id="browse-filters">
+          <div class="chip-row" data-facet="level">
+            <button class="chip" data-value="">All levels</button>
+          </div>
+          <div class="chip-row" data-facet="kind">
+            <button class="chip" data-value="">Both</button>
+            <button class="chip" data-value="stories">Stories</button>
+            <button class="chip" data-value="everyday">Everyday</button>
+          </div>
+          <div class="chip-row" data-facet="status">
+            <button class="chip" data-value="">Any</button>
+            <button class="chip" data-value="unread">Unread</button>
+            <button class="chip" data-value="read">Read</button>
+          </div>
+        </div>
+        <div class="sheet-count" id="browse-count"></div>
+        <div class="sheet-list" id="browse-list"></div>
+      </div>
+    </div>
+
+    <div class="passage-head" id="passage-head" hidden>
+      <span class="title" id="p-title"></span>
+      <span class="title-en" id="p-title-en"></span>
+      <span class="meta" id="p-meta"></span>
+      <span class="spacer"></span>
+      <span class="read-count" id="read-count"></span>
+    </div>
+
+    <div class="reader" id="reader" data-pinyin="on" data-english="tap" data-tones="on"></div>
+
+    <div class="below" id="settings">
+      <h2>Reading settings</h2>
+      <div class="toolbar">
+        <div class="ctrl">
+          <label>Pinyin</label>
+          <div class="seg" id="seg-pinyin">
+            <button data-value="on">On</button>
+            <button data-value="hover">Hover</button>
+            <button data-value="off">Off</button>
+          </div>
+        </div>
+
+        <div class="ctrl">
+          <label>English</label>
+          <div class="seg" id="seg-english">
+            <button data-value="on">On</button>
+            <button data-value="hover">Hover</button>
+            <button data-value="tap">Tap</button>
+            <button data-value="off">Off</button>
+          </div>
+        </div>
+
+        <div class="ctrl">
+          <label>Tones</label>
+          <div class="seg" id="seg-tones">
+            <button data-value="on">Color</button>
+            <button data-value="off">Plain</button>
+          </div>
+        </div>
+
+        <div class="ctrl">
+          <label>Size</label>
+          <button class="btn" id="smaller" title="Smaller text">A&minus;</button>
+          <button class="btn" id="bigger" title="Larger text">A+</button>
+        </div>
+      </div>
+    </div>
+
+    <details class="below vocab" id="vocab" hidden>
+      <summary><h2 id="vocab-heading">Words in this passage</h2></summary>
+      <div class="vocab-grid" id="vocab-grid"></div>
+    </details>
+
+    <p class="hint">
+      <span class="hover-only">
+        Hover any word for its meaning — the bubble shows whatever pinyin and
+        English are currently turned on.
+        <kbd>&larr;</kbd> <kbd>&rarr;</kbd> passage &nbsp;·&nbsp;
+        <kbd>b</kbd> browse &nbsp;·&nbsp;
+        <kbd>r</kbd> random &nbsp;·&nbsp;
+        <kbd>d</kbd> mark read &nbsp;·&nbsp;
+        <kbd>p</kbd> pinyin &nbsp;·&nbsp;
+        <kbd>e</kbd> english &nbsp;·&nbsp;
+        <kbd>t</kbd> tones
+      </span>
+      <span class="touch-only">
+        Tap any word for its meaning, tap <b>···</b> for a sentence translation,
+        and swipe left or right to change passage.
+      </span>
+    </p>
+  </div>
+
+  <div id="tip" role="tooltip" aria-hidden="true"></div>
+
+  <script>
+    (function () {
+      "use strict";
+
+      var DATA_ROOT = "/data/chinese/";
+      var STORE_KEY = "zh-reader-v1";
+      var SIZE_MIN = 20, SIZE_MAX = 64;
+
+      var state = {
+        pinyin: "on",      // on | hover | off
+        english: "tap",    // on | hover | tap | off
+        tones: "on",       // on | off
+        size: 34,          // hanzi font size in px
+        last: null,        // "deckId/passageId"
+        read: {},          // "deckId/passageId" -> true, for passages marked read
+        filters: { level: "", kind: "", status: "" }   // scopes browsing and Random
+      };
+
+      var manifest = null;
+      var deckCache = {};   // deckId -> deck JSON
+      var flat = [];        // [{deckId, passageId, label}] in reading order
+      var current = null;   // {deck, passage, key}
+      var pinned = null;    // token element with a pinned tooltip
+
+      var reader = document.getElementById("reader");
+      var browse = document.getElementById("browse");
+      var browseList = document.getElementById("browse-list");
+      var browseSearch = document.getElementById("browse-search");
+      var browseCount = document.getElementById("browse-count");
+      var pickerLabel = document.getElementById("picker-label");
+      var scopePill = document.getElementById("scope");
+      var visible = [];     // entries currently listed in the sheet
+      var cursor = -1;      // keyboard-highlighted row
+      var statusEl = document.getElementById("status");
+      var tip = document.getElementById("tip");
+
+      /* ---------- persistence ---------- */
+
+      function loadState() {
+        try {
+          var saved = JSON.parse(localStorage.getItem(STORE_KEY) || "{}");
+          Object.keys(state).forEach(function (k) {
+            if (saved[k] !== undefined && saved[k] !== null) state[k] = saved[k];
+          });
+        } catch (e) { /* first visit, or storage disabled */ }
+      }
+
+      function saveState() {
+        try {
+          localStorage.setItem(STORE_KEY, JSON.stringify(state));
+        } catch (e) { /* private mode; settings just won't persist */ }
+      }
+
+      /* ---------- pinyin helpers ---------- */
+
+      var TONE_MARKS = { "̄": 1, "́": 2, "̌": 3, "̀": 4 };
+
+      // Tone number for one pinyin syllable; 5 = neutral.
+      function toneOf(syllable) {
+        var d = syllable.normalize("NFD");
+        for (var i = 0; i < d.length; i++) {
+          if (TONE_MARKS[d[i]]) return TONE_MARKS[d[i]];
+        }
+        return 5;
+      }
+
+      function syllables(py) {
+        return py.trim().split(/\s+/).filter(Boolean);
+      }
+
+      function canHover() {
+        return !window.matchMedia || window.matchMedia("(hover: hover)").matches;
+      }
+
+      /* ---------- rendering ---------- */
+
+      function renderToken(token) {
+        // No pinyin means punctuation or spacing: rendered flat, not hoverable.
+        if (!token.py) {
+          var punct = document.createElement("span");
+          punct.className = "punct";
+          punct.textContent = token.hz;
+          return punct;
+        }
+
+        var syls = syllables(token.py);
+        var chars = Array.from(token.hz);
+        // Align pinyin syllable-to-character when the counts match; erhua and
+        // other merged readings set "nosplit" and are colored as a unit.
+        var aligned = !token.nosplit && syls.length === chars.length;
+
+        var el = document.createElement("span");
+        el.className = "tok";
+        el.tabIndex = 0;
+        el.dataset.hz = token.hz;
+        el.dataset.py = token.py;
+        el.dataset.en = token.en || "";
+
+        var py = document.createElement("span");
+        py.className = "py";
+        if (aligned) {
+          // Joined for display ("zhōngguó") but one span per syllable, so each
+          // syllable sits above its own character.
+          syls.forEach(function (s) {
+            var span = document.createElement("span");
+            span.className = "t" + toneOf(s);
+            span.textContent = s;
+            py.appendChild(span);
+          });
+        } else {
+          var whole = document.createElement("span");
+          whole.className = "t" + toneOf(syls[0]);
+          whole.textContent = syls.join(" ");
+          py.appendChild(whole);
+        }
+
+        var hz = document.createElement("span");
+        hz.className = "hz";
+        if (aligned) {
+          chars.forEach(function (c, i) {
+            var span = document.createElement("span");
+            span.className = "t" + toneOf(syls[i]);
+            span.textContent = c;
+            hz.appendChild(span);
+          });
+        } else {
+          var whz = document.createElement("span");
+          whz.className = "t" + toneOf(syls[0]);
+          whz.textContent = token.hz;
+          hz.appendChild(whz);
+        }
+
+        el.appendChild(py);
+        el.appendChild(hz);
+        return el;
+      }
+
+      function renderPassage(deck, passage) {
+        document.getElementById("passage-head").hidden = false;
+        document.getElementById("p-title").textContent = passage.title || "";
+        document.getElementById("p-title-en").textContent = passage.title_en || "";
+
+        var idx = flat.findIndex(function (f) { return f.passageId === passage.id; });
+        var meta = [deck.title, deck.level].filter(Boolean).join(" · ");
+        document.getElementById("p-meta").textContent =
+          meta + "  (" + (idx + 1) + "/" + flat.length + ")";
+
+        reader.innerHTML = "";
+        (passage.sentences || []).forEach(function (sentence) {
+          var block = document.createElement("div");
+          block.className = "sentence";
+
+          var line = document.createElement("div");
+          line.className = "line";
+          // Words carry their adjacent punctuation, so a comma or 。 can't wrap
+          // onto a line of its own — which happened constantly at phone widths.
+          var tokens = sentence.tokens || [];
+          var i = 0;
+          while (i < tokens.length) {
+            var group = document.createElement("span");
+            group.className = "group";
+            while (i < tokens.length && !tokens[i].py) {
+              group.appendChild(renderToken(tokens[i]));   // opening punctuation
+              i++;
+            }
+            if (i < tokens.length) {
+              group.appendChild(renderToken(tokens[i]));   // the word itself
+              i++;
+            }
+            while (i < tokens.length && !tokens[i].py) {
+              group.appendChild(renderToken(tokens[i]));   // closing punctuation
+              i++;
+            }
+            line.appendChild(group);
+          }
+          block.appendChild(line);
+
+          var en = document.createElement("div");
+          en.className = "en";
+          en.textContent = sentence.en || "";
+          block.appendChild(en);
+
+          // In "tap" and "hover" modes a click anywhere on the sentence reveals
+          // its translation — the only way in on a touch screen.
+          block.addEventListener("click", function (ev) {
+            if (state.english !== "tap" && state.english !== "hover") return;
+            if (ev.target.closest(".tok")) return;   // word taps open the tooltip instead
+            block.classList.toggle("revealed");
+          });
+
+          reader.appendChild(block);
+        });
+
+        renderVocab(passage);
+        hideTip();
+      }
+
+      function renderVocab(passage) {
+        var seen = {};
+        var rows = [];
+        (passage.sentences || []).forEach(function (sentence) {
+          (sentence.tokens || []).forEach(function (token) {
+            if (!token.py) return;
+            var key = token.hz + "|" + token.py;
+            if (seen[key]) return;
+            seen[key] = true;
+            rows.push(token);
+          });
+        });
+
+        var grid = document.getElementById("vocab-grid");
+        grid.innerHTML = "";
+        rows.forEach(function (token) {
+          var row = document.createElement("div");
+          row.className = "vocab-row";
+          row.innerHTML =
+            '<span class="v-hz"></span><span class="v-py"></span><span class="v-en"></span>';
+          row.children[0].textContent = token.hz;
+          row.children[1].textContent = syllables(token.py).join(" ");
+          row.children[2].textContent = token.en || "";
+          grid.appendChild(row);
+        });
+        var vocab = document.getElementById("vocab");
+        vocab.hidden = rows.length === 0;
+        document.getElementById("vocab-heading").textContent =
+          "Words in this passage (" + rows.length + ")";
+        // Open on a desktop, folded on a phone where it costs several screens.
+        vocab.open = canHover();
+      }
+
+      /* ---------- tooltip ---------- */
+
+      function showTip(el) {
+        // The bubble mirrors the reading settings: whatever is turned off in the
+        // text stays hidden here too, so hovering can't spoil what you're testing.
+        tip.innerHTML = "";
+        if (state.pinyin !== "off") {
+          var pyLine = document.createElement("div");
+          pyLine.className = "tip-py";
+          pyLine.textContent = syllables(el.dataset.py).join(" ");
+          tip.appendChild(pyLine);
+        }
+        if (state.english !== "off" && el.dataset.en) {
+          var enLine = document.createElement("div");
+          enLine.className = "tip-en";
+          enLine.textContent = el.dataset.en;
+          tip.appendChild(enLine);
+        }
+        if (!tip.children.length) return false;   // nothing left to reveal — stay quiet
+
+        tip.classList.add("show");
+        tip.setAttribute("aria-hidden", "false");
+        el.classList.add("active");
+
+        if (!canHover()) {
+          // Bottom sheet: the stylesheet owns its position, so drop any inline
+          // coordinates left over from a desktop-width layout.
+          tip.style.left = "";
+          tip.style.top = "";
+          return true;
+        }
+
+        var r = el.getBoundingClientRect();
+        var t = tip.getBoundingClientRect();
+        var pad = 8;
+        var left = r.left + r.width / 2 - t.width / 2;
+        left = Math.max(pad, Math.min(left, window.innerWidth - t.width - pad));
+        var top = r.top - t.height - pad;
+        if (top < pad) top = r.bottom + pad;   // flip below when there's no room above
+        tip.style.left = left + "px";
+        tip.style.top = top + "px";
+        return true;
+      }
+
+      function hideTip() {
+        tip.classList.remove("show");
+        tip.setAttribute("aria-hidden", "true");
+        Array.prototype.forEach.call(
+          reader.querySelectorAll(".tok.active"),
+          function (el) { el.classList.remove("active"); }
+        );
+        pinned = null;
+      }
+
+      reader.addEventListener("pointerover", function (ev) {
+        if (ev.pointerType !== "mouse" || pinned) return;
+        var el = ev.target.closest(".tok");
+        if (el) showTip(el);
+      });
+
+      reader.addEventListener("pointerout", function (ev) {
+        if (ev.pointerType !== "mouse" || pinned) return;
+        var el = ev.target.closest(".tok");
+        if (el && !el.contains(ev.relatedTarget)) hideTip();
+      });
+
+      // Tap (or click) pins the tooltip so it survives on touch screens.
+      reader.addEventListener("click", function (ev) {
+        var el = ev.target.closest(".tok");
+        if (!el) return;
+        ev.stopPropagation();
+        if (pinned === el) { hideTip(); return; }
+        hideTip();
+        // Leave nothing pinned if the bubble had nothing to say, so the next
+        // hover isn't swallowed.
+        if (showTip(el)) pinned = el;
+      });
+
+      reader.addEventListener("focusin", function (ev) {
+        var el = ev.target.closest(".tok");
+        if (el) { hideTip(); showTip(el); }
+      });
+
+      document.addEventListener("click", function () { if (pinned) hideTip(); });
+      window.addEventListener("scroll", function () { if (pinned) hideTip(); }, { passive: true });
+      window.addEventListener("resize", hideTip);
+
+      /* ---------- read / not read ---------- */
+
+      var doneBtn = document.getElementById("done");
+
+      function isRead(key) {
+        return !!state.read[key];
+      }
+
+      function setRead(key, value) {
+        if (value) state.read[key] = true;
+        else delete state.read[key];
+        saveState();
+        updateReadUI();
+      }
+
+      // The browse sheet doubles as the progress view, so finished passages
+      // carry a check mark there.
+      function updateReadUI() {
+        var key = current && current.key;
+        var done = key ? isRead(key) : false;
+        doneBtn.setAttribute("aria-pressed", String(done));
+
+        var count = flat.filter(function (f) {
+          return isRead(keyOf(f.deckId, f.passageId));
+        }).length;
+        document.getElementById("read-count").textContent =
+          count ? count + " of " + flat.length + " read" : "";
+
+        // Marking a passage read changes the unread pool, so the scope count
+        // (and the sheet, if it's open) has to follow.
+        if (flat.length) updateScope();
+        if (!browse.hidden) renderBrowse();
+      }
+
+      doneBtn.addEventListener("click", function () {
+        if (current) setRead(current.key, !isRead(current.key));
+      });
+
+      /* ---------- settings UI ---------- */
+
+      function bindSegment(id, key, onChange) {
+        var group = document.getElementById(id);
+        group.addEventListener("click", function (ev) {
+          var btn = ev.target.closest("button");
+          if (!btn) return;
+          state[key] = btn.dataset.value;
+          saveState();
+          applySettings();
+          if (onChange) onChange();
+        });
+      }
+
+      function cycle(key, values) {
+        var i = values.indexOf(state[key]);
+        state[key] = values[(i + 1) % values.length];
+        saveState();
+        applySettings();
+      }
+
+      function applySettings() {
+        hideTip();   // an open bubble would keep showing the old settings
+        reader.dataset.pinyin = state.pinyin;
+        // Touch screens can't hover, so "hover" falls back to tap-to-reveal
+        // there. The button still shows the choice that was made.
+        reader.dataset.english =
+          (state.english === "hover" && !canHover()) ? "tap" : state.english;
+        reader.dataset.tones = state.tones;
+        document.documentElement.style.setProperty("--hz-size", state.size + "px");
+
+        [["seg-pinyin", "pinyin"], ["seg-english", "english"], ["seg-tones", "tones"]]
+          .forEach(function (pair) {
+            var buttons = document.getElementById(pair[0]).querySelectorAll("button");
+            Array.prototype.forEach.call(buttons, function (b) {
+              b.setAttribute("aria-pressed", String(b.dataset.value === state[pair[1]]));
+            });
+          });
+      }
+
+      bindSegment("seg-pinyin", "pinyin");
+      bindSegment("seg-english", "english");
+      bindSegment("seg-tones", "tones");
+
+      document.getElementById("bigger").addEventListener("click", function () {
+        state.size = Math.min(SIZE_MAX, state.size + 3); saveState(); applySettings();
+      });
+      document.getElementById("smaller").addEventListener("click", function () {
+        state.size = Math.max(SIZE_MIN, state.size - 3); saveState(); applySettings();
+      });
+
+      /* ---------- navigation ---------- */
+
+      function keyOf(deckId, passageId) { return deckId + "/" + passageId; }
+
+      function go(key, push) {
+        var entry = flat.find(function (f) { return keyOf(f.deckId, f.passageId) === key; }) || flat[0];
+        if (!entry) return;
+        var k = keyOf(entry.deckId, entry.passageId);
+
+        loadDeck(entry.deckId).then(function (deck) {
+          var passage = deck.passages.find(function (p) { return p.id === entry.passageId; });
+          if (!passage) return;
+          current = { deck: deck, passage: passage, key: k };
+          state.last = k;
+          saveState();
+          pickerLabel.textContent =
+            passage.title + (passage.title_en ? "  ·  " + passage.title_en : "");
+          if (push !== false && location.hash.slice(1) !== k) {
+            // Sandboxed frames (and file://) can refuse history writes; the
+            // reader works fine without the deep link, so don't let it throw.
+            try { history.replaceState(null, "", "#" + k); } catch (e) { }
+          }
+          renderPassage(deck, passage);
+          updateReadUI();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }).catch(showLoadError);
+      }
+
+      function step(delta) {
+        if (!current) return;
+        var i = flat.findIndex(function (f) { return keyOf(f.deckId, f.passageId) === current.key; });
+        var j = (i + delta + flat.length) % flat.length;
+        go(keyOf(flat[j].deckId, flat[j].passageId));
+      }
+
+      document.getElementById("prev").addEventListener("click", function () { step(-1); });
+      document.getElementById("next").addEventListener("click", function () { step(1); });
+      document.getElementById("random").addEventListener("click", function () {
+        // Draw from the current filter, not the whole library — picking a
+        // category should mean something outside the browse sheet too.
+        var pool = scopedEntries();
+        if (!pool.length) return;
+        var here = current && current.key;
+        var choices = pool.filter(function (e) {
+          return keyOf(e.deckId, e.passageId) !== here;
+        });
+        // A filter narrowed to the passage you're already on: stay put rather
+        // than silently leaving the category.
+        if (!choices.length) return;
+        var pick = choices[Math.floor(Math.random() * choices.length)];
+        go(keyOf(pick.deckId, pick.passageId));
+      });
+
+      /* ---------- browse sheet ---------- */
+
+      function entryMatches(entry, query) {
+        var filters = state.filters;
+        if (filters.level && entry.level !== filters.level) return false;
+        if (filters.kind && entry.kind !== filters.kind) return false;
+        if (filters.status) {
+          var done = isRead(keyOf(entry.deckId, entry.passageId));
+          if (filters.status === "read" && !done) return false;
+          if (filters.status === "unread" && done) return false;
+        }
+        return !query || entry.haystack.indexOf(query) !== -1;
+      }
+
+      // The chip filters, without the search box — this is the pool Random
+      // draws from, and what the scope pill describes.
+      function scopedEntries() {
+        return flat.filter(function (e) { return entryMatches(e, ""); });
+      }
+
+      function scopeLabel() {
+        var f = state.filters;
+        var parts = [];
+        if (f.level) parts.push(f.level);
+        if (f.kind) parts.push(f.kind === "stories" ? "Stories" : "Everyday");
+        if (f.status) parts.push(f.status);
+        return parts.join(" · ");
+      }
+
+      function syncChips() {
+        Array.prototype.forEach.call(
+          document.querySelectorAll(".chip-row"),
+          function (row) {
+            var value = state.filters[row.dataset.facet] || "";
+            Array.prototype.forEach.call(row.children, function (chip) {
+              chip.setAttribute("aria-pressed", String(chip.dataset.value === value));
+            });
+          }
+        );
+      }
+
+      function updateScope() {
+        var label = scopeLabel();
+        scopePill.hidden = !label;
+        scopePill.firstChild.textContent = label;
+        var pool = label ? scopedEntries().length : flat.length;
+        document.getElementById("random").title =
+          label ? "Random passage in " + label + " (" + pool + ")" : "Random passage";
+      }
+
+      function setFilter(facet, value) {
+        state.filters[facet] = value;
+        saveState();
+        syncChips();
+        updateScope();
+        if (!browse.hidden) renderBrowse();
+      }
+
+      function renderBrowse() {
+        var query = browseSearch.value.trim().toLowerCase();
+        visible = flat.filter(function (e) { return entryMatches(e, query); });
+        cursor = -1;
+        browseList.innerHTML = "";
+        browseCount.textContent =
+          visible.length + (visible.length === 1 ? " passage" : " passages");
+
+        if (!visible.length) {
+          var empty = document.createElement("div");
+          empty.className = "sheet-empty";
+          empty.textContent = "Nothing matches that.";
+          browseList.appendChild(empty);
+          return;
+        }
+
+        var lastDeck = null;
+        visible.forEach(function (entry, i) {
+          // Group headings only make sense in deck order — a search reorders
+          // nothing, so they still line up.
+          if (entry.deckTitle !== lastDeck) {
+            lastDeck = entry.deckTitle;
+            var heading = document.createElement("div");
+            heading.className = "sheet-group";
+            heading.textContent = entry.deckTitle;
+            browseList.appendChild(heading);
+          }
+
+          var key = keyOf(entry.deckId, entry.passageId);
+          var row = document.createElement("button");
+          row.className = "sheet-row";
+          row.dataset.index = i;
+          if (current && current.key === key) row.setAttribute("aria-current", "true");
+          row.innerHTML = '<span class="row-hz"></span><span class="row-en"></span>' +
+            '<span class="row-done"></span>';
+          row.children[0].textContent = entry.title;
+          row.children[1].textContent = entry.titleEn;
+          row.children[2].textContent = isRead(key) ? "✓" : "";
+          row.addEventListener("click", function () {
+            closeBrowse();
+            go(key);
+          });
+          browseList.appendChild(row);
+        });
+      }
+
+      function moveCursor(delta) {
+        if (!visible.length) return;
+        cursor = (cursor + delta + visible.length) % visible.length;
+        var rows = browseList.querySelectorAll(".sheet-row");
+        Array.prototype.forEach.call(rows, function (r) { r.classList.remove("cursor"); });
+        var row = rows[cursor];
+        if (row) {
+          row.classList.add("cursor");
+          row.scrollIntoView({ block: "nearest" });
+        }
+      }
+
+      function openBrowse() {
+        browse.hidden = false;
+        renderBrowse();
+        // Focusing the field pops the on-screen keyboard, which eats the list
+        // on a phone — so only take focus where there's a real keyboard.
+        if (canHover()) browseSearch.focus();
+        var here = browseList.querySelector('[aria-current="true"]');
+        if (here) here.scrollIntoView({ block: "center" });
+      }
+
+      function closeBrowse() {
+        browse.hidden = true;
+        document.getElementById("browse-open").focus({ preventScroll: true });
+      }
+
+      document.getElementById("browse-open").addEventListener("click", openBrowse);
+      document.getElementById("browse-close").addEventListener("click", closeBrowse);
+      browse.addEventListener("click", function (ev) {
+        if (ev.target === browse) closeBrowse();   // backdrop
+      });
+      browseSearch.addEventListener("input", renderBrowse);
+
+      document.getElementById("browse-filters").addEventListener("click", function (ev) {
+        var chip = ev.target.closest(".chip");
+        if (chip) setFilter(chip.parentNode.dataset.facet, chip.dataset.value);
+      });
+
+      scopePill.addEventListener("click", function () {
+        state.filters = { level: "", kind: "", status: "" };
+        saveState();
+        syncChips();
+        updateScope();
+        if (!browse.hidden) renderBrowse();
+      });
+
+      browse.addEventListener("keydown", function (ev) {
+        if (ev.key === "Escape") { closeBrowse(); ev.preventDefault(); return; }
+        if (ev.key === "ArrowDown") { moveCursor(1); ev.preventDefault(); return; }
+        if (ev.key === "ArrowUp") { moveCursor(-1); ev.preventDefault(); return; }
+        if (ev.key === "Enter") {
+          var pick = visible[cursor >= 0 ? cursor : 0];
+          if (pick) { closeBrowse(); go(keyOf(pick.deckId, pick.passageId)); }
+          ev.preventDefault();
+        }
+      });
+
+      // Swipe across the text to change passage — the natural gesture when
+      // you're reading one-handed and the toolbar is a stretch away.
+      (function () {
+        var startX = 0, startY = 0, tracking = false;
+        reader.addEventListener("touchstart", function (ev) {
+          tracking = ev.touches.length === 1;
+          if (!tracking) return;
+          startX = ev.touches[0].clientX;
+          startY = ev.touches[0].clientY;
+        }, { passive: true });
+
+        reader.addEventListener("touchend", function (ev) {
+          if (!tracking) return;
+          tracking = false;
+          var touch = ev.changedTouches[0];
+          var dx = touch.clientX - startX;
+          var dy = touch.clientY - startY;
+          // Clearly horizontal, and long enough not to be a tap or a scroll.
+          if (Math.abs(dx) < 70 || Math.abs(dx) < Math.abs(dy) * 2) return;
+          hideTip();
+          step(dx < 0 ? 1 : -1);
+        }, { passive: true });
+      })();
+
+      window.addEventListener("hashchange", function () {
+        var k = location.hash.slice(1);
+        if (k && (!current || k !== current.key)) go(k, false);
+      });
+
+      document.addEventListener("keydown", function (ev) {
+        if (ev.metaKey || ev.ctrlKey || ev.altKey) return;
+        // The sheet runs its own keys while it's open.
+        if (!browse.hidden) return;
+        // Don't hijack keys aimed at a control the reader is focused on.
+        var focused = document.activeElement || document.body;
+        if (/^(INPUT|SELECT|TEXTAREA)$/.test(focused.tagName)) return;
+        switch (ev.key) {
+          case "ArrowLeft": step(-1); break;
+          case "ArrowRight": step(1); break;
+          case "r": document.getElementById("random").click(); break;
+          case "b":
+          case "/":
+            openBrowse();
+            break;
+          case "d":
+            if (current) setRead(current.key, !isRead(current.key));
+            break;
+          case "p": cycle("pinyin", ["on", "hover", "off"]); break;
+          case "e": cycle("english", ["on", "hover", "tap", "off"]); break;
+          case "t": cycle("tones", ["on", "off"]); break;
+          case "Escape": hideTip(); break;
+          default: return;
+        }
+        ev.preventDefault();
+      });
+
+      /* ---------- data loading ---------- */
+
+      function loadDeck(deckId) {
+        if (deckCache[deckId]) return Promise.resolve(deckCache[deckId]);
+        var entry = manifest.decks.find(function (d) { return d.id === deckId; });
+        if (!entry) return Promise.reject(new Error("Unknown deck: " + deckId));
+        var url = "/" + entry.file;
+        return fetch(url).then(function (res) {
+          if (!res.ok) throw new Error("HTTP " + res.status + " for " + url);
+          return res.json();
+        }).then(function (deck) {
+          deckCache[deckId] = deck;
+          return deck;
+        });
+      }
+
+      function buildIndex() {
+        var levels = [];
+        manifest.decks.forEach(function (deck) {
+          if (deck.level && levels.indexOf(deck.level) === -1) levels.push(deck.level);
+          deck.passages.forEach(function (p) {
+            var tags = (p.tags || []).join(" ");
+            flat.push({
+              deckId: deck.id,
+              passageId: p.id,
+              title: p.title || "",
+              titleEn: p.title_en || "",
+              level: deck.level || "",
+              kind: deck.kind || "",
+              deckTitle: deck.title || "",
+              // Searched as one lowercased string: Chinese title, English
+              // title, tags, and the deck name.
+              haystack: [p.title, p.title_en, tags, deck.title].join(" ").toLowerCase()
+            });
+          });
+        });
+
+        var row = document.querySelector('.chip-row[data-facet="level"]');
+        levels.forEach(function (level) {
+          var chip = document.createElement("button");
+          chip.className = "chip";
+          chip.dataset.value = level;
+          chip.textContent = level;
+          row.appendChild(chip);
+        });
+
+        // A level saved from a previous visit may no longer exist.
+        if (state.filters.level && levels.indexOf(state.filters.level) === -1) {
+          state.filters.level = "";
+        }
+        syncChips();
+        updateScope();
+      }
+
+      function showLoadError(err) {
+        statusEl.innerHTML =
+          '<div class="error"><b>Could not load the passages.</b><br>' +
+          '<span class="msg"></span><br><br>' +
+          'If you opened this file directly from disk, the browser blocks the JSON fetches. ' +
+          'Serve the folder instead: <kbd>python3 -m http.server</kbd>, then visit ' +
+          '<kbd>localhost:8000/chinese/</kbd>.</div>';
+        statusEl.querySelector(".msg").textContent = String(err);
+      }
+
+      loadState();
+      applySettings();
+
+      fetch(DATA_ROOT + "manifest.json").then(function (res) {
+        if (!res.ok) throw new Error("HTTP " + res.status + " for the passage index");
+        return res.json();
+      }).then(function (data) {
+        manifest = data;
+        buildIndex();
+        if (!flat.length) throw new Error("The manifest lists no passages.");
+        updateReadUI();
+        var wanted = location.hash.slice(1) || state.last;
+        go(wanted || keyOf(flat[0].deckId, flat[0].passageId));
+      }).catch(showLoadError);
+    })();
+  </script>
+</body>
+
+</html>

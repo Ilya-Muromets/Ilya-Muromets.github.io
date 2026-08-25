@@ -1,0 +1,607 @@
+# deck: id=hsk1-everyday | title=HSK 1 · Everyday | level=HSK 1 | vocab=hsk1 | vocab_min=0.85 | kind=everyday
+# desc: Fifty short practical exchanges — buying, asking, arranging — in HSK 1 vocabulary.
+# extra: 说 天 们 他们 也 每 小白 小红 马丁
+# extra words above: grammatical glue HSK 1 implies (说话/今天/我们 are all listed) and names.
+# The set below is HSK 2, kept deliberately: you cannot buy a ticket or ask a
+# question in natural Chinese without 要, 可以, 请问, 给 or 吧.
+# extra: 要 可以 吧 请问 给 两 见 时间 一下 还是
+
+@ hsk1e-01 | 自我介绍 | Introducing Myself | introductions
+你好！我 叫 马丁。
+Hello! My name is Martin.
+我 是 美国 人，现在 住 在 北京。
+I'm American and I live in Beijing now.
+我 今年 二十五 岁，在 一 个 公司 工作。
+I'm twenty-five this year and work at a company.
+我 会 说 一些 汉语。
+I can speak some Chinese.
+认识 你 很 高兴。
+Nice to meet you.
+
+@ hsk1e-02 | 我的一天 | My Day | routine
+我 每 天 七 点 起床。
+I get up at seven every day.
+我 先 喝 一 杯 咖啡，然后 去 公司。
+First I have a cup of coffee, then I go to the office.
+中午 我 和 同事 一起 吃 饭。
+At noon I eat with my colleagues.
+晚上 我 回 家 看 书。
+In the evening I go home and read.
+我 十一 点 睡觉。
+I go to sleep at eleven.
+
+@ hsk1e-03 | 在饭馆 | At the Restaurant | food
+服务员，你好！
+Hello, excuse me!
+请 给 我 一 杯 水。
+Please give me a glass of water.
+我 想 吃 牛肉 面。
+I'd like beef noodles.
+这个 菜 辣 不 辣？
+Is this dish spicy?
+我 不 能 吃 辣 的。谢谢 你！
+I can't eat spicy things. Thank you!
+
+@ hsk1e-04 | 多少钱 | How Much Is It | shopping
+你好，这个 苹果 多少 钱？
+Hello, how much are these apples?
+五 块 钱 一 个。
+Five yuan each.
+太 贵 了！我 要 三 个。
+That's expensive! I'll take three.
+好 的，十五 块。
+All right, fifteen yuan.
+给 你 钱。谢谢！
+Here's the money. Thanks!
+
+@ hsk1e-05 | 火车站在哪 | Where Is the Station | directions
+对不起，请问 火车站 在 哪？
+Excuse me, where is the train station?
+在 前面，不 远。
+It's up ahead, not far.
+我 走 十 分钟 能 到 吗？
+Can I get there in ten minutes on foot?
+能，前面 有 一 个 大 商店，火车站 在 商店 后面。
+Yes. There's a big shop ahead; the station is behind it.
+好，谢谢 你！
+Great, thank you!
+
+@ hsk1e-06 | 坐出租车 | Taking a Taxi | transport
+师傅 你好，我 去 火车站。
+Hello, I'm going to the train station.
+好 的，请 坐。
+All right, get in.
+要 多 长 时间？
+How long will it take?
+二十 分钟。
+Twenty minutes.
+到 了，三十 块 钱。
+Here we are, thirty yuan.
+
+@ hsk1e-07 | 看医生 | Seeing the Doctor | health
+医生 你好，我 不 好。
+Hello doctor, I'm not well.
+你 怎么 了？
+What's wrong?
+我 的 头 很 疼，也 很 热。
+My head hurts and I'm hot.
+你 生病 了。请 吃 这个 药，多 喝 水。
+You're sick. Take this medicine and drink a lot of water.
+谢谢 医生。
+Thank you, doctor.
+
+@ hsk1e-08 | 现在几点 | What Time Is It | time
+对不起，请问 现在 几 点？
+Excuse me, what time is it?
+现在 三 点 二十。
+It's three twenty.
+谢谢！我 的 火车 是 四 点 的。
+Thanks! My train is at four.
+你 有 时间，火车站 很 近。
+You have time, the station is close.
+好，太 好 了。
+Good, that's great.
+
+@ hsk1e-09 | 买书 | Buying a Book | shopping
+你好，我 想 买 一 本 汉语 书。
+Hello, I'd like to buy a Chinese book.
+你 学习 多 长 时间 了？
+How long have you been studying?
+一 年 了。
+For a year.
+这 本 书 很 好，字 不 太 多。
+This book is good — not too many characters.
+好，我 买 这 本。
+All right, I'll take this one.
+
+@ hsk1e-10 | 买衣服 | Buying Clothes | shopping
+这 件 衣服 我 可以 看看 吗？
+May I have a look at this piece of clothing?
+可以，请 看。
+Of course, go ahead.
+有 白 的 吗？
+Do you have it in white?
+有，这 件 是 白 的。
+Yes, this one is white.
+很 好，我 买 这 件。
+Very good, I'll take this one.
+
+@ hsk1e-11 | 你叫什么名字 | What's Your Name | introductions
+你好，你 叫 什么 名字？
+Hello, what's your name?
+我 叫 小红，你 呢？
+My name is Xiao Hong, and you?
+我 叫 马丁。
+I'm Martin.
+你 是 哪 国 人？
+Where are you from?
+我 是 美国 人。
+I'm American.
+
+@ hsk1e-12 | 你做什么工作 | What Do You Do | work
+你 做 什么 工作？
+What work do you do?
+我 是 老师，在 学校 工作。
+I'm a teacher, I work at a school.
+你 呢？
+And you?
+我 在 医院 工作，我 是 医生。
+I work at a hospital, I'm a doctor.
+你们 的 工作 都 很 好。
+Both of your jobs are good ones.
+
+@ hsk1e-13 | 请你吃饭 | Let Me Buy You Dinner | invitations
+明天 晚上 你 有 时间 吗？
+Do you have time tomorrow evening?
+有，什么 事？
+Yes, what is it?
+我 想 请 你 吃 饭。
+I'd like to take you out to eat.
+好 的，谢谢 你！
+Sure, thank you!
+我们 六 点 在 饭馆 前面 见。
+Let's meet in front of the restaurant at six.
+
+@ hsk1e-14 | 对不起 | Sorry | manners
+对不起！
+Sorry!
+没关系。
+It's all right.
+我 没 看见 你。
+I didn't see you.
+真 的 没关系。
+Really, it's fine.
+谢谢 你。
+Thank you.
+
+@ hsk1e-15 | 今天天气怎么样 | How's the Weather | weather
+今天 天气 怎么样？
+How's the weather today?
+很 好，不 冷 不 热。
+It's nice — not cold, not hot.
+明天 呢？
+And tomorrow?
+明天 会 下雨。
+It's going to rain tomorrow.
+那 我 明天 不 出去 了。
+Then I won't go out tomorrow.
+
+@ hsk1e-16 | 我要请假 | Calling In Sick | work
+喂，老师 你好，我 是 小月。
+Hello, teacher, this is Xiao Yue.
+你好，什么 事？
+Hello, what is it?
+我 生病 了，今天 不 能 去 学校。
+I'm sick and can't come to school today.
+好 的，你 在 家 休息。
+All right, rest at home.
+谢谢 老师，再见。
+Thank you, goodbye.
+
+@ hsk1e-17 | 在机场 | At the Airport | travel
+请问，我 的 飞机 在 哪？
+Excuse me, where is my plane?
+你 的 票 呢？
+Where's your ticket?
+在 这。
+Here it is.
+你 的 飞机 是 四 点 的，请 去 前面。
+Your flight is the four o'clock one, please go ahead.
+谢谢 你！
+Thank you!
+
+@ hsk1e-18 | 你会说汉语吗 | Do You Speak Chinese | language
+你 会 说 汉语 吗？
+Do you speak Chinese?
+我 会 说 一些。
+I can speak some.
+你 的 汉语 很 好！
+Your Chinese is very good!
+不，我 说 得 很 慢。
+No, I speak slowly.
+慢 没关系，我 都 懂。
+Slow is fine, I understand you.
+
+@ hsk1e-19 | 买水果 | Buying Fruit | shopping
+你 的 苹果 好吃 吗？
+Are your apples good?
+很 好吃，也 很 便宜。
+Very good, and cheap too.
+我 要 两 公斤。
+I'll take two kilos.
+好 的，十 块 钱。
+All right, ten yuan.
+谢谢，再见！
+Thanks, goodbye!
+
+@ hsk1e-20 | 今天星期几 | What Day Is It | time
+今天 星期 几？
+What day is it today?
+今天 星期 三。
+It's Wednesday.
+昨天 是 星期 二 吗？
+Was yesterday Tuesday?
+是 的。
+Yes.
+那 我 的 考试 是 明天！
+Then my exam is tomorrow!
+
+@ hsk1e-21 | 买电影票 | Buying Film Tickets | leisure
+你好，我 要 两 张 票。
+Hello, I'd like two tickets.
+几 点 的？
+For what time?
+七 点 的。
+The seven o'clock one.
+七 点 的 没 有 了，八 点 的 可以 吗？
+The seven o'clock is sold out. Is eight all right?
+可以，谢谢。
+That's fine, thanks.
+
+@ hsk1e-22 | 你家有几个人 | How Many in Your Family | family
+你 家 有 几 个 人？
+How many people are in your family?
+四 个 人：爸爸、妈妈、姐姐 和 我。
+Four: my dad, my mom, my older sister, and me.
+你 姐姐 做 什么 工作？
+What does your sister do?
+她 是 老师。
+She's a teacher.
+你们 都 住 在 北京 吗？
+Do you all live in Beijing?
+
+@ hsk1e-23 | 这个怎么说 | How Do You Say This | language
+老师，这个 汉语 怎么 说？
+Teacher, how do you say this in Chinese?
+这个 叫 手表。
+This is called a watch.
+怎么 写？
+How do you write it?
+我 写 给 你 看。
+I'll write it for you.
+谢谢 老师，我 懂 了。
+Thank you, I understand now.
+
+@ hsk1e-24 | 在商店 | At the Shop | shopping
+昨天 下午 我 去 商店 买 东西。
+Yesterday afternoon I went to the shop.
+我 买 了 七 个 苹果 和 一些 菜。
+I bought seven apples and some vegetables.
+苹果 很 多，我 不 能 都 吃。
+There were a lot of apples — I couldn't eat them all.
+我 请 同学 来 我 家 吃 水果。
+So I invited my classmates over for fruit.
+我们 都 很 高兴。
+We were all very happy.
+
+@ hsk1e-25 | 打电话 | A Phone Call | invitations
+喂，你好！我 是 小月。
+Hello? Hi! It's Xiao Yue.
+明天 上午 你 在 家 吗？
+Are you home tomorrow morning?
+我 想 请 你 去 看 电影。
+I'd like to invite you to a film.
+电影 是 下午 四 点 的。
+The film is the four o'clock one.
+好，我 下午 去 你 家。再见！
+Good, I'll come by in the afternoon. See you!
+
+@ hsk1e-26 | 请慢一点说 | Please Speak Slowly | language
+对不起，我 不 懂。
+Sorry, I don't understand.
+请 你 说 慢 一点。
+Please speak a little slower.
+我 说：明天 有 考试。
+I said: there's a test tomorrow.
+现在 我 懂 了，谢谢。
+Now I understand, thank you.
+不客气。
+You're welcome.
+
+@ hsk1e-27 | 你要什么 | What Would You Like | food
+你好，你 要 什么？
+Hello, what would you like?
+我 要 一 个 鸡蛋 和 一 杯 牛奶。
+An egg and a glass of milk.
+要 米饭 吗？
+Would you like rice?
+不 要，谢谢。
+No thanks.
+一共 十二 块。
+That's twelve yuan altogether.
+
+@ hsk1e-28 | 我的手机在哪 | Where's My Phone | problems
+我 的 手机 不 见 了。
+My phone is missing.
+你 看 桌子 上 了 吗？
+Did you look on the table?
+看 了，没 有。
+I did, it's not there.
+我 给 你 打电话。
+I'll call it.
+在 椅子 下面！谢谢 你！
+It's under the chair! Thank you!
+
+@ hsk1e-29 | 这是我的朋友 | This Is My Friend | introductions
+小红，这 是 我 的 朋友 马丁。
+Xiao Hong, this is my friend Martin.
+你好，认识 你 很 高兴。
+Hello, nice to meet you.
+马丁 是 美国 人，他 学习 汉语。
+Martin is American and studies Chinese.
+你 学习 多 长 时间 了？
+How long have you studied?
+两 年 了。
+Two years.
+
+@ hsk1e-30 | 医院在哪 | Where Is the Hospital | directions
+请问，医院 在 哪？
+Excuse me, where's the hospital?
+在 学校 的 右边。
+To the right of the school.
+远 吗？
+Is it far?
+不 远，走 五 分钟。
+Not far, five minutes on foot.
+谢谢 你！
+Thank you!
+
+@ hsk1e-31 | 我要开始工作 | Starting a New Job | work
+明天 我 开始 新 的 工作。
+Tomorrow I start a new job.
+在 哪 工作？
+Where?
+在 一 个 中国 公司。
+At a Chinese company.
+几 点 上班？
+What time do you start?
+九 点，我 要 早 起床。
+Nine, so I'll have to get up early.
+
+@ hsk1e-32 | 请问怎么走 | How Do I Get There | directions
+请问，去 火车站 怎么 走？
+Excuse me, how do I get to the station?
+你 可以 坐 公共汽车。
+You can take the bus.
+几 路 车？
+Which bus?
+三 路，在 前面 坐。
+Number three, from up ahead.
+好，谢谢！
+Great, thanks!
+
+@ hsk1e-33 | 你喜欢吃什么 | What Do You Like to Eat | food
+你 喜欢 吃 什么 菜？
+What food do you like?
+我 很 喜欢 吃 鱼。
+I really like fish.
+你 呢？
+And you?
+我 喜欢 羊肉，但是 不 能 多 吃。
+I like lamb, but I shouldn't eat much of it.
+今天 我们 吃 鱼 吧。
+Let's have fish today.
+
+@ hsk1e-34 | 太贵了 | That's Too Expensive | shopping
+这 件 衣服 多少 钱？
+How much is this?
+三百 块。
+Three hundred yuan.
+太 贵 了，便宜 一点 可以 吗？
+That's too expensive. Could you make it cheaper?
+两百 八十，不 能 少 了。
+Two eighty, that's the lowest.
+好 吧，我 要 了。
+All right, I'll take it.
+
+@ hsk1e-35 | 我住在哪 | Where I Live | home
+你 住 在 哪？
+Where do you live?
+我 住 在 学校 后面。
+I live behind the school.
+你 家 大 吗？
+Is your place big?
+不 大，一 个 房间。
+Not big, one room.
+我 一 个 人 住，很 好。
+I live alone and it suits me.
+
+@ hsk1e-36 | 几点开始 | What Time Does It Start | time
+明天 的 课 几 点 开始？
+What time does tomorrow's class start?
+八 点 开始。
+It starts at eight.
+在 哪 个 教室？
+Which classroom?
+在 三 号 教室。
+Classroom number three.
+好 的，明天 见。
+All right, see you tomorrow.
+
+@ hsk1e-37 | 我不要 | No Thank You | shopping
+先生，你 要 报纸 吗？
+Sir, would you like a newspaper?
+不 要，谢谢。
+No thank you.
+很 便宜，两 块 钱。
+It's cheap, two yuan.
+对不起，我 不 看 报纸。
+Sorry, I don't read the paper.
+好 的，再见。
+All right, goodbye.
+
+@ hsk1e-38 | 你有时间吗 | Are You Free | invitations
+星期日 你 有 时间 吗？
+Are you free on Sunday?
+上午 有，下午 没 有。
+In the morning yes, in the afternoon no.
+我们 上午 去 跑步 吧。
+Let's go running in the morning then.
+好，九 点 在 学校 前面。
+Sure, nine o'clock in front of the school.
+好，不 要 晚 了。
+Good, don't be late.
+
+@ hsk1e-39 | 找工作 | Looking for Work | work
+你 在 找 工作 吗？
+Are you looking for work?
+是 的，我 想 在 学校 工作。
+Yes, I'd like to work at a school.
+你 会 说 汉语 吗？
+Do you speak Chinese?
+我 会 说，也 会 写。
+I can speak it and write it.
+很 好，明天 你 来 我们 学校 吧。
+Good, come to our school tomorrow.
+
+@ hsk1e-40 | 这个东西怎么用 | How Does This Work | problems
+请问，这个 怎么 用？
+Excuse me, how does this work?
+很 慢 的，你 要 等 一下。
+It's slow, you have to wait a moment.
+我 等 了 十 分钟 了。
+I've waited ten minutes.
+对不起，我 帮助 你。
+Sorry, let me help you.
+谢谢 你！
+Thank you!
+
+@ hsk1e-41 | 我的房间太冷 | My Room Is Cold | problems
+我 的 房间 很 冷。
+My room is cold.
+你 的 门 开 着 吗？
+Is your door open?
+没 有，门 是 关 着 的。
+No, the door is closed.
+我 来 看看。
+Let me have a look.
+谢谢 你 帮助 我。
+Thank you for helping me.
+
+@ hsk1e-42 | 你去过北京吗 | Have You Been to Beijing | travel
+你 去 过 北京 吗？
+Have you been to Beijing?
+去 过 一 次，去年 去 的。
+Once, last year.
+北京 怎么样？
+What's Beijing like?
+很 大，人 很 多，东西 很 好吃。
+Big, a lot of people, and the food is great.
+我 也 想 去。
+I want to go too.
+
+@ hsk1e-43 | 买牛奶 | Buying Milk | shopping
+你好，你们 有 牛奶 吗？
+Hello, do you have milk?
+有，在 后面。
+Yes, in the back.
+多少 钱 一 个？
+How much each?
+八 块。
+Eight yuan.
+我 要 两 个，谢谢。
+I'll take two, thanks.
+
+@ hsk1e-44 | 我不能去 | I Can't Make It | invitations
+明天 的 电影 我 不 能 去 了。
+I can't come to the film tomorrow.
+怎么 了？
+What happened?
+我 要 工作。
+I have to work.
+没关系，我们 星期日 去 吧。
+No problem, let's go on Sunday.
+好 的，对不起。
+All right, sorry.
+
+@ hsk1e-45 | 请给我看看 | Could I See That | shopping
+请 给 我 看看 那 个 手表。
+Could you show me that watch?
+这 个 吗？
+This one?
+是 的，谢谢。
+Yes, thank you.
+这 个 很 新，也 不 贵。
+It's new and not expensive.
+我 想 想。
+Let me think about it.
+
+@ hsk1e-46 | 你的生日是几月几号 | When Is Your Birthday | time
+你 的 生日 是 几 月 几 号？
+When is your birthday?
+六 月 八 号。
+June eighth.
+那 是 星期 几？
+What day is that?
+是 星期 日。
+It's a Sunday.
+我们 那 天 去 吃 饭 吧。
+Let's go out to eat that day.
+
+@ hsk1e-47 | 在教室 | In the Classroom | school
+老师，我 可以 进 来 吗？
+Teacher, may I come in?
+可以，请 坐。
+Yes, please sit down.
+对不起，我 来 晚 了。
+Sorry I'm late.
+没关系，我们 现在 开始。
+It's all right, we're just starting.
+谢谢 老师。
+Thank you.
+
+@ hsk1e-48 | 我要水不要茶 | Water, Not Tea | food
+你 要 喝 茶 吗？
+Would you like tea?
+不 要，谢谢，我 要 水。
+No thank you, I'd like water.
+冷 水 还是 热 水？
+Cold or hot?
+热 水，谢谢。
+Hot, thank you.
+好 的，请 等 一下。
+All right, one moment.
+
+@ hsk1e-49 | 我们几点见 | What Time Shall We Meet | invitations
+明天 我们 几 点 见？
+What time shall we meet tomorrow?
+十 点 怎么样？
+How about ten?
+十 点 太 早 了。
+Ten is too early.
+那 十二 点 吧。
+Twelve then.
+好 的，明天 见。
+All right, see you tomorrow.
+
+@ hsk1e-50 | 谢谢你的帮助 | Thanks for Your Help | manners
+谢谢 你 的 帮助。
+Thank you for your help.
+不客气。
+You're welcome.
+你 是 一 个 很 好 的 朋友。
+You're a good friend.
+我们 都 是 朋友。
+We're all friends here.
+明天 见！
+See you tomorrow!

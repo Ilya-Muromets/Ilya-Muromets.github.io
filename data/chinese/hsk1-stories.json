@@ -1,0 +1,10556 @@
+{
+ "id": "hsk1-stories",
+ "title": "HSK 1 · Stories",
+ "level": "HSK 1",
+ "kind": "stories",
+ "description": "Fifty short first-reader stories built around the HSK 1 vocabulary.",
+ "vocab": "hsk1",
+ "vocab_min": 0.85,
+ "vocab_extra": [
+  "说",
+  "天",
+  "们",
+  "他们",
+  "也",
+  "每",
+  "小白",
+  "小红",
+  "月月"
+ ],
+ "passages": [
+  {
+   "id": "hsk1s-01",
+   "title": "我是猫",
+   "title_en": "I Am a Cat",
+   "tags": [
+    "animals"
+   ],
+   "sentences": [
+    {
+     "en": "I am a cat, and I don't have a name.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "猫",
+       "py": "māo",
+       "en": "cat"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "没",
+       "py": "méi",
+       "en": "not; to not have"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "名字",
+       "py": "míng zi",
+       "en": "name"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I live in a big school.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "住",
+       "py": "zhù",
+       "en": "to live; to reside"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "大",
+       "py": "dà",
+       "en": "big; heavy"
+      },
+      {
+       "hz": "学校",
+       "py": "xué xiào",
+       "en": "school"
+      },
+      {
+       "hz": "里",
+       "py": "lǐ",
+       "en": "inside"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "There are a lot of students at the school, and they all like me.",
+     "tokens": [
+      {
+       "hz": "学校",
+       "py": "xué xiào",
+       "en": "school"
+      },
+      {
+       "hz": "里",
+       "py": "lǐ",
+       "en": "inside"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "学生",
+       "py": "xué sheng",
+       "en": "student"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "多",
+       "py": "duō",
+       "en": "many; how (in questions)"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "都",
+       "py": "dōu",
+       "en": "all"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "喜欢",
+       "py": "xǐ huan",
+       "en": "to like"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "At noon I sleep on the table.",
+     "tokens": [
+      {
+       "hz": "中午",
+       "py": "zhōng wǔ",
+       "en": "noon"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "桌子",
+       "py": "zhuō zi",
+       "en": "table"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "睡觉",
+       "py": "shuì jiào",
+       "en": "to sleep"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I am very happy.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "高兴",
+       "py": "gāo xìng",
+       "en": "happy; glad"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-02",
+   "title": "小狗",
+   "title_en": "The Little Dog",
+   "tags": [
+    "animals"
+   ],
+   "sentences": [
+    {
+     "en": "There is a little dog at my house.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "小",
+       "py": "xiǎo",
+       "en": "small"
+      },
+      {
+       "hz": "狗",
+       "py": "gǒu",
+       "en": "dog"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He is small, and pretty too.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "小",
+       "py": "xiǎo",
+       "en": "small"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "漂亮",
+       "py": "piào liang",
+       "en": "beautiful; pretty"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He likes to eat rice and vegetables.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "喜欢",
+       "py": "xǐ huan",
+       "en": "to like"
+      },
+      {
+       "hz": "吃",
+       "py": "chī",
+       "en": "to eat"
+      },
+      {
+       "hz": "米饭",
+       "py": "mǐ fàn",
+       "en": "cooked rice"
+      },
+      {
+       "hz": "和",
+       "py": "hé",
+       "en": "and; with"
+      },
+      {
+       "hz": "菜",
+       "py": "cài",
+       "en": "food; dish"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "In the afternoon he and I are at home.",
+     "tokens": [
+      {
+       "hz": "下午",
+       "py": "xià wǔ",
+       "en": "afternoon"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "和",
+       "py": "hé",
+       "en": "and; with"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I love him very much.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "爱",
+       "py": "ài",
+       "en": "to love"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-03",
+   "title": "我的名字",
+   "title_en": "My Name",
+   "tags": [
+    "family"
+   ],
+   "sentences": [
+    {
+     "en": "My name is Xiao Yue.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "叫",
+       "py": "jiào",
+       "en": "to be called; to call out"
+      },
+      {
+       "hz": "小月",
+       "py": "xiǎo yuè",
+       "en": "Xiao Yue (given name)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Mom calls me Yueyue.",
+     "tokens": [
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "叫",
+       "py": "jiào",
+       "en": "to be called; to call out"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "月月",
+       "py": "yuè yue",
+       "en": "Yueyue (nickname)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "My friends call me Yueyue too.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "朋友",
+       "py": "péng you",
+       "en": "friend"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "叫",
+       "py": "jiào",
+       "en": "to be called; to call out"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "月月",
+       "py": "yuè yue",
+       "en": "Yueyue (nickname)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I like my name a lot.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "喜欢",
+       "py": "xǐ huan",
+       "en": "to like"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "名字",
+       "py": "míng zi",
+       "en": "name"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-04",
+   "title": "下雨天",
+   "title_en": "A Rainy Day",
+   "tags": [
+    "weather"
+   ],
+   "sentences": [
+    {
+     "en": "It's raining today and the weather is cold.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "下雨",
+       "py": "xià yǔ",
+       "en": "to rain"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "天气",
+       "py": "tiān qì",
+       "en": "weather"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "冷",
+       "py": "lěng",
+       "en": "cold"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I don't want to go to school.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "想",
+       "py": "xiǎng",
+       "en": "to want to; to think"
+      },
+      {
+       "hz": "去",
+       "py": "qù",
+       "en": "to go"
+      },
+      {
+       "hz": "学校",
+       "py": "xué xiào",
+       "en": "school"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Mom spoke up: you're a student, please go to school.",
+     "tokens": [
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "说话",
+       "py": "shuō huà",
+       "en": "to speak; to talk"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "你",
+       "py": "nǐ",
+       "en": "you"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "学生",
+       "py": "xué sheng",
+       "en": "student"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "请",
+       "py": "qǐng",
+       "en": "please"
+      },
+      {
+       "hz": "去",
+       "py": "qù",
+       "en": "to go"
+      },
+      {
+       "hz": "学校",
+       "py": "xué xiào",
+       "en": "school"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I went to school, and the teacher was happy.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "去",
+       "py": "qù",
+       "en": "to go"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "学校",
+       "py": "xué xiào",
+       "en": "school"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "老师",
+       "py": "lǎo shī",
+       "en": "teacher"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "高兴",
+       "py": "gāo xìng",
+       "en": "happy; glad"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-05",
+   "title": "爸爸的车",
+   "title_en": "Dad's Car",
+   "tags": [
+    "family"
+   ],
+   "sentences": [
+    {
+     "en": "Dad has a car.",
+     "tokens": [
+      {
+       "hz": "爸爸",
+       "py": "bà ba",
+       "en": "dad"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "车",
+       "py": "chē",
+       "en": "car; vehicle"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "That car isn't big, and it isn't new either.",
+     "tokens": [
+      {
+       "hz": "那",
+       "py": "nà",
+       "en": "that"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "车",
+       "py": "chē",
+       "en": "car; vehicle"
+      },
+      {
+       "hz": "不",
+       "py": "bú",
+       "en": "not"
+      },
+      {
+       "hz": "大",
+       "py": "dà",
+       "en": "big; heavy"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "新",
+       "py": "xīn",
+       "en": "new"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Dad says that car is very good.",
+     "tokens": [
+      {
+       "hz": "爸爸",
+       "py": "bà ba",
+       "en": "dad"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "那",
+       "py": "nà",
+       "en": "that"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "车",
+       "py": "chē",
+       "en": "car; vehicle"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "好",
+       "py": "hǎo",
+       "en": "good; nice"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "On Sunday he drives and we go to Beijing.",
+     "tokens": [
+      {
+       "hz": "星期日",
+       "py": "xīng qī rì",
+       "en": "Sunday"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "开",
+       "py": "kāi",
+       "en": "to open; to drive"
+      },
+      {
+       "hz": "车",
+       "py": "chē",
+       "en": "car; vehicle"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "去",
+       "py": "qù",
+       "en": "to go"
+      },
+      {
+       "hz": "北京",
+       "py": "běi jīng",
+       "en": "Beijing"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-06",
+   "title": "妈妈的菜",
+   "title_en": "Mom's Cooking",
+   "tags": [
+    "food"
+   ],
+   "sentences": [
+    {
+     "en": "My mom can cook.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "会",
+       "py": "huì",
+       "en": "can; will"
+      },
+      {
+       "hz": "做",
+       "py": "zuò",
+       "en": "to do; to make"
+      },
+      {
+       "hz": "菜",
+       "py": "cài",
+       "en": "food; dish"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Her food is very tasty.",
+     "tokens": [
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "菜",
+       "py": "cài",
+       "en": "food; dish"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "好吃",
+       "py": "hǎo chī",
+       "en": "tasty"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Today at noon she made rice and fish.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "中午",
+       "py": "zhōng wǔ",
+       "en": "noon"
+      },
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "做",
+       "py": "zuò",
+       "en": "to do; to make"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "米饭",
+       "py": "mǐ fàn",
+       "en": "cooked rice"
+      },
+      {
+       "hz": "和",
+       "py": "hé",
+       "en": "and; with"
+      },
+      {
+       "hz": "鱼",
+       "py": "yú",
+       "en": "fish"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I ate a lot and I was very happy.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "吃",
+       "py": "chī",
+       "en": "to eat"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "多",
+       "py": "duō",
+       "en": "many; how (in questions)"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "高兴",
+       "py": "gāo xìng",
+       "en": "happy; glad"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-07",
+   "title": "老师和学生",
+   "title_en": "The Teacher and the Student",
+   "tags": [
+    "school"
+   ],
+   "sentences": [
+    {
+     "en": "Our teacher is Chinese.",
+     "tokens": [
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "老师",
+       "py": "lǎo shī",
+       "en": "teacher"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "中国",
+       "py": "zhōng guó",
+       "en": "China"
+      },
+      {
+       "hz": "人",
+       "py": "rén",
+       "en": "person"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "She asks us to read and write characters.",
+     "tokens": [
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "请",
+       "py": "qǐng",
+       "en": "please"
+      },
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "读",
+       "py": "dú",
+       "en": "to read aloud"
+      },
+      {
+       "hz": "书",
+       "py": "shū",
+       "en": "book"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "写",
+       "py": "xiě",
+       "en": "to write"
+      },
+      {
+       "hz": "字",
+       "py": "zì",
+       "en": "character"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "My handwriting isn't pretty.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "字",
+       "py": "zì",
+       "en": "character"
+      },
+      {
+       "hz": "不",
+       "py": "bú",
+       "en": "not"
+      },
+      {
+       "hz": "漂亮",
+       "py": "piào liang",
+       "en": "beautiful; pretty"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The teacher said: it doesn't matter, learning Chinese takes time.",
+     "tokens": [
+      {
+       "hz": "老师",
+       "py": "lǎo shī",
+       "en": "teacher"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "没关系",
+       "py": "méi guān xi",
+       "en": "it doesn't matter"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "学习",
+       "py": "xué xí",
+       "en": "to study"
+      },
+      {
+       "hz": "汉语",
+       "py": "hàn yǔ",
+       "en": "Chinese (language)"
+      },
+      {
+       "hz": "要",
+       "py": "yào",
+       "en": "to want; to have to"
+      },
+      {
+       "hz": "时间",
+       "py": "shí jiān",
+       "en": "time"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-08",
+   "title": "一个苹果",
+   "title_en": "One Apple",
+   "tags": [
+    "food"
+   ],
+   "sentences": [
+    {
+     "en": "There is an apple on the table.",
+     "tokens": [
+      {
+       "hz": "桌子",
+       "py": "zhuō zi",
+       "en": "table"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "苹果",
+       "py": "píng guǒ",
+       "en": "apple"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "That apple is big and pretty.",
+     "tokens": [
+      {
+       "hz": "那",
+       "py": "nà",
+       "en": "that"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "苹果",
+       "py": "píng guǒ",
+       "en": "apple"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "大",
+       "py": "dà",
+       "en": "big; heavy"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "漂亮",
+       "py": "piào liang",
+       "en": "beautiful; pretty"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I want to eat that apple.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "想",
+       "py": "xiǎng",
+       "en": "to want to; to think"
+      },
+      {
+       "hz": "吃",
+       "py": "chī",
+       "en": "to eat"
+      },
+      {
+       "hz": "那",
+       "py": "nà",
+       "en": "that"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "苹果",
+       "py": "píng guǒ",
+       "en": "apple"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Mom said: that's dad's apple.",
+     "tokens": [
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "那",
+       "py": "nà",
+       "en": "that"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "爸爸",
+       "py": "bà ba",
+       "en": "dad"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "苹果",
+       "py": "píng guǒ",
+       "en": "apple"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I didn't eat it.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "吃",
+       "py": "chī",
+       "en": "to eat"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-09",
+   "title": "我的书",
+   "title_en": "My Book",
+   "tags": [
+    "school"
+   ],
+   "sentences": [
+    {
+     "en": "I have a Chinese book.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yì",
+       "en": "one"
+      },
+      {
+       "hz": "本",
+       "py": "běn",
+       "en": "(measure word for books)"
+      },
+      {
+       "hz": "汉语",
+       "py": "hàn yǔ",
+       "en": "Chinese (language)"
+      },
+      {
+       "hz": "书",
+       "py": "shū",
+       "en": "book"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "That book isn't big and the characters are small.",
+     "tokens": [
+      {
+       "hz": "那",
+       "py": "nà",
+       "en": "that"
+      },
+      {
+       "hz": "本",
+       "py": "běn",
+       "en": "(measure word for books)"
+      },
+      {
+       "hz": "书",
+       "py": "shū",
+       "en": "book"
+      },
+      {
+       "hz": "不",
+       "py": "bú",
+       "en": "not"
+      },
+      {
+       "hz": "大",
+       "py": "dà",
+       "en": "big; heavy"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "字",
+       "py": "zì",
+       "en": "character"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "小",
+       "py": "xiǎo",
+       "en": "small"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I read for ten minutes every day.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "每",
+       "py": "měi",
+       "en": "every"
+      },
+      {
+       "hz": "天",
+       "py": "tiān",
+       "en": "day"
+      },
+      {
+       "hz": "读",
+       "py": "dú",
+       "en": "to read aloud"
+      },
+      {
+       "hz": "十",
+       "py": "shí",
+       "en": "ten"
+      },
+      {
+       "hz": "分钟",
+       "py": "fēn zhōng",
+       "en": "minutes"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Now I know a lot of characters.",
+     "tokens": [
+      {
+       "hz": "现在",
+       "py": "xiàn zài",
+       "en": "now"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "认识",
+       "py": "rèn shi",
+       "en": "to know (a person); to recognize"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "多",
+       "py": "duō",
+       "en": "many; how (in questions)"
+      },
+      {
+       "hz": "字",
+       "py": "zì",
+       "en": "character"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-10",
+   "title": "猫在椅子上",
+   "title_en": "The Cat on the Chair",
+   "tags": [
+    "animals"
+   ],
+   "sentences": [
+    {
+     "en": "My cat likes the chair.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "猫",
+       "py": "māo",
+       "en": "cat"
+      },
+      {
+       "hz": "喜欢",
+       "py": "xǐ huan",
+       "en": "to like"
+      },
+      {
+       "hz": "椅子",
+       "py": "yǐ zi",
+       "en": "chair"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "She sleeps on the chair.",
+     "tokens": [
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "椅子",
+       "py": "yǐ zi",
+       "en": "chair"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "睡觉",
+       "py": "shuì jiào",
+       "en": "to sleep"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I want to sit on the chair, but she doesn't leave.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "想",
+       "py": "xiǎng",
+       "en": "to want to; to think"
+      },
+      {
+       "hz": "坐",
+       "py": "zuò",
+       "en": "to sit; to ride"
+      },
+      {
+       "hz": "椅子",
+       "py": "yǐ zi",
+       "en": "chair"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "走",
+       "py": "zǒu",
+       "en": "to walk; to leave"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I sit on the table and read.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "坐",
+       "py": "zuò",
+       "en": "to sit; to ride"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "桌子",
+       "py": "zhuō zi",
+       "en": "table"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "书",
+       "py": "shū",
+       "en": "book"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-11",
+   "title": "星期日的上午",
+   "title_en": "Sunday Morning",
+   "tags": [
+    "routine"
+   ],
+   "sentences": [
+    {
+     "en": "On Sunday morning I don't go to school.",
+     "tokens": [
+      {
+       "hz": "星期日",
+       "py": "xīng qī rì",
+       "en": "Sunday"
+      },
+      {
+       "hz": "上午",
+       "py": "shàng wǔ",
+       "en": "morning"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "不",
+       "py": "bú",
+       "en": "not"
+      },
+      {
+       "hz": "去",
+       "py": "qù",
+       "en": "to go"
+      },
+      {
+       "hz": "学校",
+       "py": "xué xiào",
+       "en": "school"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I stay home watching TV and drinking tea.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "电视",
+       "py": "diàn shì",
+       "en": "television"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "喝",
+       "py": "hē",
+       "en": "to drink"
+      },
+      {
+       "hz": "茶",
+       "py": "chá",
+       "en": "tea"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Dad works in the back room.",
+     "tokens": [
+      {
+       "hz": "爸爸",
+       "py": "bà ba",
+       "en": "dad"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "后面",
+       "py": "hòu mian",
+       "en": "behind; the back"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "房间",
+       "py": "fáng jiān",
+       "en": "room"
+      },
+      {
+       "hz": "工作",
+       "py": "gōng zuò",
+       "en": "to work"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Mom is at the shop buying things.",
+     "tokens": [
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "商店",
+       "py": "shāng diàn",
+       "en": "shop; store"
+      },
+      {
+       "hz": "买",
+       "py": "mǎi",
+       "en": "to buy"
+      },
+      {
+       "hz": "东西",
+       "py": "dōng xi",
+       "en": "things; stuff"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "It's nice at home.",
+     "tokens": [
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "里",
+       "py": "lǐ",
+       "en": "inside"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "好",
+       "py": "hǎo",
+       "en": "good; nice"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-12",
+   "title": "我不想学习",
+   "title_en": "I Don't Want to Study",
+   "tags": [
+    "school"
+   ],
+   "sentences": [
+    {
+     "en": "Yesterday I didn't want to study.",
+     "tokens": [
+      {
+       "hz": "昨天",
+       "py": "zuó tiān",
+       "en": "yesterday"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "想",
+       "py": "xiǎng",
+       "en": "to want to; to think"
+      },
+      {
+       "hz": "学习",
+       "py": "xué xí",
+       "en": "to study"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I watched three hours of television.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "三",
+       "py": "sān",
+       "en": "three"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "小时",
+       "py": "xiǎo shí",
+       "en": "hour"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "电视",
+       "py": "diàn shì",
+       "en": "television"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Today the teacher asked me to answer a question.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "老师",
+       "py": "lǎo shī",
+       "en": "teacher"
+      },
+      {
+       "hz": "请",
+       "py": "qǐng",
+       "en": "please"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "回答",
+       "py": "huí dá",
+       "en": "to answer"
+      },
+      {
+       "hz": "问题",
+       "py": "wèn tí",
+       "en": "question; problem"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I couldn't answer.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "不",
+       "py": "bú",
+       "en": "not"
+      },
+      {
+       "hz": "会",
+       "py": "huì",
+       "en": "can; will"
+      },
+      {
+       "hz": "回答",
+       "py": "huí dá",
+       "en": "to answer"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Now I want to study.",
+     "tokens": [
+      {
+       "hz": "现在",
+       "py": "xiàn zài",
+       "en": "now"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "想",
+       "py": "xiǎng",
+       "en": "to want to; to think"
+      },
+      {
+       "hz": "学习",
+       "py": "xué xí",
+       "en": "to study"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-13",
+   "title": "新同学",
+   "title_en": "The New Classmate",
+   "tags": [
+    "school"
+   ],
+   "sentences": [
+    {
+     "en": "Today there's a new classmate in our classroom.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "教室",
+       "py": "jiào shì",
+       "en": "classroom"
+      },
+      {
+       "hz": "里",
+       "py": "lǐ",
+       "en": "inside"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "新",
+       "py": "xīn",
+       "en": "new"
+      },
+      {
+       "hz": "同学",
+       "py": "tóng xué",
+       "en": "classmate"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He is a man, not tall, and very talkative.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "男人",
+       "py": "nán rén",
+       "en": "man"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "高",
+       "py": "gāo",
+       "en": "tall; high"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "会",
+       "py": "huì",
+       "en": "can; will"
+      },
+      {
+       "hz": "说话",
+       "py": "shuō huà",
+       "en": "to speak; to talk"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He said he studies Chinese too.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "学习",
+       "py": "xué xí",
+       "en": "to study"
+      },
+      {
+       "hz": "汉语",
+       "py": "hàn yǔ",
+       "en": "Chinese (language)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "At noon we ate together.",
+     "tokens": [
+      {
+       "hz": "中午",
+       "py": "zhōng wǔ",
+       "en": "noon"
+      },
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "一起",
+       "py": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "hz": "吃",
+       "py": "chī",
+       "en": "to eat"
+      },
+      {
+       "hz": "饭",
+       "py": "fàn",
+       "en": "meal; cooked rice"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Now he's my friend.",
+     "tokens": [
+      {
+       "hz": "现在",
+       "py": "xiàn zài",
+       "en": "now"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "朋友",
+       "py": "péng you",
+       "en": "friend"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-14",
+   "title": "电影",
+   "title_en": "The Film",
+   "tags": [
+    "leisure"
+   ],
+   "sentences": [
+    {
+     "en": "Yesterday afternoon I went to see a film.",
+     "tokens": [
+      {
+       "hz": "昨天",
+       "py": "zuó tiān",
+       "en": "yesterday"
+      },
+      {
+       "hz": "下午",
+       "py": "xià wǔ",
+       "en": "afternoon"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "去",
+       "py": "qù",
+       "en": "to go"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "电影",
+       "py": "diàn yǐng",
+       "en": "film; movie"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "In the film there's a little dog and a doctor.",
+     "tokens": [
+      {
+       "hz": "电影",
+       "py": "diàn yǐng",
+       "en": "film; movie"
+      },
+      {
+       "hz": "里",
+       "py": "lǐ",
+       "en": "inside"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "小",
+       "py": "xiǎo",
+       "en": "small"
+      },
+      {
+       "hz": "狗",
+       "py": "gǒu",
+       "en": "dog"
+      },
+      {
+       "hz": "和",
+       "py": "hé",
+       "en": "and; with"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "医生",
+       "py": "yī shēng",
+       "en": "doctor"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "That dog could really talk.",
+     "tokens": [
+      {
+       "hz": "那",
+       "py": "nà",
+       "en": "that"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "狗",
+       "py": "gǒu",
+       "en": "dog"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "会",
+       "py": "huì",
+       "en": "can; will"
+      },
+      {
+       "hz": "说话",
+       "py": "shuō huà",
+       "en": "to speak; to talk"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I liked that film a lot.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "喜欢",
+       "py": "xǐ huan",
+       "en": "to like"
+      },
+      {
+       "hz": "那",
+       "py": "nà",
+       "en": "that"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "电影",
+       "py": "diàn yǐng",
+       "en": "film; movie"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-15",
+   "title": "天气很热",
+   "title_en": "The Weather Is Hot",
+   "tags": [
+    "weather"
+   ],
+   "sentences": [
+    {
+     "en": "The weather is hot today.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "天气",
+       "py": "tiān qì",
+       "en": "weather"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "热",
+       "py": "rè",
+       "en": "hot"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I want to drink a lot of water.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "想",
+       "py": "xiǎng",
+       "en": "to want to; to think"
+      },
+      {
+       "hz": "喝",
+       "py": "hē",
+       "en": "to drink"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "多",
+       "py": "duō",
+       "en": "many; how (in questions)"
+      },
+      {
+       "hz": "水",
+       "py": "shuǐ",
+       "en": "water"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Mom bought a big watermelon.",
+     "tokens": [
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "买",
+       "py": "mǎi",
+       "en": "to buy"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "大",
+       "py": "dà",
+       "en": "big; heavy"
+      },
+      {
+       "hz": "西瓜",
+       "py": "xī guā",
+       "en": "watermelon"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The watermelon was tasty and I ate some.",
+     "tokens": [
+      {
+       "hz": "西瓜",
+       "py": "xī guā",
+       "en": "watermelon"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "好吃",
+       "py": "hǎo chī",
+       "en": "tasty"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "吃",
+       "py": "chī",
+       "en": "to eat"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "一些",
+       "py": "yì xiē",
+       "en": "some"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Now I'm not hot any more.",
+     "tokens": [
+      {
+       "hz": "现在",
+       "py": "xiàn zài",
+       "en": "now"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "不",
+       "py": "bú",
+       "en": "not"
+      },
+      {
+       "hz": "热",
+       "py": "rè",
+       "en": "hot"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-16",
+   "title": "我的电脑",
+   "title_en": "My Computer",
+   "tags": [
+    "things"
+   ],
+   "sentences": [
+    {
+     "en": "I have a small computer.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "小",
+       "py": "xiǎo",
+       "en": "small"
+      },
+      {
+       "hz": "电脑",
+       "py": "diàn nǎo",
+       "en": "computer"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I write Chinese characters on the computer.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "电脑",
+       "py": "diàn nǎo",
+       "en": "computer"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "写",
+       "py": "xiě",
+       "en": "to write"
+      },
+      {
+       "hz": "汉字",
+       "py": "hàn zì",
+       "en": "Chinese character"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Yesterday my computer stopped working.",
+     "tokens": [
+      {
+       "hz": "昨天",
+       "py": "zuó tiān",
+       "en": "yesterday"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "电脑",
+       "py": "diàn nǎo",
+       "en": "computer"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "工作",
+       "py": "gōng zuò",
+       "en": "to work"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I asked a classmate to look at it, and he said it was fine.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "请",
+       "py": "qǐng",
+       "en": "please"
+      },
+      {
+       "hz": "同学",
+       "py": "tóng xué",
+       "en": "classmate"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "没关系",
+       "py": "méi guān xi",
+       "en": "it doesn't matter"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Today the computer is fine and I'm happy.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "电脑",
+       "py": "diàn nǎo",
+       "en": "computer"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "好",
+       "py": "hǎo",
+       "en": "good; nice"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "高兴",
+       "py": "gāo xìng",
+       "en": "happy; glad"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-17",
+   "title": "猫和狗",
+   "title_en": "The Cat and the Dog",
+   "tags": [
+    "animals"
+   ],
+   "sentences": [
+    {
+     "en": "There's a cat and a dog at my house.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "猫",
+       "py": "māo",
+       "en": "cat"
+      },
+      {
+       "hz": "和",
+       "py": "hé",
+       "en": "and; with"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "狗",
+       "py": "gǒu",
+       "en": "dog"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The cat is on the table and the dog is under it.",
+     "tokens": [
+      {
+       "hz": "猫",
+       "py": "māo",
+       "en": "cat"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "桌子",
+       "py": "zhuō zi",
+       "en": "table"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "狗",
+       "py": "gǒu",
+       "en": "dog"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "桌子",
+       "py": "zhuō zi",
+       "en": "table"
+      },
+      {
+       "hz": "下",
+       "py": "xià",
+       "en": "under; down; next"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The cat doesn't like the dog.",
+     "tokens": [
+      {
+       "hz": "猫",
+       "py": "māo",
+       "en": "cat"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "喜欢",
+       "py": "xǐ huan",
+       "en": "to like"
+      },
+      {
+       "hz": "狗",
+       "py": "gǒu",
+       "en": "dog"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The dog likes the cat a lot.",
+     "tokens": [
+      {
+       "hz": "狗",
+       "py": "gǒu",
+       "en": "dog"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "喜欢",
+       "py": "xǐ huan",
+       "en": "to like"
+      },
+      {
+       "hz": "猫",
+       "py": "māo",
+       "en": "cat"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "They are both my friends.",
+     "tokens": [
+      {
+       "hz": "他们",
+       "py": "tā men",
+       "en": "they; them"
+      },
+      {
+       "hz": "都",
+       "py": "dōu",
+       "en": "all"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "朋友",
+       "py": "péng you",
+       "en": "friend"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-18",
+   "title": "爸爸的工作",
+   "title_en": "Dad's Work",
+   "tags": [
+    "family"
+   ],
+   "sentences": [
+    {
+     "en": "My dad is a doctor.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "爸爸",
+       "py": "bà ba",
+       "en": "dad"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "医生",
+       "py": "yī shēng",
+       "en": "doctor"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He works at the hospital every day.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "每",
+       "py": "měi",
+       "en": "every"
+      },
+      {
+       "hz": "天",
+       "py": "tiān",
+       "en": "day"
+      },
+      {
+       "hz": "都",
+       "py": "dōu",
+       "en": "all"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "医院",
+       "py": "yī yuàn",
+       "en": "hospital"
+      },
+      {
+       "hz": "工作",
+       "py": "gōng zuò",
+       "en": "to work"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He is busy and comes home tired.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "忙",
+       "py": "máng",
+       "en": "busy"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "回",
+       "py": "huí",
+       "en": "to return"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "时候",
+       "py": "shí hou",
+       "en": "time; moment"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "累",
+       "py": "lèi",
+       "en": "tired"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I make him tea.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "请",
+       "py": "qǐng",
+       "en": "please"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "喝",
+       "py": "hē",
+       "en": "to drink"
+      },
+      {
+       "hz": "茶",
+       "py": "chá",
+       "en": "tea"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He says I'm a good kid.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "好",
+       "py": "hǎo",
+       "en": "good; nice"
+      },
+      {
+       "hz": "孩子",
+       "py": "hái zi",
+       "en": "child"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-19",
+   "title": "我的朋友",
+   "title_en": "My Friend",
+   "tags": [
+    "friends"
+   ],
+   "sentences": [
+    {
+     "en": "My friend's name is Xiao Bai.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "朋友",
+       "py": "péng you",
+       "en": "friend"
+      },
+      {
+       "hz": "叫",
+       "py": "jiào",
+       "en": "to be called; to call out"
+      },
+      {
+       "hz": "小白",
+       "py": "xiǎo bái",
+       "en": "Xiao Bai (given name)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He lives in front of my house.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "住",
+       "py": "zhù",
+       "en": "to live; to reside"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "前面",
+       "py": "qián mian",
+       "en": "in front; ahead"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "In the afternoon we run behind the school.",
+     "tokens": [
+      {
+       "hz": "下午",
+       "py": "xià wǔ",
+       "en": "afternoon"
+      },
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "都",
+       "py": "dōu",
+       "en": "all"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "学校",
+       "py": "xué xiào",
+       "en": "school"
+      },
+      {
+       "hz": "后面",
+       "py": "hòu mian",
+       "en": "behind; the back"
+      },
+      {
+       "hz": "跑步",
+       "py": "pǎo bù",
+       "en": "to run; to jog"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He runs fast.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "跑",
+       "py": "pǎo",
+       "en": "to run"
+      },
+      {
+       "hz": "得",
+       "py": "de",
+       "en": "(links a verb to how it is done)"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "快",
+       "py": "kuài",
+       "en": "fast; soon"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I'm slow, but I'm happy too.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "慢",
+       "py": "màn",
+       "en": "slow"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "但是",
+       "py": "dàn shì",
+       "en": "but"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "高兴",
+       "py": "gāo xìng",
+       "en": "happy; glad"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-20",
+   "title": "十块钱",
+   "title_en": "Ten Yuan",
+   "tags": [
+    "money"
+   ],
+   "sentences": [
+    {
+     "en": "I have ten yuan.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "十",
+       "py": "shí",
+       "en": "ten"
+      },
+      {
+       "hz": "块",
+       "py": "kuài",
+       "en": "(unit of money); piece"
+      },
+      {
+       "hz": "钱",
+       "py": "qián",
+       "en": "money"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I want to buy a book.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "想",
+       "py": "xiǎng",
+       "en": "to want to; to think"
+      },
+      {
+       "hz": "买",
+       "py": "mǎi",
+       "en": "to buy"
+      },
+      {
+       "hz": "一",
+       "py": "yì",
+       "en": "one"
+      },
+      {
+       "hz": "本",
+       "py": "běn",
+       "en": "(measure word for books)"
+      },
+      {
+       "hz": "书",
+       "py": "shū",
+       "en": "book"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "That book is twelve yuan; I'm two short.",
+     "tokens": [
+      {
+       "hz": "那",
+       "py": "nà",
+       "en": "that"
+      },
+      {
+       "hz": "本",
+       "py": "běn",
+       "en": "(measure word for books)"
+      },
+      {
+       "hz": "书",
+       "py": "shū",
+       "en": "book"
+      },
+      {
+       "hz": "十二",
+       "py": "shí èr",
+       "en": "twelve"
+      },
+      {
+       "hz": "块",
+       "py": "kuài",
+       "en": "(unit of money); piece"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "钱",
+       "py": "qián",
+       "en": "money"
+      },
+      {
+       "hz": "少",
+       "py": "shǎo",
+       "en": "few; little"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "两",
+       "py": "liǎng",
+       "en": "two (with measure words)"
+      },
+      {
+       "hz": "块",
+       "py": "kuài",
+       "en": "(unit of money); piece"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I asked my older brother to help me.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "请",
+       "py": "qǐng",
+       "en": "please"
+      },
+      {
+       "hz": "哥哥",
+       "py": "gē ge",
+       "en": "older brother"
+      },
+      {
+       "hz": "帮助",
+       "py": "bāng zhù",
+       "en": "to help"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He gave me two yuan.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "给",
+       "py": "gěi",
+       "en": "to give; for"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "两",
+       "py": "liǎng",
+       "en": "two (with measure words)"
+      },
+      {
+       "hz": "块",
+       "py": "kuài",
+       "en": "(unit of money); piece"
+      },
+      {
+       "hz": "钱",
+       "py": "qián",
+       "en": "money"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-21",
+   "title": "我的椅子",
+   "title_en": "My Chair",
+   "tags": [
+    "things"
+   ],
+   "sentences": [
+    {
+     "en": "There's a chair in my room.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "房间",
+       "py": "fáng jiān",
+       "en": "room"
+      },
+      {
+       "hz": "里",
+       "py": "lǐ",
+       "en": "inside"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "椅子",
+       "py": "yǐ zi",
+       "en": "chair"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "That chair is old and it talks when you sit on it.",
+     "tokens": [
+      {
+       "hz": "那",
+       "py": "nà",
+       "en": "that"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "椅子",
+       "py": "yǐ zi",
+       "en": "chair"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "老",
+       "py": "lǎo",
+       "en": "old"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "坐",
+       "py": "zuò",
+       "en": "to sit; to ride"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "时候",
+       "py": "shí hou",
+       "en": "time; moment"
+      },
+      {
+       "hz": "说话",
+       "py": "shuō huà",
+       "en": "to speak; to talk"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Dad says that chair is too old.",
+     "tokens": [
+      {
+       "hz": "爸爸",
+       "py": "bà ba",
+       "en": "dad"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "那",
+       "py": "nà",
+       "en": "that"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "椅子",
+       "py": "yǐ zi",
+       "en": "chair"
+      },
+      {
+       "hz": "太",
+       "py": "tài",
+       "en": "too; overly"
+      },
+      {
+       "hz": "老",
+       "py": "lǎo",
+       "en": "old"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I don't want to buy a new one.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "想",
+       "py": "xiǎng",
+       "en": "to want to; to think"
+      },
+      {
+       "hz": "买",
+       "py": "mǎi",
+       "en": "to buy"
+      },
+      {
+       "hz": "新",
+       "py": "xīn",
+       "en": "new"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-22",
+   "title": "我爱北京",
+   "title_en": "I Love Beijing",
+   "tags": [
+    "travel"
+   ],
+   "sentences": [
+    {
+     "en": "Last year mom and I went to Beijing.",
+     "tokens": [
+      {
+       "hz": "去年",
+       "py": "qù nián",
+       "en": "last year"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "和",
+       "py": "hé",
+       "en": "and; with"
+      },
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "去",
+       "py": "qù",
+       "en": "to go"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "北京",
+       "py": "běi jīng",
+       "en": "Beijing"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Beijing is big and there are a lot of people.",
+     "tokens": [
+      {
+       "hz": "北京",
+       "py": "běi jīng",
+       "en": "Beijing"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "大",
+       "py": "dà",
+       "en": "big; heavy"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "人",
+       "py": "rén",
+       "en": "person"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "多",
+       "py": "duō",
+       "en": "many; how (in questions)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "We took a taxi to the shops.",
+     "tokens": [
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "坐",
+       "py": "zuò",
+       "en": "to sit; to ride"
+      },
+      {
+       "hz": "出租车",
+       "py": "chū zū chē",
+       "en": "taxi"
+      },
+      {
+       "hz": "去",
+       "py": "qù",
+       "en": "to go"
+      },
+      {
+       "hz": "商店",
+       "py": "shāng diàn",
+       "en": "shop; store"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I bought something for my little dog.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "买",
+       "py": "mǎi",
+       "en": "to buy"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "小",
+       "py": "xiǎo",
+       "en": "small"
+      },
+      {
+       "hz": "狗",
+       "py": "gǒu",
+       "en": "dog"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "东西",
+       "py": "dōng xi",
+       "en": "things; stuff"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I love Beijing.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "爱",
+       "py": "ài",
+       "en": "to love"
+      },
+      {
+       "hz": "北京",
+       "py": "běi jīng",
+       "en": "Beijing"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-23",
+   "title": "请喝茶",
+   "title_en": "Please Have Some Tea",
+   "tags": [
+    "home"
+   ],
+   "sentences": [
+    {
+     "en": "Today my teacher came to my house.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "老师",
+       "py": "lǎo shī",
+       "en": "teacher"
+      },
+      {
+       "hz": "来",
+       "py": "lái",
+       "en": "to come"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Mom offered her tea and fruit.",
+     "tokens": [
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "请",
+       "py": "qǐng",
+       "en": "please"
+      },
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "喝",
+       "py": "hē",
+       "en": "to drink"
+      },
+      {
+       "hz": "茶",
+       "py": "chá",
+       "en": "tea"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "吃",
+       "py": "chī",
+       "en": "to eat"
+      },
+      {
+       "hz": "水果",
+       "py": "shuǐ guǒ",
+       "en": "fruit"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The teacher said our tea was very good.",
+     "tokens": [
+      {
+       "hz": "老师",
+       "py": "lǎo shī",
+       "en": "teacher"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "茶",
+       "py": "chá",
+       "en": "tea"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "好",
+       "py": "hǎo",
+       "en": "good; nice"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "She also said I'm a good student.",
+     "tokens": [
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "好",
+       "py": "hǎo",
+       "en": "good; nice"
+      },
+      {
+       "hz": "学生",
+       "py": "xué sheng",
+       "en": "student"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Mom was very happy.",
+     "tokens": [
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "高兴",
+       "py": "gāo xìng",
+       "en": "happy; glad"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-24",
+   "title": "我的女儿",
+   "title_en": "My Daughter",
+   "tags": [
+    "family"
+   ],
+   "sentences": [
+    {
+     "en": "I have a daughter; she is five.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "女儿",
+       "py": "nǚ ér",
+       "en": "daughter"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "五",
+       "py": "wǔ",
+       "en": "five"
+      },
+      {
+       "hz": "岁",
+       "py": "suì",
+       "en": "years of age"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "She likes cats a lot.",
+     "tokens": [
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "喜欢",
+       "py": "xǐ huan",
+       "en": "to like"
+      },
+      {
+       "hz": "猫",
+       "py": "māo",
+       "en": "cat"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Today she wrote one character at school.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "学校",
+       "py": "xué xiào",
+       "en": "school"
+      },
+      {
+       "hz": "写",
+       "py": "xiě",
+       "en": "to write"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "字",
+       "py": "zì",
+       "en": "character"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "That character was \"cat\".",
+     "tokens": [
+      {
+       "hz": "那",
+       "py": "nà",
+       "en": "that"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "字",
+       "py": "zì",
+       "en": "character"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "猫",
+       "py": "māo",
+       "en": "cat"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I said: beautiful!",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "漂亮",
+       "py": "piào liang",
+       "en": "beautiful; pretty"
+      },
+      {
+       "hz": "！"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-25",
+   "title": "太多苹果",
+   "title_en": "Too Many Apples",
+   "tags": [
+    "food"
+   ],
+   "sentences": [
+    {
+     "en": "Yesterday mom bought a lot of apples.",
+     "tokens": [
+      {
+       "hz": "昨天",
+       "py": "zuó tiān",
+       "en": "yesterday"
+      },
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "买",
+       "py": "mǎi",
+       "en": "to buy"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "多",
+       "py": "duō",
+       "en": "many; how (in questions)"
+      },
+      {
+       "hz": "苹果",
+       "py": "píng guǒ",
+       "en": "apple"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Apples were on the table, on the chair, and on the TV.",
+     "tokens": [
+      {
+       "hz": "苹果",
+       "py": "píng guǒ",
+       "en": "apple"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "桌子",
+       "py": "zhuō zi",
+       "en": "table"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "椅子",
+       "py": "yǐ zi",
+       "en": "chair"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "电视",
+       "py": "diàn shì",
+       "en": "television"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I said: that's too many!",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "太",
+       "py": "tài",
+       "en": "too; overly"
+      },
+      {
+       "hz": "多",
+       "py": "duō",
+       "en": "many; how (in questions)"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "！"
+      }
+     ]
+    },
+    {
+     "en": "Mom said: invite your classmates to come eat them.",
+     "tokens": [
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "请",
+       "py": "qǐng",
+       "en": "please"
+      },
+      {
+       "hz": "你",
+       "py": "nǐ",
+       "en": "you"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "同学",
+       "py": "tóng xué",
+       "en": "classmate"
+      },
+      {
+       "hz": "来",
+       "py": "lái",
+       "en": "to come"
+      },
+      {
+       "hz": "吃",
+       "py": "chī",
+       "en": "to eat"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Now there are fewer apples and we're all happy.",
+     "tokens": [
+      {
+       "hz": "现在",
+       "py": "xiàn zài",
+       "en": "now"
+      },
+      {
+       "hz": "苹果",
+       "py": "píng guǒ",
+       "en": "apple"
+      },
+      {
+       "hz": "少",
+       "py": "shǎo",
+       "en": "few; little"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "都",
+       "py": "dōu",
+       "en": "all"
+      },
+      {
+       "hz": "高兴",
+       "py": "gāo xìng",
+       "en": "happy; glad"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-26",
+   "title": "我的老师很漂亮",
+   "title_en": "Our Teacher Is Beautiful",
+   "tags": [
+    "school"
+   ],
+   "sentences": [
+    {
+     "en": "We have a new Chinese teacher.",
+     "tokens": [
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "新",
+       "py": "xīn",
+       "en": "new"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "汉语",
+       "py": "hàn yǔ",
+       "en": "Chinese (language)"
+      },
+      {
+       "hz": "老师",
+       "py": "lǎo shī",
+       "en": "teacher"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "She is beautiful, and her handwriting is beautiful too.",
+     "tokens": [
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "漂亮",
+       "py": "piào liang",
+       "en": "beautiful; pretty"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "字",
+       "py": "zì",
+       "en": "character"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "漂亮",
+       "py": "piào liang",
+       "en": "beautiful; pretty"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "We all like her class.",
+     "tokens": [
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "都",
+       "py": "dōu",
+       "en": "all"
+      },
+      {
+       "hz": "喜欢",
+       "py": "xǐ huan",
+       "en": "to like"
+      },
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "课",
+       "py": "kè",
+       "en": "class; lesson"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I think my Chinese is going to be good.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "想",
+       "py": "xiǎng",
+       "en": "to want to; to think"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "汉语",
+       "py": "hàn yǔ",
+       "en": "Chinese (language)"
+      },
+      {
+       "hz": "会",
+       "py": "huì",
+       "en": "can; will"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "好",
+       "py": "hǎo",
+       "en": "good; nice"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-27",
+   "title": "飞机",
+   "title_en": "The Airplane",
+   "tags": [
+    "travel"
+   ],
+   "sentences": [
+    {
+     "en": "Today I rode in an airplane for the first time.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "第一",
+       "py": "dì yī",
+       "en": "first"
+      },
+      {
+       "hz": "次",
+       "py": "cì",
+       "en": "(measure word for times)"
+      },
+      {
+       "hz": "坐",
+       "py": "zuò",
+       "en": "to sit; to ride"
+      },
+      {
+       "hz": "飞机",
+       "py": "fēi jī",
+       "en": "airplane"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The plane is big and there are a lot of people.",
+     "tokens": [
+      {
+       "hz": "飞机",
+       "py": "fēi jī",
+       "en": "airplane"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "大",
+       "py": "dà",
+       "en": "big; heavy"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "人",
+       "py": "rén",
+       "en": "person"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "多",
+       "py": "duō",
+       "en": "many; how (in questions)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "On the plane I read and drank water.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "飞机",
+       "py": "fēi jī",
+       "en": "airplane"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "书",
+       "py": "shū",
+       "en": "book"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "喝",
+       "py": "hē",
+       "en": "to drink"
+      },
+      {
+       "hz": "水",
+       "py": "shuǐ",
+       "en": "water"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Three hours later I arrived in Beijing.",
+     "tokens": [
+      {
+       "hz": "三",
+       "py": "sān",
+       "en": "three"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "小时",
+       "py": "xiǎo shí",
+       "en": "hour"
+      },
+      {
+       "hz": "后",
+       "py": "hòu",
+       "en": "after; behind"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "到",
+       "py": "dào",
+       "en": "to arrive; to; until"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "北京",
+       "py": "běi jīng",
+       "en": "Beijing"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-28",
+   "title": "生日",
+   "title_en": "The Birthday",
+   "tags": [
+    "family"
+   ],
+   "sentences": [
+    {
+     "en": "Today is my birthday.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "生日",
+       "py": "shēng rì",
+       "en": "birthday"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I'm twenty.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "二十",
+       "py": "èr shí",
+       "en": "twenty"
+      },
+      {
+       "hz": "岁",
+       "py": "suì",
+       "en": "years of age"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Friends came to my house and we ate and drank tea.",
+     "tokens": [
+      {
+       "hz": "朋友",
+       "py": "péng you",
+       "en": "friend"
+      },
+      {
+       "hz": "们",
+       "py": "men",
+       "en": "(plural suffix for people)"
+      },
+      {
+       "hz": "来",
+       "py": "lái",
+       "en": "to come"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "吃",
+       "py": "chī",
+       "en": "to eat"
+      },
+      {
+       "hz": "菜",
+       "py": "cài",
+       "en": "food; dish"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "喝",
+       "py": "hē",
+       "en": "to drink"
+      },
+      {
+       "hz": "茶",
+       "py": "chá",
+       "en": "tea"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Mom made really tasty rice.",
+     "tokens": [
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "做",
+       "py": "zuò",
+       "en": "to do; to make"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "好吃",
+       "py": "hǎo chī",
+       "en": "tasty"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "米饭",
+       "py": "mǐ fàn",
+       "en": "cooked rice"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I was very happy.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "快乐",
+       "py": "kuài lè",
+       "en": "happy"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-29",
+   "title": "猫不见了",
+   "title_en": "The Cat Is Gone",
+   "tags": [
+    "animals"
+   ],
+   "sentences": [
+    {
+     "en": "This morning I didn't see my cat.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "上午",
+       "py": "shàng wǔ",
+       "en": "morning"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "没",
+       "py": "méi",
+       "en": "not; to not have"
+      },
+      {
+       "hz": "看见",
+       "py": "kàn jiàn",
+       "en": "to see"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "猫",
+       "py": "māo",
+       "en": "cat"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I looked in the room — nothing.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "房间",
+       "py": "fáng jiān",
+       "en": "room"
+      },
+      {
+       "hz": "里",
+       "py": "lǐ",
+       "en": "inside"
+      },
+      {
+       "hz": "找",
+       "py": "zhǎo",
+       "en": "to look for"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "没",
+       "py": "méi",
+       "en": "not; to not have"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I looked under the table — nothing either.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "桌子",
+       "py": "zhuō zi",
+       "en": "table"
+      },
+      {
+       "hz": "下",
+       "py": "xià",
+       "en": "under; down; next"
+      },
+      {
+       "hz": "找",
+       "py": "zhǎo",
+       "en": "to look for"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "没",
+       "py": "méi",
+       "en": "not; to not have"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "In the afternoon I saw her sleeping on the chair.",
+     "tokens": [
+      {
+       "hz": "下午",
+       "py": "xià wǔ",
+       "en": "afternoon"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "看见",
+       "py": "kàn jiàn",
+       "en": "to see"
+      },
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "椅子",
+       "py": "yǐ zi",
+       "en": "chair"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "睡觉",
+       "py": "shuì jiào",
+       "en": "to sleep"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "She was home the whole time.",
+     "tokens": [
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "都",
+       "py": "dōu",
+       "en": "all"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "里",
+       "py": "lǐ",
+       "en": "inside"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-30",
+   "title": "我会做菜了",
+   "title_en": "I Can Cook Now",
+   "tags": [
+    "food"
+   ],
+   "sentences": [
+    {
+     "en": "Yesterday I wanted to cook.",
+     "tokens": [
+      {
+       "hz": "昨天",
+       "py": "zuó tiān",
+       "en": "yesterday"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "想",
+       "py": "xiǎng",
+       "en": "to want to; to think"
+      },
+      {
+       "hz": "做",
+       "py": "zuò",
+       "en": "to do; to make"
+      },
+      {
+       "hz": "菜",
+       "py": "cài",
+       "en": "food; dish"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I made rice and eggs.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "做",
+       "py": "zuò",
+       "en": "to do; to make"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "米饭",
+       "py": "mǐ fàn",
+       "en": "cooked rice"
+      },
+      {
+       "hz": "和",
+       "py": "hé",
+       "en": "and; with"
+      },
+      {
+       "hz": "鸡蛋",
+       "py": "jī dàn",
+       "en": "egg"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The rice was good; the eggs weren't tasty.",
+     "tokens": [
+      {
+       "hz": "米饭",
+       "py": "mǐ fàn",
+       "en": "cooked rice"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "好",
+       "py": "hǎo",
+       "en": "good; nice"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "鸡蛋",
+       "py": "jī dàn",
+       "en": "egg"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "好吃",
+       "py": "hǎo chī",
+       "en": "tasty"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Mom said: it doesn't matter, you'll learn.",
+     "tokens": [
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "没关系",
+       "py": "méi guān xi",
+       "en": "it doesn't matter"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "你",
+       "py": "nǐ",
+       "en": "you"
+      },
+      {
+       "hz": "会",
+       "py": "huì",
+       "en": "can; will"
+      },
+      {
+       "hz": "学习",
+       "py": "xué xí",
+       "en": "to study"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Today my eggs were tasty.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "鸡蛋",
+       "py": "jī dàn",
+       "en": "egg"
+      },
+      {
+       "hz": "好吃",
+       "py": "hǎo chī",
+       "en": "tasty"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-31",
+   "title": "十一点了",
+   "title_en": "It's Eleven O'clock",
+   "tags": [
+    "routine"
+   ],
+   "sentences": [
+    {
+     "en": "It's eleven o'clock now.",
+     "tokens": [
+      {
+       "hz": "现在",
+       "py": "xiàn zài",
+       "en": "now"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "十一",
+       "py": "shí yī",
+       "en": "eleven"
+      },
+      {
+       "hz": "点",
+       "py": "diǎn",
+       "en": "o'clock"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I want to sleep, but my book is very good.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "想",
+       "py": "xiǎng",
+       "en": "to want to; to think"
+      },
+      {
+       "hz": "睡觉",
+       "py": "shuì jiào",
+       "en": "to sleep"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "但是",
+       "py": "dàn shì",
+       "en": "but"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "书",
+       "py": "shū",
+       "en": "book"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "好",
+       "py": "hǎo",
+       "en": "good; nice"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I said: ten more minutes.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "十",
+       "py": "shí",
+       "en": "ten"
+      },
+      {
+       "hz": "分钟",
+       "py": "fēn zhōng",
+       "en": "minutes"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Now it's twelve.",
+     "tokens": [
+      {
+       "hz": "现在",
+       "py": "xiàn zài",
+       "en": "now"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "十二",
+       "py": "shí èr",
+       "en": "twelve"
+      },
+      {
+       "hz": "点",
+       "py": "diǎn",
+       "en": "o'clock"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Tomorrow morning I'll be tired.",
+     "tokens": [
+      {
+       "hz": "明天",
+       "py": "míng tiān",
+       "en": "tomorrow"
+      },
+      {
+       "hz": "上午",
+       "py": "shàng wǔ",
+       "en": "morning"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "会",
+       "py": "huì",
+       "en": "can; will"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "累",
+       "py": "lèi",
+       "en": "tired"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-32",
+   "title": "我的哥哥",
+   "title_en": "My Older Brother",
+   "tags": [
+    "family"
+   ],
+   "sentences": [
+    {
+     "en": "I have an older brother.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "哥哥",
+       "py": "gē ge",
+       "en": "older brother"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He's twenty-five and works at a company.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "二十五",
+       "py": "èr shí wǔ",
+       "en": "twenty-five"
+      },
+      {
+       "hz": "岁",
+       "py": "suì",
+       "en": "years of age"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "公司",
+       "py": "gōng sī",
+       "en": "company; the office"
+      },
+      {
+       "hz": "工作",
+       "py": "gōng zuò",
+       "en": "to work"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He's busy and I don't see him often.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "忙",
+       "py": "máng",
+       "en": "busy"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "常",
+       "py": "cháng",
+       "en": "often"
+      },
+      {
+       "hz": "看见",
+       "py": "kàn jiàn",
+       "en": "to see"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "On Sunday he comes to my house to eat.",
+     "tokens": [
+      {
+       "hz": "星期日",
+       "py": "xīng qī rì",
+       "en": "Sunday"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "来",
+       "py": "lái",
+       "en": "to come"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "吃",
+       "py": "chī",
+       "en": "to eat"
+      },
+      {
+       "hz": "饭",
+       "py": "fàn",
+       "en": "meal; cooked rice"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "We talked for a long time.",
+     "tokens": [
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "说话",
+       "py": "shuō huà",
+       "en": "to speak; to talk"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "长",
+       "py": "cháng",
+       "en": "long"
+      },
+      {
+       "hz": "时间",
+       "py": "shí jiān",
+       "en": "time"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-33",
+   "title": "学校的猫",
+   "title_en": "The School Cat",
+   "tags": [
+    "animals"
+   ],
+   "sentences": [
+    {
+     "en": "Our school has a cat.",
+     "tokens": [
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "学校",
+       "py": "xué xiào",
+       "en": "school"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "猫",
+       "py": "māo",
+       "en": "cat"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He is black and big.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "黑",
+       "py": "hēi",
+       "en": "black"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "大",
+       "py": "dà",
+       "en": "big; heavy"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "At noon he sleeps in front of the classroom.",
+     "tokens": [
+      {
+       "hz": "中午",
+       "py": "zhōng wǔ",
+       "en": "noon"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "教室",
+       "py": "jiào shì",
+       "en": "classroom"
+      },
+      {
+       "hz": "前面",
+       "py": "qián mian",
+       "en": "in front; ahead"
+      },
+      {
+       "hz": "睡觉",
+       "py": "shuì jiào",
+       "en": "to sleep"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The students all like him and all feed him.",
+     "tokens": [
+      {
+       "hz": "学生",
+       "py": "xué sheng",
+       "en": "student"
+      },
+      {
+       "hz": "都",
+       "py": "dōu",
+       "en": "all"
+      },
+      {
+       "hz": "喜欢",
+       "py": "xǐ huan",
+       "en": "to like"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "都",
+       "py": "dōu",
+       "en": "all"
+      },
+      {
+       "hz": "请",
+       "py": "qǐng",
+       "en": "please"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "吃",
+       "py": "chī",
+       "en": "to eat"
+      },
+      {
+       "hz": "东西",
+       "py": "dōng xi",
+       "en": "things; stuff"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Now he's too big.",
+     "tokens": [
+      {
+       "hz": "现在",
+       "py": "xiàn zài",
+       "en": "now"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "太",
+       "py": "tài",
+       "en": "too; overly"
+      },
+      {
+       "hz": "大",
+       "py": "dà",
+       "en": "big; heavy"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-34",
+   "title": "我的手机",
+   "title_en": "My Phone",
+   "tags": [
+    "things"
+   ],
+   "sentences": [
+    {
+     "en": "I have a new phone.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "新",
+       "py": "xīn",
+       "en": "new"
+      },
+      {
+       "hz": "手机",
+       "py": "shǒu jī",
+       "en": "mobile phone"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I study Chinese on my phone.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "手机",
+       "py": "shǒu jī",
+       "en": "mobile phone"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "学习",
+       "py": "xué xí",
+       "en": "to study"
+      },
+      {
+       "hz": "汉语",
+       "py": "hàn yǔ",
+       "en": "Chinese (language)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Every day I study twenty new characters.",
+     "tokens": [
+      {
+       "hz": "每",
+       "py": "měi",
+       "en": "every"
+      },
+      {
+       "hz": "天",
+       "py": "tiān",
+       "en": "day"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "学习",
+       "py": "xué xí",
+       "en": "to study"
+      },
+      {
+       "hz": "二十",
+       "py": "èr shí",
+       "en": "twenty"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "新",
+       "py": "xīn",
+       "en": "new"
+      },
+      {
+       "hz": "字",
+       "py": "zì",
+       "en": "character"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "But I also watch films on my phone.",
+     "tokens": [
+      {
+       "hz": "但是",
+       "py": "dàn shì",
+       "en": "but"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "手机",
+       "py": "shǒu jī",
+       "en": "mobile phone"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "电影",
+       "py": "diàn yǐng",
+       "en": "film; movie"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "My Chinese comes along very slowly.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "汉语",
+       "py": "hàn yǔ",
+       "en": "Chinese (language)"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "慢",
+       "py": "màn",
+       "en": "slow"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "慢",
+       "py": "màn",
+       "en": "slow"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-35",
+   "title": "大雪",
+   "title_en": "Heavy Snow",
+   "tags": [
+    "weather"
+   ],
+   "sentences": [
+    {
+     "en": "It snowed today.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "下",
+       "py": "xià",
+       "en": "under; down; next"
+      },
+      {
+       "hz": "雪",
+       "py": "xuě",
+       "en": "snow"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "My school said: don't come in.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "学校",
+       "py": "xué xiào",
+       "en": "school"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "来",
+       "py": "lái",
+       "en": "to come"
+      },
+      {
+       "hz": "学校",
+       "py": "xué xiào",
+       "en": "school"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I was happy and drank tea at home.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "高兴",
+       "py": "gāo xìng",
+       "en": "happy; glad"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "里",
+       "py": "lǐ",
+       "en": "inside"
+      },
+      {
+       "hz": "喝",
+       "py": "hē",
+       "en": "to drink"
+      },
+      {
+       "hz": "茶",
+       "py": "chá",
+       "en": "tea"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "In the afternoon I looked at the snow outside.",
+     "tokens": [
+      {
+       "hz": "下午",
+       "py": "xià wǔ",
+       "en": "afternoon"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "外面",
+       "py": "wài mian",
+       "en": "outside"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "雪",
+       "py": "xuě",
+       "en": "snow"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The snow was white and beautiful.",
+     "tokens": [
+      {
+       "hz": "雪",
+       "py": "xuě",
+       "en": "snow"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "白",
+       "py": "bái",
+       "en": "white"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "漂亮",
+       "py": "piào liang",
+       "en": "beautiful; pretty"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-36",
+   "title": "我不认识那个人",
+   "title_en": "I Don't Know That Person",
+   "tags": [
+    "people"
+   ],
+   "sentences": [
+    {
+     "en": "Yesterday a person called my name in front of the shop.",
+     "tokens": [
+      {
+       "hz": "昨天",
+       "py": "zuó tiān",
+       "en": "yesterday"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "人",
+       "py": "rén",
+       "en": "person"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "商店",
+       "py": "shāng diàn",
+       "en": "shop; store"
+      },
+      {
+       "hz": "前面",
+       "py": "qián mian",
+       "en": "in front; ahead"
+      },
+      {
+       "hz": "叫",
+       "py": "jiào",
+       "en": "to be called; to call out"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "名字",
+       "py": "míng zi",
+       "en": "name"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I didn't know him.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "不",
+       "py": "bú",
+       "en": "not"
+      },
+      {
+       "hz": "认识",
+       "py": "rèn shi",
+       "en": "to know (a person); to recognize"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He said he was my classmate.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "同学",
+       "py": "tóng xué",
+       "en": "classmate"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I said: sorry, I don't know you.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "对不起",
+       "py": "duì bu qǐ",
+       "en": "sorry"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "不",
+       "py": "bú",
+       "en": "not"
+      },
+      {
+       "hz": "认识",
+       "py": "rèn shi",
+       "en": "to know (a person); to recognize"
+      },
+      {
+       "hz": "你",
+       "py": "nǐ",
+       "en": "you"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He said: that's all right.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "没关系",
+       "py": "méi guān xi",
+       "en": "it doesn't matter"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-37",
+   "title": "妹妹的字",
+   "title_en": "My Little Sister's Characters",
+   "tags": [
+    "family"
+   ],
+   "sentences": [
+    {
+     "en": "My little sister is six and she's learning to write.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "妹妹",
+       "py": "mèi mei",
+       "en": "younger sister"
+      },
+      {
+       "hz": "六",
+       "py": "liù",
+       "en": "six"
+      },
+      {
+       "hz": "岁",
+       "py": "suì",
+       "en": "years of age"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "学习",
+       "py": "xué xí",
+       "en": "to study"
+      },
+      {
+       "hz": "写",
+       "py": "xiě",
+       "en": "to write"
+      },
+      {
+       "hz": "字",
+       "py": "zì",
+       "en": "character"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Her characters are big and slow.",
+     "tokens": [
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "字",
+       "py": "zì",
+       "en": "character"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "大",
+       "py": "dà",
+       "en": "big; heavy"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "慢",
+       "py": "màn",
+       "en": "slow"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "She wrote the character for \"person\".",
+     "tokens": [
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "写",
+       "py": "xiě",
+       "en": "to write"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "“"
+      },
+      {
+       "hz": "人",
+       "py": "rén",
+       "en": "person"
+      },
+      {
+       "hz": "”"
+      },
+      {
+       "hz": "字",
+       "py": "zì",
+       "en": "character"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I said: very good!",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "好",
+       "py": "hǎo",
+       "en": "good; nice"
+      },
+      {
+       "hz": "！"
+      }
+     ]
+    },
+    {
+     "en": "She was delighted.",
+     "tokens": [
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "快乐",
+       "py": "kuài lè",
+       "en": "happy"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-38",
+   "title": "茶和水",
+   "title_en": "Tea and Water",
+   "tags": [
+    "food"
+   ],
+   "sentences": [
+    {
+     "en": "My dad drinks a lot of tea every day.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "爸爸",
+       "py": "bà ba",
+       "en": "dad"
+      },
+      {
+       "hz": "每",
+       "py": "měi",
+       "en": "every"
+      },
+      {
+       "hz": "天",
+       "py": "tiān",
+       "en": "day"
+      },
+      {
+       "hz": "喝",
+       "py": "hē",
+       "en": "to drink"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "多",
+       "py": "duō",
+       "en": "many; how (in questions)"
+      },
+      {
+       "hz": "茶",
+       "py": "chá",
+       "en": "tea"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "My mom says too much tea isn't good.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "茶",
+       "py": "chá",
+       "en": "tea"
+      },
+      {
+       "hz": "太",
+       "py": "tài",
+       "en": "too; overly"
+      },
+      {
+       "hz": "多",
+       "py": "duō",
+       "en": "many; how (in questions)"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "好",
+       "py": "hǎo",
+       "en": "good; nice"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "She tells him to drink water.",
+     "tokens": [
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "请",
+       "py": "qǐng",
+       "en": "please"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "喝",
+       "py": "hē",
+       "en": "to drink"
+      },
+      {
+       "hz": "水",
+       "py": "shuǐ",
+       "en": "water"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Dad says: water has no tea in it, it isn't tasty.",
+     "tokens": [
+      {
+       "hz": "爸爸",
+       "py": "bà ba",
+       "en": "dad"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "水",
+       "py": "shuǐ",
+       "en": "water"
+      },
+      {
+       "hz": "里",
+       "py": "lǐ",
+       "en": "inside"
+      },
+      {
+       "hz": "没",
+       "py": "méi",
+       "en": "not; to not have"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "茶",
+       "py": "chá",
+       "en": "tea"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "好喝",
+       "py": "hǎo hē",
+       "en": "good to drink; tasty"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Mom isn't pleased.",
+     "tokens": [
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "高兴",
+       "py": "gāo xìng",
+       "en": "happy; glad"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-39",
+   "title": "我的房间",
+   "title_en": "My Room",
+   "tags": [
+    "home"
+   ],
+   "sentences": [
+    {
+     "en": "My room isn't big.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "房间",
+       "py": "fáng jiān",
+       "en": "room"
+      },
+      {
+       "hz": "不",
+       "py": "bú",
+       "en": "not"
+      },
+      {
+       "hz": "大",
+       "py": "dà",
+       "en": "big; heavy"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Inside there's a table, a chair, and a lot of books.",
+     "tokens": [
+      {
+       "hz": "里面",
+       "py": "lǐ mian",
+       "en": "inside"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "桌子",
+       "py": "zhuō zi",
+       "en": "table"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "椅子",
+       "py": "yǐ zi",
+       "en": "chair"
+      },
+      {
+       "hz": "和",
+       "py": "hé",
+       "en": "and; with"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "多",
+       "py": "duō",
+       "en": "many; how (in questions)"
+      },
+      {
+       "hz": "书",
+       "py": "shū",
+       "en": "book"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The books are on the table and on the chair too.",
+     "tokens": [
+      {
+       "hz": "书",
+       "py": "shū",
+       "en": "book"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "桌子",
+       "py": "zhuō zi",
+       "en": "table"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "椅子",
+       "py": "yǐ zi",
+       "en": "chair"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "My cat sleeps on the books.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "猫",
+       "py": "māo",
+       "en": "cat"
+      },
+      {
+       "hz": "睡",
+       "py": "shuì",
+       "en": "to sleep"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "书",
+       "py": "shū",
+       "en": "book"
+      },
+      {
+       "hz": "上",
+       "py": "shàng",
+       "en": "on; up; last"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I like my room a lot.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "喜欢",
+       "py": "xǐ huan",
+       "en": "to like"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "房间",
+       "py": "fáng jiān",
+       "en": "room"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-40",
+   "title": "我们去饭馆",
+   "title_en": "We Go to a Restaurant",
+   "tags": [
+    "food"
+   ],
+   "sentences": [
+    {
+     "en": "Yesterday our family went to a new restaurant.",
+     "tokens": [
+      {
+       "hz": "昨天",
+       "py": "zuó tiān",
+       "en": "yesterday"
+      },
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "去",
+       "py": "qù",
+       "en": "to go"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "新",
+       "py": "xīn",
+       "en": "new"
+      },
+      {
+       "hz": "饭馆",
+       "py": "fàn guǎn",
+       "en": "restaurant"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "There were a lot of people at that restaurant.",
+     "tokens": [
+      {
+       "hz": "那",
+       "py": "nà",
+       "en": "that"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "饭馆",
+       "py": "fàn guǎn",
+       "en": "restaurant"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "人",
+       "py": "rén",
+       "en": "person"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "多",
+       "py": "duō",
+       "en": "many; how (in questions)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "We sat for twenty minutes.",
+     "tokens": [
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "坐",
+       "py": "zuò",
+       "en": "to sit; to ride"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "二十",
+       "py": "èr shí",
+       "en": "twenty"
+      },
+      {
+       "hz": "分钟",
+       "py": "fēn zhōng",
+       "en": "minutes"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The food was tasty, but expensive.",
+     "tokens": [
+      {
+       "hz": "菜",
+       "py": "cài",
+       "en": "food; dish"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "好吃",
+       "py": "hǎo chī",
+       "en": "tasty"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "但是",
+       "py": "dàn shì",
+       "en": "but"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "贵",
+       "py": "guì",
+       "en": "expensive"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Dad said tomorrow we eat at home.",
+     "tokens": [
+      {
+       "hz": "爸爸",
+       "py": "bà ba",
+       "en": "dad"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "明天",
+       "py": "míng tiān",
+       "en": "tomorrow"
+      },
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "吃",
+       "py": "chī",
+       "en": "to eat"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-41",
+   "title": "老人和狗",
+   "title_en": "The Old Man and the Dog",
+   "tags": [
+    "people"
+   ],
+   "sentences": [
+    {
+     "en": "An old man lives in front of my house.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "前面",
+       "py": "qián mian",
+       "en": "in front; ahead"
+      },
+      {
+       "hz": "住",
+       "py": "zhù",
+       "en": "to live; to reside"
+      },
+      {
+       "hz": "着",
+       "py": "zhe",
+       "en": "(ongoing action particle)"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "老",
+       "py": "lǎo",
+       "en": "old"
+      },
+      {
+       "hz": "人",
+       "py": "rén",
+       "en": "person"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He has a white dog.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "白",
+       "py": "bái",
+       "en": "white"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "狗",
+       "py": "gǒu",
+       "en": "dog"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Every morning they walk out front.",
+     "tokens": [
+      {
+       "hz": "每",
+       "py": "měi",
+       "en": "every"
+      },
+      {
+       "hz": "天",
+       "py": "tiān",
+       "en": "day"
+      },
+      {
+       "hz": "上午",
+       "py": "shàng wǔ",
+       "en": "morning"
+      },
+      {
+       "hz": "他们",
+       "py": "tā men",
+       "en": "they; them"
+      },
+      {
+       "hz": "都",
+       "py": "dōu",
+       "en": "all"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "前面",
+       "py": "qián mian",
+       "en": "in front; ahead"
+      },
+      {
+       "hz": "走",
+       "py": "zǒu",
+       "en": "to walk; to leave"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He walks slowly, and the dog walks slowly too.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "走",
+       "py": "zǒu",
+       "en": "to walk; to leave"
+      },
+      {
+       "hz": "得",
+       "py": "de",
+       "en": "(links a verb to how it is done)"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "慢",
+       "py": "màn",
+       "en": "slow"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "狗",
+       "py": "gǒu",
+       "en": "dog"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "走",
+       "py": "zǒu",
+       "en": "to walk; to leave"
+      },
+      {
+       "hz": "得",
+       "py": "de",
+       "en": "(links a verb to how it is done)"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "慢",
+       "py": "màn",
+       "en": "slow"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I like watching them.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "喜欢",
+       "py": "xǐ huan",
+       "en": "to like"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "他们",
+       "py": "tā men",
+       "en": "they; them"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-42",
+   "title": "我想有一个猫",
+   "title_en": "I Want a Cat",
+   "tags": [
+    "animals"
+   ],
+   "sentences": [
+    {
+     "en": "I want a cat.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "想",
+       "py": "xiǎng",
+       "en": "to want to; to think"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "猫",
+       "py": "māo",
+       "en": "cat"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I ask my mom every day.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "每",
+       "py": "měi",
+       "en": "every"
+      },
+      {
+       "hz": "天",
+       "py": "tiān",
+       "en": "day"
+      },
+      {
+       "hz": "都",
+       "py": "dōu",
+       "en": "all"
+      },
+      {
+       "hz": "请",
+       "py": "qǐng",
+       "en": "please"
+      },
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "She says: a cat needs food and time.",
+     "tokens": [
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "猫",
+       "py": "māo",
+       "en": "cat"
+      },
+      {
+       "hz": "要",
+       "py": "yào",
+       "en": "to want; to have to"
+      },
+      {
+       "hz": "吃",
+       "py": "chī",
+       "en": "to eat"
+      },
+      {
+       "hz": "东西",
+       "py": "dōng xi",
+       "en": "things; stuff"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "要",
+       "py": "yào",
+       "en": "to want; to have to"
+      },
+      {
+       "hz": "时间",
+       "py": "shí jiān",
+       "en": "time"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I said: I have time!",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "时间",
+       "py": "shí jiān",
+       "en": "time"
+      },
+      {
+       "hz": "！"
+      }
+     ]
+    },
+    {
+     "en": "Tomorrow we're going to look at cats.",
+     "tokens": [
+      {
+       "hz": "明天",
+       "py": "míng tiān",
+       "en": "tomorrow"
+      },
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "去",
+       "py": "qù",
+       "en": "to go"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "猫",
+       "py": "māo",
+       "en": "cat"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-43",
+   "title": "汉语很难",
+   "title_en": "Chinese Is Hard",
+   "tags": [
+    "school"
+   ],
+   "sentences": [
+    {
+     "en": "I've studied Chinese for a year.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "学习",
+       "py": "xué xí",
+       "en": "to study"
+      },
+      {
+       "hz": "汉语",
+       "py": "hàn yǔ",
+       "en": "Chinese (language)"
+      },
+      {
+       "hz": "一",
+       "py": "yì",
+       "en": "one"
+      },
+      {
+       "hz": "年",
+       "py": "nián",
+       "en": "year"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Now I can say a lot.",
+     "tokens": [
+      {
+       "hz": "现在",
+       "py": "xiàn zài",
+       "en": "now"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "会",
+       "py": "huì",
+       "en": "can; will"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "多",
+       "py": "duō",
+       "en": "many; how (in questions)"
+      },
+      {
+       "hz": "话",
+       "py": "huà",
+       "en": "words; speech"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "But Chinese people speak fast.",
+     "tokens": [
+      {
+       "hz": "但是",
+       "py": "dàn shì",
+       "en": "but"
+      },
+      {
+       "hz": "中国",
+       "py": "zhōng guó",
+       "en": "China"
+      },
+      {
+       "hz": "人",
+       "py": "rén",
+       "en": "person"
+      },
+      {
+       "hz": "说话",
+       "py": "shuō huà",
+       "en": "to speak; to talk"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "快",
+       "py": "kuài",
+       "en": "fast; soon"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "When they talk I don't understand.",
+     "tokens": [
+      {
+       "hz": "他们",
+       "py": "tā men",
+       "en": "they; them"
+      },
+      {
+       "hz": "说话",
+       "py": "shuō huà",
+       "en": "to speak; to talk"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "时候",
+       "py": "shí hou",
+       "en": "time; moment"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "都",
+       "py": "dōu",
+       "en": "all"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "懂",
+       "py": "dǒng",
+       "en": "to understand"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The teacher says: listen every day.",
+     "tokens": [
+      {
+       "hz": "老师",
+       "py": "lǎo shī",
+       "en": "teacher"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "请",
+       "py": "qǐng",
+       "en": "please"
+      },
+      {
+       "hz": "你",
+       "py": "nǐ",
+       "en": "you"
+      },
+      {
+       "hz": "每",
+       "py": "měi",
+       "en": "every"
+      },
+      {
+       "hz": "天",
+       "py": "tiān",
+       "en": "day"
+      },
+      {
+       "hz": "听",
+       "py": "tīng",
+       "en": "to listen"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-44",
+   "title": "我的同学生病了",
+   "title_en": "My Classmate Is Sick",
+   "tags": [
+    "school"
+   ],
+   "sentences": [
+    {
+     "en": "Today my classmate didn't come to school.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "同学",
+       "py": "tóng xué",
+       "en": "classmate"
+      },
+      {
+       "hz": "没",
+       "py": "méi",
+       "en": "not; to not have"
+      },
+      {
+       "hz": "来",
+       "py": "lái",
+       "en": "to come"
+      },
+      {
+       "hz": "学校",
+       "py": "xué xiào",
+       "en": "school"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The teacher said he was sick.",
+     "tokens": [
+      {
+       "hz": "老师",
+       "py": "lǎo shī",
+       "en": "teacher"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "生病",
+       "py": "shēng bìng",
+       "en": "to fall ill"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "In the afternoon I went to his house to see him.",
+     "tokens": [
+      {
+       "hz": "下午",
+       "py": "xià wǔ",
+       "en": "afternoon"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "去",
+       "py": "qù",
+       "en": "to go"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He was in his room watching TV.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "房间",
+       "py": "fáng jiān",
+       "en": "room"
+      },
+      {
+       "hz": "里",
+       "py": "lǐ",
+       "en": "inside"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "电视",
+       "py": "diàn shì",
+       "en": "television"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "He said: I'm fine, I just don't want to take the test.",
+     "tokens": [
+      {
+       "hz": "他",
+       "py": "tā",
+       "en": "he; him"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "好",
+       "py": "hǎo",
+       "en": "good; nice"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "想",
+       "py": "xiǎng",
+       "en": "to want to; to think"
+      },
+      {
+       "hz": "考试",
+       "py": "kǎo shì",
+       "en": "exam; to take an exam"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-45",
+   "title": "大苹果小苹果",
+   "title_en": "Big Apple, Small Apple",
+   "tags": [
+    "food"
+   ],
+   "sentences": [
+    {
+     "en": "The shop has big apples and small apples.",
+     "tokens": [
+      {
+       "hz": "商店",
+       "py": "shāng diàn",
+       "en": "shop; store"
+      },
+      {
+       "hz": "里",
+       "py": "lǐ",
+       "en": "inside"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "大",
+       "py": "dà",
+       "en": "big; heavy"
+      },
+      {
+       "hz": "苹果",
+       "py": "píng guǒ",
+       "en": "apple"
+      },
+      {
+       "hz": "和",
+       "py": "hé",
+       "en": "and; with"
+      },
+      {
+       "hz": "小",
+       "py": "xiǎo",
+       "en": "small"
+      },
+      {
+       "hz": "苹果",
+       "py": "píng guǒ",
+       "en": "apple"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The big apples are expensive; the small ones are cheap.",
+     "tokens": [
+      {
+       "hz": "大",
+       "py": "dà",
+       "en": "big; heavy"
+      },
+      {
+       "hz": "苹果",
+       "py": "píng guǒ",
+       "en": "apple"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "贵",
+       "py": "guì",
+       "en": "expensive"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "小",
+       "py": "xiǎo",
+       "en": "small"
+      },
+      {
+       "hz": "苹果",
+       "py": "píng guǒ",
+       "en": "apple"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "便宜",
+       "py": "pián yi",
+       "en": "cheap"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I bought a lot of small apples.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "买",
+       "py": "mǎi",
+       "en": "to buy"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "多",
+       "py": "duō",
+       "en": "many; how (in questions)"
+      },
+      {
+       "hz": "小",
+       "py": "xiǎo",
+       "en": "small"
+      },
+      {
+       "hz": "苹果",
+       "py": "píng guǒ",
+       "en": "apple"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "On the way home I ate three.",
+     "tokens": [
+      {
+       "hz": "回",
+       "py": "huí",
+       "en": "to return"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "时候",
+       "py": "shí hou",
+       "en": "time; moment"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "吃",
+       "py": "chī",
+       "en": "to eat"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "三",
+       "py": "sān",
+       "en": "three"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Small apples are tasty too.",
+     "tokens": [
+      {
+       "hz": "小",
+       "py": "xiǎo",
+       "en": "small"
+      },
+      {
+       "hz": "苹果",
+       "py": "píng guǒ",
+       "en": "apple"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "好吃",
+       "py": "hǎo chī",
+       "en": "tasty"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-46",
+   "title": "猫喜欢鱼",
+   "title_en": "The Cat Likes Fish",
+   "tags": [
+    "animals"
+   ],
+   "sentences": [
+    {
+     "en": "My cat loves fish.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "猫",
+       "py": "māo",
+       "en": "cat"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "喜欢",
+       "py": "xǐ huan",
+       "en": "to like"
+      },
+      {
+       "hz": "鱼",
+       "py": "yú",
+       "en": "fish"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "When I buy fish she's delighted.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "买",
+       "py": "mǎi",
+       "en": "to buy"
+      },
+      {
+       "hz": "鱼",
+       "py": "yú",
+       "en": "fish"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "时候",
+       "py": "shí hou",
+       "en": "time; moment"
+      },
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "快乐",
+       "py": "kuài lè",
+       "en": "happy"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Today I bought a big fish.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "买",
+       "py": "mǎi",
+       "en": "to buy"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "大",
+       "py": "dà",
+       "en": "big; heavy"
+      },
+      {
+       "hz": "鱼",
+       "py": "yú",
+       "en": "fish"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The whole time I was cooking she was behind me.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "做",
+       "py": "zuò",
+       "en": "to do; to make"
+      },
+      {
+       "hz": "菜",
+       "py": "cài",
+       "en": "food; dish"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "时候",
+       "py": "shí hou",
+       "en": "time; moment"
+      },
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "都",
+       "py": "dōu",
+       "en": "all"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "后面",
+       "py": "hòu mian",
+       "en": "behind; the back"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The fish was tasty, and she said so too.",
+     "tokens": [
+      {
+       "hz": "鱼",
+       "py": "yú",
+       "en": "fish"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "好吃",
+       "py": "hǎo chī",
+       "en": "tasty"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "好吃",
+       "py": "hǎo chī",
+       "en": "tasty"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-47",
+   "title": "我的爸爸妈妈",
+   "title_en": "My Parents",
+   "tags": [
+    "family"
+   ],
+   "sentences": [
+    {
+     "en": "My dad is fifty and my mom is forty-eight.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "爸爸",
+       "py": "bà ba",
+       "en": "dad"
+      },
+      {
+       "hz": "五十",
+       "py": "wǔ shí",
+       "en": "fifty"
+      },
+      {
+       "hz": "岁",
+       "py": "suì",
+       "en": "years of age"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "四十八",
+       "py": "sì shí bā",
+       "en": "forty-eight"
+      },
+      {
+       "hz": "岁",
+       "py": "suì",
+       "en": "years of age"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Dad is tall; mom isn't.",
+     "tokens": [
+      {
+       "hz": "爸爸",
+       "py": "bà ba",
+       "en": "dad"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "高",
+       "py": "gāo",
+       "en": "tall; high"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "妈妈",
+       "py": "mā ma",
+       "en": "mom"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "高",
+       "py": "gāo",
+       "en": "tall; high"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "They both work at a school.",
+     "tokens": [
+      {
+       "hz": "他们",
+       "py": "tā men",
+       "en": "they; them"
+      },
+      {
+       "hz": "都",
+       "py": "dōu",
+       "en": "all"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "学校",
+       "py": "xué xiào",
+       "en": "school"
+      },
+      {
+       "hz": "工作",
+       "py": "gōng zuò",
+       "en": "to work"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "On Sunday they watch TV at home.",
+     "tokens": [
+      {
+       "hz": "星期日",
+       "py": "xīng qī rì",
+       "en": "Sunday"
+      },
+      {
+       "hz": "他们",
+       "py": "tā men",
+       "en": "they; them"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "家",
+       "py": "jiā",
+       "en": "home; family"
+      },
+      {
+       "hz": "里",
+       "py": "lǐ",
+       "en": "inside"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "电视",
+       "py": "diàn shì",
+       "en": "television"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I love them very much.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "爱",
+       "py": "ài",
+       "en": "to love"
+      },
+      {
+       "hz": "他们",
+       "py": "tā men",
+       "en": "they; them"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-48",
+   "title": "现在几点",
+   "title_en": "What Time Is It",
+   "tags": [
+    "routine"
+   ],
+   "sentences": [
+    {
+     "en": "This morning I was tired when I got up.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "上午",
+       "py": "shàng wǔ",
+       "en": "morning"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "起床",
+       "py": "qǐ chuáng",
+       "en": "to get out of bed"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "时候",
+       "py": "shí hou",
+       "en": "time; moment"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "累",
+       "py": "lèi",
+       "en": "tired"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I looked at my watch.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "手表",
+       "py": "shǒu biǎo",
+       "en": "watch"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The watch said seven o'clock.",
+     "tokens": [
+      {
+       "hz": "手表",
+       "py": "shǒu biǎo",
+       "en": "watch"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "七",
+       "py": "qī",
+       "en": "seven"
+      },
+      {
+       "hz": "点",
+       "py": "diǎn",
+       "en": "o'clock"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "My phone said nine!",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "手机",
+       "py": "shǒu jī",
+       "en": "mobile phone"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "是",
+       "py": "shì",
+       "en": "to be"
+      },
+      {
+       "hz": "九",
+       "py": "jiǔ",
+       "en": "nine"
+      },
+      {
+       "hz": "点",
+       "py": "diǎn",
+       "en": "o'clock"
+      },
+      {
+       "hz": "！"
+      }
+     ]
+    },
+    {
+     "en": "I didn't have time for tea.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "没",
+       "py": "méi",
+       "en": "not; to not have"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "时间",
+       "py": "shí jiān",
+       "en": "time"
+      },
+      {
+       "hz": "喝",
+       "py": "hē",
+       "en": "to drink"
+      },
+      {
+       "hz": "茶",
+       "py": "chá",
+       "en": "tea"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-49",
+   "title": "我的中国朋友",
+   "title_en": "My Chinese Friend",
+   "tags": [
+    "friends"
+   ],
+   "sentences": [
+    {
+     "en": "I have a Chinese friend named Xiao Hong.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "有",
+       "py": "yǒu",
+       "en": "to have; there is"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "中国",
+       "py": "zhōng guó",
+       "en": "China"
+      },
+      {
+       "hz": "朋友",
+       "py": "péng you",
+       "en": "friend"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "叫",
+       "py": "jiào",
+       "en": "to be called; to call out"
+      },
+      {
+       "hz": "小红",
+       "py": "xiǎo hóng",
+       "en": "Xiao Hong (given name)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "She studies at our school.",
+     "tokens": [
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "在",
+       "py": "zài",
+       "en": "at; in; (in the middle of)"
+      },
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "学校",
+       "py": "xué xiào",
+       "en": "school"
+      },
+      {
+       "hz": "学习",
+       "py": "xué xí",
+       "en": "to study"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Every week we talk for an hour.",
+     "tokens": [
+      {
+       "hz": "每",
+       "py": "měi",
+       "en": "every"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "星期",
+       "py": "xīng qī",
+       "en": "week"
+      },
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "说话",
+       "py": "shuō huà",
+       "en": "to speak; to talk"
+      },
+      {
+       "hz": "一",
+       "py": "yí",
+       "en": "one"
+      },
+      {
+       "hz": "个",
+       "py": "gè",
+       "en": "(general measure word)"
+      },
+      {
+       "hz": "小时",
+       "py": "xiǎo shí",
+       "en": "hour"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "She learns my language and I learn Chinese.",
+     "tokens": [
+      {
+       "hz": "她",
+       "py": "tā",
+       "en": "she; her"
+      },
+      {
+       "hz": "学习",
+       "py": "xué xí",
+       "en": "to study"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "话",
+       "py": "huà",
+       "en": "words; speech"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "学习",
+       "py": "xué xí",
+       "en": "to study"
+      },
+      {
+       "hz": "汉语",
+       "py": "hàn yǔ",
+       "en": "Chinese (language)"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "We're both very happy.",
+     "tokens": [
+      {
+       "hz": "我们",
+       "py": "wǒ men",
+       "en": "we; us"
+      },
+      {
+       "hz": "都",
+       "py": "dōu",
+       "en": "all"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "高兴",
+       "py": "gāo xìng",
+       "en": "happy; glad"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hsk1s-50",
+   "title": "明天",
+   "title_en": "Tomorrow",
+   "tags": [
+    "routine"
+   ],
+   "sentences": [
+    {
+     "en": "Today I didn't do my work.",
+     "tokens": [
+      {
+       "hz": "今天",
+       "py": "jīn tiān",
+       "en": "today"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "没",
+       "py": "méi",
+       "en": "not; to not have"
+      },
+      {
+       "hz": "做",
+       "py": "zuò",
+       "en": "to do; to make"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "的",
+       "py": "de",
+       "en": "(possessive / modifier particle)"
+      },
+      {
+       "hz": "工作",
+       "py": "gōng zuò",
+       "en": "to work"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I watched TV and slept a long time.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "看",
+       "py": "kàn",
+       "en": "to look at; to read; to watch"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "电视",
+       "py": "diàn shì",
+       "en": "television"
+      },
+      {
+       "hz": "，"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "睡",
+       "py": "shuì",
+       "en": "to sleep"
+      },
+      {
+       "hz": "了",
+       "py": "le",
+       "en": "(completed action; change of state)"
+      },
+      {
+       "hz": "很",
+       "py": "hěn",
+       "en": "very"
+      },
+      {
+       "hz": "长",
+       "py": "cháng",
+       "en": "long"
+      },
+      {
+       "hz": "时间",
+       "py": "shí jiān",
+       "en": "time"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I said: tomorrow I'll do it.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "："
+      },
+      {
+       "hz": "明天",
+       "py": "míng tiān",
+       "en": "tomorrow"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "会",
+       "py": "huì",
+       "en": "can; will"
+      },
+      {
+       "hz": "做",
+       "py": "zuò",
+       "en": "to do; to make"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Tomorrow I'll say \"tomorrow\" too.",
+     "tokens": [
+      {
+       "hz": "明天",
+       "py": "míng tiān",
+       "en": "tomorrow"
+      },
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "也",
+       "py": "yě",
+       "en": "also"
+      },
+      {
+       "hz": "会",
+       "py": "huì",
+       "en": "can; will"
+      },
+      {
+       "hz": "说",
+       "py": "shuō",
+       "en": "to say; to speak"
+      },
+      {
+       "hz": "明天",
+       "py": "míng tiān",
+       "en": "tomorrow"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I think this isn't good.",
+     "tokens": [
+      {
+       "hz": "我",
+       "py": "wǒ",
+       "en": "I; me"
+      },
+      {
+       "hz": "想",
+       "py": "xiǎng",
+       "en": "to want to; to think"
+      },
+      {
+       "hz": "这",
+       "py": "zhè",
+       "en": "this"
+      },
+      {
+       "hz": "不",
+       "py": "bù",
+       "en": "not"
+      },
+      {
+       "hz": "好",
+       "py": "hǎo",
+       "en": "good; nice"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

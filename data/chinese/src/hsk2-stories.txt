@@ -1,0 +1,603 @@
+# deck: id=hsk2-stories | title=HSK 2 · Stories | level=HSK 2 | vocab=hsk2 | vocab_min=0.85 | kind=stories
+# desc: Fifty short stories with a little more room — 得 complements, 因为/所以, past experience.
+# extra: 小白 小红 小月 马丁 王
+
+@ hsk2s-01 | 我的自行车 | My Bicycle | things
+我 有 一 个 很 老 的 自行车。
+I have a very old bicycle.
+它 是 红 的，但是 现在 颜色 不 太 红 了。
+It's red, though the color has faded now.
+每 天 早上 我 骑 它 去 上班。
+Every morning I ride it to work.
+它 走 得 很 慢，可是 我 不 想 卖 它。
+It goes slowly, but I don't want to sell it.
+我 觉得 它 是 我 的 朋友。
+I feel it's a friend of mine.
+
+@ hsk2s-02 | 我学会了游泳 | I Learned to Swim | learning
+去年 我 还 不 会 游泳。
+Last year I still couldn't swim.
+我 觉得 水 里 非常 可怕。
+I found the water very frightening.
+我 的 朋友 说：别 怕，我 帮助 你。
+My friend said: don't be afraid, I'll help you.
+我们 每 个 星期 去 两 次。
+We went twice a week.
+现在 我 游 得 很 快 了。
+Now I swim quite fast.
+
+@ hsk2s-03 | 找不到的狗 | The Dog That Couldn't Be Found | animals
+昨天 晚上 我 的 狗 出去 了。
+Last night my dog went out.
+我 在 房子 旁边 找 了 一 个 小时。
+I looked next to the house for an hour.
+外面 很 黑，也 很 冷。
+It was dark outside, and cold.
+我 回 家 的 时候，它 正在 门 旁边 睡觉。
+When I got home, it was sleeping by the door.
+它 看见 我，非常 快乐。
+It saw me and was delighted.
+
+@ hsk2s-04 | 第一次考试 | The First Exam | school
+上 个 星期 我们 有 汉语 考试。
+Last week we had a Chinese exam.
+我 准备 了 很 长 时间。
+I prepared for a long time.
+考试 的 题 非常 多，我 写 得 很 慢。
+There were a lot of questions and I wrote slowly.
+最 后 一 个 题 我 没 有 时间 回答。
+I didn't have time for the last question.
+老师 说 我 做 得 还 可以。
+The teacher said I did all right.
+
+@ hsk2s-05 | 下雪的早上 | A Snowy Morning | weather
+今天 早上 我 起床 的 时候，外面 都 是 白 的。
+When I got up this morning, everything outside was white.
+下 了 一 晚上 的 雪。
+It had snowed all night.
+路 上 没 有 车，也 没 有 人。
+There were no cars on the road, and no people.
+我 一 个 人 在 雪 里 走 了 很 远。
+I walked a long way in the snow by myself.
+我 觉得 这 是 今年 最 好 的 早上。
+I think it was the best morning of the year.
+
+@ hsk2s-06 | 哥哥的手机 | My Brother's Phone | family
+我 哥哥 的 手机 很 新，也 很 贵。
+My brother's phone is new and expensive.
+他 每 天 都 看 手机，吃饭 的 时候 也 看。
+He looks at it all day, even while eating.
+妈妈 说 他 这样 不 好。
+Mom says this isn't good for him.
+上 个 星期 他 的 手机 坏 了。
+Last week his phone broke.
+那 三 天 他 和 我们 说 了 很 多 话。
+For those three days he talked with us a lot.
+
+@ hsk2s-07 | 妹妹的生日 | My Sister's Birthday | family
+明天 是 我 妹妹 的 生日，她 七 岁 了。
+Tomorrow is my little sister's birthday; she's turning seven.
+我 想 送 她 一 个 东西，可是 我 的 钱 不 多。
+I want to give her something, but I don't have much money.
+我 觉得 她 会 喜欢 一 张 我 写 的 卡片。
+I think she'd like a card I wrote myself.
+我 在 上面 写 了 五 个 字：妹妹 生日 快乐。
+On it I wrote five characters: happy birthday, little sister.
+她 看见 的 时候 就 笑 了。
+When she saw it she smiled.
+
+@ hsk2s-08 | 我们去旅游 | We Went Travelling | travel
+去年 夏天 我们 一家 人 去 旅游。
+Last summer our family went travelling.
+我们 坐 了 十 个 小时 的 火车。
+We took a ten-hour train.
+车 上 非常 累，可是 也 非常 高兴。
+The ride was tiring, but also great fun.
+我们 看见 了 很 大 的 山 和 很 长 的 河。
+We saw big mountains and a long river.
+今年 我 还 想 去。
+This year I want to go again.
+
+@ hsk2s-09 | 红色的门 | The Red Door | neighbours
+我 家 旁边 有 一 个 红 色 的 门。
+Next to my house there's a red door.
+那 个 门 一直 关 着。
+That door is always closed.
+我 问 妈妈 里面 有 什么。
+I asked my mom what was inside.
+她 说 她 也 不 知道。
+She said she didn't know either.
+现在 我 每 次 走 过 都 看 一下。
+Now I glance at it every time I walk past.
+
+@ hsk2s-10 | 我不喜欢跑步 | I Don't Like Running | health
+医生 说 我 要 多 运动。
+The doctor said I should exercise more.
+所以 我 开始 跑步。
+So I started running.
+第一 天 我 跑 了 十 分钟 就 很 累。
+The first day I ran ten minutes and was exhausted.
+我 的 朋友 说：慢 一点，时间 长 一点。
+My friend said: go slower, but go longer.
+现在 我 每 天 跑 半 个 小时。
+Now I run half an hour a day.
+
+@ hsk2s-11 | 咖啡和我 | Coffee and Me | routine
+我 每 天 早上 喝 两 杯 咖啡。
+I drink two cups of coffee every morning.
+我 的 妻子 说 咖啡 太 多 了。
+My wife says that's too much coffee.
+上 个 月 我 一 个 星期 没 喝。
+Last month I went a week without any.
+那 个 星期 我 每 天 都 很 累，也 不 想 说话。
+That week I was tired every day and didn't feel like talking.
+现在 我 每 天 喝 一 杯。
+Now I have one cup a day.
+
+@ hsk2s-12 | 我的老房间 | My Old Room | home
+我 小 的 时候 住 在 一 个 很 小 的 房间 里。
+When I was little I lived in a very small room.
+房间 里 只 有 一 个 床 和 一 个 桌子。
+There was only a bed and a table in it.
+可是 门 外面 有 一 个 大 树。
+But outside the door there was a big tree.
+每 天 早上 我 都 听见 树 上 的 鸟。
+Every morning I heard the birds in that tree.
+我 现在 的 房间 很 大，可是 没 有 树。
+My room now is big, but there's no tree.
+
+@ hsk2s-13 | 火车上的男人 | The Man on the Train | travel
+昨天 我 坐 火车 去 上班。
+Yesterday I took the train to work.
+我 旁边 的 男人 一直 在 睡觉。
+The man next to me slept the whole way.
+他 的 书 掉 在 地 上 了。
+His book fell on the floor.
+我 让 他 起来，他 说 谢谢。
+I woke him and he said thank you.
+下 车 的 时候 他 忘 了 那 本 书。
+Getting off, he forgot the book.
+
+@ hsk2s-14 | 我最喜欢的颜色 | My Favorite Color | things
+我 最 喜欢 的 颜色 是 红 色。
+My favorite color is red.
+我 的 衣服 很 多 都 是 红 的。
+A lot of my clothes are red.
+我 的 妹妹 最 喜欢 白 色。
+My little sister likes white best.
+她 说 白 色 很 干净。
+She says white is clean.
+妈妈 说：白 的 衣服 要 常 洗。
+Mom says: white clothes have to be washed often.
+
+@ hsk2s-15 | 会开门的猫 | The Cat Who Opens Doors | animals
+我 的 猫 会 开 门。
+My cat can open doors.
+它 用 它 的 头，慢慢 的 开。
+It uses its head and opens them slowly.
+早上 五 点 它 就 进 我 的 房间。
+At five in the morning it comes into my room.
+它 坐 在 我 的 身上，让 我 起床。
+It sits on me to make me get up.
+我 想 我 要 一 个 新 的 门。
+I think I need a new door.
+
+@ hsk2s-16 | 生病的时候 | When I Was Sick | health
+上 个 星期 我 生病 了。
+Last week I got sick.
+我 三 天 没 去 上班。
+I didn't go to work for three days.
+我 的 同事 给 我 打电话，问 我 好 不 好。
+My colleague called to ask how I was.
+她 还 送 来 了 药 和 水果。
+She also brought over medicine and fruit.
+现在 我 好 了，我 想 请 她 吃饭。
+I'm better now, and I want to take her to dinner.
+
+@ hsk2s-17 | 一个人的晚上 | An Evening Alone | home
+今天 晚上 家 里 只 有 我 一 个 人。
+Tonight I'm the only one at home.
+外面 在 下雨，非常 安静。
+It's raining outside and very quiet.
+我 洗 了 衣服，做 了 一 个 鸡蛋。
+I washed clothes and made an egg.
+然后 我 看 了 一 个 很 老 的 电影。
+Then I watched a very old film.
+我 觉得 一 个 人 的 晚上 也 很 好。
+I think an evening alone is nice too.
+
+@ hsk2s-18 | 我的中文名字 | My Chinese Name | language
+我 的 老师 给 我 一 个 中文 名字。
+My teacher gave me a Chinese name.
+她 说 这 个 名字 的 意思 是 高兴 的 山。
+She said the name means "happy mountain".
+我 非常 喜欢 它。
+I like it very much.
+可是 我 写 得 不 好。
+But I don't write it well.
+所以 我 每 天 写 十 次。
+So I write it ten times a day.
+
+@ hsk2s-19 | 学校旁边的小店 | The Little Shop by the School | school
+我们 学校 旁边 有 一 个 小 店。
+There's a little shop next to our school.
+店 里 的 东西 都 很 便宜。
+Everything in it is cheap.
+下课 以后 学生 都 去 那 里 买 牛奶。
+After class the students all go there for milk.
+店 里 的 老 先生 认识 每 个 学生。
+The old man in the shop knows every student.
+他 也 知道 我们 都 喜欢 什么。
+He also knows what each of us likes.
+
+@ hsk2s-20 | 我怕考试 | I'm Afraid of Tests | school
+我 不 怕 学习，可是 我 很 怕 考试。
+I'm not afraid of studying, but I'm very afraid of tests.
+考试 的 早上 我 什么 都 吃 不 下。
+On the morning of a test I can't eat anything.
+我 的 朋友 说 他 也 一样。
+My friend says he's the same.
+老师 说：考试 只 是 一 张 纸。
+The teacher says: a test is only a piece of paper.
+我 知道 她 说 得 对，可是 我 还 是 怕。
+I know she's right, but I'm still afraid.
+
+@ hsk2s-21 | 爸爸的手表 | Dad's Watch | family
+我 爸爸 有 一 个 很 老 的 手表。
+My dad has a very old watch.
+那 是 他 爸爸 给 他 的。
+His father gave it to him.
+它 走 得 不 准，每 天 慢 五 分钟。
+It doesn't keep good time — five minutes slow a day.
+我 说：买 一 个 新 的 吧。
+I said: buy a new one.
+他 说：这 个 手表 记得 很 多 事情。
+He said: this watch remembers a lot of things.
+
+@ hsk2s-22 | 我们的老师笑了 | Our Teacher Smiled | school
+我们 的 数学 老师 从来 不 笑。
+Our math teacher never smiles.
+上 个 星期 一 个 同学 回答 错 了 一 个 题。
+Last week a classmate got a question wrong.
+他 的 回答 非常 有 意思。
+His answer was very funny.
+老师 笑 了，我们 都 看见 了。
+The teacher smiled, and we all saw it.
+那 天 以后 我们 都 不 怕 她 了。
+After that day none of us were afraid of her.
+
+@ hsk2s-23 | 晚上的城市 | The City at Night | city
+我 喜欢 晚上 的 城市。
+I like the city at night.
+车 少 了，人 也 少 了。
+There are fewer cars and fewer people.
+路 上 的 灯 都 是 黄 色 的。
+The lights on the road are all yellow.
+我 常 一 个 人 走 很 远。
+I often walk a long way by myself.
+走 累 了 我 就 坐 公共汽车 回 家。
+When I'm tired I take the bus home.
+
+@ hsk2s-24 | 我不会跳舞 | I Can't Dance | leisure
+上 个 月 我 朋友 的 姐姐 结婚 了。
+Last month my friend's older sister got married.
+大家 都 在 跳舞。
+Everyone was dancing.
+我 不 会 跳舞，所以 我 坐 在 旁边 吃 东西。
+I can't dance, so I sat to the side and ate.
+一 个 小 孩子 来 让 我 和 她 跳。
+A little child came and made me dance with her.
+她 跳 得 也 不 好，我们 都 笑 了。
+She didn't dance well either, and we both laughed.
+
+@ hsk2s-25 | 我的第一个工作 | My First Job | work
+我 的 第一 个 工作 是 在 一 个 小 饭馆。
+My first job was at a small restaurant.
+我 每 天 洗 很 多 杯子。
+Every day I washed a lot of cups.
+我 的 手 一直 是 湿 的。
+My hands were wet all the time.
+可是 那 里 的 人 都 对 我 很 好。
+But everyone there was very good to me.
+现在 我 还 记得 那 个 饭馆 的 菜。
+I still remember that restaurant's food.
+
+@ hsk2s-26 | 邻居的音乐 | The Neighbor's Music | neighbours
+我 旁边 的 房间 里 住 着 一 个 年轻 人。
+A young person lives in the room next to mine.
+他 每 天 晚上 都 听 音乐。
+He listens to music every night.
+开始 的 时候 我 非常 不 高兴。
+At first I was very unhappy about it.
+可是 现在 我 也 喜欢 那些 音乐 了。
+But now I like that music too.
+昨天 他 没 听，我 觉得 太 安静 了。
+Yesterday he didn't play any, and it felt too quiet.
+
+@ hsk2s-27 | 我最忙的一天 | My Busiest Day | work
+上 个 星期 三 是 我 最 忙 的 一 天。
+Last Wednesday was my busiest day.
+早上 八 点 开始 上班，晚上 十 点 才 回 家。
+I started work at eight and didn't get home until ten.
+中午 我 只 吃 了 一 个 鸡蛋。
+At noon I only ate one egg.
+回 家 的 时候 我 累 得 说 不 出 话。
+By the time I got home I was too tired to speak.
+可是 我 做 完 了 所有 的 事情。
+But I finished everything.
+
+@ hsk2s-28 | 我和我的旧衣服 | My Old Clothes | things
+我 的 房间 里 有 很 多 旧 衣服。
+There are a lot of old clothes in my room.
+有些 我 已经 五 年 没 穿 了。
+Some I haven't worn in five years.
+妻子 说：卖 了 吧，或者 送 人。
+My wife says: sell them, or give them away.
+我 说 好，可是 我 还 没 做。
+I say yes, but I still haven't done it.
+每 件 衣服 都 有 一 个 故事。
+Every piece has a story.
+
+@ hsk2s-29 | 春天来了 | Spring Has Come | weather
+今天 早上 我 出去 的 时候，天气 非常 好。
+When I went out this morning the weather was lovely.
+太阳 很 大，风 很 小。
+The sun was bright and there was little wind.
+路 旁边 的 树 都 绿 了。
+The trees by the road had all turned green.
+我 想 春天 已经 来 了。
+I think spring has already come.
+我 不 想 上班，我 想 在 外面 走。
+I didn't want to go to work, I wanted to walk outside.
+
+@ hsk2s-30 | 我教妈妈用手机 | Teaching Mom Her Phone | family
+我 妈妈 有 一 个 新 手机。
+My mom has a new phone.
+她 问 我 很 多 问题。
+She asks me a lot of questions.
+我 教 了 她 十 次，她 还 是 忘。
+I've shown her ten times and she still forgets.
+我 有 一点 不 高兴。
+I got a little impatient.
+然后 我 想：我 小 的 时候，她 教 我 说话。
+Then I thought: when I was little, she taught me to talk.
+
+@ hsk2s-31 | 一个下雨的下午 | A Rainy Afternoon | weather
+那 天 下午 下 了 很 大 的 雨。
+It rained hard that afternoon.
+我 没 带 伞，所以 我 在 商店 门 旁边 等。
+I had no umbrella, so I waited by the shop door.
+旁边 还 有 三 个 人 也 在 等。
+Three other people were waiting too.
+我们 都 不 说话，只 看 雨。
+None of us spoke, we just watched the rain.
+雨 小 了 以后 大家 都 走 了。
+When the rain eased everyone left.
+
+@ hsk2s-32 | 我的爷爷 | My Grandfather | family
+我 爷爷 今年 八十 岁 了。
+My grandfather is eighty this year.
+他 每 天 早上 六 点 起床，在 外面 走 一 个 小时。
+Every morning he gets up at six and walks for an hour.
+他 说 这样 身体 好。
+He says it keeps him healthy.
+他 的 眼睛 不 太 好，可是 他 还 看 报纸。
+His eyes aren't great, but he still reads the paper.
+他 说 他 要 知道 外面 的 事情。
+He says he wants to know what's happening out there.
+
+@ hsk2s-33 | 我买了太多书 | I Bought Too Many Books | things
+我 非常 喜欢 买 书。
+I love buying books.
+上 个 月 我 买 了 十二 本。
+Last month I bought twelve.
+可是 我 只 看 完 了 两 本。
+But I only finished two.
+新 的 书 在 桌子 上，也 在 地 上。
+The new books are on the table and on the floor.
+今天 我 又 去 了 书店。
+Today I went to the bookshop again.
+
+@ hsk2s-34 | 我学做菜 | Learning to Cook | food
+我 想 学 做 中国 菜。
+I wanted to learn to cook Chinese food.
+我 在 手机 上 看 了 很 多 次。
+I watched it on my phone many times.
+第一 次 我 做 的 菜 太 咸 了。
+The first time, my dish was too salty.
+第二 次 好 一点，第三 次 就 很 好吃 了。
+The second time was better; the third was really good.
+现在 我 的 朋友 都 想 来 我 家 吃饭。
+Now all my friends want to come eat at my place.
+
+@ hsk2s-35 | 那个跑步的女人 | The Woman Who Runs | neighbours
+每 天 早上 六 点，一 个 女人 从 我 家 门前 跑 过。
+Every morning at six a woman runs past my door.
+下雨 的 时候 她 也 跑。
+She runs when it rains too.
+下雪 的 时候 她 还 是 跑。
+When it snows she still runs.
+我 不 认识 她，可是 我 每 天 都 看见 她。
+I don't know her, but I see her every day.
+上 个 星期 她 没 来，我 有点 担心。
+Last week she didn't come and I was a bit worried.
+
+@ hsk2s-36 | 我的第一个中国朋友 | My First Chinese Friend | friends
+我 的 第一 个 中国 朋友 叫 小白。
+My first Chinese friend was called Xiao Bai.
+我们 是 在 火车 上 认识 的。
+We met on a train.
+那 时候 我 的 汉语 非常 不 好。
+My Chinese was very poor then.
+我们 说 了 六 个 小时。
+We talked for six hours.
+现在 我们 还 常 打电话。
+We still call each other often.
+
+@ hsk2s-37 | 忘了钱包 | Forgetting My Wallet | problems
+昨天 我 在 饭馆 吃 完 饭 才 想 起来：我 没 带 钱包。
+Yesterday I finished my meal before realizing I'd left my wallet.
+我 非常 不 好意思。
+I was very embarrassed.
+我 想 给 朋友 打电话，可是 手机 也 没 电 了。
+I wanted to call a friend, but my phone was dead too.
+饭馆 的 服务员 说：没关系，你 明天 来 给 吧。
+The waiter said: it's fine, come pay tomorrow.
+今天 早上 我 第一 件 事 就 是 去 那 里。
+This morning the first thing I did was go there.
+
+@ hsk2s-38 | 弟弟的问题 | My Little Brother's Questions | family
+我 弟弟 五 岁，他 问 很 多 问题。
+My little brother is five and asks a lot of questions.
+天 为什么 是 蓝 的？
+Why is the sky blue?
+鱼 睡觉 吗？
+Do fish sleep?
+我 很 多 都 回答 不 了。
+I can't answer a lot of them.
+所以 我 也 开始 看 书 了。
+So I've started reading too.
+
+@ hsk2s-39 | 我们家的电视 | Our Television | home
+我们 家 的 电视 很 老 了。
+Our television is very old.
+颜色 也 不 对，人 的 脸 都 是 红 的。
+The color is off too — everyone's face is red.
+爸爸 说 下 个 月 买 新 的。
+Dad says we'll buy a new one next month.
+他 已经 说 了 两 年 了。
+He's been saying that for two years.
+我 想 我们 会 一直 用 这 个。
+I think we'll keep using this one.
+
+@ hsk2s-40 | 我第一次坐飞机 | My First Flight | travel
+我 第一 次 坐 飞机 的 时候 非常 怕。
+The first time I flew I was very frightened.
+我 旁边 的 老 太太 看见 了。
+The old lady next to me noticed.
+她 说：别 怕，我 坐 过 五十 次 了。
+She said: don't be afraid, I've flown fifty times.
+然后 她 一直 和 我 说话。
+Then she talked with me the whole way.
+下 飞机 的 时候 我 已经 不 怕 了。
+By the time we landed I wasn't afraid any more.
+
+@ hsk2s-41 | 一个安静的图书馆 | A Quiet Library | school
+我们 学校 的 图书馆 非常 安静。
+Our school library is very quiet.
+学生 在 里面 看 书、写 题。
+Students read and do problems in there.
+我 每 个 星期 都 去 三 次。
+I go three times a week.
+那 里 有 一 个 我 最 喜欢 的 桌子。
+There's a table there I like best.
+它 在 门 旁边，外面 有 一 个 大 树。
+It's by the door, with a big tree outside.
+
+@ hsk2s-42 | 我的运动 | My Exercise | health
+我 不 喜欢 跑步，也 不 喜欢 打篮球。
+I don't like running, and I don't like basketball.
+可是 我 非常 喜欢 走 路。
+But I really like walking.
+每 天 我 走 一 个 小时。
+I walk for an hour every day.
+走 路 的 时候 我 想 很 多 事情。
+When I walk I think about a lot of things.
+我 觉得 这 也 是 运动。
+I think that's exercise too.
+
+@ hsk2s-43 | 妈妈的信 | Mom's Letter | family
+今天 我 收到 了 妈妈 的 信。
+Today I got a letter from my mom.
+现在 大家 都 用 手机，可是 她 还 写 信。
+Everyone uses a phone now, but she still writes letters.
+她 的 字 很 大，也 很 慢。
+Her handwriting is big and slow.
+信 里 都 是 家 里 的 小 事情。
+The letter is all small things from home.
+我 看 了 三 次。
+I read it three times.
+
+@ hsk2s-44 | 我们班的新同学 | The New Student in Our Class | school
+我们 班 来 了 一 个 新 同学。
+A new student joined our class.
+第一 天 他 没 和 大家 说话。
+On the first day he didn't talk to anyone.
+中午 我 请 他 一起 吃饭。
+At noon I asked him to eat with us.
+他 说 他 也 喜欢 打篮球。
+He said he likes basketball too.
+现在 他 是 我们 班 最 会 说话 的 人。
+Now he's the most talkative person in our class.
+
+@ hsk2s-45 | 雨里的猫 | The Cat in the Rain | animals
+下雨 的 时候，一 个 小 猫 在 我 家 门 旁边。
+When it was raining, a little cat was by my door.
+它 很 小，也 很 冷。
+It was small and cold.
+我 给 它 一点 牛奶。
+I gave it a little milk.
+它 喝 完 就 走 了。
+It finished and left.
+第二 天 它 又 来 了，现在 它 住 在 我 家。
+The next day it came again — now it lives with me.
+
+@ hsk2s-46 | 我最喜欢的季节 | My Favorite Season | weather
+我 最 喜欢 秋天。
+Autumn is my favorite season.
+不 冷 也 不 热，天 非常 高。
+Not cold, not hot, and the sky is very high.
+树 的 颜色 从 绿 的 变成 黄 的、红 的。
+The trees turn from green to yellow and red.
+我 喜欢 在 那些 树 下面 走。
+I like walking under those trees.
+可是 秋天 非常 短。
+But autumn is very short.
+
+@ hsk2s-47 | 我的旧电脑 | My Old Computer | things
+我 的 电脑 已经 七 年 了。
+My computer is seven years old.
+它 开 得 非常 慢。
+It starts up very slowly.
+我 每 天 早上 开 电脑 以后 就 去 做 咖啡。
+Every morning I turn it on and then go make coffee.
+咖啡 做 完 了，电脑 也 开 好 了。
+By the time the coffee's ready, so is the computer.
+我 觉得 这样 也 很 好。
+I think that works out fine.
+
+@ hsk2s-48 | 送妹妹去学校 | Walking My Sister to School | family
+每 天 早上 我 送 妹妹 去 学校。
+Every morning I walk my sister to school.
+路 上 我们 说 很 多 话。
+We talk a lot on the way.
+她 问 我 学校 的 事情。
+She asks me about school.
+到 了 学校 门 前，她 就 跑 进去 了。
+At the school gate she runs in.
+她 不 回头 看 我，可是 我 每 次 都 看 她 进去。
+She doesn't look back, but I watch her go in every time.
+
+@ hsk2s-49 | 我不想长大 | I Don't Want to Grow Up | reflection
+我 小 的 时候 想 快 一点 长大。
+When I was little I wanted to grow up fast.
+我 觉得 大 人 什么 都 可以 做。
+I thought grown-ups could do anything.
+现在 我 是 大 人 了。
+Now I'm a grown-up.
+我 可以 吃 很 多 苹果，可是 我 每 天 都 很 忙。
+I can eat all the apples I want, but I'm busy every day.
+有 时候 我 想 回 去 做 一 个 小 孩子。
+Sometimes I want to go back to being a kid.
+
+@ hsk2s-50 | 今天很好 | Today Was Good | reflection
+今天 没 有 什么 大 事情。
+Nothing big happened today.
+早上 我 喝 了 咖啡，看 了 报纸。
+In the morning I had coffee and read the paper.
+中午 我 和 同事 一起 吃饭，我们 笑 了 很 多。
+At noon I ate with a colleague and we laughed a lot.
+晚上 我 在 家 看 书，猫 在 我 旁边 睡觉。
+In the evening I read at home with the cat asleep beside me.
+我 觉得 今天 非常 好。
+I think today was very good.
