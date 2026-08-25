@@ -1,0 +1,603 @@
+# deck: id=hsk2-everyday | title=HSK 2 · Everyday | level=HSK 2 | vocab=hsk2 | vocab_min=0.85
+# desc: Fifty practical exchanges — renting, ordering, arranging, complaining, apologising.
+# extra: 小白 小红 小月 马丁 王 李
+
+@ hsk2e-01 | 问路要多长时间 | How Long Does It Take | directions
+请问，去 机场 要 多 长 时间？
+Excuse me, how long does it take to get to the airport?
+坐 公共汽车 要 一 个 小时，坐 出租车 快 一点。
+An hour by bus, a bit faster by taxi.
+现在 路 上 车 多 吗？
+Is there much traffic now?
+这个 时候 比较 多。
+At this hour, fairly.
+那 我 坐 火车 吧，谢谢 你。
+Then I'll take the train, thank you.
+
+@ hsk2e-02 | 买手机 | Buying a Phone | shopping
+你好，我 想 买 一 个 手机。
+Hello, I'd like to buy a phone.
+你 想 要 什么 样 的？
+What kind are you looking for?
+不 要 太 贵 的，能 打电话、看 地图 就 可以。
+Nothing too expensive — calls and maps are enough.
+这 个 怎么样？一千 二百 块。
+How about this one? Twelve hundred yuan.
+可以，我 要 这 个。
+That works, I'll take it.
+
+@ hsk2e-03 | 租房子 | Renting a Room | home
+你好，我 想 看 一下 这 个 房间。
+Hello, I'd like to see this room.
+可以，请 进。
+Of course, come in.
+房间 不 大，可是 很 干净，也 很 安静。
+It's not big, but it's clean and quiet.
+一 个 月 多少 钱？
+How much a month?
+两千 块，水 电 不 在 里面。
+Two thousand, not including water and electricity.
+
+@ hsk2e-04 | 在饭馆点菜 | Ordering at a Restaurant | food
+服务员，可以 点 菜 了 吗？
+Excuse me, can we order?
+可以，你们 要 什么？
+Yes, what would you like?
+一 个 鱼，一 个 青菜，两 碗 米饭。
+A fish, a green vegetable, and two bowls of rice.
+要 喝 什么？
+Anything to drink?
+两 杯 热 茶，谢谢。
+Two hot teas, thank you.
+
+@ hsk2e-05 | 结账 | Paying the Bill | food
+服务员，买单。
+Excuse me, the bill please.
+一共 一百 二十 块。
+That's a hundred and twenty altogether.
+可以 用 手机 吗？
+Can I pay by phone?
+可以。
+Yes.
+菜 很 好吃，我们 下 次 还 来。
+The food was great, we'll come again.
+
+@ hsk2e-06 | 买火车票 | Buying a Train Ticket | travel
+你好，我 要 一 张 去 上海 的 票。
+Hello, one ticket to Shanghai please.
+哪 天 的？
+For which day?
+明天 早上 的。
+Tomorrow morning.
+八 点 的 还 有 票，九 点 的 没 有 了。
+There are seats at eight, but nine is sold out.
+好，那 我 要 八 点 的。
+All right, I'll take eight.
+
+@ hsk2e-07 | 在机场 | At the Airport | travel
+请问，去 北京 的 飞机 在 哪 个 门？
+Excuse me, which gate is the Beijing flight?
+在 十二 号 门。
+Gate twelve.
+几 点 开始 上 飞机？
+What time does boarding start?
+三 点 半 开始。
+It starts at three thirty.
+谢谢，我 还 有 时间 喝 咖啡。
+Thanks, I've still got time for a coffee.
+
+@ hsk2e-08 | 换房间 | Changing Rooms | problems
+你好，我 想 换 一 个 房间。
+Hello, I'd like to change rooms.
+有 什么 问题 吗？
+Is there a problem?
+我 的 房间 太 吵 了，晚上 不 能 睡觉。
+My room is too noisy, I can't sleep at night.
+对不起，我 给 你 换 一 个 安静 的。
+Sorry about that, I'll move you to a quiet one.
+非常 谢谢 你。
+Thank you very much.
+
+@ hsk2e-09 | 便宜一点 | A Little Cheaper | shopping
+这 件 衣服 多少 钱？
+How much is this?
+三百 五十。
+Three fifty.
+太 贵 了，可以 便宜 一点 吗？
+That's expensive — can you do better?
+三百 块，不 能 再 少 了。
+Three hundred, that's the lowest.
+好 吧，我 要 了。
+All right, I'll take it.
+
+@ hsk2e-10 | 找工作 | A Job Interview | work
+你好，请 坐。你 以前 做 过 什么 工作？
+Hello, please sit. What have you done before?
+我 在 一 个 小 公司 工作 过 两 年。
+I worked at a small company for two years.
+你 为什么 想 来 我们 这 里？
+Why do you want to come here?
+我 觉得 你们 的 工作 非常 有 意思。
+I think the work here is very interesting.
+好，我们 下 个 星期 给 你 打电话。
+Good, we'll call you next week.
+
+@ hsk2e-11 | 问同事帮忙 | Asking a Colleague for Help | work
+你 现在 忙 吗？
+Are you busy right now?
+不 太 忙，什么 事？
+Not very, what is it?
+这 个 电脑 我 不 会 用。
+I don't know how to use this computer.
+我 来 看看。
+Let me have a look.
+谢谢 你，太 好 了。
+Thank you, that's great.
+
+@ hsk2e-12 | 请假 | Asking for Time Off | work
+王 先生，我 想 请 两 天 假。
+Mr. Wang, I'd like to take two days off.
+什么 时候？
+When?
+下 个 星期 一 和 星期 二。
+Next Monday and Tuesday.
+有 什么 事 吗？
+Is something the matter?
+我 妈妈 生病 了，我 要 回 家 看 她。
+My mom is ill and I need to go home to see her.
+
+@ hsk2e-13 | 看病 | Seeing a Doctor | health
+医生，我 这 几 天 一直 不 舒服。
+Doctor, I haven't been well these last few days.
+哪 里 不 舒服？
+Where does it bother you?
+我 的 身体 很 累，也 没 有 力气 吃饭。
+My body is tired and I have no appetite.
+你 工作 太 忙 了，要 多 休息。
+You're working too hard, you need more rest.
+我 知道 了，谢谢 医生。
+I understand, thank you doctor.
+
+@ hsk2e-14 | 买药 | Buying Medicine | health
+你好，我 头 疼，有 什么 药 吗？
+Hello, I have a headache — do you have anything for it?
+这 个 药 可以，一 天 两 次。
+This one will do, twice a day.
+吃饭 以前 还是 以后？
+Before or after eating?
+以后 吃。
+After eating.
+好 的，多少 钱？
+All right, how much?
+
+@ hsk2e-15 | 介绍同事 | Introducing a Colleague | work
+李 老师，这 是 我们 的 新 同事 小白。
+Ms. Li, this is our new colleague Xiao Bai.
+你好，欢迎 你。
+Hello, welcome.
+你好，认识 您 很 高兴。
+Hello, very nice to meet you.
+小白 以前 在 上海 工作。
+Xiao Bai worked in Shanghai before.
+有 问题 就 问 我，别 客气。
+If you have questions just ask me, don't be shy.
+
+@ hsk2e-16 | 约人打篮球 | Making Plans to Play | leisure
+星期六 下午 你 有 时间 吗？
+Are you free Saturday afternoon?
+有，怎么 了？
+Yes, why?
+我们 去 打篮球 吧。
+Let's go play basketball.
+好 啊，几 点？
+Sure, what time?
+三 点，在 学校 旁边 的 那 个 地方。
+Three, at that place next to the school.
+
+@ hsk2e-17 | 问天气带不带伞 | Do I Need an Umbrella | weather
+今天 下午 会 下雨 吗？
+Is it going to rain this afternoon?
+手机 上 说 可能 会。
+The phone says it might.
+那 我 带 伞 吧。
+Then I'll take an umbrella.
+带 着 好，下雨 的 时候 出租车 很 难 找。
+Better to. When it rains taxis are hard to find.
+好 的，谢谢 你 告诉 我。
+All right, thanks for telling me.
+
+@ hsk2e-18 | 问考试什么时候 | When Is the Exam | school
+老师，考试 是 什么 时候？
+Teacher, when is the exam?
+下 个 星期 四 上午 九 点。
+Next Thursday at nine in the morning.
+考 多 长 时间？
+How long is it?
+两 个 小时。
+Two hours.
+好 的，我 要 准备 了。
+All right, I'd better prepare.
+
+@ hsk2e-19 | 退东西 | Returning an Item | shopping
+你好，我 想 退 这 件 衣服。
+Hello, I'd like to return this.
+有 什么 问题 吗？
+Is there something wrong with it?
+太 小 了，我 穿 不 了。
+It's too small, I can't wear it.
+你 有 那 张 纸 吗？
+Do you have the receipt?
+有，在 这 里。
+Yes, here it is.
+
+@ hsk2e-20 | 送生日礼物 | A Birthday Present | invitations
+明天 是 小红 的 生日。
+Tomorrow is Xiao Hong's birthday.
+我们 送 她 什么 好？
+What should we get her?
+她 非常 喜欢 看 书。
+She really likes reading.
+那 我们 送 她 一 本 书 吧。
+Then let's give her a book.
+好，我 现在 去 书店。
+Good, I'll go to the bookshop now.
+
+@ hsk2e-21 | 问路坐几路车 | Which Bus | directions
+请问，去 图书馆 坐 几 路 车？
+Excuse me, which bus goes to the library?
+坐 十五 路。
+Take the number fifteen.
+在 哪 里 上 车？
+Where do I catch it?
+就 在 前面，一百 米。
+Just ahead, a hundred meters.
+谢谢 你，太 好 了。
+Thank you, that's great.
+
+@ hsk2e-22 | 在公共汽车上 | On the Bus | transport
+请问，到 火车站 还 有 几 站？
+Excuse me, how many stops to the train station?
+还 有 三 站。
+Three more.
+我 应该 在 哪 里 下 车？
+Where should I get off?
+火车站 那 站，很 好 找。
+The station stop, it's easy to spot.
+好 的，谢谢。
+All right, thanks.
+
+@ hsk2e-23 | 找不到东西 | I Can't Find It | problems
+我 找 不 到 我 的 钱包 了。
+I can't find my wallet.
+你 最 后 在 哪 里 用 过 它？
+Where did you last use it?
+在 那 个 小 店 买 牛奶 的 时候。
+When I bought milk at that little shop.
+我们 回 去 问 一下 吧。
+Let's go back and ask.
+好，我 现在 就 去。
+Good, I'll go right now.
+
+@ hsk2e-24 | 问有没有别的颜色 | Any Other Colors | shopping
+这 个 有 别 的 颜色 吗？
+Does this come in another color?
+有 白 色 和 蓝 色。
+We have white and blue.
+蓝 色 的 我 可以 看看 吗？
+Could I see the blue one?
+可以，请 看。
+Certainly, here you are.
+这 个 颜色 很 好，我 要 蓝 的。
+This color is nice, I'll take blue.
+
+@ hsk2e-25 | 问周末做什么 | Weekend Plans | leisure
+这 个 周末 你 打算 做 什么？
+What are you doing this weekend?
+我 想 在 家 休息。
+I want to rest at home.
+不 出去 玩 吗？
+Not going out?
+上 个 星期 太 忙 了，我 很 累。
+Last week was too busy, I'm tired.
+那 你 好 好 休息 吧。
+Then have a good rest.
+
+@ hsk2e-26 | 借东西 | Borrowing Something | friends
+你 有 伞 吗？可以 借 我 用 一下 吗？
+Do you have an umbrella? Could I borrow it?
+可以，你 什么 时候 还 我？
+Sure, when will you return it?
+明天 上午 还 你。
+Tomorrow morning.
+没问题，你 拿 去 吧。
+No problem, take it.
+太 谢谢 你 了。
+Thank you so much.
+
+@ hsk2e-27 | 问附近有什么 | What's Nearby | directions
+请问，这 附近 有 饭馆 吗？
+Excuse me, is there a restaurant near here?
+有，前面 就 有 两 个。
+Yes, there are two just ahead.
+哪 个 好吃 一点？
+Which one is better?
+右边 那 个 的 面 很 好吃。
+The noodles at the one on the right are good.
+谢谢，我 去 看看。
+Thanks, I'll take a look.
+
+@ hsk2e-28 | 打电话找人 | Asking for Someone | work
+喂，你好，请问 王 先生 在 吗？
+Hello, is Mr. Wang there please?
+他 现在 不 在，出去 了。
+He's out at the moment.
+他 什么 时候 回来？
+When will he be back?
+下午 两 点 以后。
+After two this afternoon.
+好 的，我 下午 再 打。
+All right, I'll call again this afternoon.
+
+@ hsk2e-29 | 说我的爱好 | Talking About Hobbies | friends
+你 平时 喜欢 做 什么？
+What do you like to do in your free time?
+我 喜欢 游泳 和 看 电影。
+I like swimming and watching films.
+你 一 个 星期 游 几 次？
+How many times a week do you swim?
+两 三 次 吧。
+Two or three.
+下 次 我们 一起 去。
+Let's go together next time.
+
+@ hsk2e-30 | 问家里人 | Asking About Family | friends
+你 家 里 有 几 口 人？
+How many people are in your family?
+四 口：我 爸爸 妈妈、我 和 弟弟。
+Four: my parents, me, and my little brother.
+你 弟弟 多 大 了？
+How old is your brother?
+他 今年 十六 岁，还 在 上 学。
+He's sixteen and still in school.
+你们 常 见面 吗？
+Do you see each other often?
+
+@ hsk2e-31 | 问怎么去 | How Do I Get There | directions
+从 这 里 到 你 家 怎么 走？
+How do I get to your place from here?
+你 坐 地铁 到 大学 站，然后 走 五 分钟。
+Take the subway to University station, then walk five minutes.
+出 地铁 以后 向 哪 边 走？
+Which way after I come out?
+向 左边 走，看见 一 个 大 树 就 到 了。
+Go left, and when you see a big tree you're there.
+好，我 六 点 到。
+Good, I'll be there at six.
+
+@ hsk2e-32 | 迟到了 | Running Late | manners
+对不起，我 来 晚 了。
+Sorry, I'm late.
+没关系，我 也 刚 到。
+It's fine, I just got here too.
+路 上 车 太 多 了。
+There was too much traffic.
+这 个 时候 一直 是 这样。
+It's always like this at this hour.
+我们 进 去 吧。
+Let's go in.
+
+@ hsk2e-33 | 点菜问辣不辣 | Is It Spicy | food
+这 个 菜 辣 吗？
+Is this dish spicy?
+有 一点 辣。
+A little spicy.
+可以 不 放 辣 吗？
+Could you make it without?
+可以，没问题。
+Yes, no problem.
+那 就 要 这 个，谢谢。
+Then I'll have that one, thanks.
+
+@ hsk2e-34 | 问价钱和公斤 | Price by the Kilo | shopping
+这 个 西瓜 怎么 卖？
+How are these watermelons sold?
+五 块 一 公斤。
+Five yuan a kilo.
+这 个 大概 多 重？
+About how heavy is this one?
+四 公斤 左右。
+Around four kilos.
+好，我 要 这 个。
+All right, I'll take it.
+
+@ hsk2e-35 | 洗衣服 | Doing Laundry | home
+请问，哪 里 可以 洗 衣服？
+Excuse me, where can I do laundry?
+一 楼 有 两 个 洗衣机。
+There are two washing machines on the first floor.
+要 钱 吗？
+Is there a charge?
+要，一 次 三 块。
+Yes, three yuan a load.
+知道 了，谢谢 你。
+Got it, thank you.
+
+@ hsk2e-36 | 问身体好不好 | Asking How Someone Is | manners
+你 最近 身体 怎么样？
+How have you been keeping?
+比 以前 好 一点 了。
+A bit better than before.
+还 吃 药 吗？
+Are you still taking medicine?
+每 天 吃 一 次。
+Once a day.
+你 要 多 休息，别 太 忙。
+Take plenty of rest, don't overdo it.
+
+@ hsk2e-37 | 问什么时候完 | When Does It Finish | time
+电影 几 点 完？
+What time does the film finish?
+九 点 半 左右。
+Around nine thirty.
+完 了 以后 还 有 地铁 吗？
+Will there still be a subway after that?
+有，最 后 一 班 是 十一 点。
+Yes, the last one is at eleven.
+那 就 好。
+That's fine then.
+
+@ hsk2e-38 | 问能不能用手机付钱 | Can I Pay by Phone | shopping
+可以 用 手机 付钱 吗？
+Can I pay by phone?
+可以。
+Yes.
+我 没 有 现金。
+I don't have any cash.
+没关系，很 多 人 都 用 手机。
+That's fine, a lot of people use their phones.
+好 的，谢谢。
+All right, thank you.
+
+@ hsk2e-39 | 请人吃饭 | Inviting Someone to Dinner | invitations
+星期五 晚上 你 有 空 吗？
+Are you free Friday evening?
+有 空，什么 事？
+Yes, what's up?
+我 想 请 你 和 你 妻子 来 我 家 吃饭。
+I'd like to invite you and your wife to dinner at my place.
+太 好 了，我们 几 点 到？
+Wonderful, what time should we come?
+六 点 半 吧。
+Let's say six thirty.
+
+@ hsk2e-40 | 问路远不远 | Is It Far | directions
+请问，火车站 离 这 里 远 吗？
+Excuse me, is the station far from here?
+不 远，走 路 十 分钟。
+Not far, ten minutes on foot.
+我 有 很 多 东西。
+I have a lot of bags.
+那 你 还是 坐 出租车 吧。
+Then you'd better take a taxi.
+好 的，谢谢 你。
+All right, thank you.
+
+@ hsk2e-41 | 问学校的事 | Asking About School | school
+你 女儿 上 几 年级 了？
+What grade is your daughter in?
+今年 上 三 年级。
+She's in third grade this year.
+她 喜欢 学校 吗？
+Does she like school?
+非常 喜欢，特别 喜欢 数学。
+Very much, especially math.
+真 好，我 儿子 只 喜欢 玩。
+That's good — my son only likes to play.
+
+@ hsk2e-42 | 东西坏了 | It's Broken | problems
+你好，我 昨天 买 的 手表 坏 了。
+Hello, the watch I bought yesterday is broken.
+怎么 坏 了？
+What's wrong with it?
+它 不 走 了。
+It stopped running.
+我 给 你 换 一 个 新 的。
+I'll exchange it for a new one.
+谢谢 你，太 好 了。
+Thank you, that's great.
+
+@ hsk2e-43 | 问明天的计划 | Tomorrow's Plan | invitations
+明天 我们 几 点 出发？
+What time are we setting off tomorrow?
+早上 七 点，可以 吗？
+Seven in the morning, is that all right?
+有 一点 早，八 点 怎么样？
+That's a bit early — how about eight?
+好，八 点 在 门口 见。
+Fine, eight o'clock at the gate.
+好 的，明天 见。
+All right, see you tomorrow.
+
+@ hsk2e-44 | 问哪里买 | Where Can I Buy It | shopping
+请问，哪 里 可以 买 到 中文 书？
+Excuse me, where can I buy Chinese books?
+大学 旁边 有 一 个 书店。
+There's a bookshop next to the university.
+那 里 的 书 多 吗？
+Do they have a good selection?
+很 多，也 不 贵。
+Yes, and they're not expensive.
+太 好 了，我 现在 就 去。
+Great, I'll go now.
+
+@ hsk2e-45 | 在教室问问题 | Asking a Question in Class | school
+老师，这 个 题 我 不 懂。
+Teacher, I don't understand this question.
+哪 一 个？
+Which one?
+第三 个。
+The third one.
+我 再 说 一 次，你 听 好。
+I'll explain it once more, listen carefully.
+现在 我 懂 了，谢谢 老师。
+Now I understand, thank you.
+
+@ hsk2e-46 | 说不好意思 | Making an Apology | manners
+真 不 好意思，我 忘 了 你 的 生日。
+I'm really sorry, I forgot your birthday.
+没关系，我 也 常 忘 事情。
+It's fine, I forget things all the time too.
+我 明天 请 你 吃饭 吧。
+Let me take you to dinner tomorrow.
+好 啊，那 我 就 不 客气 了。
+Sure, then I won't say no.
+明天 见！
+See you tomorrow!
+
+@ hsk2e-47 | 问工作时间 | Asking About Hours | work
+你们 几 点 上班？
+What time do you start?
+早上 九 点 到 下午 六 点。
+Nine in the morning to six in the evening.
+中午 有 休息 吗？
+Is there a break at noon?
+有 一 个 小时。
+An hour.
+星期六 也 上班 吗？
+Do you work Saturdays too?
+
+@ hsk2e-48 | 说再见 | Saying Goodbye | manners
+时间 不 早 了，我 要 回 家 了。
+It's getting late, I should head home.
+我 送 你 到 门口。
+I'll walk you to the door.
+不 用，你 休息 吧。
+No need, you rest.
+路 上 小心。
+Take care on the way.
+谢谢，我 到 家 给 你 打电话。
+Thanks, I'll call when I get home.
+
+@ hsk2e-49 | 问会不会做 | Can You Do It | work
+这 件 事 你 会 做 吗？
+Can you handle this?
+我 没 做 过，可是 我 可以 学。
+I haven't done it before, but I can learn.
+时间 有 一点 少。
+Time is a bit short.
+我 今天 晚上 准备 一下。
+I'll get ready tonight.
+好，有 问题 就 告诉 我。
+Good, tell me if there's a problem.
+
+@ hsk2e-50 | 我要走了 | I'm Leaving | manners
+下 个 月 我 要 回 国 了。
+I'm going home next month.
+真 的 吗？我们 都 会 想 你。
+Really? We'll all miss you.
+我 也 会 想 你们。
+I'll miss you too.
+以后 常 打电话。
+Call often.
+一定，谢谢 你们 的 帮助。
+I will. Thank you all for your help.

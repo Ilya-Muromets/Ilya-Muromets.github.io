@@ -196,31 +196,46 @@ def segments_into(word, vocab):
 
 
 def check_vocab(deck, path, problems):
-    """Warn about words outside the level a deck claims to sit in."""
+    """Measure how close a deck sits to the level it aims at.
+
+    A deck aims at a level rather than being locked to it: some words outside
+    the list are what make a passage read like language instead of a drill.
+    So this reports coverage, and only complains when a deck has drifted far
+    enough that its level label stops being true ('vocab_min', default 90%).
+    """
     name = deck.get("vocab")
     if not name:
-        return
+        return None
     vocab = load_wordlist(name)
     if vocab is None:
         problems.append(Problem(path.name, f"unknown word list {name!r} in 'vocab'"))
-        return
+        return None
     allowed = vocab | set(deck.get("vocab_extra", []))
 
-    outside = {}
+    total = 0
+    outside = Counter()
     for passage in deck.get("passages", []):
         for sentence in passage.get("sentences", []):
             for token in sentence.get("tokens", []):
                 hz = token.get("hz", "")
-                if not token.get("py") or hz in allowed:
+                if not token.get("py"):
                     continue
-                if segments_into(hz, allowed):
-                    continue
-                outside.setdefault(hz, passage.get("id", "?"))
+                total += 1
+                if hz not in allowed and not segments_into(hz, allowed):
+                    outside[hz] += 1
 
-    for hz, pid in sorted(outside.items()):
-        problems.append(
-            Problem(f"{path.name} → {pid}", f"'{hz}' is outside {name}", fatal=False)
-        )
+    if not total:
+        return None
+    coverage = 1 - sum(outside.values()) / total
+    floor = deck.get("vocab_min", 0.90)
+    if coverage < floor:
+        problems.append(Problem(
+            path.name,
+            f"only {coverage:.0%} of words are within {name} (aiming for {floor:.0%}) — "
+            f"most common strays: " + ", ".join(hz for hz, _ in outside.most_common(8)),
+            fatal=False,
+        ))
+    return {"list": name, "coverage": coverage, "total": total, "outside": outside}
 
 
 def deck_stats(deck):
@@ -242,7 +257,9 @@ def main():
     parser.add_argument("--stats", action="store_true", help="print a vocabulary summary")
     args = parser.parse_args()
 
-    deck_paths = sorted(p for p in DATA.glob("*.json") if p.name != "manifest.json")
+    # manifest.json is generated here; lexicon.json feeds compile.py. Neither is a deck.
+    not_decks = {"manifest.json", "lexicon.json"}
+    deck_paths = sorted(p for p in DATA.glob("*.json") if p.name not in not_decks)
     if not deck_paths:
         print(f"No deck files found in {DATA}", file=sys.stderr)
         return 1
@@ -250,6 +267,7 @@ def main():
     problems = []
     seen_passage_ids = {}
     entries = []
+    coverages = []
     all_vocab = Counter()
     total_chars = 0
 
@@ -257,7 +275,9 @@ def main():
         deck = check_deck(path, seen_passage_ids, problems)
         if deck is None:
             continue
-        check_vocab(deck, path, problems)
+        coverage = check_vocab(deck, path, problems)
+        if coverage:
+            coverages.append((path.stem, coverage))
         chars, vocab = deck_stats(deck)
         total_chars += chars
         all_vocab.update(vocab)
@@ -291,7 +311,16 @@ def main():
         f"{len(all_vocab)} unique words, {len(errors)} error(s), {len(warnings)} warning(s)"
     )
 
+    for stem, cov in coverages:
+        print(f"  {stem}: {cov['coverage']:.0%} within {cov['list']}"
+              f" ({len(cov['outside'])} distinct words outside)")
+
     if args.stats:
+        for stem, cov in coverages:
+            if cov["outside"]:
+                print(f"\nOutside {cov['list']} in {stem}:")
+                print("  " + "  ".join(
+                    f"{hz}×{n}" for hz, n in cov["outside"].most_common(30)))
         print("\nMost frequent words:")
         for (hz, py), count in all_vocab.most_common(25):
             print(f"  {count:4d}  {hz}  {py}")

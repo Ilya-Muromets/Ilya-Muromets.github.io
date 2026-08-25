@@ -1,20 +1,61 @@
 # Chinese reader data format
 
 `chinese.html` reads everything from this folder. There is no build step for the
-site itself — the page fetches JSON at runtime — but `tools/chinese/build.py`
-validates the decks and regenerates `manifest.json`.
+site itself — the page fetches JSON at runtime — but the deck JSON is generated,
+not written by hand.
 
 ```
 data/chinese/
-  manifest.json      generated — the index the reader loads first
-  hsk1-everyday.json a deck (one file = one topic/level bundle of passages)
-  hsk2-city.json
-  hsk3-stories.json
+  src/*.txt          what you actually edit — stories as plain segmented text
+  lexicon.json       hanzi -> pinyin + gloss, the single source for both
+  wordlists/*.json   HSK vocabulary, for level checking
+  hsk1-stories.json  generated deck (do not edit)
+  manifest.json      generated index the reader loads first
 ```
 
-**Run `python3 tools/chinese/build.py` after adding or editing any deck.**
-It rewrites `manifest.json` and fails loudly on malformed pinyin, missing
-glosses, or duplicate ids.
+## Adding stories
+
+Edit or add a file in `src/`, then:
+
+```
+python3 tools/chinese/compile.py     # src/*.txt  -> deck JSON
+python3 tools/chinese/build.py       # validate + rebuild manifest.json
+```
+
+`compile.py` reports any word missing from `lexicon.json` and writes nothing
+until you add it, so a typo can't quietly become a new "word".
+
+A source file looks like this:
+
+```
+# deck: id=hsk1-stories | title=HSK 1 · Stories | level=HSK 1 | vocab=hsk1 | vocab_min=0.85
+# desc: Fifty short first-reader stories.
+# extra: 说 天 们
+
+@ hsk1s-01 | 我是猫 | I Am a Cat | animals
+我 是 一 个 猫，我 没 有 名字。
+I am a cat, and I don't have a name.
+我 住 在 一 个 大 学校 里。
+I live in a big school.
+```
+
+Chinese and English lines alternate. **Spaces mark word boundaries** — that is
+the segmentation the reader uses for its hover glosses, and writing it by hand
+beats guessing at it automatically. Punctuation can stay attached to the word
+before it; the compiler splits it off.
+
+Pinyin and glosses come from `lexicon.json`, so a word is glossed once and reads
+the same everywhere. That also means **a gloss must state the word's primary
+sense** — it will appear on every occurrence, in every deck. Where a word
+genuinely splits between two senses, give both: `看` is "to look at; to read; to
+watch".
+
+Tone sandhi for 不 and 一 is applied automatically from the following syllable,
+so write them plainly in the source and let the compiler set `bù`/`bú` and
+`yì`/`yí`.
+
+**The generated `*.json` decks are not edited directly.** Anything written there
+is lost on the next compile.
 
 ## Deck file
 
@@ -96,24 +137,32 @@ Pinyin is written **as spoken**, since the point is reading aloud:
 - Third-tone pairs are left in their written form (`nǐ hǎo`, not `ní hǎo`) —
   that one is predictable enough that learners are better off seeing the base.
 
-## Staying inside a level
+## Aiming at a level
 
-A deck can declare the vocabulary level it claims to sit in:
+A deck aims at a level rather than being locked to it. Strict adherence makes
+passages read like drills — some words above the level are what make them read
+like language. So `build.py` measures **coverage** and only complains when a
+deck has drifted far enough that its label stops being true.
 
-```json
-{
-  "id": "hsk1-stories",
-  "level": "HSK 1",
-  "vocab": "hsk1",
-  "vocab_extra": ["小美"],
-  "passages": [ ... ]
-}
+In a source header:
+
+```
+# deck: ... | vocab=hsk1 | vocab_min=0.85
+# extra: 说 天 们 马丁
 ```
 
-`vocab` names a file in `wordlists/`. `build.py` then warns about every word
-that falls outside it — warnings, not errors, since a deliberate extra is a
-normal thing to want. `vocab_extra` silences the ones you've decided to keep
-(usually proper names).
+`vocab` names a file in `wordlists/`; `vocab_min` is the floor (default 0.90).
+`extra` lists words allowed above the level without counting against coverage —
+names, and glue the level implies but doesn't list. Every deck reports its
+coverage on each build:
+
+```
+hsk1-stories: 92% within hsk1 (60 distinct words outside)
+```
+
+Use `--stats` to see exactly which words fall outside, with counts. The
+remaining 8–14% is deliberate: `也`, `新`, `时间`, `房间` and friends are simply
+hard to avoid in natural sentences.
 
 A word passes if it's in the list *or* if it splits cleanly into words that
 are: `星期日` from `星期` + `日`, `一些` from `一` + `些`, `家里` from `家` +
@@ -128,31 +177,33 @@ page load. To check against a level you don't have yet, drop a
 
 ## Generating more passages
 
-The format is deliberately verbose so an LLM can fill it in directly. A prompt
-that works:
+The source format is small enough to generate directly — no pinyin, no glosses,
+just segmented Chinese and its English. A prompt that works:
 
-> Write a JSON deck for a Mandarin guided reader, following this schema exactly:
-> a deck object with `id`, `title`, `level`, `description`, and `passages`; each
-> passage has `id`, `title`, `title_en`, `tags`, and `sentences`; each sentence
-> has `en` and `tokens`; each token has `hz`, `py` (tone marks, one space between
-> syllables), and `en`, except punctuation tokens which have only `hz`.
+> Write passages for a Mandarin graded reader in exactly this format:
+>
+> ```
+> @ <id> | <中文标题> | <English Title> | <tag, tag>
+> <Chinese sentence, words separated by spaces>
+> <English translation>
+> ```
+>
+> Chinese and English lines alternate; a blank line separates passages.
 >
 > Constraints:
 > - Simplified characters only.
-> - Segment tokens as a learner would look them up — `中国` is one token.
-> - Pinyin syllable count must equal the character count in `hz`, or set
->   `"nosplit": true`.
-> - Apply tone sandhi for 不 and 一, and write pinyin with marks, not numbers.
-> - Glosses are short — a few words, senses separated by semicolons.
+> - Put a space between words as a learner would look them up: `中国 很 大`,
+>   not `中 国 很 大` and not `中国很大`. Punctuation stays attached.
+> - Write 不 and 一 plainly — tone sandhi is applied by the compiler.
+> - 4–6 short sentences per passage; one idea per passage.
 >
-> Topic: <ordering coffee / renting an apartment / a childhood memory>.
-> Level: <HSK 3>. 5 passages, 4–6 sentences each, vocabulary at or below that level.
+> Topic: <ordering coffee / renting a flat / a childhood memory>.
+> Level: <HSK 2>, keeping most words at or below it.
 
-Write the passages rather than copying them out of a published graded reader —
-those are copyrighted. Constraining an original story to a level's word list
-gets you the same thing legitimately, and `vocab` checking (above) is what
-keeps it honest.
+Write original passages rather than copying from a published graded reader —
+those are copyrighted. Constraining your own story to a level's word list gets
+you the same result legitimately, and the coverage check keeps it honest.
 
-Then drop the file in `data/chinese/`, run `python3 tools/chinese/build.py`, and
-fix whatever it complains about. Machine-generated glosses and segmentation are
-worth skimming by eye — the validator checks structure, not meaning.
+Then run `compile.py`, add whatever words it reports to `lexicon.json`, and run
+it again. Generated segmentation and translations are worth reading by eye —
+the tools check structure and level, never meaning.

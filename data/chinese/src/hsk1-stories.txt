@@ -1,0 +1,583 @@
+# deck: id=hsk1-stories | title=HSK 1 · Stories | level=HSK 1 | vocab=hsk1 | vocab_min=0.85
+# desc: Fifty short first-reader stories built around the HSK 1 vocabulary.
+# extra: 说 天 们 他们 也 每 小白 小红 月月
+# (grammatical glue the level implies but doesn't list: 说话/今天/我们 are all HSK 1,
+#  and the names. Content words above the level are left to count against coverage.)
+
+@ hsk1s-01 | 我是猫 | I Am a Cat | animals
+我 是 一 个 猫，我 没 有 名字。
+I am a cat, and I don't have a name.
+我 住 在 一 个 大 学校 里。
+I live in a big school.
+学校 里 的 学生 很 多，都 很 喜欢 我。
+There are a lot of students at the school, and they all like me.
+中午 我 在 桌子 上 睡觉。
+At noon I sleep on the table.
+我 很 高兴。
+I am very happy.
+
+@ hsk1s-02 | 小狗 | The Little Dog | animals
+我 家 有 一 个 小 狗。
+There is a little dog at my house.
+他 很 小，也 很 漂亮。
+He is small, and pretty too.
+他 喜欢 吃 米饭 和 菜。
+He likes to eat rice and vegetables.
+下午 我 和 他 在 家。
+In the afternoon he and I are at home.
+我 很 爱 他。
+I love him very much.
+
+@ hsk1s-03 | 我的名字 | My Name | family
+我 叫 小月。
+My name is Xiao Yue.
+妈妈 叫 我 月月。
+Mom calls me Yueyue.
+我 的 朋友 也 叫 我 月月。
+My friends call me Yueyue too.
+我 很 喜欢 我 的 名字。
+I like my name a lot.
+
+@ hsk1s-04 | 下雨天 | A Rainy Day | weather
+今天 下雨，天气 很 冷。
+It's raining today and the weather is cold.
+我 不 想 去 学校。
+I don't want to go to school.
+妈妈 说话 了：你 是 学生，请 去 学校。
+Mom spoke up: you're a student, please go to school.
+我 去 了 学校，老师 很 高兴。
+I went to school, and the teacher was happy.
+
+@ hsk1s-05 | 爸爸的车 | Dad's Car | family
+爸爸 有 一 个 车。
+Dad has a car.
+那 个 车 不 大，也 不 新。
+That car isn't big, and it isn't new either.
+爸爸 说 那 个 车 很 好。
+Dad says that car is very good.
+星期日 他 开 车，我们 去 北京。
+On Sunday he drives and we go to Beijing.
+
+@ hsk1s-06 | 妈妈的菜 | Mom's Cooking | food
+我 妈妈 会 做 菜。
+My mom can cook.
+她 的 菜 很 好吃。
+Her food is very tasty.
+今天 中午 她 做 了 米饭 和 鱼。
+Today at noon she made rice and fish.
+我 吃 了 很 多，我 很 高兴。
+I ate a lot and I was very happy.
+
+@ hsk1s-07 | 老师和学生 | The Teacher and the Student | school
+我们 的 老师 是 中国 人。
+Our teacher is Chinese.
+她 请 我们 读 书、写 字。
+She asks us to read and write characters.
+我 的 字 不 漂亮。
+My handwriting isn't pretty.
+老师 说：没关系，学习 汉语 要 时间。
+The teacher said: it doesn't matter, learning Chinese takes time.
+
+@ hsk1s-08 | 一个苹果 | One Apple | food
+桌子 上 有 一 个 苹果。
+There is an apple on the table.
+那 个 苹果 很 大，很 漂亮。
+That apple is big and pretty.
+我 想 吃 那 个 苹果。
+I want to eat that apple.
+妈妈 说：那 是 爸爸 的 苹果。
+Mom said: that's dad's apple.
+我 不 吃 了。
+I didn't eat it.
+
+@ hsk1s-09 | 我的书 | My Book | school
+我 有 一 本 汉语 书。
+I have a Chinese book.
+那 本 书 不 大，字 很 小。
+That book isn't big and the characters are small.
+我 每 天 读 十 分钟。
+I read for ten minutes every day.
+现在 我 认识 很 多 字 了。
+Now I know a lot of characters.
+
+@ hsk1s-10 | 猫在椅子上 | The Cat on the Chair | animals
+我 的 猫 喜欢 椅子。
+My cat likes the chair.
+她 在 椅子 上 睡觉。
+She sleeps on the chair.
+我 想 坐 椅子，她 不 走。
+I want to sit on the chair, but she doesn't leave.
+我 坐 在 桌子 上 看 书。
+I sit on the table and read.
+
+@ hsk1s-11 | 星期日的上午 | Sunday Morning | routine
+星期日 上午 我 不 去 学校。
+On Sunday morning I don't go to school.
+我 在 家 看 电视、喝 茶。
+I stay home watching TV and drinking tea.
+爸爸 在 后面 的 房间 工作。
+Dad works in the back room.
+妈妈 在 商店 买 东西。
+Mom is at the shop buying things.
+家 里 很 好。
+It's nice at home.
+
+@ hsk1s-12 | 我不想学习 | I Don't Want to Study | school
+昨天 我 不 想 学习。
+Yesterday I didn't want to study.
+我 看 了 三 个 小时 的 电视。
+I watched three hours of television.
+今天 老师 请 我 回答 问题。
+Today the teacher asked me to answer a question.
+我 不 会 回答。
+I couldn't answer.
+现在 我 想 学习 了。
+Now I want to study.
+
+@ hsk1s-13 | 新同学 | The New Classmate | school
+今天 我们 的 教室 里 有 一 个 新 同学。
+Today there's a new classmate in our classroom.
+他 是 一 个 男人，不 高，很 会 说话。
+He is a man, not tall, and very talkative.
+他 说 他 也 学习 汉语。
+He said he studies Chinese too.
+中午 我们 一起 吃 饭。
+At noon we ate together.
+现在 他 是 我 的 朋友 了。
+Now he's my friend.
+
+@ hsk1s-14 | 电影 | The Film | leisure
+昨天 下午 我 去 看 电影。
+Yesterday afternoon I went to see a film.
+电影 里 有 一 个 小 狗 和 一 个 医生。
+In the film there's a little dog and a doctor.
+那 个 狗 很 会 说话。
+That dog could really talk.
+我 很 喜欢 那 个 电影。
+I liked that film a lot.
+
+@ hsk1s-15 | 天气很热 | The Weather Is Hot | weather
+今天 天气 很 热。
+The weather is hot today.
+我 想 喝 很 多 水。
+I want to drink a lot of water.
+妈妈 买 了 一 个 大 西瓜。
+Mom bought a big watermelon.
+西瓜 很 好吃，我 吃 了 一些。
+The watermelon was tasty and I ate some.
+现在 我 不 热 了。
+Now I'm not hot any more.
+
+@ hsk1s-16 | 我的电脑 | My Computer | things
+我 有 一 个 小 电脑。
+I have a small computer.
+我 在 电脑 上 写 汉字。
+I write Chinese characters on the computer.
+昨天 我 的 电脑 不 工作 了。
+Yesterday my computer stopped working.
+我 请 同学 看，他 说 没关系。
+I asked a classmate to look at it, and he said it was fine.
+今天 电脑 很 好，我 很 高兴。
+Today the computer is fine and I'm happy.
+
+@ hsk1s-17 | 猫和狗 | The Cat and the Dog | animals
+我 家 有 一 个 猫 和 一 个 狗。
+There's a cat and a dog at my house.
+猫 在 桌子 上，狗 在 桌子 下。
+The cat is on the table and the dog is under it.
+猫 不 喜欢 狗。
+The cat doesn't like the dog.
+狗 很 喜欢 猫。
+The dog likes the cat a lot.
+他们 都 是 我 的 朋友。
+They are both my friends.
+
+@ hsk1s-18 | 爸爸的工作 | Dad's Work | family
+我 爸爸 是 医生。
+My dad is a doctor.
+他 每 天 都 在 医院 工作。
+He works at the hospital every day.
+他 很 忙，回 家 的 时候 很 累。
+He is busy and comes home tired.
+我 请 他 喝 茶。
+I make him tea.
+他 说 我 是 好 孩子。
+He says I'm a good kid.
+
+@ hsk1s-19 | 我的朋友 | My Friend | friends
+我 的 朋友 叫 小白。
+My friend's name is Xiao Bai.
+他 住 在 我 家 的 前面。
+He lives in front of my house.
+下午 我们 都 在 学校 后面 跑步。
+In the afternoon we run behind the school.
+他 跑 得 很 快。
+He runs fast.
+我 很 慢，但是 我 也 高兴。
+I'm slow, but I'm happy too.
+
+@ hsk1s-20 | 十块钱 | Ten Yuan | money
+我 有 十 块 钱。
+I have ten yuan.
+我 想 买 一 本 书。
+I want to buy a book.
+那 本 书 十二 块，我 的 钱 少 了 两 块。
+That book is twelve yuan; I'm two short.
+我 请 哥哥 帮助 我。
+I asked my older brother to help me.
+他 给 了 我 两 块 钱。
+He gave me two yuan.
+
+@ hsk1s-21 | 我的椅子 | My Chair | things
+我 的 房间 里 有 一 个 椅子。
+There's a chair in my room.
+那 个 椅子 很 老，坐 的 时候 说话。
+That chair is old and it talks when you sit on it.
+爸爸 说 那 个 椅子 太 老 了。
+Dad says that chair is too old.
+我 不 想 买 新 的。
+I don't want to buy a new one.
+
+@ hsk1s-22 | 我爱北京 | I Love Beijing | travel
+去年 我 和 妈妈 去 了 北京。
+Last year mom and I went to Beijing.
+北京 很 大，人 很 多。
+Beijing is big and there are a lot of people.
+我们 坐 出租车 去 商店。
+We took a taxi to the shops.
+我 买 了 一 个 小 狗 的 东西。
+I bought something for my little dog.
+我 很 爱 北京。
+I love Beijing.
+
+@ hsk1s-23 | 请喝茶 | Please Have Some Tea | home
+今天 我 的 老师 来 我 家。
+Today my teacher came to my house.
+妈妈 请 她 喝 茶、吃 水果。
+Mom offered her tea and fruit.
+老师 说 我 家 的 茶 很 好。
+The teacher said our tea was very good.
+她 也 说 我 是 好 学生。
+She also said I'm a good student.
+妈妈 很 高兴。
+Mom was very happy.
+
+@ hsk1s-24 | 我的女儿 | My Daughter | family
+我 有 一 个 女儿，她 五 岁。
+I have a daughter; she is five.
+她 很 喜欢 猫。
+She likes cats a lot.
+今天 她 在 学校 写 了 一 个 字。
+Today she wrote one character at school.
+那 个 字 是 猫。
+That character was "cat".
+我 说：很 漂亮！
+I said: beautiful!
+
+@ hsk1s-25 | 太多苹果 | Too Many Apples | food
+昨天 妈妈 买 了 很 多 苹果。
+Yesterday mom bought a lot of apples.
+苹果 在 桌子 上，在 椅子 上，也 在 电视 上。
+Apples were on the table, on the chair, and on the TV.
+我 说：太 多 了！
+I said: that's too many!
+妈妈 说：请 你 的 同学 来 吃。
+Mom said: invite your classmates to come eat them.
+现在 苹果 少 了，我们 都 高兴。
+Now there are fewer apples and we're all happy.
+
+@ hsk1s-26 | 我的老师很漂亮 | Our Teacher Is Beautiful | school
+我们 有 一 个 新 的 汉语 老师。
+We have a new Chinese teacher.
+她 很 漂亮，她 的 字 也 很 漂亮。
+She is beautiful, and her handwriting is beautiful too.
+我们 都 喜欢 她 的 课。
+We all like her class.
+我 想 我 的 汉语 会 很 好。
+I think my Chinese is going to be good.
+
+@ hsk1s-27 | 飞机 | The Airplane | travel
+今天 我 第一 次 坐 飞机。
+Today I rode in an airplane for the first time.
+飞机 很 大，人 很 多。
+The plane is big and there are a lot of people.
+我 在 飞机 上 看 书、喝 水。
+On the plane I read and drank water.
+三 个 小时 后 我 到 了 北京。
+Three hours later I arrived in Beijing.
+
+@ hsk1s-28 | 生日 | The Birthday | family
+今天 是 我 的 生日。
+Today is my birthday.
+我 二十 岁 了。
+I'm twenty.
+朋友 们 来 我 家，我们 吃 菜、喝 茶。
+Friends came to my house and we ate and drank tea.
+妈妈 做 了 很 好吃 的 米饭。
+Mom made really tasty rice.
+我 很 快乐。
+I was very happy.
+
+@ hsk1s-29 | 猫不见了 | The Cat Is Gone | animals
+今天 上午 我 没 看见 我 的 猫。
+This morning I didn't see my cat.
+我 在 房间 里 找，没 有。
+I looked in the room — nothing.
+我 在 桌子 下 找，也 没 有。
+I looked under the table — nothing either.
+下午 我 看见 她 在 椅子 上 睡觉。
+In the afternoon I saw her sleeping on the chair.
+她 都 在 家 里。
+She was home the whole time.
+
+@ hsk1s-30 | 我会做菜了 | I Can Cook Now | food
+昨天 我 想 做 菜。
+Yesterday I wanted to cook.
+我 做 了 米饭 和 鸡蛋。
+I made rice and eggs.
+米饭 很 好，鸡蛋 不 好吃。
+The rice was good; the eggs weren't tasty.
+妈妈 说：没关系，你 会 学习。
+Mom said: it doesn't matter, you'll learn.
+今天 我 的 鸡蛋 好吃 了。
+Today my eggs were tasty.
+
+@ hsk1s-31 | 十一点了 | It's Eleven O'clock | routine
+现在 是 十一 点。
+It's eleven o'clock now.
+我 想 睡觉，但是 我 的 书 很 好 看。
+I want to sleep, but my book is very good.
+我 说：看 十 分钟。
+I said: ten more minutes.
+现在 是 十二 点 了。
+Now it's twelve.
+明天 上午 我 会 很 累。
+Tomorrow morning I'll be tired.
+
+@ hsk1s-32 | 我的哥哥 | My Older Brother | family
+我 有 一 个 哥哥。
+I have an older brother.
+他 二十五 岁，在 一 个 公司 工作。
+He's twenty-five and works at a company.
+他 很 忙，我 不 常 看见 他。
+He's busy and I don't see him often.
+星期日 他 来 我 家 吃 饭。
+On Sunday he comes to my house to eat.
+我们 说话 说 了 很 长 时间。
+We talked for a long time.
+
+@ hsk1s-33 | 学校的猫 | The School Cat | animals
+我们 学校 有 一 个 猫。
+Our school has a cat.
+他 是 黑 的，很 大。
+He is black and big.
+中午 他 在 教室 前面 睡觉。
+At noon he sleeps in front of the classroom.
+学生 都 喜欢 他，都 请 他 吃 东西。
+The students all like him and all feed him.
+现在 他 太 大 了。
+Now he's too big.
+
+@ hsk1s-34 | 我的手机 | My Phone | things
+我 有 一 个 新 手机。
+I have a new phone.
+我 在 手机 上 学习 汉语。
+I study Chinese on my phone.
+每 天 我 学习 二十 个 新 字。
+Every day I study twenty new characters.
+但是 我 也 在 手机 上 看 电影。
+But I also watch films on my phone.
+我 的 汉语 很 慢 很 慢。
+My Chinese comes along very slowly.
+
+@ hsk1s-35 | 大雪 | Heavy Snow | weather
+今天 下 雪 了。
+It snowed today.
+我 的 学校 说：不 来 学校。
+My school said: don't come in.
+我 很 高兴，我 在 家 里 喝 茶。
+I was happy and drank tea at home.
+下午 我 在 外面 看 雪。
+In the afternoon I looked at the snow outside.
+雪 很 白，很 漂亮。
+The snow was white and beautiful.
+
+@ hsk1s-36 | 我不认识那个人 | I Don't Know That Person | people
+昨天 一 个 人 在 商店 前面 叫 我 的 名字。
+Yesterday a person called my name in front of the shop.
+我 不 认识 他。
+I didn't know him.
+他 说 他 是 我 的 同学。
+He said he was my classmate.
+我 说：对不起，我 不 认识 你。
+I said: sorry, I don't know you.
+他 说：没关系。
+He said: that's all right.
+
+@ hsk1s-37 | 妹妹的字 | My Little Sister's Characters | family
+我 妹妹 六 岁，她 在 学习 写 字。
+My little sister is six and she's learning to write.
+她 的 字 很 大，很 慢。
+Her characters are big and slow.
+她 写 了 一 个 “人” 字。
+She wrote the character for "person".
+我 说：很 好！
+I said: very good!
+她 很 快乐。
+She was delighted.
+
+@ hsk1s-38 | 茶和水 | Tea and Water | food
+我 爸爸 每 天 喝 很 多 茶。
+My dad drinks a lot of tea every day.
+我 妈妈 说 茶 太 多 不 好。
+My mom says too much tea isn't good.
+她 请 他 喝 水。
+She tells him to drink water.
+爸爸 说：水 里 没 有 茶，不 好喝。
+Dad says: water has no tea in it, it isn't tasty.
+妈妈 不 高兴。
+Mom isn't pleased.
+
+@ hsk1s-39 | 我的房间 | My Room | home
+我 的 房间 不 大。
+My room isn't big.
+里面 有 一 个 桌子、一 个 椅子 和 很 多 书。
+Inside there's a table, a chair, and a lot of books.
+书 在 桌子 上，也 在 椅子 上。
+The books are on the table and on the chair too.
+我 的 猫 睡 在 书 上。
+My cat sleeps on the books.
+我 很 喜欢 我 的 房间。
+I like my room a lot.
+
+@ hsk1s-40 | 我们去饭馆 | We Go to a Restaurant | food
+昨天 我们 家 去 了 一 个 新 饭馆。
+Yesterday our family went to a new restaurant.
+那 个 饭馆 的 人 很 多。
+There were a lot of people at that restaurant.
+我们 坐 了 二十 分钟。
+We sat for twenty minutes.
+菜 很 好吃，但是 很 贵。
+The food was tasty, but expensive.
+爸爸 说 明天 我们 在 家 吃。
+Dad said tomorrow we eat at home.
+
+@ hsk1s-41 | 老人和狗 | The Old Man and the Dog | people
+我 家 前面 住 着 一 个 老 人。
+An old man lives in front of my house.
+他 有 一 个 白 的 狗。
+He has a white dog.
+每 天 上午 他们 都 在 前面 走。
+Every morning they walk out front.
+他 走 得 很 慢，狗 也 走 得 很 慢。
+He walks slowly, and the dog walks slowly too.
+我 很 喜欢 看 他们。
+I like watching them.
+
+@ hsk1s-42 | 我想有一个猫 | I Want a Cat | animals
+我 想 有 一 个 猫。
+I want a cat.
+我 每 天 都 请 妈妈。
+I ask my mom every day.
+她 说：猫 要 吃 东西，要 时间。
+She says: a cat needs food and time.
+我 说：我 有 时间！
+I said: I have time!
+明天 我们 去 看 猫。
+Tomorrow we're going to look at cats.
+
+@ hsk1s-43 | 汉语很难 | Chinese Is Hard | school
+我 学习 汉语 一 年 了。
+I've studied Chinese for a year.
+现在 我 会 说 很 多 话。
+Now I can say a lot.
+但是 中国 人 说话 很 快。
+But Chinese people speak fast.
+他们 说话 的 时候 我 都 不 懂。
+When they talk I don't understand.
+老师 说：请 你 每 天 听。
+The teacher says: listen every day.
+
+@ hsk1s-44 | 我的同学生病了 | My Classmate Is Sick | school
+今天 我 的 同学 没 来 学校。
+Today my classmate didn't come to school.
+老师 说 他 生病 了。
+The teacher said he was sick.
+下午 我 去 他 家 看 他。
+In the afternoon I went to his house to see him.
+他 在 房间 里 看 电视。
+He was in his room watching TV.
+他 说：我 很 好，我 不 想 考试。
+He said: I'm fine, I just don't want to take the test.
+
+@ hsk1s-45 | 大苹果小苹果 | Big Apple, Small Apple | food
+商店 里 有 大 苹果 和 小 苹果。
+The shop has big apples and small apples.
+大 苹果 很 贵，小 苹果 很 便宜。
+The big apples are expensive; the small ones are cheap.
+我 买 了 很 多 小 苹果。
+I bought a lot of small apples.
+回 家 的 时候 我 吃 了 三 个。
+On the way home I ate three.
+小 苹果 也 很 好吃。
+Small apples are tasty too.
+
+@ hsk1s-46 | 猫喜欢鱼 | The Cat Likes Fish | animals
+我 的 猫 很 喜欢 鱼。
+My cat loves fish.
+我 买 鱼 的 时候 她 很 快乐。
+When I buy fish she's delighted.
+今天 我 买 了 一 个 大 鱼。
+Today I bought a big fish.
+我 做 菜 的 时候 她 都 在 我 后面。
+The whole time I was cooking she was behind me.
+鱼 很 好吃，她 也 说 好吃。
+The fish was tasty, and she said so too.
+
+@ hsk1s-47 | 我的爸爸妈妈 | My Parents | family
+我 的 爸爸 五十 岁，妈妈 四十八 岁。
+My dad is fifty and my mom is forty-eight.
+爸爸 很 高，妈妈 不 高。
+Dad is tall; mom isn't.
+他们 都 在 学校 工作。
+They both work at a school.
+星期日 他们 在 家 里 看 电视。
+On Sunday they watch TV at home.
+我 很 爱 他们。
+I love them very much.
+
+@ hsk1s-48 | 现在几点 | What Time Is It | routine
+今天 上午 我 起床 的 时候 很 累。
+This morning I was tired when I got up.
+我 看 了 我 的 手表。
+I looked at my watch.
+手表 说 是 七 点。
+The watch said seven o'clock.
+我 的 手机 说 是 九 点！
+My phone said nine!
+我 没 有 时间 喝 茶 了。
+I didn't have time for tea.
+
+@ hsk1s-49 | 我的中国朋友 | My Chinese Friend | friends
+我 有 一 个 中国 朋友，她 叫 小红。
+I have a Chinese friend named Xiao Hong.
+她 在 我们 学校 学习。
+She studies at our school.
+每 个 星期 我们 说话 一 个 小时。
+Every week we talk for an hour.
+她 学习 我 的 话，我 学习 汉语。
+She learns my language and I learn Chinese.
+我们 都 很 高兴。
+We're both very happy.
+
+@ hsk1s-50 | 明天 | Tomorrow | routine
+今天 我 没 做 我 的 工作。
+Today I didn't do my work.
+我 看 了 电视，也 睡 了 很 长 时间。
+I watched TV and slept a long time.
+我 说：明天 我 会 做。
+I said: tomorrow I'll do it.
+明天 我 也 会 说 明天。
+Tomorrow I'll say "tomorrow" too.
+我 想 这 不 好。
+I think this isn't good.
