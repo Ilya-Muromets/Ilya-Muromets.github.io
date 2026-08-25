@@ -7,8 +7,8 @@
   <meta name="author" content="Ilya Chugunov">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A guided Mandarin reader: simplified Chinese with toggleable pinyin and per-word glosses.">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/png" href="images/seal_icon.png">
+  <link rel="stylesheet" type="text/css" href="/stylesheet.css">
+  <link rel="icon" type="image/png" href="/images/seal_icon.png">
 
   <style>
     :root {
@@ -838,7 +838,7 @@
   <div class="wrap">
     <div class="topbar">
       <h1><span class="zh">中文</span>Reader</h1>
-      <div><a href="index.html">&larr; back home</a></div>
+      <div><a href="/">&larr; back home</a></div>
     </div>
 
     <div class="toolbar" id="navbar">
@@ -972,7 +972,7 @@
     (function () {
       "use strict";
 
-      var MANIFEST_URL = "data/chinese/manifest.json";
+      var DATA_ROOT = "/data/chinese/";
       var STORE_KEY = "zh-reader-v1";
       var SIZE_MIN = 20, SIZE_MAX = 64;
 
@@ -1651,8 +1651,9 @@
         if (deckCache[deckId]) return Promise.resolve(deckCache[deckId]);
         var entry = manifest.decks.find(function (d) { return d.id === deckId; });
         if (!entry) return Promise.reject(new Error("Unknown deck: " + deckId));
-        return fetch(entry.file).then(function (res) {
-          if (!res.ok) throw new Error("HTTP " + res.status + " for " + entry.file);
+        var url = "/" + entry.file;
+        return fetch(url).then(function (res) {
+          if (!res.ok) throw new Error("HTTP " + res.status + " for " + url);
           return res.json();
         }).then(function (deck) {
           deckCache[deckId] = deck;
@@ -1704,15 +1705,15 @@
           '<span class="msg"></span><br><br>' +
           'If you opened this file directly from disk, the browser blocks the JSON fetches. ' +
           'Serve the folder instead: <kbd>python3 -m http.server</kbd>, then visit ' +
-          '<kbd>localhost:8000/chinese.html</kbd>.</div>';
+          '<kbd>localhost:8000/chinese/</kbd>.</div>';
         statusEl.querySelector(".msg").textContent = String(err);
       }
 
       loadState();
       applySettings();
 
-      fetch(MANIFEST_URL).then(function (res) {
-        if (!res.ok) throw new Error("HTTP " + res.status + " for " + MANIFEST_URL);
+      fetch(DATA_ROOT + "manifest.json").then(function (res) {
+        if (!res.ok) throw new Error("HTTP " + res.status + " for the passage index");
         return res.json();
       }).then(function (data) {
         manifest = data;

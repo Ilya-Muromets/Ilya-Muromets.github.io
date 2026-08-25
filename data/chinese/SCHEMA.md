@@ -1,6 +1,6 @@
 # Chinese reader data format
 
-`chinese.html` reads everything from this folder. There is no build step for the
+`chinese/index.html` reads everything from this folder. There is no build step for the
 site itself — the page fetches JSON at runtime — but the deck JSON is generated,
 not written by hand.
 
@@ -84,7 +84,7 @@ The deck's `id` must equal its filename without `.json`.
 ```
 
 `id` must be unique across *all* decks — it is the URL fragment
-(`chinese.html#hsk1-everyday/hsk1-intro`) and the key used to restore your place.
+(`/chinese/#hsk1-everyday/hsk1-intro`) and the key used to restore your place.
 
 ## Sentence
 

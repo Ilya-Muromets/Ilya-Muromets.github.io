@@ -3,10 +3,10 @@
 
     python3 tools/chinese/preview.py [-o out.html]
 
-chinese.html fetches its decks at runtime, so it needs a web server. This
-inlines stylesheet.css and every deck into a single file that works from
-disk, over email, or anywhere a lone .html can be opened. The markup, CSS,
-and JS are copied verbatim from chinese.html — only the data source is
+chinese/index.html fetches its decks at runtime, so it needs a web server.
+This inlines stylesheet.css and every deck into a single file that works
+from disk, over email, or anywhere a lone .html can be opened. Markup, CSS,
+and JS are copied verbatim from that page — only the data source is
 swapped — so the bundle can't drift from the real page.
 """
 
@@ -23,7 +23,7 @@ DATA = REPO / "data" / "chinese"
 def section(html, tag):
     match = re.search(rf"<{tag}[^>]*>(.*)</{tag}>", html, re.S)
     if not match:
-        sys.exit(f"Could not find a <{tag}> block in chinese.html")
+        sys.exit(f"Could not find a <{tag}> block in chinese/index.html")
     return match.group(1)
 
 
@@ -37,7 +37,7 @@ def main():
     )
     args = parser.parse_args()
 
-    page = (REPO / "chinese.html").read_text(encoding="utf-8")
+    page = (REPO / "chinese" / "index.html").read_text(encoding="utf-8")
     base_css = (REPO / "stylesheet.css").read_text(encoding="utf-8")
     page_css = section(page, "style")
     body = section(page, "body")
@@ -47,9 +47,9 @@ def main():
         entry["id"]: json.loads((REPO / entry["file"]).read_text(encoding="utf-8"))
         for entry in manifest["decks"]
     }
-    embedded = {"data/chinese/manifest.json": manifest}
+    embedded = {"/data/chinese/manifest.json": manifest}
     for entry in manifest["decks"]:
-        embedded[entry["file"]] = decks[entry["id"]]
+        embedded["/" + entry["file"]] = decks[entry["id"]]
 
     # Serve the decks from memory instead of over the network. Everything the
     # reader itself does — including its error handling — stays untouched.
@@ -77,7 +77,7 @@ def main():
     )
 
     # The bundle travels on its own, so the link back to the site is absolute.
-    body = body.replace('href="index.html"', 'href="https://ilyac.info/"')
+    body = body.replace('href="/"', 'href="https://ilyac.info/"')
     body = body.replace("  <script>", shim + "<script>", 1)
 
     out = Path(args.out)
