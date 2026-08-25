@@ -6,6 +6,7 @@
       "file": "data/chinese/hsk1-everyday.json",
       "title": "HSK 1 · Everyday",
       "level": "HSK 1",
+      "kind": "everyday",
       "description": "Fifty short practical exchanges — buying, asking, arranging — in HSK 1 vocabulary.",
       "passages": [
         {
@@ -415,6 +416,7 @@
       "file": "data/chinese/hsk1-stories.json",
       "title": "HSK 1 · Stories",
       "level": "HSK 1",
+      "kind": "stories",
       "description": "Fifty short first-reader stories built around the HSK 1 vocabulary.",
       "passages": [
         {
@@ -824,6 +826,7 @@
       "file": "data/chinese/hsk2-everyday.json",
       "title": "HSK 2 · Everyday",
       "level": "HSK 2",
+      "kind": "everyday",
       "description": "Fifty practical exchanges — renting, ordering, arranging, complaining, apologising.",
       "passages": [
         {
@@ -1233,6 +1236,7 @@
       "file": "data/chinese/hsk2-stories.json",
       "title": "HSK 2 · Stories",
       "level": "HSK 2",
+      "kind": "stories",
       "description": "Fifty short stories with a little more room — 得 complements, 因为/所以, past experience.",
       "passages": [
         {
@@ -1642,6 +1646,7 @@
       "file": "data/chinese/hsk3-stories.json",
       "title": "HSK 3 · Small Stories",
       "level": "HSK 3",
+      "kind": "stories",
       "description": "A little above level: 把, 得 complements, and more description.",
       "passages": [
         {

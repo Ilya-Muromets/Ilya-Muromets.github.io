@@ -1,4 +1,4 @@
-# deck: id=hsk1-stories | title=HSK 1 · Stories | level=HSK 1 | vocab=hsk1 | vocab_min=0.85
+# deck: id=hsk1-stories | title=HSK 1 · Stories | level=HSK 1 | vocab=hsk1 | vocab_min=0.85 | kind=stories
 # desc: Fifty short first-reader stories built around the HSK 1 vocabulary.
 # extra: 说 天 们 他们 也 每 小白 小红 月月
 # (grammatical glue the level implies but doesn't list: 说话/今天/我们 are all HSK 1,

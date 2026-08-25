@@ -201,7 +201,7 @@ def main():
         all_problems.extend(problems)
         if problems:
             continue
-        order = ["id", "title", "level", "description",
+        order = ["id", "title", "level", "kind", "description",
                  "vocab", "vocab_min", "vocab_extra", "passages"]
         out = {k: deck[k] for k in order if k in deck}
         target = DATA / (deck["id"] + ".json")

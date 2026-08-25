@@ -287,6 +287,7 @@ def main():
                 "file": f"data/chinese/{path.name}",
                 "title": deck.get("title", path.stem),
                 "level": deck.get("level", ""),
+                "kind": deck.get("kind", ""),
                 "description": deck.get("description", ""),
                 "passages": [
                     {

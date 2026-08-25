@@ -2,6 +2,7 @@
  "id": "hsk1-stories",
  "title": "HSK 1 · Stories",
  "level": "HSK 1",
+ "kind": "stories",
  "description": "Fifty short first-reader stories built around the HSK 1 vocabulary.",
  "vocab": "hsk1",
  "vocab_min": 0.85,

@@ -2,6 +2,7 @@
  "id": "hsk2-everyday",
  "title": "HSK 2 · Everyday",
  "level": "HSK 2",
+ "kind": "everyday",
  "description": "Fifty practical exchanges — renting, ordering, arranging, complaining, apologising.",
  "vocab": "hsk2",
  "vocab_min": 0.85,

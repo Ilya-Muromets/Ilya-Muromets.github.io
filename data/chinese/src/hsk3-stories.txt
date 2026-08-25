@@ -1,4 +1,4 @@
-# deck: id=hsk3-stories | title=HSK 3 · Small Stories | level=HSK 3
+# deck: id=hsk3-stories | title=HSK 3 · Small Stories | level=HSK 3 | kind=stories
 # desc: A little above level: 把, 得 complements, and more description.
 # extra: 说 天 们 他们 也 每
 

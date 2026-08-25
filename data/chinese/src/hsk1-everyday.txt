@@ -1,4 +1,4 @@
-# deck: id=hsk1-everyday | title=HSK 1 · Everyday | level=HSK 1 | vocab=hsk1 | vocab_min=0.85
+# deck: id=hsk1-everyday | title=HSK 1 · Everyday | level=HSK 1 | vocab=hsk1 | vocab_min=0.85 | kind=everyday
 # desc: Fifty short practical exchanges — buying, asking, arranging — in HSK 1 vocabulary.
 # extra: 说 天 们 他们 也 每 小白 小红 马丁
 # extra words above: grammatical glue HSK 1 implies (说话/今天/我们 are all listed) and names.

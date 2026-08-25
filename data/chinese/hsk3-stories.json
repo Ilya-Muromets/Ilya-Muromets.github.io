@@ -2,6 +2,7 @@
  "id": "hsk3-stories",
  "title": "HSK 3 · Small Stories",
  "level": "HSK 3",
+ "kind": "stories",
  "description": "A little above level: 把, 得 complements, and more description.",
  "vocab_extra": [
   "说",

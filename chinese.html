@@ -87,6 +87,16 @@
     }
 
     .seg button,
+    .btn,
+    .chip,
+    .sheet-row {
+      /* Repeated taps otherwise select the label text on a phone. */
+      -webkit-tap-highlight-color: transparent;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+
+    .seg button,
     .btn {
       font-family: inherit;
       font-size: 14px;
@@ -135,6 +145,194 @@
 
     .grow select {
       width: 100%;
+    }
+
+    /* ---- browse sheet ---- */
+    .picker-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      width: 100%;
+      text-align: left;
+      padding: 8px 12px;
+      background: #1c1c1c;
+      font-size: 15px;
+    }
+
+    .picker-btn .caret {
+      color: var(--dim);
+      font-size: 11px;
+      flex: none;
+    }
+
+    #picker-label {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .sheet {
+      position: fixed;
+      inset: 0;
+      z-index: 60;
+      background: rgba(0, 0, 0, .72);
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 40px 16px;
+    }
+
+    .sheet[hidden] {
+      display: none;
+    }
+
+    .sheet-panel {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 640px;
+      max-height: 100%;
+      background: #101010;
+      border: 1px solid #333;
+      border-radius: 14px;
+      overflow: hidden;
+    }
+
+    .sheet-head {
+      display: flex;
+      gap: 8px;
+      padding: 12px;
+      border-bottom: 1px solid var(--edge);
+    }
+
+    #browse-search {
+      flex: 1 1 auto;
+      min-width: 0;
+      font-family: inherit;
+      font-size: 16px;
+      color: #f2f2f2;
+      background: #1c1c1c;
+      border: 1px solid var(--edge);
+      border-radius: 8px;
+      padding: 9px 12px;
+    }
+
+    #browse-search:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .chips {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--edge);
+    }
+
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .chip {
+      font-family: inherit;
+      font-size: 13px;
+      color: var(--dim);
+      background: transparent;
+      border: 1px solid var(--edge);
+      border-radius: 999px;
+      padding: 5px 12px;
+      cursor: pointer;
+    }
+
+    .chip:hover {
+      background: #1e1e1e;
+    }
+
+    .chip[aria-pressed="true"] {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #101010;
+      font-weight: 600;
+    }
+
+    .sheet-count {
+      padding: 8px 14px 0;
+      font-size: 12px;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: #6f6f6f;
+    }
+
+    .sheet-list {
+      flex: 1 1 auto;
+      overflow-y: auto;
+      padding: 8px;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .sheet-group {
+      padding: 12px 8px 6px;
+      font-size: 12px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: #6f6f6f;
+    }
+
+    .sheet-row {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      width: 100%;
+      text-align: left;
+      font-family: inherit;
+      background: transparent;
+      border: 0;
+      border-radius: 8px;
+      padding: 10px 10px;
+      cursor: pointer;
+      color: #f2f2f2;
+    }
+
+    .sheet-row:hover,
+    .sheet-row.cursor {
+      background: #232323;
+    }
+
+    .sheet-row[aria-current="true"] .row-hz {
+      color: var(--accent);
+    }
+
+    .row-hz {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      font-size: 18px;
+      flex: none;
+    }
+
+    .row-en {
+      flex: 1 1 auto;
+      font-size: 14px;
+      color: var(--dim);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .row-done {
+      flex: none;
+      font-size: 13px;
+      color: var(--accent);
+      width: 1em;
+    }
+
+    .sheet-empty {
+      padding: 28px 12px;
+      text-align: center;
+      color: var(--dim);
+      font-size: 14px;
     }
 
     /* ---- passage ---- */
@@ -579,6 +777,28 @@
         border-left-color: transparent;
         background: none;
       }
+
+      /* The sheet takes the whole screen — a centered dialog wastes a phone. */
+      .sheet {
+        padding: 0;
+      }
+
+      .sheet-panel {
+        max-width: none;
+        height: 100%;
+        border: 0;
+        border-radius: 0;
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+      }
+
+      .sheet-row {
+        padding: 13px 10px;
+      }
+
+      .chip {
+        font-size: 14px;
+        padding: 7px 14px;
+      }
     }
   </style>
 </head>
@@ -592,7 +812,10 @@
 
     <div class="toolbar" id="navbar">
       <div class="ctrl grow">
-        <select id="picker" aria-label="Choose a passage"></select>
+        <button class="btn picker-btn" id="browse-open" aria-haspopup="dialog">
+          <span id="picker-label">Choose a passage</span>
+          <span class="caret" aria-hidden="true">▾</span>
+        </button>
       </div>
 
       <div class="ctrl nav-actions">
@@ -608,6 +831,33 @@
     </div>
 
     <div id="status"></div>
+
+    <div class="sheet" id="browse" hidden>
+      <div class="sheet-panel" role="dialog" aria-modal="true" aria-label="Choose a passage">
+        <div class="sheet-head">
+          <input id="browse-search" type="search" autocomplete="off"
+            placeholder="Search titles and topics…" aria-label="Search passages">
+          <button class="btn" id="browse-close" aria-label="Close">&#10005;</button>
+        </div>
+        <div class="chips" id="browse-filters">
+          <div class="chip-row" data-facet="level">
+            <button class="chip" data-value="">All levels</button>
+          </div>
+          <div class="chip-row" data-facet="kind">
+            <button class="chip" data-value="">Both</button>
+            <button class="chip" data-value="stories">Stories</button>
+            <button class="chip" data-value="everyday">Everyday</button>
+          </div>
+          <div class="chip-row" data-facet="status">
+            <button class="chip" data-value="">Any</button>
+            <button class="chip" data-value="unread">Unread</button>
+            <button class="chip" data-value="read">Read</button>
+          </div>
+        </div>
+        <div class="sheet-count" id="browse-count"></div>
+        <div class="sheet-list" id="browse-list"></div>
+      </div>
+    </div>
 
     <div class="passage-head" id="passage-head" hidden>
       <span class="title" id="p-title"></span>
@@ -667,6 +917,7 @@
         Hover any word for its meaning — the bubble shows whatever pinyin and
         English are currently turned on.
         <kbd>&larr;</kbd> <kbd>&rarr;</kbd> passage &nbsp;·&nbsp;
+        <kbd>b</kbd> browse &nbsp;·&nbsp;
         <kbd>r</kbd> random &nbsp;·&nbsp;
         <kbd>d</kbd> mark read &nbsp;·&nbsp;
         <kbd>p</kbd> pinyin &nbsp;·&nbsp;
@@ -706,7 +957,14 @@
       var pinned = null;    // token element with a pinned tooltip
 
       var reader = document.getElementById("reader");
-      var picker = document.getElementById("picker");
+      var browse = document.getElementById("browse");
+      var browseList = document.getElementById("browse-list");
+      var browseSearch = document.getElementById("browse-search");
+      var browseCount = document.getElementById("browse-count");
+      var pickerLabel = document.getElementById("picker-label");
+      var filters = { level: "", kind: "", status: "" };
+      var visible = [];     // entries currently listed in the sheet
+      var cursor = -1;      // keyboard-highlighted row
       var statusEl = document.getElementById("status");
       var tip = document.getElementById("tip");
 
@@ -1006,8 +1264,8 @@
         updateReadUI();
       }
 
-      // The picker doubles as the progress view, so a check mark rides along
-      // with each finished passage's label.
+      // The browse sheet doubles as the progress view, so finished passages
+      // carry a check mark there.
       function updateReadUI() {
         var key = current && current.key;
         var done = key ? isRead(key) : false;
@@ -1019,9 +1277,7 @@
         document.getElementById("read-count").textContent =
           count ? count + " of " + flat.length + " read" : "";
 
-        Array.prototype.forEach.call(picker.options, function (opt) {
-          opt.textContent = (isRead(opt.value) ? "✓ " : "") + opt.dataset.label;
-        });
+        if (!browse.hidden) renderBrowse();
       }
 
       doneBtn.addEventListener("click", function () {
@@ -1094,7 +1350,8 @@
           current = { deck: deck, passage: passage, key: k };
           state.last = k;
           saveState();
-          picker.value = k;
+          pickerLabel.textContent =
+            passage.title + (passage.title_en ? "  ·  " + passage.title_en : "");
           if (push !== false && location.hash.slice(1) !== k) {
             // Sandboxed frames (and file://) can refuse history writes; the
             // reader works fine without the deep link, so don't let it throw.
@@ -1124,7 +1381,120 @@
         go(keyOf(flat[i].deckId, flat[i].passageId));
       });
 
-      picker.addEventListener("change", function () { go(picker.value); });
+      /* ---------- browse sheet ---------- */
+
+      function entryMatches(entry, query) {
+        if (filters.level && entry.level !== filters.level) return false;
+        if (filters.kind && entry.kind !== filters.kind) return false;
+        if (filters.status) {
+          var done = isRead(keyOf(entry.deckId, entry.passageId));
+          if (filters.status === "read" && !done) return false;
+          if (filters.status === "unread" && done) return false;
+        }
+        return !query || entry.haystack.indexOf(query) !== -1;
+      }
+
+      function renderBrowse() {
+        var query = browseSearch.value.trim().toLowerCase();
+        visible = flat.filter(function (e) { return entryMatches(e, query); });
+        cursor = -1;
+        browseList.innerHTML = "";
+        browseCount.textContent =
+          visible.length + (visible.length === 1 ? " passage" : " passages");
+
+        if (!visible.length) {
+          var empty = document.createElement("div");
+          empty.className = "sheet-empty";
+          empty.textContent = "Nothing matches that.";
+          browseList.appendChild(empty);
+          return;
+        }
+
+        var lastDeck = null;
+        visible.forEach(function (entry, i) {
+          // Group headings only make sense in deck order — a search reorders
+          // nothing, so they still line up.
+          if (entry.deckTitle !== lastDeck) {
+            lastDeck = entry.deckTitle;
+            var heading = document.createElement("div");
+            heading.className = "sheet-group";
+            heading.textContent = entry.deckTitle;
+            browseList.appendChild(heading);
+          }
+
+          var key = keyOf(entry.deckId, entry.passageId);
+          var row = document.createElement("button");
+          row.className = "sheet-row";
+          row.dataset.index = i;
+          if (current && current.key === key) row.setAttribute("aria-current", "true");
+          row.innerHTML = '<span class="row-hz"></span><span class="row-en"></span>' +
+            '<span class="row-done"></span>';
+          row.children[0].textContent = entry.title;
+          row.children[1].textContent = entry.titleEn;
+          row.children[2].textContent = isRead(key) ? "✓" : "";
+          row.addEventListener("click", function () {
+            closeBrowse();
+            go(key);
+          });
+          browseList.appendChild(row);
+        });
+      }
+
+      function moveCursor(delta) {
+        if (!visible.length) return;
+        cursor = (cursor + delta + visible.length) % visible.length;
+        var rows = browseList.querySelectorAll(".sheet-row");
+        Array.prototype.forEach.call(rows, function (r) { r.classList.remove("cursor"); });
+        var row = rows[cursor];
+        if (row) {
+          row.classList.add("cursor");
+          row.scrollIntoView({ block: "nearest" });
+        }
+      }
+
+      function openBrowse() {
+        browse.hidden = false;
+        renderBrowse();
+        // Focusing the field pops the on-screen keyboard, which eats the list
+        // on a phone — so only take focus where there's a real keyboard.
+        if (canHover()) browseSearch.focus();
+        var here = browseList.querySelector('[aria-current="true"]');
+        if (here) here.scrollIntoView({ block: "center" });
+      }
+
+      function closeBrowse() {
+        browse.hidden = true;
+        document.getElementById("browse-open").focus({ preventScroll: true });
+      }
+
+      document.getElementById("browse-open").addEventListener("click", openBrowse);
+      document.getElementById("browse-close").addEventListener("click", closeBrowse);
+      browse.addEventListener("click", function (ev) {
+        if (ev.target === browse) closeBrowse();   // backdrop
+      });
+      browseSearch.addEventListener("input", renderBrowse);
+
+      document.getElementById("browse-filters").addEventListener("click", function (ev) {
+        var chip = ev.target.closest(".chip");
+        if (!chip) return;
+        var facet = chip.parentNode.dataset.facet;
+        filters[facet] = chip.dataset.value;
+        Array.prototype.forEach.call(chip.parentNode.children, function (c) {
+          c.setAttribute("aria-pressed", String(c === chip));
+        });
+        renderBrowse();
+      });
+
+      browse.addEventListener("keydown", function (ev) {
+        if (ev.key === "Escape") { closeBrowse(); ev.preventDefault(); return; }
+        if (ev.key === "ArrowDown") { moveCursor(1); ev.preventDefault(); return; }
+        if (ev.key === "ArrowUp") { moveCursor(-1); ev.preventDefault(); return; }
+        if (ev.key === "Enter") {
+          var pick = visible[cursor >= 0 ? cursor : 0];
+          if (pick) { closeBrowse(); go(keyOf(pick.deckId, pick.passageId)); }
+          ev.preventDefault();
+        }
+      });
 
       // Swipe across the text to change passage — the natural gesture when
       // you're reading one-handed and the toolbar is a stretch away.
@@ -1157,6 +1527,8 @@
 
       document.addEventListener("keydown", function (ev) {
         if (ev.metaKey || ev.ctrlKey || ev.altKey) return;
+        // The sheet runs its own keys while it's open.
+        if (!browse.hidden) return;
         // Don't hijack keys aimed at a control the reader is focused on.
         var focused = document.activeElement || document.body;
         if (/^(INPUT|SELECT|TEXTAREA)$/.test(focused.tagName)) return;
@@ -1164,6 +1536,10 @@
           case "ArrowLeft": step(-1); break;
           case "ArrowRight": step(1); break;
           case "r": document.getElementById("random").click(); break;
+          case "b":
+          case "/":
+            openBrowse();
+            break;
           case "d":
             if (current) setRead(current.key, !isRead(current.key));
             break;
@@ -1191,21 +1567,40 @@
         });
       }
 
-      function buildPicker() {
-        picker.innerHTML = "";
+      function buildIndex() {
+        var levels = [];
         manifest.decks.forEach(function (deck) {
-          var group = document.createElement("optgroup");
-          group.label = deck.title + (deck.level ? " — " + deck.level : "");
+          if (deck.level && levels.indexOf(deck.level) === -1) levels.push(deck.level);
           deck.passages.forEach(function (p) {
-            var opt = document.createElement("option");
-            opt.value = keyOf(deck.id, p.id);
-            opt.dataset.label = p.title + (p.title_en ? "  ·  " + p.title_en : "");
-            opt.textContent = opt.dataset.label;
-            group.appendChild(opt);
-            flat.push({ deckId: deck.id, passageId: p.id });
+            var tags = (p.tags || []).join(" ");
+            flat.push({
+              deckId: deck.id,
+              passageId: p.id,
+              title: p.title || "",
+              titleEn: p.title_en || "",
+              level: deck.level || "",
+              kind: deck.kind || "",
+              deckTitle: deck.title || "",
+              // Searched as one lowercased string: Chinese title, English
+              // title, tags, and the deck name.
+              haystack: [p.title, p.title_en, tags, deck.title].join(" ").toLowerCase()
+            });
           });
-          picker.appendChild(group);
         });
+
+        var row = document.querySelector('.chip-row[data-facet="level"]');
+        levels.forEach(function (level) {
+          var chip = document.createElement("button");
+          chip.className = "chip";
+          chip.dataset.value = level;
+          chip.textContent = level;
+          row.appendChild(chip);
+        });
+
+        Array.prototype.forEach.call(
+          document.querySelectorAll('.chip[data-value=""]'),
+          function (chip) { chip.setAttribute("aria-pressed", "true"); }
+        );
       }
 
       function showLoadError(err) {
@@ -1226,7 +1621,7 @@
         return res.json();
       }).then(function (data) {
         manifest = data;
-        buildPicker();
+        buildIndex();
         if (!flat.length) throw new Error("The manifest lists no passages.");
         updateReadUI();
         var wanted = location.hash.slice(1) || state.last;
