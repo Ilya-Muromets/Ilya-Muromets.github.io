@@ -1,12 +1,2 @@
-# Operating-system metadata
-.DS_Store
-Thumbs.db
-Desktop.ini
-
-# Editor and IDE state
-.cursor/
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
+__pycache__/
+*.pyc

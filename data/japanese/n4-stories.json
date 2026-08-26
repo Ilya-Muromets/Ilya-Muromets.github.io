@@ -1,0 +1,3642 @@
+{
+ "id": "n4-stories",
+ "title": "JLPT N4 · Stories",
+ "level": "JLPT N4",
+ "kind": "stories",
+ "description": "Slightly longer stories — past tense, te-forms, and reasons with ので and から.",
+ "vocab": "n4",
+ "vocab_min": 0.85,
+ "vocab_extra": [
+  "マーティン",
+  "田中",
+  "は",
+  "が",
+  "を",
+  "に",
+  "で",
+  "と",
+  "の",
+  "も",
+  "か",
+  "ね",
+  "よ",
+  "から",
+  "まで",
+  "や",
+  "し",
+  "な",
+  "ので",
+  "なら",
+  "だ",
+  "です",
+  "でした",
+  "でしょう",
+  "ない",
+  "すみません",
+  "ありがとう",
+  "ございます",
+  "ございました",
+  "お願いします",
+  "はじめまして",
+  "よろしく",
+  "じゃあ",
+  "もしもし"
+ ],
+ "passages": [
+  {
+   "id": "n4s-01",
+   "title": "自転車",
+   "title_en": "My Bicycle",
+   "tags": [
+    "things"
+   ],
+   "sentences": [
+    {
+     "en": "I have an old bicycle.",
+     "tokens": [
+      {
+       "hz": "わたし",
+       "py": "わたし",
+       "en": "I; me",
+       "rb": [
+        [
+         "わたし",
+         ""
+        ]
+       ],
+       "ro": "watashi"
+      },
+      {
+       "hz": "は",
+       "py": "は",
+       "en": "(topic particle)",
+       "rb": [
+        [
+         "は",
+         ""
+        ]
+       ],
+       "ro": "ha"
+      },
+      {
+       "hz": "古い",
+       "py": "ふるい",
+       "en": "old (of things)",
+       "rb": [
+        [
+         "古",
+         "ふる"
+        ],
+        [
+         "い",
+         ""
+        ]
+       ],
+       "ro": "furui"
+      },
+      {
+       "hz": "自転車",
+       "py": "じてんしゃ",
+       "en": "bicycle",
+       "rb": [
+        [
+         "自転車",
+         "じてんしゃ"
+        ]
+       ],
+       "ro": "jitensha"
+      },
+      {
+       "hz": "を",
+       "py": "を",
+       "en": "(object particle)",
+       "rb": [
+        [
+         "を",
+         ""
+        ]
+       ],
+       "ro": "o"
+      },
+      {
+       "hz": "持って",
+       "py": "もって",
+       "en": "to have; hold",
+       "rb": [
+        [
+         "持",
+         "も"
+        ],
+        [
+         "って",
+         ""
+        ]
+       ],
+       "ro": "motte"
+      },
+      {
+       "hz": "います",
+       "py": "います",
+       "en": "there is (animate)",
+       "rb": [
+        [
+         "います",
+         ""
+        ]
+       ],
+       "ro": "imasu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "My father gave it to me ten years ago.",
+     "tokens": [
+      {
+       "hz": "父",
+       "py": "ちち",
+       "en": "my father",
+       "rb": [
+        [
+         "父",
+         "ちち"
+        ]
+       ],
+       "ro": "chichi"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "十年",
+       "py": "じゅうねん",
+       "en": "ten years",
+       "rb": [
+        [
+         "十年",
+         "じゅうねん"
+        ]
+       ],
+       "ro": "jūnen"
+      },
+      {
+       "hz": "前",
+       "py": "まえ",
+       "en": "before; in front",
+       "rb": [
+        [
+         "前",
+         "まえ"
+        ]
+       ],
+       "ro": "mae"
+      },
+      {
+       "hz": "に",
+       "py": "に",
+       "en": "to; at; in",
+       "rb": [
+        [
+         "に",
+         ""
+        ]
+       ],
+       "ro": "ni"
+      },
+      {
+       "hz": "くれました",
+       "py": "くれました",
+       "en": "gave me",
+       "rb": [
+        [
+         "くれました",
+         ""
+        ]
+       ],
+       "ro": "kuremashita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "It's slow, but it still does the job.",
+     "tokens": [
+      {
+       "hz": "おそい",
+       "py": "おそい",
+       "en": "slow; late",
+       "rb": [
+        [
+         "おそい",
+         ""
+        ]
+       ],
+       "ro": "osoi"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "まだ",
+       "py": "まだ",
+       "en": "still; yet",
+       "rb": [
+        [
+         "まだ",
+         ""
+        ]
+       ],
+       "ro": "mada"
+      },
+      {
+       "hz": "大丈夫",
+       "py": "だいじょうぶ",
+       "en": "all right; fine",
+       "rb": [
+        [
+         "大丈夫",
+         "だいじょうぶ"
+        ]
+       ],
+       "ro": "daijōbu"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Every morning I ride it to the station.",
+     "tokens": [
+      {
+       "hz": "まいあさ",
+       "py": "まいあさ",
+       "en": "every morning",
+       "rb": [
+        [
+         "まいあさ",
+         ""
+        ]
+       ],
+       "ro": "maiasa"
+      },
+      {
+       "hz": "それ",
+       "py": "それ",
+       "en": "that one",
+       "rb": [
+        [
+         "それ",
+         ""
+        ]
+       ],
+       "ro": "sore"
+      },
+      {
+       "hz": "で",
+       "py": "で",
+       "en": "at; by; with",
+       "rb": [
+        [
+         "で",
+         ""
+        ]
+       ],
+       "ro": "de"
+      },
+      {
+       "hz": "駅",
+       "py": "えき",
+       "en": "station",
+       "rb": [
+        [
+         "駅",
+         "えき"
+        ]
+       ],
+       "ro": "eki"
+      },
+      {
+       "hz": "まで",
+       "py": "まで",
+       "en": "as far as; until",
+       "rb": [
+        [
+         "まで",
+         ""
+        ]
+       ],
+       "ro": "made"
+      },
+      {
+       "hz": "行きます",
+       "py": "いきます",
+       "en": "to go",
+       "rb": [
+        [
+         "行",
+         "い"
+        ],
+        [
+         "きます",
+         ""
+        ]
+       ],
+       "ro": "ikimasu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I don't want to buy a new one.",
+     "tokens": [
+      {
+       "hz": "新しい",
+       "py": "あたらしい",
+       "en": "new",
+       "rb": [
+        [
+         "新",
+         "あたら"
+        ],
+        [
+         "しい",
+         ""
+        ]
+       ],
+       "ro": "atarashii"
+      },
+      {
+       "hz": "の",
+       "py": "の",
+       "en": "(possessive; nominalizer)",
+       "rb": [
+        [
+         "の",
+         ""
+        ]
+       ],
+       "ro": "no"
+      },
+      {
+       "hz": "は",
+       "py": "は",
+       "en": "(topic particle)",
+       "rb": [
+        [
+         "は",
+         ""
+        ]
+       ],
+       "ro": "ha"
+      },
+      {
+       "hz": "買いたく",
+       "py": "かいたく",
+       "en": "want to buy",
+       "rb": [
+        [
+         "買",
+         "か"
+        ],
+        [
+         "いたく",
+         ""
+        ]
+       ],
+       "ro": "kaitaku"
+      },
+      {
+       "hz": "ない",
+       "py": "ない",
+       "en": "not; there isn't",
+       "rb": [
+        [
+         "ない",
+         ""
+        ]
+       ],
+       "ro": "nai"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n4s-02",
+   "title": "ゆきの朝",
+   "title_en": "A Snowy Morning",
+   "tags": [
+    "weather"
+   ],
+   "sentences": [
+    {
+     "en": "When I got up, everything outside was white.",
+     "tokens": [
+      {
+       "hz": "朝",
+       "py": "あさ",
+       "en": "morning",
+       "rb": [
+        [
+         "朝",
+         "あさ"
+        ]
+       ],
+       "ro": "asa"
+      },
+      {
+       "hz": "おきたら",
+       "py": "おきたら",
+       "en": "when I got up",
+       "rb": [
+        [
+         "おきたら",
+         ""
+        ]
+       ],
+       "ro": "okitara"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "そと",
+       "py": "そと",
+       "en": "outside",
+       "rb": [
+        [
+         "そと",
+         ""
+        ]
+       ],
+       "ro": "soto"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "白かった",
+       "py": "しろかった",
+       "en": "was white",
+       "rb": [
+        [
+         "白",
+         "しろ"
+        ],
+        [
+         "かった",
+         ""
+        ]
+       ],
+       "ro": "shirokatta"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "It had snowed in the night.",
+     "tokens": [
+      {
+       "hz": "よる",
+       "py": "よる",
+       "en": "night",
+       "rb": [
+        [
+         "よる",
+         ""
+        ]
+       ],
+       "ro": "yoru"
+      },
+      {
+       "hz": "ゆき",
+       "py": "ゆき",
+       "en": "snow",
+       "rb": [
+        [
+         "ゆき",
+         ""
+        ]
+       ],
+       "ro": "yuki"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "ふった",
+       "py": "ふった",
+       "en": "fell (of rain or snow)",
+       "rb": [
+        [
+         "ふった",
+         ""
+        ]
+       ],
+       "ro": "futta"
+      },
+      {
+       "hz": "の",
+       "py": "の",
+       "en": "(possessive; nominalizer)",
+       "rb": [
+        [
+         "の",
+         ""
+        ]
+       ],
+       "ro": "no"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "There were no cars and no people on the road.",
+     "tokens": [
+      {
+       "hz": "道",
+       "py": "みち",
+       "en": "road; way",
+       "rb": [
+        [
+         "道",
+         "みち"
+        ]
+       ],
+       "ro": "michi"
+      },
+      {
+       "hz": "に",
+       "py": "に",
+       "en": "to; at; in",
+       "rb": [
+        [
+         "に",
+         ""
+        ]
+       ],
+       "ro": "ni"
+      },
+      {
+       "hz": "車",
+       "py": "くるま",
+       "en": "car",
+       "rb": [
+        [
+         "車",
+         "くるま"
+        ]
+       ],
+       "ro": "kuruma"
+      },
+      {
+       "hz": "も",
+       "py": "も",
+       "en": "also; too",
+       "rb": [
+        [
+         "も",
+         ""
+        ]
+       ],
+       "ro": "mo"
+      },
+      {
+       "hz": "人",
+       "py": "ひと",
+       "en": "person",
+       "rb": [
+        [
+         "人",
+         "ひと"
+        ]
+       ],
+       "ro": "hito"
+      },
+      {
+       "hz": "も",
+       "py": "も",
+       "en": "also; too",
+       "rb": [
+        [
+         "も",
+         ""
+        ]
+       ],
+       "ro": "mo"
+      },
+      {
+       "hz": "いません",
+       "py": "いません",
+       "en": "there isn't (animate)",
+       "rb": [
+        [
+         "いません",
+         ""
+        ]
+       ],
+       "ro": "imasen"
+      },
+      {
+       "hz": "でした",
+       "py": "でした",
+       "en": "was (polite)",
+       "rb": [
+        [
+         "でした",
+         ""
+        ]
+       ],
+       "ro": "deshita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I walked slowly by myself.",
+     "tokens": [
+      {
+       "hz": "わたし",
+       "py": "わたし",
+       "en": "I; me",
+       "rb": [
+        [
+         "わたし",
+         ""
+        ]
+       ],
+       "ro": "watashi"
+      },
+      {
+       "hz": "は",
+       "py": "は",
+       "en": "(topic particle)",
+       "rb": [
+        [
+         "は",
+         ""
+        ]
+       ],
+       "ro": "ha"
+      },
+      {
+       "hz": "一人",
+       "py": "ひとり",
+       "en": "alone; one person",
+       "rb": [
+        [
+         "一人",
+         "ひとり"
+        ]
+       ],
+       "ro": "hitori"
+      },
+      {
+       "hz": "で",
+       "py": "で",
+       "en": "at; by; with",
+       "rb": [
+        [
+         "で",
+         ""
+        ]
+       ],
+       "ro": "de"
+      },
+      {
+       "hz": "ゆっくり",
+       "py": "ゆっくり",
+       "en": "slowly",
+       "rb": [
+        [
+         "ゆっくり",
+         ""
+        ]
+       ],
+       "ro": "yukkuri"
+      },
+      {
+       "hz": "歩きました",
+       "py": "あるきました",
+       "en": "walked",
+       "rb": [
+        [
+         "歩",
+         "ある"
+        ],
+        [
+         "きました",
+         ""
+        ]
+       ],
+       "ro": "arukimashita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "It was very quiet, and beautiful.",
+     "tokens": [
+      {
+       "hz": "とても",
+       "py": "とても",
+       "en": "very",
+       "rb": [
+        [
+         "とても",
+         ""
+        ]
+       ],
+       "ro": "totemo"
+      },
+      {
+       "hz": "しずか",
+       "py": "しずか",
+       "en": "quiet",
+       "rb": [
+        [
+         "しずか",
+         ""
+        ]
+       ],
+       "ro": "shizuka"
+      },
+      {
+       "hz": "で",
+       "py": "で",
+       "en": "at; by; with",
+       "rb": [
+        [
+         "で",
+         ""
+        ]
+       ],
+       "ro": "de"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "きれい",
+       "py": "きれい",
+       "en": "pretty; clean",
+       "rb": [
+        [
+         "きれい",
+         ""
+        ]
+       ],
+       "ro": "kirei"
+      },
+      {
+       "hz": "でした",
+       "py": "でした",
+       "en": "was (polite)",
+       "rb": [
+        [
+         "でした",
+         ""
+        ]
+       ],
+       "ro": "deshita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n4s-03",
+   "title": "母の手紙",
+   "title_en": "My Mother's Letter",
+   "tags": [
+    "family"
+   ],
+   "sentences": [
+    {
+     "en": "A letter came from my mother today.",
+     "tokens": [
+      {
+       "hz": "今日",
+       "py": "きょう",
+       "en": "today",
+       "rb": [
+        [
+         "今日",
+         "きょう"
+        ]
+       ],
+       "ro": "kyō"
+      },
+      {
+       "hz": "母",
+       "py": "はは",
+       "en": "my mother",
+       "rb": [
+        [
+         "母",
+         "はは"
+        ]
+       ],
+       "ro": "haha"
+      },
+      {
+       "hz": "から",
+       "py": "から",
+       "en": "from; because",
+       "rb": [
+        [
+         "から",
+         ""
+        ]
+       ],
+       "ro": "kara"
+      },
+      {
+       "hz": "手紙",
+       "py": "てがみ",
+       "en": "letter",
+       "rb": [
+        [
+         "手紙",
+         "てがみ"
+        ]
+       ],
+       "ro": "tegami"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "来ました",
+       "py": "きました",
+       "en": "came",
+       "rb": [
+        [
+         "来",
+         "き"
+        ],
+        [
+         "ました",
+         ""
+        ]
+       ],
+       "ro": "kimashita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Everyone uses email now.",
+     "tokens": [
+      {
+       "hz": "今",
+       "py": "いま",
+       "en": "now",
+       "rb": [
+        [
+         "今",
+         "いま"
+        ]
+       ],
+       "ro": "ima"
+      },
+      {
+       "hz": "は",
+       "py": "は",
+       "en": "(topic particle)",
+       "rb": [
+        [
+         "は",
+         ""
+        ]
+       ],
+       "ro": "ha"
+      },
+      {
+       "hz": "みんな",
+       "py": "みんな",
+       "en": "everyone",
+       "rb": [
+        [
+         "みんな",
+         ""
+        ]
+       ],
+       "ro": "minna"
+      },
+      {
+       "hz": "メール",
+       "py": "メール",
+       "en": "email",
+       "rb": [
+        [
+         "メール",
+         ""
+        ]
+       ],
+       "ro": "mēru"
+      },
+      {
+       "hz": "を",
+       "py": "を",
+       "en": "(object particle)",
+       "rb": [
+        [
+         "を",
+         ""
+        ]
+       ],
+       "ro": "o"
+      },
+      {
+       "hz": "使います",
+       "py": "つかいます",
+       "en": "to use",
+       "rb": [
+        [
+         "使",
+         "つか"
+        ],
+        [
+         "います",
+         ""
+        ]
+       ],
+       "ro": "tsukaimasu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "But my mother always writes letters.",
+     "tokens": [
+      {
+       "hz": "でも",
+       "py": "でも",
+       "en": "but",
+       "rb": [
+        [
+         "でも",
+         ""
+        ]
+       ],
+       "ro": "demo"
+      },
+      {
+       "hz": "母",
+       "py": "はは",
+       "en": "my mother",
+       "rb": [
+        [
+         "母",
+         "はは"
+        ]
+       ],
+       "ro": "haha"
+      },
+      {
+       "hz": "は",
+       "py": "は",
+       "en": "(topic particle)",
+       "rb": [
+        [
+         "は",
+         ""
+        ]
+       ],
+       "ro": "ha"
+      },
+      {
+       "hz": "いつも",
+       "py": "いつも",
+       "en": "always",
+       "rb": [
+        [
+         "いつも",
+         ""
+        ]
+       ],
+       "ro": "itsumo"
+      },
+      {
+       "hz": "手紙",
+       "py": "てがみ",
+       "en": "letter",
+       "rb": [
+        [
+         "手紙",
+         "てがみ"
+        ]
+       ],
+       "ro": "tegami"
+      },
+      {
+       "hz": "を",
+       "py": "を",
+       "en": "(object particle)",
+       "rb": [
+        [
+         "を",
+         ""
+        ]
+       ],
+       "ro": "o"
+      },
+      {
+       "hz": "書きます",
+       "py": "かきます",
+       "en": "to write",
+       "rb": [
+        [
+         "書",
+         "か"
+        ],
+        [
+         "きます",
+         ""
+        ]
+       ],
+       "ro": "kakimasu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Her writing is large and a little hard to read.",
+     "tokens": [
+      {
+       "hz": "字",
+       "py": "じ",
+       "en": "character; handwriting",
+       "rb": [
+        [
+         "字",
+         "じ"
+        ]
+       ],
+       "ro": "ji"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "大きくて",
+       "py": "おおきくて",
+       "en": "big (and)",
+       "rb": [
+        [
+         "大",
+         "おお"
+        ],
+        [
+         "きくて",
+         ""
+        ]
+       ],
+       "ro": "ōkikute"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "少し",
+       "py": "すこし",
+       "en": "a little",
+       "rb": [
+        [
+         "少",
+         "すこ"
+        ],
+        [
+         "し",
+         ""
+        ]
+       ],
+       "ro": "sukoshi"
+      },
+      {
+       "hz": "読みにくい",
+       "py": "よみにくい",
+       "en": "hard to read",
+       "rb": [
+        [
+         "読",
+         "よ"
+        ],
+        [
+         "みにくい",
+         ""
+        ]
+       ],
+       "ro": "yominikui"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I read it three times.",
+     "tokens": [
+      {
+       "hz": "三回",
+       "py": "さんかい",
+       "en": "three times",
+       "rb": [
+        [
+         "三回",
+         "さんかい"
+        ]
+       ],
+       "ro": "sankai"
+      },
+      {
+       "hz": "読みました",
+       "py": "よみました",
+       "en": "read",
+       "rb": [
+        [
+         "読",
+         "よ"
+        ],
+        [
+         "みました",
+         ""
+        ]
+       ],
+       "ro": "yomimashita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n4s-04",
+   "title": "となりの音楽",
+   "title_en": "The Music Next Door",
+   "tags": [
+    "neighbours"
+   ],
+   "sentences": [
+    {
+     "en": "A young person lives in the room next door.",
+     "tokens": [
+      {
+       "hz": "となり",
+       "py": "となり",
+       "en": "next door",
+       "rb": [
+        [
+         "となり",
+         ""
+        ]
+       ],
+       "ro": "tonari"
+      },
+      {
+       "hz": "の",
+       "py": "の",
+       "en": "(possessive; nominalizer)",
+       "rb": [
+        [
+         "の",
+         ""
+        ]
+       ],
+       "ro": "no"
+      },
+      {
+       "hz": "へや",
+       "py": "へや",
+       "en": "room",
+       "rb": [
+        [
+         "へや",
+         ""
+        ]
+       ],
+       "ro": "heya"
+      },
+      {
+       "hz": "に",
+       "py": "に",
+       "en": "to; at; in",
+       "rb": [
+        [
+         "に",
+         ""
+        ]
+       ],
+       "ro": "ni"
+      },
+      {
+       "hz": "若い",
+       "py": "わかい",
+       "en": "young",
+       "rb": [
+        [
+         "若",
+         "わか"
+        ],
+        [
+         "い",
+         ""
+        ]
+       ],
+       "ro": "wakai"
+      },
+      {
+       "hz": "人",
+       "py": "ひと",
+       "en": "person",
+       "rb": [
+        [
+         "人",
+         "ひと"
+        ]
+       ],
+       "ro": "hito"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "住んで",
+       "py": "すんで",
+       "en": "living",
+       "rb": [
+        [
+         "住",
+         "す"
+        ],
+        [
+         "んで",
+         ""
+        ]
+       ],
+       "ro": "sunde"
+      },
+      {
+       "hz": "います",
+       "py": "います",
+       "en": "there is (animate)",
+       "rb": [
+        [
+         "います",
+         ""
+        ]
+       ],
+       "ro": "imasu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Every night they play music.",
+     "tokens": [
+      {
+       "hz": "まいばん",
+       "py": "まいばん",
+       "en": "every night",
+       "rb": [
+        [
+         "まいばん",
+         ""
+        ]
+       ],
+       "ro": "maiban"
+      },
+      {
+       "hz": "音楽",
+       "py": "おんがく",
+       "en": "music",
+       "rb": [
+        [
+         "音楽",
+         "おんがく"
+        ]
+       ],
+       "ro": "ongaku"
+      },
+      {
+       "hz": "を",
+       "py": "を",
+       "en": "(object particle)",
+       "rb": [
+        [
+         "を",
+         ""
+        ]
+       ],
+       "ro": "o"
+      },
+      {
+       "hz": "聞いて",
+       "py": "きいて",
+       "en": "listen; ask",
+       "rb": [
+        [
+         "聞",
+         "き"
+        ],
+        [
+         "いて",
+         ""
+        ]
+       ],
+       "ro": "kiite"
+      },
+      {
+       "hz": "います",
+       "py": "います",
+       "en": "there is (animate)",
+       "rb": [
+        [
+         "います",
+         ""
+        ]
+       ],
+       "ro": "imasu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "At first it was noisy.",
+     "tokens": [
+      {
+       "hz": "はじめ",
+       "py": "はじめ",
+       "en": "the beginning",
+       "rb": [
+        [
+         "はじめ",
+         ""
+        ]
+       ],
+       "ro": "hajime"
+      },
+      {
+       "hz": "は",
+       "py": "は",
+       "en": "(topic particle)",
+       "rb": [
+        [
+         "は",
+         ""
+        ]
+       ],
+       "ro": "ha"
+      },
+      {
+       "hz": "うるさかった",
+       "py": "うるさかった",
+       "en": "was noisy",
+       "rb": [
+        [
+         "うるさかった",
+         ""
+        ]
+       ],
+       "ro": "urusakatta"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "But I'm used to it now.",
+     "tokens": [
+      {
+       "hz": "でも",
+       "py": "でも",
+       "en": "but",
+       "rb": [
+        [
+         "でも",
+         ""
+        ]
+       ],
+       "ro": "demo"
+      },
+      {
+       "hz": "今",
+       "py": "いま",
+       "en": "now",
+       "rb": [
+        [
+         "今",
+         "いま"
+        ]
+       ],
+       "ro": "ima"
+      },
+      {
+       "hz": "は",
+       "py": "は",
+       "en": "(topic particle)",
+       "rb": [
+        [
+         "は",
+         ""
+        ]
+       ],
+       "ro": "ha"
+      },
+      {
+       "hz": "なれました",
+       "py": "なれました",
+       "en": "got used to it",
+       "rb": [
+        [
+         "なれました",
+         ""
+        ]
+       ],
+       "ro": "naremashita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Yesterday was quiet, and it felt a little lonely.",
+     "tokens": [
+      {
+       "hz": "きのう",
+       "py": "きのう",
+       "en": "yesterday",
+       "rb": [
+        [
+         "きのう",
+         ""
+        ]
+       ],
+       "ro": "kinou"
+      },
+      {
+       "hz": "は",
+       "py": "は",
+       "en": "(topic particle)",
+       "rb": [
+        [
+         "は",
+         ""
+        ]
+       ],
+       "ro": "ha"
+      },
+      {
+       "hz": "しずか",
+       "py": "しずか",
+       "en": "quiet",
+       "rb": [
+        [
+         "しずか",
+         ""
+        ]
+       ],
+       "ro": "shizuka"
+      },
+      {
+       "hz": "で",
+       "py": "で",
+       "en": "at; by; with",
+       "rb": [
+        [
+         "で",
+         ""
+        ]
+       ],
+       "ro": "de"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "少し",
+       "py": "すこし",
+       "en": "a little",
+       "rb": [
+        [
+         "少",
+         "すこ"
+        ],
+        [
+         "し",
+         ""
+        ]
+       ],
+       "ro": "sukoshi"
+      },
+      {
+       "hz": "さびしかった",
+       "py": "さびしかった",
+       "en": "was lonely",
+       "rb": [
+        [
+         "さびしかった",
+         ""
+        ]
+       ],
+       "ro": "sabishikatta"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n4s-05",
+   "title": "はじめての仕事",
+   "title_en": "My First Job",
+   "tags": [
+    "work"
+   ],
+   "sentences": [
+    {
+     "en": "My first job was at a small shop.",
+     "tokens": [
+      {
+       "hz": "はじめて",
+       "py": "はじめて",
+       "en": "for the first time",
+       "rb": [
+        [
+         "はじめて",
+         ""
+        ]
+       ],
+       "ro": "hajimete"
+      },
+      {
+       "hz": "の",
+       "py": "の",
+       "en": "(possessive; nominalizer)",
+       "rb": [
+        [
+         "の",
+         ""
+        ]
+       ],
+       "ro": "no"
+      },
+      {
+       "hz": "仕事",
+       "py": "しごと",
+       "en": "work; job",
+       "rb": [
+        [
+         "仕事",
+         "しごと"
+        ]
+       ],
+       "ro": "shigoto"
+      },
+      {
+       "hz": "は",
+       "py": "は",
+       "en": "(topic particle)",
+       "rb": [
+        [
+         "は",
+         ""
+        ]
+       ],
+       "ro": "ha"
+      },
+      {
+       "hz": "小さい",
+       "py": "ちいさい",
+       "en": "small",
+       "rb": [
+        [
+         "小",
+         "ちい"
+        ],
+        [
+         "さい",
+         ""
+        ]
+       ],
+       "ro": "chiisai"
+      },
+      {
+       "hz": "みせ",
+       "py": "みせ",
+       "en": "shop",
+       "rb": [
+        [
+         "みせ",
+         ""
+        ]
+       ],
+       "ro": "mise"
+      },
+      {
+       "hz": "でした",
+       "py": "でした",
+       "en": "was (polite)",
+       "rb": [
+        [
+         "でした",
+         ""
+        ]
+       ],
+       "ro": "deshita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Every day I washed a great many cups.",
+     "tokens": [
+      {
+       "hz": "まいにち",
+       "py": "まいにち",
+       "en": "every day",
+       "rb": [
+        [
+         "まいにち",
+         ""
+        ]
+       ],
+       "ro": "mainichi"
+      },
+      {
+       "hz": "コップ",
+       "py": "コップ",
+       "en": "cup; glass",
+       "rb": [
+        [
+         "コップ",
+         ""
+        ]
+       ],
+       "ro": "koppu"
+      },
+      {
+       "hz": "を",
+       "py": "を",
+       "en": "(object particle)",
+       "rb": [
+        [
+         "を",
+         ""
+        ]
+       ],
+       "ro": "o"
+      },
+      {
+       "hz": "たくさん",
+       "py": "たくさん",
+       "en": "a lot",
+       "rb": [
+        [
+         "たくさん",
+         ""
+        ]
+       ],
+       "ro": "takusan"
+      },
+      {
+       "hz": "あらいました",
+       "py": "あらいました",
+       "en": "washed",
+       "rb": [
+        [
+         "あらいました",
+         ""
+        ]
+       ],
+       "ro": "araimashita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "My hands were always cold.",
+     "tokens": [
+      {
+       "hz": "手",
+       "py": "て",
+       "en": "hand",
+       "rb": [
+        [
+         "手",
+         "て"
+        ]
+       ],
+       "ro": "te"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "いつも",
+       "py": "いつも",
+       "en": "always",
+       "rb": [
+        [
+         "いつも",
+         ""
+        ]
+       ],
+       "ro": "itsumo"
+      },
+      {
+       "hz": "つめたかった",
+       "py": "つめたかった",
+       "en": "was cold",
+       "rb": [
+        [
+         "つめたかった",
+         ""
+        ]
+       ],
+       "ro": "tsumetakatta"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "But everyone there was kind.",
+     "tokens": [
+      {
+       "hz": "でも",
+       "py": "でも",
+       "en": "but",
+       "rb": [
+        [
+         "でも",
+         ""
+        ]
+       ],
+       "ro": "demo"
+      },
+      {
+       "hz": "みんな",
+       "py": "みんな",
+       "en": "everyone",
+       "rb": [
+        [
+         "みんな",
+         ""
+        ]
+       ],
+       "ro": "minna"
+      },
+      {
+       "hz": "しんせつ",
+       "py": "しんせつ",
+       "en": "kind",
+       "rb": [
+        [
+         "しんせつ",
+         ""
+        ]
+       ],
+       "ro": "shinsetsu"
+      },
+      {
+       "hz": "でした",
+       "py": "でした",
+       "en": "was (polite)",
+       "rb": [
+        [
+         "でした",
+         ""
+        ]
+       ],
+       "ro": "deshita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I still remember that shop.",
+     "tokens": [
+      {
+       "hz": "今",
+       "py": "いま",
+       "en": "now",
+       "rb": [
+        [
+         "今",
+         "いま"
+        ]
+       ],
+       "ro": "ima"
+      },
+      {
+       "hz": "でも",
+       "py": "でも",
+       "en": "but",
+       "rb": [
+        [
+         "でも",
+         ""
+        ]
+       ],
+       "ro": "demo"
+      },
+      {
+       "hz": "あの",
+       "py": "あの",
+       "en": "that (over there)",
+       "rb": [
+        [
+         "あの",
+         ""
+        ]
+       ],
+       "ro": "ano"
+      },
+      {
+       "hz": "みせ",
+       "py": "みせ",
+       "en": "shop",
+       "rb": [
+        [
+         "みせ",
+         ""
+        ]
+       ],
+       "ro": "mise"
+      },
+      {
+       "hz": "を",
+       "py": "を",
+       "en": "(object particle)",
+       "rb": [
+        [
+         "を",
+         ""
+        ]
+       ],
+       "ro": "o"
+      },
+      {
+       "hz": "おぼえて",
+       "py": "おぼえて",
+       "en": "remember",
+       "rb": [
+        [
+         "おぼえて",
+         ""
+        ]
+       ],
+       "ro": "oboete"
+      },
+      {
+       "hz": "います",
+       "py": "います",
+       "en": "there is (animate)",
+       "rb": [
+        [
+         "います",
+         ""
+        ]
+       ],
+       "ro": "imasu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n4s-06",
+   "title": "山にのぼる",
+   "title_en": "Climbing the Mountain",
+   "tags": [
+    "outdoors"
+   ],
+   "sentences": [
+    {
+     "en": "Last week I climbed a mountain with a friend.",
+     "tokens": [
+      {
+       "hz": "先週",
+       "py": "せんしゅう",
+       "en": "last week",
+       "rb": [
+        [
+         "先週",
+         "せんしゅう"
+        ]
+       ],
+       "ro": "senshū"
+      },
+      {
+       "hz": "友だち",
+       "py": "ともだち",
+       "en": "friend",
+       "rb": [
+        [
+         "友",
+         "とも"
+        ],
+        [
+         "だち",
+         ""
+        ]
+       ],
+       "ro": "tomodachi"
+      },
+      {
+       "hz": "と",
+       "py": "と",
+       "en": "and; with; that (quoting)",
+       "rb": [
+        [
+         "と",
+         ""
+        ]
+       ],
+       "ro": "to"
+      },
+      {
+       "hz": "山",
+       "py": "やま",
+       "en": "mountain",
+       "rb": [
+        [
+         "山",
+         "やま"
+        ]
+       ],
+       "ro": "yama"
+      },
+      {
+       "hz": "に",
+       "py": "に",
+       "en": "to; at; in",
+       "rb": [
+        [
+         "に",
+         ""
+        ]
+       ],
+       "ro": "ni"
+      },
+      {
+       "hz": "のぼりました",
+       "py": "のぼりました",
+       "en": "climbed",
+       "rb": [
+        [
+         "のぼりました",
+         ""
+        ]
+       ],
+       "ro": "noborimashita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The path wasn't long, but it was hard going.",
+     "tokens": [
+      {
+       "hz": "道",
+       "py": "みち",
+       "en": "road; way",
+       "rb": [
+        [
+         "道",
+         "みち"
+        ]
+       ],
+       "ro": "michi"
+      },
+      {
+       "hz": "は",
+       "py": "は",
+       "en": "(topic particle)",
+       "rb": [
+        [
+         "は",
+         ""
+        ]
+       ],
+       "ro": "ha"
+      },
+      {
+       "hz": "長く",
+       "py": "ながく",
+       "en": "long",
+       "rb": [
+        [
+         "長",
+         "なが"
+        ],
+        [
+         "く",
+         ""
+        ]
+       ],
+       "ro": "nagaku"
+      },
+      {
+       "hz": "ない",
+       "py": "ない",
+       "en": "not; there isn't",
+       "rb": [
+        [
+         "ない",
+         ""
+        ]
+       ],
+       "ro": "nai"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "とても",
+       "py": "とても",
+       "en": "very",
+       "rb": [
+        [
+         "とても",
+         ""
+        ]
+       ],
+       "ro": "totemo"
+      },
+      {
+       "hz": "きつかった",
+       "py": "きつかった",
+       "en": "was hard going",
+       "rb": [
+        [
+         "きつかった",
+         ""
+        ]
+       ],
+       "ro": "kitsukatta"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "Halfway up I couldn't speak any more.",
+     "tokens": [
+      {
+       "hz": "半分",
+       "py": "はんぶん",
+       "en": "half",
+       "rb": [
+        [
+         "半分",
+         "はんぶん"
+        ]
+       ],
+       "ro": "hanbun"
+      },
+      {
+       "hz": "の",
+       "py": "の",
+       "en": "(possessive; nominalizer)",
+       "rb": [
+        [
+         "の",
+         ""
+        ]
+       ],
+       "ro": "no"
+      },
+      {
+       "hz": "ところ",
+       "py": "ところ",
+       "en": "place; point",
+       "rb": [
+        [
+         "ところ",
+         ""
+        ]
+       ],
+       "ro": "tokoro"
+      },
+      {
+       "hz": "で",
+       "py": "で",
+       "en": "at; by; with",
+       "rb": [
+        [
+         "で",
+         ""
+        ]
+       ],
+       "ro": "de"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "もう",
+       "py": "もう",
+       "en": "already; any more",
+       "rb": [
+        [
+         "もう",
+         ""
+        ]
+       ],
+       "ro": "mou"
+      },
+      {
+       "hz": "話せません",
+       "py": "はなせません",
+       "en": "cannot speak",
+       "rb": [
+        [
+         "話",
+         "はな"
+        ],
+        [
+         "せません",
+         ""
+        ]
+       ],
+       "ro": "hanasemasen"
+      },
+      {
+       "hz": "でした",
+       "py": "でした",
+       "en": "was (polite)",
+       "rb": [
+        [
+         "でした",
+         ""
+        ]
+       ],
+       "ro": "deshita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "At the top the wind was cool and it felt wonderful.",
+     "tokens": [
+      {
+       "hz": "上",
+       "py": "うえ",
+       "en": "above; the top",
+       "rb": [
+        [
+         "上",
+         "うえ"
+        ]
+       ],
+       "ro": "ue"
+      },
+      {
+       "hz": "に",
+       "py": "に",
+       "en": "to; at; in",
+       "rb": [
+        [
+         "に",
+         ""
+        ]
+       ],
+       "ro": "ni"
+      },
+      {
+       "hz": "ついたら",
+       "py": "ついたら",
+       "en": "when I arrived",
+       "rb": [
+        [
+         "ついたら",
+         ""
+        ]
+       ],
+       "ro": "tsuitara"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "風",
+       "py": "かぜ",
+       "en": "wind",
+       "rb": [
+        [
+         "風",
+         "かぜ"
+        ]
+       ],
+       "ro": "kaze"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "つめたくて",
+       "py": "つめたくて",
+       "en": "cold (and)",
+       "rb": [
+        [
+         "つめたくて",
+         ""
+        ]
+       ],
+       "ro": "tsumetakute"
+      },
+      {
+       "hz": "気持ち",
+       "py": "きもち",
+       "en": "feeling",
+       "rb": [
+        [
+         "気持",
+         "きも"
+        ],
+        [
+         "ち",
+         ""
+        ]
+       ],
+       "ro": "kimochi"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "よかった",
+       "py": "よかった",
+       "en": "was good",
+       "rb": [
+        [
+         "よかった",
+         ""
+        ]
+       ],
+       "ro": "yokatta"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The town looked small below.",
+     "tokens": [
+      {
+       "hz": "町",
+       "py": "まち",
+       "en": "town",
+       "rb": [
+        [
+         "町",
+         "まち"
+        ]
+       ],
+       "ro": "machi"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "小さく",
+       "py": "ちいさく",
+       "en": "small (adverbial)",
+       "rb": [
+        [
+         "小",
+         "ちい"
+        ],
+        [
+         "さく",
+         ""
+        ]
+       ],
+       "ro": "chiisaku"
+      },
+      {
+       "hz": "見えました",
+       "py": "みえました",
+       "en": "looked; could be seen",
+       "rb": [
+        [
+         "見",
+         "み"
+        ],
+        [
+         "えました",
+         ""
+        ]
+       ],
+       "ro": "miemashita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n4s-07",
+   "title": "さいふをわすれた",
+   "title_en": "Forgetting My Wallet",
+   "tags": [
+    "problems"
+   ],
+   "sentences": [
+    {
+     "en": "Yesterday I ate at a restaurant.",
+     "tokens": [
+      {
+       "hz": "きのう",
+       "py": "きのう",
+       "en": "yesterday",
+       "rb": [
+        [
+         "きのう",
+         ""
+        ]
+       ],
+       "ro": "kinou"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "レストラン",
+       "py": "レストラン",
+       "en": "restaurant",
+       "rb": [
+        [
+         "レストラン",
+         ""
+        ]
+       ],
+       "ro": "resutoran"
+      },
+      {
+       "hz": "で",
+       "py": "で",
+       "en": "at; by; with",
+       "rb": [
+        [
+         "で",
+         ""
+        ]
+       ],
+       "ro": "de"
+      },
+      {
+       "hz": "ごはん",
+       "py": "ごはん",
+       "en": "a meal; rice",
+       "rb": [
+        [
+         "ごはん",
+         ""
+        ]
+       ],
+       "ro": "gohan"
+      },
+      {
+       "hz": "を",
+       "py": "を",
+       "en": "(object particle)",
+       "rb": [
+        [
+         "を",
+         ""
+        ]
+       ],
+       "ro": "o"
+      },
+      {
+       "hz": "食べました",
+       "py": "たべました",
+       "en": "ate",
+       "rb": [
+        [
+         "食",
+         "た"
+        ],
+        [
+         "べました",
+         ""
+        ]
+       ],
+       "ro": "tabemashita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "When it came time to pay, I noticed my wallet was gone.",
+     "tokens": [
+      {
+       "hz": "お金",
+       "py": "おかね",
+       "en": "money",
+       "rb": [
+        [
+         "お",
+         ""
+        ],
+        [
+         "金",
+         "かね"
+        ]
+       ],
+       "ro": "okane"
+      },
+      {
+       "hz": "を",
+       "py": "を",
+       "en": "(object particle)",
+       "rb": [
+        [
+         "を",
+         ""
+        ]
+       ],
+       "ro": "o"
+      },
+      {
+       "hz": "はらう",
+       "py": "はらう",
+       "en": "to pay",
+       "rb": [
+        [
+         "はらう",
+         ""
+        ]
+       ],
+       "ro": "harau"
+      },
+      {
+       "hz": "とき",
+       "py": "とき",
+       "en": "when",
+       "rb": [
+        [
+         "とき",
+         ""
+        ]
+       ],
+       "ro": "toki"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "さいふ",
+       "py": "さいふ",
+       "en": "wallet",
+       "rb": [
+        [
+         "さいふ",
+         ""
+        ]
+       ],
+       "ro": "saifu"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "ない",
+       "py": "ない",
+       "en": "not; there isn't",
+       "rb": [
+        [
+         "ない",
+         ""
+        ]
+       ],
+       "ro": "nai"
+      },
+      {
+       "hz": "こと",
+       "py": "こと",
+       "en": "thing; matter",
+       "rb": [
+        [
+         "こと",
+         ""
+        ]
+       ],
+       "ro": "koto"
+      },
+      {
+       "hz": "に",
+       "py": "に",
+       "en": "to; at; in",
+       "rb": [
+        [
+         "に",
+         ""
+        ]
+       ],
+       "ro": "ni"
+      },
+      {
+       "hz": "気づきました",
+       "py": "きづきました",
+       "en": "noticed",
+       "rb": [
+        [
+         "気",
+         "き"
+        ],
+        [
+         "づきました",
+         ""
+        ]
+       ],
+       "ro": "kizukimashita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I was terribly embarrassed.",
+     "tokens": [
+      {
+       "hz": "とても",
+       "py": "とても",
+       "en": "very",
+       "rb": [
+        [
+         "とても",
+         ""
+        ]
+       ],
+       "ro": "totemo"
+      },
+      {
+       "hz": "はずかしかった",
+       "py": "はずかしかった",
+       "en": "was embarrassing",
+       "rb": [
+        [
+         "はずかしかった",
+         ""
+        ]
+       ],
+       "ro": "hazukashikatta"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The person at the shop said tomorrow would be fine.",
+     "tokens": [
+      {
+       "hz": "店",
+       "py": "みせ",
+       "en": "shop",
+       "rb": [
+        [
+         "店",
+         "みせ"
+        ]
+       ],
+       "ro": "mise"
+      },
+      {
+       "hz": "の",
+       "py": "の",
+       "en": "(possessive; nominalizer)",
+       "rb": [
+        [
+         "の",
+         ""
+        ]
+       ],
+       "ro": "no"
+      },
+      {
+       "hz": "人",
+       "py": "ひと",
+       "en": "person",
+       "rb": [
+        [
+         "人",
+         "ひと"
+        ]
+       ],
+       "ro": "hito"
+      },
+      {
+       "hz": "は",
+       "py": "は",
+       "en": "(topic particle)",
+       "rb": [
+        [
+         "は",
+         ""
+        ]
+       ],
+       "ro": "ha"
+      },
+      {
+       "hz": "「"
+      },
+      {
+       "hz": "あした",
+       "py": "あした",
+       "en": "tomorrow",
+       "rb": [
+        [
+         "あした",
+         ""
+        ]
+       ],
+       "ro": "ashita"
+      },
+      {
+       "hz": "で",
+       "py": "で",
+       "en": "at; by; with",
+       "rb": [
+        [
+         "で",
+         ""
+        ]
+       ],
+       "ro": "de"
+      },
+      {
+       "hz": "いい",
+       "py": "いい",
+       "en": "good; fine",
+       "rb": [
+        [
+         "いい",
+         ""
+        ]
+       ],
+       "ro": "ii"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "よ",
+       "py": "よ",
+       "en": "(emphasis)",
+       "rb": [
+        [
+         "よ",
+         ""
+        ]
+       ],
+       "ro": "yo"
+      },
+      {
+       "hz": "」"
+      },
+      {
+       "hz": "と",
+       "py": "と",
+       "en": "and; with; that (quoting)",
+       "rb": [
+        [
+         "と",
+         ""
+        ]
+       ],
+       "ro": "to"
+      },
+      {
+       "hz": "言いました",
+       "py": "いいました",
+       "en": "said",
+       "rb": [
+        [
+         "言",
+         "い"
+        ],
+        [
+         "いました",
+         ""
+        ]
+       ],
+       "ro": "iimashita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I went there first thing this morning.",
+     "tokens": [
+      {
+       "hz": "今朝",
+       "py": "けさ",
+       "en": "this morning",
+       "rb": [
+        [
+         "今朝",
+         "けさ"
+        ]
+       ],
+       "ro": "kesa"
+      },
+      {
+       "hz": "いちばん",
+       "py": "いちばん",
+       "en": "most; best",
+       "rb": [
+        [
+         "いちばん",
+         ""
+        ]
+       ],
+       "ro": "ichiban"
+      },
+      {
+       "hz": "に",
+       "py": "に",
+       "en": "to; at; in",
+       "rb": [
+        [
+         "に",
+         ""
+        ]
+       ],
+       "ro": "ni"
+      },
+      {
+       "hz": "行きました",
+       "py": "いきました",
+       "en": "went",
+       "rb": [
+        [
+         "行",
+         "い"
+        ],
+        [
+         "きました",
+         ""
+        ]
+       ],
+       "ro": "ikimashita"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n4s-08",
+   "title": "秋",
+   "title_en": "Autumn",
+   "tags": [
+    "weather"
+   ],
+   "sentences": [
+    {
+     "en": "Autumn is my favourite season.",
+     "tokens": [
+      {
+       "hz": "わたし",
+       "py": "わたし",
+       "en": "I; me",
+       "rb": [
+        [
+         "わたし",
+         ""
+        ]
+       ],
+       "ro": "watashi"
+      },
+      {
+       "hz": "は",
+       "py": "は",
+       "en": "(topic particle)",
+       "rb": [
+        [
+         "は",
+         ""
+        ]
+       ],
+       "ro": "ha"
+      },
+      {
+       "hz": "秋",
+       "py": "あき",
+       "en": "autumn",
+       "rb": [
+        [
+         "秋",
+         "あき"
+        ]
+       ],
+       "ro": "aki"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "いちばん",
+       "py": "いちばん",
+       "en": "most; best",
+       "rb": [
+        [
+         "いちばん",
+         ""
+        ]
+       ],
+       "ro": "ichiban"
+      },
+      {
+       "hz": "好き",
+       "py": "すき",
+       "en": "liked; fond of",
+       "rb": [
+        [
+         "好",
+         "す"
+        ],
+        [
+         "き",
+         ""
+        ]
+       ],
+       "ro": "suki"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "It's neither hot nor cold.",
+     "tokens": [
+      {
+       "hz": "あつく",
+       "py": "あつく",
+       "en": "hot",
+       "rb": [
+        [
+         "あつく",
+         ""
+        ]
+       ],
+       "ro": "atsuku"
+      },
+      {
+       "hz": "ない",
+       "py": "ない",
+       "en": "not; there isn't",
+       "rb": [
+        [
+         "ない",
+         ""
+        ]
+       ],
+       "ro": "nai"
+      },
+      {
+       "hz": "し",
+       "py": "し",
+       "en": "and (listing reasons)",
+       "rb": [
+        [
+         "し",
+         ""
+        ]
+       ],
+       "ro": "shi"
+      },
+      {
+       "hz": "、"
+      },
+      {
+       "hz": "さむく",
+       "py": "さむく",
+       "en": "cold",
+       "rb": [
+        [
+         "さむく",
+         ""
+        ]
+       ],
+       "ro": "samuku"
+      },
+      {
+       "hz": "ない",
+       "py": "ない",
+       "en": "not; there isn't",
+       "rb": [
+        [
+         "ない",
+         ""
+        ]
+       ],
+       "ro": "nai"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "The trees turn red and yellow.",
+     "tokens": [
+      {
+       "hz": "木",
+       "py": "き",
+       "en": "tree",
+       "rb": [
+        [
+         "木",
+         "き"
+        ]
+       ],
+       "ro": "ki"
+      },
+      {
+       "hz": "の",
+       "py": "の",
+       "en": "(possessive; nominalizer)",
+       "rb": [
+        [
+         "の",
+         ""
+        ]
+       ],
+       "ro": "no"
+      },
+      {
+       "hz": "色",
+       "py": "いろ",
+       "en": "colour",
+       "rb": [
+        [
+         "色",
+         "いろ"
+        ]
+       ],
+       "ro": "iro"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "赤",
+       "py": "あか",
+       "en": "red",
+       "rb": [
+        [
+         "赤",
+         "あか"
+        ]
+       ],
+       "ro": "aka"
+      },
+      {
+       "hz": "や",
+       "py": "や",
+       "en": "and (among others)",
+       "rb": [
+        [
+         "や",
+         ""
+        ]
+       ],
+       "ro": "ya"
+      },
+      {
+       "hz": "黄色",
+       "py": "きいろ",
+       "en": "yellow",
+       "rb": [
+        [
+         "黄色",
+         "きいろ"
+        ]
+       ],
+       "ro": "kiiro"
+      },
+      {
+       "hz": "に",
+       "py": "に",
+       "en": "to; at; in",
+       "rb": [
+        [
+         "に",
+         ""
+        ]
+       ],
+       "ro": "ni"
+      },
+      {
+       "hz": "なります",
+       "py": "なります",
+       "en": "to become",
+       "rb": [
+        [
+         "なります",
+         ""
+        ]
+       ],
+       "ro": "narimasu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "I like walking underneath them.",
+     "tokens": [
+      {
+       "hz": "その",
+       "py": "その",
+       "en": "that",
+       "rb": [
+        [
+         "その",
+         ""
+        ]
+       ],
+       "ro": "sono"
+      },
+      {
+       "hz": "下",
+       "py": "した",
+       "en": "under; below",
+       "rb": [
+        [
+         "下",
+         "した"
+        ]
+       ],
+       "ro": "shita"
+      },
+      {
+       "hz": "を",
+       "py": "を",
+       "en": "(object particle)",
+       "rb": [
+        [
+         "を",
+         ""
+        ]
+       ],
+       "ro": "o"
+      },
+      {
+       "hz": "歩く",
+       "py": "あるく",
+       "en": "to walk",
+       "rb": [
+        [
+         "歩",
+         "ある"
+        ],
+        [
+         "く",
+         ""
+        ]
+       ],
+       "ro": "aruku"
+      },
+      {
+       "hz": "の",
+       "py": "の",
+       "en": "(possessive; nominalizer)",
+       "rb": [
+        [
+         "の",
+         ""
+        ]
+       ],
+       "ro": "no"
+      },
+      {
+       "hz": "が",
+       "py": "が",
+       "en": "(subject particle)",
+       "rb": [
+        [
+         "が",
+         ""
+        ]
+       ],
+       "ro": "ga"
+      },
+      {
+       "hz": "好き",
+       "py": "すき",
+       "en": "liked; fond of",
+       "rb": [
+        [
+         "好",
+         "す"
+        ],
+        [
+         "き",
+         ""
+        ]
+       ],
+       "ro": "suki"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    },
+    {
+     "en": "But autumn is very short.",
+     "tokens": [
+      {
+       "hz": "でも",
+       "py": "でも",
+       "en": "but",
+       "rb": [
+        [
+         "でも",
+         ""
+        ]
+       ],
+       "ro": "demo"
+      },
+      {
+       "hz": "秋",
+       "py": "あき",
+       "en": "autumn",
+       "rb": [
+        [
+         "秋",
+         "あき"
+        ]
+       ],
+       "ro": "aki"
+      },
+      {
+       "hz": "は",
+       "py": "は",
+       "en": "(topic particle)",
+       "rb": [
+        [
+         "は",
+         ""
+        ]
+       ],
+       "ro": "ha"
+      },
+      {
+       "hz": "とても",
+       "py": "とても",
+       "en": "very",
+       "rb": [
+        [
+         "とても",
+         ""
+        ]
+       ],
+       "ro": "totemo"
+      },
+      {
+       "hz": "みじかい",
+       "py": "みじかい",
+       "en": "short",
+       "rb": [
+        [
+         "みじかい",
+         ""
+        ]
+       ],
+       "ro": "mijikai"
+      },
+      {
+       "hz": "です",
+       "py": "です",
+       "en": "is (polite)",
+       "rb": [
+        [
+         "です",
+         ""
+        ]
+       ],
+       "ro": "desu"
+      },
+      {
+       "hz": "。"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
