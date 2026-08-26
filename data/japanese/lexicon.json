@@ -1,0 +1,1449 @@
+{
+ "note": "surface -> kana reading + short gloss. Furigana placement and romaji are derived from these by tools/reader/langs/japanese.py. 'base' gives the dictionary form and is used only for level coverage: sources use polite forms (食べます) while the word lists carry 食べる.",
+ "words": {
+  "あした": {
+   "py": "あした",
+   "en": "tomorrow"
+  },
+  "あたたかくて": {
+   "py": "あたたかくて",
+   "en": "warm (and)",
+   "base": "あたたかい"
+  },
+  "あつく": {
+   "py": "あつく",
+   "en": "hot",
+   "base": "あつい"
+  },
+  "あの": {
+   "py": "あの",
+   "en": "that (over there)"
+  },
+  "あまり": {
+   "py": "あまり",
+   "en": "not much (with a negative)"
+  },
+  "あめ": {
+   "py": "あめ",
+   "en": "rain"
+  },
+  "あらいました": {
+   "py": "あらいました",
+   "en": "washed",
+   "base": "あらう"
+  },
+  "ありがとう": {
+   "py": "ありがとう",
+   "en": "thank you"
+  },
+  "あります": {
+   "py": "あります",
+   "en": "there is",
+   "base": "ある"
+  },
+  "いい": {
+   "py": "いい",
+   "en": "good; fine",
+   "base": "良い"
+  },
+  "いいえ": {
+   "py": "いいえ",
+   "en": "no"
+  },
+  "いかが": {
+   "py": "いかが",
+   "en": "how about"
+  },
+  "いくら": {
+   "py": "いくら",
+   "en": "how much"
+  },
+  "いそがしすぎる": {
+   "py": "いそがしすぎる",
+   "en": "too busy",
+   "base": "いそがしい"
+  },
+  "いたい": {
+   "py": "いたい",
+   "en": "painful; sore"
+  },
+  "いちばん": {
+   "py": "いちばん",
+   "en": "most; best"
+  },
+  "いっしょ": {
+   "py": "いっしょ",
+   "en": "together"
+  },
+  "いつも": {
+   "py": "いつも",
+   "en": "always"
+  },
+  "います": {
+   "py": "います",
+   "en": "there is (animate)",
+   "base": "いる"
+  },
+  "いません": {
+   "py": "いません",
+   "en": "there isn't (animate)",
+   "base": "いる"
+  },
+  "いろいろ": {
+   "py": "いろいろ",
+   "en": "various things"
+  },
+  "うごきません": {
+   "py": "うごきません",
+   "en": "doesn't move",
+   "base": "うごく"
+  },
+  "うち": {
+   "py": "うち",
+   "en": "home"
+  },
+  "うるさかった": {
+   "py": "うるさかった",
+   "en": "was noisy",
+   "base": "うるさい"
+  },
+  "ええ": {
+   "py": "ええ",
+   "en": "yes"
+  },
+  "えき": {
+   "py": "えき",
+   "en": "station"
+  },
+  "おいしかった": {
+   "py": "おいしかった",
+   "en": "was delicious",
+   "base": "おいしい"
+  },
+  "おきたら": {
+   "py": "おきたら",
+   "en": "when I got up",
+   "base": "おきる"
+  },
+  "おきます": {
+   "py": "おきます",
+   "en": "to get up",
+   "base": "おきる"
+  },
+  "おそい": {
+   "py": "おそい",
+   "en": "slow; late"
+  },
+  "おなか": {
+   "py": "おなか",
+   "en": "stomach"
+  },
+  "おふろ": {
+   "py": "おふろ",
+   "en": "bath"
+  },
+  "おぼえて": {
+   "py": "おぼえて",
+   "en": "remember",
+   "base": "おぼえる"
+  },
+  "おぼえます": {
+   "py": "おぼえます",
+   "en": "to remember",
+   "base": "おぼえる"
+  },
+  "おもしろそう": {
+   "py": "おもしろそう",
+   "en": "looks interesting",
+   "base": "おもしろい"
+  },
+  "お茶": {
+   "py": "おちゃ",
+   "en": "tea"
+  },
+  "お金": {
+   "py": "おかね",
+   "en": "money"
+  },
+  "お願いします": {
+   "py": "おねがいします",
+   "en": "please"
+  },
+  "か": {
+   "py": "か",
+   "en": "(question particle)"
+  },
+  "かえって": {
+   "py": "かえって",
+   "en": "go home and ~",
+   "base": "かえる"
+  },
+  "かえります": {
+   "py": "かえります",
+   "en": "to go home",
+   "base": "かえる"
+  },
+  "かさ": {
+   "py": "かさ",
+   "en": "umbrella"
+  },
+  "から": {
+   "py": "から",
+   "en": "from; because"
+  },
+  "が": {
+   "py": "が",
+   "en": "(subject particle)"
+  },
+  "きっぷ": {
+   "py": "きっぷ",
+   "en": "ticket"
+  },
+  "きつかった": {
+   "py": "きつかった",
+   "en": "was hard going",
+   "base": "きつい"
+  },
+  "きのう": {
+   "py": "きのう",
+   "en": "yesterday"
+  },
+  "きらい": {
+   "py": "きらい",
+   "en": "disliked"
+  },
+  "きれい": {
+   "py": "きれい",
+   "en": "pretty; clean"
+  },
+  "くすり": {
+   "py": "くすり",
+   "en": "medicine"
+  },
+  "ください": {
+   "py": "ください",
+   "en": "please give me"
+  },
+  "くらい": {
+   "py": "くらい",
+   "en": "about"
+  },
+  "くれました": {
+   "py": "くれました",
+   "en": "gave me",
+   "base": "くれる"
+  },
+  "くろい": {
+   "py": "くろい",
+   "en": "black"
+  },
+  "けいたい": {
+   "py": "けいたい",
+   "en": "mobile phone"
+  },
+  "こうえん": {
+   "py": "こうえん",
+   "en": "park"
+  },
+  "こうかん": {
+   "py": "こうかん",
+   "en": "exchange"
+  },
+  "ここ": {
+   "py": "ここ",
+   "en": "here"
+  },
+  "こと": {
+   "py": "こと",
+   "en": "thing; matter"
+  },
+  "この": {
+   "py": "この",
+   "en": "this"
+  },
+  "これ": {
+   "py": "これ",
+   "en": "this one"
+  },
+  "こわれました": {
+   "py": "こわれました",
+   "en": "broke",
+   "base": "こわれる"
+  },
+  "ございました": {
+   "py": "ございました",
+   "en": "(polite ending, past)"
+  },
+  "ございます": {
+   "py": "ございます",
+   "en": "(polite ending)"
+  },
+  "ごはん": {
+   "py": "ごはん",
+   "en": "a meal; rice"
+  },
+  "さいふ": {
+   "py": "さいふ",
+   "en": "wallet"
+  },
+  "さびしかった": {
+   "py": "さびしかった",
+   "en": "was lonely",
+   "base": "さびしい"
+  },
+  "さびしく": {
+   "py": "さびしく",
+   "en": "lonely",
+   "base": "さびしい"
+  },
+  "さむく": {
+   "py": "さむく",
+   "en": "cold",
+   "base": "さむい"
+  },
+  "さん": {
+   "py": "さん",
+   "en": "Mr.; Ms."
+  },
+  "さんぽ": {
+   "py": "さんぽ",
+   "en": "a walk"
+  },
+  "し": {
+   "py": "し",
+   "en": "and (listing reasons)"
+  },
+  "しずか": {
+   "py": "しずか",
+   "en": "quiet"
+  },
+  "しました": {
+   "py": "しました",
+   "en": "did",
+   "base": "する"
+  },
+  "します": {
+   "py": "します",
+   "en": "to do",
+   "base": "する"
+  },
+  "しんせつ": {
+   "py": "しんせつ",
+   "en": "kind"
+  },
+  "じゃあ": {
+   "py": "じゃあ",
+   "en": "well then"
+  },
+  "すみません": {
+   "py": "すみません",
+   "en": "excuse me; sorry"
+  },
+  "すわって": {
+   "py": "すわって",
+   "en": "sit down",
+   "base": "すわる"
+  },
+  "そう": {
+   "py": "そう",
+   "en": "so; that way"
+  },
+  "そと": {
+   "py": "そと",
+   "en": "outside"
+  },
+  "その": {
+   "py": "その",
+   "en": "that"
+  },
+  "それ": {
+   "py": "それ",
+   "en": "that one"
+  },
+  "それから": {
+   "py": "それから",
+   "en": "and then"
+  },
+  "たくさん": {
+   "py": "たくさん",
+   "en": "a lot"
+  },
+  "たんじょうび": {
+   "py": "たんじょうび",
+   "en": "birthday"
+  },
+  "だ": {
+   "py": "だ",
+   "en": "is (plain)"
+  },
+  "だから": {
+   "py": "だから",
+   "en": "so"
+  },
+  "ついたら": {
+   "py": "ついたら",
+   "en": "when I arrived",
+   "base": "つく"
+  },
+  "つめたかった": {
+   "py": "つめたかった",
+   "en": "was cold",
+   "base": "つめたい"
+  },
+  "つめたくて": {
+   "py": "つめたくて",
+   "en": "cold (and)",
+   "base": "つめたい"
+  },
+  "で": {
+   "py": "で",
+   "en": "at; by; with"
+  },
+  "できます": {
+   "py": "できます",
+   "en": "can do",
+   "base": "できる"
+  },
+  "でした": {
+   "py": "でした",
+   "en": "was (polite)"
+  },
+  "でしょう": {
+   "py": "でしょう",
+   "en": "probably"
+  },
+  "です": {
+   "py": "です",
+   "en": "is (polite)"
+  },
+  "でも": {
+   "py": "でも",
+   "en": "but"
+  },
+  "と": {
+   "py": "と",
+   "en": "and; with; that (quoting)"
+  },
+  "とき": {
+   "py": "とき",
+   "en": "when"
+  },
+  "ときどき": {
+   "py": "ときどき",
+   "en": "sometimes"
+  },
+  "ところ": {
+   "py": "ところ",
+   "en": "place; point"
+  },
+  "とても": {
+   "py": "とても",
+   "en": "very"
+  },
+  "となり": {
+   "py": "となり",
+   "en": "next door"
+  },
+  "とりたい": {
+   "py": "とりたい",
+   "en": "want to take",
+   "base": "とる"
+  },
+  "どう": {
+   "py": "どう",
+   "en": "how"
+  },
+  "どうして": {
+   "py": "どうして",
+   "en": "why"
+  },
+  "どうぞ": {
+   "py": "どうぞ",
+   "en": "please; go ahead"
+  },
+  "どこ": {
+   "py": "どこ",
+   "en": "where"
+  },
+  "どんな": {
+   "py": "どんな",
+   "en": "what kind of"
+  },
+  "な": {
+   "py": "な",
+   "en": "(na-adjective ending)"
+  },
+  "ない": {
+   "py": "ない",
+   "en": "not; there isn't"
+  },
+  "なら": {
+   "py": "なら",
+   "en": "if that's so"
+  },
+  "なりました": {
+   "py": "なりました",
+   "en": "became",
+   "base": "なる"
+  },
+  "なります": {
+   "py": "なります",
+   "en": "to become",
+   "base": "なる"
+  },
+  "なれました": {
+   "py": "なれました",
+   "en": "got used to it",
+   "base": "なれる"
+  },
+  "に": {
+   "py": "に",
+   "en": "to; at; in"
+  },
+  "ぬれました": {
+   "py": "ぬれました",
+   "en": "got wet",
+   "base": "ぬれる"
+  },
+  "ね": {
+   "py": "ね",
+   "en": "isn't it"
+  },
+  "ねこ": {
+   "py": "ねこ",
+   "en": "cat"
+  },
+  "ねつ": {
+   "py": "ねつ",
+   "en": "fever"
+  },
+  "ねて": {
+   "py": "ねて",
+   "en": "sleeping",
+   "base": "ねる"
+  },
+  "ねます": {
+   "py": "ねます",
+   "en": "to sleep",
+   "base": "ねる"
+  },
+  "ねむれます": {
+   "py": "ねむれます",
+   "en": "can sleep",
+   "base": "ねむる"
+  },
+  "ねむれません": {
+   "py": "ねむれません",
+   "en": "cannot sleep",
+   "base": "ねむる"
+  },
+  "の": {
+   "py": "の",
+   "en": "(possessive; nominalizer)"
+  },
+  "ので": {
+   "py": "ので",
+   "en": "because"
+  },
+  "のぼりました": {
+   "py": "のぼりました",
+   "en": "climbed",
+   "base": "のぼる"
+  },
+  "は": {
+   "py": "は",
+   "en": "(topic particle)"
+  },
+  "はい": {
+   "py": "はい",
+   "en": "yes"
+  },
+  "はじめ": {
+   "py": "はじめ",
+   "en": "the beginning"
+  },
+  "はじめて": {
+   "py": "はじめて",
+   "en": "for the first time"
+  },
+  "はじめまして": {
+   "py": "はじめまして",
+   "en": "how do you do"
+  },
+  "はずかしかった": {
+   "py": "はずかしかった",
+   "en": "was embarrassing",
+   "base": "はずかしい"
+  },
+  "はたらきたい": {
+   "py": "はたらきたい",
+   "en": "want to work",
+   "base": "はたらく"
+  },
+  "はたらきました": {
+   "py": "はたらきました",
+   "en": "worked",
+   "base": "はたらく"
+  },
+  "はらう": {
+   "py": "はらう",
+   "en": "to pay"
+  },
+  "ひる": {
+   "py": "ひる",
+   "en": "midday"
+  },
+  "ひろく": {
+   "py": "ひろく",
+   "en": "spacious",
+   "base": "ひろい"
+  },
+  "びょうき": {
+   "py": "びょうき",
+   "en": "illness"
+  },
+  "ふった": {
+   "py": "ふった",
+   "en": "fell (of rain or snow)",
+   "base": "ふる"
+  },
+  "へや": {
+   "py": "へや",
+   "en": "room"
+  },
+  "ほう": {
+   "py": "ほう",
+   "en": "the ~ side; rather"
+  },
+  "まいあさ": {
+   "py": "まいあさ",
+   "en": "every morning"
+  },
+  "まいにち": {
+   "py": "まいにち",
+   "en": "every day"
+  },
+  "まいばん": {
+   "py": "まいばん",
+   "en": "every night"
+  },
+  "まがって": {
+   "py": "まがって",
+   "en": "turn",
+   "base": "まがる"
+  },
+  "まず": {
+   "py": "まず",
+   "en": "first"
+  },
+  "また": {
+   "py": "また",
+   "en": "again"
+  },
+  "まだ": {
+   "py": "まだ",
+   "en": "still; yet"
+  },
+  "まっすぐ": {
+   "py": "まっすぐ",
+   "en": "straight ahead"
+  },
+  "まで": {
+   "py": "まで",
+   "en": "as far as; until"
+  },
+  "みじかい": {
+   "py": "みじかい",
+   "en": "short"
+  },
+  "みせ": {
+   "py": "みせ",
+   "en": "shop"
+  },
+  "みなさん": {
+   "py": "みなさん",
+   "en": "everyone (polite)"
+  },
+  "みんな": {
+   "py": "みんな",
+   "en": "everyone"
+  },
+  "も": {
+   "py": "も",
+   "en": "also; too"
+  },
+  "もう": {
+   "py": "もう",
+   "en": "already; any more"
+  },
+  "もしもし": {
+   "py": "もしもし",
+   "en": "hello (on the phone)"
+  },
+  "や": {
+   "py": "や",
+   "en": "and (among others)"
+  },
+  "ゆき": {
+   "py": "ゆき",
+   "en": "snow"
+  },
+  "ゆっくり": {
+   "py": "ゆっくり",
+   "en": "slowly"
+  },
+  "よ": {
+   "py": "よ",
+   "en": "(emphasis)"
+  },
+  "よかった": {
+   "py": "よかった",
+   "en": "was good",
+   "base": "良い"
+  },
+  "よく": {
+   "py": "よく",
+   "en": "well; often"
+  },
+  "よる": {
+   "py": "よる",
+   "en": "night"
+  },
+  "よろしく": {
+   "py": "よろしく",
+   "en": "regards; please be good to me"
+  },
+  "りんご": {
+   "py": "りんご",
+   "en": "apple"
+  },
+  "わすれました": {
+   "py": "わすれました",
+   "en": "forgot",
+   "base": "わすれる"
+  },
+  "わたし": {
+   "py": "わたし",
+   "en": "I; me"
+  },
+  "を": {
+   "py": "を",
+   "en": "(object particle)"
+  },
+  "アメリカ": {
+   "py": "アメリカ",
+   "en": "America"
+  },
+  "クロ": {
+   "py": "クロ",
+   "en": "Kuro (cat's name)"
+  },
+  "ケーキ": {
+   "py": "ケーキ",
+   "en": "cake"
+  },
+  "コップ": {
+   "py": "コップ",
+   "en": "cup; glass"
+  },
+  "コーヒー": {
+   "py": "コーヒー",
+   "en": "coffee"
+  },
+  "シロ": {
+   "py": "シロ",
+   "en": "Shiro (dog's name)"
+  },
+  "パン": {
+   "py": "パン",
+   "en": "bread"
+  },
+  "ビル": {
+   "py": "ビル",
+   "en": "building"
+  },
+  "マーティン": {
+   "py": "マーティン",
+   "en": "Martin (name)"
+  },
+  "メニュー": {
+   "py": "メニュー",
+   "en": "menu"
+  },
+  "メール": {
+   "py": "メール",
+   "en": "email"
+  },
+  "レストラン": {
+   "py": "レストラン",
+   "en": "restaurant"
+  },
+  "一か月": {
+   "py": "いっかげつ",
+   "en": "one month"
+  },
+  "一人": {
+   "py": "ひとり",
+   "en": "alone; one person"
+  },
+  "一匹": {
+   "py": "いっぴき",
+   "en": "one (small animal)"
+  },
+  "一枚": {
+   "py": "いちまい",
+   "en": "one (flat thing)"
+  },
+  "七万円": {
+   "py": "ななまんえん",
+   "en": "seventy thousand yen"
+  },
+  "七時": {
+   "py": "しちじ",
+   "en": "seven o'clock"
+  },
+  "三千円": {
+   "py": "さんぜんえん",
+   "en": "three thousand yen"
+  },
+  "三回": {
+   "py": "さんかい",
+   "en": "three times"
+  },
+  "三日": {
+   "py": "みっか",
+   "en": "three days"
+  },
+  "三時": {
+   "py": "さんじ",
+   "en": "three o'clock"
+  },
+  "上": {
+   "py": "うえ",
+   "en": "above; the top"
+  },
+  "下": {
+   "py": "した",
+   "en": "under; below"
+  },
+  "九時": {
+   "py": "くじ",
+   "en": "nine o'clock"
+  },
+  "二つ": {
+   "py": "ふたつ",
+   "en": "two (things)"
+  },
+  "二十歳": {
+   "py": "はたち",
+   "en": "twenty years old"
+  },
+  "二年": {
+   "py": "にねん",
+   "en": "two years"
+  },
+  "二日": {
+   "py": "ふつか",
+   "en": "two days"
+  },
+  "二時": {
+   "py": "にじ",
+   "en": "two o'clock"
+  },
+  "五分": {
+   "py": "ごふん",
+   "en": "five minutes"
+  },
+  "五百円": {
+   "py": "ごひゃくえん",
+   "en": "five hundred yen"
+  },
+  "京都": {
+   "py": "きょうと",
+   "en": "Kyoto"
+  },
+  "人": {
+   "py": "ひと",
+   "en": "person"
+  },
+  "今": {
+   "py": "いま",
+   "en": "now"
+  },
+  "今日": {
+   "py": "きょう",
+   "en": "today"
+  },
+  "今朝": {
+   "py": "けさ",
+   "en": "this morning"
+  },
+  "仕事": {
+   "py": "しごと",
+   "en": "work; job"
+  },
+  "休み": {
+   "py": "やすみ",
+   "en": "time off; a holiday"
+  },
+  "休みます": {
+   "py": "やすみます",
+   "en": "to rest",
+   "base": "休む"
+  },
+  "休んだ": {
+   "py": "やすんだ",
+   "en": "rested",
+   "base": "休む"
+  },
+  "休んで": {
+   "py": "やすんで",
+   "en": "rest and ~",
+   "base": "休む"
+  },
+  "会いたく": {
+   "py": "あいたく",
+   "en": "want to meet",
+   "base": "会う"
+  },
+  "会いましょう": {
+   "py": "あいましょう",
+   "en": "let's meet",
+   "base": "会う"
+  },
+  "会社": {
+   "py": "かいしゃ",
+   "en": "company"
+  },
+  "住んで": {
+   "py": "すんで",
+   "en": "living",
+   "base": "住む"
+  },
+  "何": {
+   "py": "なに",
+   "en": "what"
+  },
+  "何日": {
+   "py": "なんにち",
+   "en": "how many days"
+  },
+  "何時": {
+   "py": "なんじ",
+   "en": "what time"
+  },
+  "作りました": {
+   "py": "つくりました",
+   "en": "made",
+   "base": "作る"
+  },
+  "使います": {
+   "py": "つかいます",
+   "en": "to use",
+   "base": "使う"
+  },
+  "元気": {
+   "py": "げんき",
+   "en": "well; in good spirits"
+  },
+  "先生": {
+   "py": "せんせい",
+   "en": "teacher; doctor"
+  },
+  "先週": {
+   "py": "せんしゅう",
+   "en": "last week"
+  },
+  "入って": {
+   "py": "はいって",
+   "en": "enter and ~",
+   "base": "入る"
+  },
+  "入りました": {
+   "py": "はいりました",
+   "en": "entered",
+   "base": "入る"
+  },
+  "入ります": {
+   "py": "はいります",
+   "en": "to enter",
+   "base": "入る"
+  },
+  "六時": {
+   "py": "ろくじ",
+   "en": "six o'clock"
+  },
+  "出ます": {
+   "py": "でます",
+   "en": "to leave",
+   "base": "出る"
+  },
+  "前": {
+   "py": "まえ",
+   "en": "before; in front"
+  },
+  "十分": {
+   "py": "じゅっぷん",
+   "en": "ten minutes"
+  },
+  "十年": {
+   "py": "じゅうねん",
+   "en": "ten years"
+  },
+  "千円": {
+   "py": "せんえん",
+   "en": "a thousand yen"
+  },
+  "午後": {
+   "py": "ごご",
+   "en": "afternoon"
+  },
+  "半": {
+   "py": "はん",
+   "en": "half past"
+  },
+  "半分": {
+   "py": "はんぶん",
+   "en": "half"
+  },
+  "友だち": {
+   "py": "ともだち",
+   "en": "friend",
+   "base": "友達"
+  },
+  "古い": {
+   "py": "ふるい",
+   "en": "old (of things)"
+  },
+  "右": {
+   "py": "みぎ",
+   "en": "right"
+  },
+  "名前": {
+   "py": "なまえ",
+   "en": "name"
+  },
+  "四時": {
+   "py": "よじ",
+   "en": "four o'clock"
+  },
+  "図書館": {
+   "py": "としょかん",
+   "en": "library"
+  },
+  "国": {
+   "py": "くに",
+   "en": "country"
+  },
+  "多い": {
+   "py": "おおい",
+   "en": "many"
+  },
+  "多すぎる": {
+   "py": "おおすぎる",
+   "en": "too many",
+   "base": "多い"
+  },
+  "大きい": {
+   "py": "おおきい",
+   "en": "big"
+  },
+  "大きくて": {
+   "py": "おおきくて",
+   "en": "big (and)",
+   "base": "大きい"
+  },
+  "大丈夫": {
+   "py": "だいじょうぶ",
+   "en": "all right; fine"
+  },
+  "好き": {
+   "py": "すき",
+   "en": "liked; fond of"
+  },
+  "字": {
+   "py": "じ",
+   "en": "character; handwriting"
+  },
+  "学校": {
+   "py": "がっこう",
+   "en": "school"
+  },
+  "学生": {
+   "py": "がくせい",
+   "en": "student"
+  },
+  "小さい": {
+   "py": "ちいさい",
+   "en": "small"
+  },
+  "小さく": {
+   "py": "ちいさく",
+   "en": "small (adverbial)",
+   "base": "小さい"
+  },
+  "小さくて": {
+   "py": "ちいさくて",
+   "en": "small (and)",
+   "base": "小さい"
+  },
+  "少し": {
+   "py": "すこし",
+   "en": "a little"
+  },
+  "山": {
+   "py": "やま",
+   "en": "mountain"
+  },
+  "店": {
+   "py": "みせ",
+   "en": "shop"
+  },
+  "手": {
+   "py": "て",
+   "en": "hand"
+  },
+  "手紙": {
+   "py": "てがみ",
+   "en": "letter"
+  },
+  "持って": {
+   "py": "もって",
+   "en": "to have; hold",
+   "base": "持つ"
+  },
+  "教えて": {
+   "py": "おしえて",
+   "en": "teaches",
+   "base": "教える"
+  },
+  "教室": {
+   "py": "きょうしつ",
+   "en": "classroom"
+  },
+  "新しい": {
+   "py": "あたらしい",
+   "en": "new"
+  },
+  "日本語": {
+   "py": "にほんご",
+   "en": "Japanese (language)"
+  },
+  "時計": {
+   "py": "とけい",
+   "en": "watch; clock"
+  },
+  "時間": {
+   "py": "じかん",
+   "en": "time"
+  },
+  "書きます": {
+   "py": "かきます",
+   "en": "to write",
+   "base": "書く"
+  },
+  "朝": {
+   "py": "あさ",
+   "en": "morning"
+  },
+  "木": {
+   "py": "き",
+   "en": "tree"
+  },
+  "本": {
+   "py": "ほん",
+   "en": "book"
+  },
+  "本当": {
+   "py": "ほんとう",
+   "en": "really; true"
+  },
+  "来て": {
+   "py": "きて",
+   "en": "come and ~",
+   "base": "来る"
+  },
+  "来ました": {
+   "py": "きました",
+   "en": "came",
+   "base": "来る"
+  },
+  "来ます": {
+   "py": "きます",
+   "en": "to come",
+   "base": "来る"
+  },
+  "来月": {
+   "py": "らいげつ",
+   "en": "next month"
+  },
+  "来週": {
+   "py": "らいしゅう",
+   "en": "next week"
+  },
+  "東京": {
+   "py": "とうきょう",
+   "en": "Tokyo"
+  },
+  "楽しかった": {
+   "py": "たのしかった",
+   "en": "was fun",
+   "base": "楽しい"
+  },
+  "歩いて": {
+   "py": "あるいて",
+   "en": "on foot",
+   "base": "歩く"
+  },
+  "歩きました": {
+   "py": "あるきました",
+   "en": "walked",
+   "base": "歩く"
+  },
+  "歩きます": {
+   "py": "あるきます",
+   "en": "to walk",
+   "base": "歩く"
+  },
+  "歩く": {
+   "py": "あるく",
+   "en": "to walk"
+  },
+  "母": {
+   "py": "はは",
+   "en": "my mother"
+  },
+  "気づきました": {
+   "py": "きづきました",
+   "en": "noticed",
+   "base": "気づく"
+  },
+  "気持ち": {
+   "py": "きもち",
+   "en": "feeling"
+  },
+  "水": {
+   "py": "みず",
+   "en": "water"
+  },
+  "父": {
+   "py": "ちち",
+   "en": "my father"
+  },
+  "犬": {
+   "py": "いぬ",
+   "en": "dog"
+  },
+  "田中": {
+   "py": "たなか",
+   "en": "Tanaka (surname)"
+  },
+  "町": {
+   "py": "まち",
+   "en": "town"
+  },
+  "白い": {
+   "py": "しろい",
+   "en": "white"
+  },
+  "白かった": {
+   "py": "しろかった",
+   "en": "was white",
+   "base": "白い"
+  },
+  "秋": {
+   "py": "あき",
+   "en": "autumn"
+  },
+  "聞いて": {
+   "py": "きいて",
+   "en": "listen; ask",
+   "base": "聞く"
+  },
+  "自転車": {
+   "py": "じてんしゃ",
+   "en": "bicycle"
+  },
+  "色": {
+   "py": "いろ",
+   "en": "colour"
+  },
+  "若い": {
+   "py": "わかい",
+   "en": "young"
+  },
+  "行きました": {
+   "py": "いきました",
+   "en": "went",
+   "base": "行く"
+  },
+  "行きます": {
+   "py": "いきます",
+   "en": "to go",
+   "base": "行く"
+  },
+  "行けます": {
+   "py": "いけます",
+   "en": "can go",
+   "base": "行く"
+  },
+  "行って": {
+   "py": "いって",
+   "en": "go and ~",
+   "base": "行く"
+  },
+  "見えました": {
+   "py": "みえました",
+   "en": "looked; could be seen",
+   "base": "見える"
+  },
+  "見せて": {
+   "py": "みせて",
+   "en": "show me",
+   "base": "見せる"
+  },
+  "見ます": {
+   "py": "みます",
+   "en": "to look at",
+   "base": "見る"
+  },
+  "言いました": {
+   "py": "いいました",
+   "en": "said",
+   "base": "言う"
+  },
+  "言います": {
+   "py": "いいます",
+   "en": "to say",
+   "base": "言う"
+  },
+  "話せません": {
+   "py": "はなせません",
+   "en": "cannot speak",
+   "base": "話す"
+  },
+  "読みにくい": {
+   "py": "よみにくい",
+   "en": "hard to read",
+   "base": "読む"
+  },
+  "読みました": {
+   "py": "よみました",
+   "en": "read",
+   "base": "読む"
+  },
+  "読みます": {
+   "py": "よみます",
+   "en": "to read",
+   "base": "読む"
+  },
+  "買いたい": {
+   "py": "かいたい",
+   "en": "want to buy",
+   "base": "買う"
+  },
+  "買いたく": {
+   "py": "かいたく",
+   "en": "want to buy",
+   "base": "買う"
+  },
+  "買いました": {
+   "py": "かいました",
+   "en": "bought",
+   "base": "買う"
+  },
+  "買います": {
+   "py": "かいます",
+   "en": "to buy",
+   "base": "買う"
+  },
+  "買った": {
+   "py": "かった",
+   "en": "bought",
+   "base": "買う"
+  },
+  "赤": {
+   "py": "あか",
+   "en": "red"
+  },
+  "車": {
+   "py": "くるま",
+   "en": "car"
+  },
+  "送って": {
+   "py": "おくって",
+   "en": "send",
+   "base": "送る"
+  },
+  "道": {
+   "py": "みち",
+   "en": "road; way"
+  },
+  "遠い": {
+   "py": "とおい",
+   "en": "far"
+  },
+  "長く": {
+   "py": "ながく",
+   "en": "long",
+   "base": "長い"
+  },
+  "電車": {
+   "py": "でんしゃ",
+   "en": "train"
+  },
+  "音楽": {
+   "py": "おんがく",
+   "en": "music"
+  },
+  "頭": {
+   "py": "あたま",
+   "en": "head"
+  },
+  "風": {
+   "py": "かぜ",
+   "en": "wind"
+  },
+  "食べました": {
+   "py": "たべました",
+   "en": "ate",
+   "base": "食べる"
+  },
+  "食べます": {
+   "py": "たべます",
+   "en": "to eat",
+   "base": "食べる"
+  },
+  "飲みます": {
+   "py": "のみます",
+   "en": "to drink",
+   "base": "飲む"
+  },
+  "飲み物": {
+   "py": "のみもの",
+   "en": "something to drink"
+  },
+  "飲んで": {
+   "py": "のんで",
+   "en": "drink and ~",
+   "base": "飲む"
+  },
+  "駅": {
+   "py": "えき",
+   "en": "station"
+  },
+  "高く": {
+   "py": "たかく",
+   "en": "expensive; tall",
+   "base": "高い"
+  },
+  "魚": {
+   "py": "さかな",
+   "en": "fish"
+  },
+  "黄色": {
+   "py": "きいろ",
+   "en": "yellow"
+  }
+ }
+}

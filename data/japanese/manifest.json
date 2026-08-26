@@ -1,0 +1,301 @@
+{
+  "generated_by": "tools/chinese/build.py",
+  "decks": [
+    {
+      "id": "n4-everyday",
+      "file": "data/japanese/n4-everyday.json",
+      "title": "JLPT N4 · Everyday",
+      "level": "JLPT N4",
+      "kind": "everyday",
+      "description": "Practical exchanges with a little more room — renting, explaining, apologising.",
+      "passages": [
+        {
+          "id": "n4e-01",
+          "title": "へやをかりる",
+          "title_en": "Renting a Room",
+          "tags": [
+            "home"
+          ]
+        },
+        {
+          "id": "n4e-02",
+          "title": "道をきく",
+          "title_en": "Asking Directions",
+          "tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "n4e-03",
+          "title": "びょうきです",
+          "title_en": "Feeling Unwell",
+          "tags": [
+            "health"
+          ]
+        },
+        {
+          "id": "n4e-04",
+          "title": "けいたいを買う",
+          "title_en": "Buying a Phone",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "n4e-05",
+          "title": "しごとのめんせつ",
+          "title_en": "A Job Interview",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "n4e-06",
+          "title": "休みをとる",
+          "title_en": "Asking for Time Off",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "n4e-07",
+          "title": "こうかんしてください",
+          "title_en": "Exchanging an Item",
+          "tags": [
+            "problems"
+          ]
+        },
+        {
+          "id": "n4e-08",
+          "title": "さようなら",
+          "title_en": "Saying Goodbye",
+          "tags": [
+            "manners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n4-stories",
+      "file": "data/japanese/n4-stories.json",
+      "title": "JLPT N4 · Stories",
+      "level": "JLPT N4",
+      "kind": "stories",
+      "description": "Slightly longer stories — past tense, te-forms, and reasons with ので and から.",
+      "passages": [
+        {
+          "id": "n4s-01",
+          "title": "自転車",
+          "title_en": "My Bicycle",
+          "tags": [
+            "things"
+          ]
+        },
+        {
+          "id": "n4s-02",
+          "title": "ゆきの朝",
+          "title_en": "A Snowy Morning",
+          "tags": [
+            "weather"
+          ]
+        },
+        {
+          "id": "n4s-03",
+          "title": "母の手紙",
+          "title_en": "My Mother's Letter",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "n4s-04",
+          "title": "となりの音楽",
+          "title_en": "The Music Next Door",
+          "tags": [
+            "neighbours"
+          ]
+        },
+        {
+          "id": "n4s-05",
+          "title": "はじめての仕事",
+          "title_en": "My First Job",
+          "tags": [
+            "work"
+          ]
+        },
+        {
+          "id": "n4s-06",
+          "title": "山にのぼる",
+          "title_en": "Climbing the Mountain",
+          "tags": [
+            "outdoors"
+          ]
+        },
+        {
+          "id": "n4s-07",
+          "title": "さいふをわすれた",
+          "title_en": "Forgetting My Wallet",
+          "tags": [
+            "problems"
+          ]
+        },
+        {
+          "id": "n4s-08",
+          "title": "秋",
+          "title_en": "Autumn",
+          "tags": [
+            "weather"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n5-everyday",
+      "file": "data/japanese/n5-everyday.json",
+      "title": "JLPT N5 · Everyday",
+      "level": "JLPT N5",
+      "kind": "everyday",
+      "description": "Short practical exchanges — buying, asking, arranging — in plain polite Japanese.",
+      "passages": [
+        {
+          "id": "n5e-01",
+          "title": "じこしょうかい",
+          "title_en": "Introducing Myself",
+          "tags": [
+            "introductions"
+          ]
+        },
+        {
+          "id": "n5e-02",
+          "title": "みせで",
+          "title_en": "At the Shop",
+          "tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "n5e-03",
+          "title": "えきはどこですか",
+          "title_en": "Where Is the Station",
+          "tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "n5e-04",
+          "title": "レストランで",
+          "title_en": "At the Restaurant",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "n5e-05",
+          "title": "いま何時ですか",
+          "title_en": "What Time Is It",
+          "tags": [
+            "time"
+          ]
+        },
+        {
+          "id": "n5e-06",
+          "title": "でんわ",
+          "title_en": "A Phone Call",
+          "tags": [
+            "invitations"
+          ]
+        },
+        {
+          "id": "n5e-07",
+          "title": "びょういんで",
+          "title_en": "At the Clinic",
+          "tags": [
+            "health"
+          ]
+        },
+        {
+          "id": "n5e-08",
+          "title": "きっぷを買います",
+          "title_en": "Buying a Ticket",
+          "tags": [
+            "travel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n5-stories",
+      "file": "data/japanese/n5-stories.json",
+      "title": "JLPT N5 · Stories",
+      "level": "JLPT N5",
+      "kind": "stories",
+      "description": "Short first-reader stories in plain polite Japanese.",
+      "passages": [
+        {
+          "id": "n5s-01",
+          "title": "わたしのねこ",
+          "title_en": "My Cat",
+          "tags": [
+            "animals"
+          ]
+        },
+        {
+          "id": "n5s-02",
+          "title": "あさ",
+          "title_en": "Morning",
+          "tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "n5s-03",
+          "title": "犬とわたし",
+          "title_en": "The Dog and Me",
+          "tags": [
+            "animals"
+          ]
+        },
+        {
+          "id": "n5s-04",
+          "title": "あめの日",
+          "title_en": "A Rainy Day",
+          "tags": [
+            "weather"
+          ]
+        },
+        {
+          "id": "n5s-05",
+          "title": "大きいりんご",
+          "title_en": "The Big Apples",
+          "tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "n5s-06",
+          "title": "学校のねこ",
+          "title_en": "The School Cat",
+          "tags": [
+            "animals"
+          ]
+        },
+        {
+          "id": "n5s-07",
+          "title": "わたしの父",
+          "title_en": "My Father",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "n5s-08",
+          "title": "たんじょうび",
+          "title_en": "The Birthday",
+          "tags": [
+            "family"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Expand story sources in data/chinese/src/ into reader deck JSON.
+"""Expand story sources in data/<lang>/src/ into reader deck JSON.
 
-    python3 tools/chinese/compile.py            # compile every source file
-    python3 tools/chinese/compile.py hsk1-stories
+    python3 tools/reader/compile.py japanese              # every source file
+    python3 tools/reader/compile.py chinese hsk1-stories  # just one
 
 Writing decks by hand means writing pinyin and a gloss for every word, which
 does not scale past a few dozen passages. Instead a source file carries just
@@ -30,29 +30,18 @@ import argparse
 import json
 import re
 import sys
-import unicodedata
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
-DATA = REPO / "data" / "chinese"
-SRC = DATA / "src"
-
-PUNCT = "，。！？；：、“”‘’（）《》…—"
-TONE_MARKS = {"̄": 1, "́": 2, "̌": 3, "̀": 4}
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from langs import load as load_lang            # noqa: E402
 
 
-def tone_of(syllable):
-    for ch in unicodedata.normalize("NFD", syllable):
-        if ch in TONE_MARKS:
-            return TONE_MARKS[ch]
-    return 5
-
-
-def split_punct(chunk):
+def split_punct(chunk, lang):
     """Split a whitespace-delimited chunk into words and punctuation marks."""
     parts, buf = [], ""
     for ch in chunk:
-        if ch in PUNCT:
+        if ch in lang.PUNCT:
             if buf:
                 parts.append(buf)
                 buf = ""
@@ -62,27 +51,6 @@ def split_punct(chunk):
     if buf:
         parts.append(buf)
     return parts
-
-
-def apply_sandhi(tokens):
-    """Fix the tone of 不 and 一 from whatever follows them.
-
-    Both shift to a rising tone before a fourth tone; 一 is otherwise yì
-    before tones 1-3. Doing it here keeps every deck consistent — it is the
-    single most common thing to get wrong by hand.
-    """
-    for i, token in enumerate(tokens):
-        if token["hz"] not in ("不", "一"):
-            continue
-        following = next((t for t in tokens[i + 1:] if t.get("py")), None)
-        if not following:
-            continue
-        nxt = tone_of(following["py"].split()[0])
-        if token["hz"] == "不":
-            token["py"] = "bú" if nxt == 4 else "bù"
-        else:
-            token["py"] = "yí" if nxt == 4 else "yì"
-    return tokens
 
 
 def parse_source(path):
@@ -146,11 +114,11 @@ def parse_source(path):
     return deck, problems
 
 
-def build_tokens(cn_line, lexicon, where, problems):
+def build_tokens(line, lexicon, lang, where, problems):
     tokens = []
-    for chunk in cn_line.split():
-        for part in split_punct(chunk):
-            if part in PUNCT:
+    for chunk in line.split():
+        for part in split_punct(chunk, lang):
+            if part in lang.PUNCT:
                 tokens.append({"hz": part})
                 continue
             entry = lexicon.get(part)
@@ -161,10 +129,10 @@ def build_tokens(cn_line, lexicon, where, problems):
             if entry.get("nosplit"):
                 token["nosplit"] = True
             tokens.append(token)
-    return apply_sandhi(tokens)
+    return lang.postprocess(tokens)
 
 
-def compile_source(path, lexicon):
+def compile_source(path, lexicon, lang):
     deck, problems = parse_source(path)
     for key in ("id", "title", "level"):
         if not deck.get(key):
@@ -174,7 +142,7 @@ def compile_source(path, lexicon):
         sentences = []
         for sentence in passage["sentences"]:
             where = f"{path.name}:{sentence['line']} ({passage['id']})"
-            tokens = build_tokens(sentence["cn"], lexicon, where, problems)
+            tokens = build_tokens(sentence["cn"], lexicon, lang, where, problems)
             sentences.append({"en": sentence["en"], "tokens": tokens})
         passage["sentences"] = sentences
 
@@ -183,28 +151,31 @@ def compile_source(path, lexicon):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("lang", help="language id, e.g. chinese or japanese")
     parser.add_argument("names", nargs="*", help="source files to compile (default: all)")
     args = parser.parse_args()
 
-    lexicon = json.loads((DATA / "lexicon.json").read_text(encoding="utf-8"))["words"]
-    paths = sorted(SRC.glob("*.txt"))
+    lang = load_lang(args.lang)
+    data = REPO / "data" / args.lang
+    lexicon = json.loads((data / "lexicon.json").read_text(encoding="utf-8"))["words"]
+    paths = sorted((data / "src").glob("*.txt"))
     if args.names:
         wanted = {n.replace(".txt", "") for n in args.names}
         paths = [p for p in paths if p.stem in wanted]
     if not paths:
-        print(f"No sources found in {SRC}", file=sys.stderr)
+        print(f"No sources found in {data / 'src'}", file=sys.stderr)
         return 1
 
     all_problems, written = [], 0
     for path in paths:
-        deck, problems = compile_source(path, lexicon)
+        deck, problems = compile_source(path, lexicon, lang)
         all_problems.extend(problems)
         if problems:
             continue
         order = ["id", "title", "level", "kind", "description",
                  "vocab", "vocab_min", "vocab_extra", "passages"]
         out = {k: deck[k] for k in order if k in deck}
-        target = DATA / (deck["id"] + ".json")
+        target = data / (deck["id"] + ".json")
         target.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         written += 1
         n_sent = sum(len(p["sentences"]) for p in deck["passages"])
@@ -221,7 +192,7 @@ def main():
             print("\nWords to add to lexicon.json:\n  " + " ".join(missing), file=sys.stderr)
         return 1
 
-    print(f"Compiled {written} deck(s). Now run tools/chinese/build.py.")
+    print(f"Compiled {written} deck(s). Now run tools/reader/build.py {args.lang}.")
     return 0
 
 

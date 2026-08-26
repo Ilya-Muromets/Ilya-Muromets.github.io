@@ -1,0 +1,22 @@
+{
+  "chinese": {
+    "title": "Mandarin Reader",
+    "brand": "中文",
+    "description": "A guided Mandarin reader: simplified Chinese with toggleable pinyin and per-word glosses.",
+    "readingLabel": "Pinyin",
+    "readingWord": "pinyin",
+    "cjkFont": "\"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", sans-serif",
+    "tones": true,
+    "storeKey": "zh-reader-v1"
+  },
+  "japanese": {
+    "title": "Japanese Reader",
+    "brand": "日本語",
+    "description": "A guided Japanese reader: kanji and kana with toggleable furigana, romaji and per-word glosses.",
+    "readingLabel": "Kana",
+    "readingWord": "kana",
+    "cjkFont": "\"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", \"Yu Gothic\", \"Noto Sans JP\", \"Meiryo\", sans-serif",
+    "tones": false,
+    "storeKey": "ja-reader-v1"
+  }
+}
