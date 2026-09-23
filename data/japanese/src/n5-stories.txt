@@ -1,0 +1,104 @@
+# deck: id=n5-stories | title=JLPT N5 · Stories | level=JLPT N5 | vocab=n5 | vocab_min=0.85 | kind=stories
+# desc: Short first-reader stories in plain polite Japanese.
+# extra: クロ シロ マーティン 田中
+# extra: は が を に で と の も か ね よ から まで や し な ので なら だ です でした でしょう ない
+# The set above is grammar, not vocabulary: JLPT word lists cover words, and
+# deliberately leave out particles and the copula. The set below is the fixed
+# politeness formulas any first lesson teaches as whole phrases.
+# extra: すみません ありがとう ございます ございました お願いします はじめまして よろしく じゃあ もしもし
+
+@ n5s-01 | わたしのねこ | My Cat | animals
+わたし は ねこ が 好き です。
+I like cats.
+うち に ねこ が 一匹 います。
+There is one cat at my house.
+名前 は クロ です。
+Her name is Kuro.
+クロ は とても 小さくて、白い です。
+Kuro is very small and white.
+まいばん いっしょ に ねます。
+Every night we sleep together.
+
+@ n5s-02 | あさ | Morning | routine
+まいあさ 六時 に おきます。
+I get up at six every morning.
+まず コーヒー を 飲みます。
+First I drink coffee.
+それから パン を 食べます。
+Then I eat bread.
+七時 に うち を 出ます。
+I leave the house at seven.
+電車 で 会社 に 行きます。
+I go to the office by train.
+
+@ n5s-03 | 犬とわたし | The Dog and Me | animals
+わたし の 犬 は 大きい です。
+My dog is big.
+名前 は シロ です。
+His name is Shiro.
+まいにち こうえん を さんぽ します。
+Every day we walk in the park.
+シロ は 水 が 好き です。
+Shiro likes water.
+でも おふろ は きらい です。
+But he hates baths.
+
+@ n5s-04 | あめの日 | A Rainy Day | weather
+今日 は あめ です。
+It's raining today.
+かさ を わすれました。
+I forgot my umbrella.
+だから ぬれました。
+So I got wet.
+うち に かえって、おふろ に 入りました。
+I went home and had a bath.
+あたたかくて、とても よかった です。
+It was warm and felt very good.
+
+@ n5s-05 | 大きいりんご | The Big Apples | food
+きのう 母 が りんご を 買いました。
+Yesterday my mother bought apples.
+とても 大きい りんご です。
+They are very big apples.
+わたし は 二つ 食べました。
+I ate two.
+おいしかった です。
+They were delicious.
+でも 今 おなか が いたい です。
+But now my stomach hurts.
+
+@ n5s-06 | 学校のねこ | The School Cat | animals
+わたし の 学校 に ねこ が います。
+There is a cat at my school.
+くろい ねこ です。
+It is a black cat.
+ひる は いつも 木 の 下 で ねて います。
+At midday it is always asleep under the tree.
+学生 は みんな ねこ が 好き です。
+The students all like the cat.
+ときどき 教室 に 入ります。
+Sometimes it comes into the classroom.
+
+@ n5s-07 | わたしの父 | My Father | family
+父 は 先生 です。
+My father is a teacher.
+学校 で 日本語 を 教えて います。
+He teaches Japanese at a school.
+父 は 本 を たくさん 読みます。
+My father reads a great many books.
+うち の 本 は とても 多い です。
+There are a lot of books at our house.
+母 は 「 多すぎる 」 と 言います。
+My mother says it's too many.
+
+@ n5s-08 | たんじょうび | The Birthday | family
+今日 は わたし の たんじょうび です。
+Today is my birthday.
+二十歳 に なりました。
+I turned twenty.
+友だち が 来て、いっしょ に ごはん を 食べました。
+My friends came and we ate together.
+母 が ケーキ を 作りました。
+My mother made a cake.
+とても 楽しかった です。
+It was great fun.

@@ -1,0 +1,104 @@
+# deck: id=n4-everyday | title=JLPT N4 · Everyday | level=JLPT N4 | vocab=n4 | vocab_min=0.85 | kind=everyday
+# desc: Practical exchanges with a little more room — renting, explaining, apologising.
+# extra: マーティン 田中
+# extra: は が を に で と の も か ね よ から まで や し な ので なら だ です でした でしょう ない
+# The set above is grammar, not vocabulary: JLPT word lists cover words, and
+# deliberately leave out particles and the copula. The set below is the fixed
+# politeness formulas any first lesson teaches as whole phrases.
+# extra: すみません ありがとう ございます ございました お願いします はじめまして よろしく じゃあ もしもし
+
+@ n4e-01 | へやをかりる | Renting a Room | home
+この へや を 見せて ください。
+Could I see this room?
+どうぞ、入って ください。
+Please, come in.
+ひろく ない です が、きれい で しずか です。
+It isn't large, but it's clean and quiet.
+一か月 いくら です か。
+How much is it a month?
+七万円 です。
+Seventy thousand yen.
+
+@ n4e-02 | 道をきく | Asking Directions | directions
+すみません、図書館 は どこ です か。
+Excuse me, where is the library?
+あの ビル の となり です。
+Next to that building.
+歩いて 行けます か。
+Can I walk there?
+ええ、十分 くらい です。
+Yes, about ten minutes.
+ありがとう ございます。
+Thank you.
+
+@ n4e-03 | びょうきです | Feeling Unwell | health
+先生、三日 前 から 元気 が ない です。
+Doctor, I haven't felt well for three days.
+よく ねむれます か。
+Are you sleeping properly?
+あまり ねむれません。
+Not very well.
+仕事 が いそがしすぎる の でしょう。
+You're probably working too hard.
+少し 休んだ ほう が いい です。
+You'd do well to rest a little.
+
+@ n4e-04 | けいたいを買う | Buying a Phone | shopping
+けいたい を 買いたい です。
+I'd like to buy a phone.
+どんな の が いい です か。
+What sort are you after?
+高く ない の で いい です。
+Something inexpensive will do.
+これ は どう です か。
+How about this one?
+じゃあ、それ に します。
+I'll take that one, then.
+
+@ n4e-05 | しごとのめんせつ | A Job Interview | work
+どうぞ、すわって ください。
+Please have a seat.
+前 の 仕事 は 何 でした か。
+What was your previous job?
+小さい 会社 で 二年 はたらきました。
+I worked at a small company for two years.
+どうして ここ で はたらきたい です か。
+Why do you want to work here?
+仕事 が おもしろそう だ から です。
+Because the work looks interesting.
+
+@ n4e-06 | 休みをとる | Asking for Time Off | work
+すみません、来週 休み を とりたい です。
+Excuse me, I'd like to take time off next week.
+何日 くらい です か。
+About how many days?
+二日 です。
+Two days.
+何 か あります か。
+Is something the matter?
+母 が びょうき な ので、うち に かえります。
+My mother is ill, so I'm going home.
+
+@ n4e-07 | こうかんしてください | Exchanging an Item | problems
+きのう 買った 時計 が こわれました。
+The watch I bought yesterday is broken.
+どう こわれました か。
+In what way?
+うごきません。
+It doesn't run.
+新しい の と こうかん します。
+I'll exchange it for a new one.
+ありがとう ございます。
+Thank you.
+
+@ n4e-08 | さようなら | Saying Goodbye | manners
+来月 国 に かえります。
+I'm going home next month.
+本当 です か。さびしく なります。
+Really? We'll miss you.
+わたし も みなさん に 会いたく なります。
+I'll miss all of you too.
+ときどき メール を 送って ください。
+Do send an email now and then.
+はい、いろいろ ありがとう ございました。
+I will — thank you for everything.

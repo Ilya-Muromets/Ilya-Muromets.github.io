@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
-"""Validate the Chinese reader decks and (re)build data/chinese/manifest.json.
+"""Validate a language's reader decks and (re)build its manifest.json.
 
 Usage:
-    python3 tools/chinese/build.py           # validate + rewrite the manifest
-    python3 tools/chinese/build.py --check   # validate only, don't write (CI-friendly)
-    python3 tools/chinese/build.py --stats   # also print a vocabulary summary
+    python3 tools/reader/build.py japanese          # validate + rewrite manifest
+    python3 tools/reader/build.py chinese --check   # validate only (CI-friendly)
+    python3 tools/reader/build.py all --stats       # every language, with a summary
 
 The reader loads manifest.json first, then fetches one deck file at a time, so
 the manifest must stay in sync with whatever deck files are on disk. Run this
 after adding or editing a deck.
 
-Schema is documented in data/chinese/SCHEMA.md.
+Schema is documented in data/SCHEMA.md.
 """
 
 import argparse
@@ -22,14 +22,10 @@ from collections import Counter
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
-DATA = REPO / "data" / "chinese"
-MANIFEST = DATA / "manifest.json"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from langs import load as load_lang            # noqa: E402
 
-# Tone marks, as combining codepoints after NFD normalization.
-TONE_MARKS = {"̄": 1, "́": 2, "̌": 3, "̀": 4}
-CJK = re.compile(r"[㐀-䶿一-鿿豈-﫿]")
-# A pinyin syllable after stripping tone marks: plain ASCII letters plus ü.
-PINYIN_BODY = re.compile(r"^[a-zü]+$")
+CJK = re.compile(r"[㐀-䶿一-鿿豈-﫿぀-ゟ゠-ヿ]")
 
 
 class Problem:
@@ -43,27 +39,8 @@ class Problem:
         return f"  {kind}  {self.where}: {self.message}"
 
 
-def strip_tones(syllable):
-    """Return (bare_syllable, tone_number). Tone 5 = neutral / unmarked."""
-    decomposed = unicodedata.normalize("NFD", syllable)
-    tone = 5
-    bare = []
-    for ch in decomposed:
-        if ch in TONE_MARKS:
-            tone = TONE_MARKS[ch]
-        elif unicodedata.combining(ch):
-            # A diaeresis on u (ü) is part of the letter, not a tone.
-            bare.append(ch)
-        else:
-            bare.append(ch)
-    return unicodedata.normalize("NFC", "".join(bare)), tone
 
-
-def syllables(py):
-    return [s for s in py.split() if s]
-
-
-def check_token(token, where, problems):
+def check_token(token, where, problems, lang):
     hz = token.get("hz")
     if not isinstance(hz, str) or not hz:
         problems.append(Problem(where, "token is missing a non-empty 'hz'"))
@@ -84,38 +61,12 @@ def check_token(token, where, problems):
         problems.append(Problem(where, f"'{hz}' has an empty 'py'"))
         return
     if not token.get("en"):
-        problems.append(Problem(where, f"'{hz}' has pinyin but no English gloss 'en'"))
+        problems.append(Problem(where, f"'{hz}' has a reading but no English gloss 'en'"))
 
-    if re.search(r"[0-9]", py):
-        problems.append(
-            Problem(where, f"'{hz}' pinyin {py!r} uses tone numbers — use tone marks (ā á ǎ à)")
-        )
-        return
-
-    syls = syllables(py)
-    for syl in syls:
-        bare, _tone = strip_tones(syl)
-        if not PINYIN_BODY.match(bare):
-            problems.append(
-                Problem(where, f"'{hz}' pinyin syllable {syl!r} has unexpected characters")
-            )
-
-    if token.get("nosplit"):
-        return
-
-    n_chars = len(CJK.findall(hz))
-    if n_chars and len(syls) != n_chars:
-        problems.append(
-            Problem(
-                where,
-                f"'{hz}' has {n_chars} character(s) but {len(syls)} pinyin syllable(s) "
-                f"({py!r}) — separate syllables with spaces, or set \"nosplit\": true "
-                f"for erhua and other merged readings",
-            )
-        )
+    lang.check_token(token, where, problems, Problem)
 
 
-def check_deck(path, seen_passage_ids, problems):
+def check_deck(path, seen_passage_ids, problems, lang):
     try:
         deck = json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
@@ -166,13 +117,13 @@ def check_deck(path, seen_passage_ids, problems):
                 if not isinstance(token, dict):
                     problems.append(Problem(f"{s_where} → token {t_i + 1}", "token is not an object"))
                     continue
-                check_token(token, f"{s_where} → token {t_i + 1}", problems)
+                check_token(token, f"{s_where} → token {t_i + 1}", problems, lang)
 
     return deck
 
 
-def load_wordlist(name):
-    path = DATA / "wordlists" / (name + ".json")
+def load_wordlist(data, name):
+    path = data / "wordlists" / (name + ".json")
     if not path.exists():
         return None
     return set(json.loads(path.read_text(encoding="utf-8"))["words"])
@@ -195,7 +146,7 @@ def segments_into(word, vocab):
     return reachable[n]
 
 
-def check_vocab(deck, path, problems):
+def check_vocab(deck, path, problems, data):
     """Measure how close a deck sits to the level it aims at.
 
     A deck aims at a level rather than being locked to it: some words outside
@@ -206,11 +157,21 @@ def check_vocab(deck, path, problems):
     name = deck.get("vocab")
     if not name:
         return None
-    vocab = load_wordlist(name)
+    vocab = load_wordlist(data, name)
     if vocab is None:
         problems.append(Problem(path.name, f"unknown word list {name!r} in 'vocab'"))
         return None
     allowed = vocab | set(deck.get("vocab_extra", []))
+
+    # Sources use the form a reader meets (食べます); word lists carry the
+    # dictionary form (食べる). The lexicon maps between them.
+    lexicon_path = data / "lexicon.json"
+    bases = {}
+    if lexicon_path.exists():
+        for surface, entry in json.loads(
+                lexicon_path.read_text(encoding="utf-8"))["words"].items():
+            if entry.get("base"):
+                bases[surface] = entry["base"]
 
     total = 0
     outside = Counter()
@@ -221,7 +182,8 @@ def check_vocab(deck, path, problems):
                 if not token.get("py"):
                     continue
                 total += 1
-                if hz not in allowed and not segments_into(hz, allowed):
+                forms = {hz, bases.get(hz, hz)}
+                if not any(f in allowed or segments_into(f, allowed) for f in forms):
                     outside[hz] += 1
 
     if not total:
@@ -253,15 +215,24 @@ def deck_stats(deck):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("lang", help="language id, or 'all'")
     parser.add_argument("--check", action="store_true", help="validate without rewriting the manifest")
     parser.add_argument("--stats", action="store_true", help="print a vocabulary summary")
     args = parser.parse_args()
 
+    languages = json.loads((REPO / "reader" / "languages.json").read_text(encoding="utf-8"))
+    ids = list(languages) if args.lang == "all" else [args.lang]
+    return max(run(lang_id, args) for lang_id in ids)
+
+
+def run(lang_id, args):
+    lang = load_lang(lang_id)
+    data = REPO / "data" / lang_id
     # manifest.json is generated here; lexicon.json feeds compile.py. Neither is a deck.
     not_decks = {"manifest.json", "lexicon.json"}
-    deck_paths = sorted(p for p in DATA.glob("*.json") if p.name not in not_decks)
+    deck_paths = sorted(p for p in data.glob("*.json") if p.name not in not_decks)
     if not deck_paths:
-        print(f"No deck files found in {DATA}", file=sys.stderr)
+        print(f"No deck files found in {data}", file=sys.stderr)
         return 1
 
     problems = []
@@ -272,10 +243,10 @@ def main():
     total_chars = 0
 
     for path in deck_paths:
-        deck = check_deck(path, seen_passage_ids, problems)
+        deck = check_deck(path, seen_passage_ids, problems, lang)
         if deck is None:
             continue
-        coverage = check_vocab(deck, path, problems)
+        coverage = check_vocab(deck, path, problems, data)
         if coverage:
             coverages.append((path.stem, coverage))
         chars, vocab = deck_stats(deck)
@@ -284,7 +255,7 @@ def main():
         entries.append(
             {
                 "id": deck.get("id", path.stem),
-                "file": f"data/chinese/{path.name}",
+                "file": f"data/{lang_id}/{path.name}",
                 "title": deck.get("title", path.stem),
                 "level": deck.get("level", ""),
                 "kind": deck.get("kind", ""),
@@ -308,7 +279,7 @@ def main():
 
     n_passages = sum(len(e["passages"]) for e in entries)
     print(
-        f"{len(entries)} deck(s), {n_passages} passage(s), {total_chars} hanzi, "
+        f"{lang_id}: {len(entries)} deck(s), {n_passages} passage(s), {total_chars} characters, "
         f"{len(all_vocab)} unique words, {len(errors)} error(s), {len(warnings)} warning(s)"
     )
 
@@ -334,10 +305,11 @@ def main():
             "generated_by": "tools/chinese/build.py",
             "decks": entries,
         }
-        MANIFEST.write_text(
+        target = data / "manifest.json"
+        target.write_text(
             json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
         )
-        print(f"Wrote {MANIFEST.relative_to(REPO)}")
+        print(f"Wrote {target.relative_to(REPO)}")
 
     return 0
 

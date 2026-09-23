@@ -1,0 +1,104 @@
+# deck: id=n4-stories | title=JLPT N4 · Stories | level=JLPT N4 | vocab=n4 | vocab_min=0.85 | kind=stories
+# desc: Slightly longer stories — past tense, te-forms, and reasons with ので and から.
+# extra: マーティン 田中
+# extra: は が を に で と の も か ね よ から まで や し な ので なら だ です でした でしょう ない
+# The set above is grammar, not vocabulary: JLPT word lists cover words, and
+# deliberately leave out particles and the copula. The set below is the fixed
+# politeness formulas any first lesson teaches as whole phrases.
+# extra: すみません ありがとう ございます ございました お願いします はじめまして よろしく じゃあ もしもし
+
+@ n4s-01 | 自転車 | My Bicycle | things
+わたし は 古い 自転車 を 持って います。
+I have an old bicycle.
+父 が 十年 前 に くれました。
+My father gave it to me ten years ago.
+おそい です が、まだ 大丈夫 です。
+It's slow, but it still does the job.
+まいあさ それ で 駅 まで 行きます。
+Every morning I ride it to the station.
+新しい の は 買いたく ない です。
+I don't want to buy a new one.
+
+@ n4s-02 | ゆきの朝 | A Snowy Morning | weather
+朝 おきたら、そと が 白かった です。
+When I got up, everything outside was white.
+よる ゆき が ふった の です。
+It had snowed in the night.
+道 に 車 も 人 も いません でした。
+There were no cars and no people on the road.
+わたし は 一人 で ゆっくり 歩きました。
+I walked slowly by myself.
+とても しずか で、きれい でした。
+It was very quiet, and beautiful.
+
+@ n4s-03 | 母の手紙 | My Mother's Letter | family
+今日 母 から 手紙 が 来ました。
+A letter came from my mother today.
+今 は みんな メール を 使います。
+Everyone uses email now.
+でも 母 は いつも 手紙 を 書きます。
+But my mother always writes letters.
+字 が 大きくて、少し 読みにくい です。
+Her writing is large and a little hard to read.
+三回 読みました。
+I read it three times.
+
+@ n4s-04 | となりの音楽 | The Music Next Door | neighbours
+となり の へや に 若い 人 が 住んで います。
+A young person lives in the room next door.
+まいばん 音楽 を 聞いて います。
+Every night they play music.
+はじめ は うるさかった です。
+At first it was noisy.
+でも 今 は なれました。
+But I'm used to it now.
+きのう は しずか で、少し さびしかった です。
+Yesterday was quiet, and it felt a little lonely.
+
+@ n4s-05 | はじめての仕事 | My First Job | work
+はじめて の 仕事 は 小さい みせ でした。
+My first job was at a small shop.
+まいにち コップ を たくさん あらいました。
+Every day I washed a great many cups.
+手 が いつも つめたかった です。
+My hands were always cold.
+でも みんな しんせつ でした。
+But everyone there was kind.
+今 でも あの みせ を おぼえて います。
+I still remember that shop.
+
+@ n4s-06 | 山にのぼる | Climbing the Mountain | outdoors
+先週 友だち と 山 に のぼりました。
+Last week I climbed a mountain with a friend.
+道 は 長く ない です が、とても きつかった です。
+The path wasn't long, but it was hard going.
+半分 の ところ で、もう 話せません でした。
+Halfway up I couldn't speak any more.
+上 に ついたら、風 が つめたくて 気持ち が よかった です。
+At the top the wind was cool and it felt wonderful.
+町 が 小さく 見えました。
+The town looked small below.
+
+@ n4s-07 | さいふをわすれた | Forgetting My Wallet | problems
+きのう、レストラン で ごはん を 食べました。
+Yesterday I ate at a restaurant.
+お金 を はらう とき、さいふ が ない こと に 気づきました。
+When it came time to pay, I noticed my wallet was gone.
+とても はずかしかった です。
+I was terribly embarrassed.
+店 の 人 は 「 あした で いい です よ 」 と 言いました。
+The person at the shop said tomorrow would be fine.
+今朝 いちばん に 行きました。
+I went there first thing this morning.
+
+@ n4s-08 | 秋 | Autumn | weather
+わたし は 秋 が いちばん 好き です。
+Autumn is my favourite season.
+あつく ない し、さむく ない です。
+It's neither hot nor cold.
+木 の 色 が 赤 や 黄色 に なります。
+The trees turn red and yellow.
+その 下 を 歩く の が 好き です。
+I like walking underneath them.
+でも 秋 は とても みじかい です。
+But autumn is very short.

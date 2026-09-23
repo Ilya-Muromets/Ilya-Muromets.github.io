@@ -1,0 +1,104 @@
+# deck: id=n5-everyday | title=JLPT N5 · Everyday | level=JLPT N5 | vocab=n5 | vocab_min=0.85 | kind=everyday
+# desc: Short practical exchanges — buying, asking, arranging — in plain polite Japanese.
+# extra: マーティン 田中 アメリカ 東京 京都
+# extra: は が を に で と の も か ね よ から まで や し な ので なら だ です でした でしょう ない
+# The set above is grammar, not vocabulary: JLPT word lists cover words, and
+# deliberately leave out particles and the copula. The set below is the fixed
+# politeness formulas any first lesson teaches as whole phrases.
+# extra: すみません ありがとう ございます ございました お願いします はじめまして よろしく じゃあ もしもし
+
+@ n5e-01 | じこしょうかい | Introducing Myself | introductions
+はじめまして。
+How do you do.
+わたし は マーティン です。
+I'm Martin.
+アメリカ 人 です。
+I'm American.
+今 東京 に 住んで います。
+I live in Tokyo now.
+どうぞ よろしく お願いします。
+Pleased to meet you.
+
+@ n5e-02 | みせで | At the Shop | shopping
+すみません、これ は いくら です か。
+Excuse me, how much is this?
+五百円 です。
+Five hundred yen.
+じゃあ、二つ ください。
+Then I'll take two.
+千円 です。
+That's a thousand yen.
+ありがとう ございます。
+Thank you.
+
+@ n5e-03 | えきはどこですか | Where Is the Station | directions
+すみません、えき は どこ です か。
+Excuse me, where is the station?
+まっすぐ 行って、右 に まがって ください。
+Go straight and turn right.
+遠い です か。
+Is it far?
+いいえ、五分 くらい です。
+No, about five minutes.
+ありがとう ございました。
+Thank you very much.
+
+@ n5e-04 | レストランで | At the Restaurant | food
+すみません。
+Excuse me.
+メニュー を 見せて ください。
+Could I see the menu?
+この 魚 を お願いします。
+I'll have this fish, please.
+飲み物 は いかが です か。
+Anything to drink?
+お茶 を お願いします。
+Tea, please.
+
+@ n5e-05 | いま何時ですか | What Time Is It | time
+すみません、今 何時 です か。
+Excuse me, what time is it?
+三時 半 です。
+Half past three.
+ありがとう ございます。
+Thank you.
+電車 は 四時 です。
+My train is at four.
+まだ 時間 が あります ね。
+You have time yet.
+
+@ n5e-06 | でんわ | A Phone Call | invitations
+もしもし、田中 さん です か。
+Hello, is that Mr. Tanaka?
+はい、そう です。
+Yes, speaking.
+あした、時間 が あります か。
+Do you have time tomorrow?
+はい、午後 なら 大丈夫 です。
+Yes, the afternoon is fine.
+じゃあ、二時 に 会いましょう。
+Then let's meet at two.
+
+@ n5e-07 | びょういんで | At the Clinic | health
+どう しました か。
+What seems to be the trouble?
+きのう から 頭 が いたい です。
+My head has hurt since yesterday.
+ねつ は あります か。
+Do you have a fever?
+少し あります。
+A little.
+この くすり を 飲んで、休んで ください。
+Take this medicine and rest.
+
+@ n5e-08 | きっぷを買います | Buying a Ticket | travel
+京都 まで 一枚 ください。
+One ticket to Kyoto, please.
+何時 の 電車 です か。
+Which train?
+九時 の 電車 を お願いします。
+The nine o'clock one, please.
+はい、三千円 です。
+All right, three thousand yen.
+ありがとう ございます。
+Thank you.
