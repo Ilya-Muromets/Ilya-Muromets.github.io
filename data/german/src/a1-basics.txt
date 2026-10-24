@@ -1,0 +1,344 @@
+# deck: id=a1-basics | title=A1 · Basics | level=A1 | kind=basics | vocab_min=0.85
+# desc: Greetings, numbers, time, polite phrases and daily life — the first things you say.
+
+@ a1b-01 | Hallo! | Hello! | greetings
+Guten Morgen!
+Good morning!
+Guten Tag, Frau Schmidt!
+Good afternoon, Ms. Schmidt!
+Hallo, Tom! Wie geht's?
+Hi, Tom! How's it going?
+Danke, gut. Und dir?
+Fine, thanks. And you?
+Auch gut, danke.
+Good too, thanks.
+Guten Abend und gute Nacht!
+Good evening, and good night!
+
+@ a1b-02 | Ich heiße Anna | My Name Is Anna | introductions
+Hallo! Ich heiße Anna.
+Hello! My name is Anna.
+Ich bin Studentin und ich wohne in Berlin.
+I'm a student and I live in Berlin.
+Wie heißt du?
+What's your name?
+Ich heiße Tom. Ich bin Lehrer.
+My name is Tom. I'm a teacher.
+Freut_mich, Tom!
+Nice to meet you, Tom!
+Mich auch!
+Likewise!
+
+@ a1b-03 | Woher kommen Sie? | Where Are You From? | introductions, languages
+Woher kommen Sie?
+Where are you from?
+Ich komme aus Amerika, aus New_York.
+I'm from America, from New York.
+Und Sie?
+And you?
+Ich komme aus Österreich, aus Wien.
+I'm from Austria, from Vienna.
+Sprechen Sie Englisch?
+Do you speak English?
+Ja, ein bisschen. Aber ich lerne Deutsch.
+Yes, a little. But I'm learning German.
+
+@ a1b-04 | Zahlen | Numbers | numbers
+Eins, zwei, drei, vier, fünf.
+One, two, three, four, five.
+Sechs, sieben, acht, neun, zehn.
+Six, seven, eight, nine, ten.
+Wie ist Ihre Telefonnummer?
+What is your phone number?
+Meine Nummer ist null, eins, sieben, sechs, drei, zwei, acht.
+My number is zero, one, seven, six, three, two, eight.
+Und wie alt sind Sie?
+And how old are you?
+Ich bin dreißig Jahre alt.
+I'm thirty years old.
+
+@ a1b-05 | Wie spät ist es? | What Time Is It? | time
+Entschuldigung, wie spät ist es?
+Excuse me, what time is it?
+Es ist halb neun.
+It's half past eight.
+Oh nein, ich bin zu spät!
+Oh no, I'm late!
+Der Kurs beginnt um acht Uhr.
+The class starts at eight o'clock.
+Kein Problem. Der Bus kommt in fünf Minuten.
+No problem. The bus comes in five minutes.
+
+@ a1b-06 | Die Woche | The Week | time, days
+Die Woche hat sieben Tage.
+The week has seven days.
+Montag, Dienstag, Mittwoch, Donnerstag und Freitag sind Arbeitstage.
+Monday, Tuesday, Wednesday, Thursday and Friday are working days.
+Samstag und Sonntag sind das Wochenende.
+Saturday and Sunday are the weekend.
+Am Sonntag sind viele Geschäfte geschlossen.
+On Sunday many shops are closed.
+Heute ist Freitag. Morgen{morgen} ist Samstag!
+Today is Friday. Tomorrow is Saturday!
+
+@ a1b-07 | Meine Familie | My Family | family
+Das ist meine Familie.
+This is my family.
+Mein Vater heißt Peter und meine Mutter heißt Maria.
+My father's name is Peter and my mother's name is Maria.
+Ich habe einen Bruder und eine Schwester.
+I have a brother and a sister.
+Mein Bruder ist zwanzig und meine Schwester ist fünfzehn.
+My brother is twenty and my sister is fifteen.
+Wir haben auch einen Hund.
+We also have a dog.
+Er heißt Bello.
+His name is Bello.
+
+@ a1b-08 | Das Wetter | The Weather | weather
+Wie ist das Wetter heute?
+What's the weather like today?
+Heute ist es kalt und es regnet.
+Today it's cold and it's raining.
+Morgen{morgen} scheint die Sonne.
+Tomorrow the sun will shine.
+Es ist warm, vielleicht zwanzig Grad.
+It's warm, maybe twenty degrees.
+Ich brauche keinen Regenschirm.
+I don't need an umbrella.
+
+@ a1b-09 | Bitte und danke | Please and Thank You | polite phrases
+Bitte, danke und Entschuldigung sind sehr wichtig.
+Please, thank you and excuse me are very important.
+Einen Kaffee, bitte.
+A coffee, please.
+Vielen Dank!
+Thank you very much!
+Bitte_schön!
+You're welcome!
+Entschuldigung, ist hier noch frei?
+Excuse me, is this seat free?
+Ja, bitte. Nehmen Sie Platz.
+Yes, please. Have a seat.
+
+@ a1b-10 | Ich verstehe nicht | I Don't Understand | languages, help
+Entschuldigung, ich verstehe das nicht.
+Sorry, I don't understand that.
+Können Sie das bitte wiederholen?
+Can you repeat that, please?
+Bitte sprechen Sie langsam.
+Please speak slowly.
+Was bedeutet das Wort?
+What does the word mean?
+Wie sagt man „thank_you“ auf Deutsch?
+How do you say "thank you" in German?
+Man sagt „danke“.
+You say "danke".
+
+@ a1b-11 | Im Café | At the Café | food, café
+Guten Tag! Was möchten Sie?
+Hello! What would you like?
+Ich möchte einen Kaffee mit Milch, bitte.
+I'd like a coffee with milk, please.
+Möchten Sie auch ein Stück Kuchen?
+Would you also like a piece of cake?
+Ja, gern. Einen Apfelkuchen, bitte.
+Yes, please. An apple cake, please.
+Das macht sieben Euro zwanzig.
+That comes to seven euros twenty.
+Hier, bitte. Stimmt_so.
+Here you go. Keep the change.
+
+@ a1b-12 | Beim Bäcker | At the Bakery | food, shopping
+Guten Morgen! Was darf es sein?
+Good morning! What can I get you?
+Ich hätte gern vier Brötchen und ein Brot.
+I'd like four bread rolls and a loaf of bread.
+Sonst noch etwas?
+Anything else?
+Nein, danke. Das ist alles.
+No, thank you. That's all.
+Das macht fünf Euro fünfzig.
+That comes to five euros fifty.
+Kann ich mit Karte zahlen?
+Can I pay by card?
+Ja, natürlich.
+Yes, of course.
+
+@ a1b-13 | Mein Tag | My Day | routine
+Ich stehe{stehe~auf} um sieben Uhr auf{auf~}.
+I get up at seven o'clock.
+Ich trinke einen Kaffee und esse ein Brötchen.
+I drink a coffee and eat a roll.
+Dann fahre ich mit der U-Bahn zur Arbeit.
+Then I take the underground to work.
+Ich arbeite von neun bis fünf.
+I work from nine to five.
+Am Abend koche ich und sehe{sehe~fern} fern{fern~}.
+In the evening I cook and watch TV.
+Um elf Uhr gehe ich ins Bett.
+At eleven o'clock I go to bed.
+
+@ a1b-14 | Du oder Sie? | Du or Sie? | culture, polite phrases
+Im Deutschen gibt es „du“ und „Sie“.
+In German there is "du" and "Sie".
+Freunde und Familie sagen „du“.
+Friends and family say "du".
+Im Geschäft oder im Büro sagt man oft „Sie“.
+In a shop or in the office people often say "Sie".
+Kinder sagen „du“ zu Kindern.
+Children say "du" to children.
+Wenn man nicht sicher ist, sagt man „Sie“.
+When you're not sure, you say "Sie".
+
+@ a1b-15 | Wo ist die Toilette? | Where Is the Toilet? | directions, help
+Entschuldigung, wo ist die Toilette?
+Excuse me, where is the toilet?
+Die Toilette ist dort, rechts.
+The toilet is over there, on the right.
+Ist sie kostenlos?
+Is it free?
+Nein, sie{sie} kostet fünfzig Cent.
+No, it costs fifty cents.
+Ich habe kein Kleingeld.
+I don't have any change.
+Hier, ich habe zwei Münzen.
+Here, I have two coins.
+
+@ a1b-16 | Ich habe Hunger | I'm Hungry | food
+Ich habe Hunger und Durst.
+I'm hungry and thirsty.
+Wir gehen in ein Restaurant.
+We go to a restaurant.
+Ich esse eine Suppe und einen Salat.
+I eat a soup and a salad.
+Mein Freund isst Schnitzel mit Pommes.
+My friend eats schnitzel with fries.
+Wir trinken Wasser und ein Bier.
+We drink water and a beer.
+Das Essen ist sehr lecker.
+The food is very tasty.
+
+@ a1b-17 | Mein Hobby | My Hobby | free time
+Was ist dein Hobby?
+What's your hobby?
+Ich spiele gern Fußball.
+I like playing football.
+Am Wochenende lese ich gern Bücher.
+At the weekend I like reading books.
+Meine Freundin tanzt gern.
+My girlfriend likes dancing.
+Wir gehen oft zusammen ins Kino.
+We often go to the cinema together.
+Und du? Was machst du gern?
+And you? What do you like doing?
+
+@ a1b-18 | Meine Wohnung | My Flat | home
+Meine Wohnung ist klein, aber schön.
+My flat is small but nice.
+Sie{sie} hat zwei Zimmer, eine Küche und ein Bad.
+It has two rooms, a kitchen and a bathroom.
+Das Wohnzimmer ist hell.
+The living room is bright.
+Im Schlafzimmer steht ein großes Bett.
+There is a big bed in the bedroom.
+Die Miete ist nicht billig.
+The rent is not cheap.
+Aber die Lage ist super.
+But the location is great.
+
+@ a1b-19 | Das Jahr | The Year | time, weather
+Das Jahr hat zwölf Monate.
+The year has twelve months.
+Im Winter ist es kalt. Manchmal schneit es.
+In winter it's cold. Sometimes it snows.
+Im Frühling werden die Tage länger.
+In spring the days get longer.
+Im Sommer ist es heiß. Wir fahren ans Meer.
+In summer it's hot. We go to the sea.
+Im Herbst sind die Blätter rot und gelb.
+In autumn the leaves are red and yellow.
+Mein Geburtstag ist im Mai.
+My birthday is in May.
+
+@ a1b-20 | Ich bin krank | I'm Sick | health
+Ich fühle mich nicht gut.
+I don't feel well.
+Ich habe Kopfschmerzen und Fieber.
+I have a headache and a fever.
+Heute gehe ich nicht zur Arbeit.
+I'm not going to work today.
+Ich rufe{rufe~an} meinen Chef an{an~}.
+I call my boss.
+Ich trinke viel Tee und schlafe.
+I drink a lot of tea and sleep.
+Gute_Besserung!
+Get well soon!
+
+@ a1b-21 | Haben Sie Zeit? | Do You Have Time? | appointments
+Haben Sie am Dienstag Zeit?
+Do you have time on Tuesday?
+Am Dienstag habe ich leider keine Zeit.
+Unfortunately I don't have time on Tuesday.
+Geht es am Mittwoch?
+Does Wednesday work?
+Ja, Mittwoch geht. Um wie viel Uhr?
+Yes, Wednesday works. At what time?
+Um zehn Uhr?
+At ten o'clock?
+Perfekt. Bis Mittwoch!
+Perfect. See you Wednesday!
+
+@ a1b-22 | Farben und Kleidung | Colours and Clothes | clothes
+Ich trage heute eine blaue Jeans.
+Today I'm wearing blue jeans.
+Mein Pullover ist grün und meine Schuhe sind schwarz.
+My jumper is green and my shoes are black.
+Meine Jacke ist rot.
+My jacket is red.
+Welche Farbe magst du?
+Which colour do you like?
+Ich mag Blau und Weiß.
+I like blue and white.
+
+@ a1b-23 | Am Wochenende | At the Weekend | free time
+Was machst du am Wochenende?
+What are you doing at the weekend?
+Am Samstag besuche ich meine Eltern.
+On Saturday I'm visiting my parents.
+Am Sonntag gehe ich mit Freunden spazieren.
+On Sunday I'm going for a walk with friends.
+Danach trinken wir Kaffee im Park.
+Afterwards we're having coffee in the park.
+Kommst du mit?
+Are you coming along?
+Ja, gern!
+Yes, I'd love to!
+
+@ a1b-24 | Hilfe! | Help! | help, emergency
+Hilfe! Ich brauche Hilfe!
+Help! I need help!
+Was ist los?
+What's the matter?
+Ich habe meine Tasche verloren.
+I've lost my bag.
+Mein Handy und mein Pass sind in der Tasche.
+My phone and my passport are in the bag.
+Gehen Sie zur Polizei. Sie{sie} ist gleich dort.
+Go to the police. It's right there.
+Die Notrufnummer ist eins, eins, zwei.
+The emergency number is one, one, two.
+
+@ a1b-25 | Tschüss! | Bye! | greetings
+Es ist spät. Ich muss jetzt gehen.
+It's late. I have to go now.
+Tschüss, bis morgen!
+Bye, see you tomorrow!
+Auf_Wiedersehen, Frau Schmidt!
+Goodbye, Ms. Schmidt!
+Schönen Abend noch!
+Have a nice evening!
+Danke, gleichfalls!
+Thanks, you too!
+Bis bald!
+See you soon!

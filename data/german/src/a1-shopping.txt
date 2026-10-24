@@ -1,0 +1,280 @@
+# deck: id=a1-shopping | title=A1 · Shopping | level=A1 | kind=shopping | vocab_min=0.85
+# desc: Supermarkets, markets, clothes and pharmacies — buying what you need.
+
+@ a1s-01 | Im Supermarkt | At the Supermarket | supermarket
+Entschuldigung, wo finde ich die Milch?
+Excuse me, where can I find the milk?
+Die Milch ist hinten links, neben dem Joghurt.
+The milk is at the back on the left, next to the yoghurt.
+Und haben Sie auch Hafermilch?
+And do you also have oat milk?
+Ja, die{die:pron} steht im Regal dort.
+Yes, it's on the shelf over there.
+Vielen Dank!
+Thank you very much!
+
+@ a1s-02 | Auf dem Markt | At the Market | market, food
+Was kosten die Äpfel?
+How much are the apples?
+Ein Kilo kostet zwei Euro fünfzig.
+A kilo costs two euros fifty.
+Ich hätte gern ein Kilo Äpfel und drei Bananen.
+I'd like a kilo of apples and three bananas.
+Die Erdbeeren sehen{sehen~aus} gut aus{aus~}.
+The strawberries look good.
+Sie{sie} sind frisch von heute.
+They're fresh today.
+Dann nehme ich eine Schale.
+Then I'll take a punnet.
+
+@ a1s-03 | Wie viel kostet das? | How Much Is It? | prices
+Wie viel kostet diese Tasse?
+How much does this cup cost?
+Sie{sie} kostet acht Euro.
+It costs eight euros.
+Das ist zu teuer.
+That's too expensive.
+Haben Sie auch etwas Billigeres?
+Do you also have something cheaper?
+Diese hier kostet nur vier Euro.
+This one here costs only four euros.
+Gut, die{die:pron} nehme ich.
+Good, I'll take that one.
+
+@ a1s-04 | An der Kasse | At the Checkout | supermarket, money
+Brauchen Sie eine Tüte?
+Do you need a bag?
+Nein, danke. Ich habe eine Tasche dabei.
+No, thanks. I have a bag with me.
+Haben Sie eine Payback-Karte?
+Do you have a Payback card?
+Nein, habe ich nicht.
+No, I don't.
+Das macht dreiundzwanzig Euro vierzig.
+That comes to twenty-three euros forty.
+Möchten Sie den Kassenbon?
+Would you like the receipt?
+Ja, bitte.
+Yes, please.
+
+@ a1s-05 | Pfand | Bottle Deposit | supermarket, culture
+In Deutschland gibt es Pfand auf Flaschen.
+In Germany there is a deposit on bottles.
+Eine Plastikflasche kostet fünfundzwanzig Cent Pfand.
+A plastic bottle has a twenty-five cent deposit.
+Im Supermarkt gibt es einen Pfandautomaten.
+In the supermarket there's a bottle return machine.
+Man steckt die Flaschen in den Automaten.
+You put the bottles into the machine.
+Dann bekommt man einen Bon.
+Then you get a voucher.
+An der Kasse bekommt man das Geld zurück.
+At the checkout you get the money back.
+
+@ a1s-06 | Ein T-Shirt kaufen | Buying a T-Shirt | clothes
+Kann ich Ihnen helfen?
+Can I help you?
+Ja, ich suche ein T-Shirt.
+Yes, I'm looking for a T-shirt.
+Welche Größe haben Sie?
+What size are you?
+Größe M, glaube ich.
+Size M, I think.
+Die T-Shirts sind hier. Welche Farbe möchten Sie?
+The T-shirts are here. Which colour would you like?
+Haben Sie das in Grau?
+Do you have this in grey?
+
+@ a1s-07 | Die Umkleidekabine | The Changing Room | clothes
+Kann ich die Hose anprobieren?
+Can I try on the trousers?
+Natürlich. Die Umkleidekabine ist dort hinten.
+Of course. The changing room is back there.
+Und? Passt die Hose?
+Well? Do the trousers fit?
+Nein, sie{sie} ist zu klein.
+No, they're too small.
+Haben Sie sie{sie} eine Nummer größer?
+Do you have them one size bigger?
+Moment, ich schaue mal.
+One moment, I'll have a look.
+
+@ a1s-08 | In der Apotheke | At the Pharmacy | pharmacy, health
+Guten Tag. Ich habe Halsschmerzen.
+Hello. I have a sore throat.
+Haben Sie auch Fieber?
+Do you also have a fever?
+Nein, nur Halsschmerzen und Schnupfen.
+No, just a sore throat and a cold.
+Ich empfehle diese Tabletten.
+I recommend these tablets.
+Nehmen Sie drei Tabletten am Tag.
+Take three tablets a day.
+Brauche ich ein Rezept?
+Do I need a prescription?
+Nein, das brauchen Sie nicht.
+No, you don't need one.
+
+@ a1s-09 | In der Drogerie | At the Chemist's | drugstore
+In der Drogerie kauft man Shampoo, Seife und Zahnpasta.
+At the chemist's you buy shampoo, soap and toothpaste.
+Ich brauche auch Sonnencreme für den Urlaub.
+I also need sun cream for the holiday.
+Wo ist die Sonnencreme?
+Where is the sun cream?
+Im Gang drei, ganz unten.
+In aisle three, right at the bottom.
+Medikamente gibt es hier nicht.
+Medicines aren't sold here.
+Die{die:pron} kauft man in der Apotheke.
+You buy those at the pharmacy.
+
+@ a1s-10 | Ein Souvenir | A Souvenir | souvenirs
+Ich suche ein Souvenir für meine Mutter.
+I'm looking for a souvenir for my mother.
+Wie wäre es mit diesem Kalender?
+How about this calendar?
+Hm, vielleicht. Was kostet die Tasse dort?
+Hm, maybe. How much is the cup over there?
+Zwölf Euro.
+Twelve euros.
+Können Sie sie{sie} als Geschenk einpacken?
+Can you gift-wrap it?
+Ja, gern.
+Yes, gladly.
+
+@ a1s-11 | Öffnungszeiten | Opening Hours | culture, hours
+Wann hat der Supermarkt geöffnet?
+When is the supermarket open?
+Von Montag bis Samstag, von acht bis zweiundzwanzig Uhr.
+From Monday to Saturday, from eight a.m. to ten p.m.
+Und am Sonntag?
+And on Sunday?
+Am Sonntag sind fast alle Geschäfte geschlossen.
+On Sunday almost all shops are closed.
+Nur am Bahnhof kann man am Sonntag einkaufen.
+Only at the station can you shop on Sunday.
+Also kaufe{kaufe~ein} ich am Samstag ein{ein~}.
+So I do my shopping on Saturday.
+
+@ a1s-12 | Neue Schuhe | New Shoes | clothes, shoes
+Ich brauche neue Schuhe.
+I need new shoes.
+Welche Schuhgröße haben Sie?
+What shoe size are you?
+Ich habe Größe zweiundvierzig.
+I'm a size forty-two.
+Diese Schuhe sind bequem.
+These shoes are comfortable.
+Aber sie{sie} sind ein bisschen teuer.
+But they're a bit expensive.
+Heute gibt es zwanzig Prozent Rabatt.
+Today there's twenty percent off.
+
+@ a1s-13 | Beim Metzger | At the Butcher's | food
+Was darf es sein?
+What can I get you?
+Ich hätte gern zweihundert Gramm Schinken.
+I'd like two hundred grams of ham.
+Geschnitten?
+Sliced?
+Ja, bitte, in dünnen Scheiben.
+Yes, please, in thin slices.
+Darf es ein bisschen mehr sein?
+Is it all right if it's a bit more?
+Ja, kein Problem.
+Yes, no problem.
+
+@ a1s-14 | Ein Ladekabel | A Charging Cable | electronics, travel
+Mein Handy ist leer und ich habe kein Ladekabel.
+My phone is dead and I don't have a charging cable.
+Haben Sie Ladekabel für dieses Handy?
+Do you have charging cables for this phone?
+Ja, hier, für neun Euro neunundneunzig.
+Yes, here, for nine ninety-nine.
+Brauche ich auch einen Adapter?
+Do I also need an adapter?
+Kommen Sie aus Amerika? Dann ja.
+Are you from America? Then yes.
+
+@ a1s-15 | Bar oder mit Karte? | Cash or Card? | money
+Zahlen{zahlen} Sie bar oder mit Karte?
+Are you paying cash or by card?
+Mit Karte, bitte.
+By card, please.
+Stecken{stecken~ein} Sie die Karte hier ein{ein~}.
+Insert the card here.
+Geben{geben~ein} Sie jetzt Ihre PIN ein{ein~}.
+Now enter your PIN.
+Sie können auch mit dem Handy zahlen.
+You can also pay with your phone.
+Danke, und einen schönen Tag noch!
+Thank you, and have a nice day!
+
+@ a1s-16 | Die Einkaufsliste | The Shopping List | supermarket, food
+Heute Abend kochen wir Spaghetti.
+Tonight we're cooking spaghetti.
+Was brauchen wir?
+What do we need?
+Wir brauchen Nudeln, Tomaten, eine Zwiebel und Käse.
+We need pasta, tomatoes, an onion and cheese.
+Haben wir noch Olivenöl?
+Do we still have olive oil?
+Nein, das ist leer.
+No, it's empty.
+Ich schreibe es auf die Liste.
+I'll write it on the list.
+
+@ a1s-17 | Im Buchladen | At the Bookshop | books
+Ich suche ein Buch auf Deutsch für Anfänger.
+I'm looking for a book in German for beginners.
+Lesen Sie gern Krimis?
+Do you like reading crime novels?
+Ja, sehr gern.
+Yes, very much.
+Dann ist dieses Buch gut. Es ist leicht und spannend.
+Then this book is good. It's easy and exciting.
+Gibt es das auch als Hörbuch?
+Is it also available as an audiobook?
+Ja, aber nur online.
+Yes, but only online.
+
+@ a1s-18 | Auf dem Flohmarkt | At the Flea Market | market, prices
+Jeden Sonntag gibt es hier einen Flohmarkt.
+Every Sunday there's a flea market here.
+Hier kann man alte Sachen kaufen.
+Here you can buy old things.
+Was kostet die Lampe?
+How much is the lamp?
+Zwanzig Euro.
+Twenty euros.
+Hm, fünfzehn?
+Hm, fifteen?
+Okay, fünfzehn Euro.
+Okay, fifteen euros.
+
+@ a1s-19 | Umtauschen | Exchanging Something | clothes, problems
+Ich habe diesen Pullover gestern gekauft.
+I bought this jumper yesterday.
+Er ist leider zu groß.
+Unfortunately it's too big.
+Kann ich ihn umtauschen?
+Can I exchange it?
+Haben Sie den Kassenbon?
+Do you have the receipt?
+Ja, hier ist er.
+Yes, here it is.
+Kein Problem. Möchten Sie eine kleinere Größe?
+No problem. Would you like a smaller size?
+
+@ a1s-20 | Blumen kaufen | Buying Flowers | gifts
+Heute Abend bin ich bei Freunden eingeladen.
+Tonight I'm invited to friends' place.
+In Deutschland bringt{bringt~mit} man oft Blumen oder Wein mit{mit~}.
+In Germany people often bring flowers or wine.
+Ich hätte gern einen kleinen Strauß.
+I'd like a small bouquet.
+Welche Blumen möchten Sie?
+Which flowers would you like?
+Tulpen, bitte. Gelb und rot.
+Tulips, please. Yellow and red.
