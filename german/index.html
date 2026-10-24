@@ -6,7 +6,7 @@
   <title>German Reader</title>
   <meta name="author" content="Ilya Chugunov">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A guided German reader: short graded passages for travel, shopping and work, with per-word glosses, noun genders and audio.">
+  <meta name="description" content="A guided German reader: short graded passages for travel, shopping and work, with per-word glosses and noun genders.">
   <link rel="stylesheet" type="text/css" href="/stylesheet.css">
   <link rel="icon" type="image/png" href="/images/seal_icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -94,8 +94,7 @@
     .seg button,
     .btn,
     .chip,
-    .sheet-row,
-    .say {
+    .sheet-row {
       -webkit-tap-highlight-color: transparent;
       -webkit-user-select: none;
       user-select: none;
@@ -532,41 +531,8 @@
     .reader[data-gender="on"] .g-n .w { color: var(--g-n); }
     .reader[data-gender="on"] .g-pl .w { color: var(--g-pl); }
 
-    .en-row {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-top: 2px;
-    }
-
-    .say {
-      flex: none;
-      width: 26px;
-      height: 26px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-      color: var(--dim);
-      background: transparent;
-      border: 1px solid var(--edge);
-      border-radius: 999px;
-      cursor: pointer;
-      padding: 0;
-    }
-
-    .say:hover,
-    .say.playing {
-      color: var(--accent);
-      border-color: #5c3b2b;
-    }
-
-    .no-tts .say {
-      display: none;
-    }
-
     .en {
-      flex: 1 1 auto;
+      margin-top: 2px;
       font-size: 15px;
       color: #cfcfcf;
       font-style: italic;
@@ -812,12 +778,6 @@
         padding: 9px 13px;
       }
 
-      .say {
-        width: 32px;
-        height: 32px;
-        font-size: 12px;
-      }
-
       .toolbar {
         gap: 10px 14px;
       }
@@ -983,22 +943,6 @@
           </span>
         </div>
 
-        <div class="ctrl" id="ctrl-speak">
-          <label>Speak words</label>
-          <div class="seg" id="seg-speak">
-            <button data-value="on">On tap</button>
-            <button data-value="off">Off</button>
-          </div>
-        </div>
-
-        <div class="ctrl" id="ctrl-rate">
-          <label>Speed</label>
-          <div class="seg" id="seg-rate">
-            <button data-value="0.7">Slow</button>
-            <button data-value="0.9">Normal</button>
-          </div>
-        </div>
-
         <div class="ctrl">
           <label>Size</label>
           <button class="btn" id="smaller" title="Smaller text">A&minus;</button>
@@ -1015,7 +959,7 @@
     <p class="hint">
       <span class="hover-only">
         Hover any word for its dictionary form and meaning; nouns are shown with
-        their article and plural. <b>▶</b> reads a sentence aloud.
+        their article and plural.
         <kbd>&larr;</kbd> <kbd>&rarr;</kbd> passage &nbsp;·&nbsp;
         <kbd>b</kbd> browse &nbsp;·&nbsp;
         <kbd>r</kbd> random &nbsp;·&nbsp;
@@ -1026,7 +970,7 @@
       </span>
       <span class="touch-only">
         Tap any word for its meaning, tap <b>···</b> for a sentence translation,
-        <b>▶</b> to hear it, and swipe left or right to change passage.
+        and swipe left or right to change passage.
       </span>
     </p>
   </div>
@@ -1059,8 +1003,6 @@
         gloss: "hover",    // on | hover | off
         english: "tap",    // on | hover | tap | off
         gender: "on",      // on | off
-        speak: "off",      // speak words on tap: on | off
-        rate: "0.9",       // speech rate
         size: 27,          // word font size in px
         last: null,        // "deckId/passageId"
         read: {},          // "deckId/passageId" -> true
@@ -1126,58 +1068,6 @@
         return bare || first;
       }
 
-      /* ---------- speech ---------- */
-
-      var tts = window.speechSynthesis || null;
-      var voice = null;
-      var playingBtn = null;
-
-      function pickVoice() {
-        if (!tts) return;
-        var voices = tts.getVoices() || [];
-        var german = voices.filter(function (v) { return /^de([-_]|$)/i.test(v.lang); });
-        // Prefer a German-German voice, and among those the better-sounding ones.
-        german.sort(function (a, b) {
-          function score(v) {
-            var s = 0;
-            if (/de[-_]DE/i.test(v.lang)) s += 2;
-            if (/natural|premium|enhanced|google|neural/i.test(v.name)) s += 1;
-            return s;
-          }
-          return score(b) - score(a);
-        });
-        voice = german[0] || null;
-      }
-
-      if (tts) {
-        pickVoice();
-        if ("onvoiceschanged" in tts) tts.onvoiceschanged = pickVoice;
-      } else {
-        document.documentElement.classList.add("no-tts");
-        document.getElementById("ctrl-speak").hidden = true;
-        document.getElementById("ctrl-rate").hidden = true;
-      }
-
-      function speak(text, btn) {
-        if (!tts) return;
-        tts.cancel();
-        if (playingBtn) playingBtn.classList.remove("playing");
-        playingBtn = null;
-        var u = new SpeechSynthesisUtterance(text);
-        u.lang = "de-DE";
-        if (voice) u.voice = voice;
-        u.rate = parseFloat(state.rate) || 0.9;
-        if (btn) {
-          playingBtn = btn;
-          btn.classList.add("playing");
-          u.onend = u.onerror = function () {
-            btn.classList.remove("playing");
-            if (playingBtn === btn) playingBtn = null;
-          };
-        }
-        tts.speak(u);
-      }
-
       /* ---------- rendering ---------- */
 
       function renderToken(token) {
@@ -1215,18 +1105,6 @@
         return !token.en && /^[„"‚(«»]$/.test(token.w);
       }
 
-      function sentenceText(tokens) {
-        // Rebuilt for speech: words separated by spaces, punctuation attached.
-        var out = "";
-        tokens.forEach(function (t, i) {
-          var attach = !t.en && !/^[\d€$%]/.test(t.w) && !isOpener(t);
-          var prevOpen = i > 0 && isOpener(tokens[i - 1]);
-          if (out && !attach && !prevOpen) out += " ";
-          out += t.w;
-        });
-        return out;
-      }
-
       function renderPassage(deck, passage) {
         document.getElementById("passage-head").hidden = false;
         document.getElementById("p-title").textContent = passage.title || "";
@@ -1237,7 +1115,6 @@
         document.getElementById("p-meta").textContent =
           meta + "  (" + (idx + 1) + "/" + flat.length + ")";
 
-        if (tts) tts.cancel();
         reader.innerHTML = "";
         (passage.sentences || []).forEach(function (sentence) {
           var block = document.createElement("div");
@@ -1268,27 +1145,10 @@
           }
           block.appendChild(line);
 
-          var row = document.createElement("div");
-          row.className = "en-row";
-
-          var say = document.createElement("button");
-          say.className = "say";
-          say.type = "button";
-          say.setAttribute("aria-label", "Read this sentence aloud");
-          say.textContent = "▶";
-          var text = sentenceText(tokens);
-          say.addEventListener("click", function (ev) {
-            ev.stopPropagation();
-            hideTip();
-            speak(text, say);
-          });
-          row.appendChild(say);
-
           var en = document.createElement("div");
           en.className = "en";
           en.textContent = sentence.en || "";
-          row.appendChild(en);
-          block.appendChild(row);
+          block.appendChild(en);
 
           block.addEventListener("click", function (ev) {
             if (state.english !== "tap" && state.english !== "hover") return;
@@ -1407,7 +1267,6 @@
         if (pinned === el) { hideTip(); return; }
         hideTip();
         if (showTip(el)) pinned = el;
-        if (state.speak === "on") speak(el.dataset.w);
       });
 
       reader.addEventListener("focusin", function (ev) {
@@ -1456,8 +1315,7 @@
       /* ---------- settings UI ---------- */
 
       var SEGMENTS = [
-        ["seg-gloss", "gloss"], ["seg-english", "english"], ["seg-gender", "gender"],
-        ["seg-speak", "speak"], ["seg-rate", "rate"]
+        ["seg-gloss", "gloss"], ["seg-english", "english"], ["seg-gender", "gender"]
       ];
 
       function bindSegment(id, key) {
@@ -1751,7 +1609,7 @@
           case "g": cycle("gloss", ["on", "hover", "off"]); break;
           case "e": cycle("english", ["on", "hover", "tap", "off"]); break;
           case "c": cycle("gender", ["on", "off"]); break;
-          case "Escape": hideTip(); if (tts) tts.cancel(); break;
+          case "Escape": hideTip(); break;
           default: return;
         }
         ev.preventDefault();
