@@ -1,0 +1,1233 @@
+{
+ "generated_by": "tools/german/build.py",
+ "decks": [
+  {
+   "id": "a1-basics",
+   "file": "data/german/a1-basics.json",
+   "title": "A1 · Basics",
+   "level": "A1",
+   "kind": "basics",
+   "description": "Greetings, numbers, time, polite phrases and daily life — the first things you say.",
+   "passages": [
+    {
+     "id": "a1b-01",
+     "title": "Hallo!",
+     "title_en": "Hello!",
+     "tags": [
+      "greetings"
+     ]
+    },
+    {
+     "id": "a1b-02",
+     "title": "Ich heiße Anna",
+     "title_en": "My Name Is Anna",
+     "tags": [
+      "introductions"
+     ]
+    },
+    {
+     "id": "a1b-03",
+     "title": "Woher kommen Sie?",
+     "title_en": "Where Are You From?",
+     "tags": [
+      "introductions",
+      "languages"
+     ]
+    },
+    {
+     "id": "a1b-04",
+     "title": "Zahlen",
+     "title_en": "Numbers",
+     "tags": [
+      "numbers"
+     ]
+    },
+    {
+     "id": "a1b-05",
+     "title": "Wie spät ist es?",
+     "title_en": "What Time Is It?",
+     "tags": [
+      "time"
+     ]
+    },
+    {
+     "id": "a1b-06",
+     "title": "Die Woche",
+     "title_en": "The Week",
+     "tags": [
+      "time",
+      "days"
+     ]
+    },
+    {
+     "id": "a1b-07",
+     "title": "Meine Familie",
+     "title_en": "My Family",
+     "tags": [
+      "family"
+     ]
+    },
+    {
+     "id": "a1b-08",
+     "title": "Das Wetter",
+     "title_en": "The Weather",
+     "tags": [
+      "weather"
+     ]
+    },
+    {
+     "id": "a1b-09",
+     "title": "Bitte und danke",
+     "title_en": "Please and Thank You",
+     "tags": [
+      "polite phrases"
+     ]
+    },
+    {
+     "id": "a1b-10",
+     "title": "Ich verstehe nicht",
+     "title_en": "I Don't Understand",
+     "tags": [
+      "languages",
+      "help"
+     ]
+    },
+    {
+     "id": "a1b-11",
+     "title": "Im Café",
+     "title_en": "At the Café",
+     "tags": [
+      "food",
+      "café"
+     ]
+    },
+    {
+     "id": "a1b-12",
+     "title": "Beim Bäcker",
+     "title_en": "At the Bakery",
+     "tags": [
+      "food",
+      "shopping"
+     ]
+    },
+    {
+     "id": "a1b-13",
+     "title": "Mein Tag",
+     "title_en": "My Day",
+     "tags": [
+      "routine"
+     ]
+    },
+    {
+     "id": "a1b-14",
+     "title": "Du oder Sie?",
+     "title_en": "Du or Sie?",
+     "tags": [
+      "culture",
+      "polite phrases"
+     ]
+    },
+    {
+     "id": "a1b-15",
+     "title": "Wo ist die Toilette?",
+     "title_en": "Where Is the Toilet?",
+     "tags": [
+      "directions",
+      "help"
+     ]
+    },
+    {
+     "id": "a1b-16",
+     "title": "Ich habe Hunger",
+     "title_en": "I'm Hungry",
+     "tags": [
+      "food"
+     ]
+    },
+    {
+     "id": "a1b-17",
+     "title": "Mein Hobby",
+     "title_en": "My Hobby",
+     "tags": [
+      "free time"
+     ]
+    },
+    {
+     "id": "a1b-18",
+     "title": "Meine Wohnung",
+     "title_en": "My Flat",
+     "tags": [
+      "home"
+     ]
+    },
+    {
+     "id": "a1b-19",
+     "title": "Das Jahr",
+     "title_en": "The Year",
+     "tags": [
+      "time",
+      "weather"
+     ]
+    },
+    {
+     "id": "a1b-20",
+     "title": "Ich bin krank",
+     "title_en": "I'm Sick",
+     "tags": [
+      "health"
+     ]
+    },
+    {
+     "id": "a1b-21",
+     "title": "Haben Sie Zeit?",
+     "title_en": "Do You Have Time?",
+     "tags": [
+      "appointments"
+     ]
+    },
+    {
+     "id": "a1b-22",
+     "title": "Farben und Kleidung",
+     "title_en": "Colours and Clothes",
+     "tags": [
+      "clothes"
+     ]
+    },
+    {
+     "id": "a1b-23",
+     "title": "Am Wochenende",
+     "title_en": "At the Weekend",
+     "tags": [
+      "free time"
+     ]
+    },
+    {
+     "id": "a1b-24",
+     "title": "Hilfe!",
+     "title_en": "Help!",
+     "tags": [
+      "help",
+      "emergency"
+     ]
+    },
+    {
+     "id": "a1b-25",
+     "title": "Tschüss!",
+     "title_en": "Bye!",
+     "tags": [
+      "greetings"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a1-travel",
+   "file": "data/german/a1-travel.json",
+   "title": "A1 · Travel",
+   "level": "A1",
+   "kind": "travel",
+   "description": "Tickets, trains, hotels, directions and restaurants — getting around as a visitor.",
+   "passages": [
+    {
+     "id": "a1t-01",
+     "title": "Eine Fahrkarte, bitte",
+     "title_en": "A Ticket, Please",
+     "tags": [
+      "train",
+      "tickets"
+     ]
+    },
+    {
+     "id": "a1t-02",
+     "title": "Welches Gleis?",
+     "title_en": "Which Platform?",
+     "tags": [
+      "train"
+     ]
+    },
+    {
+     "id": "a1t-03",
+     "title": "Im Zug",
+     "title_en": "On the Train",
+     "tags": [
+      "train"
+     ]
+    },
+    {
+     "id": "a1t-04",
+     "title": "Am Flughafen",
+     "title_en": "At the Airport",
+     "tags": [
+      "flying"
+     ]
+    },
+    {
+     "id": "a1t-05",
+     "title": "Im Hotel",
+     "title_en": "At the Hotel",
+     "tags": [
+      "hotel"
+     ]
+    },
+    {
+     "id": "a1t-06",
+     "title": "Ein Problem im Zimmer",
+     "title_en": "A Problem in the Room",
+     "tags": [
+      "hotel",
+      "problems"
+     ]
+    },
+    {
+     "id": "a1t-07",
+     "title": "Frühstück im Hotel",
+     "title_en": "Breakfast at the Hotel",
+     "tags": [
+      "hotel",
+      "food"
+     ]
+    },
+    {
+     "id": "a1t-08",
+     "title": "Wie komme ich zum Bahnhof?",
+     "title_en": "How Do I Get to the Station?",
+     "tags": [
+      "directions"
+     ]
+    },
+    {
+     "id": "a1t-09",
+     "title": "Mit der U-Bahn",
+     "title_en": "By Underground",
+     "tags": [
+      "transport",
+      "tickets"
+     ]
+    },
+    {
+     "id": "a1t-10",
+     "title": "Ein Taxi, bitte",
+     "title_en": "A Taxi, Please",
+     "tags": [
+      "transport"
+     ]
+    },
+    {
+     "id": "a1t-11",
+     "title": "Im Restaurant",
+     "title_en": "At the Restaurant",
+     "tags": [
+      "restaurant",
+      "food"
+     ]
+    },
+    {
+     "id": "a1t-12",
+     "title": "Zahlen, bitte!",
+     "title_en": "The Bill, Please!",
+     "tags": [
+      "restaurant",
+      "money"
+     ]
+    },
+    {
+     "id": "a1t-13",
+     "title": "Im Museum",
+     "title_en": "At the Museum",
+     "tags": [
+      "sightseeing",
+      "tickets"
+     ]
+    },
+    {
+     "id": "a1t-14",
+     "title": "Die Touristeninformation",
+     "title_en": "The Tourist Information",
+     "tags": [
+      "sightseeing"
+     ]
+    },
+    {
+     "id": "a1t-15",
+     "title": "Ein Fahrrad mieten",
+     "title_en": "Renting a Bike",
+     "tags": [
+      "transport",
+      "sightseeing"
+     ]
+    },
+    {
+     "id": "a1t-16",
+     "title": "Am Geldautomaten",
+     "title_en": "At the Cash Machine",
+     "tags": [
+      "money"
+     ]
+    },
+    {
+     "id": "a1t-17",
+     "title": "Auf der Post",
+     "title_en": "At the Post Office",
+     "tags": [
+      "post"
+     ]
+    },
+    {
+     "id": "a1t-18",
+     "title": "Der Zug hat Verspätung",
+     "title_en": "The Train Is Delayed",
+     "tags": [
+      "train",
+      "problems"
+     ]
+    },
+    {
+     "id": "a1t-19",
+     "title": "Ein Tag in München",
+     "title_en": "A Day in Munich",
+     "tags": [
+      "sightseeing"
+     ]
+    },
+    {
+     "id": "a1t-20",
+     "title": "Ist das der Bus nach…?",
+     "title_en": "Is This the Bus to…?",
+     "tags": [
+      "transport"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a1-shopping",
+   "file": "data/german/a1-shopping.json",
+   "title": "A1 · Shopping",
+   "level": "A1",
+   "kind": "shopping",
+   "description": "Supermarkets, markets, clothes and pharmacies — buying what you need.",
+   "passages": [
+    {
+     "id": "a1s-01",
+     "title": "Im Supermarkt",
+     "title_en": "At the Supermarket",
+     "tags": [
+      "supermarket"
+     ]
+    },
+    {
+     "id": "a1s-02",
+     "title": "Auf dem Markt",
+     "title_en": "At the Market",
+     "tags": [
+      "market",
+      "food"
+     ]
+    },
+    {
+     "id": "a1s-03",
+     "title": "Wie viel kostet das?",
+     "title_en": "How Much Is It?",
+     "tags": [
+      "prices"
+     ]
+    },
+    {
+     "id": "a1s-04",
+     "title": "An der Kasse",
+     "title_en": "At the Checkout",
+     "tags": [
+      "supermarket",
+      "money"
+     ]
+    },
+    {
+     "id": "a1s-05",
+     "title": "Pfand",
+     "title_en": "Bottle Deposit",
+     "tags": [
+      "supermarket",
+      "culture"
+     ]
+    },
+    {
+     "id": "a1s-06",
+     "title": "Ein T-Shirt kaufen",
+     "title_en": "Buying a T-Shirt",
+     "tags": [
+      "clothes"
+     ]
+    },
+    {
+     "id": "a1s-07",
+     "title": "Die Umkleidekabine",
+     "title_en": "The Changing Room",
+     "tags": [
+      "clothes"
+     ]
+    },
+    {
+     "id": "a1s-08",
+     "title": "In der Apotheke",
+     "title_en": "At the Pharmacy",
+     "tags": [
+      "pharmacy",
+      "health"
+     ]
+    },
+    {
+     "id": "a1s-09",
+     "title": "In der Drogerie",
+     "title_en": "At the Chemist's",
+     "tags": [
+      "drugstore"
+     ]
+    },
+    {
+     "id": "a1s-10",
+     "title": "Ein Souvenir",
+     "title_en": "A Souvenir",
+     "tags": [
+      "souvenirs"
+     ]
+    },
+    {
+     "id": "a1s-11",
+     "title": "Öffnungszeiten",
+     "title_en": "Opening Hours",
+     "tags": [
+      "culture",
+      "hours"
+     ]
+    },
+    {
+     "id": "a1s-12",
+     "title": "Neue Schuhe",
+     "title_en": "New Shoes",
+     "tags": [
+      "clothes",
+      "shoes"
+     ]
+    },
+    {
+     "id": "a1s-13",
+     "title": "Beim Metzger",
+     "title_en": "At the Butcher's",
+     "tags": [
+      "food"
+     ]
+    },
+    {
+     "id": "a1s-14",
+     "title": "Ein Ladekabel",
+     "title_en": "A Charging Cable",
+     "tags": [
+      "electronics",
+      "travel"
+     ]
+    },
+    {
+     "id": "a1s-15",
+     "title": "Bar oder mit Karte?",
+     "title_en": "Cash or Card?",
+     "tags": [
+      "money"
+     ]
+    },
+    {
+     "id": "a1s-16",
+     "title": "Die Einkaufsliste",
+     "title_en": "The Shopping List",
+     "tags": [
+      "supermarket",
+      "food"
+     ]
+    },
+    {
+     "id": "a1s-17",
+     "title": "Im Buchladen",
+     "title_en": "At the Bookshop",
+     "tags": [
+      "books"
+     ]
+    },
+    {
+     "id": "a1s-18",
+     "title": "Auf dem Flohmarkt",
+     "title_en": "At the Flea Market",
+     "tags": [
+      "market",
+      "prices"
+     ]
+    },
+    {
+     "id": "a1s-19",
+     "title": "Umtauschen",
+     "title_en": "Exchanging Something",
+     "tags": [
+      "clothes",
+      "problems"
+     ]
+    },
+    {
+     "id": "a1s-20",
+     "title": "Blumen kaufen",
+     "title_en": "Buying Flowers",
+     "tags": [
+      "gifts"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a2-travel",
+   "file": "data/german/a2-travel.json",
+   "title": "A2 · Travel",
+   "level": "A2",
+   "kind": "travel",
+   "description": "When travel goes wrong — delays, lost luggage, complaints, doctors — plus car hire, hiking and night trains.",
+   "passages": [
+    {
+     "id": "a2t-01",
+     "title": "Das Deutschlandticket",
+     "title_en": "The Germany Ticket",
+     "tags": [
+      "train",
+      "tickets"
+     ]
+    },
+    {
+     "id": "a2t-02",
+     "title": "Der Zug fällt aus",
+     "title_en": "The Train Is Cancelled",
+     "tags": [
+      "train",
+      "problems"
+     ]
+    },
+    {
+     "id": "a2t-03",
+     "title": "Mein Koffer ist nicht da",
+     "title_en": "My Suitcase Isn't Here",
+     "tags": [
+      "flying",
+      "problems"
+     ]
+    },
+    {
+     "id": "a2t-04",
+     "title": "Eine Beschwerde",
+     "title_en": "A Complaint",
+     "tags": [
+      "hotel",
+      "problems"
+     ]
+    },
+    {
+     "id": "a2t-05",
+     "title": "Die Ferienwohnung",
+     "title_en": "The Holiday Flat",
+     "tags": [
+      "accommodation"
+     ]
+    },
+    {
+     "id": "a2t-06",
+     "title": "Beim Arzt",
+     "title_en": "At the Doctor's",
+     "tags": [
+      "health"
+     ]
+    },
+    {
+     "id": "a2t-07",
+     "title": "Im Fundbüro",
+     "title_en": "At the Lost Property Office",
+     "tags": [
+      "problems"
+     ]
+    },
+    {
+     "id": "a2t-08",
+     "title": "Ein Auto mieten",
+     "title_en": "Renting a Car",
+     "tags": [
+      "car",
+      "transport"
+     ]
+    },
+    {
+     "id": "a2t-09",
+     "title": "Auf der Autobahn",
+     "title_en": "On the Motorway",
+     "tags": [
+      "car",
+      "culture"
+     ]
+    },
+    {
+     "id": "a2t-10",
+     "title": "Einen Tisch reservieren",
+     "title_en": "Booking a Table",
+     "tags": [
+      "restaurant",
+      "phone"
+     ]
+    },
+    {
+     "id": "a2t-11",
+     "title": "Ich habe eine Allergie",
+     "title_en": "I Have an Allergy",
+     "tags": [
+      "restaurant",
+      "health"
+     ]
+    },
+    {
+     "id": "a2t-12",
+     "title": "Eine Stadtführung",
+     "title_en": "A City Tour",
+     "tags": [
+      "sightseeing"
+     ]
+    },
+    {
+     "id": "a2t-13",
+     "title": "Wandern in den Alpen",
+     "title_en": "Hiking in the Alps",
+     "tags": [
+      "outdoors"
+     ]
+    },
+    {
+     "id": "a2t-14",
+     "title": "Im Nachtzug",
+     "title_en": "On the Night Train",
+     "tags": [
+      "train"
+     ]
+    },
+    {
+     "id": "a2t-15",
+     "title": "An der Grenze",
+     "title_en": "At the Border",
+     "tags": [
+      "travel",
+      "documents"
+     ]
+    },
+    {
+     "id": "a2t-16",
+     "title": "Mit dem Fernbus",
+     "title_en": "By Long-Distance Coach",
+     "tags": [
+      "transport"
+     ]
+    },
+    {
+     "id": "a2t-17",
+     "title": "Ein Ausflug ans Meer",
+     "title_en": "A Trip to the Sea",
+     "tags": [
+      "sightseeing",
+      "weather"
+     ]
+    },
+    {
+     "id": "a2t-18",
+     "title": "Die Apotheke hat Notdienst",
+     "title_en": "The Pharmacy on Duty",
+     "tags": [
+      "pharmacy",
+      "health"
+     ]
+    },
+    {
+     "id": "a2t-19",
+     "title": "Ein Strafzettel",
+     "title_en": "A Parking Ticket",
+     "tags": [
+      "car",
+      "problems"
+     ]
+    },
+    {
+     "id": "a2t-20",
+     "title": "Meine Reise",
+     "title_en": "My Trip",
+     "tags": [
+      "travel",
+      "past"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a2-shopping",
+   "file": "data/german/a2-shopping.json",
+   "title": "A2 · Shopping",
+   "level": "A2",
+   "kind": "shopping",
+   "description": "Returns, complaints, parcels, phone contracts and services — shopping past the basics.",
+   "passages": [
+    {
+     "id": "a2s-01",
+     "title": "Eine SIM-Karte",
+     "title_en": "A SIM Card",
+     "tags": [
+      "phone",
+      "electronics"
+     ]
+    },
+    {
+     "id": "a2s-02",
+     "title": "Geld zurück?",
+     "title_en": "Money Back?",
+     "tags": [
+      "returns"
+     ]
+    },
+    {
+     "id": "a2s-03",
+     "title": "Das Gerät ist kaputt",
+     "title_en": "The Device Is Broken",
+     "tags": [
+      "returns",
+      "electronics"
+     ]
+    },
+    {
+     "id": "a2s-04",
+     "title": "Welcher Laptop?",
+     "title_en": "Which Laptop?",
+     "tags": [
+      "electronics"
+     ]
+    },
+    {
+     "id": "a2s-05",
+     "title": "Online bestellen",
+     "title_en": "Ordering Online",
+     "tags": [
+      "online",
+      "post"
+     ]
+    },
+    {
+     "id": "a2s-06",
+     "title": "Wo ist mein Paket?",
+     "title_en": "Where Is My Parcel?",
+     "tags": [
+      "online",
+      "problems"
+     ]
+    },
+    {
+     "id": "a2s-07",
+     "title": "Beim Friseur",
+     "title_en": "At the Hairdresser's",
+     "tags": [
+      "services"
+     ]
+    },
+    {
+     "id": "a2s-08",
+     "title": "Im Kaufhaus",
+     "title_en": "At the Department Store",
+     "tags": [
+      "department store"
+     ]
+    },
+    {
+     "id": "a2s-09",
+     "title": "Der Schlussverkauf",
+     "title_en": "The End-of-Season Sale",
+     "tags": [
+      "sales",
+      "clothes"
+     ]
+    },
+    {
+     "id": "a2s-10",
+     "title": "Bio und regional",
+     "title_en": "Organic and Local",
+     "tags": [
+      "food",
+      "market"
+     ]
+    },
+    {
+     "id": "a2s-11",
+     "title": "Eine gute Flasche Wein",
+     "title_en": "A Good Bottle of Wine",
+     "tags": [
+      "wine",
+      "gifts"
+     ]
+    },
+    {
+     "id": "a2s-12",
+     "title": "Steuerfrei einkaufen",
+     "title_en": "Tax-Free Shopping",
+     "tags": [
+      "money",
+      "tourists"
+     ]
+    },
+    {
+     "id": "a2s-13",
+     "title": "Das Fahrrad ist kaputt",
+     "title_en": "The Bike Is Broken",
+     "tags": [
+      "services",
+      "repairs"
+     ]
+    },
+    {
+     "id": "a2s-14",
+     "title": "Ein Geschenk für die Kollegin",
+     "title_en": "A Present for a Colleague",
+     "tags": [
+      "gifts"
+     ]
+    },
+    {
+     "id": "a2s-15",
+     "title": "Beim Optiker",
+     "title_en": "At the Optician's",
+     "tags": [
+      "services",
+      "health"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a2-business",
+   "file": "data/german/a2-business.json",
+   "title": "A2 · Business",
+   "level": "A2",
+   "kind": "business",
+   "description": "Office basics — introductions, phone calls, emails, appointments and the rhythm of a German workday.",
+   "passages": [
+    {
+     "id": "a2w-01",
+     "title": "Der erste Arbeitstag",
+     "title_en": "The First Day at Work",
+     "tags": [
+      "office",
+      "introductions"
+     ]
+    },
+    {
+     "id": "a2w-02",
+     "title": "Sich vorstellen",
+     "title_en": "Introducing Yourself",
+     "tags": [
+      "introductions",
+      "meetings"
+     ]
+    },
+    {
+     "id": "a2w-03",
+     "title": "Einen Termin vereinbaren",
+     "title_en": "Arranging an Appointment",
+     "tags": [
+      "phone",
+      "appointments"
+     ]
+    },
+    {
+     "id": "a2w-04",
+     "title": "Am Telefon",
+     "title_en": "On the Phone",
+     "tags": [
+      "phone"
+     ]
+    },
+    {
+     "id": "a2w-05",
+     "title": "Eine E-Mail schreiben",
+     "title_en": "Writing an Email",
+     "tags": [
+      "email"
+     ]
+    },
+    {
+     "id": "a2w-06",
+     "title": "In der Kantine",
+     "title_en": "In the Canteen",
+     "tags": [
+      "lunch",
+      "office"
+     ]
+    },
+    {
+     "id": "a2w-07",
+     "title": "Der Drucker streikt",
+     "title_en": "The Printer Is Acting Up",
+     "tags": [
+      "office",
+      "problems"
+     ]
+    },
+    {
+     "id": "a2w-08",
+     "title": "Eine Dienstreise",
+     "title_en": "A Business Trip",
+     "tags": [
+      "travel",
+      "business trip"
+     ]
+    },
+    {
+     "id": "a2w-09",
+     "title": "Krank melden",
+     "title_en": "Calling In Sick",
+     "tags": [
+      "health",
+      "office"
+     ]
+    },
+    {
+     "id": "a2w-10",
+     "title": "Small Talk",
+     "title_en": "Small Talk",
+     "tags": [
+      "small talk"
+     ]
+    },
+    {
+     "id": "a2w-11",
+     "title": "Pünktlich sein",
+     "title_en": "Being on Time",
+     "tags": [
+      "culture"
+     ]
+    },
+    {
+     "id": "a2w-12",
+     "title": "Feierabend",
+     "title_en": "End of the Workday",
+     "tags": [
+      "office",
+      "culture"
+     ]
+    },
+    {
+     "id": "a2w-13",
+     "title": "Der Termin wird verschoben",
+     "title_en": "The Meeting Is Postponed",
+     "tags": [
+      "meetings",
+      "email"
+     ]
+    },
+    {
+     "id": "a2w-14",
+     "title": "Die Videokonferenz",
+     "title_en": "The Video Call",
+     "tags": [
+      "meetings",
+      "online"
+     ]
+    },
+    {
+     "id": "a2w-15",
+     "title": "Herr Doktor",
+     "title_en": "Mr. Doctor",
+     "tags": [
+      "culture",
+      "titles"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b1-business",
+   "file": "data/german/b1-business.json",
+   "title": "B1 · Business",
+   "level": "B1",
+   "kind": "business",
+   "description": "Presentations, negotiations, trade fairs, interviews and business dinners — working in German.",
+   "passages": [
+    {
+     "id": "b1w-01",
+     "title": "Eine Präsentation beginnen",
+     "title_en": "Opening a Presentation",
+     "tags": [
+      "presentations"
+     ]
+    },
+    {
+     "id": "b1w-02",
+     "title": "Die Zahlen",
+     "title_en": "The Figures",
+     "tags": [
+      "presentations",
+      "numbers"
+     ]
+    },
+    {
+     "id": "b1w-03",
+     "title": "Meinungen äußern",
+     "title_en": "Expressing Opinions",
+     "tags": [
+      "meetings",
+      "discussion"
+     ]
+    },
+    {
+     "id": "b1w-04",
+     "title": "Über den Preis verhandeln",
+     "title_en": "Negotiating the Price",
+     "tags": [
+      "negotiation",
+      "sales"
+     ]
+    },
+    {
+     "id": "b1w-05",
+     "title": "Die Lieferung ist verspätet",
+     "title_en": "The Delivery Is Late",
+     "tags": [
+      "suppliers",
+      "complaints"
+     ]
+    },
+    {
+     "id": "b1w-06",
+     "title": "Ein Angebot anfragen",
+     "title_en": "Requesting a Quote",
+     "tags": [
+      "suppliers",
+      "email"
+     ]
+    },
+    {
+     "id": "b1w-07",
+     "title": "Auf der Messe",
+     "title_en": "At the Trade Fair",
+     "tags": [
+      "trade fair",
+      "sales"
+     ]
+    },
+    {
+     "id": "b1w-08",
+     "title": "Das Geschäftsessen",
+     "title_en": "The Business Dinner",
+     "tags": [
+      "dinner",
+      "culture"
+     ]
+    },
+    {
+     "id": "b1w-09",
+     "title": "Das Vorstellungsgespräch",
+     "title_en": "The Job Interview",
+     "tags": [
+      "jobs",
+      "interview"
+     ]
+    },
+    {
+     "id": "b1w-10",
+     "title": "Der Arbeitsvertrag",
+     "title_en": "The Employment Contract",
+     "tags": [
+      "jobs",
+      "contracts"
+     ]
+    },
+    {
+     "id": "b1w-11",
+     "title": "Feedback geben",
+     "title_en": "Giving Feedback",
+     "tags": [
+      "management",
+      "meetings"
+     ]
+    },
+    {
+     "id": "b1w-12",
+     "title": "Nächste Schritte",
+     "title_en": "Next Steps",
+     "tags": [
+      "meetings"
+     ]
+    },
+    {
+     "id": "b1w-13",
+     "title": "Der Projektstand",
+     "title_en": "The Project Status",
+     "tags": [
+      "projects"
+     ]
+    },
+    {
+     "id": "b1w-14",
+     "title": "Besuch vom Kunden",
+     "title_en": "A Visit from the Client",
+     "tags": [
+      "clients",
+      "hospitality"
+     ]
+    },
+    {
+     "id": "b1w-15",
+     "title": "Duzen oder siezen?",
+     "title_en": "Du or Sie at Work?",
+     "tags": [
+      "culture"
+     ]
+    },
+    {
+     "id": "b1w-16",
+     "title": "Technische Probleme",
+     "title_en": "Technical Problems",
+     "tags": [
+      "meetings",
+      "online"
+     ]
+    },
+    {
+     "id": "b1w-17",
+     "title": "Ein Fehler in der Rechnung",
+     "title_en": "A Mistake in the Invoice",
+     "tags": [
+      "invoices",
+      "complaints"
+     ]
+    },
+    {
+     "id": "b1w-18",
+     "title": "Entscheidungen",
+     "title_en": "Decisions",
+     "tags": [
+      "culture",
+      "management"
+     ]
+    },
+    {
+     "id": "b1w-19",
+     "title": "Ein Netzwerkabend",
+     "title_en": "A Networking Evening",
+     "tags": [
+      "networking",
+      "small talk"
+     ]
+    },
+    {
+     "id": "b1w-20",
+     "title": "Abschied",
+     "title_en": "Farewell",
+     "tags": [
+      "office",
+      "culture"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+# deck: id=b1-business | title=B1 · Business | level=B1 | kind=business | vocab_min=0.88
+# desc: Presentations, negotiations, trade fairs, interviews and business dinners — working in German.
+
+@ b1w-01 | Eine Präsentation beginnen | Opening a Presentation | presentations
+Guten Morgen und herzlich willkommen zu meiner Präsentation.
+Good morning and welcome to my presentation.
+Heute möchte ich Ihnen unser neues Produkt vorstellen.
+Today I'd like to present our new product to you.
+Zuerst gebe ich Ihnen einen kurzen Überblick über den Markt.
+First I'll give you a short overview of the market.
+Danach spreche ich über die Vorteile für unsere Kunden.
+After that I'll talk about the benefits for our customers.
+Zum Schluss haben Sie Zeit für Fragen.
+At the end you'll have time for questions.
+Die Präsentation dauert etwa zwanzig Minuten.
+The presentation lasts about twenty minutes.
+
+@ b1w-02 | Die Zahlen | The Figures | presentations, numbers
+Wie Sie auf dieser Folie sehen, ist unser Umsatz im letzten Jahr um acht Prozent gestiegen.
+As you can see on this slide, our revenue rose by eight percent last year.
+Besonders gut lief das Geschäft in Asien.
+Business went particularly well in Asia.
+In Europa sind die Zahlen dagegen leicht gesunken.
+In Europe, by contrast, the figures fell slightly.
+Das liegt vor allem an den hohen Energiekosten.
+That is mainly due to high energy costs.
+Für das nächste Jahr erwarten wir ein stabiles Wachstum.
+For next year we expect stable growth.
+
+@ b1w-03 | Meinungen äußern | Expressing Opinions | meetings, discussion
+Was halten Sie von dem Vorschlag?
+What do you think of the proposal?
+Meiner Meinung nach ist die Idee gut, aber zu teuer.
+In my opinion the idea is good, but too expensive.
+Da bin ich anderer Meinung.
+I disagree there.
+Langfristig sparen wir damit Geld.
+In the long term we'll save money with it.
+Das ist ein guter Punkt. Trotzdem sollten wir die Kosten genau prüfen.
+That's a good point. Nevertheless, we should check the costs carefully.
+Können wir uns darauf einigen, dass wir bis Freitag eine Kalkulation machen?
+Can we agree that we'll do a cost estimate by Friday?
+
+@ b1w-04 | Über den Preis verhandeln | Negotiating the Price | negotiation, sales
+Ihr Angebot ist interessant, aber der Preis ist für uns zu hoch.
+Your offer is interesting, but the price is too high for us.
+Wenn Sie mehr als tausend Stück bestellen, können wir Ihnen fünf Prozent Rabatt geben.
+If you order more than a thousand units, we can give you a five percent discount.
+Wäre auch ein Rabatt von acht Prozent möglich?
+Would a discount of eight percent also be possible?
+Das kann ich nicht allein entscheiden.
+I can't decide that on my own.
+Ich spreche mit meinem Chef und melde mich morgen bei Ihnen.
+I'll speak to my boss and get back to you tomorrow.
+
+@ b1w-05 | Die Lieferung ist verspätet | The Delivery Is Late | suppliers, complaints
+Sehr geehrte Damen und Herren,
+Dear Sir or Madam,
+leider ist unsere Bestellung vom zehnten März bis heute nicht angekommen.
+unfortunately our order of the tenth of March has still not arrived.
+Laut{laut:prep} Vertrag sollte die Ware spätestens am ersten April geliefert werden.
+According to the contract the goods should have been delivered by the first of April at the latest.
+Ohne die Teile können wir nicht weiter produzieren.
+Without the parts we can't continue production.
+Bitte teilen{teilen~mit} Sie uns umgehend mit{mit~}, wann wir mit der Lieferung rechnen können.
+Please let us know immediately when we can expect the delivery.
+
+@ b1w-06 | Ein Angebot anfragen | Requesting a Quote | suppliers, email
+Wir sind ein mittelständisches Unternehmen aus Stuttgart.
+We are a medium-sized company from Stuttgart.
+Auf Ihrer Webseite haben wir gesehen, dass Sie Verpackungen herstellen.
+We saw on your website that you manufacture packaging.
+Wir interessieren uns für Ihre Kartons aus recyceltem Papier.
+We're interested in your boxes made from recycled paper.
+Könnten Sie uns ein Angebot für fünftausend Stück schicken?
+Could you send us a quote for five thousand units?
+Bitte nennen Sie uns auch die Lieferzeit und die Zahlungsbedingungen.
+Please also tell us the delivery time and the payment terms.
+
+@ b1w-07 | Auf der Messe | At the Trade Fair | trade fair, sales
+Guten Tag! Darf ich Ihnen unseren Katalog geben?
+Hello! May I give you our catalogue?
+Wir stellen{stellen~aus} dieses Jahr zum ersten Mal auf der Messe aus{aus~}.
+This year we're exhibiting at the fair for the first time.
+Für welche Branche interessieren Sie sich?
+Which industry are you interested in?
+Wir suchen einen neuen Lieferanten für Sensoren.
+We're looking for a new supplier for sensors.
+Da sind Sie bei uns genau richtig.
+Then you've come to the right place.
+Hier ist meine Visitenkarte. Lassen Sie uns nach der Messe telefonieren.
+Here is my business card. Let's talk on the phone after the fair.
+
+@ b1w-08 | Das Geschäftsessen | The Business Dinner | dinner, culture
+Nach dem Meeting lädt{lädt~ein} uns der Kunde zum Abendessen ein{ein~}.
+After the meeting the client invites us to dinner.
+Am Anfang spricht man meistens nicht über das Geschäft.
+At the beginning people usually don't talk about business.
+Man unterhält sich über Reisen, Essen oder das Wetter.
+People chat about travel, food or the weather.
+Bevor man trinkt, stößt{stößt~an} man an{an~} und sieht sich in die Augen.
+Before drinking, you clink glasses and look each other in the eye.
+Wer einlädt, bezahlt normalerweise auch die Rechnung.
+Whoever does the inviting usually also pays the bill.
+Am nächsten Tag bedankt man sich mit einer kurzen E-Mail.
+The next day you say thank you with a short email.
+
+@ b1w-09 | Das Vorstellungsgespräch | The Job Interview | jobs, interview
+Erzählen Sie uns bitte etwas über sich.
+Please tell us something about yourself.
+Ich habe Informatik studiert und arbeite seit vier Jahren als Entwicklerin.
+I studied computer science and have been working as a developer for four years.
+Warum möchten Sie bei uns arbeiten?
+Why would you like to work for us?
+Ihre Firma arbeitet an spannenden Projekten, und ich möchte mich weiterentwickeln.
+Your company works on exciting projects, and I'd like to develop further.
+Was sind Ihre Stärken und Schwächen?
+What are your strengths and weaknesses?
+Ich arbeite sehr genau, aber manchmal fällt es mir schwer, Aufgaben abzugeben.
+I work very precisely, but sometimes I find it hard to delegate tasks.
+
+@ b1w-10 | Der Arbeitsvertrag | The Employment Contract | jobs, contracts
+In meinem Vertrag steht, dass ich vierzig Stunden pro Woche arbeite.
+My contract says that I work forty hours a week.
+Ich habe dreißig Tage Urlaub im Jahr.
+I have thirty days of holiday a year.
+Die Probezeit dauert sechs Monate.
+The probation period lasts six months.
+In dieser Zeit kann man mit zwei Wochen Frist kündigen.
+During this period you can resign with two weeks' notice.
+Das Gehalt wird am Ende jedes Monats überwiesen.
+The salary is transferred at the end of each month.
+Überstunden kann ich später mit Freizeit ausgleichen.
+I can make up for overtime later with time off.
+
+@ b1w-11 | Feedback geben | Giving Feedback | management, meetings
+Ich möchte Ihnen ein kurzes Feedback zu Ihrem Bericht geben.
+I'd like to give you some brief feedback on your report.
+Insgesamt bin ich sehr zufrieden.
+Overall I'm very satisfied.
+Die Analyse ist klar und gut strukturiert.
+The analysis is clear and well structured.
+Bei der Zusammenfassung würde ich mir aber mehr Details wünschen.
+In the summary, though, I'd like to see more detail.
+Könnten Sie das bis Mittwoch noch ergänzen?
+Could you add that by Wednesday?
+Natürlich, danke für die Hinweise.
+Of course, thanks for the pointers.
+
+@ b1w-12 | Nächste Schritte | Next Steps | meetings
+Lassen Sie uns zum Schluss die nächsten Schritte zusammenfassen.
+To finish, let's summarise the next steps.
+Frau Klein schreibt das Protokoll und schickt es an alle.
+Ms. Klein will write the minutes and send them to everyone.
+Herr Wagner kontaktiert den Lieferanten.
+Mr. Wagner will contact the supplier.
+Ich kümmere mich um das Budget.
+I'll take care of the budget.
+Unser nächstes Treffen ist in zwei Wochen.
+Our next meeting is in two weeks.
+Vielen Dank für Ihre Zeit!
+Thank you very much for your time!
+
+@ b1w-13 | Der Projektstand | The Project Status | projects
+Wie ist der aktuelle Stand des Projekts?
+What is the current status of the project?
+Wir liegen im Zeitplan, aber das Budget ist knapp.
+We're on schedule, but the budget is tight.
+Die erste Phase haben wir letzte Woche abgeschlossen.
+We completed the first phase last week.
+Bei der zweiten Phase gibt es ein Risiko.
+There is a risk in the second phase.
+Ein wichtiger Mitarbeiter ist ab nächsten Monat in Elternzeit.
+An important employee is on parental leave from next month.
+Wir suchen gerade eine Vertretung.
+We're currently looking for a replacement.
+
+@ b1w-14 | Besuch vom Kunden | A Visit from the Client | clients, hospitality
+Herzlich willkommen bei uns in Hamburg! Hatten Sie eine gute Anreise?
+A warm welcome to Hamburg! Did you have a good journey?
+Ja, danke, der Flug war pünktlich.
+Yes, thanks, the flight was on time.
+Darf ich Ihnen etwas zu trinken anbieten? Kaffee, Tee, Wasser?
+May I offer you something to drink? Coffee, tea, water?
+Ein Wasser, bitte.
+A water, please.
+Zuerst führe ich Sie durch unsere Produktion.
+First I'll show you around our production facility.
+Danach setzen wir uns im Konferenzraum zusammen.
+Afterwards we'll sit down together in the conference room.
+
+@ b1w-15 | Duzen oder siezen? | Du or Sie at Work? | culture
+In vielen deutschen Firmen siezt man sich noch.
+In many German companies people still use "Sie" with each other.
+In Start-ups und internationalen Firmen duzen sich aber oft alle.
+But in start-ups and international companies everyone often uses "du".
+Normalerweise bietet{bietet~an} die ältere oder höhere Person das „Du“ an{an~}.
+Usually the older or more senior person offers the "du".
+Man sagt dann zum Beispiel: „Wollen wir uns duzen?“
+You then say, for example: "Shall we use du?"
+Mit Kunden bleibt man fast immer beim „Sie“.
+With clients you almost always stay with "Sie".
+
+@ b1w-16 | Technische Probleme | Technical Problems | meetings, online
+Entschuldigung, ich glaube, wir haben Herrn Schulz verloren.
+Sorry, I think we've lost Mr. Schulz.
+Seine Verbindung ist abgebrochen.
+His connection dropped.
+Während wir warten, können wir mit dem zweiten Punkt anfangen.
+While we wait, we can start with the second item.
+Ach, da ist er wieder. Können Sie uns jetzt hören?
+Ah, there he is again. Can you hear us now?
+Ja, aber Ihr Ton ist etwas leise.
+Yes, but your sound is a bit quiet.
+Vielleicht sollten wir alle die Kameras ausschalten, um Bandbreite zu sparen.
+Maybe we should all turn off our cameras to save bandwidth.
+
+@ b1w-17 | Ein Fehler in der Rechnung | A Mistake in the Invoice | invoices, complaints
+Vielen Dank für Ihre Rechnung vom fünften Mai.
+Thank you for your invoice of the fifth of May.
+Uns ist aufgefallen, dass der Rabatt nicht berücksichtigt wurde.
+We noticed that the discount was not taken into account.
+Wir hatten uns auf zehn Prozent geeinigt.
+We had agreed on ten percent.
+Außerdem wurde die Lieferung zweimal berechnet.
+In addition, the delivery was charged twice.
+Wir bitten Sie, uns eine korrigierte Rechnung zu schicken.
+We ask you to send us a corrected invoice.
+Sobald wir sie{sie} erhalten, überweisen wir den Betrag.
+As soon as we receive it, we'll transfer the amount.
+
+@ b1w-18 | Entscheidungen | Decisions | culture, management
+In deutschen Unternehmen werden Entscheidungen oft gründlich vorbereitet.
+In German companies decisions are often prepared thoroughly.
+Man sammelt Informationen, diskutiert und plant genau.
+People collect information, discuss and plan carefully.
+Das dauert manchmal länger als in anderen Ländern.
+That sometimes takes longer than in other countries.
+Wenn eine Entscheidung aber getroffen ist, hält man sich daran.
+But once a decision has been made, people stick to it.
+Spontane Änderungen sind dann eher unbeliebt.
+Spontaneous changes are then rather unpopular.
+
+@ b1w-19 | Ein Netzwerkabend | A Networking Evening | networking, small talk
+Nach der Konferenz gibt es einen Empfang mit Buffet.
+After the conference there's a reception with a buffet.
+Darf ich mich zu Ihnen stellen?
+May I join you?
+Gern! Wie hat Ihnen der Vortrag heute Nachmittag gefallen?
+Of course! How did you like the talk this afternoon?
+Sehr gut. Das Thema künstliche Intelligenz ist für unsere Branche sehr wichtig.
+Very much. The topic of artificial intelligence is very important for our industry.
+In welchem Bereich arbeiten Sie denn?
+So which field do you work in?
+Ich bin Ingenieurin bei einem Automobilzulieferer.
+I'm an engineer at an automotive supplier.
+
+@ b1w-20 | Abschied | Farewell | office, culture
+Nach fünfzehn Jahren geht unsere Kollegin Petra in Rente.
+After fifteen years our colleague Petra is retiring.
+Am Freitag gibt es eine kleine Feier im Büro.
+On Friday there's a small party in the office.
+Der Chef hält eine kurze Rede und bedankt sich für ihre Arbeit.
+The boss gives a short speech and thanks her for her work.
+In Deutschland bringt{bringt~mit} die Person, die{die:pron} geht, oft selbst Kuchen mit{mit~}.
+In Germany the person who's leaving often brings cake themselves.
+Wir haben zusammen ein Fotobuch für sie{sie} gemacht.
+We made a photo book for her together.
+Petra, wir werden dich vermissen!
+Petra, we'll miss you!

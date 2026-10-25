@@ -1,0 +1,268 @@
+# deck: id=a2-travel | title=A2 · Travel | level=A2 | kind=travel | vocab_min=0.88
+# desc: When travel goes wrong — delays, lost luggage, complaints, doctors — plus car hire, hiking and night trains.
+
+@ a2t-01 | Das Deutschlandticket | The Germany Ticket | train, tickets
+Mit dem Deutschlandticket kann man einen Monat lang fast alle Busse und Bahnen nutzen.
+With the Germany Ticket you can use almost all buses and trains for a month.
+Es gilt aber nicht für schnelle Züge wie den ICE.
+But it isn't valid for fast trains like the ICE.
+Ich habe das Ticket in der App gekauft.
+I bought the ticket in the app.
+Es ist ein Abo, also muss man es rechtzeitig kündigen.
+It's a subscription, so you have to cancel it in time.
+Für Touristen lohnt es sich oft schon nach ein paar Fahrten.
+For tourists it's often worth it after just a few journeys.
+
+@ a2t-02 | Der Zug fällt aus | The Train Is Cancelled | train, problems
+Heute Morgen ist mein Zug ausgefallen.
+This morning my train was cancelled.
+Am Schalter habe ich gefragt, was ich jetzt machen soll.
+At the counter I asked what I should do now.
+Die Mitarbeiterin hat gesagt, dass ich den nächsten Zug nehmen darf.
+The employee said that I'm allowed to take the next train.
+Meine Fahrkarte gilt auch für den ICE.
+My ticket is also valid for the ICE.
+Wenn der Zug mehr als eine Stunde Verspätung hat, bekommt man Geld zurück.
+If the train is more than an hour late, you get money back.
+Das Formular findet man online.
+You can find the form online.
+
+@ a2t-03 | Mein Koffer ist nicht da | My Suitcase Isn't Here | flying, problems
+Ich warte schon seit einer halben Stunde, aber mein Koffer ist nicht gekommen.
+I've been waiting for half an hour already, but my suitcase hasn't come.
+Ich gehe zum Schalter für Gepäckermittlung.
+I go to the lost-luggage desk.
+Können Sie den Koffer beschreiben?
+Can you describe the suitcase?
+Er ist groß, dunkelblau und hat einen roten Anhänger.
+It's large, dark blue and has a red tag.
+Wir schicken ihn Ihnen ins Hotel, sobald wir ihn finden.
+We'll send it to your hotel as soon as we find it.
+Bewahren{bewahren~auf} Sie die Quittungen auf{auf~}, wenn Sie etwas kaufen müssen.
+Keep the receipts if you have to buy anything.
+
+@ a2t-04 | Eine Beschwerde | A Complaint | hotel, problems
+Entschuldigen Sie, ich möchte mich beschweren.
+Excuse me, I'd like to make a complaint.
+Mein Zimmer liegt direkt an der Straße und es ist sehr laut.
+My room is right on the street and it's very loud.
+Außerdem funktioniert die Heizung nicht.
+Also, the heating doesn't work.
+Ich konnte die ganze Nacht nicht schlafen.
+I couldn't sleep all night.
+Das tut mir sehr leid. Ich kann Ihnen ein ruhigeres Zimmer geben.
+I'm very sorry about that. I can give you a quieter room.
+Und das Frühstück ist heute für Sie kostenlos.
+And breakfast is free for you today.
+
+@ a2t-05 | Die Ferienwohnung | The Holiday Flat | accommodation
+Herzlich willkommen! Ich zeige Ihnen kurz die Wohnung.
+Welcome! I'll quickly show you the flat.
+Hier ist die Küche. Die Spülmaschine ist neu.
+Here is the kitchen. The dishwasher is new.
+Den Müll müssen Sie bitte trennen.
+Please separate the rubbish.
+Papier kommt in die blaue Tonne, Plastik in die gelbe.
+Paper goes in the blue bin, plastic in the yellow one.
+Bitte geben{geben~zurück} Sie mir die Schlüssel am Samstag bis zehn Uhr zurück{zurück~}.
+Please give me back the keys by ten o'clock on Saturday.
+Wenn Sie Fragen haben, rufen{rufen~an} Sie mich einfach an{an~}.
+If you have any questions, just call me.
+
+@ a2t-06 | Beim Arzt | At the Doctor's | health
+Ich bin im Urlaub und brauche einen Termin.
+I'm on holiday and need an appointment.
+Was fehlt Ihnen denn?
+So what's the matter?
+Mir ist seit gestern schlecht und ich habe Bauchschmerzen.
+I've felt sick since yesterday and I have a stomach ache.
+Haben Sie etwas Besonderes gegessen?
+Did you eat anything unusual?
+Ich glaube, der Fisch war nicht mehr gut.
+I think the fish was off.
+Trinken Sie viel und essen Sie zwei Tage nur leichte Sachen.
+Drink plenty and eat only light things for two days.
+
+@ a2t-07 | Im Fundbüro | At the Lost Property Office | problems
+Ich habe gestern meine Geldbörse in der Straßenbahn verloren.
+Yesterday I lost my wallet on the tram.
+Wann und wo genau war das?
+When and where exactly was that?
+Gegen achtzehn Uhr, in der Linie vier.
+At around six p.m., on line four.
+Wie sieht{sieht~aus} die Geldbörse aus{aus~}?
+What does the wallet look like?
+Sie{sie} ist aus braunem Leder.
+It's made of brown leather.
+Sie haben Glück. Jemand hat sie{sie} heute Morgen abgegeben.
+You're in luck. Someone handed it in this morning.
+
+@ a2t-08 | Ein Auto mieten | Renting a Car | car, transport
+Ich möchte für eine Woche ein Auto mieten.
+I'd like to rent a car for a week.
+Brauchen Sie ein kleines Auto oder einen Kombi?
+Do you need a small car or an estate?
+Ein kleines Auto reicht. Wir sind nur zu zweit.
+A small car is enough. There are only two of us.
+Ist die Versicherung im Preis inklusive?
+Is insurance included in the price?
+Ja, aber mit einer Selbstbeteiligung von fünfhundert Euro.
+Yes, but with an excess of five hundred euros.
+Bitte bringen{bringen~zurück} Sie das Auto vollgetankt zurück{zurück~}.
+Please bring the car back with a full tank.
+
+@ a2t-09 | Auf der Autobahn | On the Motorway | car, culture
+Auf vielen Autobahnen in Deutschland gibt es kein Tempolimit.
+On many motorways in Germany there's no speed limit.
+Man empfiehlt aber hundertdreißig Kilometer pro Stunde.
+But a hundred and thirty kilometres per hour is recommended.
+Man darf nur links überholen.
+You may only overtake on the left.
+Bei einem Stau muss man eine Rettungsgasse bilden.
+In a traffic jam you have to form an emergency corridor.
+An der Raststätte kann man tanken, essen und eine Pause machen.
+At the service station you can refuel, eat and take a break.
+
+@ a2t-10 | Einen Tisch reservieren | Booking a Table | restaurant, phone
+Restaurant Linde, guten Tag.
+Restaurant Linde, good afternoon.
+Guten Tag. Ich möchte für heute Abend einen Tisch reservieren.
+Hello. I'd like to book a table for this evening.
+Für wie viele Personen und um wie viel Uhr?
+For how many people and at what time?
+Für vier Personen, um zwanzig Uhr.
+For four people, at eight o'clock.
+Um zwanzig Uhr ist leider alles voll. Geht auch neunzehn Uhr?
+Unfortunately we're full at eight. Would seven work too?
+Ja, das passt. Auf den Namen Miller, bitte.
+Yes, that's fine. Under the name Miller, please.
+
+@ a2t-11 | Ich habe eine Allergie | I Have an Allergy | restaurant, health
+Entschuldigung, ich habe eine Nussallergie.
+Excuse me, I have a nut allergy.
+Sind in diesem Gericht Nüsse?
+Are there nuts in this dish?
+Ich frage{frage~nach} in der Küche nach{nach~}.
+I'll check with the kitchen.
+In der Soße sind leider Mandeln.
+Unfortunately there are almonds in the sauce.
+Aber der Koch kann das Gericht ohne Soße machen.
+But the chef can make the dish without the sauce.
+Ich bin auch Vegetarier. Haben Sie etwas ohne Fleisch?
+I'm also vegetarian. Do you have something without meat?
+
+@ a2t-12 | Eine Stadtführung | A City Tour | sightseeing
+Unsere Führung beginnt am Rathaus und dauert zwei Stunden.
+Our tour starts at the town hall and lasts two hours.
+Diese Kirche ist über achthundert Jahre alt.
+This church is over eight hundred years old.
+Im Krieg wurde ein großer Teil der Altstadt zerstört.
+In the war a large part of the old town was destroyed.
+Nach dem Krieg hat man viele Häuser wieder aufgebaut.
+After the war many houses were rebuilt.
+Hat jemand eine Frage?
+Does anyone have a question?
+Dann gehen{gehen~weiter} wir jetzt weiter{weiter~} zum Marktplatz.
+Then let's go on to the market square.
+
+@ a2t-13 | Wandern in den Alpen | Hiking in the Alps | outdoors
+Am Wochenende sind wir in den Alpen gewandert.
+At the weekend we went hiking in the Alps.
+Wir sind früh losgefahren, weil das Wetter am Nachmittag schlechter werden sollte.
+We left early because the weather was supposed to get worse in the afternoon.
+Der Weg war steil, aber die Aussicht war fantastisch.
+The path was steep, but the view was fantastic.
+Auf der Hütte haben wir Suppe gegessen.
+At the mountain hut we ate soup.
+Am Nachmittag hat es tatsächlich angefangen zu regnen.
+In the afternoon it actually started to rain.
+Zum Glück waren wir schon fast unten.
+Luckily we were almost back down already.
+
+@ a2t-14 | Im Nachtzug | On the Night Train | train
+Ich fahre mit dem Nachtzug von Berlin nach Wien.
+I'm taking the night train from Berlin to Vienna.
+Ich habe einen Platz im Liegewagen gebucht.
+I've booked a berth in the couchette car.
+Im Abteil gibt es sechs Betten.
+There are six beds in the compartment.
+Der Schaffner bringt am Morgen ein kleines Frühstück.
+The conductor brings a small breakfast in the morning.
+So spare ich eine Nacht im Hotel.
+That way I save a night in a hotel.
+Und ich komme{komme~an} ausgeschlafen in Wien an{an~}.
+And I arrive in Vienna well rested.
+
+@ a2t-15 | An der Grenze | At the Border | travel, documents
+Innerhalb der EU gibt es meistens keine Kontrollen an der Grenze.
+Within the EU there are usually no checks at the border.
+Trotzdem sollte man immer einen Ausweis oder Pass dabeihaben.
+Still, you should always have an ID card or passport on you.
+Am Flughafen fragt der Zoll manchmal, was im Koffer ist.
+At the airport customs sometimes ask what's in the suitcase.
+Haben Sie etwas zu verzollen?
+Do you have anything to declare?
+Nein, nur persönliche Sachen.
+No, only personal belongings.
+
+@ a2t-16 | Mit dem Fernbus | By Long-Distance Coach | transport
+Der Fernbus ist oft billiger als der Zug.
+The coach is often cheaper than the train.
+Dafür dauert die Fahrt meistens länger.
+But the journey usually takes longer.
+Man kann online einen Sitzplatz reservieren.
+You can reserve a seat online.
+Im Bus gibt es WLAN und eine Toilette.
+There's Wi-Fi and a toilet on the bus.
+Man darf einen Koffer und eine kleine Tasche mitnehmen.
+You're allowed to take one suitcase and one small bag.
+
+@ a2t-17 | Ein Ausflug ans Meer | A Trip to the Sea | sightseeing, weather
+Wir wollten einen Tag an der Ostsee verbringen.
+We wanted to spend a day at the Baltic Sea.
+Leider war es windig und kühl.
+Unfortunately it was windy and cool.
+Wir haben trotzdem einen langen Spaziergang am Strand gemacht.
+We still went for a long walk on the beach.
+Danach haben wir in einem kleinen Café Fischbrötchen gegessen.
+Afterwards we ate fish sandwiches in a small café.
+Am Abend kam endlich die Sonne.
+In the evening the sun finally came out.
+
+@ a2t-18 | Die Apotheke hat Notdienst | The Pharmacy on Duty | pharmacy, health
+Es ist Sonntag und ich brauche dringend ein Medikament.
+It's Sunday and I urgently need some medicine.
+Fast alle Apotheken sind geschlossen.
+Almost all pharmacies are closed.
+Aber es gibt immer eine Apotheke mit Notdienst.
+But there's always a pharmacy on emergency duty.
+An der Tür steht, welche Apotheke heute offen hat.
+The door says which pharmacy is open today.
+Man kann das auch im Internet finden.
+You can also find that online.
+
+@ a2t-19 | Ein Strafzettel | A Parking Ticket | car, problems
+Als ich zurück zum Auto kam, war ein Zettel an der Windschutzscheibe.
+When I came back to the car, there was a note on the windscreen.
+Ich hatte einen Strafzettel bekommen.
+I had got a parking ticket.
+Ich hatte vergessen, einen Parkschein zu kaufen.
+I had forgotten to buy a parking ticket.
+Die Strafe ist nicht hoch, aber ich ärgere mich trotzdem.
+The fine isn't high, but I'm still annoyed.
+Nächstes Mal parke ich im Parkhaus.
+Next time I'll park in the car park.
+
+@ a2t-20 | Meine Reise | My Trip | travel, past
+Letzten Sommer bin ich drei Wochen durch Deutschland gereist.
+Last summer I travelled through Germany for three weeks.
+Ich habe Berlin, Dresden und München besucht.
+I visited Berlin, Dresden and Munich.
+Am besten hat mir Dresden gefallen.
+I liked Dresden best.
+Ich habe viele nette Leute kennengelernt.
+I met a lot of nice people.
+Mein Deutsch ist jeden Tag ein bisschen besser geworden.
+My German got a little better every day.
+Nächstes Jahr möchte ich nach Österreich und in die Schweiz fahren.
+Next year I'd like to go to Austria and Switzerland.

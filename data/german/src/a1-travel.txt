@@ -1,0 +1,280 @@
+# deck: id=a1-travel | title=A1 · Travel | level=A1 | kind=travel | vocab_min=0.85
+# desc: Tickets, trains, hotels, directions and restaurants — getting around as a visitor.
+
+@ a1t-01 | Eine Fahrkarte, bitte | A Ticket, Please | train, tickets
+Guten Tag. Eine Fahrkarte nach Hamburg, bitte.
+Hello. A ticket to Hamburg, please.
+Einfach oder hin_und_zurück?
+One way or return?
+Hin_und_zurück, bitte.
+Return, please.
+Erste oder zweite Klasse?
+First or second class?
+Zweite Klasse. Was kostet das?
+Second class. How much does that cost?
+Das kostet neunundachtzig Euro.
+That costs eighty-nine euros.
+
+@ a1t-02 | Welches Gleis? | Which Platform? | train
+Entschuldigung, von welchem Gleis fährt der Zug nach Köln?
+Excuse me, which platform does the train to Cologne leave from?
+Der Zug fährt von Gleis sieben.
+The train leaves from platform seven.
+Wann fährt{fährt~ab} er ab{ab~}?
+When does it leave?
+Um vierzehn Uhr zehn.
+At ten past two in the afternoon.
+Und wann kommt{kommt~an} er in Köln an{an~}?
+And when does it arrive in Cologne?
+Um siebzehn Uhr dreißig.
+At half past five.
+
+@ a1t-03 | Im Zug | On the Train | train
+Entschuldigung, ist das Ihr Platz?
+Excuse me, is this your seat?
+Ich habe eine Reservierung für Platz zweiundvierzig.
+I have a reservation for seat forty-two.
+Oh, Entschuldigung! Mein Platz ist im Wagen fünf.
+Oh, sorry! My seat is in carriage five.
+Kein Problem.
+No problem.
+Die Fahrkarten, bitte!
+Tickets, please!
+Hier ist meine Fahrkarte.
+Here is my ticket.
+
+@ a1t-04 | Am Flughafen | At the Airport | flying
+Ihren Pass, bitte.
+Your passport, please.
+Haben Sie Gepäck?
+Do you have luggage?
+Ja, einen Koffer.
+Yes, one suitcase.
+Möchten Sie einen Platz am Fenster oder am Gang?
+Would you like a window seat or an aisle seat?
+Am Fenster, bitte.
+A window seat, please.
+Ihr Flug geht von Gate zwölf. Gute Reise!
+Your flight leaves from gate twelve. Have a good trip!
+
+@ a1t-05 | Im Hotel | At the Hotel | hotel
+Guten Abend. Ich habe ein Zimmer reserviert.
+Good evening. I've reserved a room.
+Wie ist Ihr Name, bitte?
+What is your name, please?
+Mein Name ist Miller.
+My name is Miller.
+Ein Einzelzimmer für drei Nächte, richtig?
+A single room for three nights, right?
+Ja, genau.
+Yes, exactly.
+Hier ist Ihr Schlüssel. Das Zimmer ist im dritten Stock.
+Here is your key. The room is on the third floor.
+
+@ a1t-06 | Ein Problem im Zimmer | A Problem in the Room | hotel, problems
+Hallo, hier ist Zimmer dreihundertzwölf.
+Hello, this is room three hundred and twelve.
+Im Bad gibt es kein Handtuch.
+There's no towel in the bathroom.
+Und das WLAN funktioniert nicht.
+And the Wi-Fi doesn't work.
+Wie ist das Passwort?
+What is the password?
+Es tut mir leid. Wir bringen sofort Handtücher.
+I'm sorry. We'll bring towels right away.
+Das Passwort steht auf der Karte.
+The password is on the card.
+
+@ a1t-07 | Frühstück im Hotel | Breakfast at the Hotel | hotel, food
+Wann gibt es Frühstück?
+When is breakfast?
+Frühstück gibt es von sieben bis zehn Uhr.
+Breakfast is from seven to ten o'clock.
+Es gibt Brötchen, Käse, Wurst, Eier und Obst.
+There are rolls, cheese, cold cuts, eggs and fruit.
+Möchten Sie Kaffee oder Tee?
+Would you like coffee or tea?
+Einen Tee, bitte, mit Zitrone.
+A tea, please, with lemon.
+
+@ a1t-08 | Wie komme ich zum Bahnhof? | How Do I Get to the Station? | directions
+Entschuldigung, wie komme ich zum Bahnhof?
+Excuse me, how do I get to the station?
+Gehen Sie hier geradeaus.
+Go straight ahead here.
+An der Ampel gehen Sie links.
+At the traffic light you go left.
+Dann nehmen Sie die zweite Straße rechts.
+Then take the second street on the right.
+Ist es weit?
+Is it far?
+Nein, nur zehn Minuten zu Fuß.
+No, only ten minutes on foot.
+
+@ a1t-09 | Mit der U-Bahn | By Underground | transport, tickets
+Ich möchte zum Museum fahren.
+I want to go to the museum.
+Welche Linie muss ich nehmen?
+Which line do I have to take?
+Nehmen Sie die U2 bis Alexanderplatz.
+Take the U2 to Alexanderplatz.
+Dort steigen{steigen~um} Sie in die U5 um{um~}.
+There you change to the U5.
+Wo kann ich eine Fahrkarte kaufen?
+Where can I buy a ticket?
+Am Automaten. Vergessen Sie nicht: Sie müssen die Karte entwerten.
+At the machine. Don't forget: you have to validate the ticket.
+
+@ a1t-10 | Ein Taxi, bitte | A Taxi, Please | transport
+Guten Tag. Zum Hotel Adler, bitte.
+Hello. To the Hotel Adler, please.
+Wie lange dauert die Fahrt?
+How long does the ride take?
+Ungefähr zwanzig Minuten.
+About twenty minutes.
+Kann ich mit Karte bezahlen?
+Can I pay by card?
+Ja, das geht.
+Yes, that works.
+Halten Sie bitte hier.
+Please stop here.
+
+@ a1t-11 | Im Restaurant | At the Restaurant | restaurant, food
+Einen Tisch für zwei Personen, bitte.
+A table for two, please.
+Die Speisekarte, bitte.
+The menu, please.
+Was können Sie empfehlen?
+What can you recommend?
+Der Fisch ist heute sehr gut.
+The fish is very good today.
+Dann nehme ich den Fisch.
+Then I'll have the fish.
+Und zu trinken?
+And to drink?
+Ein Glas Weißwein, bitte.
+A glass of white wine, please.
+
+@ a1t-12 | Zahlen, bitte! | The Bill, Please! | restaurant, money
+Wir möchten bitte zahlen.
+We'd like to pay, please.
+Zusammen oder getrennt?
+Together or separately?
+Getrennt, bitte.
+Separately, please.
+Das macht vierzehn Euro sechzig.
+That comes to fourteen euros sixty.
+Sechzehn, bitte.
+Sixteen, please.
+In Deutschland gibt man ungefähr zehn Prozent Trinkgeld.
+In Germany you give about ten percent as a tip.
+
+@ a1t-13 | Im Museum | At the Museum | sightseeing, tickets
+Wann ist das Museum geöffnet?
+When is the museum open?
+Von Dienstag bis Sonntag, von zehn bis achtzehn Uhr.
+From Tuesday to Sunday, from ten to six.
+Am Montag ist es geschlossen.
+It's closed on Monday.
+Zwei Erwachsene und ein Kind, bitte.
+Two adults and one child, please.
+Gibt es eine Ermäßigung für Studenten?
+Is there a discount for students?
+Ja, mit Ausweis zahlen Sie die Hälfte.
+Yes, with ID you pay half.
+
+@ a1t-14 | Die Touristeninformation | The Tourist Information | sightseeing
+Guten Tag. Haben Sie einen Stadtplan?
+Hello. Do you have a city map?
+Ja, hier, bitte. Er ist kostenlos.
+Yes, here you go. It's free.
+Was kann man hier in der Stadt machen?
+What can you do here in the city?
+Die Altstadt ist sehr schön und der Dom ist berühmt.
+The old town is very beautiful and the cathedral is famous.
+Es gibt auch eine Stadtführung um elf Uhr.
+There's also a city tour at eleven o'clock.
+Super, danke für den Tipp!
+Great, thanks for the tip!
+
+@ a1t-15 | Ein Fahrrad mieten | Renting a Bike | transport, sightseeing
+Ich möchte ein Fahrrad mieten.
+I'd like to rent a bike.
+Für wie lange?
+For how long?
+Für einen Tag.
+For one day.
+Ein Tag kostet fünfzehn Euro.
+One day costs fifteen euros.
+Brauche ich einen Helm?
+Do I need a helmet?
+Der Helm ist inklusive.
+The helmet is included.
+
+@ a1t-16 | Am Geldautomaten | At the Cash Machine | money
+Wo ist hier ein Geldautomat?
+Where is a cash machine around here?
+Dort drüben, neben der Bank.
+Over there, next to the bank.
+Ich möchte hundert Euro abheben.
+I want to withdraw a hundred euros.
+Oh nein, der Automat nimmt meine Karte nicht.
+Oh no, the machine won't take my card.
+In Deutschland zahlt man oft noch bar.
+In Germany people still often pay in cash.
+Es ist gut, immer etwas Bargeld dabei zu haben.
+It's good to always have some cash on you.
+
+@ a1t-17 | Auf der Post | At the Post Office | post
+Ich möchte diese Postkarte nach Amerika schicken.
+I'd like to send this postcard to America.
+Was kostet eine Briefmarke?
+How much is a stamp?
+Eine Briefmarke kostet einen Euro zehn.
+A stamp costs one euro ten.
+Dann nehme ich drei Briefmarken.
+Then I'll take three stamps.
+Wie lange braucht die Karte?
+How long does the card take?
+Ungefähr eine Woche.
+About a week.
+
+@ a1t-18 | Der Zug hat Verspätung | The Train Is Delayed | train, problems
+Achtung! Der Zug nach Frankfurt hat zwanzig Minuten Verspätung.
+Attention! The train to Frankfurt is twenty minutes late.
+Oh nein, ich habe nur fünfzehn Minuten zum Umsteigen.
+Oh no, I only have fifteen minutes to change trains.
+Fragen{fragen} Sie im Zug. Vielleicht wartet der Anschlusszug.
+Ask on the train. Maybe the connecting train will wait.
+Der Zug kommt.
+The train is coming.
+Bitte einsteigen!
+All aboard, please!
+
+@ a1t-19 | Ein Tag in München | A Day in Munich | sightseeing
+Heute bin ich in München.
+Today I'm in Munich.
+Am Morgen besuche ich den Marienplatz.
+In the morning I visit Marienplatz.
+Mittags esse ich Weißwurst mit Brezel.
+At noon I eat white sausage with a pretzel.
+Am Nachmittag gehe ich in den Englischen_Garten.
+In the afternoon I go to the English Garden.
+Am Abend trinke ich ein Bier im Biergarten.
+In the evening I drink a beer in the beer garden.
+München gefällt mir sehr.
+I like Munich very much.
+
+@ a1t-20 | Ist das der Bus nach…? | Is This the Bus to…? | transport
+Entschuldigung, fährt dieser Bus zum Flughafen?
+Excuse me, does this bus go to the airport?
+Nein, Sie brauchen die Linie hundert.
+No, you need line one hundred.
+Wo ist die Haltestelle?
+Where is the stop?
+Auf der anderen Seite der Straße.
+On the other side of the street.
+Wie oft fährt der Bus?
+How often does the bus run?
+Alle zehn Minuten.
+Every ten minutes.

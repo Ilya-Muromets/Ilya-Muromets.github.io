@@ -1,0 +1,1471 @@
+# German reader lexicon — one entry per spelling that appears in a passage.
+#
+#   key | pos | gloss | dictionary form | level | note
+#
+# pos: m f n pl (nouns, by gender) · v adj adv prep pron art conj num part intj phr name
+# gloss: first sense is shown under the word; separate further senses with ";".
+# level: A1 A2 B1 B2 C1, or "-" for names and words outside the scale.
+# Keys with ~ are separable verbs ("stehe~auf") and their detached prefixes ("auf~").
+# Keys with : pick a second reading of the same spelling ("die:pron").
+
+# ---- separable prefixes ----
+ab~ | part | verb prefix; completes the verb earlier in the sentence | ab- (separable prefix) | -
+an~ | part | verb prefix; completes the verb earlier in the sentence | an- (separable prefix) | -
+auf~ | part | verb prefix; completes the verb earlier in the sentence | auf- (separable prefix) | -
+aus~ | part | verb prefix; completes the verb earlier in the sentence | aus- (separable prefix) | -
+ein~ | part | verb prefix; completes the verb earlier in the sentence | ein- (separable prefix) | -
+fern~ | part | verb prefix; completes the verb earlier in the sentence | fern- (separable prefix) | -
+mit~ | part | verb prefix; completes the verb earlier in the sentence | mit- (separable prefix) | -
+nach~ | part | verb prefix; completes the verb earlier in the sentence | nach- (separable prefix) | -
+um~ | part | verb prefix; completes the verb earlier in the sentence | um- (separable prefix) | -
+vor~ | part | verb prefix; completes the verb earlier in the sentence | vor- (separable prefix) | -
+weiter~ | part | verb prefix; completes the verb earlier in the sentence | weiter- (separable prefix) | -
+zurück~ | part | verb prefix; completes the verb earlier in the sentence | zurück- (separable prefix) | -
+
+# ---- separable verbs (stem part) ----
+bewahren~auf | v | keep; hold on to | aufbewahren | B1 | separable: Sie bewahren … auf
+bietet~an | v | offers | anbieten | B1 | separable: er/sie bietet … an
+bringen~zurück | v | bring back | zurückbringen | A2 | separable: Sie bringen … zurück
+bringt~mit | v | brings along | mitbringen | A2 | separable: man bringt … mit
+fangen~an | v | begin; start | anfangen | A1 | separable: wir fangen … an
+frage~nach | v | ask; check | nachfragen | B1 | separable: ich frage … nach
+fährt~ab | v | departs; leaves | abfahren | A1 | separable: er fährt … ab
+geben~ein | v | enter (a code) | eingeben | B1 | separable: Sie geben … ein
+geben~zurück | v | give back | zurückgeben | A2 | separable: Sie geben … zurück
+gehen~weiter | v | go on; continue | weitergehen | A2 | separable: wir gehen … weiter
+holt~ab | v | collects; picks up | abholen | A1 | separable: man holt … ab
+kaufe~ein | v | shop; do the shopping | einkaufen | A1 | separable: ich kaufe … ein
+komme~an | v | arrive | ankommen | A1 | separable: ich komme … an
+kommt~an | v | arrives | ankommen | A1 | separable: er kommt … an
+lädt~ein | v | invites | einladen | A2 | separable: er lädt … ein
+rufe~an | v | call (on the phone) | anrufen | A1 | separable: ich rufe … an
+rufen~an | v | call (on the phone) | anrufen | A1 | separable: Sie rufen … an
+sehe~fern | v | watch TV | fernsehen | A1 | separable: ich sehe … fern
+sehen~aus | v | look (appear) | aussehen | A2 | separable: sie sehen … aus
+sieht~aus | v | looks (appears) | aussehen | A2 | separable: es sieht … aus
+stecken~ein | v | insert | einstecken | B1 | separable: Sie stecken … ein
+stehe~auf | v | get up | aufstehen | A1 | separable: ich stehe … auf
+steigen~um | v | change (trains) | umsteigen | A1 | separable: Sie steigen … um
+stellen~aus | v | exhibit | ausstellen | B1 | separable: wir stellen … aus
+stellt~vor | v | introduces | vorstellen | A2 | separable: sie stellt … vor
+stößt~an | v | clinks glasses; toasts | anstoßen | B1 | separable: man stößt … an
+teilen~mit | v | inform; let know | mitteilen | B1 | separable: Sie teilen … mit
+
+# ---- second readings ----
+den:pron | pron | that one; it | den (demonstrative) | A2
+die:pron | pron | that one; those; who; which | die (demonstrative/relative) | A2
+laut:prep | prep | according to | laut (+ dative) | B1
+
+# ---- fixed phrases ----
+Auf Wiedersehen | phr | goodbye | auf Wiedersehen | A1
+Bitte schön | phr | you're welcome; here you are | bitte schön | A1
+Freut mich | phr | nice to meet you | freut mich | A1
+Gute Besserung | phr | get well soon | gute Besserung | A2
+hin und zurück | phr | return; there and back | hin und zurück | A1
+Stimmt so | phr | keep the change | stimmt so | A2
+thank you | phr | (English) thank you | thank you | -
+
+# ---- names, places, abbreviations ----
+Adler | name | Adler (hotel name; lit. eagle) | | -
+Alexanderplatz | name | Alexanderplatz (square in Berlin) | | -
+Amerika | name | America | | -
+Anna | name | Anna | | -
+Asien | name | Asia | | -
+Becker | name | Becker (surname) | | -
+Bello | name | Bello (a dog's name) | | -
+Berlin | name | Berlin | | -
+Braun | name | Braun (surname) | | -
+Deutschland | name | Germany | | -
+Dr. | name | Dr. (title) | | -
+Dresden | name | Dresden | | -
+Englischen Garten | name | the English Garden (park in Munich) | der Englische Garten | -
+Europa | name | Europe | | -
+Frankfurt | name | Frankfurt | | -
+Hamburg | name | Hamburg | | -
+Hoffmann | name | Hoffmann (surname) | | -
+ICE | m | ICE (high-speed train) | der ICE | -
+Italien | name | Italy | | -
+Klein | name | Klein (surname) | | -
+Köln | name | Cologne | | -
+Linde | name | Linde (restaurant name; lit. linden tree) | | -
+Lisa | name | Lisa | | -
+London | name | London | | -
+M | name | M (size) | | -
+Maria | name | Maria | | -
+Marienplatz | name | Marienplatz (main square in Munich) | | -
+Miller | name | Miller (surname) | | -
+Mosel | f | the Moselle (river and wine region) | die Mosel | -
+München | name | Munich | | -
+New York | name | New York | | -
+Österreich | name | Austria | | -
+Ostsee | f | the Baltic Sea | die Ostsee | -
+Peter | name | Peter | | -
+Petra | name | Petra | | -
+Sarah | name | Sarah | | -
+Schmidt | name | Schmidt (surname) | | -
+Schulz | name | Schulz (surname) | | -
+Stuttgart | name | Stuttgart | | -
+Tom | name | Tom | | -
+U2 | name | U2 (underground line) | | -
+U5 | name | U5 (underground line) | | -
+Wagner | name | Wagner (surname) | | -
+Weber | name | Weber (surname) | | -
+Wien | name | Vienna | | -
+Y | n | the letter Y | das Y | -
+Z | n | the letter Z | das Z | -
+Zürich | name | Zurich | | -
+
+# ---- A ----
+ab | prep | from (a time) | ab | A2
+Abend | m | evening | der Abend, die Abende | A1
+Abendessen | n | dinner | das Abendessen, die Abendessen | A1
+aber | conj | but; though | aber | A1
+abgebrochen | v | dropped; broken off | abbrechen | B1 | past participle
+abgegeben | v | handed in | abgeben | A2 | past participle
+abgeschlossen | v | completed | abschließen | B1 | past participle
+abheben | v | withdraw (money) | abheben | A2
+abholen | v | collect; pick up | abholen | A1
+Abo | n | subscription | das Abo, die Abos | A2
+Abteil | n | compartment | das Abteil, die Abteile | B1
+Abteilung | f | department | die Abteilung, die Abteilungen | A2
+abzugeben | v | to hand over; to delegate | abgeben | B1 | zu-infinitive
+ach | intj | ah; oh | ach | A2
+acht | num | eight | acht | A1
+achthundert | num | eight hundred | achthundert | A1
+Achtung | f | attention!; caution | die Achtung | A2
+achtzehn | num | eighteen | achtzehn | A1
+Adapter | m | adapter | der Adapter, die Adapter | B1
+Akku | m | battery | der Akku, die Akkus | B1
+Aktivierung | f | activation | die Aktivierung | B1
+aktuelle | adj | current | aktuell | B1
+alle | pron | all; everyone; every | alle | A1
+allein | adv | alone; on one's own | allein | A2
+allem | pron | all (vor allem: above all) | alle | A2
+allen | pron | all | alle | A1
+alles | pron | everything; all | alles | A1
+Alpen | pl | the Alps | die Alpen | A2
+als | conj | than; as; when | als | A2
+also | adv | so; therefore | also | A2
+alt | adj | old | alt | A1
+alte | adj | old | alt | A1
+Altstadt | f | old town | die Altstadt, die Altstädte | A2
+am | prep | at the; on the | am (an + dem) | A1
+amerikanische | adj | American | amerikanisch | A2
+Ampel | f | traffic light | die Ampel, die Ampeln | A2
+an | prep | at; on; to | an | A1
+Analyse | f | analysis | die Analyse, die Analysen | B1
+anbieten | v | offer | anbieten | B1
+andere | adj | other | ander- | A2
+anderen | adj | other | ander- | A2
+anderer | adj | other (anderer Meinung: of a different opinion) | ander- | A2
+Anfang | m | beginning | der Anfang, die Anfänge | A2
+anfangen | v | begin; start | anfangen | A1
+Anfänger | pl | beginners | die Anfänger (sg. der Anfänger) | A2
+Angebot | n | offer; quote | das Angebot, die Angebote | A2
+angefangen | v | started | anfangen | A1 | past participle
+angekommen | v | arrived | ankommen | A1 | past participle
+Anhänger | m | tag; label | der Anhänger, die Anhänger | B1
+ankommen | v | arrive | ankommen | A1
+anprobieren | v | try on | anprobieren | A2
+Anrede | f | greeting; form of address | die Anrede, die Anreden | B1
+Anreise | f | journey there; arrival | die Anreise | B1
+anrufen | v | call (on the phone) | anrufen | A1
+ans | prep | to the | ans (an + das) | A2
+Anschlusszug | m | connecting train | der Anschlusszug, die Anschlusszüge | A2
+Apfelkuchen | m | apple cake | der Apfelkuchen, die Apfelkuchen | A1
+Apotheke | f | pharmacy | die Apotheke, die Apotheken | A1
+Apotheken | pl | pharmacies | die Apotheken (sg. die Apotheke) | A1
+App | f | app | die App, die Apps | A2
+April | m | April | der April | A1
+Arbeit | f | work; job | die Arbeit, die Arbeiten | A1
+arbeite | v | work | arbeiten | A1 | ich arbeite
+arbeiten | v | work | arbeiten | A1
+arbeitet | v | works | arbeiten | A1 | er/sie arbeitet
+Arbeitstag | m | working day | der Arbeitstag, die Arbeitstage | A2
+Arbeitstage | pl | working days | die Arbeitstage (sg. der Arbeitstag) | A2
+Arzt | m | doctor | der Arzt, die Ärzte | A1
+Atmosphäre | f | atmosphere | die Atmosphäre | B1
+auch | adv | also; too | auch | A1
+auf | prep | on; onto; in (auf Deutsch) | auf | A1
+Aufgaben | pl | tasks | die Aufgaben (sg. die Aufgabe) | A2
+aufgebaut | v | built up (wieder aufgebaut: rebuilt) | aufbauen | B1 | past participle
+aufgefallen | v | noticed (uns ist aufgefallen: we noticed) | auffallen | B1 | past participle
+aufheben | v | keep; hold on to | aufheben | B1
+Augen | pl | eyes | die Augen (sg. das Auge) | A2
+August | m | August | der August | A1
+aus | prep | from; out of; made of | aus | A1
+ausgefallen | v | cancelled | ausfallen | B1 | past participle
+ausgeschlafen | adj | well rested | ausgeschlafen | B1
+ausgleichen | v | make up for; balance out | ausgleichen | B1
+ausrichten | v | pass on (a message) | ausrichten | B1
+ausschalten | v | switch off | ausschalten | A2
+Aussicht | f | view | die Aussicht, die Aussichten | B1
+Ausweis | m | ID card | der Ausweis, die Ausweise | A1
+Auto | n | car | das Auto, die Autos | A1
+Autobahnen | pl | motorways | die Autobahnen (sg. die Autobahn) | A2
+Automat | m | machine | der Automat, die Automaten | A2
+Automaten | m | machine | der Automat, die Automaten | A2 | accusative/dative
+Automobilzulieferer | m | automotive supplier | der Automobilzulieferer | B2
+außerdem | adv | also; in addition | außerdem | A2
+außerhalb | prep | outside (of) | außerhalb | B1
+
+# ---- B ----
+Bad | n | bathroom | das Bad, die Bäder | A1
+Bahnen | pl | trains (local) | die Bahnen (sg. die Bahn) | A1
+Bahnhof | m | train station | der Bahnhof, die Bahnhöfe | A1
+bald | adv | soon | bald | A1
+Bananen | pl | bananas | die Bananen (sg. die Banane) | A1
+Bandbreite | f | bandwidth | die Bandbreite | B2
+Bank | f | bank | die Bank, die Banken | A1
+bar | adv | in cash | bar | A1
+Bargeld | n | cash | das Bargeld | A2
+Bauchschmerzen | pl | stomach ache | die Bauchschmerzen | A2
+Bauern | pl | farmers | die Bauern (sg. der Bauer) | B1
+bedankt | v | thanks (sich bedanken: to say thank you) | sich bedanken | B1 | er/sie bedankt sich
+bedeutet | v | means | bedeuten | A1 | es bedeutet
+beginnt | v | begins; starts | beginnen | A1 | er/sie/es beginnt
+bei | prep | at; with; at the place of | bei | A1
+beim | prep | at the | beim (bei + dem) | A1
+Beispiel | n | example (zum Beispiel: for example) | das Beispiel, die Beispiele | A1
+bekomme | v | get; receive | bekommen | A1 | ich bekomme
+bekommen | v | get; receive | bekommen | A1
+bekommt | v | gets | bekommen | A1 | er/sie/man bekommt
+beliebt | adj | popular | beliebt | A2
+benutzt | v | uses | benutzen | A2 | er/sie/man benutzt
+bequem | adj | comfortable | bequem | A2
+berechnet | v | charged; calculated | berechnen | B1 | past participle
+Bereich | m | field; area | der Bereich, die Bereiche | B1
+Bericht | m | report | der Bericht, die Berichte | A2
+berücksichtigt | v | taken into account | berücksichtigen | B2 | past participle
+berühmt | adj | famous | berühmt | A2
+Bescheinigung | f | certificate | die Bescheinigung, die Bescheinigungen | B1
+beschreiben | v | describe | beschreiben | A2
+beschweren | v | complain (sich beschweren) | sich beschweren | B1
+Besonderes | adj | something special (etwas Besonderes) | etwas Besonderes | A2
+besonders | adv | especially; particularly | besonders | A2
+Besprechung | f | meeting | die Besprechung, die Besprechungen | A2
+besser | adj | better | gut, besser, am besten | A1
+Besserung | f | recovery (gute Besserung: get well soon) | die Besserung | A2
+beste | adj | best | gut, besser, am besten | A2
+besten | adj | best (am besten: best) | gut, besser, am besten | A1
+bestellen | v | order | bestellen | A1
+Bestellung | f | order | die Bestellung, die Bestellungen | A2
+besuche | v | visit | besuchen | A1 | ich besuche
+besucht | v | visited | besuchen | A1 | past participle
+Betrag | m | amount | der Betrag, die Beträge | B1
+Bett | n | bed | das Bett, die Betten | A1
+Betten | pl | beds | die Betten (sg. das Bett) | A1
+bevor | conj | before | bevor | B1
+bezahlen | v | pay | bezahlen | A1
+bezahlt | v | pays | bezahlen | A1 | er/sie bezahlt
+Bier | n | beer | das Bier, die Biere | A1
+Biergarten | m | beer garden | der Biergarten, die Biergärten | A2
+bilden | v | form | bilden | B1
+Bildschirm | m | screen | der Bildschirm, die Bildschirme | A2
+billig | adj | cheap | billig | A1
+billiger | adj | cheaper | billig, billiger | A1
+Billigeres | adj | something cheaper (etwas Billigeres) | etwas Billigeres | A2
+bin | v | am | sein | A1 | ich bin
+binden | v | tie; commit (sich binden) | binden | B1
+Bio-Produkte | pl | organic products | die Bio-Produkte (sg. das Bio-Produkt) | B1
+bis | prep | until; to; by | bis | A1
+bisschen | pron | a little; a bit (ein bisschen) | bisschen | A1
+bitte | part | please; here you go | bitte | A1
+bitten | v | ask; request | bitten | A2
+Blau | n | blue (the colour) | das Blau | A1
+blaue | adj | blue | blau | A1
+bleibt | v | stays | bleiben | A1 | er/sie/man bleibt
+Blick | m | view; look | der Blick, die Blicke | B1
+Blumen | pl | flowers | die Blumen (sg. die Blume) | A1
+Blätter | pl | leaves | die Blätter (sg. das Blatt) | A2
+Bon | m | voucher; receipt | der Bon, die Bons | B1
+Bote | m | courier | der Bote, die Boten | B1
+Branche | f | industry; sector | die Branche, die Branchen | B1
+brauche | v | need | brauchen | A1 | ich brauche
+brauchen | v | need | brauchen | A1
+braucht | v | needs | brauchen | A1 | man braucht
+braunem | adj | brown | braun | A1
+Brezel | f | pretzel | die Brezel, die Brezeln | A2
+Brief | m | letter | der Brief, die Briefe | A1
+Briefmarke | f | stamp | die Briefmarke, die Briefmarken | A1
+Briefmarken | pl | stamps | die Briefmarken (sg. die Briefmarke) | A1
+Brille | f | glasses | die Brille, die Brillen | A2
+bringen | v | bring | bringen | A1
+bringt | v | brings; takes | bringen | A1 | er/sie/man bringt
+Brot | n | bread; loaf | das Brot, die Brote | A1
+Bruder | m | brother | der Bruder, die Brüder | A1
+Brötchen | n | bread roll | das Brötchen, die Brötchen | A1
+Buch | n | book | das Buch, die Bücher | A1
+Buchhandlung | f | bookshop | die Buchhandlung, die Buchhandlungen | A2
+bucht | v | books | buchen | A2 | er/sie bucht
+Budget | n | budget | das Budget, die Budgets | B1
+Buffet | n | buffet | das Buffet, die Buffets | B1
+Bus | m | bus | der Bus, die Busse | A1
+Busse | pl | buses | die Busse (sg. der Bus) | A1
+Bücher | pl | books | die Bücher (sg. das Buch) | A1
+Büro | n | office | das Büro, die Büros | A1
+
+# ---- C ----
+Café | n | café | das Café, die Cafés | A1
+Cent | m | cent | der Cent, die Cent | A1
+Chef | m | boss | der Chef, die Chefs | A1
+Chefin | f | boss (woman) | die Chefin, die Chefinnen | A1
+Code | m | code | der Code, die Codes | B1
+
+# ---- D ----
+da | adv | there; then | da | A1
+dabei | adv | with one (dabei haben: have on you) | dabei | A2
+dabeihaben | v | have with one; have on you | dabeihaben | B1
+dafür | adv | in return; but then; for it | dafür | A2
+dagegen | adv | by contrast; against it | dagegen | B1
+dahin | adv | there (bis dahin: until then) | dahin | A2
+Damen | pl | ladies (Damen und Herren) | die Damen (sg. die Dame) | A2
+Damenmode | f | women's fashion | die Damenmode | B1
+damit | adv | with it | damit | A2
+danach | adv | afterwards; after that | danach | A1
+Dank | m | thanks (vielen Dank: thank you very much) | der Dank | A1
+danke | intj | thanks; thank you | danke | A1
+dann | adv | then | dann | A1
+daran | adv | to it (sich daran halten: stick to it) | daran | B1
+darauf | adv | on it (sich darauf einigen: agree on it) | darauf | B1
+darf | v | may; is allowed to | dürfen | A1 | ich/er/es darf
+das | art | the (neuter); that; this | das | A1
+dass | conj | that | dass | A2
+dauert | v | lasts; takes (time) | dauern | A1 | es dauert
+davon | adv | of it; of them | davon | A2
+dazu | adv | in addition; with it | dazu | A2
+dein | pron | your (informal) | dein | A1
+dem | art | the (dative) | der/das | A1
+den | art | the (accusative m.; dative pl.) | der/die | A1
+denn | part | then (in questions); because | denn | A1
+der | art | the (m.; dative f.) | der | A1
+des | art | of the (genitive) | der/das | A2
+Details | pl | details | die Details (sg. das Detail) | B1
+Deutsch | n | German (language) | das Deutsch | A1
+deutsche | adj | German | deutsch | A1
+deutschen | adj | German | deutsch | A1
+Deutschen | n | German (im Deutschen: in German) | das Deutsche | A1
+Deutschlandticket | n | Germany Ticket (monthly transport pass) | das Deutschlandticket | -
+dich | pron | you (informal) | du | A1
+die | art | the (f.; plural) | die | A1
+Dienstag | m | Tuesday | der Dienstag | A1
+Dienstreise | f | business trip | die Dienstreise, die Dienstreisen | B1
+diese | pron | this; these | dieser | A1
+diesem | pron | this | dieser | A1
+diesen | pron | this | dieser | A1
+dieser | pron | this | dieser | A1
+dieses | pron | this | dieser | A1
+dir | pron | you; to you (informal) | du | A1
+direkt | adv | directly; right | direkt | A2
+diskutiert | v | discusses | diskutieren | B1 | man diskutiert
+Dom | m | cathedral | der Dom, die Dome | A2
+Donnerstag | m | Thursday | der Donnerstag | A1
+dort | adv | there | dort | A1
+drei | num | three | drei | A1
+dreihundertzwölf | num | three hundred and twelve | dreihundertzwölf | A1
+dreiundzwanzig | num | twenty-three | dreiundzwanzig | A1
+dreißig | num | thirty | dreißig | A1
+drin | adv | in it | drin | A2
+dringend | adv | urgently | dringend | A2
+dritten | adj | third | dritt- | A1
+Drogerie | f | chemist's; drugstore | die Drogerie, die Drogerien | A2
+Drucker | m | printer | der Drucker, die Drucker | A2
+drüben | adv | over there (dort drüben) | drüben | A2
+du | pron | you (informal) | du | A1
+dunkelblau | adj | dark blue | dunkelblau | A2
+durch | prep | through | durch | A2
+Durst | m | thirst | der Durst | A1
+duzen | v | use "du" with each other | duzen | B1
+dünnen | adj | thin | dünn | A2
+
+# ---- E ----
+E-Mail | f | email | die E-Mail, die E-Mails | A1
+E-Mails | pl | emails | die E-Mails (sg. die E-Mail) | A1
+eher | adv | rather; on the … side | eher | B1
+Eier | pl | eggs | die Eier (sg. das Ei) | A1
+ein | art | a; an; one | ein | A1
+eine | art | a; an; one | ein | A1
+einem | art | a; an (dative) | ein | A1
+einen | art | a; an (accusative) | ein | A1
+einer | art | a; an (dative f.) | ein | A1
+einfach | adj | simple; simply; one-way | einfach | A1
+eingeladen | v | invited | einladen | A2 | past participle
+einigen | v | agree (sich einigen) | sich einigen | B1
+einkaufen | v | shop; go shopping | einkaufen | A1
+Einladung | f | invitation | die Einladung, die Einladungen | A2
+einlädt | v | invites | einladen | A2 | er lädt ein
+einpacken | v | wrap; pack | einpacken | A2
+eins | num | one | eins | A1
+einsteigen | v | get on; board | einsteigen | A1
+Einzelzimmer | n | single room | das Einzelzimmer, die Einzelzimmer | A1
+elf | num | eleven | elf | A1
+Eltern | pl | parents | die Eltern | A1
+Elternzeit | f | parental leave | die Elternzeit | B2
+Empfang | m | reception | der Empfang, die Empfänge | B1
+empfehle | v | recommend | empfehlen | A2 | ich empfehle
+empfehlen | v | recommend | empfehlen | A2
+empfiehlt | v | recommends | empfehlen | A2 | man empfiehlt
+Ende | n | end | das Ende | A1
+endlich | adv | finally; at last | endlich | A2
+Energiekosten | pl | energy costs | die Energiekosten | B2
+Englisch | n | English (language) | das Englisch | A1
+entscheiden | v | decide | entscheiden | B1
+Entscheidung | f | decision | die Entscheidung, die Entscheidungen | B1
+Entscheidungen | pl | decisions | die Entscheidungen (sg. die Entscheidung) | B1
+entschuldige | v | apologise (ich entschuldige mich) | sich entschuldigen | A2 | ich entschuldige mich
+entschuldigen | v | excuse (Entschuldigen Sie: excuse me) | entschuldigen | A1
+Entschuldigung | f | excuse me; sorry | die Entschuldigung | A1
+entwerten | v | validate (a ticket) | entwerten | B1
+Entwicklerin | f | developer (woman) | die Entwicklerin, die Entwicklerinnen | B1
+er | pron | he; it | er | A1
+Erdbeeren | pl | strawberries | die Erdbeeren (sg. die Erdbeere) | A2
+Erdgeschoss | n | ground floor | das Erdgeschoss | A2
+ergänzen | v | add; complete | ergänzen | B1
+erhalten | v | receive | erhalten | B1
+Ermäßigung | f | discount; reduction | die Ermäßigung, die Ermäßigungen | A2
+erste | adj | first | erst- | A1
+ersten | adj | first | erst- | A1
+erster | adj | first | erst- | A1
+Erwachsene | pl | adults | die Erwachsenen (sg. der/die Erwachsene) | A2
+erwarten | v | expect | erwarten | B1
+erzählen | v | tell | erzählen | A2
+es | pron | it; there | es | A1
+esse | v | eat | essen | A1 | ich esse
+Essen | n | food; meal | das Essen | A1
+essen | v | eat | essen | A1
+etwa | adv | about; roughly | etwa | A2
+etwas | pron | something; some; a bit | etwas | A1
+EU | f | EU | die EU | -
+Euro | m | euro | der Euro, die Euro | A1
+
+# ---- F ----
+fahre | v | go; travel | fahren | A1 | ich fahre
+fahren | v | go; travel; drive | fahren | A1
+Fahrkarte | f | ticket | die Fahrkarte, die Fahrkarten | A1
+Fahrkarten | pl | tickets | die Fahrkarten (sg. die Fahrkarte) | A1
+Fahrrad | n | bicycle | das Fahrrad, die Fahrräder | A1
+Fahrt | f | journey; ride | die Fahrt, die Fahrten | A2
+Fahrten | pl | journeys | die Fahrten (sg. die Fahrt) | A2
+Familie | f | family | die Familie, die Familien | A1
+fantastisch | adj | fantastic | fantastisch | A2
+Farbe | f | colour | die Farbe, die Farben | A1
+fast | adv | almost | fast | A2
+Feedback | n | feedback | das Feedback | B1
+fehlt | v | is missing (Was fehlt Ihnen? What's wrong?) | fehlen | A2 | es fehlt
+Feier | f | party; celebration | die Feier, die Feiern | A2
+Feierabend | m | end of the working day | der Feierabend | B1
+Fenster | n | window | das Fenster, die Fenster | A1
+Fernbus | m | long-distance coach | der Fernbus, die Fernbusse | B1
+fertig | adj | ready; finished | fertig | A1
+Fieber | n | fever | das Fieber | A2
+finde | v | find | finden | A1 | ich finde
+finden | v | find; think | finden | A1
+findet | v | finds | finden | A1 | man findet
+Firma | f | company; firm | die Firma, die Firmen | A1
+Firmen | pl | companies | die Firmen (sg. die Firma) | A1
+Fisch | m | fish | der Fisch, die Fische | A1
+Fischbrötchen | n | fish sandwich | das Fischbrötchen, die Fischbrötchen | B1
+Flaschen | pl | bottles | die Flaschen (sg. die Flasche) | A1
+Fleisch | n | meat | das Fleisch | A1
+Flohmarkt | m | flea market | der Flohmarkt, die Flohmärkte | A2
+Flug | m | flight | der Flug, die Flüge | A1
+Flughafen | m | airport | der Flughafen, die Flughäfen | A1
+Folie | f | slide (in a presentation) | die Folie, die Folien | B1
+formelle | adj | formal | formell | B1
+Formular | n | form | das Formular, die Formulare | A1
+Fotobuch | n | photo book | das Fotobuch, die Fotobücher | B1
+Frage | f | question | die Frage, die Fragen | A1
+fragen | v | ask | fragen | A1
+Fragen | pl | questions | die Fragen (sg. die Frage) | A1
+fragt | v | asks | fragen | A1 | er/sie/man fragt
+Franken | pl | (Swiss) francs | die Franken (sg. der Franken) | B1
+Frau | f | Ms.; Mrs.; woman; wife | die Frau, die Frauen | A1
+frei | adj | free; available | frei | A1
+Freitag | m | Friday | der Freitag | A1
+Freizeit | f | free time | die Freizeit | A1
+Freund | m | friend; boyfriend | der Freund, die Freunde | A1
+Freunde | pl | friends | die Freunde (sg. der Freund) | A1
+Freunden | pl | friends | die Freunde (sg. der Freund) | A1 | dative
+Freundin | f | friend (woman); girlfriend | die Freundin, die Freundinnen | A1
+freundlich | adj | friendly | freundlich | A1
+freundlichen | adj | friendly (mit freundlichen Grüßen: kind regards) | freundlich | A1
+frisch | adj | fresh | frisch | A1
+frischen | adj | fresh | frisch | A1
+Frist | f | notice period; deadline | die Frist, die Fristen | B1
+früh | adj | early | früh | A1
+Frühling | m | spring | der Frühling | A1
+Frühstück | n | breakfast | das Frühstück | A1
+funktioniert | v | works; functions | funktionieren | A2 | es funktioniert
+Fuß | m | foot (zu Fuß: on foot) | der Fuß, die Füße | A1
+Fußball | m | football | der Fußball | A1
+fährt | v | goes; leaves; runs | fahren | A1 | er/sie/es fährt
+fällt | v | falls (es fällt mir schwer: I find it hard) | fallen | B1 | es fällt
+fühle | v | feel (ich fühle mich) | sich fühlen | A2 | ich fühle mich
+führe | v | lead (durch … führen: show around) | führen | B1 | ich führe
+Führung | f | guided tour | die Führung, die Führungen | B1
+fünf | num | five | fünf | A1
+fünfhundert | num | five hundred | fünfhundert | A1
+fünftausend | num | five thousand | fünftausend | A1
+fünften | adj | fifth | fünft- | A1
+fünfundzwanzig | num | twenty-five | fünfundzwanzig | A1
+fünfzehn | num | fifteen | fünfzehn | A1
+fünfzig | num | fifty | fünfzig | A1
+für | prep | for | für | A1
+
+# ---- G ----
+Gang | m | aisle; corridor | der Gang, die Gänge | A2
+ganz | adv | quite; right (ganz oben: right at the top) | ganz | A1
+ganze | adj | whole; entire | ganz | A1
+Garantie | f | warranty; guarantee | die Garantie, die Garantien | A2
+Gate | n | gate (at the airport) | das Gate, die Gates | A2
+gearbeitet | v | worked | arbeiten | A1 | past participle
+gebe | v | give | geben | A1 | ich gebe
+geben | v | give | geben | A1
+gebucht | v | booked | buchen | A2 | past participle
+Geburtstag | m | birthday | der Geburtstag, die Geburtstage | A1
+geehrte | adj | dear (formal; lit. honoured) | geehrt | A2
+geehrter | adj | dear (formal; lit. honoured) | geehrt | A2
+geeinigt | v | agreed | sich einigen | B1 | past participle
+gefallen | v | liked; pleased (es hat mir gefallen: I liked it) | gefallen | A2 | past participle
+gefragt | v | asked | fragen | A1 | past participle
+gefällt | v | pleases (es gefällt mir: I like it) | gefallen | A1 | es gefällt
+gegen | prep | around (a time); against | gegen | A2
+gegessen | v | eaten | essen | A1 | past participle
+Gehalt | n | salary | das Gehalt, die Gehälter | B1
+gehe | v | go | gehen | A1 | ich gehe
+gehen | v | go; walk | gehen | A1
+geht | v | goes; works (das geht: that works) | gehen | A1 | er/sie/es geht
+geht's | v | goes (Wie geht's? How's it going?) | gehen | A1 | geht es
+gekauft | v | bought | kaufen | A1 | past participle
+geklingelt | v | rung (the doorbell) | klingeln | A2 | past participle
+gekommen | v | come | kommen | A1 | past participle
+gelb | adj | yellow | gelb | A1
+gelbe | adj | yellow | gelb | A1
+Geld | n | money | das Geld | A1
+Geldautomat | m | cash machine | der Geldautomat, die Geldautomaten | A2
+Geldbörse | f | wallet; purse | die Geldbörse, die Geldbörsen | A2
+Geldes | n | money | das Geld | A1 | genitive
+geliefert | v | delivered | liefern | B1 | past participle
+gemacht | v | made; done | machen | A1 | past participle
+Gemüse | n | vegetables | das Gemüse | A1
+genau | adj | exactly; precise; careful | genau | A1
+Gepäck | n | luggage | das Gepäck | A1
+Gepäckermittlung | f | lost-luggage service | die Gepäckermittlung | B2
+gerade | adv | right now; just | gerade | A1
+geradeaus | adv | straight ahead | geradeaus | A1
+geregnet | v | rained | regnen | A1 | past participle
+gereist | v | travelled | reisen | A1 | past participle
+Gericht | n | dish; court | das Gericht, die Gerichte | A2
+Gerichte | pl | dishes | die Gerichte (sg. das Gericht) | A2
+gern | adv | gladly; like doing (verb + gern) | gern | A1
+Gerät | n | device; appliance | das Gerät, die Geräte | A2
+gesagt | v | said | sagen | A1 | past participle
+Geschenk | n | present; gift | das Geschenk, die Geschenke | A1
+geschlossen | adj | closed | schließen | A1 | past participle
+geschnitten | adj | sliced; cut | schneiden | A2 | past participle
+Geschäft | n | shop; business | das Geschäft, die Geschäfte | A1
+Geschäfte | pl | shops | die Geschäfte (sg. das Geschäft) | A1
+gesehen | v | seen | sehen | A1 | past participle
+Gespräch | n | conversation | das Gespräch, die Gespräche | A2
+gestern | adv | yesterday | gestern | A1
+gestiegen | v | risen | steigen | B1 | past participle
+gesunken | v | fallen; sunk | sinken | B1 | past participle
+gesünder | adj | healthier | gesund, gesünder | A2
+getrennt | adj | separately; separate | trennen | A2
+getroffen | v | made (a decision); met | treffen | B1 | past participle
+gewandert | v | hiked | wandern | A2 | past participle
+geworden | v | become; got | werden | A2 | past participle
+geöffnet | adj | open | öffnen | A1 | past participle
+gibt | v | gives (es gibt: there is/are) | geben | A1 | es gibt
+Gigabyte | n | gigabytes | das Gigabyte | -
+gilt | v | is valid | gelten | B1 | es gilt
+Glas | n | glass | das Glas, die Gläser | A1
+glaube | v | think; believe | glauben | A1 | ich glaube
+gleich | adv | right away; right (gleich dort: right there) | gleich | A1
+gleichfalls | adv | likewise; you too | gleichfalls | A2
+Gleis | n | platform; track | das Gleis, die Gleise | A1
+Gläser | pl | lenses; glasses | die Gläser (sg. das Glas) | A2
+Glück | n | luck (zum Glück: luckily) | das Glück | A2
+Grad | m | degree(s) | der Grad | A2
+Gramm | n | gram(s) | das Gramm | A1
+Grau | n | grey (the colour) | das Grau | A1
+Grenze | f | border | die Grenze, die Grenzen | A2
+groß | adj | big; large; tall | groß | A1
+großer | adj | big; large | groß | A1
+großes | adj | big; large | groß | A1
+Größe | f | size | die Größe, die Größen | A1
+größer | adj | bigger | groß, größer | A1
+grün | adj | green | grün | A1
+gründlich | adv | thoroughly | gründlich | B1
+Grüße | pl | regards; greetings | die Grüße (sg. der Gruß) | A1
+Grüßen | pl | regards (mit freundlichen Grüßen) | die Grüße (sg. der Gruß) | A1
+gut | adj | good; well | gut | A1
+gute | adj | good | gut | A1
+guten | adj | good | gut | A1
+guter | adj | good | gut | A1
+Gutschein | m | voucher | der Gutschein, die Gutscheine | A2
+gültig | adj | valid | gültig | A2
+günstig | adj | inexpensive; good value | günstig | A2
+
+# ---- H ----
+Haare | pl | hair | die Haare (sg. das Haar) | A1
+Haareschneiden | n | haircut | das Haareschneiden | B1
+habe | v | have | haben | A1 | ich habe
+haben | v | have | haben | A1
+Hafermilch | f | oat milk | die Hafermilch | B1
+halb | adj | half (halb neun: half past eight) | halb | A1
+halben | adj | half | halb | A1
+hallo | intj | hello; hi | hallo | A1
+Halsschmerzen | pl | sore throat | die Halsschmerzen | A2
+halten | v | stop; hold; think (halten von: think of) | halten | A2
+Haltestelle | f | (bus/tram) stop | die Haltestelle, die Haltestellen | A1
+Handtuch | n | towel | das Handtuch, die Handtücher | A2
+Handtücher | pl | towels | die Handtücher (sg. das Handtuch) | A2
+Handy | n | mobile phone | das Handy, die Handys | A1
+hat | v | has | haben | A1 | er/sie/es hat
+hatte | v | had | haben | A2 | ich/er hatte
+hatten | v | had | haben | A2 | wir/Sie hatten
+Haus | n | house; building (im Haus: in the office) | das Haus, die Häuser | A1
+Hause | n | home (zu Hause: at home; nach Hause: home) | das Haus | A1
+Heizung | f | heating | die Heizung | A2
+heiß | adj | hot | heiß | A1
+heiße | v | am called | heißen | A1 | ich heiße
+heißt | v | are called; is called | heißen | A1 | du/er heißt
+helfen | v | help | helfen | A1
+hell | adj | bright; light | hell | A2
+Helm | m | helmet | der Helm, die Helme | B1
+Herbst | m | autumn | der Herbst | A1
+Herr | m | Mr.; gentleman | der Herr, die Herren | A1
+Herren | pl | gentlemen | die Herren (sg. der Herr) | A1
+Herrenmode | f | men's fashion | die Herrenmode | B1
+Herrn | m | Mr. | der Herr | A1 | accusative/dative
+herstellen | v | manufacture; produce | herstellen | B1
+herzlich | adv | warmly; heartily | herzlich | A2
+heute | adv | today | heute | A1
+hier | adv | here | hier | A1
+Hilfe | f | help | die Hilfe | A1
+hinten | adv | at the back | hinten | A1
+Hinweise | pl | pointers; tips | die Hinweise (sg. der Hinweis) | B1
+hm | intj | hm | hm | -
+Hobby | n | hobby | das Hobby, die Hobbys | A1
+hoch | adj | high | hoch | A1
+hoffentlich | adv | hopefully | hoffentlich | A2
+hohen | adj | high | hoch | A1
+Hose | f | trousers | die Hose, die Hosen | A1
+Hotel | n | hotel | das Hotel, die Hotels | A1
+Hund | m | dog | der Hund, die Hunde | A1
+hundert | num | hundred | hundert | A1
+hundertdreißig | num | a hundred and thirty | hundertdreißig | A1
+hundertvierzig | num | a hundred and forty | hundertvierzig | A1
+Hunger | m | hunger | der Hunger | A1
+Hähnchen | n | chicken | das Hähnchen | A2
+Hälfte | f | half | die Hälfte, die Hälften | A2
+hält | v | holds; lasts; gives (a speech) | halten | A2 | er/sie/es hält
+hätte | v | would have (ich hätte gern: I'd like) | haben | A1 | ich hätte
+hätten | v | would have | haben | A2 | Sie hätten
+Häuser | pl | houses | die Häuser (sg. das Haus) | A1
+höhere | adj | higher; more senior | hoch, höher | A2
+Hörbuch | n | audiobook | das Hörbuch, die Hörbücher | B1
+höre | v | hear | hören | A1 | ich höre
+hören | v | hear; listen | hören | A1
+Hütte | f | mountain hut | die Hütte, die Hütten | B1
+
+# ---- I ----
+ich | pron | I | ich | A1
+Idee | f | idea | die Idee, die Ideen | A1
+ihm | pron | him; to him | er | A1
+ihn | pron | him; it | er | A1
+Ihnen | pron | you; to you (formal) | Sie | A1
+Ihr | pron | your (formal) | Ihr | A1
+ihr | pron | her; their; you (plural) | ihr | A1
+ihre | pron | her; their | ihr | A1
+Ihre | pron | your (formal) | Ihr | A1
+Ihrem | pron | your (formal) | Ihr | A1
+Ihren | pron | your (formal) | Ihr | A1
+Ihrer | pron | your (formal) | Ihr | A1
+im | prep | in the | im (in + dem) | A1
+immer | adv | always (immer mehr: more and more) | immer | A1
+in | prep | in; into; to | in | A1
+Informatik | f | computer science | die Informatik | B1
+Informationen | pl | information | die Informationen (sg. die Information) | A1
+Ingenieurin | f | engineer (woman) | die Ingenieurin, die Ingenieurinnen | B1
+inklusive | adv | included | inklusive | A2
+innerhalb | prep | within | innerhalb | B1
+ins | prep | into the; to the | ins (in + das) | A1
+insgesamt | adv | overall; in total | insgesamt | B1
+Intelligenz | f | intelligence | die Intelligenz | B1
+interessant | adj | interesting | interessant | A1
+interessieren | v | be interested (sich interessieren für) | sich interessieren | A2
+internationalen | adj | international | international | A2
+Internet | n | internet | das Internet | A1
+isst | v | eats | essen | A1 | er/sie isst
+ist | v | is | sein | A1 | er/sie/es ist
+IT-Abteilung | f | IT department | die IT-Abteilung | B1
+
+# ---- J ----
+ja | part | yes; after all | ja | A1
+Jacke | f | jacket | die Jacke, die Jacken | A1
+Jahr | n | year | das Jahr, die Jahre | A1
+Jahre | pl | years | die Jahre (sg. das Jahr) | A1
+Jahren | pl | years | die Jahre (sg. das Jahr) | A1 | dative
+Januar | m | January | der Januar | A1
+Jeans | f | jeans | die Jeans | A1
+jeden | pron | every | jeder | A1
+jeder | pron | everyone; every | jeder | A1
+jedes | pron | every; each | jeder | A1
+jemand | pron | someone; anyone | jemand | A2
+jetzt | adv | now | jetzt | A1
+Joghurt | m | yoghurt | der Joghurt | A1
+
+# ---- K ----
+Kaffee | m | coffee | der Kaffee | A1
+Kalender | m | calendar | der Kalender, die Kalender | A1
+Kalkulation | f | cost estimate; calculation | die Kalkulation | B2
+kalt | adj | cold | kalt | A1
+kam | v | came | kommen | A2 | ich/er kam
+Kamera | f | camera | die Kamera, die Kameras | A2
+Kameras | pl | cameras | die Kameras (sg. die Kamera) | A2
+kann | v | can | können | A1 | ich/er/man kann
+kannst | v | can | können | A1 | du kannst
+Kantine | f | canteen | die Kantine, die Kantinen | A2
+Karte | f | card; ticket; map | die Karte, die Karten | A1
+Kartons | pl | boxes; cartons | die Kartons (sg. der Karton) | B1
+Kasse | f | checkout; till | die Kasse, die Kassen | A1
+Kassenbon | m | receipt | der Kassenbon, die Kassenbons | A2
+Katalog | m | catalogue | der Katalog, die Kataloge | A2
+kaufen | v | buy | kaufen | A1
+kauft | v | buys | kaufen | A1 | man kauft
+kein | pron | no; not a | kein | A1
+keine | pron | no; not any | kein | A1
+keinen | pron | no; not a | kein | A1
+kennengelernt | v | got to know; met | kennenlernen | A2 | past participle
+kennenzulernen | v | to meet; to get to know | kennenlernen | A2 | zu-infinitive
+kennt | v | knows (a person) | kennen | A1 | man kennt
+Kilo | n | kilo | das Kilo | A1
+Kilometer | m | kilometre(s) | der Kilometer, die Kilometer | A1
+Kind | n | child | das Kind, die Kinder | A1
+Kinder | pl | children | die Kinder (sg. das Kind) | A1
+Kindern | pl | children | die Kinder (sg. das Kind) | A1 | dative
+Kino | n | cinema | das Kino, die Kinos | A1
+Kirche | f | church | die Kirche, die Kirchen | A1
+Kirschen | pl | cherries | die Kirschen (sg. die Kirsche) | A2
+klar | adj | clear | klar | A2
+Klasse | f | class | die Klasse, die Klassen | A1
+klein | adj | small | klein | A1
+kleine | adj | small | klein | A1
+kleinen | adj | small | klein | A1
+kleinere | adj | smaller | klein, kleiner | A1
+kleines | adj | small | klein | A1
+Kleingeld | n | change; coins | das Kleingeld | A2
+knapp | adj | tight; scarce | knapp | B1
+Koch | m | cook; chef | der Koch, die Köche | A2
+koche | v | cook | kochen | A1 | ich koche
+kochen | v | cook | kochen | A1
+Koffer | m | suitcase | der Koffer, die Koffer | A1
+Kollegen | pl | colleagues | die Kollegen (sg. der Kollege) | A1
+Kollegin | f | colleague (woman) | die Kollegin, die Kolleginnen | A1
+Kombi | m | estate car | der Kombi, die Kombis | B2
+Komma | n | comma | das Komma, die Kommas | B1
+komme | v | come | kommen | A1 | ich komme
+kommen | v | come | kommen | A1
+kommst | v | come | kommen | A1 | du kommst
+kommt | v | comes | kommen | A1 | er/sie/es kommt
+Konferenz | f | conference | die Konferenz, die Konferenzen | B1
+Konferenzraum | m | conference room | der Konferenzraum, die Konferenzräume | B1
+konnte | v | could; was able to | können | A2 | ich konnte
+kontaktiert | v | contacts | kontaktieren | B1 | er kontaktiert
+Kontaktlinsen | pl | contact lenses | die Kontaktlinsen (sg. die Kontaktlinse) | B1
+Kontrollen | pl | checks | die Kontrollen (sg. die Kontrolle) | B1
+Kopfschmerzen | pl | headache | die Kopfschmerzen | A1
+korrigierte | adj | corrected | korrigiert | B1
+Kosmetik | f | cosmetics | die Kosmetik | B1
+Kosten | pl | costs | die Kosten | A2
+kosten | v | cost | kosten | A1
+kostenlos | adj | free (of charge) | kostenlos | A2
+kostet | v | costs | kosten | A1 | es kostet
+krank | adj | sick; ill | krank | A1
+Krankmeldung | f | sick note | die Krankmeldung | B1
+Krieg | m | war | der Krieg, die Kriege | B1
+Krimis | pl | crime novels | die Krimis (sg. der Krimi) | A2
+Kuchen | m | cake | der Kuchen, die Kuchen | A1
+Kunde | m | customer; client | der Kunde, die Kunden | A2
+Kunden | pl | customers; clients | die Kunden (sg. der Kunde) | A2
+Kundenservice | m | customer service | der Kundenservice | B1
+Kurs | m | course; class | der Kurs, die Kurse | A1
+kurz | adj | short; briefly | kurz | A1
+kurze | adj | short | kurz | A1
+kurzen | adj | short | kurz | A1
+kurzes | adj | short; brief | kurz | A1
+Käse | m | cheese | der Käse | A1
+können | v | can; be able to | können | A1
+könnten | v | could | können | A2 | Sie könnten
+Küche | f | kitchen | die Küche, die Küchen | A1
+kühl | adj | cool | kühl | A2
+kümmere | v | take care (ich kümmere mich um: I'll take care of) | sich kümmern | B1 | ich kümmere mich
+kündigen | v | cancel (a subscription); resign | kündigen | B1
+künstliche | adj | artificial | künstlich | B1
+kürzer | adj | shorter | kurz, kürzer | A1
+
+# ---- L ----
+Ladekabel | n | charging cable | das Ladekabel, die Ladekabel | B1
+Lage | f | location | die Lage | B1
+Lampe | f | lamp | die Lampe, die Lampen | A1
+lang | adv | long (einen Monat lang: for a month) | lang | A1
+lange | adv | long; for a long time | lange | A1
+langen | adj | long | lang | A1
+langfristig | adv | in the long term | langfristig | B2
+langsam | adj | slowly; slow | langsam | A1
+Laptop | m | laptop | der Laptop, die Laptops | A2
+lassen | v | let; have (something done) | lassen | A2
+laut | adj | loud; noisy | laut | A1
+lecker | adj | tasty; delicious | lecker | A1
+Leder | n | leather | das Leder | B1
+leer | adj | empty; (of a battery) dead | leer | A2
+Lehrer | m | teacher | der Lehrer, die Lehrer | A1
+leicht | adj | easy; light; slightly | leicht | A1
+leichte | adj | light | leicht | A1
+leichten | adj | light | leicht | A1
+leid | adj | sorry (es tut mir leid: I'm sorry) | leid | A1
+leider | adv | unfortunately | leider | A1
+leise | adj | quiet | leise | A2
+leitet | v | heads; manages | leiten | B1 | er leitet
+lerne | v | learn | lernen | A1 | ich lerne
+lese | v | read | lesen | A1 | ich lese
+lesen | v | read | lesen | A1
+letzte | adj | last | letzt- | A1
+letzten | adj | last | letzt- | A1
+liebe | adj | dear | lieb | A1
+lieber | adv | rather; preferably (lieber mögen: prefer) | gern, lieber | A2
+lief | v | went; ran (es lief gut: it went well) | laufen | B1 | es lief
+Leute | pl | people | die Leute | A1
+Lieferanten | m | supplier | der Lieferant, die Lieferanten | B1 | accusative
+Lieferung | f | delivery | die Lieferung, die Lieferungen | B1
+Lieferzeit | f | delivery time | die Lieferzeit | B1
+liegen | v | lie; be (im Zeitplan liegen: be on schedule) | liegen | A2
+Liegewagen | m | couchette car | der Liegewagen | B2
+liegt | v | lies; is located (das liegt an: that's due to) | liegen | A2 | es liegt
+liest | v | reads | lesen | A1 | er/sie liest
+Linie | f | line | die Linie, die Linien | A2
+links | adv | left; on the left | links | A1
+Liste | f | list | die Liste, die Listen | A1
+lohnt | v | is worth it (es lohnt sich) | sich lohnen | B1 | es lohnt sich
+los | adj | going on (Was ist los? What's the matter?) | los | A1
+losgefahren | v | set off; left | losfahren | B1 | past participle
+Ländern | pl | countries | die Länder (sg. das Land) | A1 | dative
+länger | adj | longer | lang, länger | A1
+
+# ---- M ----
+mache | v | do; make | machen | A1 | ich mache
+machen | v | do; make | machen | A1
+machst | v | do | machen | A1 | du machst
+macht | v | makes; comes to (Das macht… That's…) | machen | A1 | er/sie/es macht
+mag | v | like | mögen | A1 | ich mag
+magst | v | like | mögen | A1 | du magst
+Mai | m | May | der Mai | A1
+mal | part | just (softens a request) | mal | A1
+Mal | n | time (nächstes Mal: next time) | das Mal, die Male | A1
+man | pron | one; you; people | man | A1
+manchmal | adv | sometimes | manchmal | A1
+Mandeln | pl | almonds | die Mandeln (sg. die Mandel) | B2
+Mantel | m | coat | der Mantel, die Mäntel | A1
+Marketing | n | marketing | das Marketing | B1
+Markt | m | market | der Markt, die Märkte | A1
+Marktplatz | m | market square | der Marktplatz, die Marktplätze | A2
+Medikament | n | medicine | das Medikament, die Medikamente | A2
+Medikamente | pl | medicines | die Medikamente (sg. das Medikament) | A2
+Meer | n | sea | das Meer, die Meere | A1
+Meeting | n | meeting | das Meeting, die Meetings | A2
+mehr | adv | more (nicht mehr: no longer) | viel, mehr | A1
+Mehrwertsteuer | f | VAT | die Mehrwertsteuer | B2
+mein | pron | my | mein | A1
+meine | pron | my | mein | A1
+meinem | pron | my | mein | A1
+meinen | pron | my | mein | A1
+meiner | pron | my (meiner Meinung nach: in my opinion) | mein | A1
+Meinung | f | opinion | die Meinung, die Meinungen | A2
+meistens | adv | mostly; usually | meistens | A2
+melde | v | get in touch (ich melde mich) | sich melden | B1 | ich melde mich
+Menschen | pl | people | die Menschen (sg. der Mensch) | A1
+Messe | f | trade fair | die Messe, die Messen | B1
+mich | pron | me; myself | ich | A1
+Miete | f | rent | die Miete, die Mieten | A2
+mieten | v | rent; hire | mieten | A2
+Milch | f | milk | die Milch | A1
+Minuten | pl | minutes | die Minuten (sg. die Minute) | A1
+mir | pron | me; to me | ich | A1
+mit | prep | with; by (mit Karte: by card) | mit | A1
+Mitarbeiter | m | employee | der Mitarbeiter, die Mitarbeiter | A2
+Mitarbeiterin | f | employee (woman) | die Mitarbeiterin, die Mitarbeiterinnen | A2
+mitnehmen | v | take along | mitnehmen | A2
+Mittag | m | noon; midday | der Mittag | A1
+mittags | adv | at noon | mittags | A1
+mittelständisches | adj | medium-sized (business) | mittelständisch | B2
+Mittwoch | m | Wednesday | der Mittwoch | A1
+Modell | n | model | das Modell, die Modelle | B1
+Moment | m | moment (Moment! One moment!) | der Moment | A1
+Monat | m | month | der Monat, die Monate | A1
+Monate | pl | months | die Monate (sg. der Monat) | A1
+Monats | m | month | der Monat | A1 | genitive
+Montag | m | Monday | der Montag | A1
+morgen | adv | tomorrow | morgen | A1
+Morgen | m | morning | der Morgen | A1
+Museum | n | museum | das Museum, die Museen | A1
+muss | v | must; have to | müssen | A1 | ich/er/man muss
+Mutter | f | mother | die Mutter, die Mütter | A1
+März | m | March | der März | A1
+möchte | v | would like | möchten (mögen) | A1 | ich/er möchte
+möchten | v | would like | möchten (mögen) | A1 | wir/Sie möchten
+mögen | v | like | mögen | A1
+möglich | adj | possible | möglich | A2
+Müll | m | rubbish; waste | der Müll | A2
+Münzen | pl | coins | die Münzen (sg. die Münze) | A2
+müssen | v | must; have to | müssen | A1
+
+# ---- N ----
+nach | prep | to (a place); after; past | nach | A1
+Nachbarn | m | neighbour(s) | der Nachbar, die Nachbarn | A2
+Nachmittag | m | afternoon | der Nachmittag | A1
+Nacht | f | night | die Nacht, die Nächte | A1
+Nachtzug | m | night train | der Nachtzug, die Nachtzüge | B1
+Name | m | name | der Name, die Namen | A1
+Namen | m | name | der Name, die Namen | A1 | accusative/dative
+natürlich | adv | of course; naturally | natürlich | A1
+neben | prep | next to | neben | A1
+nehme | v | take; have (food) | nehmen | A1 | ich nehme
+nehmen | v | take | nehmen | A1
+nein | intj | no | nein | A1
+nennen | v | name; tell | nennen | B1
+nette | adj | nice | nett | A1
+neu | adj | new | neu | A1
+neue | adj | new | neu | A1
+neuen | adj | new | neu | A1
+neues | adj | new (one) | neu | A1
+neun | num | nine | neun | A1
+neunundachtzig | num | eighty-nine | neunundachtzig | A1
+neunundneunzig | num | ninety-nine | neunundneunzig | A1
+neunzehn | num | nineteen | neunzehn | A1
+nicht | adv | not | nicht | A1
+nichts | pron | nothing | nichts | A1
+niemand | pron | nobody | niemand | A2
+nimmt | v | takes | nehmen | A1 | er/sie/es nimmt
+noch | adv | still; yet; else | noch | A1
+normal | adj | normal | normal | A2
+normalerweise | adv | usually; normally | normalerweise | A2
+Notdienst | m | emergency service | der Notdienst | B2
+Notrufnummer | f | emergency number | die Notrufnummer | A2
+Nudeln | pl | pasta; noodles | die Nudeln | A1
+null | num | zero | null | A1
+Nummer | f | number; size | die Nummer, die Nummern | A1
+nur | adv | only; just | nur | A1
+Nussallergie | f | nut allergy | die Nussallergie | B1
+nutzen | v | use | nutzen | B1
+nächste | adj | next | nächst- | A1
+nächsten | adj | next | nächst- | A1
+nächstes | adj | next | nächst- | A1
+Nächte | pl | nights | die Nächte (sg. die Nacht) | A1
+Nüsse | pl | nuts | die Nüsse (sg. die Nuss) | A2
+
+# ---- O ----
+oben | adv | up; at the top | oben | A1
+Obst | n | fruit | das Obst | A1
+oder | conj | or | oder | A1
+offen | adj | open | offen | A1
+oft | adv | often | oft | A1
+oh | intj | oh | oh | -
+ohne | prep | without | ohne | A1
+okay | intj | okay | okay | -
+Olivenöl | n | olive oil | das Olivenöl | B1
+online | adv | online | online | A2
+
+# ---- P ----
+paar | pron | a few (ein paar) | ein paar | A1
+Packstation | f | parcel locker | die Packstation | -
+Paket | n | parcel; package | das Paket, die Pakete | A1
+Papier | n | paper | das Papier | A1
+Park | m | park | der Park, die Parks | A1
+parke | v | park | parken | A1 | ich parke
+Parkhaus | n | car park | das Parkhaus, die Parkhäuser | A2
+Parkschein | m | pay-and-display ticket | der Parkschein | B1
+Pass | m | passport | der Pass, die Pässe | A1
+passt | v | fits; suits | passen | A1 | es passt
+Passwort | n | password | das Passwort, die Passwörter | A2
+Pause | f | break | die Pause, die Pausen | A1
+Payback-Karte | f | Payback card (store loyalty card) | die Payback-Karte | -
+perfekt | adj | perfect | perfekt | A2
+Person | f | person | die Person, die Personen | A1
+Personen | pl | people; persons | die Personen (sg. die Person) | A1
+persönliche | adj | personal | persönlich | A2
+Pfand | n | deposit (on bottles) | das Pfand | B1
+Pfandautomaten | m | bottle return machine | der Pfandautomat | B2 | accusative
+Pflicht | f | obligation; compulsory | die Pflicht | B1
+Phase | f | phase | die Phase, die Phasen | B1
+PIN | f | PIN | die PIN | -
+plant | v | plans | planen | A2 | man plant
+Plastik | n | plastic | das Plastik | A2
+Plastikflasche | f | plastic bottle | die Plastikflasche | A2
+Platten | m | flat tyre | der Platten | B2
+Platz | m | seat; place; square | der Platz, die Plätze | A1
+Pläne | pl | plans | die Pläne (sg. der Plan) | A2
+Polizei | f | police | die Polizei | A1
+Pommes | pl | fries; chips | die Pommes | A1
+Postkarte | f | postcard | die Postkarte, die Postkarten | A1
+Preis | m | price | der Preis, die Preise | A1
+Prepaid | adj | prepaid | Prepaid | -
+Prepaid-Karte | f | prepaid card | die Prepaid-Karte | -
+pro | prep | per | pro | A2
+Probezeit | f | probation period | die Probezeit | B1
+Problem | n | problem | das Problem, die Probleme | A1
+Produkt | n | product | das Produkt, die Produkte | B1
+Produktion | f | production | die Produktion | B1
+produzieren | v | produce | produzieren | B1
+Projekten | pl | projects | die Projekte (sg. das Projekt) | B1 | dative
+Projekts | n | project | das Projekt, die Projekte | B1 | genitive
+Protokoll | n | minutes (of a meeting) | das Protokoll | B1
+Prozent | n | percent | das Prozent | A2
+Präsentation | f | presentation | die Präsentation, die Präsentationen | B1
+prüfen | v | check; examine | prüfen | B1
+Pullover | m | jumper; sweater | der Pullover, die Pullover | A1
+Punkt | m | point; item | der Punkt, die Punkte | A2
+pünktlich | adj | on time; punctual | pünktlich | A1
+Pünktlichkeit | f | punctuality | die Pünktlichkeit | B1
+
+# ---- Q ----
+Quittungen | pl | receipts | die Quittungen (sg. die Quittung) | A2
+
+# ---- R ----
+Rabatt | m | discount | der Rabatt, die Rabatte | A2
+Rabatte | pl | discounts | die Rabatte (sg. der Rabatt) | A2
+Raststätte | f | motorway service station | die Raststätte | B1
+Rathaus | n | town hall | das Rathaus, die Rathäuser | A2
+rechnen | v | expect (rechnen mit); calculate | rechnen | B1
+Rechnung | f | bill; invoice | die Rechnung, die Rechnungen | A1
+rechts | adv | right; on the right | rechts | A1
+rechtzeitig | adv | in time | rechtzeitig | B1
+recyceltem | adj | recycled | recycelt | B2
+Rede | f | speech | die Rede, die Reden | B1
+reduzierte | adj | reduced | reduziert | B1
+Regal | n | shelf | das Regal, die Regale | A2
+Regenschirm | m | umbrella | der Regenschirm | A2
+Region | f | region | die Region | B1
+regnen | v | rain | regnen | A1
+regnet | v | rains | regnen | A1 | es regnet
+reicht | v | is enough | reichen | A2 | es reicht
+Reifen | m | tyre | der Reifen, die Reifen | B1
+Reis | m | rice | der Reis | A1
+Reise | f | trip; journey | die Reise, die Reisen | A1
+Reisekostenabrechnung | f | expense report | die Reisekostenabrechnung | B2
+Reisen | pl | travel; trips | die Reisen (sg. die Reise) | A2
+Rente | f | pension (in Rente gehen: retire) | die Rente | B1
+Reparatur | f | repair | die Reparatur | A2
+reparieren | v | repair | reparieren | A2
+reservieren | v | reserve; book | reservieren | A1
+reserviert | v | reserved | reservieren | A1 | past participle
+Reservierung | f | reservation | die Reservierung | A2
+Restaurant | n | restaurant | das Restaurant, die Restaurants | A1
+Rettungsgasse | f | emergency corridor | die Rettungsgasse | B2
+Rezept | n | prescription; recipe | das Rezept | A2
+richtig | adj | right; correct | richtig | A1
+Riesling | m | Riesling (white wine) | der Riesling | -
+Risiko | n | risk | das Risiko, die Risiken | B1
+Rolltreppe | f | escalator | die Rolltreppe | B1
+rot | adj | red | rot | A1
+roten | adj | red | rot | A1
+Rotwein | m | red wine | der Rotwein | A2
+ruhigeres | adj | quieter | ruhig, ruhiger | A2
+
+# ---- S ----
+Sachen | pl | things | die Sachen (sg. die Sache) | A1
+sagen | v | say | sagen | A1
+sagt | v | says | sagen | A1 | er/sie/man sagt
+Salat | m | salad | der Salat | A1
+sammeln | v | collect | sammeln | A2
+sammelt | v | collects | sammeln | A2 | man sammelt
+Samstag | m | Saturday | der Samstag | A1
+schaffen | v | manage; get done | schaffen | B1
+Schaffner | m | conductor | der Schaffner | B1
+Schale | f | punnet; bowl | die Schale | B2
+Schalter | m | counter; desk | der Schalter | A2
+schaue | v | look (ich schaue mal: I'll have a look) | schauen | A1 | ich schaue
+Scheiben | pl | slices | die Scheiben (sg. die Scheibe) | A2
+scheint | v | shines; seems | scheinen | A2 | sie scheint
+schicke | v | send | schicken | A1 | ich schicke
+schicken | v | send | schicken | A1
+schickt | v | sends | schicken | A1 | er/sie schickt
+Schinken | m | ham | der Schinken | A2
+schlafe | v | sleep | schlafen | A1 | ich schlafe
+schlafen | v | sleep | schlafen | A1
+Schlafzimmer | n | bedroom | das Schlafzimmer | A1
+Schlauch | m | inner tube; hose | der Schlauch | B2
+schlecht | adj | bad (mir ist schlecht: I feel sick) | schlecht | A1
+schlechter | adj | worse | schlecht, schlechter | A1
+Schluss | m | end (zum Schluss: finally) | der Schluss | A2
+Schlüssel | m | key | der Schlüssel, die Schlüssel | A1
+schneiden | v | cut | schneiden | A2
+schneit | v | snows | schneien | A1 | es schneit
+schnell | adj | quick; fast | schnell | A1
+schnelle | adj | fast | schnell | A1
+schneller | adj | faster | schnell, schneller | A1
+Schnitzel | n | schnitzel | das Schnitzel | A1
+Schnupfen | m | (head) cold | der Schnupfen | A2
+schon | adv | already | schon | A1
+Schrank | m | cupboard | der Schrank, die Schränke | A1
+schreibe | v | write | schreiben | A1 | ich schreibe
+schreiben | v | write | schreiben | A1
+schreibt | v | writes | schreiben | A1 | er/sie/man schreibt
+Schreibtisch | m | desk | der Schreibtisch | A2
+Schritte | pl | steps | die Schritte (sg. der Schritt) | B1
+Schuhe | pl | shoes | die Schuhe (sg. der Schuh) | A1
+Schuhgröße | f | shoe size | die Schuhgröße | A2
+schwarz | adj | black | schwarz | A1
+Schweiz | f | Switzerland | die Schweiz | A1
+schwer | adj | hard; heavy | schwer | A1
+schwerer | adj | heavier | schwer, schwerer | A1
+Schwester | f | sister | die Schwester, die Schwestern | A1
+Schwächen | pl | weaknesses | die Schwächen (sg. die Schwäche) | B1
+schön | adj | nice; beautiful | schön | A1
+schönen | adj | nice | schön | A1
+sechs | num | six | sechs | A1
+sechzehn | num | sixteen | sechzehn | A1
+sechzig | num | sixty | sechzig | A1
+See | m | lake | der See, die Seen | A2
+sehe | v | see; watch | sehen | A1 | ich sehe
+sehen | v | see; look | sehen | A1
+sehr | adv | very; very much | sehr | A1
+Sehtest | m | eye test | der Sehtest | B2
+Seife | f | soap | die Seife | A2
+sein | v | be | sein | A1
+seine | pron | his; its | sein | A1
+seit | prep | since; for (time) | seit | A1
+Seite | f | side; page | die Seite, die Seiten | A1
+Seiten | pl | sides | die Seiten (sg. die Seite) | A1
+selbst | adv | oneself; themselves | selbst | A2
+Selbstbeteiligung | f | excess (insurance) | die Selbstbeteiligung | C1
+Sensoren | pl | sensors | die Sensoren (sg. der Sensor) | B2
+setzen | v | sit down (sich setzen); put | sich setzen | A2
+Shampoo | n | shampoo | das Shampoo | A2
+sich | pron | oneself; himself; herself; each other | sich | A1
+sicher | adj | sure; safe | sicher | A2
+sie | pron | she; it; they; her; them | sie | A1
+Sie | pron | you (formal) | Sie | A1
+sieben | num | seven | sieben | A1
+siebzehn | num | seventeen | siebzehn | A1
+siebzig | num | seventy | siebzig | A1
+sieht | v | sees; looks | sehen | A1 | er/sie/man sieht
+siezt | v | uses "Sie" (formal you) | siezen | B1 | man siezt sich
+SIM-Karte | f | SIM card | die SIM-Karte | -
+sind | v | are | sein | A1 | wir/sie/Sie sind
+Sitzplatz | m | seat | der Sitzplatz, die Sitzplätze | A2
+so | adv | so; like this; that way | so | A1
+sobald | conj | as soon as | sobald | B1
+sofort | adv | immediately; right away | sofort | A1
+soll | v | should; is supposed to | sollen | A2 | ich/er soll
+sollte | v | should; was supposed to | sollen | A2 | er/sie/es sollte
+sollten | v | should | sollen | A2 | wir/Sie sollten
+Sommer | m | summer | der Sommer | A1
+Sonne | f | sun | die Sonne | A1
+Sonnencreme | f | sun cream | die Sonnencreme | A2
+Sonntag | m | Sunday | der Sonntag | A1
+sonst | adv | otherwise; else (sonst noch etwas? anything else?) | sonst | A2
+Souvenir | n | souvenir | das Souvenir, die Souvenirs | A2
+Soße | f | sauce | die Soße | A2
+Spaghetti | pl | spaghetti | die Spaghetti | A1
+spannend | adj | exciting | spannend | A2
+spannenden | adj | exciting | spannend | A2
+spare | v | save | sparen | A2 | ich spare
+sparen | v | save | sparen | A2
+Spargel | m | asparagus | der Spargel | B1
+spazieren | v | stroll (spazieren gehen: go for a walk) | spazieren | A1
+Spaziergang | m | walk | der Spaziergang | A2
+Speisekarte | f | menu | die Speisekarte | A1
+spiele | v | play | spielen | A1 | ich spiele
+Spielwaren | pl | toys | die Spielwaren | B2
+spontane | adj | spontaneous | spontan | B1
+spreche | v | speak | sprechen | A1 | ich spreche
+sprechen | v | speak | sprechen | A1
+spricht | v | speaks (hier spricht…: this is … speaking) | sprechen | A1 | er/sie spricht
+spät | adj | late (wie spät ist es? what time is it?) | spät | A1
+später | adv | later | später | A1
+spätestens | adv | at the latest | spätestens | B1
+Spülmaschine | f | dishwasher | die Spülmaschine | A2
+stabiles | adj | stable | stabil | B1
+Stadt | f | city; town | die Stadt, die Städte | A1
+Stadtführung | f | city tour | die Stadtführung | A2
+Stadtplan | m | city map | der Stadtplan | A1
+Stand | m | status; stand | der Stand | B1
+Start-ups | pl | start-ups | die Start-ups | B2
+statt | prep | instead of | statt | A2
+stattdessen | adv | instead | stattdessen | B1
+Stau | m | traffic jam | der Stau | A2
+steckt | v | puts; inserts | stecken | A2 | man steckt
+steht | v | stands; is (written) | stehen | A1 | er/sie/es steht
+steil | adj | steep | steil | B1
+stellen | v | put; stand (sich stellen zu: join) | stellen | A2
+Stempel | m | stamp | der Stempel | B1
+Stock | m | floor; storey | der Stock | A2
+Strafe | f | fine; penalty | die Strafe | B1
+Strafzettel | m | parking ticket (fine) | der Strafzettel | B2
+Strand | m | beach | der Strand | A2
+Strauß | m | bouquet | der Strauß | B1
+Straße | f | street; road | die Straße, die Straßen | A1
+Straßenbahn | f | tram | die Straßenbahn | A1
+strukturiert | adj | structured | strukturiert | B2
+Studenten | pl | students | die Studenten (sg. der Student) | A1
+Studentin | f | student (woman) | die Studentin, die Studentinnen | A1
+studiert | v | studied | studieren | A1 | past participle
+Stunde | f | hour | die Stunde, die Stunden | A1
+Stunden | pl | hours | die Stunden (sg. die Stunde) | A1
+Stärken | pl | strengths | die Stärken (sg. die Stärke) | B1
+Stück | n | piece; units | das Stück | A1
+suche | v | look for | suchen | A1 | ich suche
+suchen | v | look for | suchen | A1
+super | adj | great | super | A1
+Supermarkt | m | supermarket | der Supermarkt, die Supermärkte | A1
+Suppe | f | soup | die Suppe | A1
+
+# ---- T ----
+T-Shirt | n | T-shirt | das T-Shirt, die T-Shirts | A1
+T-Shirts | pl | T-shirts | die T-Shirts (sg. das T-Shirt) | A1
+Tabletten | pl | tablets; pills | die Tabletten (sg. die Tablette) | A2
+Tag | m | day | der Tag, die Tage | A1
+Tage | pl | days | die Tage (sg. der Tag) | A1
+Tagen | pl | days | die Tage (sg. der Tag) | A1 | dative
+tanken | v | refuel; fill up | tanken | A2
+tanzt | v | dances | tanzen | A1 | er/sie tanzt
+Tasche | f | bag | die Tasche, die Taschen | A1
+Taschen | pl | bags | die Taschen (sg. die Tasche) | A1
+Tasse | f | cup | die Tasse, die Tassen | A1
+Tastatur | f | keyboard | die Tastatur | B1
+tatsächlich | adv | actually; indeed | tatsächlich | B1
+tausend | num | thousand | tausend | A1
+Team | n | team | das Team, die Teams | A2
+Tee | m | tea | der Tee | A1
+Teil | m | part | der Teil, die Teile | A2
+teile | v | share | teilen | B1 | ich teile
+Teile | pl | parts | die Teile (sg. das Teil) | A2
+telefonieren | v | talk on the phone | telefonieren | A1
+Telefonnummer | f | phone number | die Telefonnummer | A1
+Tempolimit | n | speed limit | das Tempolimit | B2
+Termin | m | appointment | der Termin, die Termine | A1
+teuer | adj | expensive | teuer | A1
+teurer | adj | more expensive | teuer, teurer | A1
+Text | m | text | der Text, die Texte | A1
+Thema | n | topic | das Thema, die Themen | A2
+Ticket | n | ticket | das Ticket, die Tickets | A1
+Tipp | m | tip; hint | der Tipp, die Tipps | A2
+Tisch | m | table | der Tisch, die Tische | A1
+Titel | m | title | der Titel, die Titel | B1
+Toilette | f | toilet | die Toilette | A1
+Tomaten | pl | tomatoes | die Tomaten (sg. die Tomate) | A1
+Ton | m | sound | der Ton | B1
+Tonne | f | (rubbish) bin | die Tonne | B1
+Touristen | pl | tourists | die Touristen (sg. der Tourist) | A2
+trage | v | wear; carry | tragen | A1 | ich trage
+tragen | v | wear; carry | tragen | A1
+Treffen | n | meeting | das Treffen | A2
+trennen | v | separate; keep apart | trennen | A2
+trinke | v | drink | trinken | A1 | ich trinke
+trinken | v | drink | trinken | A1
+Trinkgeld | n | tip | das Trinkgeld | A2
+trinkt | v | drinks | trinken | A1 | man trinkt
+trocken | adj | dry | trocken | A2
+trotzdem | adv | still; nevertheless | trotzdem | A2
+tschüss | intj | bye | tschüss | A1
+Tulpen | pl | tulips | die Tulpen (sg. die Tulpe) | B1
+tut | v | does (es tut mir leid: I'm sorry) | tun | A1 | es tut
+Tür | f | door | die Tür, die Türen | A1
+Tüte | f | (carrier) bag | die Tüte | A2
+
+# ---- U ----
+U-Bahn | f | underground; subway | die U-Bahn | A1
+Uhr | f | o'clock; clock | die Uhr | A1
+um | prep | at (a time); around; by | um | A1
+umgehend | adv | immediately | umgehend | B2
+Umkleidekabine | f | changing room | die Umkleidekabine | B1
+Umsatz | m | revenue; turnover | der Umsatz | B2
+Umsteigen | n | changing (trains) | das Umsteigen | A2
+Umstände | pl | inconvenience; circumstances | die Umstände | B1
+umtauschen | v | exchange | umtauschen | A2
+unbeliebt | adj | unpopular | unbeliebt | B1
+und | conj | and | und | A1
+ungefähr | adv | about; approximately | ungefähr | A2
+unhöflich | adj | rude; impolite | unhöflich | B1
+uns | pron | us; ourselves; each other | wir | A1
+unser | pron | our | unser | A1
+unsere | pron | our | unser | A1
+unseren | pron | our | unser | A1
+unsicher | adj | unsure | unsicher | B1
+unten | adv | down; at the bottom | unten | A1
+unter | prep | under; among | unter | A2
+unterhält | v | chats (sich unterhalten) | sich unterhalten | B1 | man unterhält sich
+Unternehmen | n | company; companies | das Unternehmen, die Unternehmen | B1
+Unterschied | m | difference | der Unterschied | A2
+Urlaub | m | holiday; vacation | der Urlaub | A1
+
+# ---- V ----
+Vater | m | father | der Vater, die Väter | A1
+Vegetarier | m | vegetarian | der Vegetarier | A2
+vegetarisch | adj | vegetarian | vegetarisch | A2
+Verbindung | f | connection | die Verbindung | A2
+verbringen | v | spend (time) | verbringen | B1
+vereinbaren | v | arrange; agree | vereinbaren | B1
+vergessen | v | forget; forgotten | vergessen | A1
+verkaufen | v | sell | verkaufen | A1
+verloren | v | lost | verlieren | A2 | past participle
+vermissen | v | miss | vermissen | B1
+Verpackungen | pl | packaging | die Verpackungen (sg. die Verpackung) | B1
+verschieben | v | postpone | verschieben | B1
+Versicherung | f | insurance | die Versicherung | A2
+Verspätung | f | delay | die Verspätung | A2
+verstehe | v | understand | verstehen | A1 | ich verstehe
+vertauscht | adj | swapped | vertauschen | B2
+Vertrag | m | contract | der Vertrag, die Verträge | B1
+Vertretung | f | replacement; cover | die Vertretung | B1
+Vertrieb | m | sales (department) | der Vertrieb | B2
+verzollen | v | declare (at customs) | verzollen | B2
+viel | adv | a lot; much | viel | A1
+viele | pron | many; a lot of | viele | A1
+vielen | pron | many (vielen Dank: many thanks) | viele | A1
+vielleicht | adv | maybe; perhaps | vielleicht | A1
+vier | num | four | vier | A1
+vierten | adj | fourth | viert- | A1
+vierzehn | num | fourteen | vierzehn | A1
+vierzig | num | forty | vierzig | A1
+Visitenkarte | f | business card | die Visitenkarte | B1
+voll | adj | full; crowded | voll | A2
+vollgetankt | adj | with a full tank | vollgetankt | B2
+vom | prep | from the; of the | vom (von + dem) | A1
+von | prep | from; of; by | von | A1
+vor | prep | before; in front of (vor allem: above all) | vor | A1
+vorbereitet | v | prepared | vorbereiten | B1 | past participle
+vorher | adv | before; beforehand | vorher | A2
+Vormittag | m | morning (before noon) | der Vormittag | A1
+Vorschlag | m | proposal; suggestion | der Vorschlag | B1
+vorstellen | v | introduce; present | vorstellen | A2
+Vorteile | pl | advantages; benefits | die Vorteile (sg. der Vorteil) | B1
+Vortrag | m | talk; lecture | der Vortrag | B1
+
+# ---- W ----
+Wachstum | n | growth | das Wachstum | B2
+Wagen | m | carriage; car | der Wagen | A2
+wann | adv | when | wann | A1
+war | v | was | sein | A1 | ich/er/sie/es war
+Ware | f | goods | die Ware | B1
+waren | v | were | sein | A1 | wir/sie waren
+warm | adj | warm | warm | A1
+warmen | adj | warm | warm | A1
+warte | v | wait | warten | A1 | ich warte
+warten | v | wait | warten | A1
+wartet | v | waits | warten | A1 | er wartet
+warum | adv | why | warum | A1
+was | pron | what; something | was | A1
+waschen | v | wash | waschen | A1
+Wasser | n | water | das Wasser | A1
+Wasserkocher | m | kettle | der Wasserkocher | B1
+Webseite | f | website | die Webseite | A2
+Weg | m | path; way | der Weg, die Wege | A1
+weil | conj | because | weil | A2
+Wein | m | wine | der Wein, die Weine | A1
+weit | adj | far | weit | A1
+weiter | adv | further; on | weiter | A2
+weiterentwickeln | v | develop further (sich weiterentwickeln) | sich weiterentwickeln | B2
+Weiß | n | white (the colour) | das Weiß | A1
+Weißwein | m | white wine | der Weißwein | A2
+Weißwurst | f | white sausage (Bavarian veal sausage) | die Weißwurst | -
+welche | pron | which | welcher | A1
+welchem | pron | which | welcher | A1
+wenn | conj | if; when | wenn | A2
+wer | pron | who; whoever | wer | A1
+werden | v | become; get; will | werden | A1
+Wetter | n | weather | das Wetter | A1
+wichtig | adj | important | wichtig | A1
+wichtiger | adj | important | wichtig | A1
+wie | adv | how; like; as | wie | A1
+wieder | adv | again | wieder | A1
+wiederholen | v | repeat | wiederholen | A1
+wiegt | v | weighs | wiegen | B1 | es wiegt
+willkommen | adj | welcome | willkommen | A1
+windig | adj | windy | windig | A2
+Windschutzscheibe | f | windscreen | die Windschutzscheibe | C1
+Winter | m | winter | der Winter | A1
+Winterjacken | pl | winter jackets | die Winterjacken (sg. die Winterjacke) | A2
+wir | pron | we | wir | A1
+wird | v | is (being); becomes; will | werden | A2 | er/sie/es wird
+WLAN | n | Wi-Fi | das WLAN | A2
+wo | adv | where | wo | A1
+Woche | f | week | die Woche, die Wochen | A1
+Wochen | pl | weeks | die Wochen (sg. die Woche) | A1
+Wochenende | n | weekend | das Wochenende | A1
+Wochenmarkt | m | weekly market | der Wochenmarkt | B1
+woher | adv | where from | woher | A1
+wohne | v | live | wohnen | A1 | ich wohne
+Wohnung | f | flat; apartment | die Wohnung, die Wohnungen | A1
+Wohnzimmer | n | living room | das Wohnzimmer | A1
+wollen | v | want; shall (Wollen wir…? Shall we…?) | wollen | A1
+wollten | v | wanted | wollen | A2 | wir wollten
+Wort | n | word | das Wort, die Wörter | A1
+wurde | v | was (passive) | werden | B1 | es wurde
+Wurst | f | sausage; cold cuts | die Wurst | A1
+während | conj | while | während | B1
+wäre | v | would be (Wie wäre es mit…? How about…?) | sein | A2 | es wäre
+wünschen | v | wish; would like | wünschen | A2
+würde | v | would | werden | A2 | ich würde
+
+# ---- Z ----
+zahlen | v | pay | zahlen | A1
+Zahlen | pl | figures; numbers | die Zahlen (sg. die Zahl) | A1
+zahlt | v | pays | zahlen | A1 | man zahlt
+Zahlungsbedingungen | pl | payment terms | die Zahlungsbedingungen | B2
+Zahnpasta | f | toothpaste | die Zahnpasta | A2
+zehn | num | ten | zehn | A1
+zehnten | adj | tenth | zehnt- | A1
+zeige | v | show | zeigen | A1 | ich zeige
+zeigt | v | shows | zeigen | A1 | er/sie/man zeigt
+Zeit | f | time | die Zeit | A1
+Zeitplan | m | schedule | der Zeitplan | B1
+zerstört | v | destroyed | zerstören | B1 | past participle
+Zettel | m | note; slip of paper | der Zettel | A2
+Zimmer | n | room | das Zimmer, die Zimmer | A1
+Zitrone | f | lemon | die Zitrone | A2
+Zoll | m | customs | der Zoll | B1
+zu | prep | to; too; at (zu Hause) | zu | A1
+zuerst | adv | first; at first | zuerst | A1
+zufrieden | adj | satisfied | zufrieden | A2
+Zug | m | train | der Zug, die Züge | A1
+zugestellt | v | delivered | zustellen | B2 | past participle
+zum | prep | to the | zum (zu + dem) | A1
+zur | prep | to the | zur (zu + der) | A1
+zurück | adv | back | zurück | A1
+zurückbekommen | v | get back | zurückbekommen | B1
+zurückgeben | v | give back; return | zurückgeben | A2
+zurückrufen | v | call back | zurückrufen | A2
+zurückschicken | v | send back | zurückschicken | A2
+zusammen | adv | together | zusammen | A1
+zusammenfassen | v | summarise | zusammenfassen | B1
+Zusammenfassung | f | summary | die Zusammenfassung | B1
+zuständig | adj | responsible (for) | zuständig | B1
+zwanzig | num | twenty | zwanzig | A1
+zwei | num | two | zwei | A1
+zweihundert | num | two hundred | zweihundert | A1
+zweimal | adv | twice | zweimal | A1
+zweit | adv | in twos (zu zweit: as a pair) | zu zweit | A2
+zweite | adj | second | zweit- | A1
+zweiten | adj | second | zweit- | A1
+zweiundvierzig | num | forty-two | zweiundvierzig | A1
+zweiundzwanzig | num | twenty-two | zweiundzwanzig | A1
+Zwiebel | f | onion | die Zwiebel, die Zwiebeln | A2
+zwölf | num | twelve | zwölf | A1
+Züge | pl | trains | die Züge (sg. der Zug) | A1
+
+# ---- Ä Ö Ü ----
+ältere | adj | older | alt, älter | A1
+Änderungen | pl | changes | die Änderungen (sg. die Änderung) | B1
+Äpfel | pl | apples | die Äpfel (sg. der Apfel) | A1
+ärgere | v | am annoyed (ich ärgere mich) | sich ärgern | B1 | ich ärgere mich
+ärgerlich | adj | annoying | ärgerlich | B1
+über | prep | about; over; more than | über | A1
+überall | adv | everywhere | überall | A2
+Überblick | m | overview | der Überblick | B1
+überholen | v | overtake | überholen | B1
+Überstunden | pl | overtime | die Überstunden | B1
+überweisen | v | transfer (money) | überweisen | B1
+überwiesen | v | transferred | überweisen | B1 | past participle

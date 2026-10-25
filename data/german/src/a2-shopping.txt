@@ -1,0 +1,198 @@
+# deck: id=a2-shopping | title=A2 · Shopping | level=A2 | kind=shopping | vocab_min=0.88
+# desc: Returns, complaints, parcels, phone contracts and services — shopping past the basics.
+
+@ a2s-01 | Eine SIM-Karte | A SIM Card | phone, electronics
+Ich bin für einen Monat in Deutschland und brauche eine SIM-Karte.
+I'm in Germany for a month and need a SIM card.
+Möchten Sie einen Vertrag oder eine Prepaid-Karte?
+Would you like a contract or a prepaid card?
+Lieber Prepaid. Ich möchte mich nicht lange binden.
+Prepaid, preferably. I don't want to commit for long.
+Dieses Paket hat zwanzig Gigabyte für fünfzehn Euro im Monat.
+This package has twenty gigabytes for fifteen euros a month.
+Für die Aktivierung brauche ich Ihren Pass.
+I need your passport for the activation.
+Das ist in Deutschland Pflicht.
+That's compulsory in Germany.
+
+@ a2s-02 | Geld zurück? | Money Back? | returns
+Ich möchte diese Jacke zurückgeben.
+I'd like to return this jacket.
+Gibt es ein Problem damit?
+Is there a problem with it?
+Nein, sie{sie} gefällt mir einfach nicht mehr.
+No, I just don't like it any more.
+Wir geben kein Geld zurück, aber Sie bekommen einen Gutschein.
+We don't give money back, but you'll get a voucher.
+Wie lange ist der Gutschein gültig?
+How long is the voucher valid?
+Drei Jahre.
+Three years.
+
+@ a2s-03 | Das Gerät ist kaputt | The Device Is Broken | returns, electronics
+Ich habe diesen Wasserkocher letzte Woche hier gekauft.
+I bought this kettle here last week.
+Seit gestern funktioniert er nicht mehr.
+Since yesterday it hasn't worked any more.
+Das ist ärgerlich. Haben Sie die Rechnung dabei?
+That's annoying. Do you have the invoice with you?
+Ja, hier ist sie{sie}.
+Yes, here it is.
+Das Gerät hat zwei Jahre Garantie.
+The appliance has a two-year warranty.
+Sie können ein neues bekommen oder Ihr Geld zurück.
+You can get a new one or your money back.
+
+@ a2s-04 | Welcher Laptop? | Which Laptop? | electronics
+Ich suche einen leichten Laptop für die Reise.
+I'm looking for a light laptop for travelling.
+Dieser hier wiegt nur ein Kilo und der Akku hält zwölf Stunden.
+This one here weighs only a kilo and the battery lasts twelve hours.
+Und was ist der Unterschied zu dem anderen Modell?
+And what's the difference from the other model?
+Das andere ist schneller, aber auch schwerer und teurer.
+The other one is faster, but also heavier and more expensive.
+Hat das Gerät eine deutsche oder eine amerikanische Tastatur?
+Does the device have a German or an American keyboard?
+Eine deutsche. Das Z und das Y sind vertauscht.
+A German one. The Z and the Y are swapped.
+
+@ a2s-05 | Online bestellen | Ordering Online | online, post
+Viele Leute bestellen heute alles online.
+Many people order everything online these days.
+Wenn man nicht zu Hause ist, bringt der Bote das Paket zum Nachbarn.
+If you're not at home, the courier takes the parcel to the neighbour.
+Man kann es auch an eine Packstation schicken lassen.
+You can also have it sent to a parcel locker.
+Dort holt{holt~ab} man es mit einem Code ab{ab~}.
+There you collect it with a code.
+Wenn einem etwas nicht gefällt, kann man es innerhalb von vierzehn Tagen zurückschicken.
+If you don't like something, you can send it back within fourteen days.
+
+@ a2s-06 | Wo ist mein Paket? | Where Is My Parcel? | online, problems
+Mein Paket sollte schon am Montag ankommen.
+My parcel was supposed to arrive on Monday.
+Laut{laut:prep} der App wurde es zugestellt, aber ich habe nichts bekommen.
+According to the app it was delivered, but I didn't receive anything.
+Ich habe bei allen Nachbarn geklingelt.
+I rang all the neighbours' doorbells.
+Niemand hat ein Paket für mich.
+Nobody has a parcel for me.
+Jetzt schreibe ich dem Kundenservice eine E-Mail.
+Now I'm writing an email to customer service.
+Hoffentlich schicken sie{sie} mir ein neues.
+Hopefully they'll send me a new one.
+
+@ a2s-07 | Beim Friseur | At the Hairdresser's | services
+Ich hätte gern einen Termin zum Haareschneiden.
+I'd like an appointment for a haircut.
+Morgen{morgen} um fünfzehn Uhr ist noch etwas frei.
+There's still a slot free tomorrow at three p.m.
+Wie möchten Sie die Haare haben?
+How would you like your hair?
+Nur ein bisschen kürzer, bitte. Hinten und an den Seiten.
+Just a bit shorter, please. At the back and on the sides.
+Möchten Sie die Haare auch waschen?
+Would you also like your hair washed?
+Nein, danke, nur schneiden.
+No, thanks, just a cut.
+
+@ a2s-08 | Im Kaufhaus | At the Department Store | department store
+Im Erdgeschoss gibt es Kosmetik und Taschen.
+On the ground floor there are cosmetics and bags.
+Im ersten Stock findet man Damenmode, im zweiten Herrenmode.
+On the first floor you'll find women's fashion, on the second men's fashion.
+Spielwaren sind ganz oben im vierten Stock.
+Toys are right at the top on the fourth floor.
+Ich nehme die Rolltreppe nach oben.
+I take the escalator up.
+Ganz oben gibt es auch ein Restaurant mit Blick über die Stadt.
+At the very top there's also a restaurant with a view over the city.
+
+@ a2s-09 | Der Schlussverkauf | The End-of-Season Sale | sales, clothes
+Im Januar gibt es überall Rabatte.
+In January there are discounts everywhere.
+Viele Winterjacken kosten nur noch die Hälfte.
+Many winter jackets now cost only half.
+Die Geschäfte sind sehr voll.
+The shops are very crowded.
+Ich habe einen warmen Mantel für siebzig statt hundertvierzig Euro gekauft.
+I bought a warm coat for seventy instead of a hundred and forty euros.
+Reduzierte Ware kann man aber oft nicht umtauschen.
+But reduced goods often can't be exchanged.
+
+@ a2s-10 | Bio und regional | Organic and Local | food, market
+Immer mehr Menschen kaufen Bio-Produkte.
+More and more people buy organic products.
+Sie{sie} sind teurer, aber viele finden sie{sie} gesünder.
+They are more expensive, but many find them healthier.
+Auf dem Wochenmarkt verkaufen Bauern aus der Region ihr Gemüse.
+At the weekly market, farmers from the region sell their vegetables.
+Im Sommer gibt es dort frischen Spargel und Kirschen.
+In summer there's fresh asparagus and cherries there.
+Ich kaufe{kaufe~ein} dort gern ein{ein~}, weil die Atmosphäre schön ist.
+I like shopping there because the atmosphere is nice.
+
+@ a2s-11 | Eine gute Flasche Wein | A Good Bottle of Wine | wine, gifts
+Ich suche einen Wein als Geschenk. Er sollte nicht zu teuer sein.
+I'm looking for a wine as a gift. It shouldn't be too expensive.
+Mögen Sie lieber Rotwein oder Weißwein?
+Do you prefer red or white wine?
+Weißwein, eher trocken.
+White wine, on the dry side.
+Dieser Riesling von der Mosel ist sehr beliebt.
+This Riesling from the Moselle is very popular.
+Er kostet zwölf Euro und passt gut zu Fisch.
+It costs twelve euros and goes well with fish.
+Perfekt, den{den:pron} nehme ich.
+Perfect, I'll take that one.
+
+@ a2s-12 | Steuerfrei einkaufen | Tax-Free Shopping | money, tourists
+Touristen von außerhalb der EU können die Mehrwertsteuer zurückbekommen.
+Tourists from outside the EU can get the VAT back.
+Man muss im Geschäft nach einem Formular fragen.
+You have to ask for a form in the shop.
+Am Flughafen zeigt man die Ware und das Formular beim Zoll.
+At the airport you show the goods and the form at customs.
+Der Zoll gibt einen Stempel.
+Customs give you a stamp.
+Danach bekommt man einen Teil des Geldes zurück.
+Afterwards you get part of the money back.
+
+@ a2s-13 | Das Fahrrad ist kaputt | The Bike Is Broken | services, repairs
+Mein Fahrrad hat einen Platten.
+My bike has a flat tyre.
+Können Sie den Reifen heute noch reparieren?
+Can you repair the tyre today?
+Heute schaffen wir das leider nicht mehr.
+Unfortunately we won't manage it today.
+Sie können das Fahrrad morgen Mittag abholen.
+You can collect the bike tomorrow at noon.
+Was kostet die Reparatur ungefähr?
+Roughly how much will the repair cost?
+Etwa zwanzig Euro, mit Schlauch.
+About twenty euros, including the inner tube.
+
+@ a2s-14 | Ein Geschenk für die Kollegin | A Present for a Colleague | gifts
+Meine Kollegin hat am Freitag Geburtstag.
+My colleague has her birthday on Friday.
+Wir sammeln Geld und kaufen zusammen ein Geschenk.
+We're collecting money and buying a present together.
+Jeder gibt fünf Euro.
+Everyone gives five euros.
+Sie{sie} liest gern, also kaufen wir einen Gutschein für eine Buchhandlung.
+She likes reading, so we're buying a voucher for a bookshop.
+Dazu schreiben alle etwas in eine Karte.
+On top of that, everyone writes something in a card.
+
+@ a2s-15 | Beim Optiker | At the Optician's | services, health
+Ich habe meine Brille im Zug vergessen.
+I left my glasses on the train.
+Kann ich hier schnell eine neue bekommen?
+Can I get new ones here quickly?
+Wir müssen zuerst einen Sehtest machen.
+First we have to do an eye test.
+Die Gläser sind in drei Tagen fertig.
+The lenses will be ready in three days.
+Bis dahin können Sie Kontaktlinsen tragen.
+Until then you can wear contact lenses.

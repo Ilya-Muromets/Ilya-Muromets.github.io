@@ -1,0 +1,198 @@
+# deck: id=a2-business | title=A2 · Business | level=A2 | kind=business | vocab_min=0.85
+# desc: Office basics — introductions, phone calls, emails, appointments and the rhythm of a German workday.
+
+@ a2w-01 | Der erste Arbeitstag | The First Day at Work | office, introductions
+Heute ist mein erster Arbeitstag bei der Firma Becker.
+Today is my first day at work at the Becker company.
+Meine Chefin zeigt mir das Büro und stellt{stellt~vor} mir das Team vor{vor~}.
+My boss shows me the office and introduces the team to me.
+Das ist Herr Wagner. Er leitet die Abteilung Marketing.
+This is Mr. Wagner. He heads the marketing department.
+Mein Schreibtisch steht am Fenster.
+My desk is by the window.
+Den Laptop bekomme ich von der IT-Abteilung.
+I get the laptop from the IT department.
+Alle sind sehr freundlich.
+Everyone is very friendly.
+
+@ a2w-02 | Sich vorstellen | Introducing Yourself | introductions, meetings
+Darf ich mich kurz vorstellen?
+May I briefly introduce myself?
+Mein Name ist Sarah Klein. Ich arbeite im Vertrieb.
+My name is Sarah Klein. I work in sales.
+Ich bin seit drei Jahren bei der Firma.
+I've been with the company for three years.
+Vorher habe ich in London gearbeitet.
+Before that I worked in London.
+Ich bin für unsere Kunden in Österreich und der Schweiz zuständig.
+I'm responsible for our customers in Austria and Switzerland.
+Schön, Sie kennenzulernen.
+Nice to meet you.
+
+@ a2w-03 | Einen Termin vereinbaren | Arranging an Appointment | phone, appointments
+Ich würde gern einen Termin mit Ihnen vereinbaren.
+I'd like to arrange an appointment with you.
+Passt es Ihnen am Donnerstag um zehn Uhr?
+Does Thursday at ten suit you?
+Am Donnerstag bin ich leider auf Dienstreise.
+Unfortunately I'm on a business trip on Thursday.
+Wie wäre es mit Freitag, vierzehn Uhr?
+How about Friday at two?
+Ja, das passt mir gut.
+Yes, that suits me well.
+Ich schicke Ihnen gleich eine Einladung.
+I'll send you an invitation right away.
+
+@ a2w-04 | Am Telefon | On the Phone | phone
+Firma Becker, Lisa Braun, guten Tag.
+Becker company, Lisa Braun speaking, good morning.
+Guten Tag, hier spricht Tom Miller. Kann ich bitte mit Herrn Wagner sprechen?
+Good morning, this is Tom Miller. May I speak to Mr. Wagner, please?
+Herr Wagner ist gerade in einer Besprechung.
+Mr. Wagner is in a meeting at the moment.
+Kann ich ihm etwas ausrichten?
+Can I give him a message?
+Ja, er soll mich bitte zurückrufen.
+Yes, could he please call me back.
+Meine Nummer hat er.
+He has my number.
+
+@ a2w-05 | Eine E-Mail schreiben | Writing an Email | email
+Eine formelle E-Mail beginnt mit „Sehr geehrte Frau…“ oder „Sehr geehrter Herr…“.
+A formal email begins with "Dear Ms…" or "Dear Mr…".
+Wenn man die Person kennt, schreibt man oft „Liebe Frau Braun“ oder „Hallo Herr Wagner“.
+If you know the person, you often write "Dear Ms. Braun" or "Hello Mr. Wagner".
+Am Ende schreibt man „Mit freundlichen Grüßen“.
+At the end you write "Kind regards".
+Unter Kollegen reicht oft „Viele Grüße“ oder „Beste Grüße“.
+Between colleagues "Best wishes" or "Best regards" is often enough.
+Wichtig: Nach der Anrede steht ein Komma, und der Text beginnt klein.
+Important: after the greeting there's a comma, and the text starts in lower case.
+
+@ a2w-06 | In der Kantine | In the Canteen | lunch, office
+Um zwölf Uhr gehen wir zusammen in die Kantine.
+At twelve o'clock we go to the canteen together.
+Es gibt jeden Tag drei Gerichte, eins davon ist vegetarisch.
+There are three dishes every day, one of which is vegetarian.
+Heute gibt es Hähnchen mit Reis.
+Today there's chicken with rice.
+Das Essen ist günstig, weil die Firma einen Teil bezahlt.
+The food is cheap because the company pays part of it.
+Nach dem Essen trinken wir noch einen Kaffee.
+After the meal we have a coffee.
+
+@ a2w-07 | Der Drucker streikt | The Printer Is Acting Up | office, problems
+Der Drucker funktioniert schon wieder nicht.
+The printer isn't working again.
+Kannst du mir helfen?
+Can you help me?
+Es ist kein Papier mehr drin.
+There's no more paper in it.
+Wo ist das Papier?
+Where's the paper?
+Im Schrank neben der Küche.
+In the cupboard next to the kitchen.
+Danke! Jetzt geht es wieder.
+Thanks! Now it's working again.
+
+@ a2w-08 | Eine Dienstreise | A Business Trip | travel, business trip
+Nächste Woche fahre ich auf eine Dienstreise nach Zürich.
+Next week I'm going on a business trip to Zurich.
+Die Firma bucht das Hotel und den Zug für mich.
+The company books the hotel and the train for me.
+Alle Quittungen muss ich aufheben.
+I have to keep all the receipts.
+Nach der Reise mache ich eine Reisekostenabrechnung.
+After the trip I do an expense report.
+In der Schweiz bezahlt man mit Franken, nicht mit Euro.
+In Switzerland you pay with francs, not euros.
+
+@ a2w-09 | Krank melden | Calling In Sick | health, office
+Guten Morgen, Frau Hoffmann. Hier ist Tom.
+Good morning, Ms. Hoffmann. This is Tom.
+Ich bin leider krank und kann heute nicht kommen.
+Unfortunately I'm sick and can't come in today.
+Ich gehe heute Vormittag zum Arzt.
+I'm going to the doctor this morning.
+Gute Besserung! Bringen Sie bitte eine Krankmeldung.
+Get well soon! Please bring a sick note.
+In Deutschland braucht man oft ab dem dritten Tag eine Bescheinigung vom Arzt.
+In Germany you often need a doctor's certificate from the third day.
+
+@ a2w-10 | Small Talk | Small Talk | small talk
+Wie war Ihr Wochenende?
+How was your weekend?
+Sehr schön, danke. Wir waren am See.
+Very nice, thanks. We were at the lake.
+Und bei Ihnen?
+And you?
+Ich war zu Hause. Es hat ja die ganze Zeit geregnet.
+I stayed at home. It rained the whole time, after all.
+Haben Sie schon Pläne für den Urlaub?
+Do you have any holiday plans yet?
+Ja, im August fahren wir nach Italien.
+Yes, in August we're going to Italy.
+
+@ a2w-11 | Pünktlich sein | Being on Time | culture
+In Deutschland ist Pünktlichkeit sehr wichtig.
+In Germany punctuality is very important.
+Wenn ein Meeting um neun Uhr beginnt, sind alle um neun Uhr da.
+If a meeting starts at nine, everyone is there at nine.
+Fünf Minuten zu spät ist schon unhöflich.
+Five minutes late is already rude.
+Wenn man zu spät kommt, sollte man vorher anrufen oder schreiben.
+If you're going to be late, you should call or write beforehand.
+Auch das Ende von einem Termin ist meistens pünktlich.
+The end of an appointment is also usually on time.
+
+@ a2w-12 | Feierabend | End of the Workday | office, culture
+Um siebzehn Uhr ist Feierabend.
+At five o'clock the working day is over.
+Viele Kollegen gehen dann nach Hause.
+Many colleagues then go home.
+Am Freitag gehen wir manchmal zusammen etwas trinken.
+On Friday we sometimes go for a drink together.
+Nach der Arbeit liest man keine E-Mails mehr.
+After work you don't read emails any more.
+Freizeit und Arbeit trennen ist hier normal.
+Keeping free time and work apart is normal here.
+Schönen Feierabend!
+Have a nice evening!
+
+@ a2w-13 | Der Termin wird verschoben | The Meeting Is Postponed | meetings, email
+Leider müssen wir unser Meeting am Mittwoch verschieben.
+Unfortunately we have to postpone our meeting on Wednesday.
+Herr Wagner ist an dem Tag nicht im Haus.
+Mr. Wagner won't be in the office that day.
+Hätten Sie stattdessen am Montag Zeit?
+Would you have time on Monday instead?
+Ich entschuldige mich für die Umstände.
+I apologise for the inconvenience.
+Mit freundlichen Grüßen, Lisa Braun.
+Kind regards, Lisa Braun.
+
+@ a2w-14 | Die Videokonferenz | The Video Call | meetings, online
+Können Sie mich hören?
+Can you hear me?
+Ich höre Sie, aber ich sehe Sie nicht.
+I can hear you, but I can't see you.
+Ihre Kamera ist aus.
+Your camera is off.
+Oh, Entschuldigung. Jetzt?
+Oh, sorry. Now?
+Ja, jetzt sehe ich Sie. Dann fangen{fangen~an} wir an{an~}.
+Yes, now I can see you. Then let's begin.
+Ich teile kurz meinen Bildschirm.
+I'll quickly share my screen.
+
+@ a2w-15 | Herr Doktor | Mr. Doctor | culture, titles
+In Deutschland sind Titel manchmal wichtig.
+In Germany titles are sometimes important.
+Auf der Visitenkarte steht „Dr. Anna Weber“.
+The business card says "Dr. Anna Weber".
+Im Brief schreibt man dann „Sehr geehrte Frau Dr. Weber“.
+In a letter you then write "Dear Dr. Weber".
+Im Gespräch sagen viele einfach „Frau Weber“.
+In conversation many people simply say "Frau Weber".
+Wenn man unsicher ist, benutzt man lieber den Titel.
+If you're unsure, it's better to use the title.
