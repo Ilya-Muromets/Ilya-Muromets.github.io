@@ -9,6 +9,12 @@
   <meta name="description" content="A guided Mandarin reader: simplified Chinese with toggleable pinyin and per-word glosses.">
   <link rel="stylesheet" type="text/css" href="/stylesheet.css">
   <link rel="icon" type="image/png" href="/images/seal_icon.png">
+  <link rel="manifest" href="/chinese/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/chinese/icon-180.png">
+  <meta name="apple-mobile-web-app-title" content="中文">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#000000">
 
   <style>
     :root {
@@ -1724,6 +1730,13 @@
         go(wanted || keyOf(flat[0].deckId, flat[0].passageId));
       }).catch(showLoadError);
     })();
+  </script>
+  <script>
+    // Offline support: caches the page and every deck (see /reader-sw.js).
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/reader-sw.js?app=chinese", { scope: "/chinese/" })
+        .catch(function () { /* no offline copy; the page works the same online */ });
+    }
   </script>
 </body>
 
