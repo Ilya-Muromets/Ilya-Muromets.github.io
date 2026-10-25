@@ -9,6 +9,12 @@
   <meta name="description" content="A guided German reader: short graded passages for travel, shopping and work, with per-word glosses and noun genders.">
   <link rel="stylesheet" type="text/css" href="/stylesheet.css">
   <link rel="icon" type="image/png" href="/images/seal_icon.png">
+  <link rel="manifest" href="/german/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/german/icon-180.png">
+  <meta name="apple-mobile-web-app-title" content="Deutsch">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#000000">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet"
@@ -1696,6 +1702,13 @@
         go(wanted || keyOf(flat[0].deckId, flat[0].passageId));
       }).catch(showLoadError);
     })();
+  </script>
+  <script>
+    // Offline support: caches the page and every deck (see /reader-sw.js).
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/reader-sw.js?app=german", { scope: "/german/" })
+        .catch(function () { /* no offline copy; the page works the same online */ });
+    }
   </script>
 </body>
 
