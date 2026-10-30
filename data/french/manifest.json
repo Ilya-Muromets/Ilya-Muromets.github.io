@@ -1,0 +1,1063 @@
+{
+ "generated_by": "tools/french/build.py",
+ "decks": [
+  {
+   "id": "b1-conversation",
+   "file": "data/french/b1-conversation.json",
+   "title": "B1 · Small Talk",
+   "level": "B1",
+   "kind": "conversation",
+   "description": "Meeting people, talking about work and study, making plans and keeping a conversation going.",
+   "passages": [
+    {
+     "id": "b1c-01",
+     "title": "Faire connaissance",
+     "title_en": "Getting to Know Someone",
+     "tags": [
+      "introductions"
+     ],
+     "search": "Tu fais quoi dans la vie ? What do you do for a living? Un peu les deux. A bit of both. Ça a l’air passionnant ! That sounds fascinating! Concrètement, ça sert à quoi ? In practice, what's it for?"
+    },
+    {
+     "id": "b1c-02",
+     "title": "Tu viens d'où ?",
+     "title_en": "Where Are You From?",
+     "tags": [
+      "introductions"
+     ],
+     "search": "Tu viens d’où ? Where are you from? J’ai grandi en Californie. I grew up in California. Tu te débrouilles très bien. You manage very well. J’ai encore du mal quand… I still struggle when…"
+    },
+    {
+     "id": "b1c-03",
+     "title": "Parler de ses études",
+     "title_en": "Talking About Your Studies",
+     "tags": [
+      "work",
+      "study"
+     ],
+     "search": "Ça fait combien de temps que tu… ? How long have you been…? Il me reste encore deux ans. I've still got two years left. J’hésite entre… et… I'm torn between… and… Tu as le temps d’y réfléchir. You have time to think about it."
+    },
+    {
+     "id": "b1c-04",
+     "title": "Le week-end",
+     "title_en": "The Weekend",
+     "tags": [
+      "free time"
+     ],
+     "search": "Tu as fait quoi de beau ce week-end ? Did you do anything nice this weekend? Pas grand-chose. Not much. J’ai fait la grasse matinée. I had a lie-in. Ça fait du bien. That does you good."
+    },
+    {
+     "id": "b1c-05",
+     "title": "On se voit quand ?",
+     "title_en": "When Shall We Meet?",
+     "tags": [
+      "plans"
+     ],
+     "search": "Ça te dirait qu’on prenne un verre ? Would you fancy getting a drink? Ça t’irait ? Would that suit you? On dit dix-neuf heures ? Shall we say seven? Ça marche. Sounds good."
+    },
+    {
+     "id": "b1c-06",
+     "title": "Le temps qu'il fait",
+     "title_en": "The Weather",
+     "tags": [
+      "weather",
+      "small talk"
+     ],
+     "search": "Quel temps ! What weather! Ils annoncent la même chose pour demain. They're forecasting the same for tomorrow. J’espère que ça va se lever. I hope it clears up. On avait prévu… We'd planned…"
+    },
+    {
+     "id": "b1c-07",
+     "title": "Les compliments",
+     "title_en": "Compliments",
+     "tags": [
+      "small talk"
+     ],
+     "search": "Elle vient d’où ? Where's it from? Pour presque rien. For next to nothing. Tu as l’œil pour ça. You have an eye for that. Merci, c’est gentil. Thanks, that's kind."
+    },
+    {
+     "id": "b1c-08",
+     "title": "Refuser poliment",
+     "title_en": "Declining Politely",
+     "tags": [
+      "plans",
+      "invitations"
+     ],
+     "search": "C’est gentil de penser à moi. That's kind of you to think of me. Je ne vais pas pouvoir. I won't be able to. Une autre fois, alors. Another time, then. Tiens-moi au courant. Keep me posted."
+    },
+    {
+     "id": "b1c-09",
+     "title": "Vous pouvez répéter ?",
+     "title_en": "Could You Repeat That?",
+     "tags": [
+      "language"
+     ],
+     "search": "Je n’ai pas bien compris. I didn't quite catch that. Vous pourriez répéter plus lentement ? Could you repeat more slowly? Qu’est-ce que ça veut dire ? What does that mean? Je ne connaissais pas ce mot. I didn't know that word."
+    },
+    {
+     "id": "b1c-10",
+     "title": "Tu me conseilles quoi ?",
+     "title_en": "What Do You Recommend?",
+     "tags": [
+      "recommendations",
+      "culture"
+     ],
+     "search": "Tu as une série à me conseiller ? Do you have a series to recommend? On apprend plein d’expressions. You learn loads of expressions. Tu me diras ce que tu en penses. Let me know what you think of it."
+    },
+    {
+     "id": "b1c-11",
+     "title": "Tu ou vous ?",
+     "title_en": "Tu or Vous?",
+     "tags": [
+      "culture",
+      "language"
+     ],
+     "search": "On peut se tutoyer, si tu veux. We can use \"tu\", if you like. Il vaut mieux vouvoyer. It's better to use \"vous\". Personne ne sera vexé. Nobody will be offended."
+    },
+    {
+     "id": "b1c-12",
+     "title": "La pause café",
+     "title_en": "The Coffee Break",
+     "tags": [
+      "work",
+      "small talk"
+     ],
+     "search": "Tu as l’air fatigué. You look tired. Au lieu d’une. Instead of one. On en reparle la semaine prochaine. We'll discuss it again next week. Bon courage pour la suite ! Good luck with the rest!"
+    },
+    {
+     "id": "b1c-13",
+     "title": "Une rencontre dans le train",
+     "title_en": "Meeting Someone on the Train",
+     "tags": [
+      "travel",
+      "small talk"
+     ],
+     "search": "Est-ce que cette place est libre ? Is this seat free? Vous allez jusqu’à Marseille ? Are you going as far as Marseille? Vous avez de la chance ! You're lucky! J’y suis allée l’année dernière. I went there last year."
+    },
+    {
+     "id": "b1c-14",
+     "title": "Garder le contact",
+     "title_en": "Keeping in Touch",
+     "tags": [
+      "goodbyes"
+     ],
+     "search": "C’était vraiment sympa de te rencontrer. It was really nice to meet you. Fais-moi signe. Give me a shout. Je te ferai visiter. I'll show you around. À bientôt, j’espère ! See you soon, I hope!"
+    },
+    {
+     "id": "b1c-15",
+     "title": "Parler de sa famille",
+     "title_en": "Talking About Family",
+     "tags": [
+      "family"
+     ],
+     "search": "Tu as des frères et sœurs ? Do you have any brothers or sisters? Vous vous voyez souvent ? Do you see each other often? Pas assez, malheureusement. Not enough, unfortunately. Crois-moi ! Believe me!"
+    }
+   ]
+  },
+  {
+   "id": "b1-sightseeing",
+   "file": "data/french/b1-sightseeing.json",
+   "title": "B1 · Museums & Sightseeing",
+   "level": "B1",
+   "kind": "sightseeing",
+   "description": "Tickets, tours, donations, photos and opening hours — the questions you actually ask at a museum or monument.",
+   "passages": [
+    {
+     "id": "b1v-01",
+     "title": "Les dons",
+     "title_en": "Donations",
+     "tags": [
+      "museum",
+      "money"
+     ],
+     "search": "Est-ce que le musée accepte les dons ? Does the museum accept donations? Vous donnez ce que vous voulez. You give whatever you like. Le don sert à quoi ? What is the donation used for? Je voudrais un reçu, si c’est possible. I'd like a receipt, if possible."
+    },
+    {
+     "id": "b1v-02",
+     "title": "L'audioguide",
+     "title_en": "The Audio Guide",
+     "tags": [
+      "museum"
+     ],
+     "search": "Vous proposez des audioguides en anglais ? Do you offer audio guides in English? C’est cinq euros en plus du billet. It's five euros on top of the ticket. Il faut laisser une pièce d’identité ? Do I have to leave an ID?"
+    },
+    {
+     "id": "b1v-03",
+     "title": "On peut prendre des photos ?",
+     "title_en": "Can We Take Photos?",
+     "tags": [
+      "museum",
+      "rules"
+     ],
+     "search": "On a le droit de prendre des photos ? Are we allowed to take photos? Sans flash, s’il vous plaît. Without flash, please. C’est interdit. It's not allowed."
+    },
+    {
+     "id": "b1v-04",
+     "title": "La visite guidée",
+     "title_en": "The Guided Tour",
+     "tags": [
+      "museum",
+      "tours"
+     ],
+     "search": "À quelle heure commence la prochaine visite ? What time does the next tour start? Il reste encore des places ? Are there still places left? Je peux réserver pour deux personnes ? Can I book for two people? Où est le point de rendez-vous ? Where is the meeting point?"
+    },
+    {
+     "id": "b1v-05",
+     "title": "Le tarif réduit",
+     "title_en": "The Reduced Rate",
+     "tags": [
+      "tickets",
+      "money"
+     ],
+     "search": "Il y a un tarif réduit pour les étudiants ? Is there a reduced rate for students? Sur présentation de votre carte. On showing your card. L’entrée est gratuite pour tout le monde. Entry is free for everyone."
+    },
+    {
+     "id": "b1v-06",
+     "title": "Le vestiaire",
+     "title_en": "The Cloakroom",
+     "tags": [
+      "museum",
+      "rules"
+     ],
+     "search": "Où se trouve le vestiaire ? Where is the cloakroom? Je peux garder mon appareil photo avec moi ? Can I keep my camera with me? Je reviens tout de suite. I'll be right back."
+    },
+    {
+     "id": "b1v-07",
+     "title": "La file d'attente",
+     "title_en": "The Queue",
+     "tags": [
+      "tickets",
+      "queues"
+     ],
+     "search": "On attend combien de temps, à peu près ? Roughly how long is the wait? Il faut réserver un créneau en ligne. You have to book a time slot online. C’est toujours comme ça le samedi. It's always like this on Saturdays."
+    },
+    {
+     "id": "b1v-08",
+     "title": "Au château",
+     "title_en": "At the Château",
+     "tags": [
+      "monuments",
+      "hours"
+     ],
+     "search": "Le château ferme à quelle heure ? What time does the château close? La dernière entrée est à dix-sept heures. Last entry is at five p.m. Est-ce qu’on peut pique-niquer ici ? Can we have a picnic here?"
+    },
+    {
+     "id": "b1v-09",
+     "title": "À l'office de tourisme",
+     "title_en": "At the Tourist Office",
+     "tags": [
+      "recommendations"
+     ],
+     "search": "Qu’est-ce que vous nous conseillez de voir ? What would you recommend we see? Ça dépend de ce que vous aimez. It depends on what you like. On aimerait éviter les endroits trop touristiques. We'd like to avoid places that are too touristy."
+    },
+    {
+     "id": "b1v-10",
+     "title": "Dans une église",
+     "title_en": "In a Church",
+     "tags": [
+      "churches",
+      "rules"
+     ],
+     "search": "Il vaut mieux attendre la fin. It's better to wait for the end. Ce n’est pas obligatoire, mais c’est plus respectueux. It's not compulsory, but it's more respectful. Bon courage ! Good luck! (for something hard)"
+    },
+    {
+     "id": "b1v-11",
+     "title": "Des billets de spectacle",
+     "title_en": "Show Tickets",
+     "tags": [
+      "theatre",
+      "tickets"
+     ],
+     "search": "Il reste des places pour ce soir ? Are there still seats for tonight? La visibilité est un peu réduite. The view is a bit restricted. Le spectacle dure combien de temps ? How long does the show last?"
+    },
+    {
+     "id": "b1v-12",
+     "title": "Une balade à vélo",
+     "title_en": "A Bike Ride",
+     "tags": [
+      "bikes",
+      "outdoors"
+     ],
+     "search": "Comment ça marche ? How does it work? Dans n’importe quelle station. At any station. C’est compris dans le forfait. It's included in the pass."
+    },
+    {
+     "id": "b1v-13",
+     "title": "Qu'est-ce qu'il ne faut pas manquer ?",
+     "title_en": "What Shouldn't We Miss?",
+     "tags": [
+      "museum",
+      "recommendations"
+     ],
+     "search": "Qu’est-ce qu’il ne faut pas manquer ? What shouldn't we miss? On n’a qu’une heure. We only have an hour. Jetez un coup d’œil à la terrasse. Have a look at the terrace."
+    },
+    {
+     "id": "b1v-14",
+     "title": "La boutique du musée",
+     "title_en": "The Museum Shop",
+     "tags": [
+      "museum",
+      "shopping"
+     ],
+     "search": "Quelque chose de pas trop encombrant. Something not too bulky. Il est en soie ? Is it silk? Vous pouvez me faire un paquet cadeau ? Can you gift-wrap it for me?"
+    },
+    {
+     "id": "b1v-15",
+     "title": "Une photo, s'il vous plaît",
+     "title_en": "A Photo, Please",
+     "tags": [
+      "photos",
+      "small talk"
+     ],
+     "search": "Ça vous dérangerait de nous prendre en photo ? Would you mind taking a photo of us? Pas du tout. Not at all. C’est très gentil. That's very kind. Bonne fin de séjour ! Enjoy the rest of your stay!"
+    }
+   ]
+  },
+  {
+   "id": "b1-dining",
+   "file": "data/french/b1-dining.json",
+   "title": "B1 · Cafés & Restaurants",
+   "level": "B1",
+   "kind": "dining",
+   "description": "Booking, ordering, dietary needs, wine, the bill and dinner at a friend's — eating out like a regular.",
+   "passages": [
+    {
+     "id": "b1d-01",
+     "title": "Réserver une table",
+     "title_en": "Booking a Table",
+     "tags": [
+      "restaurant",
+      "phone"
+     ],
+     "search": "Je voudrais réserver une table pour quatre. I'd like to book a table for four. Ça nous va. That works for us. Je ne peux pas vous le garantir. I can't guarantee it. C’est à quel nom ? What name is it under?"
+    },
+    {
+     "id": "b1d-02",
+     "title": "Le menu du jour",
+     "title_en": "The Set Menu",
+     "tags": [
+      "restaurant",
+      "ordering"
+     ],
+     "search": "Qu’est-ce que vous avez comme menu du jour ? What's on today's set menu? Le plat du jour, c’est quoi ? What's the dish of the day? Je vais prendre la formule entrée-plat. I'll have the starter-and-main deal."
+    },
+    {
+     "id": "b1d-03",
+     "title": "La cuisson",
+     "title_en": "How It's Cooked",
+     "tags": [
+      "restaurant",
+      "meat"
+     ],
+     "search": "Quelle cuisson ? How would you like it cooked? À point, pas trop saignant. Medium, not too rare. Est-ce que je pourrais avoir… ? Could I have…? Vous la voulez à part ? Do you want it on the side?"
+    },
+    {
+     "id": "b1d-04",
+     "title": "Allergies et régimes",
+     "title_en": "Allergies and Diets",
+     "tags": [
+      "restaurant",
+      "health"
+     ],
+     "search": "Je suis allergique aux fruits à coque. I'm allergic to nuts. Est-ce qu’il y en a dans ce plat ? Are there any in this dish? Vous avez des plats sans viande ? Do you have dishes without meat? Je vous l’apporte tout de suite. I'll bring it right away."
+    },
+    {
+     "id": "b1d-05",
+     "title": "Le choix du vin",
+     "title_en": "Choosing the Wine",
+     "tags": [
+      "restaurant",
+      "wine"
+     ],
+     "search": "Qu’est-ce que vous nous conseillez comme vin ? What wine would you recommend? Au verre ou en bouteille ? By the glass or by the bottle? Allons-y pour… Let's go for…"
+    },
+    {
+     "id": "b1d-06",
+     "title": "Une carafe d'eau",
+     "title_en": "A Jug of Water",
+     "tags": [
+      "restaurant",
+      "water"
+     ],
+     "search": "Juste une carafe d’eau, s’il vous plaît. Just a jug of tap water, please. Non, ça ira, merci. No, that's fine, thanks. Il ne faut pas hésiter. Don't hesitate."
+    },
+    {
+     "id": "b1d-07",
+     "title": "Au café",
+     "title_en": "At the Café",
+     "tags": [
+      "café",
+      "coffee"
+     ],
+     "search": "Qu’est-ce que je vous sers ? What can I get you? S’il vous en reste. If you have any left. On va s’asseoir en terrasse. We'll sit on the terrace."
+    },
+    {
+     "id": "b1d-08",
+     "title": "L'addition",
+     "title_en": "The Bill",
+     "tags": [
+      "restaurant",
+      "money"
+     ],
+     "search": "L’addition, s’il vous plaît. The bill, please. Si ça ne vous dérange pas. If you don't mind. Le service est compris ? Is service included? C’est comme vous voulez. It's up to you."
+    },
+    {
+     "id": "b1d-09",
+     "title": "À la boulangerie",
+     "title_en": "At the Bakery",
+     "tags": [
+      "bakery"
+     ],
+     "search": "Pas trop cuite. Not too well done. Et avec ceci ? Anything else? Il ne me reste que… I only have … left. Tant pis. Never mind / oh well."
+    },
+    {
+     "id": "b1d-10",
+     "title": "Chez le fromager",
+     "title_en": "At the Cheese Shop",
+     "tags": [
+      "market",
+      "cheese"
+     ],
+     "search": "Je n’y connais pas grand-chose. I don't know much about it. Quelque chose de doux ou de plus fort ? Something mild or something stronger? Vous voulez goûter ? Would you like a taste? J’en prends deux cents grammes. I'll take two hundred grams of it."
+    },
+    {
+     "id": "b1d-11",
+     "title": "Une erreur de commande",
+     "title_en": "A Wrong Order",
+     "tags": [
+      "restaurant",
+      "problems"
+     ],
+     "search": "Je crois qu’il y a une erreur. I think there's a mistake. J’avais commandé le poulet. I'd ordered the chicken. Ce n’est pas grave. It's no big deal. Le café vous est offert. The coffee is on the house."
+    },
+    {
+     "id": "b1d-12",
+     "title": "Dîner chez des amis",
+     "title_en": "Dinner at Friends'",
+     "tags": [
+      "culture",
+      "invitations"
+     ],
+     "search": "Qu’est-ce que je peux apporter ? What can I bring? Je vais quand même apporter du vin. I'll bring some wine anyway. C’est bon à savoir. That's good to know."
+    },
+    {
+     "id": "b1d-13",
+     "title": "L'apéro",
+     "title_en": "Pre-Dinner Drinks",
+     "tags": [
+      "culture",
+      "drinks"
+     ],
+     "search": "Je n’ai jamais goûté… I've never tried… C’est comment ? What's it like? Ça a un goût de… It tastes of… Santé ! Cheers!"
+    },
+    {
+     "id": "b1d-14",
+     "title": "Faire un compliment au chef",
+     "title_en": "Complimenting the Chef",
+     "tags": [
+      "restaurant",
+      "compliments"
+     ],
+     "search": "Tout s’est bien passé ? Was everything all right? C’était excellent ! It was excellent! Je transmettrai au chef. I'll pass it on to the chef. Vous faites de la vente à emporter ? Do you do takeaway?"
+    },
+    {
+     "id": "b1d-15",
+     "title": "Le marché du dimanche",
+     "title_en": "The Sunday Market",
+     "tags": [
+      "market",
+      "food"
+     ],
+     "search": "Elles sont de saison ? Are they in season? Je vais en prendre une barquette. I'll take a punnet of them. Un demi-kilo suffira. Half a kilo will do. On n’est que deux. There are only two of us."
+    }
+   ]
+  },
+  {
+   "id": "b1-transport",
+   "file": "data/french/b1-transport.json",
+   "title": "B1 · Getting Around & Staying",
+   "level": "B1",
+   "kind": "transport",
+   "description": "Trains, strikes, the métro, taxis, car hire, hotels and holiday flats — moving around and staying put.",
+   "passages": [
+    {
+     "id": "b1t-01",
+     "title": "Au guichet",
+     "title_en": "At the Ticket Office",
+     "tags": [
+      "train",
+      "tickets"
+     ],
+     "search": "Un aller-retour pour Bordeaux. A return ticket to Bordeaux. Est-ce que ça vaut le coup ? Is it worth it? Je préfère une place côté fenêtre. I'd prefer a window seat."
+    },
+    {
+     "id": "b1t-02",
+     "title": "La grève",
+     "title_en": "The Strike",
+     "tags": [
+      "train",
+      "problems"
+     ],
+     "search": "Mon train est annulé à cause de la grève. My train is cancelled because of the strike. Sans frais. At no charge. Il y a des trains qui circulent quand même ? Are any trains running anyway? À la place. Instead."
+    },
+    {
+     "id": "b1t-03",
+     "title": "Dans le métro",
+     "title_en": "On the Métro",
+     "tags": [
+      "metro",
+      "directions"
+     ],
+     "search": "Je dois changer où ? Where do I change? Je descends à quelle station ? Which station do I get off at? Faites attention à vos affaires. Watch your belongings."
+    },
+    {
+     "id": "b1t-04",
+     "title": "En taxi",
+     "title_en": "By Taxi",
+     "tags": [
+      "taxi"
+     ],
+     "search": "On en a pour combien de temps ? How long will it take? Comptez une vingtaine de minutes. Allow about twenty minutes. Ça devrait aller. That should be OK."
+    },
+    {
+     "id": "b1t-05",
+     "title": "Louer une voiture",
+     "title_en": "Renting a Car",
+     "tags": [
+      "car"
+     ],
+     "search": "J’ai réservé au nom de… I've booked under the name… Je n’ai pas l’habitude. I'm not used to it. Vous n’auriez pas… ? You wouldn't have…?"
+    },
+    {
+     "id": "b1t-06",
+     "title": "Sur l'autoroute",
+     "title_en": "On the Motorway",
+     "tags": [
+      "car",
+      "roads"
+     ],
+     "search": "Les autoroutes sont payantes. Motorways are tolled. Mieux vaut respecter les limitations. It's better to stick to the limits. Quand il pleut. When it rains."
+    },
+    {
+     "id": "b1t-07",
+     "title": "L'arrivée à l'hôtel",
+     "title_en": "Arriving at the Hotel",
+     "tags": [
+      "hotel"
+     ],
+     "search": "J’ai une réservation au nom de… I have a booking under the name… Je peux laisser mes bagages en attendant ? Can I leave my luggage in the meantime? Dès que la chambre est prête. As soon as the room is ready."
+    },
+    {
+     "id": "b1t-08",
+     "title": "Un souci dans la chambre",
+     "title_en": "A Problem with the Room",
+     "tags": [
+      "hotel",
+      "problems"
+     ],
+     "search": "La climatisation ne marche pas. The air conditioning isn't working. Je vous envoie quelqu’un. I'll send someone up. On vous changera de chambre. We'll move you to another room. Ne vous inquiétez pas. Don't worry."
+    },
+    {
+     "id": "b1t-09",
+     "title": "Récupérer les clés",
+     "title_en": "Picking Up the Keys",
+     "tags": [
+      "rental",
+      "accommodation"
+     ],
+     "search": "Vous arrivez à quelle heure à peu près ? Roughly what time are you arriving? Notre vol a du retard. Our flight is delayed. Il faut laisser les clés où ? Where should we leave the keys?"
+    },
+    {
+     "id": "b1t-10",
+     "title": "C'est loin à pied ?",
+     "title_en": "Is It Far on Foot?",
+     "tags": [
+      "directions"
+     ],
+     "search": "C’est loin à pied ? Is it far on foot? Vous continuez tout droit. You keep going straight on. Vous tournez à droite. You turn right. C’est là. That's where it is."
+    },
+    {
+     "id": "b1t-11",
+     "title": "À l'aéroport",
+     "title_en": "At the Airport",
+     "tags": [
+      "flying"
+     ],
+     "search": "Je voudrais enregistrer cette valise. I'd like to check in this suitcase. Il y aura un supplément. There'll be a surcharge. Allez-y, prenez votre temps. Go ahead, take your time."
+    },
+    {
+     "id": "b1t-12",
+     "title": "Le covoiturage",
+     "title_en": "Ride-Sharing",
+     "tags": [
+      "car",
+      "travel"
+     ],
+     "search": "C’est toi qui vas à Lyon ? Are you the one going to Lyon? Ça te dérange si… ? Do you mind if…? À huit heures pile. At eight sharp. À mi-chemin. Halfway."
+    },
+    {
+     "id": "b1t-13",
+     "title": "Le départ",
+     "title_en": "Checking Out",
+     "tags": [
+      "hotel"
+     ],
+     "search": "Je voudrais régler la note. I'd like to settle the bill. Je peux vous appeler un taxi ? Can I call you a taxi? D’ici une demi-heure. In half an hour. Bon retour ! Have a good trip home!"
+    },
+    {
+     "id": "b1t-14",
+     "title": "Les trottinettes",
+     "title_en": "E-Scooters",
+     "tags": [
+      "transport",
+      "rules"
+     ],
+     "search": "Comment on se déplace en ville ? How do people get around town? Autant que vous voulez. As much as you like. C’est exactement ce qu’il me faut. That's exactly what I need."
+    },
+    {
+     "id": "b1t-15",
+     "title": "Le train de nuit",
+     "title_en": "The Night Train",
+     "tags": [
+      "train"
+     ],
+     "search": "C’était une très bonne expérience. It was a very good experience. Je n’ai pas très bien dormi. I didn't sleep very well. En plus… On top of that…"
+    }
+   ]
+  },
+  {
+   "id": "b1-shopping",
+   "file": "data/french/b1-shopping.json",
+   "title": "B1 · Shopping & Services",
+   "level": "B1",
+   "kind": "shopping",
+   "description": "Fitting rooms, returns, pharmacies, the post office, repairs and the bank — getting things done.",
+   "passages": [
+    {
+     "id": "b1s-01",
+     "title": "En cabine d'essayage",
+     "title_en": "In the Fitting Room",
+     "tags": [
+      "clothes"
+     ],
+     "search": "Je peux essayer… ? Can I try on…? Elle vous va ? Does it fit you? Vous l’avez dans la taille au-dessus ? Do you have it in the next size up? Je la prends. I'll take it."
+    },
+    {
+     "id": "b1s-02",
+     "title": "Rendre un article",
+     "title_en": "Returning an Item",
+     "tags": [
+      "returns"
+     ],
+     "search": "Il ne me plaît plus. I don't like it any more. Vous avez gardé le ticket de caisse ? Did you keep the receipt? Est-ce que je peux être remboursé ? Can I get a refund? Nous pouvons vous faire un avoir. We can give you a credit note."
+    },
+    {
+     "id": "b1s-03",
+     "title": "À la pharmacie",
+     "title_en": "At the Pharmacy",
+     "tags": [
+      "pharmacy",
+      "health"
+     ],
+     "search": "J’ai mal à la gorge depuis deux jours. I've had a sore throat for two days. J’ai le nez qui coule. My nose is running. Si ça ne passe pas… If it doesn't clear up… Qu’est-ce que vous me conseillez ? What would you recommend?"
+    },
+    {
+     "id": "b1s-04",
+     "title": "Une carte SIM",
+     "title_en": "A SIM Card",
+     "tags": [
+      "phone"
+     ],
+     "search": "Je voudrais une carte SIM prépayée. I'd like a prepaid SIM card. Est-ce qu’elle marche aussi dans… ? Does it also work in…? Il me faudra votre passeport. I'll need your passport."
+    },
+    {
+     "id": "b1s-05",
+     "title": "Chez le coiffeur",
+     "title_en": "At the Hairdresser's",
+     "tags": [
+      "services"
+     ],
+     "search": "Il faut prendre rendez-vous ? Do I need to make an appointment? Juste rafraîchir. Just a tidy-up. Pas plus. No more. Installez-vous. Take a seat / make yourself comfortable."
+    },
+    {
+     "id": "b1s-06",
+     "title": "À la poste",
+     "title_en": "At the Post Office",
+     "tags": [
+      "post"
+     ],
+     "search": "Je voudrais envoyer ce colis. I'd like to send this parcel. Vous le voulez en suivi ? Do you want it tracked? Il arrivera dans combien de temps ? How long will it take to arrive?"
+    },
+    {
+     "id": "b1s-07",
+     "title": "La détaxe",
+     "title_en": "Tax Refund",
+     "tags": [
+      "shopping",
+      "money"
+     ],
+     "search": "Est-ce que je peux bénéficier de la détaxe ? Can I get the tax refund? À partir de cent euros. From a hundred euros. Ensuite, je fais comment ? Then what do I do?"
+    },
+    {
+     "id": "b1s-08",
+     "title": "Faire réparer son téléphone",
+     "title_en": "Getting a Phone Repaired",
+     "tags": [
+      "repairs"
+     ],
+     "search": "Vous pouvez le réparer aujourd’hui ? Can you repair it today? Il n’y a vraiment pas moyen de faire plus vite ? Is there really no way to do it faster? Je ne vous promets rien. I'm not promising anything."
+    },
+    {
+     "id": "b1s-09",
+     "title": "À la laverie",
+     "title_en": "At the Launderette",
+     "tags": [
+      "laundry"
+     ],
+     "search": "Vous savez comment marchent ces machines ? Do you know how these machines work? Il faut l’apporter ? Do you have to bring it? C’est à part. That's extra / separate."
+    },
+    {
+     "id": "b1s-10",
+     "title": "Le distributeur a avalé ma carte",
+     "title_en": "The Cash Machine Swallowed My Card",
+     "tags": [
+      "bank",
+      "problems"
+     ],
+     "search": "Le distributeur a avalé ma carte. The cash machine swallowed my card. Il faut faire opposition sur la carte. You need to cancel (stop) the card. Je n’ai pas d’autre carte sur moi. I don't have another card on me."
+    },
+    {
+     "id": "b1s-11",
+     "title": "Les soldes",
+     "title_en": "The Sales",
+     "tags": [
+      "clothes",
+      "sales"
+     ],
+     "search": "Il y a beaucoup de monde. It's very crowded. Moi, je préfère attendre. Personally, I prefer to wait. Même s’il reste moins de choix. Even if there's less choice left."
+    },
+    {
+     "id": "b1s-12",
+     "title": "À la librairie",
+     "title_en": "At the Bookshop",
+     "tags": [
+      "books"
+     ],
+     "search": "Vous aimez quel genre ? What genre do you like? Je vous conseille celui-ci. I'd recommend this one. Pour me forcer un peu. To push myself a bit."
+    },
+    {
+     "id": "b1s-13",
+     "title": "Chez le fleuriste",
+     "title_en": "At the Florist's",
+     "tags": [
+      "gifts"
+     ],
+     "search": "Qu’est-ce qui se fait ? What's customary? Je ne savais pas ! I didn't know! Pour une trentaine d’euros. For around thirty euros. Tout à fait. Absolutely."
+    },
+    {
+     "id": "b1s-14",
+     "title": "Le cordonnier",
+     "title_en": "The Cobbler",
+     "tags": [
+      "repairs",
+      "shoes"
+     ],
+     "search": "Ça me reviendrait à combien ? How much would that come to? Vous ne pourriez pas… ? Couldn't you…? Si, je peux faire ça. Yes, I can do that (contradicting a negative)."
+    },
+    {
+     "id": "b1s-15",
+     "title": "L'emballage cadeau",
+     "title_en": "Gift Wrapping",
+     "tags": [
+      "gifts",
+      "shopping"
+     ],
+     "search": "C’est pour offrir ? Is it a gift? Vous pouvez enlever le prix ? Can you take the price off? Au cas où il voudrait l’échanger. In case he wants to exchange it."
+    }
+   ]
+  },
+  {
+   "id": "b2-discussion",
+   "file": "data/french/b2-discussion.json",
+   "title": "B2 · Opinions & Discussion",
+   "level": "B2",
+   "kind": "conversation",
+   "description": "Agreeing, disagreeing, hedging, telling stories and speaking casually — holding your own in a real conversation.",
+   "passages": [
+    {
+     "id": "b2c-01",
+     "title": "Donner son avis",
+     "title_en": "Giving Your Opinion",
+     "tags": [
+      "opinions"
+     ],
+     "search": "À mon avis… In my view… Je trouve quand même que… I still think that… Il me semble que… It seems to me that… Ils ne sont pas tous de cet avis. They don't all share that view."
+    },
+    {
+     "id": "b2c-02",
+     "title": "Nuancer",
+     "title_en": "Agreeing with Reservations",
+     "tags": [
+      "opinions",
+      "discussion"
+     ],
+     "search": "Tu as raison sur le fond, mais… You're right in principle, but… C’est-à-dire ? Meaning? D’un côté… de l’autre… On the one hand… on the other… Il faudrait trouver un juste milieu. We'd need to find a happy medium."
+    },
+    {
+     "id": "b2c-03",
+     "title": "Exprimer un doute",
+     "title_en": "Expressing Doubt",
+     "tags": [
+      "opinions",
+      "subjunctive"
+     ],
+     "search": "Je doute qu’il soit prêt. I doubt he's ready. Je ne dis pas le contraire. I'm not saying otherwise. Ça m’étonnerait que… I'd be surprised if… C’est bien son genre. That's just like him."
+    },
+    {
+     "id": "b2c-04",
+     "title": "Raconter une anecdote",
+     "title_en": "Telling a Story",
+     "tags": [
+      "storytelling",
+      "past tenses"
+     ],
+     "search": "Tu ne devineras jamais ce qui m’est arrivé. You'll never guess what happened to me. Raconte ! Tell me! C’est pas vrai ! No way! Le monde est petit. It's a small world."
+    },
+    {
+     "id": "b2c-05",
+     "title": "Les regrets",
+     "title_en": "Regrets",
+     "tags": [
+      "conditional past"
+     ],
+     "search": "J’aurais dû… I should have… Ce n’est pas de ta faute. It's not your fault. Si j’avais appelé, on aurait eu une table. If I'd called, we'd have had a table. Avec des si, on mettrait Paris en bouteille. \"If\" is a big word (lit. with ifs, you'd put Paris in a bottle)."
+    },
+    {
+     "id": "b2c-06",
+     "title": "Les hypothèses",
+     "title_en": "Hypotheticals",
+     "tags": [
+      "conditional"
+     ],
+     "search": "Si tu pouvais… tu choisirais… ? If you could… would you choose…? Sans hésiter. Without hesitation. Justement. Precisely / that's just it."
+    },
+    {
+     "id": "b2c-07",
+     "title": "Le télétravail",
+     "title_en": "Working from Home",
+     "tags": [
+      "debate",
+      "work"
+     ],
+     "search": "L’avantage principal, c’est… The main advantage is… En revanche… On the other hand… Ils ont du mal à… They struggle to… Bref, tout dépend de… In short, it all depends on…"
+    },
+    {
+     "id": "b2c-08",
+     "title": "Paris ou la province ?",
+     "title_en": "Paris or the Provinces?",
+     "tags": [
+      "debate",
+      "cities"
+     ],
+     "search": "Ils rêvent de quitter la capitale. They dream of leaving the capital. Pour le même prix. For the same price. Ce qui est sûr, c’est que… What's certain is that…"
+    },
+    {
+     "id": "b2c-09",
+     "title": "Faire une suggestion",
+     "title_en": "Making a Suggestion",
+     "tags": [
+      "plans",
+      "suggestions"
+     ],
+     "search": "Et si on allait… ? What if we went…? Ça te dirait de… ? Would you fancy…? Je propose qu’on parte vers neuf heures. I suggest we leave around nine. Je m’occupe de… I'll take care of…"
+    },
+    {
+     "id": "b2c-10",
+     "title": "Le français familier",
+     "title_en": "Casual French",
+     "tags": [
+      "slang",
+      "informal"
+     ],
+     "search": "J’étais crevé. I was knackered. T’inquiète, c’est pas grave. Don't worry, no big deal. Carrément. Definitely / totally. Bof, rien de spécial. Meh, nothing special."
+    },
+    {
+     "id": "b2c-11",
+     "title": "Exprimer ses émotions",
+     "title_en": "Expressing Feelings",
+     "tags": [
+      "emotions",
+      "subjunctive"
+     ],
+     "search": "Je suis ravi que tu aies pu venir. I'm delighted you could come. Ça me fait vraiment plaisir. It really makes me happy. Ça m’énerve que… It annoys me that… L’essentiel, c’est que tu sois là. The main thing is that you're here."
+    },
+    {
+     "id": "b2c-12",
+     "title": "Trouver un compromis",
+     "title_en": "Finding a Compromise",
+     "tags": [
+      "negotiation",
+      "plans"
+     ],
+     "search": "Comment on fait ? What do we do? À condition qu’on ne reste pas trop longtemps. On condition we don't stay too long. Marché conclu. Deal. En échange… In return…"
+    },
+    {
+     "id": "b2c-13",
+     "title": "Parler de l'avenir",
+     "title_en": "Talking About the Future",
+     "tags": [
+      "future",
+      "ambitions"
+     ],
+     "search": "Où est-ce que tu te vois dans cinq ans ? Where do you see yourself in five years? Tu envisages de… ? Are you considering…? Si l’occasion se présente. If the opportunity arises. J’y verrai plus clair. I'll see things more clearly."
+    },
+    {
+     "id": "b2c-14",
+     "title": "Changer de sujet",
+     "title_en": "Changing the Subject",
+     "tags": [
+      "conversation",
+      "discourse"
+     ],
+     "search": "Au fait… By the way… Tu as des nouvelles de… ? Have you heard from…? Pour revenir à ce qu’on disait… To get back to what we were saying… Je t’ai coupé. I interrupted you."
+    },
+    {
+     "id": "b2c-15",
+     "title": "Débattre avec tact",
+     "title_en": "Debating Tactfully",
+     "tags": [
+      "debate",
+      "politeness"
+     ],
+     "search": "Je vois ce que tu veux dire, mais… I see what you mean, but… Je ne suis pas tout à fait convaincu. I'm not entirely convinced. Je n’y avais pas pensé. I hadn't thought of that. Cela dit… That said…"
+    }
+   ]
+  },
+  {
+   "id": "b2-problems",
+   "file": "data/french/b2-problems.json",
+   "title": "B2 · When Things Go Wrong",
+   "level": "B2",
+   "kind": "problems",
+   "description": "Doctors, theft, cancelled trains, lost luggage, complaints and apologies — sorting things out calmly.",
+   "passages": [
+    {
+     "id": "b2p-01",
+     "title": "Chez le médecin",
+     "title_en": "At the Doctor's",
+     "tags": [
+      "health"
+     ],
+     "search": "Qu’est-ce qui vous amène ? What brings you here? Une toux qui ne passe pas. A cough that won't go away. J’ai du mal à respirer. I'm having trouble breathing. Ce n’est rien de grave. It's nothing serious."
+    },
+    {
+     "id": "b2p-02",
+     "title": "On m'a volé mon portefeuille",
+     "title_en": "My Wallet Was Stolen",
+     "tags": [
+      "police",
+      "theft"
+     ],
+     "search": "Je viens porter plainte. I've come to report a crime. On m’a volé mon portefeuille. My wallet was stolen. Je ne me suis rendu compte de rien. I didn't notice a thing. J’ai déjà fait opposition sur la carte. I've already cancelled the card."
+    },
+    {
+     "id": "b2p-03",
+     "title": "Une réclamation à l'hôtel",
+     "title_en": "A Complaint at the Hotel",
+     "tags": [
+      "hotel",
+      "complaints"
+     ],
+     "search": "Je voudrais faire une réclamation. I'd like to make a complaint. Personne ne nous avait prévenus. Nobody had warned us. Un geste commercial serait le bienvenu. A gesture of goodwill would be welcome."
+    },
+    {
+     "id": "b2p-04",
+     "title": "Un train supprimé",
+     "title_en": "A Cancelled Train",
+     "tags": [
+      "train",
+      "refunds"
+     ],
+     "search": "Je vais rater ma correspondance. I'm going to miss my connection. Qui est responsable ? Who's responsible? Vous avez droit à une indemnisation. You're entitled to compensation. Il suffit de remplir le formulaire. You just need to fill in the form."
+    },
+    {
+     "id": "b2p-05",
+     "title": "Une valise égarée",
+     "title_en": "Lost Luggage",
+     "tags": [
+      "flying",
+      "luggage"
+     ],
+     "search": "Ma valise n’est pas arrivée. My suitcase hasn't arrived. D’après le système… According to the system… Je n’ai rien pour me changer. I have nothing to change into. Vous faire rembourser. Get reimbursed."
+    },
+    {
+     "id": "b2p-06",
+     "title": "Une urgence",
+     "title_en": "An Emergency",
+     "tags": [
+      "emergency",
+      "health"
+     ],
+     "search": "Mon ami a fait un malaise. My friend has collapsed. Gardez votre calme. Stay calm. Est-ce qu’il respire ? Is he breathing? Ne raccrochez pas. Don't hang up."
+    },
+    {
+     "id": "b2p-07",
+     "title": "Une carte bloquée",
+     "title_en": "A Blocked Card",
+     "tags": [
+      "bank",
+      "phone"
+     ],
+     "search": "Ma carte a été refusée. My card was declined. Alors que j’ai de l’argent sur mon compte. Even though I have money in my account. Comment éviter que ça se reproduise ? How do I stop it happening again?"
+    },
+    {
+     "id": "b2p-08",
+     "title": "Une erreur sur l'addition",
+     "title_en": "A Mistake on the Bill",
+     "tags": [
+      "restaurant",
+      "money"
+     ],
+     "search": "Je crois qu’il y a une erreur sur l’addition. I think there's a mistake on the bill. On n’en a pris que deux. We only had two. Toutes mes excuses. My apologies. Ça arrive. It happens."
+    },
+    {
+     "id": "b2p-09",
+     "title": "La voiture est en panne",
+     "title_en": "The Car Has Broken Down",
+     "tags": [
+      "car",
+      "breakdown"
+     ],
+     "search": "Je suis en panne. I've broken down. Un voyant rouge s’est allumé. A red warning light came on. Vous êtes en sécurité ? Are you safe? C’est couvert par votre contrat. It's covered by your contract."
+    },
+    {
+     "id": "b2p-10",
+     "title": "Un malentendu",
+     "title_en": "A Misunderstanding",
+     "tags": [
+      "apologies"
+     ],
+     "search": "Je crois qu’on s’est mal compris. I think we misunderstood each other. C’est ma faute. It's my fault. J’aurais dû t’appeler. I should have called you. Va pour… ! … it is!"
+    },
+    {
+     "id": "b2p-11",
+     "title": "Chez le dentiste",
+     "title_en": "At the Dentist's",
+     "tags": [
+      "health",
+      "urgent"
+     ],
+     "search": "J’ai très mal à une dent. I have very bad toothache. Il pourrait me voir en urgence ? Could he see me urgently? J’ai surtout besoin que la douleur s’arrête. Mainly I need the pain to stop."
+    },
+    {
+     "id": "b2p-12",
+     "title": "Annuler une réservation",
+     "title_en": "Cancelling a Booking",
+     "tags": [
+      "hotel",
+      "phone"
+     ],
+     "search": "Je dois annuler ma réservation. I have to cancel my booking. Puis-je avoir… ? May I have…? À l’avance. In advance. Ce serait vraiment gentil de votre part. That would be really kind of you."
+    }
+   ]
+  }
+ ]
+}

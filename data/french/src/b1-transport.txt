@@ -1,0 +1,258 @@
+# deck: id=b1-transport | title=B1 · Getting Around & Staying | level=B1 | kind=transport | vocab_min=0.85
+# desc: Trains, strikes, the métro, taxis, car hire, hotels and holiday flats — moving around and staying put.
+
+@ b1t-01 | Au guichet | At the Ticket Office | train, tickets
+— Bonjour, un aller-retour pour Bordeaux, départ demain matin, s'il_vous_plaît.
+— Hello, a return to Bordeaux, leaving tomorrow morning, please.
+— Vous avez une carte de réduction ?
+— Do you have a discount card?
+— Non. Est-ce que ça vaut le coup d'en acheter une ?
+— No. Is it worth buying one?
+— Si vous prenez le train plus de deux fois dans l'année, oui.
+— If you take the train more than twice a year, yes.
+— Le retour, vous le voulez à quelle date ?
+— What date would you like the return for?
+— Dimanche, en fin d'après-midi. Et je préfère une place côté fenêtre.
+— Sunday, late afternoon. And I'd prefer a window seat.
+= Un aller-retour pour Bordeaux. | A return ticket to Bordeaux.
+= Est-ce que ça vaut le coup ? | Is it worth it?
+= Je préfère une place côté fenêtre. | I'd prefer a window seat.
+
+@ b1t-02 | La grève | The Strike | train, problems
+— Mon train de demain est annulé à cause de la grève. Qu'est-ce que je peux faire ?
+— My train tomorrow is cancelled because of the strike. What can I do?
+— Vous pouvez échanger votre billet sans frais{frais:m}, ou demander un remboursement.
+— You can exchange your ticket at no charge, or ask for a refund.
+— Il y a des trains qui circulent quand même ?
+— Are there any trains running anyway?
+— Un train sur trois, environ. Je vous conseille de vérifier sur l'application la veille au soir.
+— About one train in three. I'd advise checking the app the evening before.
+— Et si je prends le bus à la place ?
+— And if I take the coach instead?
+— C'est possible, mais il faudra acheter un nouveau billet.
+— That's possible, but you'll have to buy a new ticket.
+= Mon train est annulé à cause de la grève. | My train is cancelled because of the strike.
+= Sans frais. | At no charge.
+= Il y a des trains qui circulent quand même ? | Are any trains running anyway?
+= À la place. | Instead.
+
+@ b1t-03 | Dans le métro | On the Métro | metro, directions
+— Pardon, pour aller à Montmartre, je dois changer où ?
+— Excuse me, to get to Montmartre, where do I change?
+— Prenez la ligne quatre jusqu'à Barbès, puis la ligne deux direction Porte_Dauphine.
+— Take line four to Barbès, then line two towards Porte_Dauphine.
+— Je descends à quelle station ?
+— Which station do I get off at?
+— À Anvers. Ensuite, c'est cinq minutes à pied jusqu'au funiculaire.
+— At Anvers. Then it's five minutes on foot to the funicular.
+— Et mon ticket marche pour le funiculaire aussi ?
+— And does my ticket work for the funicular too?
+— Oui, c'est le même ticket. Faites attention à vos affaires, il y a beaucoup de pickpockets.
+— Yes, it's the same ticket. Watch your belongings, there are a lot of pickpockets.
+= Je dois changer où ? | Where do I change?
+= Je descends à quelle station ? | Which station do I get off at?
+= Faites attention à vos affaires. | Watch your belongings.
+
+@ b1t-04 | En taxi | By Taxi | taxi
+— Bonjour, à la gare de Lyon, s'il_vous_plaît. On en a pour combien de temps ?
+— Hello, to the Gare de Lyon, please. How long will it take?
+— Avec la circulation, comptez une vingtaine de minutes.
+— With the traffic, allow about twenty minutes.
+— Mon train part dans quarante minutes, ça devrait aller.
+— My train leaves in forty minutes, that should be OK.
+— Je vais passer par les quais, c'est souvent plus fluide.
+— I'll go along the riverside, it's often clearer.
+— Je peux payer par carte ?
+— Can I pay by card?
+— Oui, sans problème. Vous voulez un reçu ?
+— Yes, no problem. Do you want a receipt?
+= On en a pour combien de temps ? | How long will it take?
+= Comptez une vingtaine de minutes. | Allow about twenty minutes.
+= Ça devrait aller. | That should be OK.
+
+@ b1t-05 | Louer une voiture | Renting a Car | car
+— J'ai réservé une petite voiture pour une semaine, au nom de Chen.
+— I've booked a small car for a week, under the name Chen.
+— Oui. Vous voulez prendre l'assurance complémentaire ? Sans elle, la franchise est de mille euros.
+— Yes. Would you like the extra insurance? Without it, the excess is a thousand euros.
+— Elle coûte combien par jour ?
+— How much is it per day?
+— Quinze euros. Et je vous rappelle que la voiture est en boîte manuelle.
+— Fifteen euros. And just to remind you, the car is a manual.
+— Ah, je n'ai pas l'habitude… Vous n'auriez pas une automatique ?
+— Ah, I'm not used to that… You wouldn't have an automatic?
+— Il m'en reste une, mais c'est vingt euros de plus par jour.
+— I have one left, but it's twenty euros more per day.
+= J'ai réservé au nom de… | I've booked under the name…
+= Je n'ai pas l'habitude. | I'm not used to it.
+= Vous n'auriez pas… ? | You wouldn't have…?
+
+@ b1t-06 | Sur l'autoroute | On the Motorway | car, roads
+— Les autoroutes sont payantes en France : on prend un ticket à l'entrée et on paie au péage.
+— Motorways are tolled in France: you take a ticket at the entrance and pay at the toll.
+— On peut payer par carte, mais évitez les voies réservées au télépéage.
+— You can pay by card, but avoid the lanes reserved for electronic tolls.
+— Sur les aires de repos, on trouve des toilettes et souvent des stations-service.
+— At rest areas you'll find toilets and often petrol stations.
+— La vitesse est limitée à cent trente kilomètres à l'heure, ou cent dix quand il pleut.
+— The speed limit is a hundred and thirty kilometres an hour, or a hundred and ten when it rains.
+— Les radars sont nombreux, alors mieux vaut respecter les limitations.
+— There are a lot of speed cameras, so it's better to stick to the limits.
+= Les autoroutes sont payantes. | Motorways are tolled.
+= Mieux vaut respecter les limitations. | It's better to stick to the limits.
+= Quand il pleut. | When it rains.
+
+@ b1t-07 | L'arrivée à l'hôtel | Arriving at the Hotel | hotel
+— Bonjour, j'ai une réservation au nom de Martin. Je sais qu'il est tôt…
+— Hello, I have a booking under the name Martin. I know it's early…
+— La chambre n'est pas encore prête, l'enregistrement est à partir de quinze heures.
+— The room isn't ready yet, check-in is from three p.m.
+— Est-ce que je peux laisser mes bagages ici en attendant ?
+— Can I leave my luggage here in the meantime?
+— Bien sûr, nous avons une bagagerie. Je vous envoie un message dès que la chambre est prête.
+— Of course, we have a luggage room. I'll send you a message as soon as the room is ready.
+— Le petit-déjeuner est compris ?
+— Is breakfast included?
+— Non, c'est quatorze euros par personne{personne:f}, servi de sept heures à dix heures et demie.
+— No, it's fourteen euros per person, served from seven to half past ten.
+= J'ai une réservation au nom de… | I have a booking under the name…
+= Je peux laisser mes bagages en attendant ? | Can I leave my luggage in the meantime?
+= Dès que la chambre est prête. | As soon as the room is ready.
+
+@ b1t-08 | Un souci dans la chambre | A Problem with the Room | hotel, problems
+— Bonsoir, je suis dans la chambre trois cent quatre. La climatisation ne marche pas.
+— Good evening, I'm in room three hundred and four. The air conditioning isn't working.
+— Vous avez essayé avec la télécommande sur le bureau ?
+— Have you tried with the remote on the desk?
+— Oui, l'écran s'allume, mais il n'y a pas d'air froid.
+— Yes, the screen lights up, but there's no cold air.
+— Je vous envoie quelqu'un de la maintenance.
+— I'll send someone from maintenance.
+— Et s'il n'arrive pas à la réparer ce soir ?
+— And if he can't fix it tonight?
+— Dans ce cas, on vous changera de chambre, ne vous inquiétez pas.
+— In that case, we'll move you to another room, don't worry.
+= La climatisation ne marche pas. | The air conditioning isn't working.
+= Je vous envoie quelqu'un. | I'll send someone up.
+= On vous changera de chambre. | We'll move you to another room.
+= Ne vous inquiétez pas. | Don't worry.
+
+@ b1t-09 | Récupérer les clés | Picking Up the Keys | rental, accommodation
+— Bonjour, c'est Julie, la propriétaire. Vous arrivez à quelle heure à peu près ?
+— Hello, it's Julie, the owner. Roughly what time are you arriving?
+— Vers vingt-deux heures, notre vol a du retard.
+— Around ten p.m., our flight is delayed.
+— Pas de problème. Les clés sont dans une boîte à côté de la porte. Le code est six, deux, neuf, un.
+— No problem. The keys are in a box next to the door. The code is six, two, nine, one.
+— Le wifi est sur le frigo, et les poubelles se trouvent dans la cour.
+— The Wi-Fi details are on the fridge, and the bins are in the courtyard.
+— Merci beaucoup. Il faut laisser les clés où, en partant ?
+— Thanks very much. Where should we leave the keys when we leave?
+— Remettez-les simplement dans la boîte. Bon séjour !
+— Just put them back in the box. Have a nice stay!
+= Vous arrivez à quelle heure à peu près ? | Roughly what time are you arriving?
+= Notre vol a du retard. | Our flight is delayed.
+= Il faut laisser les clés où ? | Where should we leave the keys?
+
+@ b1t-10 | C'est loin à pied ? | Is It Far on Foot? | directions
+— Excusez-moi, je cherche la place du Marché. C'est loin à pied ?
+— Excuse me, I'm looking for the Place du Marché. Is it far on foot?
+— Non, à peine dix minutes. Vous continuez tout droit jusqu'au feu, puis vous tournez à droite.
+— No, barely ten minutes. Keep going straight to the traffic lights, then turn right.
+— Après la boulangerie ?
+— After the bakery?
+— Juste avant. Ensuite, vous verrez la fontaine, c'est là.
+— Just before it. Then you'll see the fountain, that's where it is.
+— Merci, et il y a un raccourci par le parc ?
+— Thanks, and is there a shortcut through the park?
+— Oui, mais il ferme à dix-neuf heures.
+— Yes, but it closes at seven p.m.
+= C'est loin à pied ? | Is it far on foot?
+= Vous continuez tout droit. | You keep going straight on.
+= Vous tournez à droite. | You turn right.
+= C'est là. | That's where it is.
+
+@ b1t-11 | À l'aéroport | At the Airport | flying
+— Je voudrais enregistrer cette valise. Elle fait combien ?
+— I'd like to check in this suitcase. How much does it weigh?
+— Vingt-quatre kilos. La limite est de vingt-trois, il y aura un supplément.
+— Twenty-four kilos. The limit is twenty-three, there'll be a surcharge.
+— Je peux enlever quelque chose et le mettre dans mon bagage à main ?
+— Can I take something out and put it in my hand luggage?
+— Oui, allez-y, prenez votre temps.
+— Yes, go ahead, take your time.
+— Voilà, ça devrait aller maintenant.
+— There, that should be fine now.
+— Vingt-deux kilos huit. Parfait. L'embarquement commence à dix heures quinze, porte quarante-deux.
+— Twenty-two point eight kilos. Perfect. Boarding starts at ten fifteen, gate forty-two.
+= Je voudrais enregistrer cette valise. | I'd like to check in this suitcase.
+= Il y aura un supplément. | There'll be a surcharge.
+= Allez-y, prenez votre temps. | Go ahead, take your time.
+
+@ b1t-12 | Le covoiturage | Ride-Sharing | car, travel
+— Salut, c'est toi qui vas à Lyon ce vendredi ? J'ai réservé une place sur l'application.
+— Hi, are you the one going to Lyon this Friday? I booked a seat on the app.
+— Oui, c'est moi. On part de la gare à huit heures pile.
+— Yes, that's me. We leave from the station at eight sharp.
+— Ça te dérange si j'ai une grosse valise ?
+— Do you mind if I have a big suitcase?
+— Non, il y a de la place dans le coffre. On sera trois passagers.
+— No, there's room in the boot. There'll be three passengers.
+— Super. On fait une pause en route ?
+— Great. Will we stop on the way?
+— Oui, une pause café à mi-chemin, vers dix heures.
+— Yes, a coffee break halfway, around ten.
+= C'est toi qui vas à Lyon ? | Are you the one going to Lyon?
+= Ça te dérange si… ? | Do you mind if…?
+= À huit heures pile. | At eight sharp.
+= À mi-chemin. | Halfway.
+
+@ b1t-13 | Le départ | Checking Out | hotel
+— Bonjour, je voudrais régler la note. Chambre deux cent dix.
+— Hello, I'd like to settle the bill. Room two hundred and ten.
+— Vous avez pris quelque chose dans le minibar ?
+— Did you take anything from the minibar?
+— Juste une bouteille d'eau.
+— Just a bottle of water.
+— Voilà votre facture. Je peux vous appeler un taxi ?
+— Here's your invoice. Can I call you a taxi?
+— Oui, s'il_vous_plaît, pour l'aéroport, d'ici une demi-heure.
+— Yes, please, for the airport, in half an hour.
+— C'est noté. Merci de votre séjour, et bon retour !
+— Noted. Thank you for staying with us, and have a good journey home!
+= Je voudrais régler la note. | I'd like to settle the bill.
+= Je peux vous appeler un taxi ? | Can I call you a taxi?
+= D'ici une demi-heure. | In half an hour.
+= Bon retour ! | Have a good trip home!
+
+@ b1t-14 | Les trottinettes | E-Scooters | transport, rules
+— Ici, les trottinettes électriques en libre-service ont été interdites.
+— Here, shared electric scooters have been banned.
+— Ah bon ? Alors comment on se déplace en ville ?
+— Really? So how do people get around town?
+— Il y a des vélos électriques, et le réseau de bus est très pratique.
+— There are electric bikes, and the bus network is very convenient.
+— On peut acheter un pass pour plusieurs jours ?
+— Can you buy a pass for several days?
+— Oui, un pass de trois jours vous permet de prendre le bus, le métro et le tram autant que vous voulez.
+— Yes, a three-day pass lets you take the bus, the metro and the tram as much as you like.
+— C'est exactement ce qu'il me faut.
+— That's exactly what I need.
+= Comment on se déplace en ville ? | How do people get around town?
+= Autant que vous voulez. | As much as you like.
+= C'est exactement ce qu'il me faut. | That's exactly what I need.
+
+@ b1t-15 | Le train de nuit | The Night Train | train
+— J'ai pris le train de nuit de Paris à Nice, et c'était une très bonne expérience.
+— I took the night train from Paris to Nice, and it was a very good experience.
+— Je partageais une cabine de quatre couchettes avec une famille sympa.
+— I shared a four-berth cabin with a nice family.
+— On nous a donné des bouchons d'oreilles, une bouteille d'eau et des draps propres.
+— We were given earplugs, a bottle of water and clean sheets.
+— Je n'ai pas très bien dormi, mais je me suis réveillé face à la mer.
+— I didn't sleep very well, but I woke up facing the sea.
+— Et en plus, j'ai économisé une nuit d'hôtel.
+— And on top of that, I saved a night in a hotel.
+= C'était une très bonne expérience. | It was a very good experience.
+= Je n'ai pas très bien dormi. | I didn't sleep very well.
+= En plus… | On top of that…

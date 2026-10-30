@@ -1,0 +1,260 @@
+# deck: id=b1-sightseeing | title=B1 · Museums & Sightseeing | level=B1 | kind=sightseeing | vocab_min=0.85
+# desc: Tickets, tours, donations, photos and opening hours — the questions you actually ask at a museum or monument.
+
+@ b1v-01 | Les dons | Donations | museum, money
+— Bonjour, est-ce que le musée accepte les dons ?
+— Hello, does the museum accept donations?
+— Oui, bien sûr. Vous pouvez laisser un don dans l'urne à l'entrée, ou payer par carte à l'accueil.
+— Yes, of course. You can leave a donation in the box at the entrance, or pay by card at the front desk.
+— Est-ce qu'il y a un montant minimum ?
+— Is there a minimum amount?
+— Non, vous donnez ce que vous voulez.
+— No, you give whatever you like.
+— Et le don sert à quoi, exactement ?
+— And what exactly is the donation used for?
+— Il finance la restauration des œuvres et les ateliers pour les enfants.
+— It funds the restoration of the works and the workshops for children.
+— Très bien. Je voudrais aussi un reçu, si c'est possible.
+— Very good. I'd also like a receipt, if that's possible.
+= Est-ce que le musée accepte les dons ? | Does the museum accept donations?
+= Vous donnez ce que vous voulez. | You give whatever you like.
+= Le don sert à quoi ? | What is the donation used for?
+= Je voudrais un reçu, si c'est possible. | I'd like a receipt, if possible.
+
+@ b1v-02 | L'audioguide | The Audio Guide | museum
+— Excusez-moi, vous proposez des audioguides en anglais ?
+— Excuse me, do you offer audio guides in English?
+— Oui, en anglais, en espagnol et en allemand. C'est cinq euros en plus du billet.
+— Yes, in English, Spanish and German. It's five euros on top of the ticket.
+— Il faut laisser une pièce d'identité ?
+— Do I have to leave an ID?
+— Oui, on garde votre carte d'identité jusqu'à ce que vous rendiez l'appareil.
+— Yes, we keep your ID card until you return the device.
+— Sinon, il existe aussi une application gratuite.
+— Otherwise, there's also a free app.
+— Ah, parfait, je vais télécharger l'application alors.
+— Ah, perfect, I'll download the app then.
+= Vous proposez des audioguides en anglais ? | Do you offer audio guides in English?
+= C'est cinq euros en plus du billet. | It's five euros on top of the ticket.
+= Il faut laisser une pièce d'identité ? | Do I have to leave an ID?
+
+@ b1v-03 | On peut prendre des photos ? | Can We Take Photos? | museum, rules
+— Pardon, on a le droit de prendre des photos dans cette salle ?
+— Sorry, are we allowed to take photos in this room?
+— Oui, mais sans flash, s'il_vous_plaît.
+— Yes, but without flash, please.
+— Et dans l'exposition temporaire ?
+— And in the temporary exhibition?
+— Là, c'est interdit. Les œuvres sont prêtées par d'autres musées.
+— There, it's not allowed. The works are on loan from other museums.
+— D'accord. Et les perches à selfie ?
+— OK. And selfie sticks?
+— Elles sont interdites dans tout le musée, désolé.
+— They're banned throughout the museum, sorry.
+= On a le droit de prendre des photos ? | Are we allowed to take photos?
+= Sans flash, s'il vous plaît. | Without flash, please.
+= C'est interdit. | It's not allowed.
+
+@ b1v-04 | La visite guidée | The Guided Tour | museum, tours
+— Bonjour, à quelle heure commence la prochaine visite guidée ?
+— Hello, what time does the next guided tour start?
+— Il y en a une à quatorze heures, mais elle est en français.
+— There's one at two o'clock, but it's in French.
+— Ce n'est pas grave, je comprends assez bien.
+— That's fine, I understand fairly well.
+— La visite dure une heure et demie. Il reste encore trois places.
+— The tour lasts an hour and a half. There are still three places left.
+— Je peux réserver pour deux personnes ?
+— Can I book for two people?
+— Bien sûr. Le rendez-vous est sous la pyramide, à côté du panneau bleu.
+— Of course. The meeting point is under the pyramid, next to the blue sign.
+= À quelle heure commence la prochaine visite ? | What time does the next tour start?
+= Il reste encore des places ? | Are there still places left?
+= Je peux réserver pour deux personnes ? | Can I book for two people?
+= Où est le point de rendez-vous ? | Where is the meeting point?
+
+@ b1v-05 | Le tarif réduit | The Reduced Rate | tickets, money
+— Il y a un tarif réduit pour les étudiants ?
+— Is there a reduced rate for students?
+— Oui, et c'est gratuit pour les moins de vingt-six ans résidant dans l'Union européenne.
+— Yes, and it's free for under-twenty-sixes living in the European Union.
+— Je suis étudiant, mais j'habite aux États-Unis.
+— I'm a student, but I live in the United States.
+— Dans ce cas, vous payez le tarif réduit, sur présentation de votre carte d'étudiant.
+— In that case, you pay the reduced rate, on showing your student card.
+— Et le premier dimanche du mois, l'entrée est gratuite pour tout le monde.
+— And on the first Sunday of the month, entry is free for everyone.
+— Je reviendrai peut-être dimanche, alors !
+— Maybe I'll come back on Sunday, then!
+= Il y a un tarif réduit pour les étudiants ? | Is there a reduced rate for students?
+= Sur présentation de votre carte. | On showing your card.
+= L'entrée est gratuite pour tout le monde. | Entry is free for everyone.
+
+@ b1v-06 | Le vestiaire | The Cloakroom | museum, rules
+— Votre sac à dos est trop grand, il faut le laisser au vestiaire.
+— Your backpack is too big, you have to leave it in the cloakroom.
+— Ah bon ? Où se trouve le vestiaire ?
+— Really? Where is the cloakroom?
+— Au sous-sol, en bas de l'escalier à gauche. C'est gratuit.
+— In the basement, at the bottom of the stairs on the left. It's free.
+— Je peux garder mon appareil photo avec moi ?
+— Can I keep my camera with me?
+— Oui, sortez simplement les objets de valeur avant de déposer le sac.
+— Yes, just take out your valuables before you drop off the bag.
+— Merci, je reviens tout de suite.
+— Thanks, I'll be right back.
+= Où se trouve le vestiaire ? | Where is the cloakroom?
+= Je peux garder mon appareil photo avec moi ? | Can I keep my camera with me?
+= Je reviens tout de suite. | I'll be right back.
+
+@ b1v-07 | La file d'attente | The Queue | tickets, queues
+— C'est la file pour acheter des billets ou pour ceux qui ont déjà réservé ?
+— Is this the queue to buy tickets or for people who've already booked?
+— Celle-ci, c'est pour les billets sur place. Avec une réservation, c'est l'autre entrée.
+— This one is for tickets on the spot. With a booking, it's the other entrance.
+— On attend combien de temps, à peu près ?
+— Roughly how long is the wait?
+— Une bonne heure, je dirais. C'est toujours comme ça le samedi.
+— A good hour, I'd say. It's always like this on Saturdays.
+— Vous auriez dû réserver un créneau en ligne, c'est beaucoup plus rapide.
+— You should have booked a time slot online, it's much quicker.
+— Bon, je vais essayer de réserver sur mon téléphone pendant que j'attends.
+— Well, I'll try to book on my phone while I wait.
+= On attend combien de temps, à peu près ? | Roughly how long is the wait?
+= Il faut réserver un créneau en ligne. | You have to book a time slot online.
+= C'est toujours comme ça le samedi. | It's always like this on Saturdays.
+
+@ b1v-08 | Au château | At the Château | monuments, hours
+— Le château ferme à quelle heure ?
+— What time does the château close?
+— À dix-huit heures trente, mais la dernière entrée est à dix-sept heures.
+— At half past six, but last entry is at five.
+— Et les jardins ?
+— And the gardens?
+— Les jardins restent ouverts jusqu'au coucher du soleil.
+— The gardens stay open until sunset.
+— Est-ce qu'on peut pique-niquer dans le parc ?
+— Can we have a picnic in the park?
+— Oui, sur les pelouses autorisées. Mais pas dans les jardins à la française.
+— Yes, on the permitted lawns. But not in the formal gardens.
+= Le château ferme à quelle heure ? | What time does the château close?
+= La dernière entrée est à dix-sept heures. | Last entry is at five p.m.
+= Est-ce qu'on peut pique-niquer ici ? | Can we have a picnic here?
+
+@ b1v-09 | À l'office de tourisme | At the Tourist Office | recommendations
+— Bonjour, on est là pour deux jours. Qu'est-ce que vous nous conseillez de voir ?
+— Hello, we're here for two days. What would you recommend we see?
+— Ça dépend de ce que vous aimez. Plutôt la culture, la nature ou la gastronomie ?
+— It depends on what you like. Culture, nature or food, rather?
+— Un peu de tout, mais on aimerait éviter les endroits trop touristiques.
+— A bit of everything, but we'd like to avoid places that are too touristy.
+— Alors, je vous conseille le vieux quartier le matin, avant l'arrivée des groupes.
+— Then I'd recommend the old quarter in the morning, before the groups arrive.
+— L'après-midi, vous pouvez prendre le bateau jusqu'au village voisin.
+— In the afternoon, you can take the boat to the neighbouring village.
+— Super, vous avez un plan de la ville ?
+— Great, do you have a map of the town?
+= Qu'est-ce que vous nous conseillez de voir ? | What would you recommend we see?
+= Ça dépend de ce que vous aimez. | It depends on what you like.
+= On aimerait éviter les endroits trop touristiques. | We'd like to avoid places that are too touristy.
+
+@ b1v-10 | Dans une église | In a Church | churches, rules
+— On peut visiter l'église pendant la messe ?
+— Can we visit the church during mass?
+— Il vaut mieux attendre la fin de l'office, vers onze heures et demie.
+— It's better to wait for the end of the service, around half past eleven.
+— Est-ce qu'il faut couvrir ses épaules ?
+— Do you have to cover your shoulders?
+— Ce n'est pas obligatoire ici, mais c'est plus respectueux.
+— It's not compulsory here, but it's more respectful.
+— Et pour monter dans le clocher ?
+— And to go up the bell tower?
+— C'est trois euros, et il y a deux cents marches. Bon courage !
+— It's three euros, and there are two hundred steps. Good luck!
+= Il vaut mieux attendre la fin. | It's better to wait for the end.
+= Ce n'est pas obligatoire, mais c'est plus respectueux. | It's not compulsory, but it's more respectful.
+= Bon courage ! | Good luck! (for something hard)
+
+@ b1v-11 | Des billets de spectacle | Show Tickets | theatre, tickets
+— Il reste des places pour le spectacle de ce soir ?
+— Are there still seats for tonight's show?
+— Seulement au balcon, sur le côté. La visibilité est un peu réduite.
+— Only in the balcony, on the side. The view is a bit restricted.
+— Ça coûte combien ?
+— How much does it cost?
+— Vingt-deux euros. Sinon, il y a des places à l'orchestre pour demain soir.
+— Twenty-two euros. Otherwise, there are stalls seats for tomorrow night.
+— Je préfère ce soir. Le spectacle dure combien de temps ?
+— I prefer tonight. How long does the show last?
+— Deux heures, avec un entracte de vingt minutes.
+— Two hours, with a twenty-minute interval.
+= Il reste des places pour ce soir ? | Are there still seats for tonight?
+= La visibilité est un peu réduite. | The view is a bit restricted.
+= Le spectacle dure combien de temps ? | How long does the show last?
+
+@ b1v-12 | Une balade à vélo | A Bike Ride | bikes, outdoors
+— Excusez-moi, comment ça marche, les vélos en libre-service ?
+— Excuse me, how do the shared bikes work?
+— Vous téléchargez l'application, vous créez un compte, et vous scannez le code sur le vélo.
+— You download the app, create an account, and scan the code on the bike.
+— Et pour le rendre ?
+— And to return it?
+— Vous le déposez dans n'importe quelle station, à condition qu'il y ait une place libre.
+— You leave it at any station, as long as there's a free space.
+— Les trente premières minutes sont comprises dans le forfait.
+— The first thirty minutes are included in the pass.
+— Génial. Il y a une piste cyclable le long du fleuve ?
+— Great. Is there a cycle path along the river?
+= Comment ça marche ? | How does it work?
+= Dans n'importe quelle station. | At any station.
+= C'est compris dans le forfait. | It's included in the pass.
+
+@ b1v-13 | Qu'est-ce qu'il ne faut pas manquer ? | What Shouldn't We Miss? | museum, recommendations
+— On n'a qu'une heure. Qu'est-ce qu'il ne faut surtout pas manquer ?
+— We only have an hour. What really shouldn't we miss?
+— Si vous aimez la peinture, allez directement au deuxième étage, salle des impressionnistes.
+— If you like painting, go straight to the second floor, to the Impressionist room.
+— C'est loin d'ici ?
+— Is it far from here?
+— Prenez l'ascenseur au bout du couloir, c'est le plus rapide.
+— Take the lift at the end of the corridor, it's the quickest way.
+— Et en redescendant, jetez un coup d'œil à la terrasse. La vue sur la ville est magnifique.
+— And on your way down, have a look at the terrace. The view over the city is magnificent.
+= Qu'est-ce qu'il ne faut pas manquer ? | What shouldn't we miss?
+= On n'a qu'une heure. | We only have an hour.
+= Jetez un coup d'œil à la terrasse. | Have a look at the terrace.
+
+@ b1v-14 | La boutique du musée | The Museum Shop | museum, shopping
+— Je cherche un cadeau pour ma mère, quelque chose de pas trop encombrant.
+— I'm looking for a present for my mother, something not too bulky.
+— Nous avons des cartes postales, des carnets et des foulards inspirés des tableaux.
+— We have postcards, notebooks and scarves inspired by the paintings.
+— Ce foulard est très joli. Il est en soie ?
+— This scarf is very pretty. Is it silk?
+— Oui, cent pour cent soie, fabriqué à Lyon.
+— Yes, one hundred percent silk, made in Lyon.
+— Vous pouvez me faire un paquet cadeau ?
+— Can you gift-wrap it for me?
+— Avec plaisir.
+— With pleasure.
+= Quelque chose de pas trop encombrant. | Something not too bulky.
+= Il est en soie ? | Is it silk?
+= Vous pouvez me faire un paquet cadeau ? | Can you gift-wrap it for me?
+
+@ b1v-15 | Une photo, s'il vous plaît | A Photo, Please | photos, small talk
+— Pardon, ça vous dérangerait de nous prendre en photo ?
+— Excuse me, would you mind taking a photo of us?
+— Pas du tout. Vous voulez la tour derrière vous ?
+— Not at all. Do you want the tower behind you?
+— Oui, si possible, avec tout le monument.
+— Yes, if possible, with the whole monument.
+— Reculez un peu… voilà. J'en ai pris trois, au cas où.
+— Step back a bit… there you go. I took three, just in case.
+— C'est très gentil, merci beaucoup !
+— That's very kind, thank you very much!
+— Je vous en prie. Bonne fin de séjour !
+— You're welcome. Enjoy the rest of your stay!
+= Ça vous dérangerait de nous prendre en photo ? | Would you mind taking a photo of us?
+= Pas du tout. | Not at all.
+= C'est très gentil. | That's very kind.
+= Bonne fin de séjour ! | Enjoy the rest of your stay!

@@ -1,0 +1,267 @@
+# deck: id=b1-dining | title=B1 · Cafés & Restaurants | level=B1 | kind=dining | vocab_min=0.85
+# desc: Booking, ordering, dietary needs, wine, the bill and dinner at a friend's — eating out like a regular.
+
+@ b1d-01 | Réserver une table | Booking a Table | restaurant, phone
+— Bonsoir, je voudrais réserver une table pour quatre personnes samedi soir.
+— Good evening, I'd like to book a table for four people on Saturday evening.
+— Pour quelle heure ?
+— For what time?
+— Vers vingt heures, si c'est possible.
+— Around eight, if possible.
+— À vingt heures, c'est complet. Je peux vous proposer vingt et une heures.
+— At eight we're full. I can offer you nine o'clock.
+— D'accord, ça nous va. Est-ce qu'on pourrait être en terrasse ?
+— OK, that works for us. Could we be on the terrace?
+— Je le note, mais je ne peux pas vous le garantir. C'est à quel nom ?
+— I'll make a note, but I can't guarantee it. What name is it under?
+= Je voudrais réserver une table pour quatre. | I'd like to book a table for four.
+= Ça nous va. | That works for us.
+= Je ne peux pas vous le garantir. | I can't guarantee it.
+= C'est à quel nom ? | What name is it under?
+
+@ b1d-02 | Le menu du jour | The Set Menu | restaurant, ordering
+— Qu'est-ce que vous avez comme menu du jour ?
+— What's on today's set menu?
+— Entrée, plat, dessert pour dix-neuf euros, ou entrée et plat pour quinze.
+— Starter, main and dessert for nineteen euros, or starter and main for fifteen.
+— Le plat du jour, c'est quoi ?
+— What's the dish of the day?
+— Un sauté de veau aux champignons, servi avec du riz.
+— Sautéed veal with mushrooms, served with rice.
+— Je vais prendre la formule entrée-plat, alors.
+— I'll have the starter-and-main deal, then.
+— Et pour l'entrée, la soupe à l'oignon ou la salade de chèvre chaud ?
+— And for the starter, onion soup or warm goat's cheese salad?
+= Qu'est-ce que vous avez comme menu du jour ? | What's on today's set menu?
+= Le plat du jour, c'est quoi ? | What's the dish of the day?
+= Je vais prendre la formule entrée-plat. | I'll have the starter-and-main deal.
+
+@ b1d-03 | La cuisson | How It's Cooked | restaurant, meat
+— Pour le steak, quelle cuisson ?
+— For the steak, how would you like it cooked?
+— À point, s'il_vous_plaît. Pas trop saignant.
+— Medium, please. Not too rare.
+— Il est servi avec des frites maison ou des haricots verts.
+— It comes with homemade chips or green beans.
+— Est-ce que je pourrais avoir moitié frites, moitié haricots ?
+— Could I have half chips, half beans?
+— Aucun problème.
+— No problem at all.
+— Et la sauce, vous la voulez à part ?
+— And the sauce, do you want it on the side?
+= Quelle cuisson ? | How would you like it cooked?
+= À point, pas trop saignant. | Medium, not too rare.
+= Est-ce que je pourrais avoir… ? | Could I have…?
+= Vous la voulez à part ? | Do you want it on the side?
+
+@ b1d-04 | Allergies et régimes | Allergies and Diets | restaurant, health
+— Excusez-moi, je suis allergique aux fruits à coque. Est-ce qu'il y en a dans ce plat ?
+— Excuse me, I'm allergic to nuts. Are there any in this dish?
+— Il y a des noisettes dans la sauce. Je vais demander en cuisine si on peut l'enlever.
+— There are hazelnuts in the sauce. I'll ask in the kitchen whether we can leave it out.
+— Merci. Mon amie est végétarienne, est-ce que vous avez des plats sans viande ?
+— Thanks. My friend is vegetarian, do you have any dishes without meat?
+— Le risotto aux légumes est végétarien, et on peut le faire sans fromage pour les végans.
+— The vegetable risotto is vegetarian, and we can make it without cheese for vegans.
+— Et vous avez une carte des allergènes ?
+— And do you have an allergen list?
+— Oui, je vous l'apporte tout de suite.
+— Yes, I'll bring it to you right away.
+= Je suis allergique aux fruits à coque. | I'm allergic to nuts.
+= Est-ce qu'il y en a dans ce plat ? | Are there any in this dish?
+= Vous avez des plats sans viande ? | Do you have dishes without meat?
+= Je vous l'apporte tout de suite. | I'll bring it right away.
+
+@ b1d-05 | Le choix du vin | Choosing the Wine | restaurant, wine
+— Qu'est-ce que vous nous conseillez comme vin avec le poisson ?
+— What wine would you recommend with the fish?
+— Un blanc sec, plutôt. J'ai un très bon Sancerre, ou un Chablis un peu moins cher.
+— A dry white, ideally. I have a very good Sancerre, or a slightly cheaper Chablis.
+— On le prend au verre ou en bouteille ?
+— Should we have it by the glass or by the bottle?
+— Pour deux, la demi-bouteille est le plus intéressant.
+— For two, the half-bottle is the best value.
+— Allons-y pour une demi-bouteille de Chablis.
+— Let's go for a half-bottle of Chablis.
+— Très bon choix.
+— Very good choice.
+= Qu'est-ce que vous nous conseillez comme vin ? | What wine would you recommend?
+= Au verre ou en bouteille ? | By the glass or by the bottle?
+= Allons-y pour… | Let's go for…
+
+@ b1d-06 | Une carafe d'eau | A Jug of Water | restaurant, water
+— Vous voulez de l'eau plate ou de l'eau gazeuse ?
+— Would you like still or sparkling water?
+— Juste une carafe d'eau, s'il_vous_plaît.
+— Just a jug of tap water, please.
+— Très bien. Autre chose à boire ?
+— Very good. Anything else to drink?
+— Non, ça ira, merci.
+— No, that's fine, thanks.
+— En France, la carafe d'eau du robinet est toujours gratuite au restaurant.
+— In France, a jug of tap water is always free in restaurants.
+— Il ne faut pas hésiter à la demander.
+— Don't hesitate to ask for it.
+= Juste une carafe d'eau, s'il vous plaît. | Just a jug of tap water, please.
+= Non, ça ira, merci. | No, that's fine, thanks.
+= Il ne faut pas hésiter. | Don't hesitate.
+
+@ b1d-07 | Au café | At the Café | café, coffee
+— Bonjour ! Qu'est-ce que je vous sers ?
+— Hello! What can I get you?
+— Un café allongé et un crème, s'il_vous_plaît.
+— A long black coffee and a white coffee, please.
+— Vous prenez quelque chose à manger ? Les croissants sortent du four.
+— Will you have something to eat? The croissants are fresh out of the oven.
+— Oh, alors deux croissants, s'il vous en reste.
+— Oh, two croissants then, if you have any left.
+— C'est moins cher si vous restez au comptoir.
+— It's cheaper if you stay at the counter.
+— Non, on va s'asseoir en terrasse, il fait trop beau !
+— No, we'll sit out on the terrace, the weather's too nice!
+= Qu'est-ce que je vous sers ? | What can I get you?
+= S'il vous en reste. | If you have any left.
+= On va s'asseoir en terrasse. | We'll sit on the terrace.
+
+@ b1d-08 | L'addition | The Bill | restaurant, money
+— L'addition, s'il_vous_plaît.
+— The bill, please.
+— Vous payez ensemble ou séparément ?
+— Are you paying together or separately?
+— Séparément, si ça ne vous dérange pas.
+— Separately, if you don't mind.
+— Pas de souci. Vous payez par carte ?
+— No problem. Are you paying by card?
+— Oui. Le service est compris ?
+— Yes. Is service included?
+— Oui, le service est toujours compris en France. Le pourboire, c'est comme vous voulez.
+— Yes, service is always included in France. A tip is up to you.
+= L'addition, s'il vous plaît. | The bill, please.
+= Si ça ne vous dérange pas. | If you don't mind.
+= Le service est compris ? | Is service included?
+= C'est comme vous voulez. | It's up to you.
+
+@ b1d-09 | À la boulangerie | At the Bakery | bakery
+— Bonjour, une baguette tradition, pas trop cuite, s'il_vous_plaît.
+— Hello, a traditional baguette, not too well done, please.
+— Et avec ceci ?
+— Anything else?
+— Deux pains au chocolat et une tarte aux pommes pour quatre.
+— Two pains au chocolat and an apple tart for four.
+— Il ne me reste que des tartes pour six, ça vous va ?
+— I only have tarts for six left, is that OK?
+— Oui, tant pis, on aura des restes !
+— Yes, never mind, we'll have leftovers!
+— Ça vous fera dix-huit euros quarante.
+— That'll be eighteen euros forty.
+= Pas trop cuite. | Not too well done.
+= Et avec ceci ? | Anything else?
+= Il ne me reste que… | I only have … left.
+= Tant pis. | Never mind / oh well.
+
+@ b1d-10 | Chez le fromager | At the Cheese Shop | market, cheese
+— Je voudrais un fromage pour un plateau, mais je n'y connais pas grand-chose.
+— I'd like a cheese for a cheese board, but I don't know much about it.
+— Vous préférez quelque chose de doux ou de plus fort ?
+— Do you prefer something mild or something stronger?
+— Un de chaque, peut-être.
+— One of each, maybe.
+— Alors un comté de dix-huit mois et un petit reblochon. Vous voulez goûter ?
+— Then an eighteen-month comté and a small reblochon. Would you like a taste?
+— Avec plaisir… Mmm, il est délicieux. J'en prends deux cents grammes.
+— With pleasure… Mmm, it's delicious. I'll take two hundred grams.
+— Je vous le mets sous vide pour le voyage ?
+— Shall I vacuum-pack it for your trip?
+= Je n'y connais pas grand-chose. | I don't know much about it.
+= Quelque chose de doux ou de plus fort ? | Something mild or something stronger?
+= Vous voulez goûter ? | Would you like a taste?
+= J'en prends deux cents grammes. | I'll take two hundred grams of it.
+
+@ b1d-11 | Une erreur de commande | A Wrong Order | restaurant, problems
+— Excusez-moi, je crois qu'il y a une erreur. J'avais commandé le poulet, pas le canard.
+— Excuse me, I think there's a mistake. I ordered the chicken, not the duck.
+— Oh, je suis vraiment désolé. Je vous le change tout de suite.
+— Oh, I'm really sorry. I'll change it for you right away.
+— Ce n'est pas grave, mais je préfère attendre le bon plat.
+— It's no big deal, but I'd rather wait for the right dish.
+— Bien sûr. Ça prendra une dizaine de minutes.
+— Of course. It'll take about ten minutes.
+— Pour nous excuser, le café vous est offert.
+— To apologise, the coffee is on us.
+— C'est gentil, merci.
+— That's kind, thank you.
+= Je crois qu'il y a une erreur. | I think there's a mistake.
+= J'avais commandé le poulet. | I'd ordered the chicken.
+= Ce n'est pas grave. | It's no big deal.
+= Le café vous est offert. | The coffee is on the house.
+
+@ b1d-12 | Dîner chez des amis | Dinner at Friends' | culture, invitations
+— Qu'est-ce que je peux apporter samedi ?
+— What can I bring on Saturday?
+— Rien du tout, viens juste avec ton appétit !
+— Nothing at all, just bring your appetite!
+— Je vais quand même apporter une bouteille de vin.
+— I'll bring a bottle of wine anyway.
+— Si tu veux. On dîne vers vingt heures trente, mais viens un peu avant pour l'apéro.
+— If you like. We'll eat around half past eight, but come a bit earlier for drinks.
+— En France, on arrive rarement pile à l'heure chez des amis : un petit quart d'heure de retard, c'est normal.
+— In France, you rarely arrive exactly on time at friends' homes: about a quarter of an hour late is normal.
+— C'est bon à savoir !
+— That's good to know!
+= Qu'est-ce que je peux apporter ? | What can I bring?
+= Je vais quand même apporter du vin. | I'll bring some wine anyway.
+= C'est bon à savoir. | That's good to know.
+
+@ b1d-13 | L'apéro | Pre-Dinner Drinks | culture, drinks
+— Qu'est-ce que tu bois ? On a du pastis, du vin blanc ou des bières.
+— What are you drinking? We have pastis, white wine or beers.
+— Je n'ai jamais goûté le pastis. C'est comment ?
+— I've never tried pastis. What's it like?
+— Ça a un goût d'anis. On le boit avec beaucoup d'eau fraîche.
+— It tastes of aniseed. You drink it with lots of cold water.
+— Allez, je vais essayer.
+— Go on, I'll try it.
+— Santé ! Et regarde-moi dans les yeux quand on trinque, sinon ça porte{porte:v} malheur.
+— Cheers! And look me in the eye when we clink glasses, otherwise it's bad luck.
+— Santé !
+— Cheers!
+= Je n'ai jamais goûté… | I've never tried…
+= C'est comment ? | What's it like?
+= Ça a un goût de… | It tastes of…
+= Santé ! | Cheers!
+
+@ b1d-14 | Faire un compliment au chef | Complimenting the Chef | restaurant, compliments
+— Tout s'est bien passé ?
+— Was everything all right?
+— C'était excellent ! Le dessert, surtout, était une vraie merveille.
+— It was excellent! The dessert especially was a real marvel.
+— Merci, je transmettrai au chef. C'est sa recette de grand-mère.
+— Thank you, I'll pass it on to the chef. It's his grandmother's recipe.
+— Vous faites aussi de la vente à emporter ?
+— Do you also do takeaway?
+— Seulement le midi, en semaine.
+— Only at lunchtime, on weekdays.
+— Parfait, on reviendra sûrement avant de partir.
+— Perfect, we'll surely come back before we leave.
+= Tout s'est bien passé ? | Was everything all right?
+= C'était excellent ! | It was excellent!
+= Je transmettrai au chef. | I'll pass it on to the chef.
+= Vous faites de la vente à emporter ? | Do you do takeaway?
+
+@ b1d-15 | Le marché du dimanche | The Sunday Market | market, food
+— Elles sont de saison, vos fraises ?
+— Are your strawberries in season?
+— Oui, ce sont des gariguettes du coin, cueillies hier.
+— Yes, they're local gariguettes, picked yesterday.
+— Je vais en prendre une barquette. Et vous avez des tomates mûres pour ce soir ?
+— I'll take a punnet. And do you have ripe tomatoes for tonight?
+— Celles-ci sont parfaites pour une salade. Je vous en mets un kilo ?
+— These are perfect for a salad. Shall I give you a kilo?
+— Un demi-kilo suffira, on n'est que deux.
+— Half a kilo will do, there are only two of us.
+— Et je vous rajoute un bouquet de basilic, cadeau.
+— And I'll throw in a bunch of basil, free.
+= Elles sont de saison ? | Are they in season?
+= Je vais en prendre une barquette. | I'll take a punnet of them.
+= Un demi-kilo suffira. | Half a kilo will do.
+= On n'est que deux. | There are only two of us.

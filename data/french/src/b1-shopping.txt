@@ -1,0 +1,260 @@
+# deck: id=b1-shopping | title=B1 · Shopping & Services | level=B1 | kind=shopping | vocab_min=0.85
+# desc: Fitting rooms, returns, pharmacies, the post office, repairs and the bank — getting things done.
+
+@ b1s-01 | En cabine d'essayage | In the Fitting Room | clothes
+— Je peux essayer cette veste en taille quarante ?
+— Can I try this jacket in a size forty?
+— Bien sûr, les cabines sont au fond, à droite.
+— Of course, the fitting rooms are at the back on the right.
+— Alors, elle vous va ?
+— So, does it fit?
+— Elle est un peu serrée aux épaules. Vous l'avez dans la taille au-dessus ?
+— It's a bit tight in the shoulders. Do you have it in the next size up?
+— Je vais voir en réserve… Voilà, c'est la dernière.
+— I'll check in the stockroom… Here, it's the last one.
+— Celle-ci me va beaucoup mieux. Je la prends.
+— This one fits me much better. I'll take it.
+= Je peux essayer… ? | Can I try on…?
+= Elle vous va ? | Does it fit you?
+= Vous l'avez dans la taille au-dessus ? | Do you have it in the next size up?
+= Je la prends. | I'll take it.
+
+@ b1s-02 | Rendre un article | Returning an Item | returns
+— Bonjour, j'ai acheté ce pull la semaine dernière, mais il ne me plaît plus.
+— Hello, I bought this jumper last week, but I don't like it any more.
+— Vous avez gardé le ticket de caisse ?
+— Did you keep the receipt?
+— Oui, le voici. Est-ce que je peux être remboursé ?
+— Yes, here it is. Can I get a refund?
+— Nous ne remboursons pas, mais nous pouvons vous faire un avoir ou un échange.
+— We don't give refunds, but we can give you a credit note or an exchange.
+— L'avoir est valable combien de temps ?
+— How long is the credit note valid?
+— Un an, dans tous nos magasins.
+— One year, in all our shops.
+= Il ne me plaît plus. | I don't like it any more.
+= Vous avez gardé le ticket de caisse ? | Did you keep the receipt?
+= Est-ce que je peux être remboursé ? | Can I get a refund?
+= Nous pouvons vous faire un avoir. | We can give you a credit note.
+
+@ b1s-03 | À la pharmacie | At the Pharmacy | pharmacy, health
+— Bonjour, j'ai mal à la gorge depuis deux jours. Qu'est-ce que vous me conseillez ?
+— Hello, I've had a sore throat for two days. What would you recommend?
+— Vous avez de la fièvre ?
+— Do you have a temperature?
+— Non, mais j'ai le nez qui coule.
+— No, but my nose is running.
+— Je vous donne des pastilles à sucer et un spray. Si ça ne passe pas d'ici trois jours, allez voir un médecin.
+— I'll give you some lozenges and a spray. If it doesn't clear up within three days, see a doctor.
+— Je peux les prendre si je prends déjà un autre médicament ?
+— Can I take them if I'm already taking another medicine?
+— Lequel ? Montrez-moi la boîte, je vais vérifier.
+— Which one? Show me the box, I'll check.
+= J'ai mal à la gorge depuis deux jours. | I've had a sore throat for two days.
+= J'ai le nez qui coule. | My nose is running.
+= Si ça ne passe pas… | If it doesn't clear up…
+= Qu'est-ce que vous me conseillez ? | What would you recommend?
+
+@ b1s-04 | Une carte SIM | A SIM Card | phone
+— Je voudrais une carte SIM prépayée avec beaucoup de données.
+— I'd like a prepaid SIM card with lots of data.
+— On a une offre à vingt euros avec cent gigas, valable un mois.
+— We have a twenty-euro offer with a hundred gigs, valid for a month.
+— Est-ce qu'elle marche aussi dans les autres pays européens ?
+— Does it also work in other European countries?
+— Oui, l'itinérance est incluse dans toute l'Union européenne.
+— Yes, roaming is included throughout the European Union.
+— Il me faudra votre passeport pour l'activer.
+— I'll need your passport to activate it.
+— Pas de problème, le voilà.
+— No problem, here it is.
+= Je voudrais une carte SIM prépayée. | I'd like a prepaid SIM card.
+= Est-ce qu'elle marche aussi dans… ? | Does it also work in…?
+= Il me faudra votre passeport. | I'll need your passport.
+
+@ b1s-05 | Chez le coiffeur | At the Hairdresser's | services
+— Bonjour, vous avez de la place cet après-midi, ou il faut prendre rendez-vous ?
+— Hello, do you have space this afternoon, or do I need to make an appointment?
+— Je peux vous prendre dans une demi-heure. Qu'est-ce qu'on vous fait ?
+— I can take you in half an hour. What are we doing for you?
+— Juste rafraîchir, un ou deux centimètres, pas plus.
+— Just a tidy-up, one or two centimetres, no more.
+— Et sur les côtés ?
+— And on the sides?
+— Un peu plus court, mais je garde la longueur sur le dessus.
+— A bit shorter, but I'm keeping the length on top.
+— Très bien, installez-vous.
+— Very good, take a seat.
+= Il faut prendre rendez-vous ? | Do I need to make an appointment?
+= Juste rafraîchir. | Just a tidy-up.
+= Pas plus. | No more.
+= Installez-vous. | Take a seat / make yourself comfortable.
+
+@ b1s-06 | À la poste | At the Post Office | post
+— Je voudrais envoyer ce colis aux États-Unis.
+— I'd like to send this parcel to the United States.
+— Vous le voulez en suivi ? C'est un peu plus cher, mais vous pouvez le suivre en ligne.
+— Do you want it tracked? It's a bit more expensive, but you can track it online.
+— Oui, je préfère. Il arrivera dans combien de temps ?
+— Yes, I'd rather. How long will it take to arrive?
+— Entre cinq et huit jours ouvrés. Il faut remplir ce formulaire pour la douane.
+— Between five and eight working days. You need to fill in this customs form.
+— Je dois indiquer la valeur du contenu ?
+— Do I have to state the value of the contents?
+— Oui, et une courte description, par exemple « vêtements » ou « livres ».
+— Yes, and a short description, for example "clothes" or "books".
+= Je voudrais envoyer ce colis. | I'd like to send this parcel.
+= Vous le voulez en suivi ? | Do you want it tracked?
+= Il arrivera dans combien de temps ? | How long will it take to arrive?
+
+@ b1s-07 | La détaxe | Tax Refund | shopping, money
+— Est-ce que je peux bénéficier de la détaxe ? Je ne réside pas dans l'Union européenne.
+— Can I get the tax refund? I don't live in the European Union.
+— Oui, à partir de cent euros d'achats le même jour dans notre magasin.
+— Yes, from a hundred euros of purchases on the same day in our shop.
+— Il me faut votre passeport pour remplir le bordereau.
+— I need your passport to fill in the form.
+— Et ensuite, je fais comment ?
+— And then what do I do?
+— À l'aéroport, vous scannez le bordereau à une borne avant le contrôle de sécurité.
+— At the airport, you scan the form at a kiosk before security.
+— Le remboursement arrive ensuite sur votre carte bancaire.
+— The refund then goes back onto your bank card.
+= Est-ce que je peux bénéficier de la détaxe ? | Can I get the tax refund?
+= À partir de cent euros. | From a hundred euros.
+= Ensuite, je fais comment ? | Then what do I do?
+
+@ b1s-08 | Faire réparer son téléphone | Getting a Phone Repaired | repairs
+— L'écran de mon téléphone est cassé. Vous pouvez le réparer aujourd'hui ?
+— My phone screen is broken. Can you repair it today?
+— Il faut que je commande la pièce. Ça prendra deux jours.
+— I have to order the part. It'll take two days.
+— Je pars après-demain matin… Il n'y a vraiment pas moyen de faire plus vite ?
+— I'm leaving the morning after tomorrow… Is there really no way to do it faster?
+— Je peux essayer de l'avoir pour demain soir, mais je ne vous promets rien.
+— I can try to get it for tomorrow evening, but I'm not promising anything.
+— D'accord. Ça me coûterait combien ?
+— OK. How much would it cost me?
+— Quatre-vingt-dix euros, pièce et main-d'œuvre comprises.
+— Ninety euros, parts and labour included.
+= Vous pouvez le réparer aujourd'hui ? | Can you repair it today?
+= Il n'y a vraiment pas moyen de faire plus vite ? | Is there really no way to do it faster?
+= Je ne vous promets rien. | I'm not promising anything.
+
+@ b1s-09 | À la laverie | At the Launderette | laundry
+— Excusez-moi, vous savez comment marchent ces machines ?
+— Excuse me, do you know how these machines work?
+— Vous payez à la borne au fond, puis vous choisissez le numéro de la machine.
+— You pay at the machine at the back, then choose the machine number.
+— Et la lessive, il faut l'apporter ?
+— And the detergent, do you have to bring it?
+— Non, elle est incluse dans le prix. Comptez quarante minutes pour le lavage.
+— No, it's included in the price. Allow forty minutes for the wash.
+— Et le séchage ?
+— And the drying?
+— C'est à part, un euro les dix minutes.
+— That's extra, one euro per ten minutes.
+= Vous savez comment marchent ces machines ? | Do you know how these machines work?
+= Il faut l'apporter ? | Do you have to bring it?
+= C'est à part. | That's extra / separate.
+
+@ b1s-10 | Le distributeur a avalé ma carte | The Cash Machine Swallowed My Card | bank, problems
+— Bonjour, le distributeur devant votre agence a avalé ma carte.
+— Hello, the cash machine outside your branch has swallowed my card.
+— C'est une carte de notre banque ?
+— Is it one of our bank's cards?
+— Non, c'est une carte étrangère.
+— No, it's a foreign card.
+— Dans ce cas, on ne peut pas vous la rendre. Il faut appeler votre banque pour faire opposition.
+— In that case, we can't give it back to you. You need to call your bank to have it cancelled.
+— Vous êtes sûr ? Je n'ai pas d'autre carte sur moi.
+— Are you sure? I don't have another card on me.
+— Je suis désolée, c'est la procédure. Mais je peux vous indiquer un bureau de change pas loin.
+— I'm sorry, it's the procedure. But I can point you to a currency exchange nearby.
+= Le distributeur a avalé ma carte. | The cash machine swallowed my card.
+= Il faut faire opposition sur la carte. | You need to cancel (stop) the card.
+= Je n'ai pas d'autre carte sur moi. | I don't have another card on me.
+
+@ b1s-11 | Les soldes | The Sales | clothes, sales
+— Les soldes d'hiver commencent en janvier et durent quatre semaines.
+— The winter sales start in January and last four weeks.
+— Au début, les réductions sont de trente pour cent, puis elles peuvent monter jusqu'à soixante-dix.
+— At first the reductions are thirty percent, then they can go up to seventy.
+— Le premier jour, il y a beaucoup de monde dans les magasins.
+— On the first day, the shops are very crowded.
+— Moi, je préfère attendre la deuxième démarque, même s'il reste moins de choix.
+— Personally, I prefer to wait for the second markdown, even if there's less choice left.
+— Attention : les articles soldés ne sont parfois ni repris ni échangés.
+— Careful: sale items are sometimes neither taken back nor exchanged.
+= Il y a beaucoup de monde. | It's very crowded.
+= Moi, je préfère attendre. | Personally, I prefer to wait.
+= Même s'il reste moins de choix. | Even if there's less choice left.
+
+@ b1s-12 | À la librairie | At the Bookshop | books
+— Je cherche un roman en français, pas trop difficile, pour quelqu'un qui a un niveau intermédiaire.
+— I'm looking for a novel in French, not too hard, for someone at an intermediate level.
+— Vous aimez quel genre ? Plutôt policier, historique, contemporain ?
+— What genre do you like? Crime, historical, contemporary?
+— Plutôt contemporain, avec des phrases courtes.
+— Contemporary, rather, with short sentences.
+— Je vous conseille celui-ci. L'histoire est prenante et le style très simple.
+— I'd recommend this one. The story is gripping and the style very simple.
+— Il existe aussi en version bilingue, avec le texte anglais en face.
+— It also exists in a bilingual edition, with the English text opposite.
+— Je vais prendre la version normale, pour me forcer un peu.
+— I'll take the normal version, to push myself a bit.
+= Vous aimez quel genre ? | What genre do you like?
+= Je vous conseille celui-ci. | I'd recommend this one.
+= Pour me forcer un peu. | To push myself a bit.
+
+@ b1s-13 | Chez le fleuriste | At the Florist's | gifts
+— Bonjour, je suis invité à dîner{dîner:v} ce soir. Qu'est-ce qui se fait, comme bouquet ?
+— Hello, I've been invited to dinner tonight. What sort of bouquet is customary?
+— Quelque chose de simple et de coloré. Évitez les chrysanthèmes, on les offre pour les enterrements.
+— Something simple and colourful. Avoid chrysanthemums, they're given for funerals.
+— Ah, je ne savais pas ! Et les roses ?
+— Ah, I didn't know! And roses?
+— Les roses rouges, c'est plutôt romantique. Pour des amis, je vous propose des renoncules.
+— Red roses are rather romantic. For friends, I'd suggest ranunculus.
+— Parfait. Pour une trentaine d'euros, c'est possible ?
+— Perfect. Is that possible for around thirty euros?
+— Tout à fait, je vous prépare ça.
+— Absolutely, I'll prepare it for you.
+= Qu'est-ce qui se fait ? | What's customary?
+= Je ne savais pas ! | I didn't know!
+= Pour une trentaine d'euros. | For around thirty euros.
+= Tout à fait. | Absolutely.
+
+@ b1s-14 | Le cordonnier | The Cobbler | repairs, shoes
+— Le talon de ma chaussure s'est décollé. Vous pouvez le recoller ?
+— The heel of my shoe has come off. Can you glue it back?
+— Oui, mais il faudrait aussi changer la semelle, elle est très usée.
+— Yes, but the sole should be changed too, it's very worn.
+— Ça me reviendrait à combien ?
+— How much would that come to?
+— Trente-cinq euros pour les deux. Elles seront prêtes jeudi.
+— Thirty-five euros for both. They'll be ready on Thursday.
+— Vous ne pourriez pas faire seulement le talon pour demain ?
+— Couldn't you do just the heel for tomorrow?
+— Si, je peux faire ça. Revenez demain à midi.
+— Yes, I can do that. Come back tomorrow at noon.
+= Ça me reviendrait à combien ? | How much would that come to?
+= Vous ne pourriez pas… ? | Couldn't you…?
+= Si, je peux faire ça. | Yes, I can do that (contradicting a negative).
+
+@ b1s-15 | L'emballage cadeau | Gift Wrapping | gifts, shopping
+— C'est pour offrir ?
+— Is it a gift?
+— Oui, c'est pour l'anniversaire de mon frère.
+— Yes, it's for my brother's birthday.
+— Je vous fais un paquet cadeau ? C'est gratuit.
+— Shall I gift-wrap it for you? It's free.
+— Oui, merci. Vous pouvez enlever le prix ?
+— Yes, thanks. Can you take the price off?
+— Bien sûr. Je vous mets aussi un ticket cadeau, au cas où il voudrait l'échanger.
+— Of course. I'll also put in a gift receipt, in case he wants to exchange it.
+— Excellente idée.
+— Excellent idea.
+= C'est pour offrir ? | Is it a gift?
+= Vous pouvez enlever le prix ? | Can you take the price off?
+= Au cas où il voudrait l'échanger. | In case he wants to exchange it.

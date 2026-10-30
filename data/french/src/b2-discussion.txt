@@ -1,0 +1,254 @@
+# deck: id=b2-discussion | title=B2 · Opinions & Discussion | level=B2 | kind=conversation | vocab_min=0.85
+# desc: Agreeing, disagreeing, hedging, telling stories and speaking casually — holding your own in a real conversation.
+
+@ b2c-01 | Donner son avis | Giving Your Opinion | opinions
+— Qu'est-ce que tu penses du nouveau tramway ?
+— What do you think of the new tram?
+— À mon avis, c'est une bonne chose, même si les travaux ont duré une éternité.
+— In my view it's a good thing, even if the works took forever.
+— Je trouve quand même qu'il est trop cher pour ce qu'il apporte.
+— I still think it's too expensive for what it offers.
+— Il me semble que la circulation s'est nettement améliorée depuis qu'il fonctionne.
+— It seems to me that traffic has improved noticeably since it started running.
+— Peut-être, mais les commerçants du centre ne sont pas tous de cet avis.
+— Maybe, but the shopkeepers in the centre don't all share that view.
+= À mon avis… | In my view…
+= Je trouve quand même que… | I still think that…
+= Il me semble que… | It seems to me that…
+= Ils ne sont pas tous de cet avis. | They don't all share that view.
+
+@ b2c-02 | Nuancer | Agreeing with Reservations | opinions, discussion
+— Tu as raison sur le fond, mais je ne suis pas d'accord sur la méthode.
+— You're right in principle, but I don't agree with the method.
+— C'est-à-dire ?
+— Meaning?
+— Je veux dire qu'on ne peut pas imposer ce genre de changement du jour au lendemain.
+— I mean you can't impose that kind of change overnight.
+— D'un côté, je comprends ; de l'autre, si on attend trop, rien ne bougera.
+— On the one hand, I understand; on the other, if we wait too long, nothing will change.
+— Disons qu'il faudrait trouver un juste milieu.
+— Let's say we'd need to find a happy medium.
+— Là-dessus, on est d'accord.
+— On that, we agree.
+= Tu as raison sur le fond, mais… | You're right in principle, but…
+= C'est-à-dire ? | Meaning?
+= D'un côté… de l'autre… | On the one hand… on the other…
+= Il faudrait trouver un juste milieu. | We'd need to find a happy medium.
+
+@ b2c-03 | Exprimer un doute | Expressing Doubt | opinions, subjunctive
+— Tu crois qu'il va accepter l'offre ?
+— Do you think he'll accept the offer?
+— Je doute qu'il soit prêt à déménager si loin de sa famille.
+— I doubt he's ready to move so far from his family.
+— Pourtant, le poste{poste:m} est vraiment intéressant.
+— Yet the job is really interesting.
+— Je ne dis pas le contraire, mais ça m'étonnerait qu'il dise oui tout de suite.
+— I'm not saying otherwise, but I'd be surprised if he said yes straight away.
+— Il est possible qu'il demande un délai pour réfléchir.
+— It's possible he'll ask for some time to think.
+— Ça, c'est bien son genre.
+— That's just like him.
+= Je doute qu'il soit prêt. | I doubt he's ready.
+= Je ne dis pas le contraire. | I'm not saying otherwise.
+= Ça m'étonnerait que… | I'd be surprised if…
+= C'est bien son genre. | That's just like him.
+
+@ b2c-04 | Raconter une anecdote | Telling a Story | storytelling, past tenses
+— Tu ne devineras jamais ce qui m'est arrivé hier.
+— You'll never guess what happened to me yesterday.
+— Raconte !
+— Tell me!
+— J'attendais le bus quand une femme m'a demandé son chemin… en anglais.
+— I was waiting for the bus when a woman asked me for directions… in English.
+— Je lui ai répondu en anglais, et elle m'a regardé, très surprise : elle était américaine, elle aussi, et elle habitait à deux rues de chez moi, dans le New_Jersey !
+— I answered in English, and she looked at me, very surprised: she was American too, and lived two streets from me, in New_Jersey!
+— Non, c'est pas vrai !
+— No way!
+— Le monde est petit, hein ?
+— Small world, eh?
+= Tu ne devineras jamais ce qui m'est arrivé. | You'll never guess what happened to me.
+= Raconte ! | Tell me!
+= C'est pas vrai ! | No way!
+= Le monde est petit. | It's a small world.
+
+@ b2c-05 | Les regrets | Regrets | conditional past
+— J'aurais dû réserver le restaurant plus tôt, il est complet ce soir.
+— I should have booked the restaurant earlier, it's full tonight.
+— Ce n'est pas de ta faute, tout le monde a eu la même idée.
+— It's not your fault, everyone had the same idea.
+— Quand même, si j'avais appelé lundi, on aurait eu une table.
+— Still, if I'd called on Monday, we'd have had a table.
+— Avec des si, on mettrait Paris en bouteille !
+— If ifs and ands were pots and pans!
+— Tu as raison. On trouvera bien autre chose.
+— You're right. We'll find something else.
+— Je connais une petite crêperie qui ne prend pas de réservations.
+— I know a little crêperie that doesn't take bookings.
+= J'aurais dû… | I should have…
+= Ce n'est pas de ta faute. | It's not your fault.
+= Si j'avais appelé, on aurait eu une table. | If I'd called, we'd have had a table.
+= Avec des si, on mettrait Paris en bouteille. | "If" is a big word (lit. with ifs, you'd put Paris in a bottle).
+
+@ b2c-06 | Les hypothèses | Hypotheticals | conditional
+— Si tu pouvais vivre n'importe où en France, tu choisirais quelle ville ?
+— If you could live anywhere in France, which city would you choose?
+— Sans hésiter, Lyon. On y mange bien, et c'est moins stressant que Paris.
+— Without hesitation, Lyon. You eat well there, and it's less stressful than Paris.
+— Moi, je partirais plutôt en Bretagne, au bord de la mer.
+— I'd rather go to Brittany, by the sea.
+— Même avec la pluie ?
+— Even with the rain?
+— Justement, on dit qu'il fait beau plusieurs fois par jour là-bas !
+— Precisely, they say the weather's nice several times a day there!
+= Si tu pouvais… tu choisirais… ? | If you could… would you choose…?
+= Sans hésiter. | Without hesitation.
+= Justement. | Precisely / that's just it.
+
+@ b2c-07 | Le télétravail | Working from Home | debate, work
+— Depuis la pandémie, beaucoup d'entreprises ont adopté le télétravail deux ou trois jours par semaine.
+— Since the pandemic, many companies have adopted working from home two or three days a week.
+— Pour les salariés, l'avantage principal, c'est le temps gagné dans les transports.
+— For employees, the main advantage is the time saved on commuting.
+— En revanche, certains se sentent isolés et ont du mal à séparer vie professionnelle et vie privée.
+— On the other hand, some feel isolated and struggle to separate work and private life.
+— Les managers, eux, craignent de perdre la cohésion des équipes.
+— Managers, for their part, fear losing team cohesion.
+— Bref, tout dépend du métier et de la personnalité de chacun.
+— In short, it all depends on the job and on each person's personality.
+= L'avantage principal, c'est… | The main advantage is…
+= En revanche… | On the other hand…
+= Ils ont du mal à… | They struggle to…
+= Bref, tout dépend de… | In short, it all depends on…
+
+@ b2c-08 | Paris ou la province ? | Paris or the Provinces? | debate, cities
+— Beaucoup de Parisiens rêvent de quitter la capitale pour s'installer en province.
+— Many Parisians dream of leaving the capital to settle in the provinces.
+— Les loyers y sont moins chers, et on a souvent plus d'espace pour le même prix.
+— Rents are cheaper there, and you often get more space for the same price.
+— Mais il faut parfois une voiture, et l'offre culturelle est plus limitée.
+— But you sometimes need a car, and there's less on offer culturally.
+— Ce qui est sûr, c'est que le train à grande vitesse a rapproché beaucoup de villes de Paris.
+— What's certain is that high-speed trains have brought many cities closer to Paris.
+— Certains font même l'aller-retour tous les jours pour travailler.
+— Some even make the round trip every day for work.
+= Ils rêvent de quitter la capitale. | They dream of leaving the capital.
+= Pour le même prix. | For the same price.
+= Ce qui est sûr, c'est que… | What's certain is that…
+
+@ b2c-09 | Faire une suggestion | Making a Suggestion | plans, suggestions
+— Et si on allait au marché demain matin, avant qu'il fasse trop chaud ?
+— What if we went to the market tomorrow morning, before it gets too hot?
+— Pourquoi pas. Ça te dirait de pique-niquer au bord de la rivière ensuite ?
+— Why not. Would you fancy a picnic by the river afterwards?
+— Bonne idée ! On pourrait aussi louer des vélos pour y aller.
+— Good idea! We could also rent bikes to get there.
+— Je propose qu'on parte vers neuf heures, comme ça on évite la foule.
+— I suggest we leave around nine, that way we avoid the crowds.
+— Ça me va. Je m'occupe du pain et du fromage.
+— Works for me. I'll take care of the bread and cheese.
+= Et si on allait… ? | What if we went…?
+= Ça te dirait de… ? | Would you fancy…?
+= Je propose qu'on parte vers neuf heures. | I suggest we leave around nine.
+= Je m'occupe de… | I'll take care of…
+
+@ b2c-10 | Le français familier | Casual French | slang, informal
+— Hier soir, j'étais crevé, alors je suis resté chez moi.
+— Last night I was knackered, so I stayed home.
+— T'inquiète, c'est pas grave, on remet ça samedi.
+— Don't worry, no big deal, we'll do it again on Saturday.
+— Ça marche ! Tu viens avec ta copine ?
+— Deal! Are you coming with your girlfriend?
+— Carrément, elle a trop envie de te rencontrer.
+— Definitely, she's really keen to meet you.
+— Le film d'hier, c'était comment ? — Bof, rien de spécial.
+— How was yesterday's film? — Meh, nothing special.
+— À l'oral, on supprime souvent le « ne » de la négation : « c'est pas grave » au lieu de « ce n'est pas grave ».
+— In speech, people often drop the "ne" of the negative: "c'est pas grave" instead of "ce n'est pas grave".
+= J'étais crevé. | I was knackered.
+= T'inquiète, c'est pas grave. | Don't worry, no big deal.
+= Carrément. | Definitely / totally.
+= Bof, rien de spécial. | Meh, nothing special.
+
+@ b2c-11 | Exprimer ses émotions | Expressing Feelings | emotions, subjunctive
+— Je suis ravi que tu aies pu venir, ça me fait vraiment plaisir.
+— I'm delighted you could come, it really makes me happy.
+— Moi aussi ! Par contre, ça m'énerve que le train soit encore en retard.
+— Me too! But it annoys me that the train is late again.
+— Je comprends, c'est agaçant. Tu as eu de la chance de trouver une correspondance.
+— I understand, it's irritating. You were lucky to find a connection.
+— Oui, j'avais peur de rater le début de la soirée.
+— Yes, I was afraid of missing the start of the evening.
+— L'essentiel, c'est que tu sois là.
+— The main thing is that you're here.
+= Je suis ravi que tu aies pu venir. | I'm delighted you could come.
+= Ça me fait vraiment plaisir. | It really makes me happy.
+= Ça m'énerve que… | It annoys me that…
+= L'essentiel, c'est que tu sois là. | The main thing is that you're here.
+
+@ b2c-12 | Trouver un compromis | Finding a Compromise | negotiation, plans
+— Tu veux voir le musée et moi, je préfère la plage. Comment on fait ?
+— You want to see the museum and I'd prefer the beach. What do we do?
+— On pourrait faire le musée le matin, quand il fait encore frais, et la plage l'après-midi.
+— We could do the museum in the morning, while it's still cool, and the beach in the afternoon.
+— D'accord, mais à condition qu'on ne reste pas plus de deux heures au musée.
+— OK, but on condition that we don't stay more than two hours at the museum.
+— Marché conclu. Et en échange, c'est toi qui choisis le restaurant ce soir.
+— Deal. And in return, you choose the restaurant tonight.
+— Là, tu commences à parler ma langue !
+— Now you're talking my language!
+= Comment on fait ? | What do we do?
+= À condition qu'on ne reste pas trop longtemps. | On condition we don't stay too long.
+= Marché conclu. | Deal.
+= En échange… | In return…
+
+@ b2c-13 | Parler de l'avenir | Talking About the Future | future, ambitions
+— Où est-ce que tu te vois dans cinq ans ?
+— Where do you see yourself in five years?
+— Idéalement, j'aimerais diriger ma propre équipe de recherche.
+— Ideally, I'd like to lead my own research team.
+— Et tu envisages de partir à l'étranger ?
+— And are you considering moving abroad?
+— Pourquoi pas, si l'occasion se présente. Je ne suis fermé à rien.
+— Why not, if the opportunity arises. I'm not ruling anything out.
+— Une fois que j'aurai fini ma thèse, j'y verrai plus clair.
+— Once I've finished my PhD, I'll see things more clearly.
+— En tout cas, tu as l'air de savoir ce que tu veux.
+— In any case, you seem to know what you want.
+= Où est-ce que tu te vois dans cinq ans ? | Where do you see yourself in five years?
+= Tu envisages de… ? | Are you considering…?
+= Si l'occasion se présente. | If the opportunity arises.
+= J'y verrai plus clair. | I'll see things more clearly.
+
+@ b2c-14 | Changer de sujet | Changing the Subject | conversation, discourse
+— Au fait, tu as des nouvelles de Claire ?
+— By the way, have you heard from Claire?
+— Oui, justement, elle vient de trouver un nouveau travail à Montréal.
+— Yes, as it happens, she's just found a new job in Montreal.
+— Ah bon ? Je ne savais pas qu'elle cherchait.
+— Really? I didn't know she was looking.
+— Moi non plus, ça a été très rapide. Mais pour revenir à ce qu'on disait…
+— Me neither, it was very quick. But to get back to what we were saying…
+— Oui, pardon, je t'ai coupé. Tu parlais de ton voyage.
+— Yes, sorry, I interrupted you. You were talking about your trip.
+= Au fait… | By the way…
+= Tu as des nouvelles de… ? | Have you heard from…?
+= Pour revenir à ce qu'on disait… | To get back to what we were saying…
+= Je t'ai coupé. | I interrupted you.
+
+@ b2c-15 | Débattre avec tact | Debating Tactfully | debate, politeness
+— Je vois ce que tu veux dire, mais je ne suis pas tout à fait convaincu.
+— I see what you mean, but I'm not entirely convinced.
+— Qu'est-ce qui te gêne exactement ?
+— What exactly bothers you?
+— Ton argument tient debout, sauf qu'il ne prend pas en compte le coût réel.
+— Your argument holds up, except that it doesn't take the real cost into account.
+— C'est vrai, je n'y avais pas pensé.
+— That's true, I hadn't thought of that.
+— Cela dit, je reconnais que ta solution est plus simple à mettre en place.
+— That said, I admit your solution is simpler to put in place.
+— Bon, on n'est pas obligés d'être d'accord sur tout !
+— Well, we don't have to agree on everything!
+= Je vois ce que tu veux dire, mais… | I see what you mean, but…
+= Je ne suis pas tout à fait convaincu. | I'm not entirely convinced.
+= Je n'y avais pas pensé. | I hadn't thought of that.
+= Cela dit… | That said…
