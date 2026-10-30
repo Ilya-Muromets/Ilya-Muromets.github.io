@@ -1,0 +1,215 @@
+# deck: id=b2-problems | title=B2 · When Things Go Wrong | level=B2 | kind=problems | vocab_min=0.85
+# desc: Doctors, theft, cancelled trains, lost luggage, complaints and apologies — sorting things out calmly.
+
+@ b2p-01 | Chez le médecin | At the Doctor's | health
+— Qu'est-ce qui vous amène ?
+— What brings you here?
+— Depuis trois jours, j'ai de la fièvre et une toux qui ne passe pas.
+— For three days I've had a fever and a cough that won't go away.
+— Vous avez du mal à respirer ?
+— Are you having trouble breathing?
+— Un peu, surtout la nuit quand je suis allongé.
+— A little, especially at night when I'm lying down.
+— Je vais vous ausculter… Ce n'est rien de grave, c'est une bronchite. Je vous prescris un sirop et du repos.
+— I'll listen to your chest… It's nothing serious, it's bronchitis. I'll prescribe a syrup and rest.
+— Est-ce que je peux prendre l'avion dimanche ?
+— Can I fly on Sunday?
+= Qu'est-ce qui vous amène ? | What brings you here?
+= Une toux qui ne passe pas. | A cough that won't go away.
+= J'ai du mal à respirer. | I'm having trouble breathing.
+= Ce n'est rien de grave. | It's nothing serious.
+
+@ b2p-02 | On m'a volé mon portefeuille | My Wallet Was Stolen | police, theft
+— Bonjour, je viens porter plainte. On m'a volé mon portefeuille dans le métro.
+— Hello, I've come to report a crime. My wallet was stolen on the metro.
+— Vous savez à quelle heure et à quelle station ?
+— Do you know what time and at which station?
+— Vers dix-huit heures, entre Châtelet et Bastille. Je ne me suis rendu compte de rien.
+— Around six p.m., between Châtelet and Bastille. I didn't notice a thing.
+— Qu'est-ce qu'il y avait dedans ?
+— What was in it?
+— Ma carte bancaire, mon permis de conduire et environ cinquante euros. J'ai déjà fait opposition sur la carte.
+— My bank card, my driving licence and about fifty euros. I've already cancelled the card.
+— Très bien. Je vais prendre votre déclaration, et vous recevrez un récépissé pour votre assurance.
+— Very good. I'll take your statement, and you'll receive a receipt for your insurance.
+= Je viens porter plainte. | I've come to report a crime.
+= On m'a volé mon portefeuille. | My wallet was stolen.
+= Je ne me suis rendu compte de rien. | I didn't notice a thing.
+= J'ai déjà fait opposition sur la carte. | I've already cancelled the card.
+
+@ b2p-03 | Une réclamation à l'hôtel | A Complaint at the Hotel | hotel, complaints
+— Je suis désolé de vous déranger, mais je voudrais faire une réclamation.
+— I'm sorry to bother you, but I'd like to make a complaint.
+— Je vous écoute.
+— I'm listening.
+— Il y avait des travaux à côté de ma chambre dès sept heures du matin, et personne ne nous avait prévenus.
+— There were building works next to my room from seven in the morning, and nobody had warned us.
+— Je comprends tout à fait votre mécontentement. C'est inadmissible.
+— I fully understand your dissatisfaction. It's unacceptable.
+— Je ne demande pas grand-chose, mais un geste commercial serait le bienvenu.
+— I'm not asking for much, but a gesture of goodwill would be welcome.
+— Je peux vous rembourser une nuit et vous offrir le petit-déjeuner.
+— I can refund one night and offer you breakfast.
+= Je voudrais faire une réclamation. | I'd like to make a complaint.
+= Personne ne nous avait prévenus. | Nobody had warned us.
+= Un geste commercial serait le bienvenu. | A gesture of goodwill would be welcome.
+
+@ b2p-04 | Un train supprimé | A Cancelled Train | train, refunds
+— Mon train a été supprimé et je vais rater ma correspondance pour l'aéroport.
+— My train has been cancelled and I'm going to miss my connection to the airport.
+— Le prochain part dans une heure. Je peux vous placer dessus.
+— The next one leaves in an hour. I can put you on it.
+— Et si je rate mon vol à cause de ce retard, qui est responsable ?
+— And if I miss my flight because of this delay, who's responsible?
+— Malheureusement, la compagnie ferroviaire ne prend pas en charge les correspondances aériennes.
+— Unfortunately, the rail company doesn't cover connecting flights.
+— En revanche, vous avez droit à une indemnisation pour le retard. Il suffit de remplir le formulaire en ligne.
+— However, you're entitled to compensation for the delay. You just need to fill in the form online.
+— D'accord, je garde mon billet comme justificatif.
+— OK, I'll keep my ticket as proof.
+= Je vais rater ma correspondance. | I'm going to miss my connection.
+= Qui est responsable ? | Who's responsible?
+= Vous avez droit à une indemnisation. | You're entitled to compensation.
+= Il suffit de remplir le formulaire. | You just need to fill in the form.
+
+@ b2p-05 | Une valise égarée | Lost Luggage | flying, luggage
+— Ma valise n'est pas arrivée. J'ai attendu jusqu'au bout sur le tapis.
+— My suitcase hasn't arrived. I waited until the very end at the carousel.
+— Vous avez votre étiquette de bagage ? Je vais lancer une recherche.
+— Do you have your baggage tag? I'll start a search.
+— La voici. Elle est noire, avec un ruban rouge sur la poignée.
+— Here it is. It's black, with a red ribbon on the handle.
+— D'après le système, elle est restée à Francfort. Elle devrait arriver par le vol de demain.
+— According to the system, it stayed in Frankfurt. It should arrive on tomorrow's flight.
+— Et en attendant, je n'ai rien pour me changer.
+— And in the meantime, I have nothing to change into.
+— Vous pouvez acheter le nécessaire et vous faire rembourser sur présentation des factures.
+— You can buy the essentials and get reimbursed on presenting the receipts.
+= Ma valise n'est pas arrivée. | My suitcase hasn't arrived.
+= D'après le système… | According to the system…
+= Je n'ai rien pour me changer. | I have nothing to change into.
+= Vous faire rembourser. | Get reimbursed.
+
+@ b2p-06 | Une urgence | An Emergency | emergency, health
+— Allô, le quinze ? Mon ami a fait un malaise, il ne répond plus.
+— Hello, emergency services? My friend has collapsed, he's not responding.
+— Gardez votre calme. Est-ce qu'il respire ?
+— Stay calm. Is he breathing?
+— Oui, mais il est très pâle.
+— Yes, but he's very pale.
+— Mettez-le en position latérale de sécurité et restez à côté de lui. Donnez-moi l'adresse exacte.
+— Put him in the recovery position and stay next to him. Give me the exact address.
+— Douze rue des Lilas, au troisième étage. Le code de la porte est quatre, cinq, A.
+— Twelve rue des Lilas, third floor. The door code is four, five, A.
+— Une ambulance arrive, ne raccrochez pas.
+— An ambulance is on its way, don't hang up.
+= Mon ami a fait un malaise. | My friend has collapsed.
+= Gardez votre calme. | Stay calm.
+= Est-ce qu'il respire ? | Is he breathing?
+= Ne raccrochez pas. | Don't hang up.
+
+@ b2p-07 | Une carte bloquée | A Blocked Card | bank, phone
+— Bonjour, ma carte a été refusée deux fois aujourd'hui, alors que j'ai de l'argent sur mon compte.
+— Hello, my card has been declined twice today, even though I have money in my account.
+— Vous êtes à l'étranger en ce moment ?
+— Are you abroad at the moment?
+— Oui, en France, depuis mardi.
+— Yes, in France, since Tuesday.
+— Par sécurité, le système a bloqué la carte après un paiement inhabituel. Je peux la débloquer maintenant.
+— For security, the system blocked the card after an unusual payment. I can unblock it now.
+— Merci. Comment éviter que ça se reproduise ?
+— Thanks. How do I stop it happening again?
+— Prévenez-nous de vos voyages dans l'application, ça suffit.
+— Tell us about your trips in the app, that's enough.
+= Ma carte a été refusée. | My card was declined.
+= Alors que j'ai de l'argent sur mon compte. | Even though I have money in my account.
+= Comment éviter que ça se reproduise ? | How do I stop it happening again?
+
+@ b2p-08 | Une erreur sur l'addition | A Mistake on the Bill | restaurant, money
+— Excusez-moi, je crois qu'il y a une erreur sur l'addition.
+— Excuse me, I think there's a mistake on the bill.
+— Ah bon ? Laquelle ?
+— Really? Which one?
+— On nous a compté trois desserts, alors qu'on n'en a pris que deux.
+— We've been charged for three desserts, but we only had two.
+— Vous avez raison, toutes mes excuses. Je corrige ça tout de suite.
+— You're right, my apologies. I'll correct that right away.
+— Merci, ce n'est pas grave, ça arrive.
+— Thanks, no problem, it happens.
+— Voilà la nouvelle addition. Je vous ai offert les cafés pour la peine.
+— Here's the new bill. I've given you the coffees on the house for your trouble.
+= Je crois qu'il y a une erreur sur l'addition. | I think there's a mistake on the bill.
+= On n'en a pris que deux. | We only had two.
+= Toutes mes excuses. | My apologies.
+= Ça arrive. | It happens.
+
+@ b2p-09 | La voiture est en panne | The Car Has Broken Down | car, breakdown
+— Bonjour, je suis en panne sur la nationale, à environ cinq kilomètres de Gap.
+— Hello, I've broken down on the main road, about five kilometres from Gap.
+— Qu'est-ce qui se passe exactement ?
+— What's happening exactly?
+— Un voyant rouge s'est allumé et le moteur s'est arrêté.
+— A red warning light came on and the engine stopped.
+— Vous êtes en sécurité ? Mettez votre gilet jaune et le triangle derrière la voiture.
+— Are you safe? Put on your yellow vest and place the triangle behind the car.
+— C'est fait. Combien de temps faut-il pour qu'une dépanneuse arrive ?
+— Done. How long will it take for a tow truck to arrive?
+— Environ quarante-cinq minutes. Le remorquage est couvert par votre contrat de location.
+— About forty-five minutes. The towing is covered by your rental contract.
+= Je suis en panne. | I've broken down.
+= Un voyant rouge s'est allumé. | A red warning light came on.
+= Vous êtes en sécurité ? | Are you safe?
+= C'est couvert par votre contrat. | It's covered by your contract.
+
+@ b2p-10 | Un malentendu | A Misunderstanding | apologies
+— Je crois qu'on s'est mal compris. Je pensais qu'on se retrouvait devant le cinéma, pas à l'intérieur.
+— I think we misunderstood each other. I thought we were meeting in front of the cinema, not inside.
+— Ah, c'est ma faute, j'aurais dû être plus clair dans mon message.
+— Oh, that's my fault, I should have been clearer in my message.
+— Pas du tout, j'aurais dû t'appeler au lieu d'attendre.
+— Not at all, I should have called you instead of waiting.
+— Le film a commencé il y a dix minutes… on entre quand même ?
+— The film started ten minutes ago… shall we go in anyway?
+— Sinon, on va boire un verre et on prend la séance de vingt-deux heures.
+— Otherwise, we go for a drink and catch the ten o'clock showing.
+— Va{va:pour} pour la séance de vingt-deux heures !
+— The ten o'clock showing it is!
+= Je crois qu'on s'est mal compris. | I think we misunderstood each other.
+= C'est ma faute. | It's my fault.
+= J'aurais dû t'appeler. | I should have called you.
+= Va pour… ! | … it is!
+
+@ b2p-11 | Chez le dentiste | At the Dentist's | health, urgent
+— Bonjour, j'ai très mal à une dent depuis hier soir. Est-ce que le dentiste pourrait me voir en urgence ?
+— Hello, I've had very bad toothache since last night. Could the dentist see me urgently?
+— Il a un trou à quatorze heures, mais je ne garantis pas qu'il pourra tout soigner aujourd'hui.
+— He has a gap at two o'clock, but I can't guarantee he'll be able to treat everything today.
+— Ce n'est pas grave, j'ai surtout besoin que la douleur s'arrête.
+— That doesn't matter, mainly I need the pain to stop.
+— Prenez du paracétamol en attendant, et évitez le chaud et le froid.
+— Take paracetamol in the meantime, and avoid hot and cold food.
+— Je n'ai pas de mutuelle française, je dois payer directement ?
+— I don't have French health insurance, do I have to pay directly?
+— Oui, et on vous donnera une facture pour votre assurance voyage.
+— Yes, and we'll give you an invoice for your travel insurance.
+= J'ai très mal à une dent. | I have very bad toothache.
+= Il pourrait me voir en urgence ? | Could he see me urgently?
+= J'ai surtout besoin que la douleur s'arrête. | Mainly I need the pain to stop.
+
+@ b2p-12 | Annuler une réservation | Cancelling a Booking | hotel, phone
+— Bonjour, je dois malheureusement annuler ma réservation du douze au quinze.
+— Hello, unfortunately I have to cancel my booking from the twelfth to the fifteenth.
+— Puis-je avoir votre numéro de réservation ?
+— May I have your booking number?
+— Oui, c'est le R, quatre, sept, deux, neuf.
+— Yes, it's R, four, seven, two, nine.
+— Votre tarif n'était pas remboursable, mais comme vous prévenez plus de quarante-huit heures à l'avance, je peux faire une exception.
+— Your rate was non-refundable, but since you're giving more than forty-eight hours' notice, I can make an exception.
+— Ce serait vraiment gentil de votre part. Il s'agit d'un problème familial.
+— That would be really kind of you. It's a family matter.
+— Je comprends. Vous recevrez une confirmation d'annulation par e-mail.
+— I understand. You'll receive a cancellation confirmation by email.
+= Je dois annuler ma réservation. | I have to cancel my booking.
+= Puis-je avoir… ? | May I have…?
+= À l'avance. | In advance.
+= Ce serait vraiment gentil de votre part. | That would be really kind of you.

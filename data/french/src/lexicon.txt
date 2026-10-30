@@ -1,0 +1,1588 @@
+# French reader lexicon — one entry per spelling that appears in a passage.
+#
+#   key | pos | gloss | dictionary form | level | note
+#
+# pos: m f (nouns, by gender) · v adj adv prep pron art conj num part intj phr name
+# gloss: first sense is shown under the word; separate further senses with ";".
+# level: A1 A2 B1 B2 C1, or "-" for names and words outside the scale.
+# Lookup tries the exact spelling, then lowercase, so only names need capitals.
+# Elided forms (l' d' qu' …) are split off automatically and have their own keys.
+# Underscored fixed phrases in a passage ("s'il_vous_plaît") match a key with spaces.
+
+# ---- elided forms ----
+c' | pron | it; that (ce) | ce | A1
+d' | prep | of; from; some (de) | de | A1
+j' | pron | I (je) | je | A1
+jusqu' | prep | until; up to; as far as (jusque) | jusque | A2
+l' | art | the; it, him, her (le/la) | le / la | A1
+m' | pron | me; myself (me) | me | A1
+n' | adv | not (ne) | ne | A1
+qu' | conj | that; than; what (que) | que | A1
+s' | pron | oneself; himself, herself; themselves; if (si, before il) | se / si | A1
+t' | pron | you; yourself (te) | te | A1
+
+# ---- fixed phrases ----
+s'il vous plaît | phr | please | s'il vous plaît | A1
+
+# ---- names and places ----
+3D | adj | 3D | | -
+A | name | A (letter) | | -
+Anvers | name | Anvers (metro station) | | -
+Avignon | name | Avignon | | -
+Barbès | name | Barbès (metro station) | | -
+Bastille | name | Bastille (metro station; square) | | -
+Bordeaux | name | Bordeaux | | -
+Bretagne | name | Brittany | la Bretagne | -
+Californie | name | California | la Californie | -
+Chablis | name | Chablis (white wine) | le chablis | -
+Châtelet | name | Châtelet (metro station) | | -
+Chen | name | Chen (surname) | | -
+Claire | name | Claire | | -
+Francfort | name | Frankfurt | | -
+France | name | France | la France | -
+Gap | name | Gap (town in the Alps) | | -
+Julie | name | Julie | | -
+Lilas | name | Lilas (street name; lit. lilacs) | | -
+Lyon | name | Lyon | | -
+Marseille | name | Marseille | | -
+Martin | name | Martin (surname) | | -
+Montmartre | name | Montmartre | | -
+Montréal | name | Montreal | | -
+Netflix | name | Netflix | | -
+New Jersey | name | New Jersey | le New Jersey | -
+Nice | name | Nice | | -
+Paris | name | Paris | | -
+Parisiens | m | Parisians | les Parisiens (sg. le Parisien) | -
+Porte Dauphine | name | Porte Dauphine (metro terminus) | | -
+R | name | R (letter) | | -
+Sancerre | name | Sancerre (white wine) | le sancerre | -
+Seattle | name | Seattle | | -
+WhatsApp | name | WhatsApp | | -
+États-Unis | name | the United States | les États-Unis | -
+Union | f | Union (Union européenne: European Union) | l'Union européenne | -
+
+# ---- A ----
+a | v | has (il y a: there is) | avoir | A1 | il/elle a
+à | prep | to; at; in; with | à | A1
+accent | m | accent | un accent, des accents | A2
+accepte | v | accepts | accepter | A2 | il/elle accepte
+accepter | v | accept | accepter | A2
+accord | m | agreement (d'accord: OK; agreed) | un accord | A1
+accueil | m | reception; front desk | l'accueil | A2
+achats | m | purchases | les achats (sg. un achat) | A2
+acheter | v | buy | acheter | A1
+acheté | v | bought | acheter | A1 | past participle
+activer | v | activate | activer | B1
+addition | f | bill (in a restaurant) | l'addition, les additions | A1
+adopté | v | adopted | adopter | B1 | past participle
+adresse | f | address | l'adresse, les adresses | A1
+affaires | f | belongings; things; business | les affaires | A2
+agaçant | adj | irritating; annoying | agaçant(e) | B2
+agence | f | branch; agency | l'agence, les agences | B1
+agit | v | is about (il s'agit de: it's a matter of) | s'agir | B2 | il s'agit
+ah | intj | ah; oh | ah | A1
+ai | v | have | avoir | A1 | j'ai
+aies | v | have | avoir | B2 | que tu aies (subjunctive)
+aimerais | v | would like | aimer | A2 | j'aimerais (conditional)
+aimerait | v | would like | aimer | A2 | on aimerait (conditional)
+aimez | v | like; love | aimer | A1 | vous aimez
+air | m | air; look (avoir l'air: to seem) | l'air | A2
+aires | f | areas (aire de repos: rest area) | les aires (sg. une aire) | B1
+ait | v | has | avoir | B1 | qu'il y ait (subjunctive)
+allait | v | went (et si on allait…? what if we went…?) | aller | B1 | on allait (imperfect)
+allemand | m | German (language) | l'allemand | A1
+aller | v | go | aller | A1
+aller-retour | m | return ticket; round trip | un aller-retour | A2
+allergique | adj | allergic | allergique | B1
+allergènes | m | allergens | les allergènes | B2
+allez | v | go | aller | A1 | vous allez
+allez-y | phr | go ahead | allez-y | A2
+allongé | adj | long (café allongé: long black); lying down | allongé(e) | B1
+allons-y | phr | let's go | allons-y | A2
+allume | v | lights up; turns on | s'allumer | B1 | il s'allume
+allumé | v | lit up; come on | s'allumer | B1 | past participle
+allé | v | gone | aller | A1 | past participle
+allée | v | gone | aller | A1 | past participle (feminine)
+allés | v | gone | aller | A1 | past participle (plural)
+allô | intj | hello (on the phone) | allô | A1
+alors | adv | then; so | alors | A1
+ambulance | f | ambulance | l'ambulance | A2
+ami | m | friend | un ami, des amis | A1
+amie | f | friend (woman) | une amie, des amies | A1
+amis | m | friends | les amis (sg. un ami) | A1
+amène | v | brings | amener | B1 | il/elle amène
+améliorée | v | improved | améliorer | B1 | past participle
+américain | adj | American | américain(e) | A1
+américaine | adj | American | américain(e) | A1
+an | m | year | un an, des ans | A1
+anglais | m | English (language) | l'anglais | A1
+anis | m | aniseed | l'anis | C1
+anniversaire | m | birthday | un anniversaire | A1
+annoncent | v | forecast; announce | annoncer | B1 | ils annoncent
+annulation | f | cancellation | l'annulation | B1
+annuler | v | cancel | annuler | A2
+annulé | v | cancelled | annuler | A2 | past participle
+année | f | year | l'année, les années | A1
+ans | m | years (old) | les ans (sg. un an) | A1
+appareil | m | device; camera (appareil photo) | un appareil | A2
+appeler | v | call | appeler | A1
+appelé | v | called | appeler | A1 | past participle
+application | f | app | l'application, les applications | A2
+apporte | v | bring | apporter | A2 | je t'apporte
+apporter | v | bring | apporter | A2
+apprend | v | learns | apprendre | A1 | on apprend
+appris | v | learned | apprendre | A1 | past participle
+appétit | m | appetite | l'appétit | B1
+après | prep | after; afterwards | après | A1
+après-demain | adv | the day after tomorrow | après-demain | A2
+après-midi | m | afternoon | l'après-midi | A1
+apéro | m | pre-dinner drinks | l'apéro (apéritif) | B1
+argent | m | money | l'argent | A1
+argument | m | argument | un argument | B2
+arrive | v | arrives; happens (ça arrive: it happens) | arriver | A1 | il/elle arrive
+arriver | v | arrive; happen | arriver | A1
+arrivera | v | will arrive | arriver | A2 | il arrivera (future)
+arrivez | v | arrive | arriver | A1 | vous arrivez
+arrivé | v | arrived; happened | arriver | A1 | past participle
+arrivée | f | arrival | l'arrivée | A2
+arrête | v | stops | arrêter | A2 | elle s'arrête
+arrêté | v | stopped | arrêter | A2 | past participle
+articles | m | items; articles | les articles (sg. un article) | B1
+as | v | have | avoir | A1 | tu as
+ascenseur | m | lift; elevator | l'ascenseur | A2
+asseoir | v | sit down (s'asseoir) | s'asseoir | A2
+assez | adv | fairly; quite; enough | assez | A1
+assurance | f | insurance | l'assurance | A2
+ateliers | m | workshops | les ateliers (sg. un atelier) | B1
+attend | v | waits; wait (on attend: we wait) | attendre | A1 | on attend
+attendais | v | was waiting | attendre | A2 | j'attendais (imperfect)
+attendant | v | waiting (en attendant: in the meantime) | attendre | A2 | present participle
+attendre | v | wait; wait for | attendre | A1
+attends | v | wait | attendre | A1 | j'attends
+attendu | v | waited | attendre | A1 | past participle
+attention | f | attention (faire attention: be careful) | l'attention | A1
+au | prep | to the; at the; in the (à + le) | au | A1
+au-dessus | adv | above (la taille au-dessus: the next size up) | au-dessus | A2
+aucun | adj | no; not any | aucun(e) | A2
+audioguides | m | audio guides | les audioguides | B1
+aujourd'hui | adv | today | aujourd'hui | A1
+aura | v | will have | avoir | A2 | il y aura (future)
+aurai | v | will have | avoir | A2 | j'aurai (future)
+aurais | v | would have | avoir | B1 | j'aurais (j'aurais dû: I should have)
+aurait | v | would have | avoir | B1 | on aurait
+auriez | v | would have | avoir | B1 | vous auriez
+ausculter | v | listen to (a patient's chest) | ausculter | C1
+aussi | adv | also; too | aussi | A1
+autant | adv | as much (autant que vous voulez: as much as you like) | autant | B1
+automatique | adj | automatic | automatique | A2
+autorisées | adj | permitted | autorisé(e) | B1
+autoroutes | f | motorways | les autoroutes (sg. une autoroute) | A2
+autre | adj | other; another | autre | A1
+autres | adj | other; others | autre | A1
+aux | prep | to the; at the; with (à + les) | aux | A1
+avais | v | had | avoir | A2 | j'avais (imperfect)
+avait | v | had (il y avait: there was) | avoir | A2 | il avait (imperfect)
+avalé | v | swallowed | avaler | B2 | past participle
+avance | f | advance (à l'avance: in advance) | l'avance | B1
+avant | prep | before | avant | A1
+avantage | m | advantage | un avantage | B1
+avec | prep | with | avec | A1
+avez | v | have | avoir | A1 | vous avez
+avion | m | plane | un avion | A1
+avis | m | opinion | un avis | A2
+avoir | v | have | avoir | A1
+avons | v | have | avoir | A1 | nous avons
+aériennes | adj | air (correspondances aériennes: connecting flights) | aérien(ne) | B2
+aéroport | m | airport | l'aéroport | A1
+aînée | adj | older; eldest | aîné(e) | B1
+
+# ---- B ----
+bagage | m | bag; luggage | un bagage, des bagages | A2
+bagagerie | f | luggage room | la bagagerie | C1
+bagages | m | luggage | les bagages (sg. un bagage) | A2
+baguette | f | baguette | la baguette | A1
+balcon | m | balcony; circle (in a theatre) | le balcon | A2
+bancaire | adj | bank (carte bancaire: bank card) | bancaire | B1
+banque | f | bank | la banque | A1
+bar | m | bar | le bar | A1
+barquette | f | punnet; small tray | la barquette | C1
+bas | m | bottom (en bas: at the bottom; downstairs) | le bas | A2
+basilic | m | basil | le basilic | B2
+bateau | m | boat | le bateau, les bateaux | A1
+beau | adj | nice; beautiful (il fait beau: the weather's nice) | beau, belle | A1
+beaucoup | adv | a lot; much; many | beaucoup | A1
+besoin | m | need (avoir besoin de: need) | le besoin | A2
+bien | adv | well; good; really | bien | A1
+bientôt | adv | soon | bientôt | A1
+bienvenu | adj | welcome | bienvenu(e) | A2
+bilingue | adj | bilingual | bilingue | B1
+billet | m | ticket | le billet, les billets | A1
+billets | m | tickets | les billets (sg. le billet) | A1
+bières | f | beers | les bières (sg. la bière) | A1
+blanc | adj | white | blanc, blanche | A1
+bleu | adj | blue | bleu(e) | A1
+bloqué | v | blocked | bloquer | B1 | past participle
+bof | intj | meh | bof | B2
+boire | v | drink | boire | A1
+bois | v | drink | boire | A1 | tu bois
+boit | v | drinks | boire | A1 | on le boit
+bon | adj | good; right; well (interjection) | bon, bonne | A1
+bonjour | intj | hello; good morning | bonjour | A1
+bonne | adj | good | bon, bonne | A1
+bonsoir | intj | good evening | bonsoir | A1
+bord | m | edge (au bord de: by, alongside) | le bord | A2
+bordereau | m | form; slip | le bordereau | C1
+borne | f | kiosk; terminal | la borne | B2
+bouchons | m | plugs (bouchons d'oreilles: earplugs) | les bouchons (sg. le bouchon) | B2
+bougera | v | will move; will change | bouger | B1 | rien ne bougera (future)
+boulangerie | f | bakery | la boulangerie | A1
+bouquet | m | bouquet; bunch | le bouquet | B1
+bout | m | end (au bout de: at the end of; jusqu'au bout: to the very end) | le bout | A2
+bouteille | f | bottle | la bouteille | A1
+boîte | f | box | la boîte | A1
+bref | adv | in short | bref | B1
+bronchite | f | bronchitis | la bronchite | C1
+bruyant | adj | noisy | bruyant(e) | B1
+bureau | m | desk; office | le bureau, les bureaux | A1
+bus | m | bus; coach | le bus | A1
+bénéficier | v | benefit (from); be entitled to | bénéficier | B2
+
+# ---- C ----
+cabine | f | cabin; fitting room (cabine d'essayage) | la cabine | B1
+cabines | f | fitting rooms | les cabines (sg. la cabine) | B1
+cadeau | m | present; gift | le cadeau, les cadeaux | A1
+café | m | coffee; café | le café, les cafés | A1
+cafés | m | coffees | les cafés (sg. le café) | A1
+caisse | f | till; checkout (ticket de caisse: receipt) | la caisse | A2
+calme | m | calm | le calme | A2
+canal | m | canal | le canal | B1
+canard | m | duck | le canard | B1
+capitale | f | capital | la capitale | A2
+carafe | f | jug; carafe | la carafe | B1
+carnets | m | notebooks | les carnets (sg. le carnet) | B1
+carrément | adv | definitely; totally | carrément | B2
+carte | f | card; map; menu | la carte, les cartes | A1
+cartes | f | cards | les cartes (sg. la carte) | A1
+cas | m | case (au cas où: just in case) | le cas | A2
+cassé | adj | broken | casser | A2 | past participle
+cause | f | cause (à cause de: because of) | la cause | A2
+ce | pron | this; that; it | ce | A1
+ceci | pron | this (et avec ceci? anything else?) | ceci | A2
+cela | pron | that (cela dit: that said) | cela | A2
+celle-ci | pron | this one | celle-ci | A2
+celles-ci | pron | these (ones) | celles-ci | A2
+celui-ci | pron | this one | celui-ci | A2
+cent | num | hundred | cent | A1
+centimètres | m | centimetres | les centimètres | A2
+centre | m | centre | le centre | A1
+cents | num | hundred | cent | A1
+certains | pron | some (people) | certain(e)s | A2
+ces | pron | these; those | ce | A1
+cet | pron | this | ce | A1
+cette | pron | this | ce | A1
+ceux | pron | those; the ones | ceux | B1
+chacun | pron | each person; everyone | chacun(e) | B1
+chambre | f | room; bedroom | la chambre | A1
+champignons | m | mushrooms | les champignons (sg. le champignon) | A2
+chance | f | luck | la chance | A2
+change | v | change | changer | A1 | je vous le change
+changement | m | change | le changement | B1
+changer | v | change | changer | A1
+changera | v | will move (changer de chambre) | changer | A2 | on vous changera (future)
+chaque | adj | each; every | chaque | A1
+charge | f | charge (prendre en charge: cover; take responsibility for) | la charge | B2
+chaud | adj | warm; hot | chaud(e) | A1
+chaussure | f | shoe | la chaussure | A1
+chef | m | chef; boss | le chef | A1
+chemin | m | way; path (demander son chemin: ask for directions) | le chemin | A2
+cher | adj | expensive | cher, chère | A1
+cherchait | v | was looking | chercher | A2 | elle cherchait (imperfect)
+cherche | v | am looking for | chercher | A1 | je cherche
+chers | adj | expensive | cher, chère | A1
+chez | prep | at the home of; at | chez | A1
+chocolat | m | chocolate | le chocolat | A1
+choisirais | v | would choose | choisir | B1 | tu choisirais (conditional)
+choisis | v | choose | choisir | A2 | tu choisis
+choisissez | v | choose | choisir | A2 | vous choisissez
+choix | m | choice | le choix | A2
+chose | f | thing | la chose | A1
+choses | f | things | les choses (sg. la chose) | A1
+chrysanthèmes | m | chrysanthemums | les chrysanthèmes | C1
+château | m | château; castle | le château, les châteaux | A2
+chèvre | m | goat's cheese | le chèvre | B1
+cinq | num | five | cinq | A1
+cinquante | num | fifty | cinquante | A1
+cinéma | m | cinema | le cinéma | A1
+circulation | f | traffic | la circulation | A2
+circulent | v | run (of trains) | circuler | B1 | ils circulent
+clair | adj | clear | clair(e) | A2
+classique | adj | classic; typical | classique | A2
+client | m | client; customer | le client | A2
+climatisation | f | air conditioning | la climatisation | B1
+clocher | m | bell tower | le clocher | C1
+clés | f | keys | les clés (sg. la clé) | A1
+code | m | code | le code | A2
+coffre | m | boot; trunk | le coffre | B1
+cohésion | f | cohesion | la cohésion | C1
+coin | m | area; corner (du coin: local) | le coin | A2
+colis | m | parcel | le colis | B1
+collègues | m | colleagues | les collègues (sg. un/une collègue) | A2
+coloré | adj | colourful | coloré(e) | B1
+combien | adv | how much; how many (combien de temps: how long) | combien | A1
+commande | f | order | la commande | B1
+commandé | v | ordered | commander | A2 | past participle
+comme | conj | like; as | comme | A1
+commence | v | starts; begins | commencer | A1 | il/elle commence
+commencent | v | start | commencer | A1 | ils commencent
+commences | v | start | commencer | A1 | tu commences
+commencé | v | started | commencer | A1 | past participle
+comment | adv | how; what like (c'est comment?) | comment | A1
+commercial | adj | commercial (geste commercial: goodwill gesture) | commercial(e) | B2
+commerçants | m | shopkeepers | les commerçants | B1
+compagnie | f | company (airline, rail) | la compagnie | B1
+complet | adj | full; fully booked | complet, complète | A2
+compliment | m | compliment | le compliment | B1
+complémentaire | adj | additional; extra | complémentaire | B2
+comprends | v | understand | comprendre | A1 | je comprends
+compris | v | included; understood | comprendre | A2 | past participle
+comprises | v | included | comprendre | A2 | past participle (feminine plural)
+compte | m | account | le compte | A2
+comptes | v | plan (to) (compter faire) | compter | B1 | tu comptes
+comptez | v | allow; count (on) | compter | B1 | vous comptez
+comptoir | m | counter; bar | le comptoir | B1
+compté | v | counted; charged | compter | B1 | past participle
+comté | m | comté (hard cheese) | le comté | -
+conclu | v | concluded (marché conclu: deal) | conclure | B2 | past participle
+concrètement | adv | in practice; concretely | concrètement | B2
+condition | f | condition (à condition que: provided that) | la condition | B1
+conduire | v | drive (permis de conduire: driving licence) | conduire | A2
+conférence | f | conference | la conférence | B1
+confirmation | f | confirmation | la confirmation | B1
+connais | v | know | connaître | A1 | je connais
+connaissais | v | knew | connaître | A2 | je connaissais (imperfect)
+conseille | v | recommend; advise | conseiller | A2 | je conseille
+conseiller | v | recommend; advise | conseiller | A2
+conseillez | v | recommend | conseiller | A2 | vous conseillez
+contemporain | adj | contemporary | contemporain(e) | B2
+contenu | m | contents | le contenu | B1
+continuez | v | continue; keep going | continuer | A2 | vous continuez
+contraire | m | opposite (dire le contraire: say otherwise) | le contraire | B1
+contrat | m | contract | le contrat | B1
+contre | prep | against | contre | A2
+contrôle | m | check (contrôle de sécurité: security) | le contrôle | B1
+convaincu | adj | convinced | convaincu(e) | B2
+copine | f | girlfriend; friend | la copine | A2
+coque | f | shell (fruits à coque: nuts) | la coque | C1
+correspondance | f | connection; change (of train) | la correspondance | B1
+correspondances | f | connections | les correspondances | B1
+corrige | v | correct | corriger | B1 | je corrige
+coucher | m | setting (coucher du soleil: sunset) | le coucher | B1
+couchettes | f | berths; couchettes | les couchettes | C1
+coule | v | runs (j'ai le nez qui coule: my nose is running) | couler | B1 | il coule
+couloir | m | corridor | le couloir | A2
+coup | m | blow (coup d'œil: glance; ça vaut le coup: it's worth it) | le coup | B1
+coupé | v | cut off; interrupted | couper | B1 | past participle
+cour | f | courtyard | la cour | B1
+courage | m | courage (bon courage: good luck) | le courage | A2
+courant | m | current (tenir au courant: keep posted) | le courant | B1
+courir | v | run | courir | A2
+court | adj | short | court(e) | A1
+courte | adj | short | court(e) | A1
+courtes | adj | short | court(e) | A1
+couvert | v | covered | couvrir | B1 | past participle
+couvrir | v | cover | couvrir | B1
+coût | m | cost | le coût | B2
+coûte | v | costs | coûter | A1 | il coûte
+coûterait | v | would cost | coûter | A2 | ça coûterait (conditional)
+craignent | v | fear | craindre | B2 | ils craignent
+crevé | adj | knackered; worn out (informal) | crevé(e) | B2
+crois | v | think; believe | croire | A2 | je crois
+crois-moi | phr | believe me | crois-moi | B1
+croissants | m | croissants | les croissants | A1
+crème | m | white coffee (un crème) | un (café) crème | B1
+créez | v | create | créer | B1 | vous créez
+créneau | m | time slot | le créneau | B2
+crêperie | f | crêpe restaurant | la crêperie | B1
+cueillies | v | picked | cueillir | C1 | past participle (feminine plural)
+cuisine | f | kitchen; cooking | la cuisine | A1
+cuisson | f | cooking (how meat is done) | la cuisson | B1
+cuite | adj | baked; cooked | cuit(e) | B1
+culture | f | culture | la culture | A2
+culturelle | adj | cultural | culturel(le) | B1
+cyclable | adj | cycle (piste cyclable: cycle path) | cyclable | B2
+côté | m | side (à côté de: next to; côté fenêtre: window side) | le côté | A2
+côtés | m | sides | les côtés | A2
+
+# ---- D ----
+dans | prep | in; into | dans | A1
+date | f | date | la date | A1
+de | prep | of; from; some | de | A1
+debout | adv | standing (tenir debout: hold up) | debout | B1
+dedans | adv | inside; in it | dedans | B1
+demain | adv | tomorrow | demain | A1
+demande | v | ask (for) | demander | A1 | il demande
+demander | v | ask; ask for | demander | A1
+demandé | v | asked | demander | A1 | past participle
+demi-bouteille | f | half-bottle | la demi-bouteille | B1
+demi-heure | f | half an hour | la demi-heure | A2
+demi-kilo | m | half a kilo | le demi-kilo | A2
+demie | adj | half (et demie: half past) | demi(e) | A1
+dent | f | tooth | la dent | A2
+dentiste | m | dentist | le dentiste | A2
+depuis | prep | since; for (time) | depuis | A1
+dernière | adj | last | dernier, dernière | A1
+derrière | prep | behind | derrière | A1
+des | art | some; of the (de + les) | des | A1
+descends | v | get off; go down | descendre | A2 | je descends
+description | f | description | la description | A2
+dessert | m | dessert | le dessert | A1
+desserts | m | desserts | les desserts | A1
+dessus | adv | on top (sur le dessus: on top; dessus: on it) | dessus | B1
+deux | num | two | deux | A1
+deuxième | adj | second | deuxième | A1
+devant | prep | in front of; outside | devant | A1
+devineras | v | will guess | deviner | B1 | tu devineras (future)
+devrait | v | should | devoir | B1 | ça devrait (conditional)
+difficile | adj | difficult | difficile | A1
+dimanche | m | Sunday | le dimanche | A1
+dimensions | f | dimensions | les dimensions | B2
+dirais | v | would say | dire | B1 | je dirais (conditional)
+dirait | v | would say (ça te dirait? would you fancy?) | dire | B1 | ça te dirait (conditional)
+diras | v | will tell | dire | A2 | tu me diras (future)
+dire | v | say; mean (vouloir dire) | dire | A1
+directement | adv | directly; straight | directement | A2
+direction | f | direction; towards | la direction | A2
+diriger | v | lead; manage | diriger | B2
+dis | v | say | dire | A1 | je dis
+disais | v | was saying | dire | A2 | je disais (imperfect)
+disait | v | were saying | dire | A2 | on disait (imperfect)
+dise | v | says | dire | B2 | qu'il dise (subjunctive)
+disons | v | let's say | dire | B1 | disons (imperative)
+distributeur | m | cash machine | le distributeur | B1
+dit | v | said; say (on dit: people say) | dire | A1 | il dit / past participle
+dix | num | ten | dix | A1
+dix-huit | num | eighteen | dix-huit | A1
+dix-neuf | num | nineteen | dix-neuf | A1
+dix-sept | num | seventeen | dix-sept | A1
+dizaine | f | about ten | une dizaine | B1
+doctorant | m | PhD student | le doctorant | B2
+dois | v | must; have to | devoir | A2 | je dois
+dommage | m | pity (dommage!: too bad!) | le dommage | A2
+don | m | donation | le don, les dons | B2
+donne | v | give | donner | A1 | je donne
+donnera | v | will give | donner | A2 | on vous donnera (future)
+donnez | v | give | donner | A1 | vous donnez
+donnez-moi | phr | give me | donnez-moi | A1
+donné | v | given | donner | A1 | past participle
+données | f | data | les données | B1
+dons | m | donations | les dons (sg. le don) | B2
+dormi | v | slept | dormir | A1 | past participle
+dos | m | back (sac à dos: backpack) | le dos | A2
+douane | f | customs | la douane | B1
+douleur | f | pain | la douleur | B1
+doute | v | doubt | douter | B2 | je doute
+doux | adj | mild; soft; sweet | doux, douce | A2
+douze | num | twelve | douze | A1
+draps | m | sheets | les draps (sg. le drap) | B2
+droit | m | right (avoir le droit de: be allowed to; avoir droit à: be entitled to) | le droit | B1
+droite | f | right (à droite: on the right) | la droite | A1
+drôle | adj | funny | drôle | A2
+du | art | of the; some (de + le) | du | A1
+dure | v | lasts | durer | A2 | il/elle dure
+durent | v | last | durer | A2 | ils durent
+duré | v | lasted | durer | A2 | past participle
+dès | prep | from; as soon as (dès que) | dès | B1
+débloquer | v | unblock | débloquer | B2
+débrouilles | v | manage; get by | se débrouiller | B1 | tu te débrouilles
+début | m | beginning | le début | A2
+décision | f | decision | la décision | B1
+déclaration | f | statement; report | la déclaration | B2
+décollé | v | come unstuck; come off | se décoller | B2 | past participle
+déjà | adv | already; ever | déjà | A1
+délai | m | time; delay; deadline | le délai | B2
+délicieux | adj | delicious | délicieux, délicieuse | A2
+démarque | f | markdown | la démarque | C1
+déménager | v | move (house) | déménager | B1
+dépanneuse | f | tow truck | la dépanneuse | C1
+départ | m | departure | le départ | A2
+dépend | v | depends | dépendre | B1 | ça dépend
+dépendra | v | will depend | dépendre | B1 | ça dépendra (future)
+déplace | v | get around (se déplacer) | se déplacer | B1 | on se déplace
+déposer | v | drop off; leave | déposer | B1
+déposez | v | leave; drop off | déposer | B1 | vous déposez
+dérange | v | bothers; disturbs (ça vous dérange? do you mind?) | déranger | B1 | ça dérange
+déranger | v | bother; disturb | déranger | B1
+dérangerait | v | would bother (ça vous dérangerait de…? would you mind…?) | déranger | B1 | conditional
+désolé | adj | sorry | désolé(e) | A1
+désolée | adj | sorry | désolé(e) | A1
+détaxe | f | tax refund | la détaxe | C1
+dîne | v | have dinner | dîner | A1 | on dîne
+dîner | m | dinner | le dîner | A1
+dîné | v | had dinner | dîner | A1 | past participle
+dû | v | had to (j'aurais dû: I should have) | devoir | B1 | past participle
+dîner:v | v | have dinner | dîner | A1
+
+# ---- E ----
+e-mail | m | email | l'e-mail | A2
+eau | f | water | l'eau | A1
+elle | pron | she; it; her | elle | A1
+elles | pron | they; them (feminine) | elles | A1
+embarquement | m | boarding | l'embarquement | B1
+emporter | v | take away (à emporter: takeaway) | emporter | B1
+en | prep | in; by; of it, some (pronoun) | en | A1
+encombrant | adj | bulky | encombrant(e) | C1
+encore | adv | still; again; yet | encore | A1
+endroits | m | places | les endroits (sg. un endroit) | A2
+enfants | m | children | les enfants (sg. un enfant) | A1
+enlever | v | take off; remove | enlever | B1
+enregistrement | m | check-in | l'enregistrement | B1
+enregistrer | v | check in (luggage); record | enregistrer | B1
+ensemble | adv | together | ensemble | A1
+ensuite | adv | then; next; afterwards | ensuite | A1
+enterrements | m | funerals | les enterrements | C1
+entracte | m | interval; intermission | l'entracte | C1
+entre | prep | between; among | entre | A1
+entreprises | f | companies | les entreprises (sg. une entreprise) | B1
+entrée | f | entrance; entry; starter | l'entrée | A1
+entrée-plat | f | starter and main (set deal) | la formule entrée-plat | B1
+envie | f | desire (avoir envie de: want to) | l'envie | A2
+environ | adv | about; around | environ | A2
+envisages | v | are considering | envisager | B2 | tu envisages
+envoie | v | send | envoyer | A2 | je vous envoie
+envoyer | v | send | envoyer | A2
+erreur | f | mistake; error | l'erreur | A2
+es | v | are | être | A1 | tu es
+escalier | m | stairs | l'escalier | A2
+espace | m | space | l'espace | B1
+espagnol | m | Spanish (language) | l'espagnol | A1
+espère | v | hope | espérer | A2 | j'espère
+essayer | v | try; try on | essayer | A2
+essayé | v | tried | essayer | A2 | past participle
+essentiel | m | main thing (l'essentiel, c'est que…) | l'essentiel | B2
+est | v | is | être | A1 | il/elle est
+est-ce | phr | is it (est-ce que: question marker) | est-ce que | A1
+est-à-dire | phr | that is (c'est-à-dire: meaning; I mean) | c'est-à-dire | B1
+et | conj | and | et | A1
+eu | v | had | avoir | A2 | past participle
+euro | m | euro | l'euro | A1
+européenne | adj | European | européen(ne) | A2
+européens | adj | European | européen(ne) | A2
+euros | m | euros | les euros | A1
+eux | pron | them (eux: for their part) | eux | A2
+exacte | adj | exact | exact(e) | B1
+exactement | adv | exactly | exactement | A2
+excellent | adj | excellent | excellent(e) | A2
+excellente | adj | excellent | excellent(e) | A2
+exception | f | exception | l'exception | B1
+excuser | v | apologise (s'excuser); excuse | excuser | A2
+excuses | f | apologies (toutes mes excuses: my apologies) | les excuses | B1
+excusez-moi | phr | excuse me | excusez-moi | A1
+exemple | m | example (par exemple: for example) | l'exemple | A1
+existe | v | exists | exister | B1 | il existe
+expo | f | exhibition (informal) | l'expo (exposition) | B1
+exposition | f | exhibition | l'exposition | A2
+expressions | f | expressions | les expressions | A2
+expérience | f | experience | l'expérience | B1
+
+# ---- F ----
+fabriqué | v | made; manufactured | fabriquer | B1 | past participle
+fac | f | university (informal) | la fac (faculté) | B1
+face | f | face (face à: facing; en face: opposite) | la face | B1
+facture | f | invoice; bill | la facture | B1
+factures | f | invoices; receipts | les factures | B1
+faire | v | do; make | faire | A1
+fais | v | do; make | faire | A1 | je/tu fais
+fais-moi | phr | give me (fais-moi signe: give me a shout) | fais-moi | B1
+fait | v | does; makes; done (il fait beau: the weather's nice) | faire | A1 | il fait / past participle
+faites | v | do; make (faites attention: be careful) | faire | A1 | vous faites
+familial | adj | family | familial(e) | B1
+famille | f | family | la famille | A1
+fasse | v | does; is (avant qu'il fasse chaud) | faire | B2 | qu'il fasse (subjunctive)
+fatigué | adj | tired | fatigué(e) | A1
+faudra | v | will have to (il faudra) | falloir | B1 | il faudra (future)
+faudrait | v | would need (il faudrait) | falloir | B1 | il faudrait (conditional)
+faut | v | must; have to; need (il faut) | falloir | A2 | il faut
+faut-il | phr | does it take; must one | faut-il (il faut, inverted) | B1
+faute | f | fault (c'est ma faute: it's my fault) | la faute | A2
+femme | f | woman; wife | la femme | A1
+fenêtre | f | window | la fenêtre | A1
+fera | v | will do; will make (ça vous fera: that'll be) | faire | A2 | ça fera (future)
+ferai | v | will do; will make | faire | A2 | je ferai (future)
+ferme | v | closes | fermer | A1 | il ferme
+fermé | adj | closed (fermé à rien: open to anything) | fermer | A1 | past participle
+ferroviaire | adj | rail; railway | ferroviaire | C1
+festival | m | festival | le festival | A2
+feu | m | traffic light; fire | le feu | A2
+file | f | queue; line | la file | B1
+film | m | film | le film | A1
+fils | m | son (fils unique: only child) | le fils | A1
+fin | f | end (fin d'après-midi: late afternoon) | la fin | A1
+finance | v | funds; finances | financer | B2 | il finance
+fini | v | finished | finir | A1 | past participle
+fièvre | f | fever; temperature | la fièvre | A2
+flash | m | flash | le flash | B1
+fleuve | m | river (flowing to the sea) | le fleuve | B1
+fluide | adj | flowing; clear (of traffic) | fluide | B2
+fois | f | time; occasion (deux fois: twice) | la fois | A1
+fonctionne | v | works; runs | fonctionner | B1 | il fonctionne
+fond | m | back; bottom (au fond: at the back; sur le fond: in principle) | le fond | A2
+font | v | do; make | faire | A1 | ils font
+fontaine | f | fountain | la fontaine | A2
+forcer | v | force; push (oneself) | forcer | B2
+forfait | m | pass; package; plan | le forfait | B2
+formulaire | m | form | le formulaire | A2
+formule | f | set menu; deal | la formule | B1
+fort | adj | strong | fort(e) | A2
+foulard | m | scarf (light) | le foulard | B1
+foulards | m | scarves | les foulards | B1
+foule | f | crowd | la foule | B1
+four | m | oven | le four | A2
+frais | adj | cool; fresh | frais, fraîche | A2
+frais:m | m | charges; fees (sans frais: free of charge) | les frais | B1
+fraises | f | strawberries | les fraises (sg. la fraise) | A2
+français | m | French (language); French | le français | A1
+française | adj | French (à la française: formal, French-style) | français(e) | A1
+fraîche | adj | cold; fresh | frais, fraîche | A2
+frigo | m | fridge | le frigo | A2
+friperie | f | second-hand clothes shop | la friperie | C1
+frites | f | chips; fries | les frites | A1
+froid | adj | cold | froid(e) | A1
+fromage | m | cheese | le fromage | A1
+fruits | m | fruit (fruits à coque: nuts) | les fruits | A1
+frère | m | brother | le frère | A1
+frères | m | brothers (frères et sœurs: siblings) | les frères | A1
+funiculaire | m | funicular | le funiculaire | C1
+fêtes | f | holidays; festivities | les fêtes | A2
+
+# ---- G ----
+gagné | v | saved; won; gained | gagner | A2 | past participle
+garantir | v | guarantee | garantir | B2
+garantis | v | guarantee | garantir | B2 | je garantis
+garde | v | keep | garder | A2 | on garde
+garder | v | keep | garder | A2
+gardez | v | keep (gardez votre calme: stay calm) | garder | A2 | vous gardez
+gardé | v | kept | garder | A2 | past participle
+gare | f | station | la gare | A1
+gariguettes | f | gariguette strawberries | les gariguettes | -
+gastronomie | f | food; gastronomy | la gastronomie | B2
+gauche | f | left (à gauche: on the left) | la gauche | A1
+gazeuse | adj | sparkling; fizzy | gazeux, gazeuse | A2
+genre | m | kind; genre (c'est bien son genre: that's just like him) | le genre | B1
+gens | m | people | les gens | A1
+gentil | adj | kind; nice | gentil(le) | A1
+geste | m | gesture | le geste | B1
+gigas | m | gigabytes (informal) | les gigas | -
+gilet | m | vest; waistcoat | le gilet | B1
+gorge | f | throat | la gorge | A2
+goût | m | taste | le goût | A2
+goûter | v | taste; try | goûter | A2
+goûté | v | tasted; tried | goûter | A2 | past participle
+grammes | m | grams | les grammes | A2
+grand | adj | big; great | grand(e) | A1
+grand-chose | pron | much (pas grand-chose: not much) | grand-chose | B1
+grand-mère | f | grandmother | la grand-mère | A1
+grande | adj | big; large; great | grand(e) | A1
+grandi | v | grown up | grandir | A2 | past participle
+grasse | adj | fat (faire la grasse matinée: have a lie-in) | gras, grasse | B1
+gratuit | adj | free (of charge) | gratuit(e) | A2
+gratuite | adj | free (of charge) | gratuit(e) | A2
+grave | adj | serious (ce n'est pas grave: it's no big deal) | grave | A2
+grosse | adj | big | gros, grosse | A2
+groupes | m | groups | les groupes | A2
+grève | f | strike | la grève | B1
+guidée | adj | guided | guidé(e) | A2
+génial | adj | great; brilliant | génial(e) | A2
+gêne | v | bothers | gêner | B1 | ça te gêne
+
+# ---- H ----
+habitait | v | lived | habiter | A2 | elle habitait (imperfect)
+habite | v | live | habiter | A1 | j'habite
+habitude | f | habit (avoir l'habitude: be used to; d'habitude: usually) | l'habitude | A2
+haricots | m | beans (haricots verts: green beans) | les haricots | A2
+hein | intj | eh; right? | hein | B1
+heure | f | hour; time; o'clock | l'heure | A1
+heures | f | hours; o'clock | les heures | A1
+hier | adv | yesterday | hier | A1
+histoire | f | story; history | l'histoire | A1
+historique | adj | historical | historique | B1
+hiver | m | winter | l'hiver | A1
+huit | num | eight | huit | A1
+hésite | v | hesitate; am torn | hésiter | B1 | j'hésite
+hésiter | v | hesitate | hésiter | B1
+hôtel | m | hotel | l'hôtel | A1
+
+# ---- I ----
+ici | adv | here | ici | A1
+identité | f | identity (pièce d'identité: ID) | l'identité | A2
+idéalement | adv | ideally | idéalement | B2
+idée | f | idea | l'idée | A1
+il | pron | he; it (il y a: there is) | il | A1
+ils | pron | they | ils | A1
+imagerie | f | imaging | l'imagerie | C1
+importe | v | matters (n'importe où: anywhere; n'importe quel: any) | importer | B1 | n'importe
+imposer | v | impose | imposer | B2
+impressionnistes | m | Impressionists | les impressionnistes | -
+inadmissible | adj | unacceptable | inadmissible | C1
+incluse | adj | included | inclus(e) | B1
+indemnisation | f | compensation | l'indemnisation | C1
+indiquer | v | state; point out; show | indiquer | B1
+industrie | f | industry | l'industrie | B1
+inhabituel | adj | unusual | inhabituel(le) | B2
+inquiète | v | worry (t'inquiète: don't worry, informal) | s'inquiéter | B1 | tu t'inquiètes
+inquiétez | v | worry (ne vous inquiétez pas: don't worry) | s'inquiéter | B1 | vous vous inquiétez
+inspirés | adj | inspired | inspiré(e) | B2
+installer | v | settle (s'installer); install | installer | B1
+installez-vous | phr | take a seat; make yourself comfortable | installez-vous | B1
+interdit | adj | forbidden; not allowed | interdit(e) | A2
+interdites | adj | banned | interdit(e) | A2
+intermédiaire | adj | intermediate | intermédiaire | B1
+intéressant | adj | interesting; good value | intéressant(e) | A1
+intérieur | m | inside | l'intérieur | A2
+invité | v | invited | inviter | A2 | past participle
+ira | v | will go (ça ira: that'll be fine) | aller | A2 | ça ira (future)
+irait | v | would suit (ça t'irait? would that suit you?) | aller | B1 | ça irait (conditional)
+isolés | adj | isolated | isolé(e) | B1
+itinérance | f | roaming | l'itinérance | C1
+
+# ---- J ----
+jamais | adv | never; ever | jamais | A1
+janvier | m | January | janvier | A1
+jardins | m | gardens | les jardins | A1
+jaune | adj | yellow | jaune | A1
+je | pron | I | je | A1
+jetez | v | throw (jetez un coup d'œil: have a look) | jeter | B1 | vous jetez
+jeudi | m | Thursday | le jeudi | A1
+jeunes | m | young people | les jeunes | A2
+joli | adj | pretty | joli(e) | A1
+jour | m | day (du jour au lendemain: overnight) | le jour | A1
+jours | m | days | les jours | A1
+juste | adv | just; only; right | juste | A1
+justement | adv | precisely; as it happens | justement | B1
+justificatif | m | proof; supporting document | le justificatif | C1
+
+# ---- K ----
+kilo | m | kilo | le kilo | A1
+kilomètres | m | kilometres | les kilomètres | A1
+kilos | m | kilos | les kilos | A1
+
+# ---- L ----
+la | art | the (f.); it, her | la | A1
+laisser | v | leave; let | laisser | A2
+lancer | v | launch; start | lancer | B1
+langue | f | language; tongue | la langue | A1
+laquelle | pron | which one | laquelle | B1
+latérale | adj | lateral (position latérale de sécurité: recovery position) | latéral(e) | C1
+lavage | m | wash | le lavage | B2
+le | art | the (m.); it, him | le | A1
+lendemain | m | next day (du jour au lendemain: overnight) | le lendemain | B1
+lentement | adv | slowly | lentement | A2
+lequel | pron | which one | lequel | B1
+les | art | the (pl.); them | les | A1
+lessive | f | detergent; laundry | la lessive | B1
+lever | v | clear up (of weather); raise | se lever | B1
+libre | adj | free; available | libre | A1
+libre-service | m | self-service (en libre-service: shared, self-service) | le libre-service | B2
+lieu | m | place (au lieu de: instead of) | le lieu | B1
+ligne | f | line | la ligne | A2
+limitations | f | limits (speed) | les limitations | B2
+limite | f | limit | la limite | B1
+limitée | adj | limited | limité(e) | B1
+livres | m | books | les livres | A1
+location | f | rental; hire | la location | B1
+loin | adv | far | loin | A1
+long | prep | along (le long de) | le long de | B1
+longueur | f | length | la longueur | B1
+louer | v | rent; hire | louer | A2
+loyers | m | rents | les loyers (sg. le loyer) | B1
+lui | pron | him; to him; to her | lui | A1
+lundi | m | Monday | le lundi | A1
+lycée | m | high school | le lycée | A2
+là | adv | there; here | là | A1
+là-bas | adv | over there | là-bas | A1
+là-dessus | adv | on that; about that | là-dessus | B2
+légumes | m | vegetables | les légumes | A1
+
+# ---- M ----
+ma | pron | my | mon, ma | A1
+machine | f | machine | la machine | A2
+machines | f | machines | les machines | A2
+magasin | m | shop | le magasin | A1
+magasins | m | shops | les magasins | A1
+magnifique | adj | magnificent | magnifique | A2
+main | f | hand (bagage à main: hand luggage) | la main | A1
+main-d'œuvre | f | labour | la main-d'œuvre | C1
+maintenance | f | maintenance | la maintenance | B2
+maintenant | adv | now | maintenant | A1
+mais | conj | but | mais | A1
+maison | f | house (maison: homemade) | la maison | A1
+mal | adv | badly; ill (avoir mal à: have a pain in; avoir du mal à: struggle to) | mal | A2
+malaise | m | fainting fit (faire un malaise: collapse) | le malaise | C1
+malheur | m | bad luck; misfortune | le malheur | B2
+malheureusement | adv | unfortunately | malheureusement | A2
+managers | m | managers | les managers | B1
+manger | v | eat | manger | A1
+manquer | v | miss | manquer | B1
+manuelle | adj | manual | manuel(le) | B1
+marche | v | works; walks (ça marche: sounds good) | marcher | A2 | il marche
+marchent | v | work | marcher | A2 | elles marchent
+marches | f | steps | les marches | B1
+marché | m | market; deal (marché conclu: deal) | le marché | A1
+mardi | m | Tuesday | le mardi | A1
+mari | m | husband | le mari | A1
+matin | m | morning | le matin | A1
+matinée | f | morning (faire la grasse matinée: have a lie-in) | la matinée | A2
+me | pron | me; to me; myself | me | A1
+menu | m | set menu | le menu | A1
+mer | f | sea | la mer | A1
+merci | intj | thank you | merci | A1
+mercredi | m | Wednesday | le mercredi | A1
+merveille | f | marvel | la merveille | B2
+mes | pron | my | mon, ma, mes | A1
+message | m | message; text | le message | A1
+messe | f | mass (church) | la messe | B2
+mets | v | put | mettre | A2 | je vous mets / mets (imperative)
+mettez | v | put | mettre | A2 | vous mettez / imperative
+mettez-le | phr | put him; put it | mettez-le | B1
+mettrait | v | would put | mettre | B2 | on mettrait (conditional)
+mettre | v | put | mettre | A2
+mi-chemin | m | halfway (à mi-chemin) | à mi-chemin | B2
+midi | m | noon; lunchtime | midi | A1
+mien | pron | mine (le mien) | le mien | B1
+mieux | adv | better (il vaut mieux: it's better to) | mieux | A2
+milieu | m | middle (juste milieu: happy medium) | le milieu | A2
+mille | num | thousand | mille | A1
+minibar | m | minibar | le minibar | B1
+minimisant | v | playing down | minimiser | C1 | present participle
+minimum | m | minimum | le minimum | B1
+minutes | f | minutes | les minutes | A1
+mmm | intj | mmm | mmm | -
+moi | pron | me; I (emphatic) | moi | A1
+moins | adv | less; fewer; under | moins | A1
+mois | m | month | le mois | A1
+moitié | f | half | la moitié | A2
+moment | m | moment (en ce moment: at the moment) | le moment | A1
+mon | pron | my | mon, ma | A1
+monde | m | world; people (tout le monde: everyone) | le monde | A1
+montant | m | amount | le montant | B2
+monter | v | go up; climb | monter | A2
+montrez-moi | phr | show me | montrez-moi | A2
+monument | m | monument | le monument | A2
+mot | m | word | le mot | A1
+moteur | m | engine | le moteur | B1
+moyen | m | way; means (pas moyen de: no way to) | le moyen | B1
+musée | m | museum | le musée, les musées | A1
+musées | m | museums | les musées | A1
+mutuelle | f | top-up health insurance | la mutuelle | C1
+mère | f | mother | la mère | A1
+mécontentement | m | dissatisfaction | le mécontentement | C1
+médecin | m | doctor | le médecin | A1
+médicament | m | medicine | le médicament | A2
+méthode | f | method | la méthode | B1
+métier | m | job; trade | le métier | B1
+métro | m | metro; underground | le métro | A1
+même | adj | same; even | même | A1
+mûres | adj | ripe | mûr(e) | B2
+
+# ---- N ----
+nationale | f | main road (route nationale) | la nationale | B2
+nature | f | nature | la nature | A2
+ne | adv | not (ne… pas) | ne | A1
+nettement | adv | clearly; noticeably | nettement | B2
+neuf | num | nine | neuf | A1
+nez | m | nose | le nez | A2
+ni | conj | neither; nor | ni | B1
+niveau | m | level | le niveau | A2
+nocturne | f | late opening | la nocturne | C1
+noire | adj | black | noir(e) | A1
+noisettes | f | hazelnuts | les noisettes | B2
+nom | m | name | le nom | A1
+nombreux | adj | numerous; many | nombreux, nombreuse | B1
+non | adv | no; not | non | A1
+normal | adj | normal | normal(e) | A2
+normale | adj | normal; standard | normal(e) | A2
+normalement | adv | normally; usually | normalement | A2
+nos | pron | our | notre, nos | A1
+note | f | bill (hotel); note | la note | B1
+notre | pron | our | notre | A1
+noté | v | noted | noter | A2 | past participle
+nous | pron | we; us | nous | A1
+nouveau | adj | new | nouveau, nouvelle | A1
+nouvelle | adj | new | nouveau, nouvelle | A1
+nouvelles | f | news (avoir des nouvelles de: hear from) | les nouvelles | B1
+nuit | f | night | la nuit | A1
+numéro | m | number | le numéro | A1
+nécessaire | m | essentials; what's needed | le nécessaire | B1
+négation | f | negative; negation | la négation | B2
+
+# ---- O ----
+objets | m | objects (objets de valeur: valuables) | les objets | A2
+obligatoire | adj | compulsory | obligatoire | B1
+obligés | adj | obliged (on n'est pas obligés: we don't have to) | obligé(e) | B1
+occasion | f | opportunity; occasion | l'occasion | B1
+occupe | v | take care (je m'occupe de: I'll take care of) | s'occuper | B1 | je m'occupe
+off | m | fringe (le off: the festival fringe) | le off | -
+offert | v | offered; on the house | offrir | B1 | past participle
+office | m | office (office de tourisme); service (church) | l'office | B1
+offre | f | offer; selection | l'offre | B1
+offrir | v | give (as a present); offer | offrir | A2
+oh | intj | oh | oh | A1
+oignon | m | onion | l'oignon | A2
+on | pron | we; people; one | on | A1
+ont | v | have | avoir | A1 | ils ont
+onze | num | eleven | onze | A1
+opportunités | f | opportunities | les opportunités | B2
+opposition | f | stop (faire opposition: cancel a card) | l'opposition | C1
+oral | m | speech (à l'oral: when speaking) | l'oral | B1
+orchestre | m | stalls (in a theatre); orchestra | l'orchestre | B2
+oreilles | f | ears | les oreilles | A2
+originales | adj | original | original(e) | B1
+ou | conj | or | ou | A1
+oui | adv | yes | oui | A1
+ouvert | adj | open | ouvert(e) | A1
+ouverts | adj | open | ouvert(e) | A1
+ouvrés | adj | working (jours ouvrés: working days) | ouvré(e) | C1
+où | adv | where (au cas où: just in case) | où | A1
+
+# ---- P ----
+paie | v | pay | payer | A1 | on paie
+paiement | m | payment | le paiement | B1
+pain | m | bread | le pain | A1
+pains | m | pastries (pains au chocolat) | les pains | A1
+pandémie | f | pandemic | la pandémie | B2
+panne | f | breakdown (en panne: broken down) | la panne | B1
+panneau | m | sign; board | le panneau | B1
+paquet | m | package (paquet cadeau: gift wrapping) | le paquet | A2
+par | prep | by; through; per | par | A1
+paracétamol | m | paracetamol | le paracétamol | B1
+parc | m | park | le parc | A1
+pardon | intj | sorry; excuse me | pardon | A1
+pareil | adj | same (pareil!: same here!) | pareil(le) | B1
+parents | m | parents | les parents | A1
+parfait | adj | perfect | parfait(e) | A1
+parfaites | adj | perfect | parfait(e) | A1
+parfois | adv | sometimes | parfois | A2
+parlais | v | were talking | parler | A2 | tu parlais (imperfect)
+parlent | v | speak; talk | parler | A1 | ils parlent
+parler | v | speak; talk | parler | A1
+parlez | v | speak | parler | A1 | vous parlez
+pars | v | am leaving | partir | A1 | je pars
+part | v | leaves (part: à part: extra, on the side) | partir | A1 | il part
+partageais | v | was sharing | partager | B1 | je partageais (imperfect)
+partant | v | leaving (en partant: when leaving) | partir | B1 | present participle
+parte | v | leave | partir | B2 | qu'on parte (subjunctive)
+partir | v | leave; go away (à partir de: from) | partir | A1
+partirais | v | would go | partir | B1 | je partirais (conditional)
+pas | adv | not (ne… pas) | pas | A1
+pass | m | pass (travel) | le pass | B1
+passagers | m | passengers | les passagers | A2
+passe | v | passes; clears up (si ça ne passe pas: if it doesn't clear up) | passer | A2 | il passe
+passeport | m | passport | le passeport | A1
+passer | v | pass; go (passer par: go via) | passer | A2
+passionnant | adj | fascinating | passionnant(e) | B1
+passé | v | gone (tout s'est bien passé? was everything OK?) | se passer | A2 | past participle
+passée | v | gone | se passer | A2 | past participle (feminine)
+pastilles | f | lozenges | les pastilles | C1
+pastis | m | pastis (aniseed drink) | le pastis | -
+pause | f | break | la pause | A2
+payantes | adj | paying; tolled | payant(e) | B1
+payer | v | pay | payer | A1
+payez | v | pay | payer | A1 | vous payez
+pays | m | countries; country | le pays | A1
+peine | f | trouble (à peine: barely; pour la peine: for your trouble) | la peine | B1
+peinture | f | painting | la peinture | A2
+pelouses | f | lawns | les pelouses | B2
+pendant | prep | during; while (pendant que) | pendant | A1
+pensais | v | thought | penser | A2 | je pensais (imperfect)
+penser | v | think | penser | A1
+penses | v | think | penser | A1 | tu penses
+pensé | v | thought | penser | A1 | past participle
+perches | f | sticks (perches à selfie) | les perches | C1
+perdre | v | lose | perdre | A2
+permet | v | lets; allows | permettre | B1 | il permet
+permis | m | licence (permis de conduire) | le permis | A2
+personnalité | f | personality | la personnalité | B1
+personne | pron | nobody (ne… personne) | personne | A2
+personne:f | f | person | la personne | A1
+personnes | f | people; persons | les personnes | A1
+petit | adj | small; little | petit(e) | A1
+petit-déjeuner | m | breakfast | le petit-déjeuner | A1
+petite | adj | small; little | petit(e) | A1
+peu | adv | little; a bit (un peu) | peu | A1
+peur | f | fear (avoir peur de: be afraid of) | la peur | A2
+peut | v | can | pouvoir | A1 | il/on peut
+peut-être | adv | maybe; perhaps | peut-être | A1
+peuvent | v | can | pouvoir | A1 | elles peuvent
+peux | v | can | pouvoir | A1 | je/tu peux
+photo | f | photo (appareil photo: camera) | la photo | A1
+photos | f | photos | les photos | A1
+phrases | f | sentences | les phrases | A1
+pickpockets | m | pickpockets | les pickpockets | B2
+pied | m | foot (à pied: on foot) | le pied | A1
+pile | adv | exactly; sharp (à huit heures pile) | pile | B2
+pique-nique | m | picnic | le pique-nique | A2
+pique-niquer | v | have a picnic | pique-niquer | B1
+pis | adv | worse (tant pis: never mind) | pis | B1
+piste | f | path; track (piste cyclable: cycle path) | la piste | B1
+pièce | f | part; coin; room; play (pièce d'identité: ID) | la pièce | A2
+pièces | f | plays; pieces; parts | les pièces | A2
+place | f | seat; place; space; square | la place | A1
+placer | v | place; put | placer | B1
+places | f | seats; places | les places | A1
+plage | f | beach | la plage | A1
+plainte | f | complaint (porter plainte: report a crime) | la plainte | B2
+plaisir | m | pleasure (avec plaisir: gladly; ça me fait plaisir: it makes me happy) | le plaisir | A1
+plan | m | map; plan | le plan | A1
+plat | m | dish; main course | le plat | A1
+plate | adj | still (eau plate: still water) | plat(e) | A2
+plateau | m | board (plateau de fromages: cheese board) | le plateau | B1
+plateforme | f | platform | la plateforme | B1
+plats | m | dishes | les plats | A1
+plaît | v | pleases (il ne me plaît plus: I don't like it any more) | plaire | A2 | il plaît
+plein | adv | loads (plein de: lots of, informal) | plein | B1
+pleut | v | rains | pleuvoir | A1 | il pleut
+pleuvoir | v | rain | pleuvoir | A1
+pluie | f | rain | la pluie | A1
+plus | adv | more; plus; no longer (ne… plus) | plus | A1
+plusieurs | adj | several | plusieurs | A2
+plutôt | adv | rather; instead | plutôt | A2
+poignée | f | handle | la poignée | B2
+point | m | point (à point: medium, of meat) | le point | A2
+poisson | m | fish | le poisson | A1
+policier | adj | crime; detective (roman policier) | policier, policière | B1
+pommes | f | apples | les pommes | A1
+porte | f | door; gate | la porte | A1
+porte:v | v | carries; brings (ça porte malheur: it's bad luck) | porter | B1 | il porte
+portefeuille | m | wallet | le portefeuille | A2
+porter | v | carry; wear (porter plainte: report a crime) | porter | A2
+position | f | position | la position | B1
+possible | adj | possible | possible | A1
+postales | adj | postal (cartes postales: postcards) | postal(e) | A1
+poste:m | m | job; post | le poste | B1
+poubelles | f | bins | les poubelles | B1
+poulet | m | chicken | le poulet | A1
+pour | prep | for; to; in order to | pour | A1
+pourboire | m | tip | le pourboire | B1
+pourquoi | adv | why | pourquoi | A1
+pourra | v | will be able to | pouvoir | A2 | il pourra (future)
+pourrais | v | could | pouvoir | A2 | je pourrais (conditional)
+pourrait | v | could | pouvoir | A2 | on pourrait (conditional)
+pourriez | v | could | pouvoir | A2 | vous pourriez (conditional)
+pourtant | adv | yet; though | pourtant | B1
+pouvais | v | could | pouvoir | B1 | tu pouvais (imperfect)
+pouvez | v | can | pouvoir | A1 | vous pouvez
+pouvoir | v | be able to | pouvoir | A1
+pouvons | v | can | pouvoir | A1 | nous pouvons
+pratique | adj | convenient; practical | pratique | A2
+pratiquer | v | practise | pratiquer | A2
+pratiqué | v | practised | pratiquer | A2 | past participle
+premier | adj | first | premier, première | A1
+premières | adj | first | premier, première | A1
+prenante | adj | gripping | prenant(e) | C1
+prend | v | takes | prendre | A1 | il/on prend
+prendra | v | will take | prendre | A2 | ça prendra (future)
+prendre | v | take; have (food, drink) | prendre | A1
+prends | v | take; have | prendre | A1 | je/tu prends
+prenez | v | take | prendre | A1 | vous prenez
+prenne | v | take; have | prendre | B2 | qu'on prenne (subjunctive)
+prescris | v | prescribe | prescrire | B2 | je prescris
+presque | adv | almost (presque rien: next to nothing) | presque | A2
+prie | v | pray (je vous en prie: you're welcome) | prier | A2 | je prie
+principal | adj | main | principal(e) | B1
+pris | v | taken; had | prendre | A1 | past participle
+privée | adj | private | privé(e) | B1
+prix | m | price | le prix | A1
+problème | m | problem | le problème | A1
+prochain | adj | next | prochain(e) | A1
+prochaine | adj | next | prochain(e) | A1
+procédure | f | procedure | la procédure | B2
+proches | adj | close | proche | B1
+professeur | m | teacher | le professeur | A1
+professionnelle | adj | professional | professionnel(le) | B1
+promets | v | promise | promettre | B1 | je promets
+promis | intj | promise; promised | promettre | B1 | past participle
+propose | v | suggest; offer | proposer | A2 | je propose
+proposer | v | suggest; offer | proposer | A2
+proposez | v | offer | proposer | A2 | vous proposez
+propre | adj | own (ma propre…); clean | propre | A2
+propres | adj | clean; own | propre | A2
+propriétaire | f | owner | le/la propriétaire | B1
+province | f | the provinces (outside Paris) | la province | B1
+près | adv | near (à peu près: roughly) | près | A1
+préfère | v | prefer | préférer | A1 | je préfère
+préférez | v | prefer | préférer | A1 | vous préférez
+prépare | v | prepare | préparer | A2 | je prépare
+prépayée | adj | prepaid | prépayé(e) | B2
+présentation | f | presentation (sur présentation de: on showing) | la présentation | B1
+présente | v | arises (si l'occasion se présente) | se présenter | B1 | il se présente
+prévenez | v | warn; tell in advance | prévenir | B1 | vous prévenez
+prévenez-nous | phr | let us know | prévenez-nous | B1
+prévenus | v | warned | prévenir | B1 | past participle
+préviendrai | v | will let know | prévenir | B1 | je préviendrai (future)
+prévu | v | planned | prévoir | B1 | past participle
+prêt | adj | ready | prêt(e) | A2
+prête | adj | ready | prêt(e) | A2
+prêtes | adj | ready | prêt(e) | A2
+prêtées | adj | lent; on loan | prêter | B1 | past participle
+pu | v | been able to | pouvoir | B1 | past participle
+puis | adv | then | puis | A1
+puis-je | phr | may I | puis-je (pouvoir) | B1
+pull | m | jumper; sweater | le pull | A1
+pyramide | f | pyramid | la pyramide | B1
+pâle | adj | pale | pâle | B1
+péage | m | toll | le péage | B2
+
+# ---- Q ----
+quais | m | riverside roads; platforms | les quais | B1
+quand | conj | when (quand même: anyway; still) | quand | A1
+quarante | num | forty | quarante | A1
+quarante-cinq | num | forty-five | quarante-cinq | A1
+quarante-deux | num | forty-two | quarante-deux | A1
+quarante-huit | num | forty-eight | quarante-huit | A1
+quart | m | quarter | le quart | A1
+quartier | m | neighbourhood; quarter | le quartier | A2
+quatorze | num | fourteen | quatorze | A1
+quatre | num | four | quatre | A1
+quatre-vingt-dix | num | ninety | quatre-vingt-dix | A1
+que | conj | that; than; what; only (ne… que) | que | A1
+quel | adj | which; what | quel(le) | A1
+quelle | adj | which; what | quel(le) | A1
+quelqu'un | pron | someone | quelqu'un | A2
+quelque | adj | some (quelque chose: something) | quelque | A1
+quelques | adj | a few; some | quelques | A1
+qui | pron | who; which; that | qui | A1
+quinze | num | fifteen (le quinze: emergency medical number) | quinze | A1
+quitter | v | leave | quitter | A2
+quoi | pron | what | quoi | A1
+
+# ---- R ----
+raccourci | m | shortcut | le raccourci | B2
+raccrochez | v | hang up | raccrocher | B1 | vous raccrochez
+raconte | v | tell (raconte!: tell me!) | raconter | A2 | raconte (imperative)
+radars | m | speed cameras | les radars | B2
+rafraîchir | v | freshen up; tidy up (a haircut) | rafraîchir | C1
+raison | f | reason (avoir raison: be right) | la raison | A2
+rajoute | v | add; throw in | rajouter | B1 | je vous rajoute
+rapide | adj | quick; fast | rapide | A1
+rappelle | v | remind | rappeler | B1 | je vous rappelle
+rapproché | v | brought closer | rapprocher | B2 | past participle
+rarement | adv | rarely | rarement | A2
+rate | v | miss | rater | B1 | je rate
+rater | v | miss | rater | B1
+ravi | adj | delighted | ravi(e) | B1
+reblochon | m | reblochon (soft cheese) | le reblochon | -
+recette | f | recipe | la recette | A2
+recevrez | v | will receive | recevoir | B1 | vous recevrez (future)
+recherche | f | research; search | la recherche | B1
+recoller | v | glue back | recoller | C1
+recommander | v | recommend | recommander | B1
+reconnais | v | admit; recognise | reconnaître | B1 | je reconnais
+reconstruction | f | reconstruction | la reconstruction | B2
+reconstruire | v | reconstruct | reconstruire | B2
+reculez | v | step back | reculer | B1 | vous reculez
+redescendant | v | coming back down (en redescendant) | redescendre | B2 | present participle
+refusée | v | declined; refused | refuser | B1 | past participle
+regarde-moi | phr | look at me | regarde-moi | A2
+regardé | v | looked at | regarder | A1 | past participle
+remboursable | adj | refundable | remboursable | B2
+remboursement | m | refund | le remboursement | B1
+rembourser | v | refund; reimburse | rembourser | B1
+remboursons | v | refund | rembourser | B1 | nous remboursons
+remboursé | v | refunded | rembourser | B1 | past participle
+remet | v | put back (on remet ça: we'll do it again) | remettre | B2 | on remet
+remettez-les | phr | put them back | remettez-les | B1
+remorquage | m | towing | le remorquage | C1
+remplir | v | fill in; fill | remplir | A2
+rencontrer | v | meet | rencontrer | A2
+rendez-vous | m | appointment; meeting point | le rendez-vous | A1
+rendiez | v | return; give back | rendre | B2 | que vous rendiez (subjunctive)
+rendre | v | return; give back | rendre | A2
+rendu | v | realised (se rendre compte: notice) | se rendre compte | B1 | past participle
+renoncules | f | ranunculus (flowers) | les renoncules | -
+reparle | v | talk about again | reparler | B1 | on en reparle
+repasses | v | come back by | repasser | B1 | tu repasses
+repos | m | rest (aire de repos: rest area) | le repos | A2
+repris | v | taken back | reprendre | B1 | past participle
+reproduise | v | happens again | se reproduire | B2 | que ça se reproduise (subjunctive)
+respecter | v | respect; stick to | respecter | B1
+respectueux | adj | respectful | respectueux, respectueuse | B1
+respire | v | breathes | respirer | A2 | il respire
+respirer | v | breathe | respirer | A2
+responsable | adj | responsible | responsable | B1
+restaurant | m | restaurant | le restaurant | A1
+restauration | f | restoration | la restauration | B2
+reste | v | remains; is left (il reste: there's … left) | rester | A2 | il reste
+restent | v | stay | rester | A2 | ils restent
+rester | v | stay | rester | A1
+restes | m | leftovers | les restes | B1
+restez | v | stay | rester | A1 | vous restez
+resté | v | stayed | rester | A1 | past participle
+restée | v | stayed | rester | A1 | past participle (feminine)
+retard | m | delay (en retard: late; avoir du retard: be running late) | le retard | A2
+retour | m | return (bon retour: safe trip home) | le retour | A2
+retrouvait | v | were meeting | se retrouver | B1 | on se retrouvait (imperfect)
+retrouve | v | meet up | se retrouver | B1 | on se retrouve
+revanche | f | (en revanche: on the other hand) | en revanche | B2
+revenez | v | come back | revenir | A2 | vous revenez
+revenir | v | come back | revenir | A2
+reviendra | v | will come back | revenir | A2 | on reviendra (future)
+reviendrai | v | will come back | revenir | A2 | je reviendrai (future)
+reviendrait | v | would come to (ça me reviendrait à combien?) | revenir | B2 | conditional
+reviens | v | come back | revenir | A2 | je reviens
+reçu | m | receipt | le reçu | B1
+rien | pron | nothing; anything | rien | A1
+risotto | m | risotto | le risotto | -
+rivière | f | river | la rivière | A2
+riz | m | rice | le riz | A1
+robinet | m | tap (eau du robinet: tap water) | le robinet | B1
+roman | m | novel | le roman | A2
+romantique | adj | romantic | romantique | B1
+roses | f | roses | les roses | A2
+rouge | adj | red | rouge | A1
+rouges | adj | red | rouge | A1
+route | f | road (en route: on the way) | la route | A2
+ruban | m | ribbon | le ruban | B2
+rue | f | street | la rue | A1
+rues | f | streets | les rues | A1
+réclamation | f | complaint | la réclamation | B2
+récépissé | m | receipt (official) | le récépissé | C1
+réduction | f | discount | la réduction | A2
+réductions | f | reductions | les réductions | A2
+réduit | adj | reduced | réduit(e) | B1
+réduite | adj | reduced; restricted | réduit(e) | B1
+réel | adj | real | réel(le) | B1
+réfléchir | v | think (about) | réfléchir | B1
+régler | v | settle; pay | régler | B1
+réparer | v | repair; fix | réparer | A2
+répond | v | answers; responds | répondre | A1 | il répond
+répondu | v | answered | répondre | A1 | past participle
+répéter | v | repeat | répéter | A1
+réseau | m | network | le réseau | B1
+réservation | f | booking; reservation | la réservation | A2
+réservations | f | bookings | les réservations | A2
+réserve | f | stockroom | la réserve | B1
+réserver | v | book; reserve | réserver | A2
+réservé | v | booked; reserved | réserver | A2 | past participle
+réservées | adj | reserved | réservé(e) | A2
+résidant | v | living; residing | résider | C1 | present participle
+réside | v | live; reside | résider | C1 | je réside
+réunion | f | meeting | la réunion | A2
+réveillé | v | woken up | se réveiller | A2 | past participle
+rêvent | v | dream | rêver | B1 | ils rêvent
+rêvé | v | dreamed | rêver | B1 | past participle
+
+# ---- S ----
+sa | pron | his; her; its | son, sa | A1
+sac | m | bag (sac à dos: backpack) | le sac | A1
+saignant | adj | rare (meat) | saignant(e) | B2
+sais | v | know | savoir | A1 | je sais
+saison | f | season | la saison | A1
+salade | f | salad | la salade | A1
+salariés | m | employees | les salariés | B2
+salle | f | room; hall | la salle | A1
+salut | intj | hi | salut | A1
+samedi | m | Saturday | le samedi | A1
+sans | prep | without | sans | A1
+santé | f | health (santé!: cheers!) | la santé | A2
+sauce | f | sauce | la sauce | A2
+sauf | prep | except | sauf | B1
+sauté | m | sauté (dish) | le sauté | -
+savais | v | knew | savoir | A2 | je savais (imperfect)
+savez | v | know | savoir | A1 | vous savez
+savoir | v | know | savoir | A1
+scannez | v | scan | scanner | B1 | vous scannez
+scène | f | scene | la scène | B1
+se | pron | oneself; himself, herself; themselves; each other | se | A1
+sec | adj | dry | sec, sèche | A2
+selfie | m | selfie | le selfie | -
+semaine | f | week (en semaine: on weekdays) | la semaine | A1
+semaines | f | weeks | les semaines | A1
+semble | v | seems | sembler | B1 | il me semble
+semelle | f | sole | la semelle | C1
+sentent | v | feel | se sentir | B1 | ils se sentent
+sept | num | seven | sept | A1
+septembre | m | September | septembre | A1
+sera | v | will be | être | A2 | il sera (future)
+serait | v | would be | être | A2 | ce serait (conditional)
+seront | v | will be | être | A2 | elles seront (future)
+serrée | adj | tight | serré(e) | B1
+sers | v | serve | servir | A2 | je vous sers
+sert | v | is used for (ça sert à quoi? what's it for?) | servir | A2 | il sert
+servi | v | served | servir | A2 | past participle
+service | m | service | le service | A2
+ses | pron | his; her; its; their | son, sa, ses | A1
+seulement | adv | only | seulement | A1
+si | conj | if; so; yes (to a negative question) | si | A1
+signe | m | sign (faire signe: get in touch) | le signe | B1
+SIM | f | SIM | la carte SIM | -
+simple | adj | simple; just | simple | A1
+simplement | adv | simply; just | simplement | A2
+sinon | conj | otherwise; or else | sinon | B1
+sirop | m | syrup | le sirop | B1
+six | num | six | six | A1
+soie | f | silk | la soie | B1
+soigner | v | treat | soigner | B1
+soir | m | evening | le soir | A1
+soirée | f | evening; party | la soirée | A2
+sois | v | are | être | B2 | que tu sois (subjunctive)
+soit | v | is | être | B2 | qu'il soit (subjunctive)
+soixante-dix | num | seventy | soixante-dix | A1
+soldes | m | sales | les soldes | B1
+soldés | adj | on sale; reduced | soldé(e) | B2
+soleil | m | sun | le soleil | A1
+solution | f | solution | la solution | B1
+son | pron | his; her; its | son, sa | A1
+sont | v | are | être | A1 | ils/elles sont
+sortent | v | come out | sortir | A2 | ils sortent
+sortez | v | take out | sortir | A2 | vous sortez
+souci | m | worry (pas de souci: no problem) | le souci | B1
+soupe | f | soup | la soupe | A1
+sous | prep | under (sous vide: vacuum-packed) | sous | A1
+sous-sol | m | basement | le sous-sol | B1
+sous-titres | m | subtitles | les sous-titres | B1
+souvent | adv | often | souvent | A1
+spectacle | m | show | le spectacle | A2
+spectacles | m | shows | les spectacles | A2
+spray | m | spray | le spray | -
+spécial | adj | special | spécial(e) | A2
+station | f | station | la station | A2
+stations-service | f | petrol stations | les stations-service | B1
+steak | m | steak | le steak | A1
+stressant | adj | stressful | stressant(e) | B1
+style | m | style | le style | B1
+sucer | v | suck (pastilles à sucer: lozenges) | sucer | C1
+suffira | v | will be enough | suffire | B1 | ça suffira (future)
+suffit | v | is enough (il suffit de: you just need to) | suffire | B1 | il suffit
+suis | v | am | être | A1 | je suis
+suite | f | rest; what follows (tout de suite: right away) | la suite | A2
+suivi | m | tracking | le suivi | B2
+suivre | v | follow; track | suivre | A2
+super | adj | great | super | A1
+supplément | m | surcharge; extra | le supplément | B1
+supprime | v | drop; remove | supprimer | B1 | on supprime
+supprimé | v | cancelled; removed | supprimer | B1 | past participle
+sur | prep | on; about; out of | sur | A1
+surprise | adj | surprised | surpris(e) | A2
+surtout | adv | especially; above all | surtout | A2
+sympa | adj | nice; friendly | sympa | A2
+système | m | system | le système | B1
+séance | f | showing; session | la séance | B1
+séchage | m | drying | le séchage | B2
+sécurité | f | safety; security | la sécurité | B1
+séjour | m | stay | le séjour | A2
+séparer | v | separate | séparer | B1
+séparément | adv | separately | séparément | B1
+série | f | series | la série | A2
+sûr | adj | sure (bien sûr: of course) | sûr(e) | A1
+sûrement | adv | surely; certainly | sûrement | B1
+sœur | f | sister | la sœur | A1
+sœurs | f | sisters | les sœurs | A1
+
+# ---- T ----
+ta | pron | your | ton, ta | A1
+table | f | table | la table | A1
+tableaux | m | paintings | les tableaux (sg. le tableau) | A2
+taille | f | size | la taille | A2
+talon | m | heel | le talon | B2
+tant | adv | so much (tant pis: never mind) | tant | B1
+tapis | m | carousel (baggage); carpet | le tapis | B2
+tard | adv | late | tard | A1
+tarif | m | rate; price | le tarif | B1
+tarte | f | tart | la tarte | A1
+tartes | f | tarts | les tartes | A1
+taxi | m | taxi | le taxi | A1
+te | pron | you; to you; yourself | te | A1
+temporaire | adj | temporary | temporaire | B1
+temps | m | time; weather | le temps | A1
+terrasse | f | terrace | la terrasse | A2
+texte | m | text | le texte | A1
+thèse | f | thesis; PhD | la thèse | B2
+ticket | m | ticket | le ticket | A1
+tiens-moi | phr | keep me (tiens-moi au courant: keep me posted) | tiens-moi | B1
+tient | v | holds (ça tient debout: it holds up) | tenir | B1 | il tient
+toi | pron | you (emphatic) | toi | A1
+toilettes | f | toilets | les toilettes | A1
+tomates | f | tomatoes | les tomates | A1
+ton | pron | your | ton, ta | A1
+toujours | adv | always; still | toujours | A1
+tour | f | tower | la tour | A2
+touristiques | adj | touristy | touristique | A2
+tournez | v | turn | tourner | A1 | vous tournez
+tous | pron | all; everyone | tous | A1
+tout | pron | all; everything; quite (tout de suite: right away) | tout | A1
+toute | adj | all; whole | tout(e) | A1
+toutes | adj | all | tout(e) | A1
+toux | f | cough | la toux | B1
+tradition | f | tradition (baguette tradition: traditional baguette) | la tradition | B1
+train | m | train | le train | A1
+trains | m | trains | les trains | A1
+tram | m | tram | le tram | A2
+tramway | m | tram | le tramway | A2
+transmettrai | v | will pass on | transmettre | B2 | je transmettrai (future)
+transports | m | transport; commuting | les transports | A2
+travail | m | work; job | le travail | A1
+travaille | v | work | travailler | A1 | je travaille
+travailler | v | work | travailler | A1
+travaux | m | works; building works | les travaux | B1
+trentaine | f | about thirty | une trentaine | B1
+trente | num | thirty | trente | A1
+trente-cinq | num | thirty-five | trente-cinq | A1
+triangle | m | warning triangle | le triangle | B2
+trinque | v | clink glasses | trinquer | C1 | on trinque
+trois | num | three | trois | A1
+troisième | adj | third | troisième | A1
+trop | adv | too; too much; really (informal) | trop | A1
+trottinettes | f | scooters | les trottinettes | B2
+trou | m | gap; hole | le trou | B1
+trouve | v | find; think (je trouve que: I think that) | trouver | A1 | je trouve
+trouvent | v | are (located) | se trouver | A2 | elles se trouvent
+trouver | v | find | trouver | A1
+trouvera | v | will find | trouver | A2 | on trouvera (future)
+trouvée | v | found | trouver | A1 | past participle (feminine)
+très | adv | very | très | A1
+tu | pron | you (informal) | tu | A1
+tutoie | v | use "tu" | tutoyer | B1 | on se tutoie
+tutoyer | v | use "tu" with someone | tutoyer | B1
+télécharger | v | download | télécharger | A2
+téléchargez | v | download | télécharger | A2 | vous téléchargez
+télécommande | f | remote control | la télécommande | B1
+téléphone | m | phone | le téléphone | A1
+télépéage | m | electronic toll | le télépéage | C1
+télétravail | m | working from home | le télétravail | B2
+tôt | adv | early | tôt | A2
+
+# ---- U ----
+un | art | a; an; one | un, une | A1
+une | art | a; an; one | un, une | A1
+unique | adj | only (fils unique: only child) | unique | B1
+université | f | university; academia | l'université | A1
+urgence | f | emergency (en urgence: urgently) | l'urgence | B1
+urne | f | box (for donations); ballot box | l'urne | C1
+usée | adj | worn | usé(e) | B2
+
+# ---- V ----
+va | v | goes; is going to | aller | A1 | il/on va
+va:pour | phr | let's go with (va pour…: … it is) | va pour | B2
+vacances | f | holiday; holidays | les vacances | A1
+vais | v | am going to | aller | A1 | je vais
+valable | adj | valid | valable | B1
+valeur | f | value | la valeur | B1
+valise | f | suitcase | la valise | A1
+vas | v | are going | aller | A1 | tu vas
+vas-y | phr | go on; go ahead | vas-y | A2
+vaut | v | is worth (il vaut mieux: it's better to) | valoir | B1 | il vaut
+veau | m | veal | le veau | B1
+veille | f | day before (la veille au soir: the evening before) | la veille | B1
+vendredi | m | Friday | le vendredi | A1
+venir | v | come | venir | A1
+vente | f | sale (vente à emporter: takeaway) | la vente | B1
+verrai | v | will see (j'y verrai plus clair) | voir | B1 | je verrai (future)
+verre | m | glass; drink (prendre un verre) | le verre | A1
+verrez | v | will see | voir | A2 | vous verrez (future)
+vers | prep | around; towards | vers | A1
+version | f | version; edition | la version | B1
+verts | adj | green | vert(e) | A1
+veste | f | jacket | la veste | A1
+vestiaire | m | cloakroom | le vestiaire | B1
+veut | v | wants (vouloir dire: mean) | vouloir | A1 | il/on veut
+veux | v | want | vouloir | A1 | je/tu veux
+vexé | adj | offended | vexé(e) | B2
+viande | f | meat | la viande | A1
+vide | m | vacuum (sous vide: vacuum-packed); empty | vide | B1
+vie | f | life (dans la vie: for a living) | la vie | A1
+viens | v | come | venir | A1 | tu viens / viens (imperative)
+vient | v | comes | venir | A1 | elle vient
+vieux | adj | old | vieux, vieille | A1
+village | m | village | le village | A1
+ville | f | town; city | la ville | A1
+villes | f | cities | les villes | A1
+vin | m | wine | le vin | A1
+vingt | num | twenty | vingt | A1
+vingt-deux | num | twenty-two | vingt-deux | A1
+vingt-quatre | num | twenty-four | vingt-quatre | A1
+vingt-six | num | twenty-six | vingt-six | A1
+vingt-trois | num | twenty-three | vingt-trois | A1
+vingtaine | f | about twenty | une vingtaine | B1
+visibilité | f | visibility; view | la visibilité | B2
+visite | f | visit; tour | la visite | A1
+visiter | v | visit; look around | visiter | A1
+vit | v | lives | vivre | A2 | elle vit
+vite | adv | fast; quickly | vite | A1
+vitesse | f | speed (à grande vitesse: high-speed) | la vitesse | B1
+vivre | v | live | vivre | A2
+voici | adv | here is; here it is | voici | A1
+voies | f | lanes | les voies | B2
+voilà | adv | there you go; here is | voilà | A1
+voir | v | see | voir | A1
+vois | v | see | voir | A1 | je vois
+voisin | adj | neighbouring | voisin(e) | B1
+voiture | f | car | la voiture | A1
+vol | m | flight | le vol | A2
+volontiers | adv | gladly; yes please | volontiers | B1
+volé | v | stolen | voler | B1 | past participle
+vos | pron | your | votre, vos | A1
+votre | pron | your | votre | A1
+voudrais | v | would like | vouloir | A1 | je voudrais (conditional)
+voudrait | v | would want | vouloir | A2 | il voudrait (conditional)
+voulez | v | want | vouloir | A1 | vous voulez
+vous | pron | you (formal; plural) | vous | A1
+vouvoiement | m | using "vous" | le vouvoiement | B2
+vouvoyer | v | use "vous" with someone | vouvoyer | B1
+voyage | m | trip; journey | le voyage | A1
+voyages | m | trips | les voyages | A1
+voyant | m | warning light | le voyant | C1
+voyez | v | see | voir | A1 | vous voyez
+vrai | adj | true; real | vrai(e) | A1
+vraie | adj | real; true | vrai(e) | A1
+vraiment | adv | really | vraiment | A1
+vu | v | seen | voir | A1 | past participle
+vue | f | view | la vue | A2
+végans | m | vegans | les végans | B2
+végétarien | adj | vegetarian | végétarien(ne) | B1
+végétarienne | adj | vegetarian | végétarien(ne) | B1
+vélo | m | bike | le vélo | A1
+vélos | m | bikes | les vélos | A1
+vérifier | v | check | vérifier | B1
+vêtements | m | clothes | les vêtements | A1
+
+# ---- W–Z ----
+week-end | m | weekend | le week-end | A1
+wifi | m | Wi-Fi | le wifi | A2
+y | pron | there; it (il y a: there is) | y | A1
+yeux | m | eyes | les yeux (sg. l'œil) | A1
+
+# ---- É Ê Œ Ç ----
+ça | pron | that; it | ça | A1
+échange | m | exchange (en échange: in return) | l'échange | B1
+échanger | v | exchange | échanger | B1
+échangés | v | exchanged | échanger | B1 | past participle
+économisé | v | saved | économiser | B1 | past participle
+écoute | v | am listening | écouter | A1 | je vous écoute
+écran | m | screen | l'écran | A2
+écris | v | write | écrire | A1 | je t'écris
+église | f | church | l'église | A1
+électriques | adj | electric | électrique | A2
+énerve | v | annoys | énerver | B1 | ça m'énerve
+épaules | f | shoulders | les épaules | A2
+équipe | f | team | l'équipe | A2
+équipes | f | teams | les équipes | A2
+étage | m | floor; storey | l'étage | A1
+étais | v | was | être | A2 | j'étais (imperfect)
+était | v | was | être | A2 | il/c'était (imperfect)
+éternité | f | eternity (une éternité: forever) | l'éternité | B2
+étiquette | f | tag; label | l'étiquette | B1
+étonnerait | v | would surprise (ça m'étonnerait: I'd be surprised) | étonner | B2 | conditional
+étranger | m | abroad (à l'étranger) | l'étranger | A2
+étrangère | adj | foreign | étranger, étrangère | A2
+étudiant | m | student | l'étudiant | A1
+étudiants | m | students | les étudiants | A1
+été | v | been | être | A1 | past participle
+évite | v | avoid | éviter | B1 | on évite
+éviter | v | avoid | éviter | B1
+évitez | v | avoid | éviter | B1 | vous évitez
+êtes | v | are | être | A1 | vous êtes
+être | v | be | être | A1
+œil | m | eye (coup d'œil: glance; avoir l'œil: have an eye for) | l'œil, les yeux | A2
+œuvres | f | works (of art) | les œuvres | B1
+franchise | f | excess (insurance) | la franchise | B2
+mange | v | eat (on y mange bien: you eat well there) | manger | A1 | on mange
+âgée | adj | elderly; old | âgé(e) | A2

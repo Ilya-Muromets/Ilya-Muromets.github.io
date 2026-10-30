@@ -1,0 +1,266 @@
+# deck: id=b1-conversation | title=B1 · Small Talk | level=B1 | kind=conversation | vocab_min=0.85
+# desc: Meeting people, talking about work and study, making plans and keeping a conversation going.
+
+@ b1c-01 | Faire connaissance | Getting to Know Someone | introductions
+— Tu es là pour le travail ou en vacances ?
+— Are you here for work or on holiday?
+— Un peu les deux. J'ai une conférence jeudi, et je reste quelques jours de plus pour visiter.
+— A bit of both. I have a conference on Thursday, and I'm staying a few extra days to look around.
+— Et tu fais quoi dans la vie ?
+— And what do you do for a living?
+— Je suis doctorant. Je travaille sur l'imagerie, surtout la reconstruction en trois dimensions.
+— I'm a PhD student. I work on imaging, mainly three-dimensional reconstruction.
+— Ah, ça a l'air passionnant ! Concrètement, ça sert à quoi ?
+— Oh, that sounds fascinating! In practice, what's it for?
+— Par exemple, à reconstruire une scène en 3D avec un simple téléphone.
+— For example, to reconstruct a scene in 3D with just a phone.
+= Tu fais quoi dans la vie ? | What do you do for a living?
+= Un peu les deux. | A bit of both.
+= Ça a l'air passionnant ! | That sounds fascinating!
+= Concrètement, ça sert à quoi ? | In practice, what's it for?
+
+@ b1c-02 | Tu viens d'où ? | Where Are You From? | introductions
+— Tu viens d'où ? Tu as un petit accent.
+— Where are you from? You have a slight accent.
+— Je suis américain. J'ai grandi en Californie, mais j'habite dans le New_Jersey maintenant.
+— I'm American. I grew up in California, but I live in New_Jersey now.
+— Et tu as appris le français où ?
+— And where did you learn French?
+— Au lycée et à la fac, mais je n'ai pas beaucoup pratiqué depuis.
+— At high school and university, but I haven't practised much since.
+— Tu te débrouilles très bien, pourtant !
+— You manage very well, though!
+— C'est gentil, mais j'ai encore du mal quand les gens parlent vite.
+— That's kind, but I still struggle when people speak fast.
+= Tu viens d'où ? | Where are you from?
+= J'ai grandi en Californie. | I grew up in California.
+= Tu te débrouilles très bien. | You manage very well.
+= J'ai encore du mal quand… | I still struggle when…
+
+@ b1c-03 | Parler de ses études | Talking About Your Studies | work, study
+— Ça fait combien de temps que tu fais ta thèse ?
+— How long have you been doing your PhD?
+— Ça fait trois ans. Il me reste encore deux ans, normalement.
+— Three years now. I've still got two years left, normally.
+— Et après, tu comptes rester dans la recherche ?
+— And afterwards, do you plan to stay in research?
+— Je ne sais pas encore. J'hésite entre l'université et l'industrie.
+— I don't know yet. I'm torn between academia and industry.
+— En tout cas, tu as le temps d'y réfléchir.
+— In any case, you have time to think about it.
+— Oui, et ça dépendra aussi des opportunités.
+— Yes, and it'll also depend on the opportunities.
+= Ça fait combien de temps que tu… ? | How long have you been…?
+= Il me reste encore deux ans. | I've still got two years left.
+= J'hésite entre… et… | I'm torn between… and…
+= Tu as le temps d'y réfléchir. | You have time to think about it.
+
+@ b1c-04 | Le week-end | The Weekend | free time
+— Tu as fait quoi de beau ce week-end ?
+— Did you do anything nice this weekend?
+— Pas grand-chose. Samedi, je suis allé courir au bord du canal, et dimanche, j'ai fait la grasse matinée.
+— Not much. On Saturday I went running along the canal, and on Sunday I had a lie-in.
+— Ça fait du bien de temps en temps !
+— That does you good now and then!
+— Et toi ?
+— And you?
+— On est allés voir une expo de photos, puis on a dîné chez des amis.
+— We went to see a photo exhibition, then had dinner at some friends'.
+— C'était bien, l'expo ?
+— Was the exhibition good?
+= Tu as fait quoi de beau ce week-end ? | Did you do anything nice this weekend?
+= Pas grand-chose. | Not much.
+= J'ai fait la grasse matinée. | I had a lie-in.
+= Ça fait du bien. | That does you good.
+
+@ b1c-05 | On se voit quand ? | When Shall We Meet? | plans
+— Ça te dirait qu'on prenne un verre cette semaine ?
+— Would you fancy getting a drink this week?
+— Avec plaisir ! Mercredi soir, ça t'irait ?
+— I'd love to! Would Wednesday evening suit you?
+— Mercredi, je ne peux pas, j'ai un dîner. Jeudi plutôt ?
+— Wednesday I can't, I have a dinner. Thursday instead?
+— Jeudi, c'est parfait. On dit dix-neuf heures au bar en bas de chez toi ?
+— Thursday is perfect. Shall we say seven at the bar near your place?
+— Ça marche. Je t'envoie un message si j'ai du retard.
+— Sounds good. I'll text you if I'm running late.
+— À jeudi, alors !
+— See you Thursday, then!
+= Ça te dirait qu'on prenne un verre ? | Would you fancy getting a drink?
+= Ça t'irait ? | Would that suit you?
+= On dit dix-neuf heures ? | Shall we say seven?
+= Ça marche. | Sounds good.
+
+@ b1c-06 | Le temps qu'il fait | The Weather | weather, small talk
+— Quel temps ! Il n'a pas arrêté de pleuvoir depuis ce matin.
+— What weather! It hasn't stopped raining since this morning.
+— Oui, et ils annoncent la même chose pour demain.
+— Yes, and they're forecasting the same for tomorrow.
+— C'est normal pour la saison ?
+— Is that normal for the season?
+— Pas vraiment. D'habitude, il fait beau en septembre.
+— Not really. Usually the weather's nice in September.
+— J'espère que ça va se lever pour le week-end.
+— I hope it clears up for the weekend.
+— Moi aussi, on avait prévu un pique-nique !
+— Me too, we'd planned a picnic!
+= Quel temps ! | What weather!
+= Ils annoncent la même chose pour demain. | They're forecasting the same for tomorrow.
+= J'espère que ça va se lever. | I hope it clears up.
+= On avait prévu… | We'd planned…
+
+@ b1c-07 | Les compliments | Compliments | small talk
+— Ta veste est super, elle vient d'où ?
+— Your jacket's great, where's it from?
+— Merci ! Je l'ai trouvée dans une friperie, pour presque rien.
+— Thanks! I found it in a second-hand shop, for next to nothing.
+— Tu as vraiment l'œil pour ce genre de choses.
+— You really have an eye for this kind of thing.
+— Oh, c'est surtout de la chance.
+— Oh, it's mostly luck.
+— En France, on répond souvent à un compliment en le minimisant un peu.
+— In France, people often respond to a compliment by playing it down a little.
+— Un simple « merci, c'est gentil » est toujours bien reçu.
+— A simple "thanks, that's kind" always goes down well.
+= Elle vient d'où ? | Where's it from?
+= Pour presque rien. | For next to nothing.
+= Tu as l'œil pour ça. | You have an eye for that.
+= Merci, c'est gentil. | Thanks, that's kind.
+
+@ b1c-08 | Refuser poliment | Declining Politely | plans, invitations
+— On fait une soirée chez moi samedi, tu veux venir ?
+— We're having a party at mine on Saturday, do you want to come?
+— C'est gentil de penser à moi, mais je ne vais pas pouvoir, je pars en week-end.
+— That's kind of you to think of me, but I won't be able to, I'm going away for the weekend.
+— Dommage ! Une autre fois, alors.
+— Too bad! Another time, then.
+— Avec plaisir. Tiens-moi au courant pour la prochaine.
+— Gladly. Let me know about the next one.
+— Pas de souci, je te préviendrai.
+— No worries, I'll let you know.
+= C'est gentil de penser à moi. | That's kind of you to think of me.
+= Je ne vais pas pouvoir. | I won't be able to.
+= Une autre fois, alors. | Another time, then.
+= Tiens-moi au courant. | Keep me posted.
+
+@ b1c-09 | Vous pouvez répéter ? | Could You Repeat That? | language
+— Désolé, je n'ai pas bien compris. Vous pourriez répéter un peu plus lentement ?
+— Sorry, I didn't quite catch that. Could you repeat a bit more slowly?
+— Bien sûr. Je disais que le musée est fermé le mardi.
+— Of course. I was saying that the museum is closed on Tuesdays.
+— Ah, d'accord. Et qu'est-ce que ça veut dire, « nocturne » ?
+— Ah, OK. And what does "nocturne" mean?
+— Ça veut dire que le musée reste ouvert tard le soir, jusqu'à vingt et une heures.
+— It means the museum stays open late in the evening, until nine.
+— Merci, je ne connaissais pas ce mot.
+— Thanks, I didn't know that word.
+— Vous parlez très bien, vous savez !
+— You speak very well, you know!
+= Je n'ai pas bien compris. | I didn't quite catch that.
+= Vous pourriez répéter plus lentement ? | Could you repeat more slowly?
+= Qu'est-ce que ça veut dire ? | What does that mean?
+= Je ne connaissais pas ce mot. | I didn't know that word.
+
+@ b1c-10 | Tu me conseilles quoi ? | What Do You Recommend? | recommendations, culture
+— Tu as une série française à me conseiller, pour pratiquer ?
+— Do you have a French series to recommend me, to practise?
+— Tu as déjà vu « Dix pour cent » ? C'est drôle, et on apprend plein d'expressions.
+— Have you seen "Call My Agent!"? It's funny, and you learn loads of expressions.
+— Non, jamais. C'est sur quelle plateforme ?
+— No, never. Which platform is it on?
+— Sur Netflix, je crois. Mets les sous-titres en français, pas en anglais.
+— On Netflix, I think. Put the subtitles in French, not English.
+— Bonne idée, je commence ce soir.
+— Good idea, I'll start tonight.
+— Tu me diras ce que tu en penses !
+— Let me know what you think of it!
+= Tu as une série à me conseiller ? | Do you have a series to recommend?
+= On apprend plein d'expressions. | You learn loads of expressions.
+= Tu me diras ce que tu en penses. | Let me know what you think of it.
+
+@ b1c-11 | Tu ou vous ? | Tu or Vous? | culture, language
+— On peut se tutoyer, si tu veux.
+— We can use "tu", if you like.
+— Avec plaisir. Je ne savais jamais si c'était le bon moment de proposer.
+— Gladly. I never knew when it was the right moment to suggest it.
+— Entre jeunes ou entre collègues proches, on se tutoie assez vite.
+— Among young people or close colleagues, people switch to "tu" quite quickly.
+— Mais avec un client, un professeur ou une personne{personne:f} âgée, on garde le vouvoiement.
+— But with a client, a teacher or an elderly person, you stick with "vous".
+— Et si on hésite, il vaut mieux vouvoyer : personne ne sera vexé.
+— And if in doubt, it's better to use "vous": nobody will be offended.
+= On peut se tutoyer, si tu veux. | We can use "tu", if you like.
+= Il vaut mieux vouvoyer. | It's better to use "vous".
+= Personne ne sera vexé. | Nobody will be offended.
+
+@ b1c-12 | La pause café | The Coffee Break | work, small talk
+— Tu prends un café ? Je descends à la machine.
+— Do you want a coffee? I'm going down to the machine.
+— Volontiers. Tu as l'air fatigué, la réunion s'est mal passée ?
+— Yes please. You look tired, did the meeting go badly?
+— Non, mais elle a duré deux heures au lieu d'une.
+— No, but it lasted two hours instead of one.
+— Classique ! Au moins, vous avez pris une décision ?
+— Typical! At least, did you make a decision?
+— Pas vraiment, on en reparle la semaine prochaine.
+— Not really, we're discussing it again next week.
+— Bon courage pour la suite !
+— Good luck with the rest!
+= Tu as l'air fatigué. | You look tired.
+= Au lieu d'une. | Instead of one.
+= On en reparle la semaine prochaine. | We'll discuss it again next week.
+= Bon courage pour la suite ! | Good luck with the rest!
+
+@ b1c-13 | Une rencontre dans le train | Meeting Someone on the Train | travel, small talk
+— Excusez-moi, est-ce que cette place est libre ?
+— Excuse me, is this seat free?
+— Oui, allez-y. Vous allez jusqu'à Marseille ?
+— Yes, go ahead. Are you going as far as Marseille?
+— Non, je descends à Avignon. Je vais voir le festival.
+— No, I'm getting off at Avignon. I'm going to see the festival.
+— Ah, vous avez de la chance ! J'y suis allée l'année dernière, c'était génial.
+— Oh, you're lucky! I went last year, it was great.
+— Vous avez des spectacles à me recommander ?
+— Do you have any shows to recommend?
+— Allez voir les pièces du « off », elles sont souvent plus originales.
+— Go and see the fringe plays, they're often more original.
+= Est-ce que cette place est libre ? | Is this seat free?
+= Vous allez jusqu'à Marseille ? | Are you going as far as Marseille?
+= Vous avez de la chance ! | You're lucky!
+= J'y suis allée l'année dernière. | I went there last year.
+
+@ b1c-14 | Garder le contact | Keeping in Touch | goodbyes
+— C'était vraiment sympa de te rencontrer.
+— It was really nice to meet you.
+— Pareil ! Si tu repasses par Paris, fais-moi signe.
+— Same here! If you're back in Paris, give me a shout.
+— Promis. Et si un jour tu viens aux États-Unis, je te ferai visiter.
+— Promise. And if you ever come to the United States, I'll show you around.
+— Tu es sur WhatsApp ? Je te donne mon numéro.
+— Are you on WhatsApp? I'll give you my number.
+— Vas-y, je t'écris tout de suite pour que tu aies le mien.
+— Go on, I'll message you right away so you have mine.
+— Bon retour, et à bientôt j'espère !
+— Safe trip home, and see you soon, I hope!
+= C'était vraiment sympa de te rencontrer. | It was really nice to meet you.
+= Fais-moi signe. | Give me a shout.
+= Je te ferai visiter. | I'll show you around.
+= À bientôt, j'espère ! | See you soon, I hope!
+
+@ b1c-15 | Parler de sa famille | Talking About Family | family
+— Tu as des frères et sœurs ?
+— Do you have any brothers or sisters?
+— Oui, une sœur aînée. Elle est médecin et elle vit à Seattle avec son mari.
+— Yes, an older sister. She's a doctor and lives in Seattle with her husband.
+— Vous vous voyez souvent ?
+— Do you see each other often?
+— Pas assez, malheureusement. On se retrouve chez nos parents pour les fêtes.
+— Not enough, unfortunately. We meet up at our parents' for the holidays.
+— Moi, je suis fils unique, alors j'ai toujours rêvé d'avoir une grande famille.
+— I'm an only child, so I've always dreamed of having a big family.
+— C'est parfois bruyant, crois-moi !
+— It's noisy sometimes, believe me!
+= Tu as des frères et sœurs ? | Do you have any brothers or sisters?
+= Vous vous voyez souvent ? | Do you see each other often?
+= Pas assez, malheureusement. | Not enough, unfortunately.
+= Crois-moi ! | Believe me!
