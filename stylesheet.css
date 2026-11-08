@@ -962,11 +962,8 @@ hr {
   opacity: 1;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .two {
-    transition: none;
-  }
-}
+/* The dissolve is kept under prefers-reduced-motion: an opacity fade moves
+   nothing on screen, and an instant swap is more jarring than the fade. */
 
 /* ---------------------------------------------------------------- small ---- */
 
